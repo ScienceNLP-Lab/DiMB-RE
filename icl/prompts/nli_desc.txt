@@ -1,8 +1,0 @@
-I will provide a bulleted list of statements that are related to the content of this sentence. I want you to evaluate which of those statements is consistent with the original sentence. 
-Only one of the statements is consistent. If more than one statement seems consistent, choose the best one. When you answer, you should generate only one sentence follow this format: 'The most consistent statement is 1. A increases B', responding by simply replicating the statement with the assigned number.
-
-Note that roles for the relation (Subject as SUBJ, Object as OBJ) are assigned for each mention from a given pair. When you assume that there is an explicit direction for the relation, you should consider the direction from SUBJ to OBJ to make a final decision. Simply put, the relation between A (role: Subject) and B (role: Object) can exist, while the relation between B (role: Subject) and A (role: Object) can not. 
-However, there are also bidirectional relation types like Interacts with, or (Positively/Negatively) Associated with. When you think the given entity pair has a bidirectional relation, then the relation between A (role: Subject) and B (role: Object) and the relation between B (role: Subject) and A (role: Object) could be the same depending on the situation.
-Each entity mention in the given pair is surrounded by the role and type information in the form of '<[ROLE]_START=[TYPE]> MENTION <[ROLE]_END=[TYPE]>'. In [ROLE] slots, SUBJ and OBJ could be placed, whereas for [TYPE] slots, different entity types can be placed.
-
-Also, note that lots of entity pairs do not have a certain relation type, so be sure to respond as ‘There is no relation between A and B’ if you cannot find any relation for the given entity pair.
