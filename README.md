@@ -9,9 +9,9 @@ This repository contains (PyTorch) code, dataset, and fine-tuned models for DiMB
   - [Setup](#setup)
     - [Install dependencies](#install-dependencies)
   - [Reproducibility Check](#reproducibility-check)
-  - [Relation Model](#relation-model)
+  - [Training Relation Model (Under construction):](#training-relation-model-under-construction)
     - [Input data format for the relation model](#input-data-format-for-the-relation-model)
-    - [Train/evaluate the relation model:](#trainevaluate-the-relation-model)
+    - [Train/evaluate the relation model (Under construction):](#trainevaluate-the-relation-model-under-construction)
   - [Fine-tuned Models](#fine-tuned-models)
 
 ## Overview
@@ -32,7 +32,6 @@ Please install all the dependency packages using the following command:
 conda create -n DiMB-RE python=3.8
 conda activate DiMB-RE
 conda install --file requirements.txt
-<!-- pip install -r requirements.txt -->
 ```
 
 *Note*: We modified and utilized the existing codes from [PURE](https://github.com/princeton-nlp/PURE) as a baseline, while employing the preprocessing scripts from [DeepEventMine](https://github.com/aistairc/DeepEventMine/tree/master/scripts).
@@ -153,7 +152,7 @@ Arguments:
 
 The predictions of the entity model will be saved as a file (`ent_pred_dev.json`) in the `output_dir` directory. If you set `--eval_test`, the predictions (`ent_pred_test.json`) are on the test set. The prediction file of the entity model will be the input file of the relation model. -->
 
-## Relation Model
+## Training Relation Model (Under construction):
 ### Input data format for the relation model
 The input data format of the relation model is almost the same as that of the entity model, except that there is one more filed `."predicted_ner"` to store the predictions of the entity model.
 ```bash
@@ -171,7 +170,7 @@ The input data format of the relation model is almost the same as that of the en
 }
 ```
 
-### Train/evaluate the relation model:
+### Train/evaluate the relation model (Under construction):
 You can use `run_relation.py` with `--do_train` to train a relation model and with `--do_eval` to evaluate a relation model. A trianing command template is as follow:
 ```bash
 python run_relation.py \
@@ -189,7 +188,7 @@ python run_relation.py \
   --entity_output_dir {path to output files of the entity model} \
   --output_dir {directory of output files}
 ```
-Aruguments:
+Arguments:
 * `--eval_with_gold`: whether evaluate the model with the gold entities provided.
 * `--entity_output_dir`: the output directory of the entity model. The prediction files (`ent_pred_dev.json` or `ent_pred_test.json`) of the entity model should be in this directory.
 
