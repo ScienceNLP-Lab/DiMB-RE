@@ -1,6 +1,6 @@
 # DiMB-RE: Mining the Scientific Literature for Diet-Microbiome Associations
 
-This repository contains (PyTorch) code, dataset, and fine-tuned models for DiMB-RE (**Di**et-**M**icro**B**iome dataset for **R**elation **E**xtraction task).
+This repository contains (PyTorch) code, dataset, and fine-tuned models for DiMB-RE (**Di**et-**M**icro**B**iome dataset for **R**elation **E**xtraction).
 
 ## Quick links
 - [DiMB-RE: Mining the Scientific Literature for Diet-Microbiome Associations](#dimb-re-mining-the-scientific-literature-for-diet-microbiome-associations)
@@ -15,7 +15,7 @@ This repository contains (PyTorch) code, dataset, and fine-tuned models for DiMB
   - [Fine-tuned Models](#fine-tuned-models)
 
 ## Overview
-![](./figs/annotation-example-new.png)
+![](./figs/annotation-example-new-wb.png)
 In this work, we annotate new benchmark corpus for entity and relation extraction, as well as factuality detection with diet-microbiome related entities. Our contributions are as follow:
 
 1. We present the first diverse, multi-layered, publicly available corpus that focuses on diet and microbiome interactions in the scientific literature.
@@ -47,39 +47,6 @@ Our experiments are based on three datasets: ACE04, ACE05, and SciERC. Please fi
 The following commands can be used to check whether the best result from our paper is reproducible or not.
 
 ```bash
-# # Download the SciERC dataset
-# wget http://nlp.cs.washington.edu/sciIE/data/sciERC_processed.tar.gz
-# mkdir scierc_data; tar -xf sciERC_processed.tar.gz -C scierc_data; rm -f sciERC_processed.tar.gz
-# scierc_dataset=scierc_data/processed_data/json/
-
-# # Download the pre-trained models (single-sentence)
-# mkdir scierc_models; cd scierc_models
-
-# # Download the pre-trained entity model
-# wget https://nlp.cs.princeton.edu/projects/pure/scierc_models/ent-scib-ctx0.zip
-# unzip ent-scib-ctx0.zip; rm -f ent-scib-ctx0.zip
-# scierc_ent_model=scierc_models/ent-scib-ctx0/
-
-# # Download the pre-trained full relation model
-# wget https://nlp.cs.princeton.edu/projects/pure/scierc_models/rel-scib-ctx0.zip
-# unzip rel-scib-ctx0.zip; rm -f rel-scib-ctx0.zip
-# scierc_rel_model=scierc_models/rel-scib-ctx0/
-
-# # Download the pre-trained approximation relation model
-# wget https://nlp.cs.princeton.edu/projects/pure/scierc_models/rel_approx-scib-ctx0.zip
-# unzip rel_approx-scib-ctx0.zip; rm -f rel_approx-scib-ctx0.zip
-# scierc_rel_model_approx=scierc_models/rel_approx-scib-ctx0/
-
-# cd ..
-
-# # Run the pre-trained entity model, the result will be stored in ${scierc_ent_model}/ent_pred_test.json
-# python run_entity.py \
-#     --do_eval --eval_test \
-#     --context_window 0 \
-#     --task scierc \
-#     --data_dir ${scierc_dataset} \
-#     --model allenai/scibert_scivocab_uncased \
-#     --output_dir ${scierc_ent_model}
 
 # Run the fine-tuned relation model
 
