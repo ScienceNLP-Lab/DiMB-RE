@@ -1,0 +1,68 @@
+{
+    "INCREASES": {
+        "Factual": "'{}' increase(s) '{}'",
+        "Negated": "'{}' do(es) not increase '{}'",
+        "Unknown": "'{}' may increase '{}'"
+    },
+    "DECREASES": {
+        "Factual": "'{}' decrease(s) '{}'",
+        "Negated": "'{}' do(es) not decrease '{}'",
+        "Unknown": "'{}' may decrease '{}'"
+    },
+    "AFFECTS": {
+        "Factual": "'{}' affect(s) '{}'",
+        "Negated": "'{}' do(es) not affect '{}'",
+        "Unknown": "'{}' may affect '{}'"
+    },
+    "PREVENTS": {
+        "Factual": "'{}' prevent(s) '{}'",
+        "Negated": "'{}' do(es) not prevent '{}'",
+        "Unknown": "'{}' may prevent '{}'"
+    },
+    "IMPROVES": {
+        "Factual": "'{}' improve(s) '{}'",
+        "Negated": "'{}' do(es) not improve '{}'",
+        "Unknown": "'{}' may improve '{}'"
+    },
+    "CAUSES": {
+        "Factual": "'{}' cause(s) '{}'",
+        "Negated": "'{}' do(es) not cause '{}'",
+        "Unknown": "'{}' may cause '{}'"
+    },
+    "WORSENS": {
+        "Factual": "'{}' worsen(s) '{}'",
+        "Negated": "'{}' do(es) not worsen '{}'",
+        "Unknown": "'{}' may worsen '{}'"
+    },
+    "PREDISPOSES": {
+        "Factual": "'{}' predispose(s) '{}'",
+        "Negated": "'{}' do(es) not predispose '{}'",
+        "Unknown": "'{}' may predispose '{}'"
+    },
+    "INTERACTS_WITH": {
+        "Factual": "'{}' interact(s) with '{}'",
+        "Negated": "'{}' do(es) not interact with '{}'",
+        "Unknown": "'{}' may interact with '{}'"
+    },
+    "ASSOCIATED_WITH": {
+        "Factual": "'{}' is(are) associated with '{}'",
+        "Negated": "'{}' is(are) not associated with '{}'",
+        "Unknown": "'{}' may be associated with '{}'"
+    },
+    "POS_ASSOCIATED_WITH": {
+        "Factual": "'{}' is(are) positively associated with '{}'",
+        "Negated": "'{}' is(are) not positively associated with '{}'",
+        "Unknown": "'{}' may be positively associated with '{}'"
+    },
+    "NEG_ASSOCIATED_WITH": {
+        "Factual": "'{}' is(are) negatively associated with '{}'",
+        "Negated": "'{}' is(are) not negatively associated with '{}'",
+        "Unknown": "'{}' may be negatively associated with '{}'"
+    },
+    "HAS_COMPONENT": {
+        "Factual": "'{}' has(have) '{}' as a component",
+        "Negated": "'{}' do(es) not have '{}' as a component",
+        "Unknown": "'{}' may have '{}' as a component"
+    },
+    "no_relation": "There is no relation between '{}' and '{}'"
+}

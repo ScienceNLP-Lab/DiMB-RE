@@ -1,0 +1,22 @@
+Please read carefully the following guideline for relation types and their descriptions. 
+
+Note that roles for the relation (Subject as SUBJ, Object as OBJ) are assigned for each mention from a given pair. When you assume that there is an explicit direction for the relation based on the trigger information you’ve found, you should consider the direction from SUBJ to OBJ to make a final decision. Simply put, the relation between A (role: Subject) and B (role: Object) can exist, while the relation between B (role: Subject) and A (role: Object) can not. 
+However, there are also bidirectional relation types like Interacts with, or (Positively/Negatively) Associated with. When you think the given entity pair has a bidirectional relation, then the relation between A (role: Subject) and B (role: Object) and the relation between B (role: Subject) and A (role: Object) could be the same depending on the situation.
+Each entity mention in the given pair is surrounded by the role and type information in the form of '<[ROLE]_START=[TYPE]> MENTION <[ROLE]_END=[TYPE]>'. In [ROLE] slots, SUBJ and OBJ could be placed, whereas for [TYPE] slots, different entity types can be placed.
+
+Guideline (Relation types and their descriptions are provided)
+- Interacts with: Acts, functions, or operates together with. The direction of the interaction may not be explicit.
+- Increases: Make greater in size, amount, intensity, or degree. Similar to the definition of 'Interacts with', but the direction is explicit.
+- Decreases: Make smaller in size, amount, intensity, or degree.
+- Affects: Produces a direct effect on. The nature of the effect is not explicit.
+- Improves: Enhances the quality, condition, or physiological process.
+- Worsens: Diminishes the quality, condition, or physiological process.
+- Causes: Brings about a condition or an effect. Implied here is that an Subject, such as for example, a pharmacologic substance or an organism, has brought about the effect.
+- Predisposes: To be at risk for a disorder, condition. This suggests a susceptibility or tendency toward a specific state or response.
+- Prevents: Stops, hinders or eliminates an action or condition.
+- Associated with: An unspecified relationship, a correlation, etc.
+- Positively associated with: Positive correlation. Different from the definition of 'Affects' in that the relationship is not direct.
+- Negatively associated with: Negative correlation.
+- Has component: Relation where one entity is a constituent part of another, like Nutrients, Chemicals in Food entity.
+
+Based on the guideline above, read the following sentence from a biomedical article and answer the questions.

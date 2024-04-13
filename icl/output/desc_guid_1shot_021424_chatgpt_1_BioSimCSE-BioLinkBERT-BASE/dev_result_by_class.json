@@ -1,0 +1,106 @@
+{
+    "INCREASES": {
+        "precision": 0.26666666666666666,
+        "recall": 0.5714285714285714,
+        "f1": 0.36363636363636365,
+        "gold": 7.0,
+        "pred": 15.0,
+        "correct": 4.0
+    },
+    "DECREASES": {
+        "precision": 0.2,
+        "recall": 0.5714285714285714,
+        "f1": 0.29629629629629634,
+        "gold": 7.0,
+        "pred": 20.0,
+        "correct": 4.0
+    },
+    "AFFECTS": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "gold": 6.0,
+        "pred": 13.0,
+        "correct": 0.0
+    },
+    "PREVENTS": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "gold": 0.0,
+        "pred": 1.0,
+        "correct": 0.0
+    },
+    "IMPROVES": {
+        "precision": 0.1,
+        "recall": 0.5,
+        "f1": 0.16666666666666669,
+        "gold": 2.0,
+        "pred": 10.0,
+        "correct": 1.0
+    },
+    "CAUSES": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "gold": 2.0,
+        "pred": 1.0,
+        "correct": 0.0
+    },
+    "WORSENS": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "gold": 0.0,
+        "pred": 0.0,
+        "correct": 0.0
+    },
+    "PREDISPOSES": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "gold": 0.0,
+        "pred": 1.0,
+        "correct": 0.0
+    },
+    "INTERACTS_WITH": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "gold": 0.0,
+        "pred": 0.0,
+        "correct": 0.0
+    },
+    "ASSOCIATED_WITH": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "gold": 0.0,
+        "pred": 28.0,
+        "correct": 0.0
+    },
+    "POS_ASSOCIATED_WITH": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "gold": 0.0,
+        "pred": 4.0,
+        "correct": 0.0
+    },
+    "NEG_ASSOCIATED_WITH": {
+        "precision": 0.14285714285714285,
+        "recall": 0.3333333333333333,
+        "f1": 0.2,
+        "gold": 3.0,
+        "pred": 7.0,
+        "correct": 1.0
+    },
+    "HAS_COMPONENT": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "gold": 0.0,
+        "pred": 12.0,
+        "correct": 0.0
+    }
+}
