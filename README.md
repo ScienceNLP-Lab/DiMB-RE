@@ -1,118 +1,132 @@
-# PURE: Entity and Relation Extraction from Text
+# DiMB-RE: Mining the Scientific Literature for Diet-Microbiome Associations
 
-This repository contains  (PyTorch) code and pre-trained models for PURE (the **P**rinceton **U**niversity **R**elation **E**xtraction system), described by the paper: [A Frustratingly Easy Approach for Entity and Relation Extraction](https://arxiv.org/pdf/2010.12812.pdf).
+This repository contains (PyTorch) code, dataset, and fine-tuned models for DiMB-RE (**Di**et-**M**icro**B**iome dataset for **R**elation **E**xtraction task).
 
 ## Quick links
-* [Overview](#Overview)
-* [Setup](#Setup)
-  * [Install dependencies](#Install-dependencies)
-  * [Data preprocessing](#Download-and-preprocess-the-datasets)
-* [Quick Start](#Quick-start)
-* [Entity Model](#Entity-Model)
-  * [Input data format](#Input-data-format-for-the-entity-model)
-  * [Train/evaluate the entity model](#Train/evaluate-the-entity-model)
-* [Relation Model](#Relation-Model)
-  * [Input data format](#Input-data-format-for-the-relation-model)
-  * [Train/evaluate the relation model](#Train/evaluate-the-relation-model)
-  * [Approximation relation model](#Approximation-relation-model)
-* [Pre-trained Models](#Pre-trained-Models)
-  * [Pre-trained models for ACE05](#Pre-trained-models-for-ACE05)
-  * [Pre-trained models for SciERC](#Pre-trained-models-for-SciERC)
-* [Bugs or Questions?](#Bugs-or-questions)
-* [Citation](#Citation)
+- [DiMB-RE: Mining the Scientific Literature for Diet-Microbiome Associations](#dimb-re-mining-the-scientific-literature-for-diet-microbiome-associations)
+  - [Quick links](#quick-links)
+  - [Overview](#overview)
+  - [Setup](#setup)
+    - [Install dependencies](#install-dependencies)
+  - [Reproducibility Check](#reproducibility-check)
+  - [Relation Model](#relation-model)
+    - [Input data format for the relation model](#input-data-format-for-the-relation-model)
+    - [Train/evaluate the relation model:](#trainevaluate-the-relation-model)
+  - [Fine-tuned Models](#fine-tuned-models)
 
 ## Overview
-![](./figs/overview.png)
-In this work, we present a simple approach for entity and relation extraction. Our approach contains three conponents:
+![](./figs/annotation-example-new.png)
+In this work, we annotate new benchmark corpus for entity and relation extraction, as well as factuality detection with diet-microbiome related entities. Our contributions are as follow:
 
-1. The **entity model** takes a piece of text as input and predicts all the entities at once.
-2. The **relation model** considers every pair of entities independently by inserting typed entity markers, and predicts the relation type for each pair.
-3. The **approximation relation model** supports batch computations, which enables efficient inference for the relation model.
+1. We present the first diverse, multi-layered, publicly available corpus that focuses on diet and microbiome interactions in the scientific literature.
+2. We present comprehensive NLP experiments based on state-of-the-art pretrained language models to establish baselines on this corpus.
+3. We present a detailed error analysis of NLP results to identify challenges and improvement areas.
 
-Please find more details of this work in our [paper](https://arxiv.org/pdf/2010.12812.pdf).
+<!-- Please find more details of this work in our [paper](https://arxiv.org/pdf/2010.12812.pdf). -->
 
 ## Setup
 
 ### Install dependencies
 Please install all the dependency packages using the following command:
 ```
-pip install -r requirements.txt
+conda create -n DiMB-RE python=3.8
+conda activate DiMB-RE
+conda install --file requirements.txt
+<!-- pip install -r requirements.txt -->
 ```
 
-### Download and preprocess the datasets
+*Note*: We modified and utilized the existing codes from [PURE](https://github.com/princeton-nlp/PURE) as a baseline, while employing the preprocessing scripts from [DeepEventMine](https://github.com/aistairc/DeepEventMine/tree/master/scripts).
+
+<!-- ### Download and preprocess the datasets
 Our experiments are based on three datasets: ACE04, ACE05, and SciERC. Please find the links and pre-processing below:
 * ACE04/ACE05: We use the preprocessing code from [DyGIE repo](https://github.com/luanyi/DyGIE/tree/master/preprocessing). Please follow the instructions to preprocess the ACE05 and ACE04 datasets.
-* SciERC: The preprocessed SciERC dataset can be downloaded in their project [website](http://nlp.cs.washington.edu/sciIE/).
+* SciERC: The preprocessed SciERC dataset can be downloaded in their project [website](http://nlp.cs.washington.edu/sciIE/). -->
 
-## Quick Start
-The following commands can be used to download the preprocessed SciERC dataset and run our pre-trained models on SciERC.
+## Reproducibility Check
+<!-- ## Quick Start -->
+The following commands can be used to check whether the best result from our paper is reproducible or not.
 
 ```bash
-# Download the SciERC dataset
-wget http://nlp.cs.washington.edu/sciIE/data/sciERC_processed.tar.gz
-mkdir scierc_data; tar -xf sciERC_processed.tar.gz -C scierc_data; rm -f sciERC_processed.tar.gz
-scierc_dataset=scierc_data/processed_data/json/
+# # Download the SciERC dataset
+# wget http://nlp.cs.washington.edu/sciIE/data/sciERC_processed.tar.gz
+# mkdir scierc_data; tar -xf sciERC_processed.tar.gz -C scierc_data; rm -f sciERC_processed.tar.gz
+# scierc_dataset=scierc_data/processed_data/json/
 
-# Download the pre-trained models (single-sentence)
-mkdir scierc_models; cd scierc_models
+# # Download the pre-trained models (single-sentence)
+# mkdir scierc_models; cd scierc_models
 
-# Download the pre-trained entity model
-wget https://nlp.cs.princeton.edu/projects/pure/scierc_models/ent-scib-ctx0.zip
-unzip ent-scib-ctx0.zip; rm -f ent-scib-ctx0.zip
-scierc_ent_model=scierc_models/ent-scib-ctx0/
+# # Download the pre-trained entity model
+# wget https://nlp.cs.princeton.edu/projects/pure/scierc_models/ent-scib-ctx0.zip
+# unzip ent-scib-ctx0.zip; rm -f ent-scib-ctx0.zip
+# scierc_ent_model=scierc_models/ent-scib-ctx0/
 
-# Download the pre-trained full relation model
-wget https://nlp.cs.princeton.edu/projects/pure/scierc_models/rel-scib-ctx0.zip
-unzip rel-scib-ctx0.zip; rm -f rel-scib-ctx0.zip
-scierc_rel_model=scierc_models/rel-scib-ctx0/
+# # Download the pre-trained full relation model
+# wget https://nlp.cs.princeton.edu/projects/pure/scierc_models/rel-scib-ctx0.zip
+# unzip rel-scib-ctx0.zip; rm -f rel-scib-ctx0.zip
+# scierc_rel_model=scierc_models/rel-scib-ctx0/
 
-# Download the pre-trained approximation relation model
-wget https://nlp.cs.princeton.edu/projects/pure/scierc_models/rel_approx-scib-ctx0.zip
-unzip rel_approx-scib-ctx0.zip; rm -f rel_approx-scib-ctx0.zip
-scierc_rel_model_approx=scierc_models/rel_approx-scib-ctx0/
+# # Download the pre-trained approximation relation model
+# wget https://nlp.cs.princeton.edu/projects/pure/scierc_models/rel_approx-scib-ctx0.zip
+# unzip rel_approx-scib-ctx0.zip; rm -f rel_approx-scib-ctx0.zip
+# scierc_rel_model_approx=scierc_models/rel_approx-scib-ctx0/
 
-cd ..
+# cd ..
 
-# Run the pre-trained entity model, the result will be stored in ${scierc_ent_model}/ent_pred_test.json
-python run_entity.py \
-    --do_eval --eval_test \
-    --context_window 0 \
-    --task scierc \
-    --data_dir ${scierc_dataset} \
-    --model allenai/scibert_scivocab_uncased \
-    --output_dir ${scierc_ent_model}
+# # Run the pre-trained entity model, the result will be stored in ${scierc_ent_model}/ent_pred_test.json
+# python run_entity.py \
+#     --do_eval --eval_test \
+#     --context_window 0 \
+#     --task scierc \
+#     --data_dir ${scierc_dataset} \
+#     --model allenai/scibert_scivocab_uncased \
+#     --output_dir ${scierc_ent_model}
 
-# Run the pre-trained full relation model
-python run_relation.py \
-  --task scierc \
-  --do_eval --eval_test \
-  --model allenai/scibert_scivocab_uncased \
-  --do_lower_case \
-  --context_window 0\
-  --max_seq_length 128 \
-  --entity_output_dir ${scierc_ent_model} \
-  --output_dir ${scierc_rel_model}
+# Run the fine-tuned relation model
+
+task=pn_reduced_trg
+data_dir=./data/pernut/
+dataset=ner_reduced_v6.1_trg_abs
+pipeline_task=triplet
+MODEL=microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+
+output_dir=./output
+entity_output_test_dir="${output_dir}/pred_ent_trg_result"
+
+re_lr=2e-5
+re_cw=0
+re_max_len=200
+sampling_p=0.0
+# n_epochs=12
+batch_size=32
+python run_triplet_classification.py \
+  --task $task --pipeline_task $pipeline_task \
+  --do_predict_test \
+  --output_dir $output_dir --entity_output_dir $entity_output_dir \
+  --entity_output_test_dir $entity_output_test_dir \
+  --train_file "${data_dir}${dataset}"/train.json \
+  --dev_file "${data_dir}${dataset}"/dev.json \
+  --test_file "${data_dir}${dataset}"/test.json \
+  --context_window $re_cw --max_seq_length $re_max_len \
+  --train_batch_size 32 --eval_batch_size 32 --learning_rate $re_lr \
+  --num_epoch $n_epochs  --max_patience $re_patience --sampling_proportion $sampling_p \
+  --model $MODEL \
+  --finetuned_model gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE \
+  --binary_classification
   
-# Output end-to-end evaluation results
-python run_eval.py --prediction_file ${scierc_rel_model}/predictions.json
+# Output end-to-end evaluation results for RE
+dataset_name=pn_reduced_trg
+task=test
+pred_file=triplet/trg_pred_$task.json
 
-# Run the pre-trained approximation relation model (with batch computation)
-python run_relation_approx.py \
-  --task scierc \
-  --do_eval --eval_test \
-  --model allenai/scibert_scivocab_uncased \
-  --do_lower_case \
-  --context_window 0\
-  --max_seq_length 250 \
-  --entity_output_dir ${scierc_ent_model} \
-  --output_dir ${scierc_rel_model_approx} \
-  --batch_computation
+python run_eval.py \
+  --prediction_file "${output_dir}/${pred_file}" \
+  --output_dir ${output_dir} \
+  --task $task \
+  --dataset_name $dataset_name
 
-# Output end-to-end evaluation results
-python run_eval.py --prediction_file ${scierc_rel_model_approx}/predictions.json
 ```
 
-## Entity Model
+<!-- ## Entity Model
 
 ### Input data format for the entity model
 
@@ -170,7 +184,7 @@ Arguments:
 * `--model`: the base transformer model. We use `bert-base-uncased` and `albert-xxlarge-v1` for ACE04/ACE05 and use `allenai/scibert_scivocab_uncased` for SciERC.
 * `--eval_test`: whether evaluate on the test set or not.
 
-The predictions of the entity model will be saved as a file (`ent_pred_dev.json`) in the `output_dir` directory. If you set `--eval_test`, the predictions (`ent_pred_test.json`) are on the test set. The prediction file of the entity model will be the input file of the relation model.
+The predictions of the entity model will be saved as a file (`ent_pred_dev.json`) in the `output_dir` directory. If you set `--eval_test`, the predictions (`ent_pred_test.json`) are on the test set. The prediction file of the entity model will be the input file of the relation model. -->
 
 ## Relation Model
 ### Input data format for the relation model
@@ -219,7 +233,9 @@ You can run the evaluation script to output the end-to-end performance  (`Ent`, 
 python run_eval.py --prediction_file {path to output_dir}/predictions.json
 ```
 
-### Approximation relation model
+*Note*: Training/evaluation performance might be slightly different from the reported numbers in the paper, depending on the number of GPUs, batch size, and so on.
+
+<!-- ### Approximation relation model
 You can use the following command to train an approximation model.
 ```bash
 python run_relation_approx.py \
@@ -252,15 +268,13 @@ python run_relation_approx.py \
  --output_dir {directory of output files} \
  --batch_computation
 ```
-*Note*: the current code does not support approximation models based on ALBERT.
+*Note*: the current code does not support approximation models based on ALBERT. -->
 
-## Pre-trained Models
-We release our pre-trained entity models and relation models for ACE05 and SciERC datasets.
-
-*Note*: the performance of the pre-trained models might be slightly different from the reported numbers in the paper, since we reported the average numbers based on multiple runs.
+## Fine-tuned Models
+We release our fine-tuned entity/trigger models, relation models, and factuality detection models for our dataset.
 
 
-### Pre-trained models for ACE05
+<!-- ### Pre-trained models for ACE05
 **Entity models**:
 * [BERT (single, W=0)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/ent-bert-ctx0.zip) (388M): Single-sentence entity model based on `bert-base-uncased`
 * [ALBERT (single, W=0)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/ent-alb-ctx0.zip) (793M): Single-sentence entity model based on `albert-xxlarge-v1`
@@ -273,16 +287,16 @@ We release our pre-trained entity models and relation models for ACE05 and SciER
 * [ALBERT (single, W=0)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/rel-alb-ctx0.zip) (789M): Single-sentence relation model based on `albert-xxlarge-v1`
 * [BERT (cross, W=100)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/rel-bert-ctx100.zip) (387M): Cross-sentence relation model based on `bert-base-uncased`
 * [BERT-approx (cross, W=100)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/rel_approx-bert-ctx100.zip) (387M): Crosss-sentence approximation relation model based on `bert-base-uncased`
-* [ALBERT (cross, W=100)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/rel-alb-ctx100.zip) (789M): Cross-sentence relation model based on `albert-xxlarge-v1`
+* [ALBERT (cross, W=100)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/rel-alb-ctx100.zip) (789M): Cross-sentence relation model based on `albert-xxlarge-v1` -->
 
-**Performance of pretrained models on ACE05 test set**:
-* BERT (single)
+**Performance of pretrained models on DiMB-RE test set**:
+* BiomedBERT-abstract-fulltext
 ```
 NER - P: 0.890260, R: 0.882944, F1: 0.886587
 REL - P: 0.689624, R: 0.652476, F1: 0.670536
 REL (strict) - P: 0.664830, R: 0.629018, F1: 0.646429
 ```
-* BERT-approx (single)
+<!-- * BERT-approx (single)
 ```
 NER - P: 0.890260, R: 0.882944, F1: 0.886587
 REL - P: 0.678899, R: 0.642919, F1: 0.660419
@@ -311,46 +325,9 @@ REL (strict) - P: 0.659132, R: 0.633362, F1: 0.645990
 NER - P: 0.911111, R: 0.905953, F1: 0.908525
 REL - P: 0.748521, R: 0.659427, F1: 0.701155
 REL (strict) - P: 0.723866, R: 0.637706, F1: 0.678060
-```
+``` -->
 
-### Pre-trained models for SciERC
-**Entity models**:
-* [SciBERT (single, W=0)](https://nlp.cs.princeton.edu/projects/pure/scierc_models/ent-scib-ctx0.zip) (391M): Single-sentence entity model based on `allenai/scibert_scivocab_uncased`
-* [SciBERT (cross, W=300)](https://nlp.cs.princeton.edu/projects/pure/scierc_models/ent-scib-ctx300.zip) (391M): Cross-sentence entity model based on `allenai/scibert_scivocab_uncased`
-
-**Relation models**:
-* [SciBERT (single, W=0)](https://nlp.cs.princeton.edu/projects/pure/scierc_models/rel-scib-ctx0.zip) (390M): Single-sentence relation model based on `allenai/scibert_scivocab_uncased`
-* [SciBERT-approx (single, W=0)](https://nlp.cs.princeton.edu/projects/pure/scierc_models/rel_approx-scib-ctx0.zip) (390M): Single-sentence approximation relation model based on `allenai/scibert_scivocab_uncased`
-* [SciBERT (cross, W=100)](https://nlp.cs.princeton.edu/projects/pure/scierc_models/rel-scib-ctx100.zip) (390M): Cross-sentence relation model based on `allenai/scibert_scivocab_uncased`
-* [SciBERT-approx (cross, W=100)](https://nlp.cs.princeton.edu/projects/pure/scierc_models/rel_approx-scib-ctx100.zip) (390M): Cross-sentence approximation relation model based on `allenai/scibert_scivocab_uncased`
-
-**Performance of pretrained models on SciERC test set**:
-* SciBERT (single)
-```
-NER - P: 0.667857, R: 0.665875, F1: 0.666865
-REL - P: 0.491614, R: 0.481520, F1: 0.486515
-REL (strict) - P: 0.360587, R: 0.353183, F1: 0.356846
-```
-* SciBERT-approx (single)
-```
-NER - P: 0.667857, R: 0.665875, F1: 0.666865
-REL - P: 0.500000, R: 0.453799, F1: 0.475780
-REL (strict) - P: 0.376697, R: 0.341889, F1: 0.358450
-```
-* SciBERT (cross)
-```
-NER - P: 0.676223, R: 0.713947, F1: 0.694573
-REL - P: 0.494797, R: 0.536961, F1: 0.515017
-REL (strict) - P: 0.362346, R: 0.393224, F1: 0.377154
-```
-* SciBERT-approx (cross)
-```
-NER - P: 0.676223, R: 0.713947, F1: 0.694573
-REL - P: 0.483366, R: 0.507187, F1: 0.494990
-REL (strict) - P: 0.356164, R: 0.373717, F1: 0.364729
-```
-
-## Bugs or Questions?
+<!-- ## Bugs or Questions?
 If you have any questions related to the code or the paper, feel free to email Zexuan Zhong `(zzhong@cs.princeton.edu)`. If you encounter any problems when using the code, or want to report a bug, you can open an issue. Please try to specify the problem with details so we can help you better and quicker!
 
 ## Citation
@@ -361,5 +338,5 @@ If you use our code in your research, please cite our work:
    author={Zhong, Zexuan and Chen, Danqi},
    booktitle={North American Association for Computational Linguistics (NAACL)},
    year={2021}
-}
+} -->
 ```

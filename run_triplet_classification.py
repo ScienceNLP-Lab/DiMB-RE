@@ -127,6 +127,9 @@ def get_args():
     
     # model arguments:
     parser.add_argument("--model", default=None, type=str, required=True)
+    parser.add_argument("--finetuned_model", 
+                        default="gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE",
+                        type=str, required=True)
     parser.add_argument("--negative_label", default="no_relation", type=str)
     parser.add_argument("--do_lower_case", default=True, 
                         help="Set this flag if you are using an uncased model.")
@@ -507,7 +510,7 @@ def main() -> None:
         os.makedirs(args.triplet_output_dir, exist_ok=True)
 
     # Specify the entity output folder
-    if args.entity_output_dir is None:
+    if args.entity_output_dir is None and (args.do_train or args.do_eval or args.do_predict_dev):
         path_components = args.triplet_output_dir.split(os.path.sep)
         path_components[-1] = "entity"
         args.entity_output_dir = os.path.sep.join(path_components)
@@ -761,7 +764,7 @@ def main() -> None:
 
         # Load the fine-tuned model (TRAIN + DEV)
         model = RelationModel.from_pretrained(
-            "gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE", num_rel_labels=num_labels, use_trigger=True
+            args.finetuned_model, num_rel_labels=num_labels, use_trigger=True
         )
         model.to(device)
 
