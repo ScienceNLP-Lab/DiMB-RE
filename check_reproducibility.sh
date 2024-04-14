@@ -18,7 +18,7 @@ batch_size=32
 python run_triplet_classification.py \
   --task $task --pipeline_task $pipeline_task \
   --do_predict_test \
-  --output_dir $output_dir --entity_output_dir $entity_output_dir \
+  --output_dir $output_dir \
   --entity_output_test_dir $entity_output_test_dir \
   --train_file "${data_dir}${dataset}"/train.json \
   --dev_file "${data_dir}${dataset}"/dev.json \
