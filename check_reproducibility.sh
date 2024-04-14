@@ -12,6 +12,7 @@ entity_output_test_dir="${output_dir}/pred_ent_trg_result"
 re_lr=2e-5
 re_cw=0
 re_max_len=200
+re_patience=4
 sampling_p=0.0
 n_epochs=12
 batch_size=32
