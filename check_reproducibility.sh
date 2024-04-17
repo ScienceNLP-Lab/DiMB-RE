@@ -36,7 +36,7 @@ python run_triplet_classification.py \
   --finetuned_model gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE \
   --binary_classification
   
-# Output end-to-end evaluation results for RE
+# RE evaluation
 dataset_name=pn_reduced_trg
 task=test
 pred_file=trg_pred_${task}.json
@@ -63,7 +63,7 @@ sampling_p=0.0
 n_epochs=7
 batch_size=32
 
-python run_triplet_classification.py \
+python run_certainty_detection.py \
   --task $task --pipeline_task $pipeline_task \
   --do_predict_test \
   --output_dir $output_dir \
@@ -78,7 +78,7 @@ python run_triplet_classification.py \
   --model $MODEL \
   --finetuned_model gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_FD \
   
-# Output end-to-end evaluation results for FD
+# End-to-end evaluation
 dataset_name=pn_reduced_trg
 task=test
 pred_file=certainty_pred_${task}.json
