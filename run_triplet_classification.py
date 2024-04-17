@@ -748,6 +748,7 @@ def main() -> None:
         test_features = convert_examples_to_features(
             test_examples, label2id, tokenizer, special_tokens, args, unused_tokens=not(args.add_new_tokens)
         )
+
         logger.info("***** Test *****")
         logger.info("  Num examples = %d", len(test_examples))
         logger.info("  Batch size = %d", args.eval_batch_size)
@@ -762,7 +763,7 @@ def main() -> None:
         test_dataloader = DataLoader(test_data, batch_size=args.eval_batch_size)
         test_label_ids = all_label_ids
 
-        # Load the fine-tuned model (TRAIN + DEV)
+        # Load the fine-tuned model (TRAIN+DEV)
         model = RelationModel.from_pretrained(
             args.finetuned_model, num_rel_labels=num_labels, use_trigger=True
         )
