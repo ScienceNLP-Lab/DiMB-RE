@@ -7,7 +7,7 @@ This repository contains (PyTorch) code, dataset, and fine-tuned models for DiMB
   - [Quick links](#quick-links)
   - [Overview](#overview)
   - [1. Reproducibility Check](#1-reproducibility-check)
-  - [2. Setup for Training](#2-setup-for-training)
+  - [2. Setup](#2-setup)
     - [Install dependencies](#install-dependencies)
   - [3. Training Relation Model (Under construction):](#3-training-relation-model-under-construction)
     - [Input data format for the relation model](#input-data-format-for-the-relation-model)
@@ -27,12 +27,7 @@ In this work, we annotate new benchmark corpus for entity and relation extractio
 ## 1. Reproducibility Check
 <!-- ## Quick Start -->
 
-For simple reproducibility check, you can run this Colab Notebook which is to generate predictions and evaluate them for RE and Factuality Detection task.
-
-```bash
-https://colab.research.google.com/drive/1abCEYlFOCmu7yO7TQQeHOwVPCDX8H4Rs?usp=sharing
-
-```
+For simple reproducibility check, you can run this [Colab Notebook](https://colab.research.google.com/drive/1abCEYlFOCmu7yO7TQQeHOwVPCDX8H4Rs?usp=sharing) which is to generate predictions and evaluate them for RE and Factuality Detection task.
 
 The final end-to-end result should match with the following scores, which are the best performance of PURE-based RE models from our paper.
 
@@ -48,8 +43,7 @@ REL Strict+Factuality - P: 0.401900, R: 0.329400, F1: 0.362100
 
 ```
 
-
-If you want to run check reproducibility in your own environment, the following commands can be used to check whether the best result from our paper is reproducible or not.
+If you want to run check reproducibility in your own environment, first you need to follow the instructions in [2. Setup](#2-setup). And then, all you need to do is to run the bash command below.
 
 ```bash
 
@@ -58,7 +52,7 @@ bash check_reproducibility.sh
 
 ```
 
-## 2. Setup for Training
+## 2. Setup
 
 ### Install dependencies
 Please install all the dependency packages using the following command:
