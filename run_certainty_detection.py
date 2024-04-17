@@ -445,7 +445,7 @@ def main() -> None:
         args.certainty_output_dir = make_output_dir(
             args.output_dir, task='certainty', pipeline_task=args.pipeline_task
         )
-        os.makedirs(args.certainty_output_dir, exist_ok=True)
+    os.makedirs(args.certainty_output_dir, exist_ok=True)
 
     # Needed when performing end-to-end method
     if args.relation_output_dir is None:
