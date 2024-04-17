@@ -8,14 +8,17 @@ MODEL=microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
 
 output_dir=./output
 entity_output_test_dir="${output_dir}/pred_ent_trg_result"
+triplet_output_dir="${entity_output_test_dir}/triplet"
 
+# Optimal hyperparams for RE w/ Typed Trigger
 re_lr=2e-5
-re_cw=0
-re_max_len=200
+re_cw=100
+re_max_len=300
 re_patience=4
 sampling_p=0.0
 n_epochs=12
 batch_size=32
+
 python run_triplet_classification.py \
   --task $task --pipeline_task $pipeline_task \
   --do_predict_test \
@@ -34,10 +37,10 @@ python run_triplet_classification.py \
 # Output end-to-end evaluation results for RE
 dataset_name=pn_reduced_trg
 task=test
-pred_file=triplet/trg_pred_${task}.json
+pred_file=trg_pred_${task}.json
 
 python run_eval.py \
-  --prediction_file "${output_dir}/${pred_file}" \
-  --output_dir ${output_dir} \
+  --prediction_file "${triplet_output_dir}/${pred_file}" \
+  --output_dir ${triplet_output_dir} \
   --task $task \
   --dataset_name $dataset_name

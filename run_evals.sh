@@ -5,15 +5,12 @@ echo "Activated pure"
 
 dataset="ner_reduced_v6.1_trg_abs"
 # dataset="ner_reduced_v6.1_trg_abs_result"
-# dataset="biocreative"
 
 # If TypedTrigger or Gold set Eval
 dataset_name="pn_reduced_trg"
 
 # # If Untyped Trigger
 # dataset_name="pn_reduced_trg_dummy" 
-
-# dataset_name="biocreative" 
 
 # indices=(16 1 23)
 for i in {183..183}; do

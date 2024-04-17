@@ -6,10 +6,10 @@ This repository contains (PyTorch) code, dataset, and fine-tuned models for DiMB
 - [DiMB-RE: Mining the Scientific Literature for Diet-Microbiome Associations](#dimb-re-mining-the-scientific-literature-for-diet-microbiome-associations)
   - [Quick links](#quick-links)
   - [Overview](#overview)
-  - [Setup](#setup)
+  - [1. Setup](#1-setup)
     - [Install dependencies](#install-dependencies)
-  - [Reproducibility Check](#reproducibility-check)
-  - [Training Relation Model (Under construction):](#training-relation-model-under-construction)
+  - [2. Reproducibility Check](#2-reproducibility-check)
+  - [3. Training Relation Model (Under construction):](#3-training-relation-model-under-construction)
     - [Input data format for the relation model](#input-data-format-for-the-relation-model)
     - [Train/evaluate the relation model (Under construction):](#trainevaluate-the-relation-model-under-construction)
   - [Fine-tuned Models](#fine-tuned-models)
@@ -24,7 +24,7 @@ In this work, we annotate new benchmark corpus for entity and relation extractio
 
 <!-- Please find more details of this work in our [paper](https://arxiv.org/pdf/2010.12812.pdf). -->
 
-## Setup
+## 1. Setup
 
 ### Install dependencies
 Please install all the dependency packages using the following command:
@@ -41,7 +41,7 @@ Our experiments are based on three datasets: ACE04, ACE05, and SciERC. Please fi
 * ACE04/ACE05: We use the preprocessing code from [DyGIE repo](https://github.com/luanyi/DyGIE/tree/master/preprocessing). Please follow the instructions to preprocess the ACE05 and ACE04 datasets.
 * SciERC: The preprocessed SciERC dataset can be downloaded in their project [website](http://nlp.cs.washington.edu/sciIE/). -->
 
-## Reproducibility Check
+## 2. Reproducibility Check
 <!-- ## Quick Start -->
 The following commands can be used to check whether the best result from our paper is reproducible or not.
 
@@ -112,7 +112,7 @@ Arguments:
 
 The predictions of the entity model will be saved as a file (`ent_pred_dev.json`) in the `output_dir` directory. If you set `--eval_test`, the predictions (`ent_pred_test.json`) are on the test set. The prediction file of the entity model will be the input file of the relation model. -->
 
-## Training Relation Model (Under construction):
+## 3. Training Relation Model (Under construction):
 ### Input data format for the relation model
 The input data format of the relation model is almost the same as that of the entity model, except that there is one more filed `."predicted_ner"` to store the predictions of the entity model.
 ```bash
