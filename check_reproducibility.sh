@@ -78,6 +78,7 @@ python run_certainty_detection.py \
   --num_epoch $n_epochs  --max_patience $fd_patience --sampling_proportion $sampling_p \
   --model $MODEL \
   --finetuned_model gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_FD \
+  --use_trigger
   
 # End-to-end evaluation
 dataset_name=pn_reduced_trg
