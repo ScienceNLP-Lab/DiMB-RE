@@ -27,14 +27,27 @@ In this work, we annotate new benchmark corpus for entity and relation extractio
 ## 1. Reproducibility Check
 <!-- ## Quick Start -->
 
-The following commands can be used to check whether the best result from our paper is reproducible or not.
+For simple reproducibility check, you can run this Colab Notebook which is to generate predictions and evaluate them for RE and Factuality Detection task.
 
 ```bash
-
-# Run the fine-tuned relation model
-bash check_reproducibility.sh
+https://colab.research.google.com/drive/1abCEYlFOCmu7yO7TQQeHOwVPCDX8H4Rs?usp=sharing
 
 ```
+
+The final end-to-end result should match with the following scores, which are the best performance of PURE-based RE models from our paper.
+
+```plaintext
+NER - P: 0.772500, R: 0.747900, F1: 0.760000
+NER Relaxed - P: 0.847500, R: 0.794900, F1: 0.820400
+TRG - P: 0.708300, R: 0.627700, F1: 0.665600
+TRG Relaxed - P: 0.756900, R: 0.670800, F1: 0.711300
+REL Relaxed - P: 0.460000, R: 0.377000, F1: 0.414400
+REL Strict - P: 0.416500, R: 0.341300, F1: 0.375200
+REL Relaxed+Factuality - P: 0.445500, R: 0.365100, F1: 0.401300
+REL Strict+Factuality - P: 0.401900, R: 0.329400, F1: 0.362100
+
+```
+
 
 If you want to run check reproducibility in your own environment, the following commands can be used to check whether the best result from our paper is reproducible or not.
 

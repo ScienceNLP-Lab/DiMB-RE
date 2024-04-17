@@ -126,7 +126,7 @@ def get_args():
     parser.add_argument("--negative_label", default="no_certainty", type=str)
     parser.add_argument("--do_lower_case", action='store_true', 
                         help="Set this flag if you are using an uncased model.")
-    parser.add_argument('--add_new_tokens', action='store_true', 
+    parser.add_argument('--add_new_tokens', default=True, action='store_true', 
                         help="Whether to add new tokens as marker tokens instead of using [unusedX] tokens.")
 
     args = parser.parse_args()
@@ -738,7 +738,7 @@ def main() -> None:
         test_label_ids = all_label_ids
 
         # model_dir = args.certainty_output_dir if not args.load_saved_model else args.d
-        
+
         # Load the fine-tuned model (TRAIN+DEV)
         model = RelationModel.from_pretrained(
             args.finetuned_model, num_certainty_labels=num_labels, use_trigger=args.use_trigger
