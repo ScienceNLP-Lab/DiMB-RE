@@ -6,9 +6,9 @@ This repository contains (PyTorch) code, dataset, and fine-tuned models for DiMB
 - [DiMB-RE: Mining the Scientific Literature for Diet-Microbiome Associations](#dimb-re-mining-the-scientific-literature-for-diet-microbiome-associations)
   - [Quick links](#quick-links)
   - [Overview](#overview)
-  - [1. Setup](#1-setup)
+  - [1. Reproducibility Check](#1-reproducibility-check)
+  - [2. Setup for Training](#2-setup-for-training)
     - [Install dependencies](#install-dependencies)
-  - [2. Reproducibility Check](#2-reproducibility-check)
   - [3. Training Relation Model (Under construction):](#3-training-relation-model-under-construction)
     - [Input data format for the relation model](#input-data-format-for-the-relation-model)
     - [Train/evaluate the relation model (Under construction):](#trainevaluate-the-relation-model-under-construction)
@@ -24,7 +24,28 @@ In this work, we annotate new benchmark corpus for entity and relation extractio
 
 <!-- Please find more details of this work in our [paper](https://arxiv.org/pdf/2010.12812.pdf). -->
 
-## 1. Setup
+## 1. Reproducibility Check
+<!-- ## Quick Start -->
+
+The following commands can be used to check whether the best result from our paper is reproducible or not.
+
+```bash
+
+# Run the fine-tuned relation model
+bash check_reproducibility.sh
+
+```
+
+If you want to run check reproducibility in your own environment, the following commands can be used to check whether the best result from our paper is reproducible or not.
+
+```bash
+
+# Run the fine-tuned relation model
+bash check_reproducibility.sh
+
+```
+
+## 2. Setup for Training
 
 ### Install dependencies
 Please install all the dependency packages using the following command:
@@ -41,16 +62,6 @@ Our experiments are based on three datasets: ACE04, ACE05, and SciERC. Please fi
 * ACE04/ACE05: We use the preprocessing code from [DyGIE repo](https://github.com/luanyi/DyGIE/tree/master/preprocessing). Please follow the instructions to preprocess the ACE05 and ACE04 datasets.
 * SciERC: The preprocessed SciERC dataset can be downloaded in their project [website](http://nlp.cs.washington.edu/sciIE/). -->
 
-## 2. Reproducibility Check
-<!-- ## Quick Start -->
-The following commands can be used to check whether the best result from our paper is reproducible or not.
-
-```bash
-
-# Run the fine-tuned relation model
-bash check_reproducibility.sh
-
-```
 
 <!-- ## Entity Model
 

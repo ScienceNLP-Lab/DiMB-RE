@@ -50,6 +50,7 @@ python run_eval.py \
 
 # Step 2. Reproducibility check for FD (end-to-end)
 
+task=pn_reduced_trg
 pipeline_task=certainty
 
 relation_output_test_dir="${output_dir}/pred_ent_trg_result/triplet"
