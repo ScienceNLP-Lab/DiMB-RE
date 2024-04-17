@@ -507,7 +507,7 @@ def main() -> None:
         args.triplet_output_dir = make_output_dir(
             args.output_dir, task='triplet', pipeline_task=args.pipeline_task
         )
-        os.makedirs(args.triplet_output_dir, exist_ok=True)
+    os.makedirs(args.triplet_output_dir, exist_ok=True)
 
     # Specify the entity output folder
     if args.entity_output_dir is None and (args.do_train or args.do_eval or args.do_predict_dev):
