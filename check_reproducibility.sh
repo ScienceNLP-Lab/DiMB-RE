@@ -24,6 +24,7 @@ python run_triplet_classification.py \
   --do_predict_test \
   --output_dir $output_dir \
   --entity_output_test_dir $entity_output_test_dir \
+  --triplet_output_dir $triplet_output_dir \
   --train_file "${data_dir}${dataset}"/train.json \
   --dev_file "${data_dir}${dataset}"/dev.json \
   --test_file "${data_dir}${dataset}"/test.json \
