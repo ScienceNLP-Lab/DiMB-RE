@@ -274,9 +274,9 @@ def main() -> None:
     args.n_gpu = torch.cuda.device_count()
 
     # Assign specific version to generate output folder
-    if args.do_train:
+    if args.do_train and args.entity_output_dir is None:
         args.entity_output_dir = make_output_dir(args.output_dir, task='ner', pipeline_task=args.pipeline_task)
-        os.makedirs(args.entity_output_dir, exist_ok=True)
+    os.makedirs(args.entity_output_dir, exist_ok=True)
 
     if args.do_train:
         logger.addHandler(logging.FileHandler(os.path.join(args.entity_output_dir, f"train.log"), 'w'))
