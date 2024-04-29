@@ -308,8 +308,8 @@ def main() -> None:
             logger.info("## Now moving Dev data to Train data... ##")
             train_data.documents.extend(dev_data.documents)
             logger.info(f"## Length of Train data: {len(train_data)} ##")
-            logger.info("## Now creating Dev data with Test data... ##")
             
+            # logger.info("## Now creating Dev data with Test data... ##")
             # dev_data = Dataset(args.test_data)
             # dev_samples, dev_ner, dev_trg, dev_label_dict = convert_dataset_to_samples(
             #     args, dev_data, ner_label2id=ner_label2id

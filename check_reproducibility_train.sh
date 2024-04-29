@@ -24,7 +24,7 @@ max_span_len_ent=8
 max_span_len_trg=4
 ner_patience=4
 n_epochs=78
-ner_bs=32
+ner_bs=16
 
 python run_entity_trigger.py \
   --task $task --pipeline_task $pipeline_task \
@@ -62,7 +62,7 @@ re_max_len=300
 re_patience=4
 sampling_p=0.0
 n_epochs=12
-re_bs=32
+re_bs=16
 
 python run_triplet_classification.py \
   --task $task --pipeline_task $pipeline_task \
@@ -100,7 +100,7 @@ fd_max_len=200
 fd_patience=4
 sampling_p=0.0
 n_epochs=7
-fd_bs=32
+fd_bs=16
 
 python run_certainty_detection.py \
   --task $task --pipeline_task $pipeline_task \
