@@ -267,7 +267,7 @@ def main() -> None:
  
     args.train_data = os.path.join(args.data_dir, 'train.json')
     args.dev_data = os.path.join(args.data_dir, 'dev.json')
-    # args.test_data = os.path.join(args.data_dir, 'test.json')
+    args.test_data = os.path.join(args.data_dir, 'test.json')
 
     set_seed(args.seed)
     device = torch.device("cuda" if torch.cuda.is_available() and not args.no_cuda else "cpu")
@@ -310,12 +310,12 @@ def main() -> None:
             logger.info(f"## Length of Train data: {len(train_data)} ##")
             logger.info("## Now creating Dev data with Test data... ##")
             
-            dev_data = Dataset(args.test_data)
-            dev_samples, dev_ner, dev_trg, dev_label_dict = convert_dataset_to_samples(
-                args, dev_data, ner_label2id=ner_label2id
-            )
-            dev_batches = batchify(dev_samples, args.eval_batch_size, args.model)
-            logger.info("## Making Dev set with Test data is completed!! ##")
+            # dev_data = Dataset(args.test_data)
+            # dev_samples, dev_ner, dev_trg, dev_label_dict = convert_dataset_to_samples(
+            #     args, dev_data, ner_label2id=ner_label2id
+            # )
+            # dev_batches = batchify(dev_samples, args.eval_batch_size, args.model)
+            # logger.info("## Making Dev set with Test data is completed!! ##")
 
         train_samples, *_ = convert_dataset_to_samples(
             args, train_data, ner_label2id=ner_label2id
@@ -368,7 +368,7 @@ def main() -> None:
                     tr_loss = 0
                     tr_examples = 0
 
-                if epoch > args.eval_start_epoch and args.do_eval and global_step % eval_step == 0:
+                if args.do_eval and (epoch > args.eval_start_epoch) and (global_step % eval_step) == 0:
                     p, r, f1, total = evaluate(model, dev_batches, dev_ner, dev_trg, dev_label_dict, ner_label2id)
                     if f1 > best_result:
                         best_result = f1

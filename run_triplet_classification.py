@@ -538,7 +538,7 @@ def main() -> None:
         )
     elif args.do_train and args.do_predict_test:
         eval_dataset, eval_examples, eval_ntrg, eval_label_dict = generate_trigger_data(
-            os.path.join(args.entity_output_dir, args.entity_predictions_dev), 
+            args.dev_file, 
             ref_data=args.dev_file, 
             use_gold=True, 
             context_window=args.context_window, 
@@ -742,8 +742,8 @@ def main() -> None:
         model.to(device)
         # dev dataloader has been already made
         preds, result, logits, result_by_class = evaluate(
-                            model, device, eval_dataloader, eval_label_ids, id2label=id2label, label_cnt_dict=eval_label_dict, e2e_ngold=eval_ntrg
-                        )
+            model, device, eval_dataloader, eval_label_ids, id2label=id2label, label_cnt_dict=eval_label_dict, e2e_ngold=eval_ntrg
+        )
         with open(os.path.join(args.triplet_output_dir, "dev_result_by_class.json"), 'w', encoding='utf-8') as f_out:
             f_out.write(json.dumps(result_by_class, indent=4))
 

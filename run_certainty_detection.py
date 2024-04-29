@@ -471,16 +471,27 @@ def main() -> None:
         if args.do_eval:
             # dev set
             eval_dataset, eval_examples, eval_nrel, eval_label_dict = generate_certainty_data(
-                relation_dev_path, args.dev_file, training=False, use_gold=args.eval_with_gold, use_trigger=args.use_trigger, context_window=args.context_window
+                relation_dev_path, 
+                args.dev_file, 
+                training=False, 
+                use_gold=args.eval_with_gold, 
+                use_trigger=args.use_trigger, 
+                context_window=args.context_window
             )
         elif args.do_predict_test:
             eval_dataset, eval_examples, eval_nrel, eval_label_dict = generate_certainty_data(
-                relation_dev_path, args.dev_file, training=False, use_gold=True, use_trigger=args.use_trigger, context_window=args.context_window
+                args.dev_file,
+                args.dev_file, 
+                training=False, 
+                use_gold=True, 
+                use_trigger=args.use_trigger, 
+                context_window=args.context_window
             )
             # incorporate train set with dev set
             logger.info("## Now moving Dev data to Train data... ##")
             train_examples.extend(eval_examples)
             logger.info(f"## Length of Train data: {len(train_examples)} ##")
+            
         if args.sampling_proportion:
             train_examples = random_undersampling(train_examples, ratio=args.sampling_proportion)
 

@@ -7,11 +7,11 @@ dataset=ner_reduced_v6.1_trg_abs_result
 MODEL=microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
 
 output_dir=./output
-entity_output_dir="${entity_output_test_dir}/entity"
-entity_output_test_dir="${entity_output_test_dir}/entity"
-triplet_output_dir="${entity_output_test_dir}/triplet"
-triplet_output_test_dir="${entity_output_test_dir}/triplet"
-certainty_output_dir="${entity_output_test_dir}/certainty"
+entity_output_dir="${output_dir}/entity"
+entity_output_test_dir="${output_dir}/entity"
+triplet_output_dir="${output_dir}/triplet"
+triplet_output_test_dir="${output_dir}/triplet"
+certainty_output_dir="${output_dir}/certainty"
 
 # Step 1. Reproducibility check for Entity & Trigger Extraction
 pipeline_task='entity'
@@ -105,8 +105,8 @@ fd_bs=32
 python run_certainty_detection.py \
   --task $task --pipeline_task $pipeline_task \
   --do_train --do_predict_test \
-  --output_dir $output_dir --relation_output_dir $relation_output_dir \
-  --relation_output_test_dir $relation_output_test_dir \
+  --output_dir $output_dir --relation_output_dir $triplet_output_dir \
+  --relation_output_test_dir $triplet_output_test_dir \
   --certainty_output_dir $certainty_output_dir \
   --train_file "${data_dir}${dataset}"/train.json \
   --dev_file "${data_dir}${dataset}"/dev.json \
