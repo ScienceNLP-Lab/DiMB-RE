@@ -120,9 +120,7 @@ def get_args():
 
     # model arguments:
     parser.add_argument("--model", default=None, type=str, required=True)
-    parser.add_argument("--finetuned_model", 
-                        default="gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_FD",
-                        type=str, required=True)
+    parser.add_argument("--finetuned_model", default=None, type=str)
     parser.add_argument("--negative_label", default="no_certainty", type=str)
     parser.add_argument("--do_lower_case", action='store_true', 
                         help="Set this flag if you are using an uncased model.")
@@ -470,12 +468,16 @@ def main() -> None:
         train_dataset, train_examples, *_  = generate_certainty_data(
             args.train_file, args.train_file, training=True, use_gold=True, use_trigger=args.use_trigger, context_window=args.context_window
         )
-        # dev set
-        eval_dataset, eval_examples, eval_nrel, eval_label_dict = generate_certainty_data(
-            relation_dev_path, args.dev_file, training=False, use_gold=args.eval_with_gold, use_trigger=args.use_trigger, context_window=args.context_window
-        )
-        # incorporate train set with dev set
-        if args.do_predict_test:
+        if args.do_eval:
+            # dev set
+            eval_dataset, eval_examples, eval_nrel, eval_label_dict = generate_certainty_data(
+                relation_dev_path, args.dev_file, training=False, use_gold=args.eval_with_gold, use_trigger=args.use_trigger, context_window=args.context_window
+            )
+        elif args.do_predict_test:
+            eval_dataset, eval_examples, eval_nrel, eval_label_dict = generate_certainty_data(
+                relation_dev_path, args.dev_file, training=False, use_gold=True, use_trigger=args.use_trigger, context_window=args.context_window
+            )
+            # incorporate train set with dev set
             logger.info("## Now moving Dev data to Train data... ##")
             train_examples.extend(eval_examples)
             logger.info(f"## Length of Train data: {len(train_examples)} ##")
@@ -737,11 +739,13 @@ def main() -> None:
         test_dataloader = DataLoader(test_data, batch_size=args.eval_batch_size)
         test_label_ids = all_label_ids
 
-        # model_dir = args.certainty_output_dir if not args.load_saved_model else args.d
-
         # Load the fine-tuned model (TRAIN+DEV)
+        # model = RelationModel.from_pretrained(
+        #     args.finetuned_model, num_certainty_labels=num_labels, use_trigger=args.use_trigger
+        # )
+
         model = RelationModel.from_pretrained(
-            args.finetuned_model, num_certainty_labels=num_labels, use_trigger=args.use_trigger
+            args.saved_model_dir, num_certainty_labels=num_labels, use_trigger=args.use_trigger
         )
         model.to(device)
         preds, result, logits, result_by_class = evaluate(

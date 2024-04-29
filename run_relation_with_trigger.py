@@ -447,14 +447,19 @@ def main() -> None:
             args.train_file, training=True, use_gold=True, use_trigger=args.use_trigger, context_window=args.context_window
         )
         # dev set
-        eval_dataset, eval_examples, eval_nrel, eval_label_dict = generate_relation_data(
-            entity_dev_path, training=False, use_gold=args.eval_with_gold, use_trigger=args.use_trigger, context_window=args.context_window
-        )
-        # incorporate train set with dev set
-        if args.do_predict_test:
+        if args.do_eval:
+            eval_dataset, eval_examples, eval_nrel, eval_label_dict = generate_relation_data(
+                entity_dev_path, training=False, use_gold=args.eval_with_gold, use_trigger=args.use_trigger, context_window=args.context_window
+            )
+        elif args.do_predict_test:
+            eval_dataset, eval_examples, eval_nrel, eval_label_dict = generate_relation_data(
+                entity_dev_path, training=False, use_gold=True, use_trigger=args.use_trigger, context_window=args.context_window
+            )
+            # incorporate train set with dev set
             logger.info("## Now moving Dev data to Train data... ##")
             train_examples.extend(eval_examples)
             logger.info(f"## Length of Train data: {len(train_examples)} ##")
+            
         if args.sampling_proportion:
             train_examples = random_undersampling(train_examples, ratio=args.sampling_proportion)
 

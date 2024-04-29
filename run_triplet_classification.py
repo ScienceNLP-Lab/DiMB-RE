@@ -127,9 +127,7 @@ def get_args():
     
     # model arguments:
     parser.add_argument("--model", default=None, type=str, required=True)
-    parser.add_argument("--finetuned_model", 
-                        default="gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE",
-                        type=str, required=True)
+    parser.add_argument("--finetuned_model", default=None, type=str)
     parser.add_argument("--negative_label", default="no_relation", type=str)
     parser.add_argument("--do_lower_case", default=True, 
                         help="Set this flag if you are using an uncased model.")
@@ -523,22 +521,39 @@ def main() -> None:
     # train set
     if args.do_train:
         train_dataset, train_examples, *_ = generate_trigger_data(
-            args.train_file, ref_data=args.train_file, use_gold=True, context_window=args.context_window, binary_classification=args.binary_classification
-            )
+            args.train_file, 
+            ref_data=args.train_file, 
+            use_gold=True, 
+            context_window=args.context_window, 
+            binary_classification=args.binary_classification
+        )
     # dev set
-    if args.do_eval or args.do_predict_dev or (args.do_train and args.do_predict_test):
+    if args.do_eval or args.do_predict_dev:
         eval_dataset, eval_examples, eval_ntrg, eval_label_dict = generate_trigger_data(
-            os.path.join(args.entity_output_dir, args.entity_predictions_dev), ref_data=args.dev_file, use_gold=args.eval_with_gold, context_window=args.context_window, binary_classification=args.binary_classification
-            )
-        # incorporate train set with dev set
-        if args.do_predict_test:
-            logger.info("## Now moving Dev data to Train data... ##")
-            train_examples.extend(eval_examples)
-            logger.info(f"## Length of Train data: {len(train_examples)} ##")
-        if args.sampling_proportion:
-            train_examples = undersampling(
-                train_examples, ratio=args.sampling_proportion, method=args.sampling_method
-            )
+            os.path.join(args.entity_output_dir, args.entity_predictions_dev), 
+            ref_data=args.dev_file, 
+            use_gold=args.eval_with_gold, 
+            context_window=args.context_window, 
+            binary_classification=args.binary_classification
+        )
+    elif args.do_train and args.do_predict_test:
+        eval_dataset, eval_examples, eval_ntrg, eval_label_dict = generate_trigger_data(
+            os.path.join(args.entity_output_dir, args.entity_predictions_dev), 
+            ref_data=args.dev_file, 
+            use_gold=True, 
+            context_window=args.context_window, 
+            binary_classification=args.binary_classification
+        )
+        # Incorporate train set with dev set
+        logger.info("## Now moving Dev data to Train data... ##")
+        train_examples.extend(eval_examples)
+        logger.info(f"## Length of Train data: {len(train_examples)} ##")
+
+    if args.sampling_proportion:
+        train_examples = undersampling(
+            train_examples, ratio=args.sampling_proportion, method=args.sampling_method
+        )
+
     if not args.do_train and not (args.do_predict_dev or args.do_predict_test):
         raise ValueError("At least one of `do_train` or `do_predict` must be True.")
 
@@ -743,8 +758,13 @@ def main() -> None:
 
     if args.do_predict_test:
         test_dataset, test_examples, test_ntrg, test_label_dict = generate_trigger_data(
-            os.path.join(args.entity_output_test_dir, args.entity_predictions_test), ref_data=args.test_file, use_gold=args.eval_with_gold, context_window=args.context_window, binary_classification=args.binary_classification
-            )
+            os.path.join(args.entity_output_test_dir, args.entity_predictions_test), 
+            ref_data=args.test_file, 
+            use_gold=args.eval_with_gold, 
+            context_window=args.context_window, 
+            binary_classification=args.binary_classification
+        )
+        
         test_features = convert_examples_to_features(
             test_examples, label2id, tokenizer, special_tokens, args, unused_tokens=not(args.add_new_tokens)
         )
@@ -765,7 +785,7 @@ def main() -> None:
 
         # Load the fine-tuned model (TRAIN+DEV)
         model = RelationModel.from_pretrained(
-            args.finetuned_model, num_rel_labels=num_labels, use_trigger=True
+            args.triplet_output_dir, num_rel_labels=num_labels, use_trigger=True
         )
         model.to(device)
 

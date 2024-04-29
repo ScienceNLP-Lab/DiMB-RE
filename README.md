@@ -6,7 +6,7 @@ This repository contains (PyTorch) code, dataset, and fine-tuned models for DiMB
 - [DiMB-RE: Mining the Scientific Literature for Diet-Microbiome Associations](#dimb-re-mining-the-scientific-literature-for-diet-microbiome-associations)
   - [Quick links](#quick-links)
   - [Overview](#overview)
-  - [1. Reproducibility Check](#1-reproducibility-check)
+  - [1. Reproducibility Check for Training of Pipeline system](#1-reproducibility-check-for-training-of-pipeline-system)
   - [2. Setup](#2-setup)
     - [Install dependencies](#install-dependencies)
   - [3. Training Relation Model (Under construction):](#3-training-relation-model-under-construction)
@@ -24,12 +24,12 @@ In this work, we annotate new benchmark corpus for entity and relation extractio
 
 <!-- Please find more details of this work in our [paper](https://arxiv.org/pdf/2010.12812.pdf). -->
 
-## 1. Reproducibility Check
+## 1. Reproducibility Check for Training of Pipeline system
 <!-- ## Quick Start -->
 
-For simple reproducibility check, you can run this [Colab Notebook](https://colab.research.google.com/drive/1abCEYlFOCmu7yO7TQQeHOwVPCDX8H4Rs?usp=sharing) which is to generate predictions and evaluate them for RE and Factuality Detection task.
+For simple reproducibility check, you can run this [Colab Notebook](https://colab.research.google.com/drive/1abCEYlFOCmu7yO7TQQeHOwVPCDX8H4Rs?usp=sharing) which is to train end-to-end system from NER-RE-Factuality Detection.
 
-The final end-to-end result should match with the following scores, which are the best performance of PURE-based RE models from our paper.
+The final end-to-end result should "approximate" with the following scores, which are the best performance of PURE-based RE models from our paper.
 
 ```plaintext
 NER - P: 0.772500, R: 0.747900, F1: 0.760000
@@ -48,7 +48,7 @@ If you want to run check reproducibility in your own environment, first you need
 ```bash
 
 # Run the fine-tuned relation model
-bash check_reproducibility.sh
+bash check_reproducibility_train.sh
 
 ```
 

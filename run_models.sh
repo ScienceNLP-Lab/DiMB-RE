@@ -12,7 +12,7 @@ task=pn_reduced_trg
 data_dir=./data/pernut/
 dataset="ner_reduced_v6.1_trg_abs"
 # dataset="ner_reduced_v6.1_trg_abs_result"
-# output_dir=../tmp_ondemand_ocean_cis230030p_symlink/ghong1/PN/output/${dataset}
+output_dir=../tmp_ondemand_ocean_cis230030p_symlink/ghong1/PN/output/${dataset}
 
 # FIXED NER Hyperparameters
 # n_epochs=200
@@ -32,30 +32,29 @@ dataset="ner_reduced_v6.1_trg_abs"
 # sampling_p=0.0  # FIXED
 re_patience=4
 
-#### TASK 5: Certainty Detection with Trigger provided ####
+# #### TASK 5: Certainty Detection with Trigger provided ####
 cer_cw=0
 cer_max_len=200
-cer_lr=3e-5
-# n_epochs=20
+cer_lr=2e-5
+n_epochs=20
 MODEL="microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext"
 # make model-specific output folder and put everything in there
 output_dir=../tmp_ondemand_ocean_cis230030p_symlink/ghong1/PN/output/${dataset}
 
 task=pn_reduced_trg
-pipeline_task=certainty
-relation_output_dir="${output_dir}/EXP_159/triplet"
+pipeline_task="certainty"
+relation_output_dir="${output_dir}/EXP_153/triplet"
 
 # For Test set
-relation_output_test_dir="${output_dir}/EXP_161/triplet"
+relation_output_test_dir="${output_dir}/EXP_190/triplet"
 certainty_output_dir="${output_dir}/EXP_183/certainty"
 
 sampling_p=0.0
-n_epochs=7
+n_epochs=3
 python run_certainty_detection.py \
     --task $task --pipeline_task $pipeline_task \
-    --do_predict_test --eval_with_gold \
+    --do_predict_dev \
     --output_dir $output_dir --relation_output_dir $relation_output_dir \
-    --relation_output_test_dir $relation_output_test_dir \
     --train_file "${data_dir}${dataset}"/train.json \
     --dev_file "${data_dir}${dataset}"/dev.json \
     --test_file "${data_dir}${dataset}"/test.json \
@@ -64,9 +63,10 @@ python run_certainty_detection.py \
     --num_epoch $n_epochs  --max_patience $re_patience \
     --sampling_proportion $sampling_p \
     --model $MODEL --do_lower_case --add_new_tokens \
-    --use_trigger \
+    --relation_output_test_dir $relation_output_test_dir \
     --certainty_output_dir $certainty_output_dir \
-    # --load_saved_model
+    --load_saved_model \
+    --use_trigger
 
 
 ################## PRESET TASKS ######################
