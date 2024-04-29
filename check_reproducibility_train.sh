@@ -1,5 +1,10 @@
 #!/bin/bash
 
+ROOT=$PWD
+
+source ### DiMB-RE
+echo "Activated DiMB-RE environment"
+
 task=pn_reduced_trg
 data_dir=./data/pernut/
 dataset=ner_reduced_v6.1_trg_abs_result
