@@ -682,7 +682,7 @@ def main() -> None:
             progress.close()
 
     if not args.do_eval and args.do_train:
-        logger.info('## Without Validation Set: Saving model to %s... ##'%(args.relation_output_dir))
+        logger.info('## Without Validation Set: Saving model to %s... ##'%(args.certainty_output_dir))
         save_trained_model(model, tokenizer, global_step, args)
 
     logger.info(special_tokens)
@@ -751,14 +751,12 @@ def main() -> None:
         test_label_ids = all_label_ids
 
         # Load the fine-tuned model (TRAIN+DEV)
-        # model = RelationModel.from_pretrained(
-        #     args.finetuned_model, num_certainty_labels=num_labels, use_trigger=args.use_trigger
-        # )
-
+        model_dir = args.certainty_output_dir if not args.load_saved_model else args.saved_model_dir
         model = RelationModel.from_pretrained(
-            args.saved_model_dir, num_certainty_labels=num_labels, use_trigger=args.use_trigger
-        )
+            model_dir, num_certainty_labels=num_labels, use_trigger=args.use_trigger
+        )           
         model.to(device)
+        
         preds, result, logits, result_by_class = evaluate(
             model, device, test_dataloader, test_label_ids, id2label=id2label, label_cnt_dict=test_label_dict, e2e_ngold=test_nrel, verbose=False
         )

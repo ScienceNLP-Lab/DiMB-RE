@@ -5,7 +5,6 @@ ROOT=$PWD
 source ### DiMB-RE
 echo "Activated DiMB-RE environment"
 
-task=pn_reduced_trg
 data_dir=./data/pernut/
 dataset=ner_reduced_v6.1_trg_abs_result
 
@@ -18,43 +17,44 @@ triplet_output_dir="${output_dir}/triplet"
 triplet_output_test_dir="${output_dir}/triplet"
 certainty_output_dir="${output_dir}/certainty"
 
-# # Step 1. Reproducibility check for Entity & Trigger Extraction
-# pipeline_task=entity
+# Step 1. Reproducibility check for Entity & Trigger Extraction
+pipeline_task=entity
+task=pn_reduced_trg
 
-# ner_plm_lr=1e-5
-# ner_task_lr=1e-3
-# ner_cw=300
-# max_seq_length=512
-# max_span_len_ent=8
-# max_span_len_trg=4
-# ner_patience=4
-# n_epochs=78
-# ner_bs=128
+ner_plm_lr=1e-5
+ner_task_lr=1e-3
+ner_cw=300
+max_seq_length=512
+max_span_len_ent=8
+max_span_len_trg=4
+ner_patience=4
+n_epochs=78
+ner_bs=128
 
-# python run_entity_trigger.py \
-#   --task $task --pipeline_task $pipeline_task \
-#   --do_train --do_predict_test \
-#   --output_dir $output_dir \
-#   --entity_output_dir $entity_output_dir \
-#   --data_dir "${data_dir}${dataset}" \
-#   --context_window $ner_cw --max_seq_length $max_seq_length \
-#   --train_batch_size $ner_bs  --eval_batch_size $ner_bs \
-#   --learning_rate $ner_plm_lr --task_learning_rate $ner_task_lr \
-#   --num_epoch $n_epochs --eval_per_epoch 0.33 --max_patience $ner_patience \
-#   --model $MODEL \
-#   --max_span_length_entity $max_span_len_ent --max_span_length_trigger $max_span_len_trg \
-#   --extract_trigger --dual_classifier
+python run_entity_trigger.py \
+  --task $task --pipeline_task $pipeline_task \
+  --do_train --do_predict_test \
+  --output_dir $output_dir \
+  --entity_output_dir $entity_output_dir \
+  --data_dir "${data_dir}${dataset}" \
+  --context_window $ner_cw --max_seq_length $max_seq_length \
+  --train_batch_size $ner_bs  --eval_batch_size $ner_bs \
+  --learning_rate $ner_plm_lr --task_learning_rate $ner_task_lr \
+  --num_epoch $n_epochs --eval_per_epoch 0.33 --max_patience $ner_patience \
+  --model $MODEL \
+  --max_span_length_entity $max_span_len_ent --max_span_length_trigger $max_span_len_trg \
+  --extract_trigger --dual_classifier
 
-# # NER evaluation
-# dataset_name=pn_reduced_trg
-# task=test
-# pred_file=ent_pred_${task}.json
+# NER evaluation
+dataset_name=pn_reduced_trg
+task=test
+pred_file=ent_pred_${task}.json
 
-# python run_eval.py \
-#   --prediction_file "${entity_output_dir}/${pred_file}" \
-#   --output_dir ${entity_output_dir} \
-#   --task $task \
-#   --dataset_name $dataset_name
+python run_eval.py \
+  --prediction_file "${entity_output_dir}/${pred_file}" \
+  --output_dir ${entity_output_dir} \
+  --task $task \
+  --dataset_name $dataset_name
 
 
 # Step 2. Reproducibility check for RE
