@@ -9,9 +9,7 @@ This repository contains (PyTorch) code, dataset, and fine-tuned models for DiMB
   - [1. Reproducibility Check for Training of Pipeline system](#1-reproducibility-check-for-training-of-pipeline-system)
   - [2. Setup](#2-setup)
     - [Install dependencies](#install-dependencies)
-  - [3. Training Relation Model (Under construction):](#3-training-relation-model-under-construction)
-    - [Input data format for the relation model](#input-data-format-for-the-relation-model)
-    - [Train/evaluate the relation model (Under construction):](#trainevaluate-the-relation-model-under-construction)
+  - [3. Details for Training Model (Under construction):](#3-details-for-training-model-under-construction)
   - [Fine-tuned Models](#fine-tuned-models)
 
 ## Overview
@@ -43,7 +41,7 @@ REL Strict+Factuality - P: 0.401900, R: 0.329400, F1: 0.362100
 
 ```
 
-If you want to run check reproducibility in your own environment, first you need to follow the instructions in [2. Setup](#2-setup). And then, all you need to do is to run the bash command below.
+If you want to run check reproducibility in your own environment, first you need to follow the instructions in [2. Setup](#2-setup). And then, all you need to do is to run the bash command below. In the shell script, you can check all the arguments for training entity, relation, and factuality detection model.
 
 ```bash
 
@@ -130,8 +128,8 @@ Arguments:
 
 The predictions of the entity model will be saved as a file (`ent_pred_dev.json`) in the `output_dir` directory. If you set `--eval_test`, the predictions (`ent_pred_test.json`) are on the test set. The prediction file of the entity model will be the input file of the relation model. -->
 
-## 3. Training Relation Model (Under construction):
-### Input data format for the relation model
+## 3. Details for Training Model (Under construction):
+<!-- ### Input data format for the relation model
 The input data format of the relation model is almost the same as that of the entity model, except that there is one more filed `."predicted_ner"` to store the predictions of the entity model.
 ```bash
 {
@@ -177,7 +175,7 @@ You can run the evaluation script to output the end-to-end performance  (`Ent`, 
 python run_eval.py --prediction_file {path to output_dir}/predictions.json
 ```
 
-*Note*: Training/evaluation performance might be slightly different from the reported numbers in the paper, depending on the number of GPUs, batch size, and so on.
+*Note*: Training/evaluation performance might be slightly different from the reported numbers in the paper, depending on the number of GPUs, batch size, and so on. -->
 
 <!-- ### Approximation relation model
 You can use the following command to train an approximation model.
@@ -215,7 +213,7 @@ python run_relation_approx.py \
 *Note*: the current code does not support approximation models based on ALBERT. -->
 
 ## Fine-tuned Models
-We release our fine-tuned entity/trigger models, relation models, and factuality detection models for our dataset.
+We release our fine-tuned relation models, and factuality detection models for our dataset in HuggingFace with the model name of gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE and gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_FD.
 
 
 <!-- ### Pre-trained models for ACE05
@@ -233,13 +231,13 @@ We release our fine-tuned entity/trigger models, relation models, and factuality
 * [BERT-approx (cross, W=100)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/rel_approx-bert-ctx100.zip) (387M): Crosss-sentence approximation relation model based on `bert-base-uncased`
 * [ALBERT (cross, W=100)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/rel-alb-ctx100.zip) (789M): Cross-sentence relation model based on `albert-xxlarge-v1` -->
 
-**Performance of pretrained models on DiMB-RE test set**:
+<!-- **Performance of pretrained models on DiMB-RE test set**:
 * BiomedBERT-abstract-fulltext
 ```
 NER - P: 0.890260, R: 0.882944, F1: 0.886587
 REL - P: 0.689624, R: 0.652476, F1: 0.670536
 REL (strict) - P: 0.664830, R: 0.629018, F1: 0.646429
-```
+``` -->
 <!-- * BERT-approx (single)
 ```
 NER - P: 0.890260, R: 0.882944, F1: 0.886587
