@@ -10,10 +10,11 @@ This repository contains (PyTorch) code, dataset, and fine-tuned models for DiMB
     - [Install dependencies](#install-dependencies)
   - [2. Reproduce the Training and Inference for Pipeline RE system](#2-reproduce-the-training-and-inference-for-pipeline-re-system)
   - [3. Data Preprocessing](#3-data-preprocessing)
-  - [4. Details for Entity and Trigger Extraction Model](#4-details-for-entity-and-trigger-extraction-model)
+  - [4. Details for Pipeline Model](#4-details-for-pipeline-model)
+  <!-- - [4. Details for Entity and Trigger Extraction Model](#4-details-for-entity-and-trigger-extraction-model)
   - [5. Details for RE Model (Under construction)](#5-details-for-re-model)
-  - [6. Details for Factuality Detection Model (Under construction)](#6-details-for-factuality-detection-model)
-  - [7. Fine-tuned Models](#7-fine-tuned-models)
+  - [6. Details for Factuality Detection Model (Under construction)](#6-details-for-factuality-detection-model) -->
+  - [5. Fine-tuned Models](#5-fine-tuned-models)
 
 ## Overview
 ![](./figs/annotation-example-new-wb.png)
@@ -126,32 +127,45 @@ We follow the protocol of the original PURE paper to construct the input: each l
 }
 ```
 
-## 4. Details for Entity and Trigger Extraction Model
+## 4. Details for Pipeline Model
 
-### Train/evaluate
+The predictions of the entity model will be saved as a file (`ent_pred_dev.json`) in the `./output/entity` directory if you set `--do_predict_dev`. The predictions (`ent_pred_test.json`) would be generated if you set `--do_predict_test`. The prediction file of the entity model will be the input file of the relation extraction model. This goes same with the relation extraction model: `trg_pred_{dev|test}.json` file would be saved after running the model, and those files will be inputs for factuality detection model, which is our last step for the pipeline.
 
-You can use `run_entity_trigger.py` with `--do_train` to train an entity model and with `--do_eval` to evaluate an entity model.
+For more details about the arguments in each model, please refer to the `run_entity_trigger.py` for entity and trigger extraction, `run_triplet_classification.py` for relation extraction with Typed trigger, and `run_certainty_detection.py` for factuality detection model. 
 
-A training command template is as follow:
+<!-- ## 4. Details for Entity and Trigger Extraction Model -->
+
+<!-- Below is the python command to run training/evaluation with different kinds of arguments:
+
 ```bash
-python run_entity.py \
-    --do_train --do_eval [--eval_test] \
-    --learning_rate=1e-5 --task_learning_rate=5e-4 \
-    --train_batch_size=16 \
-    --context_window {0 | 100 | 300} \
-    --task {ace05 | ace04 | scierc} \
-    --data_dir {directory of preprocessed dataset} \
-    --model {bert-base-uncased | albert-xxlarge-v1 | allenai/scibert_scivocab_uncased} \
-    --output_dir {directory of output files}
+python run_entity_trigger.py \
+  --task pn_reduced_trg --pipeline_task entity \
+  --do_train --do_predict_test \
+  --output_dir $output_dir \
+  --entity_output_dir $entity_output_dir \
+  --data_dir "${data_dir}${dataset}" \
+  --context_window $ner_cw --max_seq_length $max_seq_length \
+  --train_batch_size $ner_bs  --eval_batch_size $ner_bs \
+  --learning_rate $ner_plm_lr --task_learning_rate $ner_task_lr \
+  --num_epoch $n_epochs --eval_per_epoch 0.33 --max_patience $ner_patience \
+  --model $MODEL \
+  --max_span_length_entity $max_span_len_ent --max_span_length_trigger $max_span_len_trg \
+  --extract_trigger --dual_classifier \
+  --seed $SEED
 ```
+
 Arguments:
+* `--task`: Related with constant variables (task-specific labels). Check `./shared/const.py` for more details.
+* `--pipeline_task`: Specify what kind of task to perform among the three pipeline tasks.
+* `--do_train`, `--do_eval`: Wge
+* `--learning_rate`: the learning rate for BERT encoder parameters.
 * `--learning_rate`: the learning rate for BERT encoder parameters.
 * `--task_learning_rate`: the learning rate for task-specific parameters, i.e., the classifier head after the encoder.
 * `--context_window`: the context window size used in the model. `0` means using no contexts. In our cross-sentence entity experiments, we use `--context_window 300` for BERT models and SciBERT models and use `--context_window 100` for ALBERT models.
 * `--model`: the base transformer model. We use `bert-base-uncased` and `albert-xxlarge-v1` for ACE04/ACE05 and use `allenai/scibert_scivocab_uncased` for SciERC.
-* `--eval_test`: whether evaluate on the test set or not.
+* `--eval_test`: whether evaluate on the test set or not. -->
 
-The predictions of the entity model will be saved as a file (`ent_pred_dev.json`) in the `output_dir` directory. If you set `--eval_test`, the predictions (`ent_pred_test.json`) are on the test set. The prediction file of the entity model will be the input file of the relation model.
+<!-- The predictions of the entity model will be saved as a file (`ent_pred_dev.json`) in the `./output/entity` directory if you set `--do_predict_dev`. The predictions (`ent_pred_test.json`) would be generated if you set `--do_predict_test`. The prediction file of the entity model will be the input file of the relation extraction model.  -->
 
 <!-- ## 3. Details for Training Model (Under construction): -->
 <!-- ### Input data format for the relation model
@@ -237,8 +251,8 @@ python run_relation_approx.py \
 ```
 *Note*: the current code does not support approximation models based on ALBERT. -->
 
-## Fine-tuned Models
-We release our fine-tuned relation models, and factuality detection models for our dataset in HuggingFace with the model name of gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE and gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_FD.
+## 5. Fine-tuned Models
+We released our best fine-tuned relation model, and factuality detection model for our DiMB-RE dataset in HuggingFace: `gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE` for relation extraction model with typed triggers and `gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_FD` for factuality detection model with triggers.
 
 <!-- ## Citation
 
