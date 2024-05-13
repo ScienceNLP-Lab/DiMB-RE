@@ -133,6 +133,8 @@ The predictions of the entity model will be saved as a file (`ent_pred_dev.json`
 
 For more details about the arguments in each model, please refer to the `run_entity_trigger.py` for entity and trigger extraction, `run_triplet_classification.py` for relation extraction with Typed trigger, and `run_certainty_detection.py` for factuality detection model. 
 
+And for evaluation, we recommend you test your prediction file with `run_eval.py` or `run_evals.sh` in order to consider the directionality of predicted relations.
+
 <!-- ## 4. Details for Entity and Trigger Extraction Model -->
 
 <!-- Below is the python command to run training/evaluation with different kinds of arguments:
