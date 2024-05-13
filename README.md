@@ -79,7 +79,7 @@ We also put our raw dataset which are formatted in BRAT style. If you want to ch
 ### Input data format
 We follow the protocol of the original PURE paper to construct the input: each line of the input file contains one document.
 
-```json
+```bash
 {
   # PMID (please make sure doc_key can be used to identify a certain document)
   "doc_key": "34143954",
