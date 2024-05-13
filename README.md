@@ -240,10 +240,22 @@ python run_relation_approx.py \
 ## Fine-tuned Models
 We release our fine-tuned relation models, and factuality detection models for our dataset in HuggingFace with the model name of gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE and gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_FD.
 
+<!-- ## Citation
+
+**Authors:** Gibong Hong, Veronica Hindle, Nadine M. Veasley, Hannah D. Holscher, and Halil Kilicoglu
+
+**Year:** 2024
+
+**Title:** DiMB-RE: Mining the Scientific Literature for Diet-Microbiome Associations
+
+**Journal (Under Review):** Bioinformatics
+
+**Status:** Manuscript under review -->
+
 <!-- ## Bugs or Questions?
 If you have any questions related to the code or the paper, feel free to email Zexuan Zhong `(zzhong@cs.princeton.edu)`. If you encounter any problems when using the code, or want to report a bug, you can open an issue. Please try to specify the problem with details so we can help you better and quicker! -->
 
-## Citation
+<!-- ## Citation
 If you use our code in your research, please cite our work:
 ```bibtex
 @inproceedings{zhong2021frustratingly,
@@ -251,5 +263,5 @@ If you use our code in your research, please cite our work:
    author={Zhong, Zexuan and Chen, Danqi},
    booktitle={North American Association for Computational Linguistics (NAACL)},
    year={2021}
-}
+} -->
 ```
