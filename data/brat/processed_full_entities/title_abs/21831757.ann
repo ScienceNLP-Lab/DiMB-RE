@@ -1,0 +1,106 @@
+T1	Food 516 525	chickpeas
+T2	Nutrient 538 547	raffinose
+T3	Food 24 32	chickpea
+T4	Population 120 134	healthy adults
+T5	Nutrient 71 80	raffinose
+T6	Food 183 191	chickpea
+T7	Nutrient 220 229	raffinose
+T8	Population 303 317	healthy adults
+T9	Methodology 337 376	randomised crossover intervention study
+T10	Food 431 436	soups
+T11	Food 441 449	desserts
+T12	Methodology 640 705	16S rRNA-based terminal restriction fragment length polymorphisms
+T13	Methodology 707 713	T-RFLP
+T14	Methodology 719 734	clone libraries
+T15	Methodology 788 803	clone libraries
+T16	Methodology 808 823	T-RFLP analysis
+T17	Microorganism 838 866	Faecalibacterium prausnitzii
+T18	INCREASES 905 913	producer
+T19	Metabolite 896 904	butyrate
+T20	Nutrient 1019 1028	raffinose
+T21	Food 1042 1050	chickpea
+T23	Metabolite 1227 1235	butyrate
+T24	Metabolite 1237 1244	acetate
+T25	Metabolite 1249 1259	propionate
+T26	Metabolite 1148 1176	total short chain fatty acid
+T27	Food 1270 1278	chickpea
+T28	Nutrient 1291 1300	raffinose
+T29	Microorganism 1336 1351	Bifidobacterium
+T30	Methodology 1377 1383	T-RFLP
+T31	Methodology 1413 1455	quantitative real-time PCR (qPCR) analysis
+T33	Microorganism 1510 1525	Bifidobacterium
+T34	Nutrient 1535 1544	raffinose
+T35	Microorganism 1627 1651	Clostridium histolyticum
+T36	Microorganism 1654 1678	Clostridum lituseburense
+T37	Food 1774 1782	chickpea
+T38	Nutrient 1979 1988	raffinose
+T39	Food 1993 2001	chickpea
+T40	Food 2050 2058	chickpea
+T41	Nutrient 2063 2072	raffinose
+T42	INCREASES 1003 1011	abundant
+T43	INCREASES 1474 1482	increase
+T44	Microorganism 1733 1754	putrefactive bacteria
+T45	HAS_COMPONENT 61 70	component
+T46	AFFECTS 1095 1120	no significant difference
+T48	Methodology 1486 1506	16S rRNA gene copies
+T49	DECREASES 1761 1766	lower
+T50	Methodology 1614 1618	TRFs
+E1	INCREASES:T18 Agent:T17 Theme:T19
+E2	INCREASES:T42 Theme:T17 Agent:T20
+E3	INCREASES:T42 Agent:T21 Theme:T17
+E4	INCREASES:T43 Theme:T33 Agent:T34
+E5	HAS_COMPONENT:T45 Agent:T3 Theme:T5
+E6	AFFECTS:T46 Theme:T23 Agent:T27
+E7	AFFECTS:T46 Theme:T26 Agent:T27
+E8	DECREASES:T49 Theme:T35 Agent:T37
+E9	DECREASES:T49 Agent:T37 Theme:T36
+E10	AFFECTS:T46 Theme:T26 Agent:T28
+E11	AFFECTS:T46 Theme:T23 Agent:T28
+E12	AFFECTS:T46 Theme:T24 Agent:T27
+E13	AFFECTS:T46 Theme:T24 Agent:T28
+E14	AFFECTS:T46 Theme:T25 Agent:T27
+E15	AFFECTS:T46 Theme:T25 Agent:T28
+A1	Negated E6
+A2	Negated E7
+A3	Negated E10
+A4	Negated E11
+A5	Negated E12
+A6	Negated E13
+A7	Negated E14
+A8	Negated E15
+N1	NCIT:C71992 T1	Chickpea
+N2	CHEBI:16634 T2	raffinose
+N3	NCIT:C71992 T3	Chickpea
+N4	CHEBI:16634 T5	raffinose
+N5	NCIT:C71992 T6	Chickpea
+N6	CHEBI:16634 T7	raffinose
+N7	OCHV:C0453399 T10	soups
+N8	NCIT:C178208 T11	Dessert
+N9	NCBITAXON:853 T17	Faecalibacterium prausnitzii
+N10	CHEBI:17968 T19	butyrate
+N11	CHEBI:16634 T20	raffinose
+N12	NCIT:C71992 T21	Chickpea
+N13	CHEBI:17968 T23	butyrate
+N14	CHEBI:30089 T24	acetate
+N15	CHEBI:17272 T25	propionate
+N16	CHEBI:26666 T26	short-chain fatty acid
+N17	NCIT:C71992 T27	Chickpea
+N18	CHEBI:16634 T28	raffinose
+N19	NCBITAXON:1678 T29	Bifidobacterium
+N20	NCBITAXON:1678 T33	Bifidobacterium
+N21	CHEBI:16634 T34	raffinose
+N22	NCBITAXON:1498 T35	Hathewaya histolytica
+N23	NCBITAXON:1560217 T36	Clostridium sp. L74
+N24	NCIT:C71992 T37	Chickpea
+N25	CHEBI:16634 T38	raffinose
+N26	NCIT:C71992 T39	Chickpea
+N27	NCIT:C71992 T40	Chickpea
+N28	CHEBI:16634 T41	raffinose
+N29	NCBITAXON:2 T44	Bacteria
+A9	Factual E1
+A10	Factual E2
+A11	Factual E3
+A12	Factual E4
+A13	Factual E5
+A14	Factual E8
+A15	Factual E9

@@ -1,0 +1,109 @@
+T1	Food 0 7	Avocado
+T2	Physiology 323 339	metabolic health
+T5	DiversityMetric 1554 1565	ɑ diversity
+T6	Nutrient 234 261	monounsaturated fatty acids
+T7	Food 195 203	Avocados
+T8	Physiology 2114 2132	fiber fermentation
+T9	Nutrient 216 229	dietary fiber
+T10	HAS_COMPONENT 208 212	rich
+T11	Physiology 898 901	age
+T12	Physiology 903 906	sex
+T13	Metabolite 1864 1870;1892 1896	cholic acid
+T14	Food 432 439	avocado
+T15	Chemical 932 962	fasting glucose concentrations
+T16	DietPattern 986 1002	isocaloric meals
+T17	HAS_COMPONENT 1003 1007	with
+T18	INCREASES 1544 1553	increased
+T20	Physiology 908 926	visceral adiposity
+T22	Food 1526 1533	avocado
+T23	Metabolite 1219 1228	bile acid
+T24	Food 1019 1026	avocado
+T25	INCREASES 1570 1578	enriched
+T27	Nutrient 263 268	MUFAs
+T29	Food 1681 1688	avocado
+T30	Food 1953 1960	avocado
+T32	DECREASES 1985 1990	lower
+T40	Metabolite 1198 1214	Fecal fatty acid
+T43	Microorganism 1579 1595	Faecalibacterium
+T44	Metabolite 1768 1781	palmitic acid
+T45	Metabolite 1738 1750	stearic acid
+T46	Nutrient 2114 2119	fiber
+T48	Metabolite 1875 1896	chenodeoxycholic acid
+T49	Microorganism 1597 1608	Lachnospira
+T50	Disease 121 131	Overweight
+T51	Disease 135 142	Obesity
+T52	Microorganism 1614 1623	Alistipes
+T53	Metabolite 2052 2057	SCFAs
+T54	INCREASES 1703 1710	greater
+T55	DECREASES 1914 1919	lower
+T56	INCREASES 2023 2030	greater
+T57	Metabolite 2031 2047	fecal fatty acid
+T59	Metabolite 1991 2006	fecal bile acid
+T66	Metabolite 1711 1724	fecal acetate
+T67	INCREASES 1730 1737	greater
+T68	INCREASES 1760 1767	greater
+T139	POS_ASSOCIATED_WITH 310 319	connected
+E1	HAS_COMPONENT:T10 Agent:T7 Theme:T6
+E2	HAS_COMPONENT:T17 Agent:T16 Theme:T24
+E3	HAS_COMPONENT:T10 Agent:T7 Theme:T9
+E5	INCREASES:T18 Agent:T22 Theme:T5
+E6	INCREASES:T25 Agent:T22 Theme:T49
+E7	INCREASES:T25 Agent:T22 Theme:T52
+E8	INCREASES:T67 Agent:T29 Theme:T45
+E9	INCREASES:T56 Agent:T30 Theme:T57
+E10	INCREASES:T54 Agent:T29 Theme:T66
+E11	DECREASES:T55 Agent:T29 Theme:T13
+E12	DECREASES:T32 Theme:T59 Agent:T30
+E13	POS_ASSOCIATED_WITH:T139 Agent:T9 Theme:T2
+E14	INCREASES:T68 Agent:T29 Theme:T44
+E15	POS_ASSOCIATED_WITH:T139 Agent:T6 Theme:T2
+E16	DECREASES:T55 Agent:T29 Theme:T48
+E17	INCREASES:T56 Theme:T53 Agent:T30
+E18	INCREASES:T25 Agent:T22 Theme:T43
+N1	FOODON:00003600 T1	avocado (whole)
+N2	CHEBI:25413 T6	monounsaturated fatty acid
+N3	FOODON:00003600 T7	avocado (whole)
+N4	NCIT:C68492 T9	Dietary Fiber
+N5	NCIT:C25150 T11	Age
+N6	NCIT:C28421 T12	Sex
+N7	CHEBI:16359 T13	cholic acid
+N8	FOODON:00003600 T14	avocado (whole)
+N9	NCIT:C94312 T15	Blood Glucose
+N10	MESH:D050152 T20	Intra-Abdominal Fat
+N11	FOODON:00003600 T22	avocado (whole)
+N12	CHEBI:3098 T23	bile acid
+N13	FOODON:00003600 T24	avocado (whole)
+N14	CHEBI:25413 T27	monounsaturated fatty acid
+N15	FOODON:00003600 T29	avocado (whole)
+N16	FOODON:00003600 T30	avocado (whole)
+N17	CHEBI:35366 T40	fatty acid
+N18	NCBITAXON:216851 T43	Faecalibacterium
+N19	NCIT:C61873 T44	Palmitic Acid
+N20	NCIT:C68426 T45	Stearic Acid
+N21	NCIT:C1502 T46	Fiber
+N22	CHEBI:16755 T48	chenodeoxycholic acid
+N23	NCBITAXON:28050 T49	Lachnospira
+N24	NCIT:C94250 T50	Overweight
+N25	NCIT:C3283 T51	Obesity
+N26	NCBITAXON:239759 T52	Alistipes
+N27	CHEBI:26666 T53	short-chain fatty acid
+N28	CHEBI:35366 T57	fatty acid
+N30	CHEBI:3098 T59	bile acid
+N34	CHEBI:30089 T66	acetate
+A2	Factual E1
+A3	Factual E2
+A4	Factual E3
+A6	Factual E5
+A7	Factual E6
+A8	Factual E7
+A9	Factual E8
+A10	Factual E9
+A11	Factual E10
+A12	Factual E11
+A13	Factual E12
+A14	Factual E13
+A15	Factual E14
+A16	Factual E15
+A17	Factual E16
+A18	Factual E17
+A19	Factual E18

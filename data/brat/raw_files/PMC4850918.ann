@@ -1,0 +1,17 @@
+T2	Population 664 668	mice
+T3	DietPattern 681 693	low-MAC diet
+T4	Nutrient 413 448	Microbiota accessible carbohydrates
+T5	Nutrient 450 454	MACs
+T6	Nutrient 465 478	dietary fiber
+T7	HAS_COMPONENT 456 461	found
+T9	DietPattern 567 579	Western diet
+T10	DietPattern 814 826	low-MAC diet
+T11	Nutrient 923 935	dietary MACs
+T12	Nutrient 1049 1060	dietary MAC
+T13	Nutrient 1133 1145	dietary MACs
+T14	Nutrient 1462 1474	dietary MACs
+E2	HAS_COMPONENT:T7 Agent:T6 Theme:T4
+N1	Reference T3 OCHV:C0259836	low-carbohydrate diet
+N2	Reference T6 NCIT:C68492	Dietary Fiber
+N3	Reference T9 MESH:D066273	Diet, Western
+N4	Reference T10 OCHV:C0259836	low-carbohydrate diet

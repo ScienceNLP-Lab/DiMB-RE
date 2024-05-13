@@ -1,0 +1,379 @@
+T1	Population 144 183	Infants with Cow’s Milk Protein Allergy
+T2	Methodology 190 235	open-label, non-randomized, multicenter trial
+T3	Methodology 422 463	infants with a cow’s milk protein allergy
+T4	Disease 157 183	Cow’s Milk Protein Allergy
+T5	Disease 437 463	cow’s milk protein allergy
+T6	Disease 465 469	CMPA
+T7	Food 287 311	amino acid-based formula
+T8	Food 313 316	AAF
+T9	Nutrient 340 367	human milk oligosaccharides
+T10	Nutrient 369 372	HMO
+T11	Physiology 383 396	normal growth
+T12	Food 570 573	AAF
+T13	Food 14 38	Amino Acid-Based Formula
+T14	Nutrient 61 88	Human Milk Oligosaccharides
+T15	Physiology 92 98	Growth
+T16	Physiology 100 112	Tolerability
+T17	Physiology 114 120	Safety
+T18	Nutrient 592 609	2′-fucosyllactose
+T19	Nutrient 611 616	2′-FL
+T20	Nutrient 622 641	lacto-N-neotetraose
+T21	Nutrient 643 647	LNnT
+T22	Physiology 764 773	Tolerance
+T23	Physiology 778 784	safety
+T24	Biospecimen 1443 1448	fecal
+T25	Metabolite 1449 1472	short-chain fatty acids
+T26	Microorganism 1375 1389	bifidobacteria
+T27	INCREASES 1431 1439	increase
+T28	Nutrient 1361 1364	HMO
+T29	Physiology 1058 1064;1074 1080	Linear growth
+T30	DECREASES 1513 1522	reduction
+T31	Biospecimen 1543 1548	fecal
+T32	Microorganism 1549 1563	Proteobacteria
+T33	Food 1585 1615	HMO-supplemented study formula
+T34	Population 1667 1684	infants with CMPA
+T35	Disease 1680 1684	CMPA
+T36	AFFECTS 0 7	Effects
+T37	POS_ASSOCIATED_WITH 374 382	supports
+T38	Physiology 409 418	tolerated
+T39	HAS_COMPONENT 52 56	with
+T40	HAS_COMPONENT 331 335	with
+T41	HAS_COMPONENT 587 591	with
+T42	Measurement 955 977	weight-for-age Z score
+T43	Measurement 979 982	WAZ
+T44	Physiology 1069 1080	head growth
+T45	Methodology 1107 1133	WHO child growth reference
+T46	Physiology 1186 1200	well tolerated
+T48	Disease 506 529	moderate-to-severe CMPA
+T49	INTERACTS_WITH 1365 1374	utilizing
+T50	Food 17288 17295	formula
+T51	Disease 1654 1663	dysbiosis
+T52	POS_ASSOCIATED_WITH 1616 1635	partially corrected
+T53	Population 650 657	Infants
+T54	Population 831 838	infants
+T55	INCREASES 1347 1357	enrichment
+T56	Population 472 529	Term infants aged 1–8 months with moderate-to-severe CMPA
+T57	Food 677 684	formula
+T58	Methodology 16888 16903	skin prick test
+T59	Food 16907 16917	cow’s milk
+T60	Population 16931 16938	infants
+T61	Methodology 16970 17004	double-blinded oral food challenge
+T62	Methodology 16962 16966;16985 17004	open oral food challenge
+T63	Methodology 17006 17009	OFC
+T64	Disease 17069 17073	CMPA
+T65	Food 17115 17122	Formula
+T66	Food 17172 17194	hypoallergenic formula
+T67	Population 17196 17203	infants
+T68	Food 17251 17265	infant formula
+T69	Population 17410 17417	infants
+T70	Food 17441 17465	cow’s milk-based formula
+T71	Food 17480 17497	soy-based formula
+T72	Food 17512 17551	partially hydrolyzed cow’s milk formula
+T73	Food 17570 17599	hydrolyzed rice-based formula
+T74	Food 17601 17604	HRF
+T75	Population 17645 17652	infants
+T76	Food 17671 17674	EHF
+T77	Population 17685 17692	infants
+T78	Food 17705 17708	HRF
+T79	Food 17743 17746	AAF
+T80	Population 17764 17771	infants
+T81	DietPattern 17783 17809	complementary weaning diet
+T82	Physiology 17959 17970	weight gain
+T83	Food 18000 18007	formula
+T84	Measurement 18052 18063	body weight
+T85	Measurement 18220 18223	WAZ
+T86	Physiology 18277 18280	LAZ
+T87	Physiology 18328 18332	HCAZ
+T88	Physiology 18360 18364	HCAZ
+T89	Measurement 18377 18382	BMIAZ
+T90	Measurement 18455 18460	BMIAZ
+T91	Population 18514 18528	female infants
+T92	Population 18505 18509;18521 18528	male infants
+T93	Food 18562 18569	Formula
+T94	Food 18598 18605	formula
+T95	Food 18766 18773	formula
+T96	Food 18832 18839	formula
+T97	Disease 19046 19050	CMPA
+T98	Biospecimen 19064 19069	Stool
+T99	Population 19218 19225	infants
+T100	Population 19409 19416	infants
+T101	Disease 21178 21192	skin disorders
+T102	Physiology 19520 19528	vomiting
+T103	Physiology 19606 19626	feeding difficulties
+T104	Disease 19724 19737	skin problems
+T105	Population 19789 19796	infants
+T106	Physiology 19813 19833	respiratory symptoms
+T107	Population 19849 19856	infants
+T108	Physiology 19907 19938	Persistent respiratory symptoms
+T109	Physiology 19445 19458	regurgitation
+T110	Disease 21582 21596	dacryostenosis
+T111	Population 19966 19972	infant
+T112	Biospecimen 20085 20090	stool
+T113	Biospecimen 20159 20165	stools
+T114	Physiology 20203 20218	stool frequency
+T115	Physiology 20280 20295	stool frequency
+T116	Physiology 20357 20374	Stool consistency
+T117	Measurement 20395 20414	Bristol stool scale
+T118	Physiology 20439 20456	stool consistency
+T119	Physiology 20472 20493	Bristol type 6 stools
+T120	Physiology 20553 20566	type 5 stools
+T121	Physiology 20622 20635	type 4 stools
+T122	Disease 21201 21218	atopic dermatitis
+T123	Disease 21267 21288	respiratory disorders
+T124	Disease 21324 21350	allergic reactions to food
+T125	Disease 21377 21388	anaphylaxis
+T126	Physiology 22019 22029	flatulence
+T127	Biospecimen 22108 22113	Stool
+T128	Physiology 21619 21635	poor weight gain
+T129	Disease 21645 21664	perforated ear drum
+T130	Disease 21674 21689	iron deficiency
+T131	Food 21879 21892	study formula
+T132	Food 20942 20955	study formula
+T133	Disease 21952 21975	gastroesophageal reflux
+T134	Physiology 22005 22017	loose stools
+T135	Biospecimen 22136 22141	stool
+T136	Population 22158 22165	infants
+T137	Methodology 22185 22199	DNA extraction
+T138	Methodology 22204 22222	genomic sequencing
+T139	Methodology 22291 22307	genomic analysis
+T140	Population 22599 22606	infants
+T141	DiversityMetric 22638 22643;22653 22662	Alpha Diversity
+T142	DiversityMetric 22648 22662	Beta Diversity
+T143	DiversityMetric 22663 22673	Faith’s PD
+T144	DiversityMetric 22703 22718	alpha diversity
+T145	DiversityMetric 22792 22802	Faith’s PD
+T146	DiversityMetric 22887 22889	PD
+T147	DiversityMetric 22958 22972	beta diversity
+T148	Methodology 23056 23073	UniFrac distances
+T149	DiversityMetric 23220 23234	beta diversity
+T150	Methodology 23164 23167	MGS
+T151	Methodology 23453 23486	metagenomic species (MGS) concept
+T152	Metabolite 25774 25782	butyrate
+T153	Microorganism 23652 23666	Actinobacteria
+T154	Microorganism 23683 23697	bifidobacteria
+T155	Microorganism 23811 23825	Proteobacteria
+T156	Microorganism 24001 24019	Enterobacteriaceae
+T157	Microorganism 24225 24239	bifidobacteria
+T158	Microorganism 24373 24388	Escherichia spp
+T159	Microorganism 24545 24560	Akkermansia spp
+T160	Microorganism 24761 24781	Faecalibacterium spp
+T161	Microorganism 24811 24824	Roseburia spp
+T162	Microorganism 24852 24867	Bacteroides spp
+T163	Microorganism 24899 24913	Prevotella spp
+T164	Microorganism 25044 25054	Rothia spp
+T165	Microorganism 25084 25098	Klebsiella spp
+T166	Microorganism 25127 25143	Enterococcus spp
+T167	Microorganism 25172 25189	Streptococcus spp
+T168	Microorganism 25223 25238	Citrobacter spp
+T169	Microorganism 25434 25449	bifidobacterial
+T170	Microorganism 25505 25521	Escherichia coli
+T171	Microorganism 25632 25655	Akkermansia muciniphila
+T172	Microorganism 25845 25873	Faecalibacterium prausnitzii
+T173	Microorganism 26026 26041	Bifidobacterial
+T174	Methodology 26088 26091	MGS
+T175	Microorganism 26115 26130	Bifidobacterium
+T176	Biospecimen 26165 26170	fecal
+T177	Microorganism 26186 26194	B. breve
+T178	Microorganism 26196 26205	B. longum
+T179	Microorganism 26207 26227	B. pseudocatenulatum
+T180	Microorganism 26233 26243	B. bifidum
+T181	Microorganism 26267 26282	bifidobacterial
+T182	Microorganism 26360 26380	B. pseudocatenulatum
+T183	Microorganism 26397 26433	B. catenulatum subsp. kashiwanohense
+T184	Microorganism 26575 26583	B. breve
+T185	Microorganism 26742 26757	Bifidobacterium
+T186	Methodology 26971 27000	Taxon Set Enrichment Analysis
+T187	Methodology 27005 27034	taxon set enrichment analysis
+T188	Methodology 27036 27040	TSEA
+T189	Methodology 27140 27143	MGS
+T190	Methodology 27222 27226	TSEA
+T191	Microorganism 27309 27324	bifidobacterial
+T192	Microorganism 27445 27459	bifidobacteria
+T194	Microorganism 27461 27469	B. breve
+T195	Microorganism 27471 27481	B. bifidum
+T196	Microorganism 27483 27506	B. longum subsp. longum
+T197	Microorganism 27511 27536	B. longum subsp. infantis
+T198	Microorganism 27566 27597	proteobacterium Escherichia spp
+T199	Methodology 27680 27683	MGS
+T200	Microorganism 27699 27720	Lachnoclostridium spp
+T201	Microorganism 27787 27816	Proteobacteria Klebsiella spp
+T202	Microorganism 27861 27876	Escherichia spp
+T203	Methodology 27945 27948	MGS
+T204	Microorganism 27952 27967	Bacteroides spp
+T205	Microorganism 28039 28056	Streptococcus spp
+T206	Microorganism 28059 28074	Escherichia spp
+T207	Microorganism 28081 28091	Rothia spp
+T208	Metabolite 28114 28136	Short-Chain Fatty Acid
+T209	Biospecimen 28108 28113	Fecal
+T210	Biospecimen 28144 28149	Fecal
+T211	Metabolite 28178 28182	SCFA
+T212	Metabolite 28184 28191	acetate
+T213	Metabolite 28193 28203	propionate
+T214	Metabolite 28209 28217	butyrate
+T215	Metabolite 28323 28330	acetate
+T216	Microorganism 28366 28380	bifidobacteria
+T217	Metabolite 28448 28456	butyrate
+T218	Metabolite 28509 28519	propionate
+T219	Food 17369 17377	formulas
+T220	Population 17390 17397	infants
+T221	INCREASES 25783 25792	producing
+T222	Microorganism 25945 25964	Anaerostipes caccae
+T5111	Population 16320 16327	infants
+T5211	Population 16419 16426	infants
+T5311	Population 16556 16563	infants
+T5411	Population 16662 16669	infants
+T5511	Disease 16729 16733	CMPA
+T5611	Population 16834 16841	infants
+T5711	Population 16860 16867	infants
+E1	INCREASES:T27 Theme:T25 Agent:T26
+E2	INCREASES:T221 Agent:T172 Theme:T152
+E3	DECREASES:T30 Theme:T32 Agent:T33
+E4	AFFECTS:T36 Agent:T13 Theme:T15
+E5	POS_ASSOCIATED_WITH:T37 Theme:T11 Agent:T7
+E6	POS_ASSOCIATED_WITH:T37 Agent:T7 Theme:T38
+E7	HAS_COMPONENT:T39 Agent:T13 Theme:T14
+E8	AFFECTS:T36 Agent:T13 Theme:T16
+E9	AFFECTS:T36 Agent:T13 Theme:T17
+E10	HAS_COMPONENT:T40 Agent:T7 Theme:T9
+E11	HAS_COMPONENT:T41 Agent:T12 Theme:T20
+E12	HAS_COMPONENT:T41 Agent:T12 Theme:T18
+E13	INCREASES:T221 Theme:T152 Agent:T222
+E14	INTERACTS_WITH:T49 Theme:T28 Theme2:T26
+E15	POS_ASSOCIATED_WITH:T52 Theme:T51 Agent:T33
+E16	INCREASES:T55 Theme:T26 Agent:T33
+A1	Factuality E5 Unknown
+A2	Factuality E6 Unknown
+A3	Factuality E4 Unknown
+A4	Factuality E8 Unknown
+A5	Factuality E9 Unknown
+N1	Reference T4 MESH:D016269	Milk Hypersensitivity
+N2	Reference T5 MESH:D016269	Milk Hypersensitivity
+N3	Reference T6 MESH:D016269	Milk Hypersensitivity
+N4	Reference T7 FOODON:03315760	infant formula based on isolated amino acids and/or protein hydrolysates
+N5	Reference T8 FOODON:03315760	infant formula based on isolated amino acids and/or protein hydrolysates
+N6	Reference T9 NCIT:C714	Oligosaccharide
+N7	Reference T10 NCIT:C714	Oligosaccharide
+N8	Reference T11 OCHV:C0578019	normal growth
+N9	Reference T12 FOODON:03315760	infant formula based on isolated amino acids and/or protein hydrolysates
+N10	Reference T13 FOODON:03315760	infant formula based on isolated amino acids and/or protein hydrolysates
+N11	Reference T14 NCIT:C714	Oligosaccharide
+N12	Reference T15 NCIT:C64379	Growth
+N13	Reference T16 NCIT:C43414	Tolerance
+N14	Reference T17 MESH:D061214	Patient Safety
+N15	Reference T18 CHEBI:147155	2'-fucosyllactose
+N16	Reference T19 CHEBI:147155	2'-fucosyllactose
+N17	Reference T20 MESH:C013084	lacto-N-neotetraose
+N18	Reference T21 MESH:C013084	lacto-N-neotetraose
+N19	Reference T22 NCIT:C43414	Tolerance
+N20	Reference T23 MESH:D061214	Patient Safety
+N21	Reference T25 CHEBI:26666	short-chain fatty acid
+N22	Reference T26 NCBITAXON:1678	Bifidobacterium
+N23	Reference T28 NCIT:C714	Oligosaccharide
+N24	Reference T29 NCIT:C64379	Growth
+N25	Reference T32 NCBITAXON:1224	Proteobacteria
+N26	Reference T35 MESH:D016269	Milk Hypersensitivity
+N27	Reference T38 NCIT:C43414	Tolerance
+N28	Reference T42 NCIT:C163569	Weight-for-Age Percentile
+N29	Reference T48 MESH:D016269	Milk Hypersensitivity
+N30	Reference T50 FOODON:03303130	infant formula
+N31	Reference T51 MESH:D064806	Dysbiosis
+N32	Reference T57 FOODON:03303130	infant formula
+N33	Reference T59 NCIT:C66153	Cow Milk
+N34	Reference T64 MESH:D016269	Milk Hypersensitivity
+N35	Reference T65 FOODON:03303130	infant formula
+N36	Reference T68 FOODON:03303130	infant formula
+N37	Reference T70 FOODON:03311523	infant formula (milk-based)
+N38	Reference T71 FOODON:03310561	infant formula (soy-based)
+N39	Reference T79 FOODON:03315760	infant formula based on isolated amino acids and/or protein hydrolysates
+N40	Reference T82 NCIT:C62754	Weight Gain
+N41	Reference T83 FOODON:03303130	infant formula
+N42	Reference T84 NCIT:C81328	Body Weight
+N43	Reference T93 FOODON:03303130	infant formula
+N44	Reference T94 FOODON:03303130	infant formula
+N45	Reference T95 FOODON:03303130	infant formula
+N46	Reference T96 FOODON:03303130	infant formula
+N47	Reference T97 MESH:D016269	Milk Hypersensitivity
+N48	Reference T101 NCIT:C3371	Skin Disorder
+N49	Reference T102 NCIT:C3442	Vomiting
+N50	Reference T103 NCIT:C50560	Feeding Problem
+N51	Reference T104 NCIT:C3371	Skin Disorder
+N52	Reference T106 OCHV:11342	respiratory symptoms
+N53	Reference T108 OCHV:11342	respiratory symptoms
+N54	Reference T109 NCIT:C50726	Regurgitation
+N55	Reference T110 NCIT:C34757	Lacrimal Duct Obstruction
+N56	Reference T116 NCIT:C129750	Shape and Consistency of Stool
+N57	Reference T117 NCIT:C125393	Bristol Stool Scale
+N58	Reference T118 NCIT:C129750	Shape and Consistency of Stool
+N59	Reference T119 NCIT:C125399	Bristol Stool Type 6
+N60	Reference T120 NCIT:C125398	Bristol Stool Type 5
+N61	Reference T121 NCIT:C125397	Bristol Stool Type 4
+N62	Reference T122 MESH:D003876	Dermatitis, Atopic
+N63	Reference T123 NCIT:C26871	Respiratory System Disorder
+N64	Reference T124 NCIT:C172304	Food Allergy
+N65	Reference T125 NCIT:C107101	Anaphylaxis
+N66	Reference T126 NCIT:C37954	Flatulence
+N67	Reference T128 NCIT:C111659	Poor Weight Gain
+N68	Reference T129 MESH:D018058	Tympanic Membrane Perforation
+N69	Reference T130 NCIT:C158814	Iron Deficiency
+N70	Reference T131 FOODON:03303130	infant formula
+N71	Reference T132 FOODON:03303130	infant formula
+N72	Reference T133 NCIT:C92560	Gastroesophageal Reflux
+N73	Reference T134 NCIT:C87128	Loose Sool
+N74	Reference T152 CHEBI:17968	butyrate
+N75	Reference T153 NCBITAXON:201174	Actinobacteria
+N76	Reference T154 NCBITAXON:1678	Bifidobacterium
+N77	Reference T155 NCBITAXON:1224	Proteobacteria
+N78	Reference T156 NCBITAXON:543	Enterobacteriaceae
+N79	Reference T157 NCBITAXON:1678	Bifidobacterium
+N80	Reference T158 NCBITAXON:561	Escherichia
+N81	Reference T159 NCBITAXON:239934	Akkermansia
+N82	Reference T160 NCBITAXON:216851	Faecalibacterium
+N83	Reference T161 NCBITAXON:841	Roseburia
+N84	Reference T162 NCBITAXON:816	Bacteroides
+N85	Reference T163 NCBITAXON:838	Prevotella
+N86	Reference T164 NCBITAXON:32207	Rothia
+N87	Reference T165 NCBITAXON:570	Klebsiella
+N88	Reference T166 NCBITAXON:1350	Enterococcus
+N89	Reference T167 NCBITAXON:1301	Streptococcus
+N90	Reference T168 NCBITAXON:544	Citrobacter
+N91	Reference T169 NCBITAXON:1678	Bifidobacterium
+N92	Reference T170 NCBITAXON:562	Escherichia coli
+N93	Reference T171 NCBITAXON:239935	Akkermansia muciniphila
+N94	Reference T172 NCBITAXON:853	Faecalibacterium prausnitzii
+N95	Reference T173 NCBITAXON:1678	Bifidobacterium
+N96	Reference T175 NCBITAXON:1678	Bifidobacterium
+N97	Reference T177 NCBITAXON:1685	Bifidobacterium breve
+N98	Reference T178 NCBITAXON:216816	Bifidobacterium longum
+N99	Reference T179 NCBITAXON:28026	Bifidobacterium pseudocatenulatum
+N100	Reference T180 NCBITAXON:1681	Bifidobacterium bifidum
+N101	Reference T181 NCBITAXON:1678	Bifidobacterium
+N102	Reference T182 NCBITAXON:28026	Bifidobacterium pseudocatenulatum
+N103	Reference T183 NCBITAXON:630129	Bifidobacterium catenulatum subsp. Kashiwanohense
+N104	Reference T184 NCBITAXON:1685	Bifidobacterium breve
+N105	Reference T185 NCBITAXON:1678	Bifidobacterium
+N106	Reference T191 NCBITAXON:1678	Bifidobacterium
+N107	Reference T192 NCBITAXON:1678	Bifidobacterium
+N108	Reference T194 NCBITAXON:1685	Bifidobacterium breve
+N109	Reference T195 NCBITAXON:1681	Bifidobacterium bifidum
+N110	Reference T196 NCBITAXON:1679	Bifidobacterium longum subsp. Longum
+N111	Reference T197 NCBITAXON:1682	Bifidobacterium longum subsp. Infantis
+N112	Reference T198 NCBITAXON:561	Escherichia
+N113	Reference T200 NCBITAXON:1506553	Lachnoclostridium
+N114	Reference T201 NCBITAXON:570	Klebsiella
+N115	Reference T202 NCBITAXON:561	Escherichia
+N116	Reference T204 NCBITAXON:816	Bacteroides
+N117	Reference T205 NCBITAXON:1301	Streptococcus
+N118	Reference T206 NCBITAXON:561	Escherichia
+N119	Reference T207 NCBITAXON:32207	Rothia
+N120	Reference T208 CHEBI:26666	short-chain fatty acid
+N121	Reference T211 CHEBI:26666	short-chain fatty acid
+N122	Reference T212 CHEBI:30089	acetate
+N123	Reference T213 CHEBI:17272	propionate
+N124	Reference T214 CHEBI:17968	butyrate
+N125	Reference T215 CHEBI:30089	acetate
+N126	Reference T216 NCBITAXON:1678	Bifidobacterium
+N127	Reference T217 CHEBI:17968	butyrate
+N128	Reference T218 CHEBI:17272	propionate
+N129	Reference T219 FOODON:03303130	infant formula
+N130	Reference T222 NCBITAXON:105841	Anaerostipes caccae
+N131	Reference T5511 MESH:D016269	Milk Hypersensitivity

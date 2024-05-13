@@ -1,0 +1,106 @@
+T1	Methodology 15 36	in vitro fermentation
+T2	Methodology 134 170	High-pressure hydrothermal treatment
+T3	Nutrient 65 104	feruloylated oligo- and polysaccharides
+T4	Nutrient 264 303	feruloylated oligo- and polysaccharides
+T5	Food 453 463	maize bran
+T6	Nutrient 305 309	FOPS
+T7	Metabolite 1284 1306	short-chain fatty acid
+T8	Metabolite 1340 1344	SCFA
+T9	INCREASES 1446 1452	higher
+T10	Methodology 910 948	Partial purification with ion exchange
+T11	Methodology 910 935;953 961	Partial purification with dialysis
+T12	Nutrient 1046 1050	FOPS
+T13	Methodology 1147 1168	in vitro fermentation
+T14	Food 1183 1188	wheat
+T15	Food 468 478	wheat bran
+T16	Metabolite 1349 1357	butyrate
+T17	Nutrient 584 588	FOPS
+T19	Food 1717 1727	wheat bran
+T20	INCREASES 1270 1280	production
+T22	Food 1641 1651	maize bran
+T23	Food 767 777	maize bran
+T24	Food 793 803	wheat bran
+T25	Nutrient 839 843	FOPS
+T26	Food 614 618	bran
+T27	Nutrient 1183 1193	wheat FOPS
+T28	Physiology 1204 1215	bifidogenic
+T29	HAS_COMPONENT 448 452	from
+T30	INCREASES 1199 1203	more
+T31	Nutrient 1242 1252	maize FOPS
+T32	Methodology 1108 1126	in vitro digestion
+T33	INCREASES 1332 1339	highest
+T34	Nutrient 1414 1424	maize FOPS
+T35	Physiology 1453 1473	antioxidant activity
+T36	Nutrient 1534 1538	FOPS
+T37	Food 1544 1554	maize bran
+T38	Food 1559 1569	wheat bran
+T39	Nutrient 443 447	FOPS
+T40	Nutrient 547 551	FOPS
+T41	Nutrient 1072 1084	carbohydrate
+T42	Nutrient 1089 1095	starch
+T43	Nutrient 868 893	non-starch polysaccharide
+T44	Nutrient 1221 1231	maize FOPS
+T45	Nutrient 1138 1144	starch
+T46	INCREASES 820 827	highest
+T47	Food 110 115;126 131	maize brans
+T48	Food 120 131	wheat brans
+T49	Nutrient 1479 1489	wheat FOPS
+T50	Nutrient 1018 1030	carbohydrate
+T51	Nutrient 623 628	water
+T52	Food 174 185	cereal bran
+T53	Metabolite 1308 1312	SCFA
+T54	HAS_COMPONENT 1539 1543	from
+T55	Nutrient 1631 1635	FOPS
+T56	HAS_COMPONENT 1636 1640	from
+T57	Food 1221 1226	maize
+T58	Food 1242 1247	maize
+T59	Food 1414 1419	maize
+T60	Food 1479 1484	wheat
+T61	HAS_COMPONENT 552 556	from
+T62	Food 557 567	maize bran
+T63	Food 572 582	wheat bran
+E1	HAS_COMPONENT:T29 Theme:T39 Agent:T5
+E2	INCREASES:T9 Agent:T34 Theme:T35
+E3	INCREASES:T30 Agent:T27 Theme:T28
+E4	INCREASES:T33 Agent:T31 Theme:T8
+E5	INCREASES:T33 Agent:T31 Theme:T16
+E6	HAS_COMPONENT:T29 Theme:T39 Agent:T15
+E7	INCREASES:T20 Agent:T31 Theme:T7
+E8	INCREASES:T46 Agent:T23 Theme:T25
+E9	HAS_COMPONENT:T54 Theme:T36 Agent:T37
+E10	INCREASES:T46 Agent:T24 Theme:T25
+E11	HAS_COMPONENT:T54 Theme:T36 Agent:T38
+E12	HAS_COMPONENT:T56 Theme:T55 Agent:T22
+E13	HAS_COMPONENT:T56 Theme:T55 Agent:T19
+E14	HAS_COMPONENT:T61 Theme:T40 Agent:T63
+E15	HAS_COMPONENT:T61 Theme:T40 Agent:T62
+N1	Reference T5 NCIT:C75955	Corn bran
+N2	Reference T7 CHEBI:26666	short-chain fatty acid
+N3	Reference T8 CHEBI:26666	short-chain fatty acid
+N4	Reference T14 NCIT:C74546	Wheat
+N5	Reference T15 FOODON:03304608	wheat bran
+N6	Reference T16 CHEBI:17968	butyrate
+N7	Reference T19 FOODON:03304608	wheat bran
+N8	Reference T22 NCIT:C75955	Corn bran
+N9	Reference T23 NCIT:C75955	Corn bran
+N10	Reference T24 FOODON:03304608	wheat bran
+N11	Reference T26 OCHV:C0353942	bran
+N12	Reference T35 OCHV:55258	antioxidant activity
+N13	Reference T37 NCIT:C75955	Corn bran
+N14	Reference T38 FOODON:03304608	wheat bran
+N15	Reference T41 CHEBI:16646	carbohydrate
+N16	Reference T42 CHEBI:28017	starch
+N17	Reference T43 NCIT:C68497	Non-Starch Polysaccharide
+N18	Reference T45 CHEBI:28017	starch
+N19	Reference T47 NCIT:C75955	Corn bran
+N20	Reference T48 FOODON:03304608	wheat bran
+N21	Reference T50 CHEBI:16646	carbohydrate
+N22	Reference T51 CHEBI:15377	water
+N23	Reference T52 FOODON:03540108	cereal bran
+N24	Reference T53 CHEBI:26666	short-chain fatty acid
+N25	Reference T57 NCIT:C72066	Corn
+N26	Reference T58 NCIT:C72066	Corn
+N27	Reference T59 NCIT:C72066	Corn
+N28	Reference T60 NCIT:C74546	Wheat
+N29	Reference T62 NCIT:C75955	Corn bran
+N30	Reference T63 FOODON:03304608	wheat bran

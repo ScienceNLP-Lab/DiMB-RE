@@ -1,0 +1,129 @@
+T1	Disease 27 32	NAFLD
+T2	DietPattern 46 68	high carbohydrate diet
+T3	Physiology 102 129	hepatic de novo lipogenesis
+T4	AFFECTS 12 18	effect
+T5	Disease 140 172	Nonalcoholic fatty liver disease
+T6	Disease 174 179	NAFLD
+T7	ASSOCIATED_WITH 184 194	associated
+T8	DietPattern 200 229	high carbohydrate (HC) intake
+T9	Disease 902 907	NAFLD
+T10	Nutrient 280 292	carbohydrate
+T11	Disease 304 309	NAFLD
+T12	Physiology 403 430	hepatic de novo lipogenesis
+T13	Physiology 432 435	DNL
+T14	ASSOCIATED_WITH 259 271	relationship
+T15	Measurement 699 723	percentage energy intake
+T17	Disease 511 516	NAFLD
+T20	Measurement 668 688	NAFLD activity score
+T21	ASSOCIATED_WITH 724 728	from
+T22	Measurement 690 693	NAS
+T24	Nutrient 729 749	dietary carbohydrate
+T25	DietPattern 952 959	HC diet
+T26	DietPattern 974 995	low carbohydrate diet
+T27	Measurement 1070 1073	NAS
+T28	Microorganism 1148 1166	Enterobacteriaceae
+T29	Microorganism 1171 1186	Ruminococcaceae
+T30	Measurement 1226 1229	NAS
+T31	Disease 1243 1248	NAFLD
+T32	DietPattern 1274 1281	HC diet
+T33	Microorganism 1340 1355	Veillonellaceae
+T34	Measurement 1455 1470	body mass index
+T35	Physiology 1472 1475	age
+T36	Physiology 1481 1484	sex
+T37	Disease 1496 1524	nonalcoholic steatohepatitis
+T38	DietPattern 1532 1534	HC
+T39	DietPattern 1549 1551	HC
+T40	Measurement 1648 1651	NAS
+T42	Microorganism 1749 1767	Enterobacteriaceae
+T43	Physiology 1951 1979	impaired glucose homeostasis
+T44	DietPattern 1867 1869	HC
+T45	DietPattern 1890 1897	HC diet
+T46	INCREASES 1985 1997	upregulation
+T47	WORSENS 1951 1959	impaired
+T48	PREDISPOSES 2031 2043	contributing
+T49	Physiology 372 397	impaired insulin response
+T50	Physiology 346 370	gut microbial modulation
+T51	AFFECTS 1020 1027	altered
+T54	Physiology 751 782	Hepatic DNL-related transcripts
+T56	Physiology 1585 1588	DNL
+T57	Gene 1590 1595	SIRT1
+T58	Gene 1600 1606	SREBF2
+T59	CAUSES 1715 1728	causal effect
+T61	Measurement 1802 1841	surrogate markers of insulin resistance
+T62	INCREASES 1778 1790	upregulation
+T63	DiversityMetric 1028 1052	gut microbiome diversity
+T65	Gene 1771 1777	SREBF2
+T66	Measurement 1395 1430	performance of the predictive model
+T67	Gene 2001 2018	hepatic DNL genes
+T69	Disease 2047 2052	NAFLD
+T70	Disease 1845 1850	NAFLD
+T73	PREDISPOSES 1488 1495	predict
+T411	Disease 1123 1128	NAFLD
+E1	AFFECTS:T4 Theme:T1 Agent:T2
+E2	AFFECTS:T51 Agent:T25 Theme:T63
+E3	ASSOCIATED_WITH:T7 Theme:T5 Theme2:T8
+E4	ASSOCIATED_WITH:T14 Theme:T10 Theme2:T11
+E6	WORSENS:T47 Agent:T45 Theme:T43
+E9	PREDISPOSES:T48 Agent:T45 Theme:T69
+E10	INCREASES:T62 Agent:T42 Theme:T65
+E12	ASSOCIATED_WITH:T21 Theme:T15 Theme2:T24
+E17	CAUSES:T59 Theme:T70 Agent:T61
+E18	INCREASES:T46 Agent:T45 Theme:T67
+E20	PREDISPOSES:T73 Theme:T37 Agent:T33
+E21	PREDISPOSES:T73 Theme:T37 Agent:T28
+E22	PREDISPOSES:T73 Theme:T37 Agent:T29
+A2	Unknown E1
+N1	MESH:D065626 T1	Non-alcoholic Fatty Liver Disease
+N2	OCHV:C0259835 T2	high carbohydrate diet
+N3	MESH:D050155 T3	Lipogenesis
+N4	NCIT:C84444 T5	Nonalcoholic Fatty Liver Disease
+N5	MESH:D065626 T6	Non-alcoholic Fatty Liver Disease
+N6	OCHV:C0259835 T8	high carbohydrate diet
+N7	MESH:D065626 T9	Non-alcoholic Fatty Liver Disease
+N8	CHEBI:16646 T10	carbohydrate
+N9	MESH:D065626 T11	Non-alcoholic Fatty Liver Disease
+N10	MESH:D050155 T12	Lipogenesis
+N11	MESH:D050155 T13	Lipogenesis
+N12	NCIT:C28135 T15	Caloric Intake
+N13	MESH:D065626 T17	Non-alcoholic Fatty Liver Disease
+N14	NCIT:C181472 T20	Non-Alcoholic Fatty Liver Disease Activity Score
+N15	NCIT:C181472 T22	Non-Alcoholic Fatty Liver Disease Activity Score
+N16	NCIT:C68470 T24	Dietary Carbohydrate
+N17	OCHV:C0259835 T25	high carbohydrate diet
+N18	OCHV:C0259836 T26	low-carbohydrate diet
+N19	NCIT:C181472 T27	Non-Alcoholic Fatty Liver Disease Activity Score
+N20	NCBITAXON:543 T28	Enterobacteriaceae
+N21	NCBITAXON:216572 T29	Oscillospiraceae
+N22	NCIT:C181472 T30	Non-Alcoholic Fatty Liver Disease Activity Score
+N23	MESH:D065626 T31	Non-alcoholic Fatty Liver Disease
+N24	OCHV:C0259835 T32	high carbohydrate diet
+N25	NCBITAXON:31977 T33	Veillonellaceae
+N26	NCIT:C16358 T34	Body Mass Index
+N27	NCIT:C25150 T35	Age
+N28	NCIT:C28421 T36	Sex
+N29	NCIT:C84445 T37	Nonalcoholic Steatohepatitis
+N30	OCHV:C0259835 T38	high carbohydrate diet
+N31	OCHV:C0259835 T39	high carbohydrate diet
+N32	NCIT:C181472 T40	Non-Alcoholic Fatty Liver Disease Activity Score
+N33	NCBITAXON:543 T42	Enterobacteriaceae
+N34	OCHV:C0259835 T44	high carbohydrate diet
+N35	OCHV:C0259835 T45	high carbohydrate diet
+N37	MESH:D050155 T56	Lipogenesis
+N38	GENE:23411 T57	SIRT1
+N39	GENE:6721 T58	SREBF2
+N41	GENE:6721 T65	SREBF2
+N43	MESH:D065626 T69	Non-alcoholic Fatty Liver Disease
+N44	MESH:D065626 T70	Non-alcoholic Fatty Liver Disease
+N277	MESH:D065626 T411	Non-alcoholic Fatty Liver Disease
+A212	Factual E2
+A213	Factual E3
+A214	Factual E4
+A216	Factual E6
+A219	Factual E9
+A220	Factual E10
+A222	Factual E12
+A227	Factual E17
+A228	Factual E18
+A230	Factual E20
+A231	Factual E21
+A232	Factual E22

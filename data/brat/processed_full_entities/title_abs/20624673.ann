@@ -1,0 +1,108 @@
+T1	Nutrient 29 54	isomalto-oligosaccharides
+T2	IMPROVES 55 63	improved
+T3	Physiology 92 106	bowel function
+T4	Methodology 170 211	placebo-controlled, diet-controlled trial
+T5	Population 140 166	constipated elderly people
+T6	Chemical 118 136	cholesterol levels
+T7	Nutrient 306 330	isomalto-oligosaccharide
+T8	Nutrient 332 334	IO
+T9	Physiology 373 387	bowel function
+T10	Population 441 469	constipated elderly subjects
+T11	Measurement 393 437	biochemical indicators of nutritional status
+T12	Population 579 599	constipated subjects
+T13	Nutrient 510 512	IO
+T14	Methodology 640 661	diet-controlled study
+T15	Nutrient 712 714	IO
+T16	Nutrient 750 753	IO1
+T17	Nutrient 758 761	IO2
+T18	Biospecimen 796 801	blood
+T19	Biospecimen 848 854	Stools
+T20	Physiology 911 925	bowel function
+T21	Microorganism 981 995	bifidobacteria
+T22	Microorganism 997 1009	lactobacilli
+T23	Microorganism 1015 1026	bacteroides
+T24	INCREASES 1059 1082	significantly increased
+T25	Microorganism 1087 1097	clostridia
+T26	DECREASES 1104 1113	decreased
+T27	Nutrient 1132 1135	IO1
+T28	Nutrient 1184 1187	IO2
+T29	Nutrient 1234 1237	IO1
+T30	Nutrient 1345 1347	IO
+T31	Nutrient 1422 1425	IO2
+T32	Nutrient 1482 1485	IO1
+T33	Nutrient 1494 1497	IO2
+T34	Nutrient 1661 1663	IO
+T35	AFFECTS 295 302	effects
+T36	Metabolite 1301 1308	acetate
+T37	Metabolite 1313 1323	propionate
+T38	INCREASES 1324 1333	increased
+T39	Physiology 1382 1404	spontaneous defecation
+T40	INCREASES 1405 1414	increased
+T41	Measurement 1438 1452	wet fecal mass
+T42	Biospecimen 1442 1447	fecal
+T43	INCREASES 1453 1462	increased
+T44	Nutrient 1522 1524	IO
+T45	Physiology 1528 1542	bowel function
+T46	Chemical 1591 1626	low-density lipoprotein cholesterol
+T47	Physiology 1574 1586	Plasma total
+T48	DECREASES 1639 1644	lower
+T49	Nutrient 1753 1755	IO
+T50	DietPattern 1779 1793	low-fiber diet
+T51	IMPROVES 1794 1802	improved
+T52	Physiology 1834 1848	bowel movement
+T53	Population 1880 1908	constipated elderly subjects
+T54	AFFECTS 1511 1518	effects
+T55	HAS_COMPONENT 1772 1776	into
+E1	IMPROVES:T2 Agent:T1 Theme:T3
+E2	INCREASES:T24 Theme:T21 Agent:T27
+E3	DECREASES:T26 Theme:T25 Agent:T27
+E4	INCREASES:T24 Theme:T22 Agent:T27
+E5	INCREASES:T24 Theme:T23 Agent:T27
+E6	IMPROVES:T2 Agent:T1 Theme:T6
+E7	AFFECTS:T35 Agent:T7 Theme:T9
+E8	AFFECTS:T35 Agent:T7 Theme:T11
+E9	INCREASES:T38 Agent:T30 Theme:T37
+E10	INCREASES:T38 Agent:T30 Theme:T36
+E11	INCREASES:T40 Agent:T31 Theme:T39
+E12	INCREASES:T43 Theme:T41 Agent:T32
+E13	INCREASES:T43 Theme:T41 Agent:T33
+E14	DECREASES:T48 Agent:T34 Theme:T46
+E15	DECREASES:T48 Agent:T34 Theme:T47
+E16	IMPROVES:T51 Agent:T49 Theme:T52
+E17	AFFECTS:T54 Agent:T44 Theme:T45
+E18	HAS_COMPONENT:T55 Agent:T50 Theme:T49
+A1	Unknown E7
+A2	Unknown E8
+N1	NCIT:C94609 T3	Bowel Function
+N2	NCIT:C369 T6	Cholesterol
+N3	NCIT:C94609 T9	Bowel Function
+N4	NCIT:C94609 T20	Bowel Function
+N5	NCBITAXON:1678 T21	Bifidobacterium
+N6	NCBITAXON:1578 T22	Lactobacillus
+N7	NCBITAXON:816 T23	Bacteroides
+N8	NCBITAXON:186801 T25	Clostridia
+N9	CHEBI:30089 T36	acetate
+N10	CHEBI:17272 T37	propionate
+N11	MESH:D005242 T39	Fecal incontinence
+N12	NCIT:C87128 T41	Loose Stool
+N13	NCIT:C94609 T45	Bowel Function
+N14	CHEBI:47774 T46	low-density lipoprotein cholesterol
+N15	NCIT:C13356 T47	Plasma
+N16	OCHV:C0344356 T50	low fiber diet
+N17	NCIT:C94609 T52	Bowel Function
+A3	Factual E1
+A4	Factual E2
+A5	Factual E3
+A6	Factual E4
+A7	Factual E5
+A8	Factual E6
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18

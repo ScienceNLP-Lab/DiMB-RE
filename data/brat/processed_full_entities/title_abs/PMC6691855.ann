@@ -1,0 +1,158 @@
+T1	Nutrient 56 62	inulin
+T2	IMPROVES 63 71	improves
+T3	Nutrient 29 52	inulin-propionate ester
+T4	Physiology 72 91	insulin sensitivity
+T5	Population 95 129	adults with overweight and obesity
+T6	Disease 107 117	overweight
+T7	Disease 122 129	obesity
+T8	Physiology 197 228	systemic inflammatory responses
+T9	Metabolite 175 192	plasma metabolome
+T10	Methodology 232 259	randomised cross-over trial
+T11	AFFECTS 144 151	effects
+T12	Physiology 330 349	glucose homeostasis
+T13	Metabolite 367 377	propionate
+T14	Metabolite 469 486	plasma metabolome
+T15	Physiology 491 507	immune responses
+T16	Population 523 570	non-diabetic adults with overweight and obesity
+T17	Disease 548 558	overweight
+T18	Disease 563 570	obesity
+T19	Nutrient 592 615	inulin-propionate ester
+T20	Nutrient 617 620	IPE
+T21	Metabolite 655 665	propionate
+T22	Nutrient 682 704	high-fermentable fibre
+T23	Nutrient 714 720	inulin
+T24	Methodology 775 838	randomised, double-blind, placebo-controlled, cross-over design
+T25	Physiology 864 883	metabolic responses
+T26	Measurement 885 905	inflammatory markers
+T27	Nutrient 1013 1016	IPE
+T28	Nutrient 1021 1027	inulin
+T29	IMPROVES 1044 1052	improved
+T30	Disease 1053 1071	insulin resistance
+T31	Methodology 1125 1155	homeostatic model assessment 2
+T32	Nutrient 1176 1179	IPE
+T33	Nutrient 1223 1229	inulin
+T34	Nutrient 1292 1295	IPE
+T35	Nutrient 1300 1306	inulin
+T36	Nutrient 728 749	low-fermentable fibre
+T37	Chemical 1318 1333	Fasting insulin
+T38	POS_ASSOCIATED_WITH 1343 1364	associated positively
+T39	NEG_ASSOCIATED_WITH 1390 1400	negatively
+T40	Nutrient 1431 1437	inulin
+T41	Nutrient 1455 1458	IPE
+T42	DECREASES 1475 1484	decreased
+T43	Chemical 1501 1514	interleukin-8
+T44	Nutrient 1553 1559	inulin
+T45	AFFECTS 1564 1573	no impact
+T46	Measurement 1581 1610	systemic inflammatory markers
+T47	Nutrient 1620 1626	Inulin
+T48	Metabolite 1377 1385	tyrosine
+T49	Metabolite 1413 1420	glycine
+T50	Microorganism 1703 1717	Actinobacteria
+T51	INCREASES 1693 1702	increased
+T52	DECREASES 1722 1731	decreased
+T53	Microorganism 1732 1742	Clostridia
+T54	DECREASES 1761 1770	decreased
+T55	Microorganism 1771 1784	Clostridiales
+T56	Nutrient 1872 1875	IPE
+T57	Metabolite 1979 1989	propionate
+T58	IMPROVES 2013 2025	improvements
+T59	INCREASES 1963 1970	raising
+T60	Population 2002 2008	humans
+T61	Nutrient 2061 2064	IPE
+T62	Physiology 2029 2048	insulin sensitivity
+T63	Nutrient 2069 2075	inulin
+T64	Metabolite 2123 2140	plasma metabolome
+T65	Measurement 2172 2204	markers of systemic inflammation
+T66	AFFECTS 2108 2115	effects
+E1	AFFECTS:T11 Theme:T8 Agent:T1
+E2	IMPROVES:T2 Theme:T4 Agent:T1
+E3	IMPROVES:T2 Theme:T4 Agent:T3
+E4	AFFECTS:T11 Theme:T9 Agent:T3
+E5	IMPROVES:T29 Theme:T30 Agent:T27
+E6	IMPROVES:T29 Theme:T30 Agent:T28
+E7	POS_ASSOCIATED_WITH:T38 Theme:T48 Theme2:T37
+E8	NEG_ASSOCIATED_WITH:T39 Theme:T37 Theme2:T49
+E9	DECREASES:T42 Theme:T43 Agent:T41
+E10	AFFECTS:T45 Agent:T44 Theme:T46
+E11	INCREASES:T51 Agent:T47 Theme:T50
+E12	DECREASES:T52 Agent:T47 Theme:T53
+E13	DECREASES:T54 Agent:T47 Theme:T55
+E14	IMPROVES:T58 Theme:T62 Agent:T61
+E15	INCREASES:T59 Theme:T57 Agent:T61
+E16	IMPROVES:T58 Theme:T62 Agent:T63
+E17	INCREASES:T59 Theme:T57 Agent:T63
+E18	AFFECTS:T66 Theme:T65 Agent:T63
+E19	AFFECTS:T66 Theme:T64 Agent:T61
+E20	POS_ASSOCIATED_WITH:T38 Agent:T40 Theme:T48
+E21	NEG_ASSOCIATED_WITH:T39 Theme:T49 Agent:T40
+E22	AFFECTS:T11 Theme:T8 Agent:T3
+E23	AFFECTS:T11 Theme:T9 Agent:T1
+E24	AFFECTS:T66 Agent:T63 Theme:T64
+E25	AFFECTS:T66 Agent:T61 Theme:T65
+A1	Negated E10
+N1	CHEBI:15443 T1	inulin
+N2	MESH:C000634130 T3	inulin-propionate ester
+N3	OCHV:C0920563 T4	insulin sensitivity
+N4	NCIT:C94250 T6	Overweight
+N5	NCIT:C3283 T7	Obesity
+N6	NCIT:C20151 T8	Inflammatory Response
+N7	MESH:D055442 T9	metabolome
+N8	OCHV:C1156258 T12	glucose homeostasis
+N9	CHEBI:17272 T13	propionate
+N10	MESH:D055442 T14	metabolome
+N11	MESH:D007109 T15	Immunity
+N12	NCIT:C94250 T17	Overweight
+N13	NCIT:C3283 T18	Obesity
+N14	MESH:C000634130 T19	inulin-propionate ester
+N15	MESH:C000634130 T20	inulin-propionate ester
+N16	CHEBI:17272 T21	propionate
+N17	CHEBI:15443 T23	inulin
+N18	NCIT:C123623 T25	Metabolic Response
+N19	MESH:C000634130 T27	inulin-propionate ester
+N20	CHEBI:15443 T28	inulin
+N21	NCIT:C113101 T30	Insulin Resistance
+N22	MESH:C000634130 T32	inulin-propionate ester
+N23	CHEBI:15443 T33	inulin
+N24	MESH:C000634130 T34	inulin-propionate ester
+N25	CHEBI:15443 T35	inulin
+N26	NCIT:C2271 T37	Insulin
+N27	CHEBI:15443 T40	inulin
+N28	MESH:C000634130 T41	inulin-propionate ester
+N29	NCIT:C20473 T43	Interleukin-8
+N30	CHEBI:15443 T44	inulin
+N31	CHEBI:15443 T47	inulin
+N32	CHEBI:18186 T48	tyrosine
+N33	CHEBI:15428 T49	glycine
+N34	NCBITAXON:201174 T50	Actinobacteria
+N35	NCBITAXON:186801 T53	Clostridia
+N36	NCBITAXON:1898207 T55	Clostridiales bacterium
+N37	MESH:C000634130 T56	inulin-propionate ester
+N38	CHEBI:17272 T57	propionate
+N39	MESH:C000634130 T61	inulin-propionate ester
+N40	OCHV:C0920563 T62	insulin sensitivity
+N41	CHEBI:15443 T63	inulin
+N42	MESH:D055442 T64	metabolome
+A2	Factual E1
+A3	Factual E2
+A4	Factual E3
+A5	Factual E4
+A6	Factual E5
+A7	Factual E6
+A8	Factual E7
+A9	Factual E8
+A10	Factual E9
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19
+A20	Factual E20
+A21	Factual E21
+A22	Factual E22
+A23	Factual E23
+A24	Factual E24
+A25	Factual E25

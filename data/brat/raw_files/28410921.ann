@@ -1,0 +1,80 @@
+T1	Methodology 2 18	randomized trial
+T2	Population 112 136	older and mid-age adults
+T3	Nutrient 189 205	resistant starch
+T4	Nutrient 207 209	RS
+T5	Disease 254 263	dysbiosis
+T6	Physiology 304 315	colonocytes
+T7	WORSENS 283 296	deterioration
+T8	Biospecimen 1008 1013	stool
+T9	Population 155 162	elderly
+T10	Population 367 374	elderly
+T11	Disease 412 421	dysbiosis
+T12	Population 434 471	mid-age (MID; 30-50 years age) adults
+T13	Biospecimen 1032 1037	stool
+T14	Nutrient 526 538	MSPrebiotic®
+T15	Nutrient 542 544	RS
+T16	Metabolite 652 675	short-chain fatty acids
+T17	Metabolite 677 681	SCFA
+T18	Measurement 687 707	inflammatory markers
+T19	Population 376 379	ELD
+T21	ASSOCIATED_WITH 1934 1936	of
+T22	Population 711 738	ELD and MID Canadian adults
+T23	Methodology 759 824	prospective, placebo controlled, randomized, double-blinded study
+T24	Biospecimen 826 831	Stool
+T25	Nutrient 917 929	MSPrebiotic®
+T26	Methodology 966 992	16S rRNA sequencing of DNA
+T28	Methodology 1058 1076	gas chromatography
+T29	Nutrient 48 74	digestion resistant starch
+T30	Population 1101 1104	ELD
+T31	Population 1112 1115	MID
+T32	Nutrient 1161 1173	MSPrebiotic®
+T33	INCREASES 1223 1229	higher
+T34	Microorganism 1243 1257	Proteobacteria
+T35	Microorganism 1259 1275	Escherichia coli
+T36	Microorganism 1276 1284	Shigella
+T37	Population 1289 1292	ELD
+T38	Population 1305 1308	MID
+T39	Nutrient 1375 1387	MSPrebiotic®
+T40	INCREASES 1425 1433	increase
+T41	Microorganism 1437 1452	Bifidobacterium
+T42	Population 1461 1464	ELD
+T43	Population 1469 1472	MID
+T44	INCREASES 1564 1572	increase
+T45	Population 1614 1617	ELD
+T46	Nutrient 1621 1633	MSPrebiotic®
+T47	Metabolite 1591 1599	butyrate
+T48	Nutrient 1696 1708	MSPrebiotic®
+T49	Microorganism 1798 1812	Bifidobacteria
+T50	INCREASES 1764 1773	increased
+T51	Population 1821 1824	ELD
+T52	Population 1829 1832	MID
+T53	Nutrient 1879 1891	MSPrebiotic®
+T54	PREVENTS 1909 1919	eliminated
+T55	Microorganism 1941 1955	Proteobacteria
+T56	Population 1968 1971	ELD
+T57	Disease 1924 1933	dysbiosis
+E1	WORSENS:T7 Theme:T6 Agent:T5
+E2	ASSOCIATED_WITH:T21 Theme:T57 Theme2:T55
+E4	INCREASES:T33 Agent:T39 Theme:T35
+E5	INCREASES:T40 Theme:T41 Agent:T39
+E6	INCREASES:T44 Theme:T47 Agent:T46
+E7	INCREASES:T33 Theme:T36 Agent:T39
+E8	INCREASES:T50 Theme:T49 Agent:T48
+E9	PREVENTS:T54 Agent:T53 Theme:T57
+A1	Factuality E1 Possible
+N1	Reference T3 NCIT:C94233	Resistant Starch
+N2	Reference T4 NCIT:C94233	Resistant Starch
+N3	Reference T5 MESH:D064806	Dysbiosis
+N4	Reference T11 MESH:D064806	Dysbiosis
+N5	Reference T15 NCIT:C94233	Resistant Starch
+N6	Reference T16 CHEBI:26666	short-chain fatty acid
+N7	Reference T17 CHEBI:26666	short-chain fatty acid
+N8	Reference T29 NCIT:C94233	Resistant Starch
+N9	Reference T34 NCBITAXON:1224	Proteobacteria
+N10	Reference T35 NCBITAXON:562	Escherichia coli
+N11	Reference T36 NCBITAXON:620	Shigella
+N12	Reference T41 NCBITAXON:1678	Bifidobacterium
+N13	Reference T47 CHEBI:17968	butyrate
+N14	Reference T49 NCBITAXON:1678	Bifidobacterium
+N15	Reference T55 NCBITAXON:1224	Proteobacteria
+N16	Reference T57 MESH:D064806	Dysbiosis

@@ -1,0 +1,74 @@
+T1	Disease 12 21	dysbiosis
+T3	Disease 93 115	primary hyperlipidemia
+T4	Food 150 158	hazelnut
+T5	Disease 168 182	Hyperlipidemia
+T6	Disease 258 280	cardiovascular disease
+T7	Chemical 367 372	lipid
+T9	Disease 456 478	primary hyperlipidemia
+T13	Metabolite 551 573	short chain fatty acid
+T14	Metabolite 575 579	SCFA
+T15	Food 751 759	hazelnut
+T16	Food 792 811	hazelnuts with skin
+T17	Measurement 822 833	body weight
+T19	Disease 882 896	hyperlipidemia
+T20	Metabolite 1003 1007	SCFA
+T22	Metabolite 1065 1072	acetate
+T23	Metabolite 1074 1082	butyrate
+T24	Metabolite 1087 1097	propionate
+T25	Disease 1101 1115	hyperlipidemic
+T27	Food 1170 1178	hazelnut
+T28	Metabolite 1325 1330	SCFAs
+T29	AFFECTS 1259 1281	significantly modulate
+T31	Microorganism 1520 1535	Lachnospiraceae
+T32	Measurement 1405 1425	lipidemic parameters
+T33	ASSOCIATED_WITH 1430 1436	linked
+T34	Microorganism 1540 1555	Ruminococcaceae
+T35	Microorganism 1571 1582	Akkermansia
+T36	Microorganism 1584 1595	Bacteroides
+T37	Microorganism 1597 1606	Roseburia
+T38	Microorganism 1612 1628	Faecalibacterium
+T40	Disease 1685 1707	primary hyperlipidemia
+T41	Disease 1861 1875	hyperlipidemic
+E1	AFFECTS:T29 Agent:T27 Theme:T28
+E2	ASSOCIATED_WITH:T33 Theme:T32 Theme2:T31
+E3	ASSOCIATED_WITH:T33 Theme:T38 Theme2:T32
+E4	ASSOCIATED_WITH:T33 Theme:T37 Theme2:T32
+E5	ASSOCIATED_WITH:T33 Theme:T36 Theme2:T32
+E6	ASSOCIATED_WITH:T33 Theme:T35 Theme2:T32
+E7	ASSOCIATED_WITH:T33 Theme:T34 Theme2:T32
+N1	MESH:D064806 T1	Dysbiosis
+N2	NCIT:C34707 T3	Hyperlipidemia
+N3	FOODON:00002933 T4	hazelnut
+N4	NCIT:C34707 T5	Hyperlipidemia
+N5	MESH:D002318 T6	Cardiovascular Diseases
+N6	CHEBI:18059 T7	lipid
+N7	NCIT:C34707 T9	Hyperlipidemia
+N8	CHEBI:26666 T13	short-chain fatty acid
+N9	CHEBI:26666 T14	short-chain fatty acid
+N10	FOODON:00002933 T15	hazelnut
+N11	FOODON:00002933 T16	hazelnut
+N12	NCIT:C81328 T17	Body Weight
+N13	NCIT:C34707 T19	Hyperlipidemia
+N14	CHEBI:26666 T20	short-chain fatty acid
+N15	CHEBI:30089 T22	acetate
+N16	CHEBI:17968 T23	butyrate
+N17	CHEBI:17272 T24	propionate
+N18	NCIT:C34707 T25	Hyperlipidemia
+N19	FOODON:00002933 T27	hazelnut
+N20	CHEBI:26666 T28	short-chain fatty acid
+N21	NCBITAXON:186803 T31	Lachnospiraceae
+N22	OCHV:C0200382 T32	Lipid panel
+N23	NCBITAXON:216572 T34	Oscillospiraceae
+N24	NCBITAXON:239934 T35	Akkermansia
+N25	NCBITAXON:816 T36	Bacteroides
+N26	NCBITAXON:841 T37	Roseburia
+N27	NCBITAXON:216851 T38	Faecalibacterium
+N28	NCIT:C34707 T40	Hyperlipidemia
+N29	NCIT:C34707 T41	Hyperlipidemia
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7

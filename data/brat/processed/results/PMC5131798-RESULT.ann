@@ -1,0 +1,697 @@
+T24	Nutrient 48 68	fiber polysaccharide
+T29	Physiology 5427 5456	colonic lumen and mucus layer
+T40	Physiology 565 587	protective mucus layer
+T41	Physiology 924 947	carbohydrate metabolism
+T42	Nutrient 1029 1049;1058 1069	animal-derived mono- saccharides
+T43	AFFECTS 4330 4337	degrade
+T44	Chemical 1090 1105	mucin O-glycans
+T45	Physiology 1107 1111	MOGs
+T46	Nutrient 1206 1219	dietary fiber
+T47	Nutrient 1229 1252	mucosal polysaccharides
+T48	Microorganism 1483 1497	A. muciniphila
+T49	Microorganism 1502 1521	B. intestinihominis
+T50	Physiology 1543 1547	MOGs
+T51	Nutrient 1558 1572	polysaccharide
+T52	Microorganism 1604 1623	B. thetaiotaomicron
+T53	Microorganism 1628 1637	B. caccae
+T54	Nutrient 1673 1688	polysaccharides
+T55	Nutrient 1877 1889	carbohydrate
+T58	DietPattern 2091 2122	fiber-rich (FR) laboratory diet
+T59	DietPattern 15543 15550	FF diet
+T60	Nutrient 2142 2155	dietary fiber
+T61	Food 2181 2187	grains
+T62	Food 2192 2198	plants
+T63	DietPattern 2254 2261	FR diet
+T67	Physiology 16498 16527	fiber-deprived gut microbiota
+T68	Physiology 3025 3041	fiber deficiency
+T69	INCREASES 3042 3050	promotes
+T70	Microorganism 3065 3089	mucus-degrading bacteria
+T71	DietPattern 16884 16891	FR diet
+T72	Physiology 3225 3241	fiber deficiency
+T73	HAS_COMPONENT 3697 3703	adding
+T75	DietPattern 3490 3500	Fiber-rich
+T76	DietPattern 3502 3504	FR
+T77	DietPattern 3507 3517	Fiber-free
+T78	DietPattern 3519 3521	FF
+T79	DietPattern 3526 3535	Prebiotic
+T80	DietPattern 3537 3540	Pre
+T81	DietPattern 3562 3569	FR diet
+T82	Nutrient 3624 3646	intact fiber particles
+T83	HAS_COMPONENT 3575 3584	contained
+T84	DietPattern 3652 3660	Pre diet
+T85	Nutrient 3717 3742	purified, soluble glycans
+T86	Nutrient 3878 3883	fiber
+T87	DietPattern 3949 3951	FR
+T88	DietPattern 3956 3958	FF
+T89	DietPattern 3962 3965	Pre
+T90	DietPattern 3970 3972	FF
+T92	DietPattern 4091 4098	FF diet
+T93	AFFECTS 4255 4272	highly responsive
+T94	Physiology 17968 17997	fiber-deprived gut microbiota
+T95	Microorganism 4198 4212	A. muciniphila
+T96	Microorganism 4214 4223	B. caccae
+T97	Microorganism 4225 4234	B. ovatus
+T98	Microorganism 4239 4249	E. rectale
+T99	Microorganism 4289 4303	A. muciniphila
+T100	Microorganism 4308 4317	B. caccae
+T101	Physiology 4338 4342	MOGs
+T102	Microorganism 4353 4362	B. ovatus
+T103	Microorganism 4367 4377	E. rectale
+T104	Physiology 4396 4400	MOGs
+T105	Nutrient 4440 4455	polysaccharides
+T106	Nutrient 4465 4478	dietary fiber
+T107	Physiology 5631 5642	mucus layer
+T108	Microorganism 4532 4546	A. muciniphila
+T109	Microorganism 4551 4560	B. caccae
+T110	INTERACTS_WITH 6885 6892	utilize
+T111	DietPattern 4655 4663	Pre diet
+T112	HAS_COMPONENT 4671 4679	contains
+T113	Nutrient 4680 4704	purified polysaccharides
+T114	DietPattern 4742 4749	FF diet
+T115	DietPattern 4804 4811	FF diet
+T117	DietPattern 4859 4861	FF
+T118	INCREASES 4877 4886	increased
+T119	Microorganism 4887 4898	Bacteroides
+T120	DietPattern 5035 5037	FR
+T121	DietPattern 5042 5050	FF diets
+T122	Nutrient 5156 5169	dietary fiber
+T123	AFFECTS 10195 10206	degradation
+T126	Nutrient 6911 6934	mucosal polysaccharides
+T128	Enzyme 7195 7214	glycoside hydrolase
+T130	Enzyme 7216 7218	GH
+T131	Microorganism 5679 5694	R. intestinalis
+T132	Microorganism 5699 5718	B. intestinihominis
+T133	DietPattern 5758 5760	FR
+T134	DietPattern 5765 5773	FF diets
+T135	Microorganism 5913 5932	Desulfovibrio piger
+T136	INCREASES 5934 5943	increased
+T137	DietPattern 5947 5954	FF diet
+T138	Microorganism 5960 5988	Marvinbryantia formatexigens
+T139	DECREASES 5990 5999	decreased
+T140	DietPattern 6003 6010	FF diet
+T141	DietPattern 6076 6079	Pre
+T142	DietPattern 6084 6092	FF diets
+T143	DietPattern 6136 6138	FF
+T144	Nutrient 6187 6207	pure polysaccharides
+T145	HAS_COMPONENT 6208 6217	contained
+T146	DietPattern 6225 6233	Pre diet
+T147	Nutrient 6343 6367	purified polysaccharides
+T148	Enzyme 7220 7240	polysaccharide lyase
+T149	Enzyme 7242 7244	PL
+T150	Physiology 6495 6515	degradation of mucus
+T151	Enzyme 7250 7271	carbohydrate esterase
+T152	Nutrient 12826 12847	fiber polysaccharides
+T153	DietPattern 6592 6594	FF
+T154	DietPattern 6599 6602	Pre
+T155	Nutrient 6629 6648	complex plant fiber
+T156	HAS_COMPONENT 6614 6618	lack
+T157	Enzyme 6819 6846	carbohydrate active enzymes
+T158	Enzyme 6848 6855	CAZymes
+T159	Nutrient 6893 6906	dietary fiber
+T160	Physiology 13320 13349	fiber-deprived gut microbiota
+T161	Enzyme 7137 7144	CAZymes
+T162	Enzyme 7666 7684	M60-like proteases
+T163	Enzyme 7686 7695	pfam13402
+T164	DietPattern 7803 7805	FR
+T165	DietPattern 7806 7808	FF
+T166	DietPattern 7812 7815	Pre
+T167	DietPattern 7816 7818	FF
+T168	Microorganism 7982 7990	D. piger
+T170	DietPattern 8057 8064	FR diet
+T171	Physiology 18018 18041	pathogen susceptibility
+T172	Nutrient 8119 8148	dietary fiber polysaccharides
+T174	DietPattern 8198 8205	FF diet
+T175	Food 8261 8267	sugars
+T176	Chemical 8300 8315	mucin O-glycans
+T178	Microorganism 8459 8468	B. ovatus
+T179	Microorganism 8473 8483	E. rectale
+T180	Enzyme 8510 8517	CAZymes
+T181	Nutrient 8531 8552	plant polysaccharides
+T182	Enzyme 8715 8733	M60-like proteases
+T183	Enzyme 8735 8744	pfam13402
+T184	DietPattern 8781 8783	FF
+T185	Microorganism 8888 8897	B. caccae
+T186	Microorganism 8966 8980	A. muciniphila
+T187	Microorganism 9077 9086	B. caccae
+T188	Enzyme 9120 9138	M60-like proteases
+T189	DietPattern 9344 9352	Pre diet
+T191	DietPattern 9384 9386	FR
+T192	DietPattern 9423 9425	FF
+T193	DietPattern 9566 9568	FR
+T194	DietPattern 9569 9571	FF
+T195	DietPattern 9609 9612	Pre
+T196	DietPattern 9613 9615	FF
+T198	DietPattern 9709 9711	FR
+T199	DietPattern 9712 9714	FF
+T200	DietPattern 9719 9722	Pre
+T201	DietPattern 9723 9725	FF
+T202	DietPattern 9769 9776	FF diet
+T203	DietPattern 9829 9831	FF
+T206	Physiology 10023 10039	fiber deficiency
+T207	Microorganism 10161 10170	B. caccae
+T208	Microorganism 10175 10189	A. muciniphila
+T209	Gene 10905 10930	O-glycan-responsive genes
+T211	Microorganism 10644 10653	B. caccae
+T212	Microorganism 10446 10465	B. thetaiotaomicron
+T213	Microorganism 10658 10672	A. muciniphila
+T214	Microorganism 10802 10821	B. thetaiotaomicron
+T215	Microorganism 10936 10945	B. caccae
+T216	Microorganism 10947 10961	A. muciniphila
+T217	Microorganism 10966 10985	B. thetaiotaomicron
+T218	DietPattern 11012 11014	FF
+T220	Gene 11080 11089;11109 11134	B. caccae O-glycan-responsive genes
+T221	Gene 11094 11134	A. muciniphila O-glycan-responsive genes
+T222	DietPattern 11157 11159	FF
+T223	Microorganism 11181 11190	B. caccae
+T224	Microorganism 11312 11321	B. caccae
+T225	Microorganism 11348 11357	B. caccae
+T226	PREDISPOSES 17998 18006	promotes
+T227	Microorganism 11480 11494	A. muciniphila
+T228	DietPattern 11707 11714	FR diet
+T229	Microorganism 11760 11769	B. caccae
+T230	Microorganism 11828 11842	A. muciniphila
+T231	DietPattern 11927 11929	FF
+T232	DietPattern 11934 11942	FR diets
+T233	DietPattern 11998 12005	FF diet
+T234	Microorganism 12007 12016	B. caccae
+T235	Microorganism 12110 12124	A. muciniphila
+T236	Microorganism 12248 12267	B. thetaiotaomicron
+T237	INCREASES 11140 11149	increased
+T238	DietPattern 12382 12384	FF
+T239	Chemical 10210 10225	mucin O-glycans
+T240	Chemical 11469 11478	O-glycans
+T241	Gene 11533 11558	O-glycan-responsive genes
+T242	INCREASES 11509 11518	increased
+T243	Gene 12338 12364	O-glycan utilization genes
+T244	DECREASES 12304 12313	decreased
+T245	Chemical 12415 12430	mucin O-glycans
+T246	DietPattern 12601 12608	FF diet
+T247	INCREASES 12636 12645	increased
+T248	Enzyme 12665 12674	sulfatase
+T249	Enzyme 12679 12691	α-fucosidase
+T251	DietPattern 12722 12724	FF
+T252	DECREASES 12883 12890	reduced
+T253	Enzyme 12849 12862	β-glucosidase
+T255	DietPattern 12911 12932	fiber-deficient diets
+T256	Enzyme 12969 12979	α-galactan
+T257	Nutrient 12959 12964	xylan
+T258	AFFECTS 13010 13030	without significance
+T259	Metabolite 13184 13188	SCFA
+T261	DietPattern 13214 13221	FF diet
+T262	WORSENS 16460 16471	degradation
+T263	Enzyme 13394 13401	CAZymes
+T264	Enzyme 13403 13413	sulfatases
+T265	Enzyme 13418 13427	proteases
+T266	Nutrient 13438 13459	mucus polysaccharides
+T267	Nutrient 13480 13499	complex plant fiber
+T268	WORSENS 13547 13554	degrade
+T269	Physiology 13559 13580	colonic mucus barrier
+T270	Physiology 13585 13596	mucus layer
+T271	Physiology 13935 13954	colonic mucus layer
+T273	Physiology 14083 14094	mucus layer
+T275	Chemical 14133 14144	Muc2 mucins
+T276	Chemical 14151 14166	α-Muc2 antibody
+T277	Physiology 14289 14310	mucus layer thickness
+T280	Physiology 14393 14408	mucus thickness
+T281	INCREASES 14413 14420	highest
+T282	DietPattern 14452 14459	FR diet
+T283	Physiology 14527 14542	mucus thickness
+T285	Physiology 14635 14648	colonic mucus
+T287	Physiology 14863 14868	mucus
+T289	DietPattern 14885 14892	FF diet
+T290	DECREASES 14907 14914	thinner
+T292	DietPattern 14943 14950	FR diet
+T293	Physiology 14990 15001	mucus layer
+T294	Physiology 15191 15205	mucus foraging
+T295	INCREASES 15181 15190	increased
+T296	DietPattern 15255 15262	FF diet
+T297	Physiology 15287 15302	mucus thickness
+T298	DietPattern 15425 15427	FR
+T299	DietPattern 15428 15430	FF
+T301	Physiology 15663 15676	mucus barrier
+T302	Gene 15688 15692	Muc2
+T303	Gene 15697 15703	Muc5ac
+T304	Gene 15743 15747	Tff1
+T305	Gene 15752 15756	Tff3
+T306	Physiology 15728 15741	colonic mucus
+T307	Chemical 15758 15778	goblet cell proteins
+T308	Gene 15827 15831	Klf3
+T309	Gene 15958 15962	Muc2
+T310	INCREASES 15977 15985	elevated
+T312	DietPattern 16003 16010	FF diet
+T313	Physiology 16099 16116	mucus degradation
+T314	ASSOCIATED_WITH 16031 16052	compensatory response
+T315	Gene 16153 16159	Muc5ac
+T316	Gene 16161 16165	Tff1
+T317	Gene 16167 16171	Tff3
+T318	Gene 16176 16180	Klf3
+T319	AFFECTS 16205 16214	unchanged
+T321	Physiology 16319 16333	colonic tissue
+T323	DietPattern 16337 16343	FF-fed
+T324	Chemical 16388 16400	goblet cells
+T325	Physiology 16479 16490	mucus layer
+T327	Measurement 16727 16738	body weight
+T328	Physiology 16810 16825	mucus thickness
+T330	Physiology 17010 17023	mucus erosion
+T331	Chemical 17045 17054	lipocalin
+T332	Physiology 17135 17157	low-grade inflammation
+T333	INCREASES 17170 17179	increased
+T334	ASSOCIATED_WITH 17119 17129	associated
+T336	DietPattern 17219 17226	FF diet
+T337	DietPattern 17249 17251	FR
+T338	Physiology 17281 17293	colon length
+T340	DietPattern 17332 17334	FF
+T341	DECREASES 17304 17311	shorter
+T343	DietPattern 17401 17403	FR
+T345	DietPattern 17354 17356	SM
+T347	DietPattern 17719 17721	FF
+T349	Physiology 17859 17887	erosion of the mucus barrier
+T350	Physiology 18052 18063	mucus layer
+T351	Microorganism 18359 18380	Citrobacter rodentium
+T352	Microorganism 18382 18384	Cr
+T353	Physiology 18415 18426	mucus layer
+T354	Disease 18462 18469	colitis
+T355	Gene 18592 18596	Muc2
+T356	Microorganism 18674 18676	Cr
+T357	Disease 18641 18648	colitis
+T358	Physiology 18700 18711	mucus layer
+T360	CAUSES 18649 18658	following
+T361	Physiology 18840 18862	mucus layer phenotypes
+T362	Microorganism 18914 18916	Cr
+T363	Microorganism 18969 18971	Cr
+T364	DietPattern 19128 19130	FR
+T365	DietPattern 19134 19136	FF
+T367	Microorganism 19185 19187	Cr
+T368	Microorganism 19272 19274	Cr
+T370	Microorganism 19383 19385	Cr
+T371	DietPattern 19478 19485	FF diet
+T372	INCREASES 19403 19412	increased
+T373	Microorganism 19567 19569	Cr
+T375	DietPattern 19606 19613	FF diet
+T376	Physiology 19633 19644	weight loss
+T377	INCREASES 19555 19563	increase
+T378	POS_ASSOCIATED_WITH 19618 19629	accompanied
+T379	Physiology 20976 20989	colonic mucus
+T380	Physiology 19785 19796	weight loss
+T382	DietPattern 19937 19944	FF diet
+T383	Physiology 19984 19993	morbidity
+T384	Physiology 20002 20017	hunched posture
+T385	Physiology 20022 20032	inactivity
+T387	DietPattern 20108 20110	FF
+T388	Measurement 20158 20169	body weight
+T389	DECREASES 20150 20154	loss
+T394	DietPattern 20324 20331	FF diet
+T395	Physiology 20350 20362	inflammation
+T396	DietPattern 20533 20535	FR
+T397	DietPattern 20540 20542	FF
+T398	DietPattern 20565 20567	FF
+T399	Physiology 20509 20524	inflamed tissue
+T400	Physiology 20667 20678	hyperplasia
+T401	Physiology 20774 20789	inflamed tissue
+T402	Microorganism 21005 21007	Cr
+T403	INCREASES 21032 21040	increase
+T404	Physiology 21044 21062	GF mucus thickness
+T405	Physiology 21076 21093	thick mucus layer
+T406	ASSOCIATED_WITH 21094 21104	associated
+T407	DietPattern 21114 21121	FR diet
+T408	Physiology 21267 21282	inflamed tissue
+T409	DietPattern 21286 21288	FF
+T411	Physiology 21374 21385	mucus layer
+T414	DietPattern 21486 21488	FR
+T415	DietPattern 21492 21494	FF
+T416	Microorganism 21509 21540	luciferase-expressing Cr strain
+T419	Microorganism 21766 21768	Cr
+T420	DietPattern 21772 21775	FR-
+T422	DietPattern 21780 21782	FF
+T424	DietPattern 21910 21917	FF diet
+T425	DietPattern 21943 21945	FR
+T426	Physiology 21866 21880	colonic tissue
+T427	Microorganism 21990 21992	Cr
+T429	DietPattern 21996 21998	FF
+T431	Physiology 22109 22139	attaching and effacing lesions
+T432	Physiology 22141 22173	pedestals and loss of microvilli
+T433	Microorganism 22208 22210	Cr
+T438	Physiology 22447 22472	thin colonic mucus layers
+T440	DietPattern 22537 22539	FF
+T441	Physiology 22694 22719	co-inflammatory responses
+T446	Physiology 476 505	fiber-deprived gut microbiota
+T447	WORSENS 512 518	damage
+T448	Nutrient 1018 1024;1036 1048;1058 1069	plant- derived mono saccharides
+T449	Nutrient 1018 1024;1036 1043;1054 1069	plant- derived polysaccharides
+T450	Nutrient 1029 1043;1054 1069	animal-derived polysaccharides
+T451	POS_ASSOCIATED_WITH 1535 1539	grow
+T452	POS_ASSOCIATED_WITH 1651 1655	grow
+T453	HAS_COMPONENT 2156 2160	from
+T456	POS_ASSOCIATED_WITH 20338 20349	experienced
+T457	HAS_COMPONENT 4456 4461	found
+T458	NEG_ASSOCIATED_WITH 4378 4384	cannot
+T459	Enzyme 7273 7275	CE
+T460	Nutrient 7533 7546	carbohydrates
+T461	Chemical 7745 7764	mucin glycoproteins
+T462	AFFECTS 7737 7744	degrade
+T463	INCREASES 8322 8330	elevated
+T464	POS_ASSOCIATED_WITH 8484 8506	contributed a majority
+T465	POS_ASSOCIATED_WITH 8761 8777	highly expressed
+T466	Chemical 8648 8660	host glycans
+T467	Physiology 8665 8670	mucus
+T469	ASSOCIATED_WITH 9103 9111	equipped
+T470	Physiology 9217 9231	mucin foraging
+T471	Nutrient 9280 9292	carbohydrate
+T475	Physiology 10301 10314	purified MOGs
+T476	Physiology 10320 10341	porcine gastric mucus
+T478	Physiology 10612 10616	MOGs
+T480	DietPattern 11036 11038	FR
+T481	Physiology 13501 13518	Fiber deprivation
+T482	Physiology 18274 18297	pathogen susceptibility
+T483	CAUSES 18456 18461	cause
+T485	ASSOCIATED_WITH 22192 22207	associated with
+T486	DietPattern 22325 22327	FF
+E5	INCREASES:T69 Theme:T70 Agent:T68
+E12	HAS_COMPONENT:T83 Agent:T81 Theme:T82
+E13	AFFECTS:T93 Agent:T92 Theme:T95
+E14	HAS_COMPONENT:T112 Agent:T111 Theme:T113
+E15	INCREASES:T118 Agent:T111 Theme:T119
+E16	INTERACTS_WITH:T110 Theme:T157 Theme2:T159
+E17	INCREASES:T136 Agent:T137 Theme:T135
+E18	DECREASES:T139 Agent:T140 Theme:T138
+E19	HAS_COMPONENT:T145 Agent:T146 Theme:T144
+E20	INTERACTS_WITH:T110 Theme:T157 Theme2:T126
+E21	HAS_COMPONENT:T156 Theme:T155 Agent:T154
+E22	HAS_COMPONENT:T156 Theme:T155 Agent:T153
+E23	INCREASES:T237 Agent:T222 Theme:T221
+E24	INCREASES:T242 Agent:T227 Theme:T241
+E25	DECREASES:T244 Agent:T236 Theme:T243
+E26	INCREASES:T247 Agent:T246 Theme:T248
+E27	INCREASES:T247 Agent:T246 Theme:T249
+E28	DECREASES:T252 Theme:T253 Agent:T255
+E29	AFFECTS:T258 Agent:T255 Theme:T257
+E30	AFFECTS:T258 Agent:T255 Theme:T256
+E31	INCREASES:T281 Agent:T282 Theme:T280
+E32	DECREASES:T290 Agent:T289 Theme:T287
+E33	INCREASES:T295 Theme:T294 Agent:T296
+E34	INCREASES:T310 Agent:T312 Theme:T309
+E35	ASSOCIATED_WITH:T314 Theme:T309 Theme2:T313
+E36	AFFECTS:T319 Theme:T318 Agent:T312
+E37	AFFECTS:T319 Theme:T317 Agent:T312
+E38	AFFECTS:T319 Theme:T316 Agent:T312
+E39	AFFECTS:T319 Theme:T315 Agent:T312
+E40	INCREASES:T333 Theme:T332 Agent:T336
+E41	ASSOCIATED_WITH:T334 Theme:T331 Theme2:T332
+E42	DECREASES:T341 Theme:T338 Agent:T340
+E43	DECREASES:T341 Theme:T338 Agent:T345
+E44	INCREASES:T372 Agent:T371 Theme:T370
+E45	INCREASES:T377 Agent:T375 Theme:T373
+E46	POS_ASSOCIATED_WITH:T378 Theme:T376 Agent:T373
+E47	DECREASES:T389 Agent:T387 Theme:T388
+E48	INCREASES:T403 Agent:T402 Theme:T404
+E49	ASSOCIATED_WITH:T406 Theme:T405 Theme2:T407
+E50	WORSENS:T447 Agent:T446 Theme:T40
+E51	POS_ASSOCIATED_WITH:T451 Theme:T49 Agent:T50
+E52	POS_ASSOCIATED_WITH:T451 Agent:T50 Theme:T48
+E53	POS_ASSOCIATED_WITH:T452 Theme:T52 Agent:T54
+E54	POS_ASSOCIATED_WITH:T452 Theme:T53 Agent:T54
+E55	HAS_COMPONENT:T453 Agent:T58 Theme:T61
+E56	HAS_COMPONENT:T453 Agent:T58 Theme:T62
+E57	PREDISPOSES:T226 Theme:T171 Agent:T94
+E58	HAS_COMPONENT:T73 Agent:T84 Theme:T85
+E59	AFFECTS:T93 Agent:T92 Theme:T96
+E60	AFFECTS:T93 Agent:T92 Theme:T97
+E61	AFFECTS:T93 Theme:T98 Agent:T92
+E62	AFFECTS:T43 Agent:T99 Theme:T101
+E63	AFFECTS:T43 Agent:T100 Theme:T101
+E64	HAS_COMPONENT:T457 Theme:T105 Agent:T106
+E65	NEG_ASSOCIATED_WITH:T458 Agent:T103 Theme:T104
+E66	NEG_ASSOCIATED_WITH:T458 Agent:T102 Theme:T104
+E67	AFFECTS:T462 Theme:T461 Agent:T163
+E68	INCREASES:T463 Theme:T176 Agent:T174
+E69	POS_ASSOCIATED_WITH:T464 Agent:T178 Theme:T180
+E70	POS_ASSOCIATED_WITH:T464 Agent:T179 Theme:T180
+E71	POS_ASSOCIATED_WITH:T465 Theme:T183 Agent:T184
+E72	ASSOCIATED_WITH:T469 Theme:T187 Theme2:T188
+E73	AFFECTS:T123 Agent:T207 Theme:T239
+E74	AFFECTS:T123 Agent:T208 Theme:T239
+E75	INCREASES:T237 Theme:T220 Agent:T222
+E76	WORSENS:T268 Theme:T269 Agent:T481
+E77	CAUSES:T483 Theme:T354 Agent:T351
+E78	ASSOCIATED_WITH:T485 Theme:T433 Theme2:T432
+E79	ASSOCIATED_WITH:T485 Theme:T433 Theme2:T431
+E80	WORSENS:T262 Agent:T67 Theme:T325
+E81	CAUSES:T360 Agent:T356 Theme:T357
+E82	POS_ASSOCIATED_WITH:T456 Agent:T394 Theme:T395
+A2	Negated E21
+A3	Negated E22
+A4	Negated E29
+A5	Negated E30
+A6	Negated E36
+A7	Negated E37
+A8	Negated E38
+A9	Negated E39
+N9	CHEBI:18154 T24	polysaccharide
+N16	MESH:D050260 T41	Carbohydrate Metabolism
+N17	CHEBI:59521 T44	O-glycan
+N18	CHEBI:59521 T45	O-glycan
+N19	NCIT:C68492 T46	Dietary Fiber
+N20	CHEBI:18154 T47	polysaccharide
+N21	NCBITAXON:239935 T48	Akkermansia muciniphila
+N22	NCBITAXON:487174 T49	Barnesiella intestinihominis
+N23	CHEBI:59521 T50	O-glycan
+N24	CHEBI:18154 T51	polysaccharide
+N25	NCBITAXON:818 T52	Bacteroides thetaiotaomicron
+N26	NCBITAXON:47678 T53	Bacteroides caccae
+N27	CHEBI:18154 T54	polysaccharide
+N28	CHEBI:16646 T55	carbohydrate
+N29	OCHV:C0301568 T58	high fiber diet
+N30	NCIT:C68492 T60	Dietary Fiber
+N31	OCHV:15907 T61	grain
+N32	NCIT:C14258 T62	Plant
+N33	OCHV:C0301568 T63	high fiber diet
+N34	OCHV:C0301568 T71	high fiber diet
+N35	OCHV:C0301568 T75	high fiber diet
+N36	OCHV:C0301568 T76	high fiber diet
+N37	MESH:D056692 T79	Prebiotics
+N38	OCHV:C0301568 T81	high fiber diet
+N39	MESH:D056692 T84	Prebiotics
+N40	NCIT:C1502 T86	Fiber
+N41	OCHV:C0301568 T87	high fiber diet
+N42	NCBITAXON:239935 T95	Akkermansia muciniphila
+N43	NCBITAXON:47678 T96	Bacteroides caccae
+N44	NCBITAXON:28116 T97	Bacteroides ovatus
+N45	NCBITAXON:39491 T98	[Eubacterium] rectale
+N46	NCBITAXON:239935 T99	Akkermansia muciniphila
+N47	NCBITAXON:47678 T100	Bacteroides caccae
+N48	CHEBI:59521 T101	O-glycan
+N49	NCBITAXON:28116 T102	Bacteroides ovatus
+N50	NCBITAXON:39491 T103	[Eubacterium] rectale
+N51	CHEBI:59521 T104	O-glycan
+N52	CHEBI:18154 T105	polysaccharide
+N53	NCIT:C68492 T106	Dietary Fiber
+N54	NCIT:C13259 T107	Mucus
+N55	NCBITAXON:239935 T108	Akkermansia muciniphila
+N56	NCBITAXON:47678 T109	Bacteroides caccae
+N57	MESH:D056692 T111	Prebiotics
+N58	CHEBI:18154 T113	polysaccharide
+N59	NCBITAXON:816 T119	Bacteroides
+N60	OCHV:C0301568 T120	high fiber diet
+N61	NCIT:C68492 T122	Dietary Fiber
+N62	CHEBI:18154 T126	polysaccharide
+N63	MESH:D006026 T128	Glycoside Hydrolases
+N64	MESH:D006026 T130	Glycoside Hydrolases
+N65	NCBITAXON:166486 T131	Roseburia intestinalis
+N66	NCBITAXON:487174 T132	Barnesiella intestinihominis
+N67	OCHV:C0301568 T133	high fiber diet
+N68	NCBITAXON:901 T135	Desulfovibrio piger
+N69	NCBITAXON:168384 T138	Marvinbryantia formatexigens
+N70	CHEBI:18154 T144	polysaccharide
+N71	MESH:D056692 T146	Prebiotics
+N72	CHEBI:18154 T147	polysaccharide
+N73	MESH:D011133 T148	Polysaccharide-Lyases
+N74	MESH:D011133 T149	Polysaccharide-Lyases
+N75	NCIT:C16561 T151	Esterase
+N76	CHEBI:18154 T152	polysaccharide
+N77	NCIT:C68492 T159	Dietary Fiber
+N78	OCHV:C0301568 T164	high fiber diet
+N79	NCBITAXON:901 T168	Desulfovibrio piger
+N80	OCHV:C0301568 T170	high fiber diet
+N81	CHEBI:18154 T172	polysaccharide
+N82	NCIT:C71939 T175	Sugar
+N83	CHEBI:59521 T176	O-glycan
+N84	NCBITAXON:28116 T178	Bacteroides ovatus
+N85	NCBITAXON:39491 T179	[Eubacterium] rectale
+N86	CHEBI:18154 T181	polysaccharide
+N87	NCBITAXON:47678 T185	Bacteroides caccae
+N88	NCBITAXON:239935 T186	Akkermansia muciniphila
+N89	NCBITAXON:47678 T187	Bacteroides caccae
+N90	MESH:D056692 T189	Prebiotics
+N91	OCHV:C0301568 T191	high fiber diet
+N92	OCHV:C0301568 T193	high fiber diet
+N93	OCHV:C0301568 T198	high fiber diet
+N94	NCBITAXON:47678 T207	Bacteroides caccae
+N95	NCBITAXON:239935 T208	Akkermansia muciniphila
+N96	NCBITAXON:47678 T211	Bacteroides caccae
+N97	NCBITAXON:818 T212	Bacteroides thetaiotaomicron
+N98	NCBITAXON:239935 T213	Akkermansia muciniphila
+N99	NCBITAXON:818 T214	Bacteroides thetaiotaomicron
+N100	NCBITAXON:47678 T215	Bacteroides caccae
+N101	NCBITAXON:239935 T216	Akkermansia muciniphila
+N102	NCBITAXON:818 T217	Bacteroides thetaiotaomicron
+N103	NCBITAXON:47678 T223	Bacteroides caccae
+N104	NCBITAXON:47678 T224	Bacteroides caccae
+N105	NCBITAXON:47678 T225	Bacteroides caccae
+N106	NCBITAXON:239935 T227	Akkermansia muciniphila
+N107	OCHV:C0301568 T228	high fiber diet
+N108	NCBITAXON:47678 T229	Bacteroides caccae
+N109	NCBITAXON:239935 T230	Akkermansia muciniphila
+N110	OCHV:C0301568 T232	high fiber diet
+N111	NCBITAXON:47678 T234	Bacteroides caccae
+N112	NCBITAXON:239935 T235	Akkermansia muciniphila
+N113	NCBITAXON:818 T236	Bacteroides thetaiotaomicron
+N114	CHEBI:59521 T239	O-glycan
+N115	CHEBI:59521 T240	O-glycan
+N116	CHEBI:59521 T245	O-glycan
+N117	MESH:D013429 T248	Sulfatases
+N118	MESH:D005644 T249	alpha-L-Fucosidase
+N119	MESH:D044602 T253	Cellulases
+N120	OCHV:C0344356 T255	low fiber diet
+N121	CHEBI:37166 T257	xylan
+N122	CHEBI:26666 T259	short-chain fatty acid
+N123	MESH:D013429 T264	Sulfatases
+N124	MESH:D010447 T265	Peptide Hydrolases
+N125	CHEBI:18154 T266	polysaccharide
+N126	NCIT:C13259 T270	Mucus
+N127	NCIT:C13259 T273	Mucus
+N128	NCIT:C16883 T275	Mucin
+N129	OCHV:C0301568 T282	high fiber diet
+N130	NCIT:C13259 T287	Mucus
+N131	OCHV:C0301568 T292	high fiber diet
+N132	NCIT:C13259 T293	Mucus
+N133	OCHV:C0301568 T298	high fiber diet
+N134	GENE:4583 T302	MUC2
+N135	GENE:4586 T303	MUC5AC
+N136	GENE:7031 T304	TFF1
+N137	GENE:7033 T305	TFF3
+N138	GENE:51274 T308	KLF3
+N139	GENE:4583 T309	MUC2
+N140	GENE:4586 T315	MUC5AC
+N141	GENE:7031 T316	TFF1
+N142	GENE:7033 T317	TFF3
+N143	GENE:51274 T318	KLF3
+N144	NCIT:C12586 T324	Goblet Cell
+N145	NCIT:C13259 T325	Mucus
+N146	NCIT:C81328 T327	Body Weight
+N147	MESH:D054834 T331	Lipocalins
+N148	NCIT:C3137 T332	Inflammation
+N149	OCHV:C0301568 T337	high fiber diet
+N150	OCHV:C0301568 T343	high fiber diet
+N151	NCIT:C13259 T350	Mucus
+N152	NCBITAXON:67825 T351	Citrobacter rodentium
+N153	NCBITAXON:67825 T352	Citrobacter rodentium
+N154	NCIT:C13259 T353	Mucus
+N155	NCIT:C26723 T354	Colitis
+N156	GENE:4583 T355	MUC2
+N157	NCBITAXON:67825 T356	Citrobacter rodentium
+N158	NCIT:C26723 T357	Colitis
+N159	NCIT:C13259 T358	Mucus
+N160	NCBITAXON:67825 T362	Citrobacter rodentium
+N161	NCBITAXON:67825 T363	Citrobacter rodentium
+N162	OCHV:C0301568 T364	high fiber diet
+N163	NCBITAXON:67825 T367	Citrobacter rodentium
+N164	NCBITAXON:67825 T368	Citrobacter rodentium
+N165	NCBITAXON:67825 T370	Citrobacter rodentium
+N166	NCBITAXON:67825 T373	Citrobacter rodentium
+N167	NCIT:C3445 T376	Weight Loss
+N168	NCIT:C3445 T380	Weight Loss
+N169	NCIT:C16877 T383	Morbidity
+N170	OCHV:C0426976 T384	bad posture
+N171	NCIT:C118254 T385	Inactivity
+N172	NCIT:C81328 T388	Body Weight
+N173	NCIT:C3137 T395	Inflammation
+N174	OCHV:C0301568 T396	high fiber diet
+N175	MESH:D002481 T399	Cellulitis
+N176	NCIT:C3113 T400	Hyperplasia
+N177	MESH:D002481 T401	Cellulitis
+N178	NCBITAXON:67825 T402	Citrobacter rodentium
+N179	OCHV:C0301568 T407	high fiber diet
+N180	MESH:D002481 T408	Cellulitis
+N181	NCIT:C13259 T411	Mucus
+N182	OCHV:C0301568 T414	high fiber diet
+N183	NCBITAXON:67825 T416	Citrobacter rodentium
+N184	NCBITAXON:67825 T419	Citrobacter rodentium
+N185	OCHV:C0301568 T420	high fiber diet
+N186	OCHV:C0301568 T425	high fiber diet
+N187	NCBITAXON:67825 T427	Citrobacter rodentium
+N188	NCBITAXON:67825 T433	Citrobacter rodentium
+N189	CHEBI:35381 T448	monosaccharide
+N190	CHEBI:18154 T449	polysaccharide
+N191	NCIT:C16561 T459	Esterase
+N192	CHEBI:16646 T460	carbohydrate
+N193	NCIT:C16883 T461	Mucin
+N194	CHEBI:167559 T466	glycan
+N195	NCIT:C13259 T467	Mucus
+N196	CHEBI:16646 T471	carbohydrate
+N197	CHEBI:59521 T475	O-glycan
+N198	CHEBI:59521 T478	O-glycan
+N199	OCHV:C0301568 T480	high fiber diet
+A14	Factual E5
+A21	Factual E12
+A22	Factual E13
+A23	Factual E14
+A24	Factual E15
+A25	Factual E16
+A26	Factual E17
+A27	Factual E18
+A28	Factual E19
+A29	Factual E20
+A30	Factual E23
+A31	Factual E24
+A32	Factual E25
+A33	Factual E26
+A34	Factual E27
+A35	Factual E28
+A36	Factual E31
+A37	Factual E32
+A38	Factual E33
+A39	Factual E34
+A40	Factual E35
+A41	Factual E40
+A42	Factual E41
+A43	Factual E42
+A44	Factual E43
+A45	Factual E44
+A46	Factual E45
+A47	Factual E46
+A48	Factual E47
+A49	Factual E48
+A50	Factual E49
+A51	Factual E50
+A52	Factual E51
+A53	Factual E52
+A54	Factual E53
+A55	Factual E54
+A56	Factual E55
+A57	Factual E56
+A58	Factual E57
+A59	Factual E58
+A60	Factual E59
+A61	Factual E60
+A62	Factual E61
+A63	Factual E62
+A64	Factual E63
+A65	Factual E64
+A66	Factual E65
+A67	Factual E66
+A68	Factual E67
+A69	Factual E68
+A70	Factual E69
+A71	Factual E70
+A72	Factual E71
+A73	Factual E72
+A74	Factual E73
+A75	Factual E74
+A76	Factual E75
+A77	Factual E76
+A78	Factual E77
+A79	Factual E78
+A80	Factual E79
+A81	Factual E80
+A82	Factual E81
+A83	Factual E82

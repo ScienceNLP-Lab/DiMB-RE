@@ -1,0 +1,750 @@
+T1	Nutrient 0 13	Chitin-glucan
+T2	IMPROVES 30 38	improved
+T3	Physiology 39 62	postprandial metabolism
+T4	Population 93 125	subjects at cardiometabolic risk
+T5	Methodology 131 147	randomized trial
+T6	Nutrient 149 162	Chitin-glucan
+T7	Nutrient 164 166	CG
+T8	Nutrient 172 195	insoluble dietary fiber
+T9	IMPROVES 215 222	improve
+T10	Disease 223 248	cardiometabolic disorders
+T11	ASSOCIATED_WITH 249 259	associated
+T12	Disease 265 272	obesity
+T13	Population 276 280	mice
+T14	ASSOCIATED_WITH 1880 1891	determinant
+T15	Methodology 400 436	double-blind, randomized, cross-over
+T16	Nutrient 501 503	CG
+T17	Measurement 511 534	cardiometabolic profile
+T18	Population 586 618	subjects at cardiometabolic risk
+T19	AFFECTS 490 497	impacts
+T20	Nutrient 659 661	CG
+T21	Nutrient 671 683	maltodextrin
+T22	Measurement 728 735;753 773	fasting metabolic parameters
+T23	Measurement 740 773	postprandial metabolic parameters
+T24	Measurement 778 791	exhaled gases
+T25	Metabolite 793 801	hydrogen
+T26	Metabolite 803 805	H2
+T27	Metabolite 811 818	methane
+T28	Chemical 820 823	CH4
+T29	Methodology 870 903	16S rRNA gene sequencing analysis
+T31	Metabolite 942 946;958 975	long chain fatty acids
+T32	Metabolite 952 975	short-chain fatty acids
+T33	Metabolite 977 981	LCFA
+T34	Metabolite 983 987	SCFA
+T35	Chemical 990 997	zonulin
+T36	Chemical 999 1011	calprotectin
+T37	Chemical 1016 1050	lipopolysaccharide binding protein
+T38	Chemical 1052 1055	LBP
+T39	Nutrient 1093 1095	CG
+T40	INCREASES 1112 1121	increased
+T41	Metabolite 1122 1132	exhaled H2
+T42	Food 1146 1170	enriched-fiber breakfast
+T43	DECREASES 1185 1194	decreased
+T44	Chemical 1195 1216	postprandial glycemia
+T45	Physiology 1221 1236	triglyceridemia
+T46	Food 1251 1273	standardized test meal
+T47	Chemical 1326 1347	postprandial glycemia
+T48	Nutrient 2039 2052	dietary fiber
+T49	Metabolite 1390 1400	exhaled H2
+T50	Methodology 1416 1437	lactulose breath test
+T51	Nutrient 1462 1464	CG
+T52	DECREASES 1465 1474	decreased
+T53	Microorganism 1497 1511	Actinobacteria
+T54	INCREASES 1523 1532	increased
+T55	Microorganism 1551 1578	Erysipelotrichaceae UCG.003
+T56	Microorganism 1580 1603	Ruminococcaceae UCG.005
+T57	Microorganism 1608 1630	Eubacterium ventriosum
+T58	Metabolite 1638 1655	Fecal metabolites
+T59	Measurement 1657 1669;1698 1705	inflammatory markers
+T60	Measurement 1674 1705	intestinal permeability markers
+T61	Nutrient 1767 1769	CG
+T62	IMPROVES 1830 1838	improved
+T63	Physiology 1839 1869	postprandial glycemic response
+T64	Measurement 1895 1915	cardiometabolic risk
+T65	Metabolite 1942 1951	breath H2
+T66	Measurement 105 125	cardiometabolic risk
+T67	Measurement 598 618	cardiometabolic risk
+T68	NEG_ASSOCIATED_WITH 1314 1322	decrease
+T69	Physiology 6353 6359	Weight
+T70	Methodology 16479 16511	standardized test meal challenge
+T72	Measurement 6375 6381	Height
+T73	Measurement 6398 6401	BMI
+T74	Measurement 6419 6438	Waist circumference
+T75	Population 6446 6450	Male
+T76	Population 6461 6467	Female
+T77	Measurement 6477 6494	Hip circumference
+T78	Population 6502 6506	Male
+T79	Population 6517 6523	Female
+T80	Physiology 6534 6548	Blood pressure
+T81	Physiology 6558 6575	Systolic pressure
+T82	Physiology 6587 6605	Diastolic pressure
+T83	Measurement 6616 6632	Blood biomarkers
+T84	Chemical 6635 6642	Glucose
+T85	Measurement 6661 6666	HbA1c
+T86	Chemical 6685 6687	TG
+T87	Chemical 6707 6709	TC
+T88	Chemical 6729 6734	HDL-C
+T89	Chemical 6753 6758	LDL-C
+T90	Chemical 6778 6784	hs-CRP
+T91	Enzyme 6806 6809	AST
+T92	Enzyme 6827 6830	ALT
+T93	Measurement 6882 6885	BMI
+T94	Measurement 6887 6902	body mass index
+T95	Measurement 6904 6909	HbA1c
+T96	Chemical 6911 6930	glycated hemoglobin
+T97	Chemical 6932 6934	TG
+T98	Chemical 6936 6948	triglyceride
+T99	Chemical 6950 6952	TC
+T100	Chemical 6954 6971	total cholesterol
+T101	Chemical 6973 6978	HDL-C
+T102	Chemical 6980 7016	high density lipoprotein cholesterol
+T103	Chemical 7018 7023	LDL-C
+T104	Chemical 7025 7060	low density lipoprotein cholesterol
+T105	Chemical 7062 7068	hs-CRP
+T106	Chemical 7070 7105	high sensitivity C reactive protein
+T107	Enzyme 7107 7110	AST
+T108	Enzyme 7112 7138	Aspartate Aminotransferase
+T109	Enzyme 7140 7143	ALT
+T110	Enzyme 7145 7169	Alanine Aminotransferase
+T111	Nutrient 7761 7763	CG
+T112	Nutrient 7765 7778	chitin glucan
+T113	Methodology 7796 7814	mixed linear model
+T114	Nutrient 8001 8015	dietary fibers
+T115	Methodology 8116 8132	cross-over study
+T116	Population 8136 8139	men
+T117	Population 8143 8148	women
+T118	Measurement 8057 8068	CMR profile
+T119	Population 8043 8068	subjects with CMR profile
+T120	Disease 8188 8198	overweight
+T121	Disease 8199 8204	obese
+T123	Measurement 8225 8244	waist circumference
+T124	Disease 8246 8263	abdominal obesity
+T125	Disease 8282 8303	fasting hyperglycemia
+T126	Disease 8305 8313	diabetes
+T127	Chemical 8324 8359	high-sensitivity C-reactive protein
+T128	Disease 8372 8384	hypertension
+T129	Disease 8405 8417	dyslipidemic
+T130	Nutrient 8588 8593	fiber
+T131	Metabolite 8661 8691	exhaled hydrogen concentration
+T132	Chemical 8474 8491	total cholesterol
+T133	Chemical 8499 8504;8513 8544	high- density lipoprotein cholesterol
+T134	Chemical 8509 8544	low density lipoprotein cholesterol
+T135	Chemical 8546 8549	HDL
+T136	Chemical 8554 8569	LDL cholesterol
+T137	Chemical 8453 8466	triglycerides
+T138	Methodology 8706 8727	lactulose breath test
+T139	Methodology 8808 8823	dietary records
+T140	Nutrient 9014 9027	dietary fiber
+T141	Nutrient 9048 9050	CG
+T142	Nutrient 9107 9112	fiber
+T143	Food 9146 9158	starchy food
+T144	Food 9160 9170	vegetables
+T145	Food 9175 9181	fruits
+T146	Nutrient 9257 9259	CG
+T147	INCREASES 9260 9269	increased
+T148	Metabolite 9270 9280	exhaled H2
+T149	IMPROVES 9285 9293	improved
+T150	Measurement 9294 9315;9328 9336	postprandial glycemic profiles
+T151	Measurement 9320 9336	lipemic profiles
+T153	Physiology 9517 9532	triglyceridemia
+T154	Chemical 9541 9561	triglyceridemia peak
+T155	Methodology 9595 9627	standardized test meal challenge
+T156	Physiology 8913 8930	physical activity
+T157	HAS_COMPONENT 9134 9145	mainly from
+T159	Metabolite 9402 9425	postprandial exhaled H2
+T160	Food 9455 9479	fiber-enriched breakfast
+T161	Chemical 9489 9511	postprandial glycaemia
+T163	Measurement 9740 9744	iAUC
+T164	Measurement 9746 9778	incremental area under the curve
+T165	Nutrient 9780 9782	CG
+T166	Nutrient 9784 9797	chitin glucan
+T167	Nutrient 9990 9992	CG
+T168	Methodology 9815 9916	mixed linear model for repeated measures with treatment, time, period and sequence as fixed variables
+T169	Measurement 10140 10153	Anthropometry
+T170	Measurement 10155 10171	body composition
+T171	Measurement 10176 10204	fasting metabolic parameters
+T172	Chemical 10176 10183;10206 10214	fasting glycemia
+T173	Chemical 10176 10183;10216 10227	fasting insulinemia
+T174	Measurement 10229 10257	homeostasic model assessment
+T175	Measurement 10259 10263	HOMA
+T176	Chemical 10266 10291	non-esterified fatty acid
+T177	Chemical 10293 10297	NEFA
+T178	Chemical 10300 10313	triglycerides
+T179	Chemical 10322 10325	HDL
+T180	Chemical 10330 10345	LDL cholesterol
+T181	Physiology 10356 10378	resting metabolic rate
+T182	AFFECTS 10379 10408	were not differently impacted
+T183	Nutrient 10412 10414	CG
+T184	Nutrient 10419 10431	maltodextrin
+T185	Nutrient 10525 10527	CG
+T186	INCREASES 10540 10548	increase
+T187	Metabolite 10556 10622	incremental area under the curve (iAUC) of postprandial exhaled H2
+T188	Food 10668 10692	fiber-enriched breakfast
+T192	Nutrient 10742 10744	CG
+T193	DECREASES 10745 10754	decreased
+T194	Chemical 10759 10788	iAUC of postprandial glycemia
+T196	Population 16577 16584	High-H2
+T197	Physiology 10807 10822	triglyceridemia
+T198	Chemical 10850 10873	peak of triglyceridemia
+T199	Methodology 10902 10934	standardized test meal challenge
+T200	Physiology 16577 16584	High-H2
+T201	Nutrient 11046 11048	CG
+T202	Nutrient 11095 11108	chitin glucan
+T203	Microorganism 11274 11288	Proteobacteria
+T204	Microorganism 11364 11378	Bacteroidaceae
+T205	Microorganism 11458 11472	Actinobacteria
+T206	Microorganism 11551 11562	Bacteroides
+T207	Microorganism 11629 11648	Erysipelotrichaceae
+T208	Microorganism 11728 11743	Ruminococcaceae
+T209	Microorganism 11823 11840	Lachnoclostridium
+T210	Microorganism 11907 11918	Barnesiella
+T211	Microorganism 11985 12005	Escherichia Shigella
+T212	Microorganism 12085 12099	Actinobacteria
+T213	Microorganism 12166 12195	Eubacterium coprostanoligenes
+T214	Microorganism 12268 12290	Eubacterium ventriosum
+T215	Microorganism 12386 12401	Subdoligranulum
+T216	Microorganism 12479 12495	Faecalibacterium
+T217	Microorganism 12573 12596	Collinsella aerofaciens
+T218	Microorganism 12676 12690	Eisenbergiella
+T219	Microorganism 12768 12796	Faecalibacillus intestinalis
+T220	Microorganism 12874 12889	Eubacterium_g23
+T221	Microorganism 12966 12986	Bacteroides vulgatus
+T222	Microorganism 13066 13081	Subdoligranulum
+T223	Microorganism 13260 13267	Blautia
+T224	Microorganism 13345 13373	Bifidobacterium adolescentis
+T225	Microorganism 13453 13465	Ruminococcus
+T226	Methodology 13705 13731	Wilcoxon signed-rank tests
+T227	Nutrient 13980 13982	CG
+T228	Nutrient 14099 14101	CG
+T229	DECREASES 14116 14125	decreased
+T230	Microorganism 14160 14174	Actinobacteria
+T231	INCREASES 14176 14185	increased
+T232	Microorganism 14186 14213	Erysipelotrichaceae UCG.003
+T233	Microorganism 14215 14238	Ruminococcaceae UCG.005
+T234	Microorganism 14243 14265	Eubacterium ventriosum
+T235	Microorganism 14334 14356	Eubacterium ventriosum
+T236	Methodology 14412 14438	Amplicon Sequence Variants
+T237	Microorganism 14538 14550	Ruminococcus
+T238	AFFECTS 14619 14634	remained stable
+T239	Nutrient 14641 14643	CG
+T240	Physiology 14786 14806	gut barrier function
+T241	AFFECTS 14860 14871	not altered
+T242	Metabolite 14926 14930	SCFA
+T243	Metabolite 14932 14934	BA
+T244	Metabolite 14940 14944	LCFA
+T245	AFFECTS 14951 14975	not differently impacted
+T246	Nutrient 15145 15147	CG
+T247	Chemical 14850 14853	LBP
+T249	DiversityMetric 14720 14727;14739 14744	Shannon index
+T250	DiversityMetric 14732 14744	Pielou index
+T251	DiversityMetric 14746 14766	Bray–Curtis distance
+T252	Chemical 14814 14821	zonulin
+T253	Chemical 14826 14838	calprotectin
+T254	IMPROVES 15067 15078	improvement
+T255	Measurement 15082 15111	postprandial glycemic profile
+T256	Population 15168 15181	High-H2 group
+T257	Physiology 15168 15175	High-H2
+T258	Metabolite 15182 15202	Exhaled H2 excretion
+T260	Methodology 15227 15248	lactulose breath test
+T261	Methodology 15288 15309	lactulose breath test
+T262	Population 15391 15398	High-H2
+T263	Population 15437 15443	Low-H2
+T264	Physiology 15391 15398	High-H2
+T265	Physiology 15437 15443	Low-H2
+T266	Physiology 15550 15557	High-H2
+T267	Physiology 15567 15573	Low-H2
+T268	Population 15550 15557	High-H2
+T269	Population 15567 15573	Low-H2
+T271	Methodology 15688 15777	mixed linear model with treatment, time, period, sequence and subgroup as fixed variables
+T272	Nutrient 15936 15938	CG
+T273	Methodology 15964 15994	estimated treatment difference
+T274	Methodology 10018 10048	estimated treatment difference
+T275	Methodology 10050 10053	ETD
+T276	Methodology 15996 15999	ETD
+T277	Methodology 16118 16148	lactulose hydrogen breath test
+T278	Population 16212 16219	High-H2
+T279	Population 16226 16232	Low-H2
+T280	Physiology 16212 16219	High-H2
+T281	Physiology 16226 16232	Low-H2
+T283	DECREASES 16414 16422	decrease
+T285	Chemical 16438 16459	postprandial glycemia
+T286	Population 16591 16597	Low-H2
+T287	Population 16534 16552	“High-H2” subgroup
+T288	Physiology 16535 16542	High-H2
+T289	Physiology 16591 16597	Low-H2
+T290	Chemical 16625 16654	fasting concentration of NEFA
+T291	Physiology 16660 16673	glycemic peak
+T293	Food 16684 16708	fiber-enriched breakfast
+T294	Measurement 16710 16714	tAUC
+T295	Measurement 16716 16720	iAUC
+T296	Chemical 16726 16742	peak of glycemia
+T297	INCREASES 16802 16808	higher
+T298	Population 16816 16834	“High-H2” subgroup
+T299	Physiology 16817 16824	High-H2
+T300	Population 16879 16894	“High-H2” group
+T301	Physiology 16880 16887	High-H2
+T302	Measurement 16944 16974	postprandial metabolic profile
+T303	WORSENS 16935 16943	impaired
+T304	Microorganism 17099 17117	Acidaminococcaceae
+T305	Microorganism 17154 17170	Actinomycetaceae
+T306	Microorganism 17207 17226	Methanobacteriaceae
+T307	Microorganism 17271 17289	Methanobrevibacter
+T308	Microorganism 17326 17336	Tyzzerella
+T309	Microorganism 17373 17387	Paraprevotella
+T310	Microorganism 17495 17521	Methanobrevibacter smithii
+T311	Methodology 17655 17685	lactulose hydrogen breath test
+T312	Methodology 17785 17812	Wilcoxon–Mann Whitney tests
+T313	Microorganism 18117 18131	Bacteroidaceae
+T314	Microorganism 18206 18217	Bacteroides
+T315	Microorganism 18284 18303	Erysipelotrichaceae
+T316	Microorganism 18378 18395	Lachnoclostridium
+T317	Microorganism 18462 18475	Butyricimonas
+T318	Microorganism 18541 18553	Faecalitalea
+T319	Microorganism 18633 18647	Eisenbergiella
+T320	Microorganism 18725 18730	Dorea
+T321	Microorganism 18808 18836	Faecalibacillus intestinalis
+T322	Microorganism 18914 18936	Roseburia intestinalis
+T323	Microorganism 19016 19023	Blautia
+T324	Microorganism 19108 19126	Enterobacteriaceae
+T325	Microorganism 19201 19213	Ruminococcus
+T326	Microorganism 19280 19291	Coprococcus
+T327	Microorganism 19358 19377	Erysipelotrichaceae
+T328	Microorganism 19444 19464	Escherichia_Shigella
+T329	Microorganism 19531 19538	Slackia
+T330	Microorganism 19618 19633	Subdoligranulum
+T331	Microorganism 19711 19734	Collinsella aerofaciens
+T332	Microorganism 19813 19836	Collinsella aerofaciens
+T333	Microorganism 19923 19935	Ruminococcus
+T334	Microorganism 20025 20037	Ruminococcus
+T335	Microorganism 20125 20137	Oribacterium
+T336	Population 20245 20263	“High-H2” subgroup
+T337	Physiology 20246 20253	High-H2
+T338	Population 20301 20318	“Low-H2” subgroup
+T339	Physiology 20302 20308	Low-H2
+T340	Methodology 20505 20531	Wilcoxon signed-rank tests
+T341	Population 20669 20676	High-H2
+T342	Physiology 20669 20676	High-H2
+T343	Population 20683 20689	Low-H2
+T344	Physiology 20683 20689	Low-H2
+T345	Population 20835 20841	Low-H2
+T346	Physiology 20835 20841	Low-H2
+T347	Population 20858 20865	High-H2
+T348	Physiology 20858 20865	High-H2
+T349	INCREASES 20882 20888	higher
+T350	Microorganism 20902 20918	Actinomycetaceae
+T351	Microorganism 20920 20929	Tyzzerela
+T352	Microorganism 20962 20973	PAC001207_g
+T353	DECREASES 20994 20999	lower
+T354	Microorganism 21013 21031	Acidaminococcaceae
+T355	Microorganism 21033 21052	Methanobacteriaceae
+T356	Microorganism 21054 21072	Methanobrevibacter
+T357	Microorganism 21074 21088	Paraprevotella
+T358	Microorganism 21094 21120	Methanobrevibacter smithii
+T359	Population 21179 21196	“High-H2” subgrou
+T360	Physiology 21180 21187	High-H2
+T361	DECREASES 21155 21160	lower
+T362	Microorganism 21210 21231	methanogenic bacteria
+T363	Nutrient 21468 21470	CG
+T366	Nutrient 21690 21692	CG
+T367	Measurement 21880 21884	iAUC
+T368	Measurement 21886 21918	incremental area under the curve
+T369	Physiology 21920 21923	gly
+T370	Physiology 21925 21933	glycemia
+T371	Chemical 21935 21937	TG
+T372	Physiology 21939 21954	triglyceridemia
+T373	Metabolite 21956 21958	H2
+T374	Metabolite 21960 21968	hydrogen
+T375	Food 21970 21972	bf
+T376	Food 21974 21996	standardized breakfast
+T377	Methodology 21998 22000	fm
+T378	Methodology 22002 22010	Flexmeal
+T379	Methodology 22012 22044	standardized test meal challenge
+T380	Methodology 22047 22070	Spearman’s correlations
+T381	Measurement 22199 22222	cardiometabolic profile
+T382	Methodology 22251 22323	correlation analysis between bacterial features and metabolic parameters
+T383	Methodology 22394 22414	Correlation analyses
+T384	POS_ASSOCIATED_WITH 22485 22495	correlated
+T385	Microorganism 22501 22528	Eubacterium coprostaligenes
+T386	Microorganism 22543 22555	Faecalitalea
+T387	Microorganism 22530 22541	Barnesiella
+T388	Microorganism 22577 22599	Colinsella aerofaciens
+T389	NEG_ASSOCIATED_WITH 22605 22625	inversely correlated
+T390	Metabolite 22431 22449	iAUC of exhaled H2
+T391	Methodology 16753 16785	standardized test meal challenge
+T393	Food 22460 22484	fiber-enriched breakfast
+T394	Microorganism 22631 22643	Ruminococcus
+T395	Chemical 22649 22665	iAUC of glycemia
+T397	Methodology 22676 22708	standardized test meal challenge
+T398	NEG_ASSOCIATED_WITH 22709 22729	inversely correlated
+T399	Microorganism 22735 22742	Slackia
+T400	Chemical 22748 22771	iAUC of triglyceridemia
+T402	Methodology 22782 22814	standardized test meal challenge
+T403	POS_ASSOCIATED_WITH 22815 22836	positively correlated
+T404	Microorganism 22842 22856	Bacteroidaceae
+T405	Microorganism 22858 22869	Bacteroides
+T406	Microorganism 22874 22901	Erysipelotrichaceae UCG.003
+T407	NEG_ASSOCIATED_WITH 22907 22927	inversely correlated
+T408	Microorganism 22953 22967	Eisenbergiella
+T409	Microorganism 22972 22983	Bacteroides
+T410	Microorganism 22988 23002	Bacteroidaceae
+T411	POS_ASSOCIATED_WITH 23008 23029	positively correlated
+T412	Chemical 23039 23062	peak of triglyceridemia
+T413	Methodology 23073 23105	standardized test meal challenge
+T2511	Metabolite 906 911;930 940	fecal bile acids
+E1	IMPROVES:T2 Agent:T1 Theme:T3
+E2	IMPROVES:T9 Agent:T6 Theme:T10
+E3	ASSOCIATED_WITH:T11 Theme:T10 Theme2:T12
+E4	AFFECTS:T19 Agent:T16 Theme:T17
+E5	INCREASES:T40 Agent:T39 Theme:T41
+E6	DECREASES:T43 Agent:T39 Theme:T44
+E7	DECREASES:T43 Agent:T39 Theme:T45
+E8	DECREASES:T52 Agent:T51 Theme:T53
+E9	INCREASES:T54 Agent:T51 Theme:T55
+E10	INCREASES:T54 Agent:T51 Theme:T56
+E11	INCREASES:T54 Agent:T51 Theme:T57
+E12	IMPROVES:T62 Theme:T63 Agent:T61
+E13	ASSOCIATED_WITH:T14 Theme:T63 Theme2:T64
+E14	NEG_ASSOCIATED_WITH:T68 Theme:T47 Theme2:T49
+E18	INCREASES:T147 Agent:T146 Theme:T148
+E19	IMPROVES:T149 Agent:T146 Theme:T150
+E20	IMPROVES:T149 Theme:T151 Agent:T146
+E21	HAS_COMPONENT:T157 Theme:T142 Agent:T143
+E22	HAS_COMPONENT:T157 Theme:T142 Agent:T144
+E23	HAS_COMPONENT:T157 Theme:T142 Agent:T145
+E24	AFFECTS:T182 Agent:T183 Theme:T169
+E25	AFFECTS:T182 Agent:T183 Theme:T170
+E26	AFFECTS:T182 Agent:T183 Theme:T172
+E27	AFFECTS:T182 Agent:T183 Theme:T173
+E28	AFFECTS:T182 Agent:T183 Theme:T174
+E29	AFFECTS:T182 Agent:T183 Theme:T176
+E30	AFFECTS:T182 Agent:T183 Theme:T178
+E31	AFFECTS:T182 Agent:T183 Theme:T180
+E32	AFFECTS:T182 Agent:T183 Theme:T179
+E33	AFFECTS:T182 Agent:T183 Theme:T181
+E34	INCREASES:T186 Agent:T185 Theme:T187
+E35	DECREASES:T193 Agent:T192 Theme:T194
+E36	DECREASES:T193 Agent:T192 Theme:T197
+E37	DECREASES:T193 Agent:T192 Theme:T198
+E38	DECREASES:T229 Agent:T228 Theme:T230
+E39	INCREASES:T231 Agent:T228 Theme:T232
+E40	INCREASES:T231 Agent:T228 Theme:T233
+E41	INCREASES:T231 Agent:T228 Theme:T234
+E42	AFFECTS:T238 Theme:T237 Agent:T239
+E43	AFFECTS:T241 Agent:T239 Theme:T249
+E44	AFFECTS:T245 Agent:T239 Theme:T244
+E45	AFFECTS:T245 Agent:T239 Theme:T243
+E46	AFFECTS:T245 Agent:T239 Theme:T242
+E47	AFFECTS:T241 Agent:T239 Theme:T250
+E48	AFFECTS:T241 Agent:T239 Theme:T251
+E49	AFFECTS:T241 Agent:T239 Theme:T252
+E50	AFFECTS:T241 Agent:T239 Theme:T253
+E51	AFFECTS:T241 Agent:T239 Theme:T247
+E52	IMPROVES:T254 Theme:T255 Agent:T246
+E54	DECREASES:T283 Agent:T288 Theme:T285
+E55	INCREASES:T297 Agent:T299 Theme:T290
+E56	INCREASES:T297 Agent:T299 Theme:T291
+E57	INCREASES:T297 Agent:T299 Theme:T294
+E58	INCREASES:T297 Agent:T299 Theme:T295
+E59	INCREASES:T297 Agent:T299 Theme:T296
+E60	WORSENS:T303 Agent:T301 Theme:T302
+E61	INCREASES:T349 Agent:T348 Theme:T350
+E62	DECREASES:T353 Agent:T348 Theme:T354
+E63	INCREASES:T349 Agent:T348 Theme:T351
+E64	INCREASES:T349 Agent:T348 Theme:T352
+E65	DECREASES:T353 Agent:T348 Theme:T355
+E66	DECREASES:T353 Agent:T348 Theme:T356
+E67	DECREASES:T353 Agent:T348 Theme:T357
+E68	DECREASES:T353 Agent:T348 Theme:T358
+E69	DECREASES:T361 Agent:T360 Theme:T362
+E70	POS_ASSOCIATED_WITH:T384 Agent:T390 Theme:T385
+E71	NEG_ASSOCIATED_WITH:T389 Agent:T390 Theme:T394
+E72	POS_ASSOCIATED_WITH:T384 Agent:T390 Theme:T387
+E73	POS_ASSOCIATED_WITH:T384 Agent:T390 Theme:T386
+E74	POS_ASSOCIATED_WITH:T384 Agent:T390 Theme:T388
+E75	NEG_ASSOCIATED_WITH:T398 Theme:T399 Agent:T395
+E76	POS_ASSOCIATED_WITH:T403 Agent:T400 Theme:T404
+E77	NEG_ASSOCIATED_WITH:T407 Agent:T400 Theme:T408
+E78	POS_ASSOCIATED_WITH:T403 Agent:T400 Theme:T405
+E79	POS_ASSOCIATED_WITH:T403 Agent:T400 Theme:T406
+E80	POS_ASSOCIATED_WITH:T411 Theme:T412 Agent:T410
+E81	POS_ASSOCIATED_WITH:T411 Theme:T412 Agent:T409
+A1	Factuality E4 Unknown
+A2	Factuality E24 Negated
+A3	Factuality E25 Negated
+A4	Factuality E26 Negated
+A5	Factuality E27 Negated
+A6	Factuality E28 Negated
+A7	Factuality E29 Negated
+A8	Factuality E30 Negated
+A9	Factuality E31 Negated
+A10	Factuality E32 Negated
+A11	Factuality E33 Negated
+A12	Factuality E42 Negated
+A13	Factuality E43 Negated
+A14	Factuality E44 Negated
+A15	Factuality E45 Negated
+A16	Factuality E46 Negated
+A17	Factuality E47 Negated
+A18	Factuality E48 Negated
+A19	Factuality E49 Negated
+A20	Factuality E50 Negated
+A21	Factuality E51 Negated
+N1	Reference T1 MESH:C091649	carboxymethyl-chitin-glucan
+N2	Reference T6 MESH:C091649	carboxymethyl-chitin-glucan
+N3	Reference T7 MESH:C091649	carboxymethyl-chitin-glucan
+N4	Reference T12 NCIT:C3283	Obesity
+N5	Reference T16 MESH:C091649	carboxymethyl-chitin-glucan
+N6	Reference T20 MESH:C091649	carboxymethyl-chitin-glucan
+N7	Reference T21 CHEBI:25140	maltodextrin
+N8	Reference T22 NCIT:C18520	Metabolic Marker
+N9	Reference T25 MESH:D006859	Hydrogen
+N10	Reference T26 MESH:D006859	Hydrogen
+N11	Reference T27 CHEBI:16183	methane
+N12	Reference T28 CHEBI:16183	methane
+N13	Reference T31 CHEBI:15904	long-chain fatty acid
+N14	Reference T32 CHEBI:26666	short-chain fatty acid
+N15	Reference T33 CHEBI:15904	long-chain fatty acid
+N16	Reference T34 CHEBI:26666	short-chain fatty acid
+N17	Reference T35 MESH:C408043	zonulin
+N18	Reference T36 NCIT:C105971	Calprotectin
+N19	Reference T37 NCIT:C105867	Lipopolysaccharide-Binding Protein
+N20	Reference T38 MESH:C061257	lipopolysaccharide-binding protein
+N21	Reference T39 MESH:C091649	carboxymethyl-chitin-glucan
+N22	Reference T42 FOODON:03310642	breakfast cereal (high fiber)
+N23	Reference T44 NCIT:C129778	2-Hour Postprandial Glucose
+N24	Reference T45 NCIT:C64812	Triglyceride Measurement
+N25	Reference T47 NCIT:C129778	2-Hour Postprandial Glucose
+N26	Reference T48 NCIT:C68492	Dietary Fiber
+N27	Reference T51 MESH:C091649	carboxymethyl-chitin-glucan
+N28	Reference T53 NCBITAXON:201174	Actinobacteria
+N29	Reference T55 NCBITAXON:128827	Erysipelotrichaceae
+N30	Reference T56 NCBITAXON:216572	Oscillospiraceae
+N31	Reference T57 NCBITAXON:39496	Eubacterium ventriosum
+N32	Reference T61 MESH:C091649	carboxymethyl-chitin-glucan
+N33	Reference T63 NCIT:C129778	2-Hour Postprandial Glucose
+N34	Reference T64 MESH:D000083202	Cardiometabolic Risk Factors
+N35	Reference T65 NCIT:C94552	Breath
+N36	Reference T66 MESH:D000083202	Cardiometabolic Risk Factors
+N37	Reference T67 MESH:D000083202	Cardiometabolic Risk Factors
+N38	Reference T69 NCIT:C25208	Weight
+N39	Reference T72 NCIT:C25347	Height
+N40	Reference T73 NCIT:C16358	Body Mass Index
+N41	Reference T74 NCIT:C100948	Waist Circumference
+N42	Reference T77 NCIT:C100947	Hip Circumference
+N43	Reference T80 NCIT:C54706	Blood Pressure
+N44	Reference T81 NCIT:C25298	Systolic Blood Pressure
+N45	Reference T82 NCIT:C25299	Diastolic Blood Pressure
+N46	Reference T84 CHEBI:17234	glucose
+N47	Reference T85 NCIT:C64849	Glycosylated Hemoglobin Measurement
+N48	Reference T86 CHEBI:17855	triglycerides
+N49	Reference T87 NCIT:C105586	Cholesterol Measurement
+N50	Reference T88 CHEBI:47775	high-density lipoprotein cholesterol
+N51	Reference T89 CHEBI:47774	low-density lipoprotein cholesterol
+N52	Reference T90 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N53	Reference T91 NCIT:C25202	Aspartate Aminotransferase
+N54	Reference T92 NCIT:C25293	Alanine Aminotransferase
+N55	Reference T93 NCIT:C16358	Body Mass Index
+N56	Reference T94 NCIT:C16358	Body Mass Index
+N57	Reference T95 NCIT:C64849	Glycosylated Hemoglobin Measurement
+N58	Reference T96 MESH:D006442	Glycated Hemoglobin
+N59	Reference T97 CHEBI:17855	triglycerides
+N60	Reference T98 CHEBI:17855	triglyceride
+N61	Reference T99 NCIT:C105586	Cholesterol Measurement
+N62	Reference T100 NCIT:C105586	Cholesterol Measurement
+N63	Reference T101 CHEBI:47775	high-density lipoprotein cholesterol
+N64	Reference T102 CHEBI:47775	high-density lipoprotein cholesterol
+N65	Reference T103 CHEBI:47774	low-density lipoprotein cholesterol
+N66	Reference T104 CHEBI:47774	low-density lipoprotein cholesterol
+N67	Reference T105 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N68	Reference T106 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N69	Reference T107 NCIT:C25202	Aspartate Aminotransferase
+N70	Reference T108 NCIT:C25202	Aspartate Aminotransferase
+N71	Reference T109 NCIT:C25293	Alanine Aminotransferase
+N72	Reference T110 NCIT:C25293	Alanine Aminotransferase
+N73	Reference T111 MESH:C091649	carboxymethyl-chitin-glucan
+N74	Reference T112 MESH:C091649	carboxymethyl-chitin-glucan
+N75	Reference T114 NCIT:C68492	Dietary Fiber
+N76	Reference T118 MESH:D000083202	Cardiometabolic Risk Factors
+N77	Reference T120 NCIT:C94250	Overweight
+N78	Reference T121 NCIT:C3283	Obesity
+N79	Reference T123 NCIT:C100948	Waist Circumference
+N80	Reference T124 MESH:D056128	Obesity, Abdominal
+N81	Reference T125 NCIT:C26797	Hyperglycemia
+N82	Reference T126 NCIT:C2985	Diabetes Mellitus
+N83	Reference T127 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N84	Reference T128 NCIT:C3117	Hypertension
+N85	Reference T129 NCIT:C80385	Dyslipidemia
+N86	Reference T130 NCIT:C1502	Fiber
+N87	Reference T132 NCIT:C105586	Cholesterol Measurement
+N88	Reference T133 CHEBI:47775	high-density lipoprotein cholesterol
+N89	Reference T134 CHEBI:47774	low-density lipoprotein cholesterol
+N90	Reference T135 CHEBI:39025	high-density lipoprotein
+N91	Reference T136 CHEBI:47774	low-density lipoprotein cholesterol
+N92	Reference T137 CHEBI:17855	triglyceride
+N93	Reference T140 NCIT:C68492	Dietary Fiber
+N94	Reference T141 MESH:C091649	carboxymethyl-chitin-glucan
+N95	Reference T142 NCIT:C1502	Fiber
+N96	Reference T143 CHEBI:28017	starch
+N97	Reference T144 FOODON:03315308	vegetable (whole or parts)
+N98	Reference T145 NCIT:C71972	Fruit
+N99	Reference T146 MESH:C091649	carboxymethyl-chitin-glucan
+N100	Reference T150 NCIT:C129778	2-Hour Postprandial Glucose
+N101	Reference T151 NCIT:C111242	Lipemic Index
+N102	Reference T153 NCIT:C64812	Triglyceride Measurement
+N103	Reference T156 NCIT:C17708	Physical Activity
+N104	Reference T160 OCHV:C0301568	high fiber diet
+N105	Reference T161 NCIT:C129778	2-Hour Postprandial Glucose
+N106	Reference T163 NCIT:C64774	Area Under Curve
+N107	Reference T164 NCIT:C64774	Area Under Curve
+N108	Reference T165 MESH:C091649	carboxymethyl-chitin-glucan
+N109	Reference T166 MESH:C091649	carboxymethyl-chitin-glucan
+N110	Reference T167 MESH:C091649	carboxymethyl-chitin-glucan
+N111	Reference T169 MESH:D000886	Anthropometry
+N112	Reference T170 MESH:D001823	Body Composition
+N113	Reference T171 NCIT:C18520	Metabolic Marker
+N114	Reference T172 NCIT:C94312	Blood Glucose
+N115	Reference T173 NCIT:C2271	Insulin
+N116	Reference T174 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N117	Reference T175 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N118	Reference T176 NCIT:C80200	Non-esterified Fatty Acids Measurement
+N119	Reference T177 NCIT:C80200	Non-esterified Fatty Acids Measurement
+N120	Reference T178 CHEBI:17855	triglyceride
+N121	Reference T179 CHEBI:39025	high-density lipoprotein
+N122	Reference T180 CHEBI:47774	low-density lipoprotein cholesterol
+N123	Reference T181 NCIT:C126083	Basal Metabolic Rate
+N124	Reference T183 MESH:C091649	carboxymethyl-chitin-glucan
+N125	Reference T184 CHEBI:25140	maltodextrin
+N126	Reference T185 MESH:C091649	carboxymethyl-chitin-glucan
+N127	Reference T188 OCHV:C0301568	high fiber diet
+N128	Reference T192 MESH:C091649	carboxymethyl-chitin-glucan
+N129	Reference T197 NCIT:C64812	Triglyceride Measurement
+N130	Reference T200 MESH:D006859	Hydrogen
+N131	Reference T201 MESH:C091649	carboxymethyl-chitin-glucan
+N132	Reference T202 MESH:C091649	carboxymethyl-chitin-glucan
+N133	Reference T203 NCBITAXON:1224	Proteobacteria
+N134	Reference T204 NCBITAXON:815	Bacteroidaceae
+N135	Reference T205 NCBITAXON:201174	Actinobacteria
+N136	Reference T206 NCBITAXON:816	Bacteroides
+N137	Reference T207 NCBITAXON:128827	Erysipelotrichaceae
+N138	Reference T208 NCBITAXON:216572	Oscillospiraceae
+N139	Reference T209 NCBITAXON:1506553	Lachnoclostridium
+N140	Reference T210 NCBITAXON:397864	Barnesiella
+N141	Reference T211 NCBITAXON:1940338	Escherichia/Shigella sp.
+N142	Reference T212 NCBITAXON:201174	Actinobacteria
+N143	Reference T213 NCBITAXON:290054	Eubacterium coprostanoligenes
+N144	Reference T214 NCBITAXON:39496	Eubacterium ventriosum
+N145	Reference T215 NCBITAXON:292632	Subdoligranulum
+N146	Reference T216 NCBITAXON:216851	Faecalibacterium
+N147	Reference T217 NCBITAXON:74426	Collinsella aerofaciens
+N148	Reference T218 NCBITAXON:1432051	Eisenbergiella
+N149	Reference T219 NCBITAXON:1982626	Faecalibacillus intestinalis
+N150	Reference T220 NCBITAXON:1730	Eubacterium
+N151	Reference T221 NCBITAXON:821	Phocaeicola vulgatus
+N152	Reference T222 NCBITAXON:292632	Subdoligranulum
+N153	Reference T223 NCBITAXON:572511	Blautia
+N154	Reference T224 NCBITAXON:1680	Bifidobacterium adolescentis
+N155	Reference T225 NCBITAXON:1263	Ruminococcus
+N156	Reference T227 MESH:C091649	carboxymethyl-chitin-glucan
+N157	Reference T228 MESH:C091649	carboxymethyl-chitin-glucan
+N158	Reference T230 NCBITAXON:201174	Actinobacteria
+N159	Reference T232 NCBITAXON:128827	Erysipelotrichaceae
+N160	Reference T233 NCBITAXON:216572	Oscillospiraceae
+N161	Reference T234 NCBITAXON:39496	Eubacterium ventriosum
+N162	Reference T235 NCBITAXON:39496	Eubacterium ventriosum
+N163	Reference T237 NCBITAXON:1263	Ruminococcus
+N164	Reference T239 MESH:C091649	carboxymethyl-chitin-glucan
+N165	Reference T242 CHEBI:26666	short-chain fatty acid
+N166	Reference T243 CHEBI:3098	Bile acid
+N167	Reference T244 CHEBI:15904	long-chain fatty acid
+N168	Reference T246 MESH:C091649	carboxymethyl-chitin-glucan
+N169	Reference T247 MESH:C061257	lipopolysaccharide-binding protein
+N170	Reference T252 MESH:C408043	zonulin
+N171	Reference T253 NCIT:C105971	Calprotectin
+N172	Reference T255 NCIT:C129778	2-Hour Postprandial Glucose
+N173	Reference T257 MESH:D006859	Hydrogen
+N174	Reference T264 MESH:D006859	Hydrogen
+N175	Reference T265 MESH:D006859	Hydrogen
+N176	Reference T266 MESH:D006859	Hydrogen
+N177	Reference T267 MESH:D006859	Hydrogen
+N178	Reference T272 MESH:C091649	carboxymethyl-chitin-glucan
+N179	Reference T280 MESH:D006859	Hydrogen
+N180	Reference T281 MESH:D006859	Hydrogen
+N181	Reference T285 NCIT:C129778	2-Hour Postprandial Glucose
+N182	Reference T288 MESH:D006859	Hydrogen
+N183	Reference T289 MESH:D006859	Hydrogen
+N184	Reference T290 NCIT:C80200	Non-esterified Fatty Acids Measurement
+N185	Reference T293 OCHV:C0301568	high fiber diet
+N186	Reference T294 NCIT:C64774	Area Under Curve
+N187	Reference T295 NCIT:C64774	Area Under Curve
+N188	Reference T299 MESH:D006859	Hydrogen
+N189	Reference T301 MESH:D006859	Hydrogen
+N190	Reference T304 NCBITAXON:909930	Acidaminococcaceae
+N191	Reference T305 NCBITAXON:2049	Actinomycetaceae
+N192	Reference T306 NCBITAXON:2159	Methanobacteriaceae
+N193	Reference T307 NCBITAXON:2172	Methanobrevibacter
+N194	Reference T308 NCBITAXON:1506577	Tyzzerella
+N195	Reference T309 NCBITAXON:577309	Paraprevotella
+N196	Reference T310 NCBITAXON:2173	Methanobrevibacter smithii
+N197	Reference T313 NCBITAXON:815	Bacteroidaceae
+N198	Reference T314 NCBITAXON:816	Bacteroides
+N199	Reference T315 NCBITAXON:128827	Erysipelotrichaceae
+N200	Reference T316 NCBITAXON:1506553	Lachnoclostridium
+N201	Reference T317 NCBITAXON:574697	Butyricimonas
+N202	Reference T318 NCBITAXON:1573534	Faecalitalea
+N203	Reference T319 NCBITAXON:1432051	Eisenbergiella
+N204	Reference T320 NCBITAXON:189330	Dorea
+N205	Reference T321 NCBITAXON:1982626	Faecalibacillus intestinalis
+N206	Reference T322 NCBITAXON:166486	Roseburia intestinalis
+N207	Reference T323 NCBITAXON:572511	Blautia
+N208	Reference T324 NCBITAXON:543	Enterobacteriaceae
+N209	Reference T325 NCBITAXON:1263	Ruminococcus
+N210	Reference T326 NCBITAXON:33042	Coprococcus
+N211	Reference T327 NCBITAXON:128827	Erysipelotrichaceae
+N212	Reference T328 NCBITAXON:1940338	Escherichia/Shigella sp.
+N213	Reference T329 NCBITAXON:84108	Slackia
+N214	Reference T330 NCBITAXON:292632	Subdoligranulum
+N215	Reference T331 NCBITAXON:74426	Collinsella aerofaciens
+N216	Reference T332 NCBITAXON:74426	Collinsella aerofaciens
+N217	Reference T333 NCBITAXON:1263	Ruminococcus
+N218	Reference T334 NCBITAXON:1263	Ruminococcus
+N219	Reference T335 NCBITAXON:265975	Oribacterium
+N220	Reference T337 MESH:D006859	Hydrogen
+N221	Reference T339 MESH:D006859	Hydrogen
+N222	Reference T342 MESH:D006859	Hydrogen
+N223	Reference T344 MESH:D006859	Hydrogen
+N224	Reference T346 MESH:D006859	Hydrogen
+N225	Reference T348 MESH:D006859	Hydrogen
+N226	Reference T350 NCBITAXON:2049	Actinomycetaceae
+N227	Reference T351 NCBITAXON:1506577	Tyzzerella
+N228	Reference T354 NCBITAXON:909930	Acidaminococcaceae
+N229	Reference T355 NCBITAXON:2159	Methanobacteriaceae
+N230	Reference T356 NCBITAXON:2172	Methanobrevibacter
+N231	Reference T357 NCBITAXON:577309	Paraprevotella
+N232	Reference T358 NCBITAXON:2173	Methanobrevibacter smithii
+N233	Reference T360 MESH:D006859	Hydrogen
+N234	Reference T363 MESH:C091649	carboxymethyl-chitin-glucan
+N235	Reference T366 MESH:C091649	carboxymethyl-chitin-glucan
+N236	Reference T367 NCIT:C64774	Area Under Curve
+N237	Reference T368 NCIT:C64774	Area Under Curve
+N238	Reference T369 NCIT:C94312	Blood Glucose
+N239	Reference T370 NCIT:C94312	Blood Glucose
+N240	Reference T371 CHEBI:17855	triglycerides
+N241	Reference T372 NCIT:C64812	Triglyceride Measurement
+N242	Reference T373 MESH:D006859	Hydrogen
+N243	Reference T374 MESH:D006859	Hydrogen
+N244	Reference T375 NCIT:C25596	Breast Feeding
+N245	Reference T376 NCIT:C80249	Breakfast
+N246	Reference T385 NCBITAXON:290054	Eubacterium coprostanoligenes
+N247	Reference T386 NCBITAXON:1573534	Faecalitalea
+N248	Reference T387 NCBITAXON:397864	Barnesiella
+N249	Reference T388 NCBITAXON:74426	Collinsella aerofaciens
+N250	Reference T393 OCHV:C0301568	high fiber diet
+N251	Reference T394 NCBITAXON:1263	Ruminococcus
+N252	Reference T399 NCBITAXON:84108	Slackia
+N253	Reference T404 NCBITAXON:815	Bacteroidaceae
+N254	Reference T405 NCBITAXON:816	Bacteroides
+N255	Reference T406 NCBITAXON:128827	Erysipelotrichaceae
+N256	Reference T408 NCBITAXON:1432051	Eisenbergiella
+N257	Reference T409 NCBITAXON:816	Bacteroides
+N258	Reference T410 NCBITAXON:815	Bacteroidaceae
+N259	Reference T2511 CHEBI:138366	bile acid

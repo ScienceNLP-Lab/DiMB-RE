@@ -1,0 +1,10 @@
+Resistant starch can improve insulin sensitivity independently of the gut microbiota
+
+Background
+Obesity-related diseases, including type 2 diabetes and cardiovascular disease, have reached epidemic proportions in industrialized nations, and dietary interventions for their prevention are therefore important. Resistant starches (RS) improve insulin sensitivity in clinical trials, but the mechanisms underlying this health benefit remain poorly understood. Because RS fermentation by the gut microbiota results in the formation of physiologically active metabolites, we chose to specifically determine the role of the gut microbiota in mediating the metabolic benefits of RS. To achieve this goal, we determined the effects of RS when added to a Western diet on host metabolism in mice with and without a microbiota.
+Results
+RS feeding of conventionalized mice improved insulin sensitivity and redressed some of the Western diet-induced changes in microbiome composition. However, parallel experiments in germ-free littermates revealed that RS-mediated improvements in insulin levels also occurred in the absence of a microbiota. RS reduced gene expression of adipose tissue macrophage markers and altered cecal concentrations of several bile acids in both germ-free and conventionalized mice; these effects were strongly correlated with the metabolic benefits, providing a potential microbiota-independent mechanism to explain the physiological effects of RS.
+Conclusions
+This study demonstrated that some metabolic benefits exerted by dietary RS, especially improvements in insulin levels, occur independently of the microbiota and could involve alterations in the bile acid cycle and adipose tissue immune modulation. This work also sets a precedent for future mechanistic studies aimed at establishing the causative role of the gut microbiota in mediating the benefits of bioactive compounds and functional foods.
+Electronic supplementary material
+The online version of this article (doi:10.1186/s40168-017-0230-5) contains supplementary material, which is available to authorized users.

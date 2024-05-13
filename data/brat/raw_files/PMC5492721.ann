@@ -1,0 +1,859 @@
+T1	Microorganism 11 56	Bifidobacterium animalis subsp. lactis BB-12®
+T2	AFFECTS 0 7	Effects
+T3	Measurement 64 89	lipid/lipoprotein profile
+T4	Metabolite 94 117	short chain fatty acids
+T5	Population 121 141	healthy young adults
+T6	Methodology 145 172	randomized controlled trial
+T7	Measurement 13808 13811	BMI
+T8	Physiology 13766 13769	Age
+T9	Measurement 13854 13873	Waist circumference
+T10	Physiology 13913 13936	Systolic blood pressure
+T11	Physiology 13980 14004	Diastolic blood pressure
+T12	Chemical 14043 14045	TC
+T13	Chemical 14090 14095	HDL-C
+T14	Chemical 14137 14142	LDL-C
+T15	Measurement 14184 14198	TC/HDL-C ratio
+T16	Measurement 14231 14245	TG/HDL-C ratio
+T17	Chemical 14279 14282	TGs
+T18	Chemical 14324 14331	Glucose
+T19	Chemical 14387 14394	Insulin
+T20	Measurement 14446 14453	HOMA-IR
+T21	Physiology 14541 14558	Physical activity
+T22	Disease 14560 14564	METs
+T23	Chemical 14639 14641	TC
+T24	Chemical 14643 14660	total cholesterol
+T25	Chemical 14662 14667	HDL-C
+T26	Chemical 14669 14705	high-density lipoprotein cholesterol
+T27	Chemical 14707 14712	LDL-C
+T28	Chemical 14714 14749	low-density lipoprotein cholesterol
+T29	Chemical 14751 14754	TGs
+T30	Chemical 14756 14769	triglycerides
+T31	Measurement 14771 14778	HOMA-IR
+T32	Measurement 14780 14837	homeostatic model assessment-estimated insulin resistance
+T33	Chemical 14839 14845	hs-CRP
+T34	Physiology 14884 14887	MET
+T35	Chemical 14847 14882	high-sensitivity C-reactive protein
+T36	Measurement 14889 14917	metabolic equivalent of task
+T37	Population 15004 15009	women
+T38	Nutrient 15798 15811	Saturated fat
+T39	Measurement 15212 15239	Anthropometric measurements
+T40	Physiology 15241 15255	blood pressure
+T41	Measurement 15257 15277	metabolic parameters
+T42	Measurement 15279 15302	physical activity index
+T43	Disease 15304 15308	METs
+T44	Measurement 15441 15444	BMI
+T45	Measurement 15466 15469	BMI
+T46	Measurement 15471 15490	waist circumference
+T47	Physiology 15492 15506	blood pressure
+T48	Measurement 15511 15530	biochemical markers
+T49	Population 15566 15569	men
+T50	Population 15574 15579	women
+T51	DietPattern 16954 16956	YS
+T52	Population 14996 14999	men
+T53	Food 15646 15662	yogurt smoothies
+T54	Microorganism 15692 15698	BB-12®
+T55	Microorganism 15971 15977	BB-12®
+T56	Food 16063 16078	yogurt smoothie
+T57	Microorganism 16083 16089	BB-12®
+T58	Food 16138 16153	yogurt smoothie
+T59	HAS_COMPONENT 16154 16163	contained
+T60	Nutrient 16164 16172	milk fat
+T61	Food 16174 16193	milk solids non-fat
+T62	Food 16195 16211	strawberry puree
+T63	Nutrient 16213 16219	pectin
+T64	Nutrient 16221 16238	corn syrup solids
+T65	Nutrient 16240 16245	sugar
+T66	Nutrient 16251 16256	water
+T67	Food 16289 16304	yogurt smoothie
+T68	Food 16338 16353	yogurt smoothie
+T69	HAS_COMPONENT 16354 16363	contained
+T70	Nutrient 15778 15781	Fat
+T71	Nutrient 16412 16423	cholesterol
+T72	Nutrient 15827 15838	Cholesterol
+T73	Nutrient 15853 15859	Sodium
+T74	Nutrient 15880 15892	Carbohydrate
+T75	Nutrient 16434 16440	sodium
+T76	Nutrient 16373 16376	fat
+T77	Nutrient 15952 15959	Protein
+T78	Nutrient 15907 15920	Dietary Fiber
+T79	Nutrient 15933 15938	Sugar
+T80	Nutrient 16387 16400	saturated fat
+T81	Nutrient 16450 16462	carbohydrate
+T82	Nutrient 16471 16476	fiber
+T83	Nutrient 16508 16515	protein
+T84	Nutrient 16489 16494	sugar
+T85	Microorganism 16602 16608	BB-12®
+T86	DietPattern 16545 16547	YS
+T87	DietPattern 16549 16552	PRE
+T88	DietPattern 16558 16562	POST
+T89	DietPattern 15665 15667	YS
+T90	DietPattern 15669 15672	PRE
+T91	DietPattern 15678 15682	POST
+T92	DietPattern 16614 16616	YS
+T93	HAS_COMPONENT 16617 16632	did not contain
+T94	Microorganism 16633 16639	BB-12®
+T95	DietPattern 16650 16653	PRE
+T96	DietPattern 16658 16662	POST
+T97	HAS_COMPONENT 16680 16689	contained
+T98	Microorganism 16709 16715	BB-12®
+T99	Microorganism 16754 16760	BB-12®
+T100	DietPattern 16895 16897	YS
+T101	DietPattern 16899 16902	PRE
+T102	DietPattern 16904 16908	POST
+T103	DietPattern 16977 16981	POST
+T104	Nutrient 17098 17110	Carbohydrate
+T105	Nutrient 17168 17180	Carbohydrate
+T106	Nutrient 17256 17263	Protein
+T107	Nutrient 17331 17338	Protein
+T108	Nutrient 17414 17417	Fat
+T109	Nutrient 17485 17488	Fat
+T110	Nutrient 17564 17569	Fiber
+T111	Nutrient 17637 17648	Cholesterol
+T112	DietPattern 17750 17752	YS
+T113	Food 17754 17769	yogurt smoothie
+T114	Microorganism 17778 17784	BB-12®
+T115	DietPattern 17786 17789	PRE
+T116	DietPattern 17843 17847	POST
+T117	Food 17791 17806	yogurt smoothie
+T118	HAS_COMPONENT 17807 17811	with
+T119	Microorganism 17812 17818	BB-12®
+T120	Food 17849 17864	yogurt smoothie
+T121	HAS_COMPONENT 17865 17869	with
+T122	Microorganism 17870 17876	BB-12®
+T123	Measurement 18784 18808	anthropometric variables
+T124	Chemical 19007 19014	Glucose
+T125	Physiology 17940 17943	sex
+T126	Physiology 18035 18038	age
+T127	Measurement 18043 18046	BMI
+T128	Food 18175 18190	yogurt smoothie
+T129	DietPattern 18243 18245	YS
+T130	DietPattern 18247 18250	PRE
+T131	DietPattern 18255 18259	POST
+T132	Nutrient 18377 18389	carbohydrate
+T133	Nutrient 18391 18398	protein
+T134	Nutrient 18400 18403	fat
+T135	Nutrient 18405 18410	fiber
+T136	Nutrient 18416 18427	cholesterol
+T137	AFFECTS 18619 18645	no significant differences
+T138	Nutrient 18506 18517	cholesterol
+T139	Nutrient 18496 18501	fiber
+T140	Nutrient 18491 18494	fat
+T141	Nutrient 18482 18489	protein
+T142	Nutrient 18468 18480	carbohydrate
+T143	Measurement 18573 18588	Anthropometrics
+T144	Physiology 18593 18607	blood pressure
+T145	Measurement 18649 18673	anthropometric variables
+T146	Physiology 18678 18692	blood pressure
+T147	Physiology 18813 18827	blood pressure
+T148	Measurement 18902 18922	metabolic parameters
+T149	Metabolite 18927 18950	short chain fatty acids
+T150	Metabolite 19051 19056	SCFAs
+T151	Metabolite 19148 19155	Acetate
+T152	Metabolite 19249 19257	Butyrate
+T153	Metabolite 19353 19363	Propionate
+T154	Metabolite 19499 19504	SCFAs
+T155	Metabolite 19506 19513	acetate
+T156	Metabolite 19515 19523	butyrate
+T157	Chemical 19015 19022	Insulin
+T158	Metabolite 19561 19571	propionate
+T159	Chemical 19573 19580	glucose
+T160	Chemical 19582 19589	insulin
+T161	Measurement 19591 19598	HOMA-IR
+T162	Chemical 19604 19610	hs-CRP
+T163	Chemical 19612 19614	TC
+T164	Chemical 19616 19633	total cholesterol
+T165	Chemical 19635 19640	HDL-C
+T166	Chemical 19642 19678	high-density lipoprotein cholesterol
+T167	Chemical 19680 19685	LDL-C
+T168	Chemical 19687 19722	low-density lipoprotein cholesterol
+T169	Chemical 19724 19729	N-HDL
+T170	Chemical 19731 19771	non-high-density lipoprotein cholesterol
+T171	Chemical 19773 19776	TGs
+T172	Chemical 19778 19791	triglycerides
+T173	Measurement 19793 19800	HOMA-IR
+T174	Measurement 19802 19859	homeostatic model assessment-estimated insulin resistance
+T175	Chemical 19861 19864	CRP
+T176	Chemical 19866 19884	C-reactive protein
+T177	Measurement 19886 19889	BMI
+T178	Measurement 19891 19906	body mass index
+T179	Measurement 19908 19910	WC
+T180	Measurement 19912 19931	waist circumference
+T181	Metabolite 19978 19983	SCFAs
+T182	Measurement 19988 20008	metabolic parameters
+T183	NEG_ASSOCIATED_WITH 20033 20053	negative correlation
+T184	Measurement 20072 20075	BMI
+T185	Metabolite 20080 20088	butyrate
+T186	NEG_ASSOCIATED_WITH 20149 20169	negative correlation
+T187	Measurement 20178 20197	waist circumference
+T188	Metabolite 20212 20217	SCFAs
+T189	Metabolite 20244 20251	acetate
+T190	Metabolite 20282 20290	butyrate
+T191	Physiology 20327 20330	Age
+T192	NEG_ASSOCIATED_WITH 20335 20356	negatively correlated
+T193	Metabolite 20391 20396	SCFAs
+T194	Biospecimen 20366 20371	fecal
+T195	Metabolite 20423 20430	acetate
+T196	Metabolite 20456 20464	butyrate
+T197	Metabolite 20495 20505	propionate
+T198	DietPattern 20619 20621	YS
+T199	DietPattern 20623 20626	PRE
+T200	DietPattern 20628 20632	POST
+T201	Chemical 20737 20739	TC
+T202	Chemical 20794 20799	HDL-C
+T203	Chemical 20869 20874	LDL-C
+T204	Chemical 20944 20953	Non-HDL-C
+T205	Chemical 21008 21011	TGs
+T206	Measurement 21081 21095	TC/HDL-C ratio
+T207	Measurement 21163 21177	TG/HDL-C ratio
+T208	Chemical 21245 21252	Insulin
+T209	Chemical 21327 21334	Glucose
+T210	Measurement 21405 21412	HOMA-IR
+T211	Chemical 21480 21483	CRP
+T212	Microorganism 21628 21634	BB-12®
+T213	Food 21604 21619	yogurt smoothie
+T214	DietPattern 22820 22824	POST
+T215	DietPattern 21636 21639	PRE
+T216	DietPattern 21600 21602	YS
+T217	Food 21641 21656	yogurt smoothie
+T218	HAS_COMPONENT 21657 21661	with
+T219	Microorganism 21662 21668	BB-12®
+T220	DietPattern 21693 21697	POST
+T221	Food 21699 21714	yogurt smoothie
+T222	HAS_COMPONENT 21715 21719	with
+T223	Microorganism 21720 21726	BB-12®
+T224	Chemical 21746 21748	TC
+T225	Chemical 21750 21767	total cholesterol
+T226	Chemical 21769 21774	HDL-C
+T227	Chemical 21776 21812	high-density lipoprotein cholesterol
+T228	Chemical 21814 21819	LDL-C
+T229	Chemical 21821 21856	low-density lipoprotein cholesterol
+T230	Chemical 21858 21861	TGs
+T231	Chemical 21863 21876	triglycerides
+T232	Measurement 21878 21885	HOMA-IR
+T233	Measurement 21887 21944	homeostatic model assessment-estimated insulin resistance
+T234	Chemical 21946 21952	hs-CRP
+T235	Chemical 21954 21989	high-sensitivity C-reactive protein
+T236	Food 16663 16679	yogurt smoothies
+T237	Physiology 22035 22038	sex
+T238	Physiology 22130 22133	age
+T239	Measurement 22135 22138	BMI
+T240	Methodology 22193 22212	Kruskal-Wallis test
+T241	AFFECTS 22326 22348	no significant changes
+T242	Chemical 22352 22354	TC
+T243	Chemical 22356 22361	HDL-C
+T244	Chemical 22363 22372	non-HDL-C
+T245	Chemical 22374 22377	TGs
+T246	Measurement 22379 22388	TC: HDL-C
+T247	Chemical 22390 22397	insulin
+T248	Chemical 22399 22406	glucose
+T249	Measurement 22408 22415	HOMA-IR
+T250	Chemical 22421 22424	CRP
+T251	Chemical 22517 22519	TC
+T252	Chemical 22521 22526	LDL-C
+T253	Chemical 22532 22541	non-HDL-C
+T255	Measurement 22585 22598	fecal markers
+T256	Metabolite 22640 22663	short chain fatty acids
+T257	Metabolite 22670 22675	SCFAs
+T258	Methodology 22634 22639	Fecal
+T259	Methodology 22664 22669	Fecal
+T260	DietPattern 22729 22731	YS
+T261	DietPattern 22733 22736	PRE
+T262	DietPattern 22738 22742	POST
+T263	DietPattern 22808 22811	PRE
+T264	DietPattern 22797 22799	YS
+T265	Metabolite 22862 22867	SCFAs
+T266	Metabolite 22936 22943	Acetate
+T267	Metabolite 23006 23016	Propionate
+T268	Metabolite 23075 23083	Butyrate
+T269	DietPattern 23184 23186	YS
+T270	Food 23188 23203	yogurt smoothie
+T272	Microorganism 23212 23218	BB-12®
+T273	DietPattern 23220 23223	PRE
+T274	Food 23225 23240	yogurt smoothie
+T275	HAS_COMPONENT 23241 23245	with
+T276	Microorganism 23246 23252	BB-12®
+T277	DietPattern 23277 23281	POST
+T278	Food 23283 23298	yogurt smoothie
+T279	HAS_COMPONENT 23299 23303	with
+T280	Microorganism 23304 23310	BB-12®
+T281	Metabolite 23330 23335	SCFAs
+T282	Metabolite 23337 23360	short chain fatty acids
+T284	Physiology 23406 23409	sex
+T285	Physiology 23501 23504	age
+T286	Measurement 23506 23509	BMI
+T287	Nutrient 23511 23516	fiber
+T288	Biospecimen 23680 23685	fecal
+T289	Metabolite 23686 23693	acetate
+T290	DietPattern 23715 23717	YS
+T291	DietPattern 23719 23722	PRE
+T292	DietPattern 23724 23728	POST
+T293	DietPattern 23913 23915	YS
+T294	Food 23917 23932	yogurt smoothie
+T296	Microorganism 23941 23947	BB-12®
+T297	DietPattern 23949 23952	PRE
+T298	Food 23954 23969	yogurt smoothie
+T299	HAS_COMPONENT 23970 23974	with
+T300	Microorganism 23975 23981	BB-12®
+T301	DietPattern 24006 24010	POST
+T302	Food 24012 24027	yogurt smoothie
+T303	HAS_COMPONENT 24028 24032	with
+T304	Microorganism 24033 24039	BB-12®
+T305	Metabolite 24059 24064	SCFAs
+T306	Metabolite 24066 24089	short chain fatty acids
+T307	Biospecimen 24112 24117	fecal
+T308	Metabolite 24137 24142	SCFAs
+T309	Metabolite 24144 24154	propionate
+T310	Metabolite 24159 24167	butyrate
+T311	Metabolite 24224 24231	acetate
+T312	INCREASES 24260 24269	increased
+T313	DietPattern 24280 24282	YS
+T314	DietPattern 24333 24336	PRE
+T315	AFFECTS 24177 24186	unchanged
+T316	INCREASES 24481 24489	increase
+T317	Metabolite 24493 24500	acetate
+T318	DietPattern 24521 24523	YS
+T319	DietPattern 24549 24553	POST
+T320	Physiology 206 233	hypocholesterolemic effects
+T321	Metabolite 24696 24701	SCFAs
+T322	Metabolite 24703 24713	propionate
+T323	Metabolite 24718 24726	butyrate
+T324	INCREASES 285 294	increases
+T325	Metabolite 304 327	short chain fatty acids
+T326	Metabolite 329 334	SCFAs
+T327	Food 190 200	probiotics
+T328	Food 356 366	probiotics
+T329	Chemical 370 376	lipids
+T330	Microorganism 445 490	Bifidobacterium animalis subsp. lactis BB-12®
+T331	Microorganism 492 498	BB-12®
+T332	Chemical 525 531	lipids
+T333	Chemical 377 389	lipoproteins
+T334	Chemical 536 548	lipoproteins
+T335	Metabolite 572 577	SCFAs
+T336	Population 581 595	healthy adults
+T337	AFFECTS 434 441	effects
+T338	Methodology 610 666	randomized, partially blinded, 4-period, crossover study
+T339	Population 671 677	adults
+T340	HAS_COMPONENT 800 804	with
+T341	Chemical 959 965	lipids
+T342	Chemical 966 978	lipoproteins
+T343	Chemical 980 987	glucose
+T344	Chemical 989 996	insulin
+T345	Chemical 998 1016	C-reactive protein
+T346	Chemical 1018 1021	CRP
+T347	Metabolite 1034 1039	SCFAs
+T348	Food 784 799	yogurt smoothie
+T349	Microorganism 805 834	BB-12® added pre-fermentation
+T350	DietPattern 836 839	PRE
+T351	Food 845 860	yogurt smoothie
+T352	HAS_COMPONENT 861 865	with
+T353	Microorganism 866 896	BB-12® added post-fermentation
+T354	DietPattern 898 902	POST
+T355	Microorganism 908 933	BB-12® containing capsule
+T357	Chemical 1093 1110	Total cholesterol
+T358	Chemical 1112 1114	TC
+T359	Chemical 1117 1132	LDL cholesterol
+T360	Chemical 1134 1139	LDL-C
+T361	Chemical 1142 1157	HDL cholesterol
+T362	Chemical 1159 1164	HDL-C
+T363	Chemical 1171 1184	triglycerides
+T364	Chemical 1186 1189	TGs
+T365	Metabolite 1308 1315	acetate
+T366	INCREASES 1320 1343	significantly increased
+T367	DietPattern 1398 1401	PRE
+T368	Metabolite 1478 1485	acetate
+T369	Metabolite 1598 1609	total SCFAs
+T370	Metabolite 1611 1621	propionate
+T371	Metabolite 1626 1634	butyrate
+T372	Metabolite 1683 1694	total SCFAs
+T373	NEG_ASSOCIATED_WITH 1700 1721	negatively associated
+T374	Chemical 1727 1729	TC
+T375	Chemical 1753 1758	LDL-C
+T376	Physiology 1783 1786	age
+T377	Measurement 1815 1834	waist circumference
+T378	Microorganism 1871 1877	BB-12®
+T379	IMPROVES 1894 1909	did not improve
+T380	Chemical 1910 1916	lipids
+T381	Chemical 1918 1930	lipoproteins
+T383	Metabolite 1962 1967	SCFAs
+T384	Metabolite 1975 1980	SCFAs
+T385	NEG_ASSOCIATED_WITH 1986 2007	negatively associated
+T386	Chemical 2013 2015	TC
+T387	Chemical 2017 2022	LDL-C
+T388	Physiology 2024 2027	age
+T389	Measurement 2033 2052	waist circumference
+T390	Food 744 759	yogurt smoothie
+T391	Biospecimen 1028 1033	fecal
+T392	Biospecimen 553 558	fecal
+T393	DietPattern 16965 16968	PRE
+T394	Measurement 19023 19027	HOMA
+T395	Chemical 19028 19031	CRP
+E1	AFFECTS:T2 Agent:T1 Theme:T3
+E2	AFFECTS:T2 Agent:T1 Theme:T4
+E3	HAS_COMPONENT:T59 Agent:T58 Theme:T60
+E4	HAS_COMPONENT:T59 Agent:T58 Theme:T61
+E5	HAS_COMPONENT:T59 Agent:T58 Theme:T62
+E6	HAS_COMPONENT:T59 Agent:T58 Theme:T63
+E7	HAS_COMPONENT:T59 Agent:T58 Theme:T64
+E8	HAS_COMPONENT:T59 Agent:T58 Theme:T65
+E9	HAS_COMPONENT:T59 Agent:T58 Theme:T66
+E10	HAS_COMPONENT:T69 Agent:T68 Theme:T76
+E11	HAS_COMPONENT:T93 Agent:T92 Theme:T94
+E12	HAS_COMPONENT:T97 Theme:T98 Agent:T95
+E13	HAS_COMPONENT:T97 Theme:T98 Agent:T96
+E14	HAS_COMPONENT:T69 Agent:T68 Theme:T80
+E15	HAS_COMPONENT:T69 Agent:T68 Theme:T71
+E16	HAS_COMPONENT:T69 Agent:T68 Theme:T75
+E17	HAS_COMPONENT:T69 Agent:T68 Theme:T81
+E18	HAS_COMPONENT:T69 Agent:T68 Theme:T82
+E19	HAS_COMPONENT:T69 Agent:T68 Theme:T84
+E20	HAS_COMPONENT:T69 Agent:T68 Theme:T83
+E21	HAS_COMPONENT:T118 Agent:T117 Theme:T119
+E22	HAS_COMPONENT:T121 Agent:T120 Theme:T122
+E23	AFFECTS:T137 Agent:T129 Theme:T145
+E24	AFFECTS:T137 Theme:T146 Agent:T129
+E25	AFFECTS:T137 Theme:T146 Agent:T130
+E26	AFFECTS:T137 Theme:T146 Agent:T131
+E27	NEG_ASSOCIATED_WITH:T183 Agent:T184 Theme:T185
+E28	NEG_ASSOCIATED_WITH:T186 Agent:T187 Theme:T188
+E29	NEG_ASSOCIATED_WITH:T186 Agent:T187 Theme:T189
+E30	NEG_ASSOCIATED_WITH:T186 Agent:T187 Theme:T190
+E31	NEG_ASSOCIATED_WITH:T192 Agent:T191 Theme:T193
+E32	NEG_ASSOCIATED_WITH:T192 Agent:T191 Theme:T195
+E33	NEG_ASSOCIATED_WITH:T192 Agent:T191 Theme:T196
+E34	NEG_ASSOCIATED_WITH:T192 Agent:T191 Theme:T197
+E35	AFFECTS:T137 Agent:T130 Theme:T145
+E36	HAS_COMPONENT:T218 Agent:T217 Theme:T219
+E37	HAS_COMPONENT:T222 Agent:T221 Theme:T223
+E38	AFFECTS:T241 Theme:T250 Agent:T216
+E39	AFFECTS:T241 Theme:T250 Agent:T215
+E40	AFFECTS:T241 Theme:T250 Agent:T220
+E41	AFFECTS:T241 Agent:T216 Theme:T249
+E42	AFFECTS:T241 Agent:T220 Theme:T249
+E43	AFFECTS:T241 Agent:T215 Theme:T249
+E44	AFFECTS:T137 Agent:T131 Theme:T145
+E45	AFFECTS:T241 Theme:T248 Agent:T216
+E46	HAS_COMPONENT:T275 Agent:T274 Theme:T276
+E47	HAS_COMPONENT:T279 Agent:T278 Theme:T280
+E48	AFFECTS:T241 Theme:T248 Agent:T215
+E49	HAS_COMPONENT:T299 Agent:T298 Theme:T300
+E50	HAS_COMPONENT:T303 Agent:T302 Theme:T304
+E51	INCREASES:T312 Theme:T311 Agent:T313
+E52	AFFECTS:T315 Theme:T308 Agent:T293
+E53	AFFECTS:T315 Theme:T308 Agent:T297
+E54	AFFECTS:T315 Theme:T308 Agent:T301
+E55	INCREASES:T312 Theme:T311 Agent:T314
+E56	INCREASES:T316 Theme:T317 Agent:T318
+E57	INCREASES:T324 Agent:T327 Theme:T325
+E58	AFFECTS:T337 Agent:T330 Theme:T332
+E59	AFFECTS:T337 Agent:T330 Theme:T334
+E60	AFFECTS:T337 Agent:T330 Theme:T335
+E61	HAS_COMPONENT:T340 Agent:T348 Theme:T349
+E62	HAS_COMPONENT:T352 Agent:T351 Theme:T353
+E63	INCREASES:T366 Theme:T365 Agent:T367
+E64	NEG_ASSOCIATED_WITH:T373 Theme:T372 Agent:T374
+E65	NEG_ASSOCIATED_WITH:T373 Theme:T372 Agent:T375
+E66	NEG_ASSOCIATED_WITH:T373 Theme:T372 Agent:T376
+E67	NEG_ASSOCIATED_WITH:T373 Theme:T372 Agent:T377
+E68	IMPROVES:T379 Agent:T378 Theme:T380
+E69	IMPROVES:T379 Agent:T378 Theme:T381
+E70	IMPROVES:T379 Agent:T378 Theme:T383
+E71	AFFECTS:T241 Theme:T248 Agent:T220
+E72	NEG_ASSOCIATED_WITH:T385 Theme:T384 Agent:T386
+E73	NEG_ASSOCIATED_WITH:T385 Theme:T384 Agent:T387
+E74	NEG_ASSOCIATED_WITH:T385 Theme:T384 Agent:T388
+E75	NEG_ASSOCIATED_WITH:T385 Theme:T384 Agent:T389
+E76	AFFECTS:T241 Theme:T247 Agent:T216
+E77	AFFECTS:T241 Theme:T247 Agent:T215
+E78	AFFECTS:T241 Theme:T247 Agent:T220
+E79	AFFECTS:T241 Theme:T246 Agent:T216
+E80	AFFECTS:T241 Theme:T246 Agent:T215
+E81	AFFECTS:T241 Theme:T246 Agent:T220
+E82	AFFECTS:T241 Theme:T245 Agent:T216
+E83	AFFECTS:T241 Theme:T245 Agent:T215
+E84	AFFECTS:T241 Theme:T245 Agent:T220
+E85	AFFECTS:T241 Theme:T244 Agent:T216
+E86	AFFECTS:T241 Theme:T244 Agent:T215
+E87	AFFECTS:T241 Theme:T244 Agent:T220
+E88	AFFECTS:T241 Theme:T243 Agent:T216
+E89	AFFECTS:T241 Theme:T243 Agent:T215
+E90	AFFECTS:T241 Theme:T243 Agent:T220
+E91	AFFECTS:T241 Theme:T242 Agent:T216
+E92	AFFECTS:T241 Theme:T242 Agent:T215
+E93	AFFECTS:T241 Theme:T242 Agent:T220
+E94	AFFECTS:T315 Theme:T309 Agent:T301
+E95	AFFECTS:T315 Theme:T309 Agent:T297
+E96	AFFECTS:T315 Theme:T309 Agent:T293
+E97	AFFECTS:T315 Theme:T310 Agent:T301
+E98	AFFECTS:T315 Theme:T310 Agent:T297
+E99	AFFECTS:T315 Theme:T310 Agent:T293
+A1	Factuality E1 Unknown
+A2	Factuality E2 Unknown
+A3	Factuality E11 Negated
+A4	Factuality E23 Negated
+A5	Factuality E24 Negated
+A6	Factuality E25 Negated
+A7	Factuality E26 Negated
+A8	Factuality E35 Negated
+A9	Factuality E38 Negated
+A10	Factuality E39 Negated
+A11	Factuality E40 Negated
+A12	Factuality E41 Negated
+A13	Factuality E42 Negated
+A14	Factuality E43 Negated
+A15	Factuality E44 Negated
+A16	Factuality E45 Negated
+A17	Factuality E52 Negated
+A18	Factuality E53 Negated
+A19	Factuality E54 Negated
+A20	Factuality E58 Unknown
+A21	Factuality E59 Unknown
+A22	Factuality E60 Unknown
+A23	Factuality E68 Negated
+A24	Factuality E69 Negated
+A25	Factuality E70 Negated
+A26	Factuality E48 Negated
+A27	Factuality E71 Negated
+A28	Factuality E76 Negated
+A29	Factuality E77 Negated
+A30	Factuality E78 Negated
+A31	Factuality E79 Negated
+A32	Factuality E80 Negated
+A33	Factuality E81 Negated
+A34	Factuality E82 Negated
+A35	Factuality E83 Negated
+A36	Factuality E84 Negated
+A37	Factuality E85 Negated
+A38	Factuality E86 Negated
+A39	Factuality E87 Negated
+A40	Factuality E88 Negated
+A41	Factuality E89 Negated
+A42	Factuality E90 Negated
+A43	Factuality E91 Negated
+A44	Factuality E92 Negated
+A45	Factuality E93 Negated
+A46	Factuality E94 Negated
+A47	Factuality E95 Negated
+A48	Factuality E96 Negated
+A49	Factuality E97 Negated
+A50	Factuality E98 Negated
+A51	Factuality E99 Negated
+N1	Reference T1 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N2	Reference T3 OCHV:C0200382	Lipid panel
+N3	Reference T4 CHEBI:26666	short-chain fatty acid
+N4	Reference T7 NCIT:C16358	Body Mass Index
+N5	Reference T8 NCIT:C25150	Age
+N6	Reference T9 NCIT:C100948	Waist Circumference
+N7	Reference T10 NCIT:C25298	Systolic Blood Pressure
+N8	Reference T11 NCIT:C25299	Diastolic Blood Pressure
+N9	Reference T12 NCIT:C105586	Cholesterol Measurement
+N10	Reference T13 CHEBI:47775	high-density lipoprotein cholesterol
+N11	Reference T14 CHEBI:47774	low-density lipoprotein cholesterol
+N12	Reference T15 NCIT:C147362	HDL Cholesterol to Total Cholesterol Ratio Measurement
+N13	Reference T17 CHEBI:17855	triglycerides
+N14	Reference T18 CHEBI:17234	glucose
+N15	Reference T19 NCIT:C2271	Insulin
+N16	Reference T20 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N17	Reference T21 NCIT:C17708	Physical Activity
+N18	Reference T22 NCIT:C84442	Metabolic Syndrome
+N19	Reference T23 NCIT:C105586	Cholesterol Measurement
+N20	Reference T24 NCIT:C105586	Cholesterol Measurement
+N21	Reference T25 CHEBI:47775	high-density lipoprotein cholesterol
+N22	Reference T26 CHEBI:47775	high-density lipoprotein cholesterol
+N23	Reference T27 CHEBI:47774	low-density lipoprotein cholesterol
+N24	Reference T28 CHEBI:47774	low-density lipoprotein cholesterol
+N25	Reference T29 CHEBI:17855	triglycerides
+N26	Reference T30 CHEBI:17855	triglyceride
+N27	Reference T31 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N28	Reference T32 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N29	Reference T33 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N30	Reference T34 NCIT:C89729	Metabolic Equivalent of Task
+N31	Reference T35 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N32	Reference T36 NCIT:C89729	Metabolic Equivalent of Task
+N33	Reference T38 CHEBI:26607	saturated fatty acid
+N34	Reference T39 OCHV:C0815129	anthropometric measurement
+N35	Reference T40 NCIT:C54706	Blood Pressure
+N36	Reference T42 NCIT:C17708	Physical Activity
+N37	Reference T43 NCIT:C84442	Metabolic Syndrome
+N38	Reference T44 NCIT:C16358	Body Mass Index
+N39	Reference T45 NCIT:C16358	Body Mass Index
+N40	Reference T46 NCIT:C100948	Waist Circumference
+N41	Reference T47 NCIT:C54706	Blood Pressure
+N42	Reference T48 OCHV:C0206015	biochemical markers
+N43	Reference T51 FOODON:03311385	yogurt drink
+N44	Reference T53 FOODON:03311385	yogurt drink
+N45	Reference T54 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N46	Reference T55 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N47	Reference T56 FOODON:03311385	yogurt drink
+N48	Reference T57 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N49	Reference T58 FOODON:03311385	yogurt drink
+N50	Reference T60 FOODON:00002681	milk fat
+N51	Reference T61 FOODON:03315631	skim milk (milk solids added)
+N52	Reference T62 NCIT:C66565	Strawberry
+N53	Reference T63 CHEBI:17309	pectin
+N54	Reference T64 FOODON:03301061	corn syrup
+N55	Reference T65 NCIT:C71939	Sugar
+N56	Reference T66 CHEBI:15377	water
+N57	Reference T67 FOODON:03311385	yogurt drink
+N58	Reference T68 FOODON:03311385	yogurt drink
+N59	Reference T70 MESH:D004041	Dietary Fats
+N60	Reference T71 NCIT:C369	Cholesterol
+N61	Reference T72 NCIT:C369	Cholesterol
+N62	Reference T73 NCIT:C830	Sodium
+N63	Reference T74 CHEBI:16646	carbohydrate
+N64	Reference T75 NCIT:C830	Sodium
+N65	Reference T76 MESH:D004041	Dietary Fats
+N66	Reference T77 CHEBI:36080	protein
+N67	Reference T78 NCIT:C68492	Dietary Fiber
+N68	Reference T79 NCIT:C71939	Sugar
+N69	Reference T80 CHEBI:26607	saturated fatty acid
+N70	Reference T81 CHEBI:16646	carbohydrate
+N71	Reference T82 NCIT:C1502	Fiber
+N72	Reference T83 CHEBI:36080	protein
+N73	Reference T84 NCIT:C71939	Sugar
+N74	Reference T85 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N75	Reference T86 FOODON:03311385	yogurt drink
+N76	Reference T88 FOODON:03311385	yogurt drink
+N77	Reference T89 FOODON:03311385	yogurt drink
+N78	Reference T91 FOODON:03311385	yogurt drink
+N79	Reference T92 FOODON:03311385	yogurt drink
+N80	Reference T94 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N81	Reference T96 FOODON:03311385	yogurt drink
+N82	Reference T98 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N83	Reference T99 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N84	Reference T100 FOODON:03311385	yogurt drink
+N85	Reference T102 FOODON:03311385	yogurt drink
+N86	Reference T103 FOODON:03311385	yogurt drink
+N87	Reference T104 CHEBI:16646	carbohydrate
+N88	Reference T105 CHEBI:16646	carbohydrate
+N89	Reference T106 CHEBI:36080	protein
+N90	Reference T107 CHEBI:36080	protein
+N91	Reference T108 MESH:D004041	Dietary Fats
+N92	Reference T109 MESH:D004041	Dietary Fats
+N93	Reference T110 NCIT:C1502	Fiber
+N94	Reference T111 NCIT:C369	Cholesterol
+N95	Reference T112 FOODON:03311385	yogurt drink
+N96	Reference T113 FOODON:03311385	yogurt drink
+N97	Reference T114 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N98	Reference T116 FOODON:03311385	yogurt drink
+N99	Reference T117 FOODON:03311385	yogurt drink
+N100	Reference T119 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N101	Reference T120 FOODON:03311385	yogurt drink
+N102	Reference T122 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N103	Reference T123 OCHV:C0815129	anthropometric measurement
+N104	Reference T124 CHEBI:17234	glucose
+N105	Reference T125 NCIT:C28421	Sex
+N106	Reference T126 NCIT:C25150	Age
+N107	Reference T127 NCIT:C16358	Body Mass Index
+N108	Reference T128 FOODON:03311385	yogurt drink
+N109	Reference T129 FOODON:03311385	yogurt drink
+N110	Reference T131 FOODON:03311385	yogurt drink
+N111	Reference T132 CHEBI:16646	carbohydrate
+N112	Reference T133 CHEBI:36080	protein
+N113	Reference T134 MESH:D004041	Dietary Fats
+N114	Reference T135 NCIT:C1502	Fiber
+N115	Reference T136 NCIT:C369	Cholesterol
+N116	Reference T138 NCIT:C369	Cholesterol
+N117	Reference T139 NCIT:C1502	Fiber
+N118	Reference T140 MESH:D004041	Dietary Fats
+N119	Reference T141 CHEBI:36080	protein
+N120	Reference T142 CHEBI:16646	carbohydrate
+N121	Reference T143 OCHV:C0815129	anthropometric measurement
+N122	Reference T144 NCIT:C54706	Blood Pressure
+N123	Reference T145 OCHV:C0815129	anthropometric measurement
+N124	Reference T146 NCIT:C54706	Blood Pressure
+N125	Reference T147 NCIT:C54706	Blood Pressure
+N126	Reference T149 CHEBI:26666	short-chain fatty acid
+N127	Reference T150 CHEBI:26666	short-chain fatty acid
+N128	Reference T151 CHEBI:30089	acetate
+N129	Reference T152 CHEBI:17968	butyrate
+N130	Reference T153 CHEBI:17272	propionate
+N131	Reference T154 CHEBI:26666	short-chain fatty acid
+N132	Reference T155 CHEBI:30089	acetate
+N133	Reference T156 CHEBI:17968	butyrate
+N134	Reference T157 NCIT:C2271	Insulin
+N135	Reference T158 CHEBI:17272	propionate
+N136	Reference T159 CHEBI:17234	glucose
+N137	Reference T160 NCIT:C2271	Insulin
+N138	Reference T161 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N139	Reference T162 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N140	Reference T163 NCIT:C105586	Cholesterol Measurement
+N141	Reference T164 NCIT:C105586	Cholesterol Measurement
+N142	Reference T165 CHEBI:47775	high-density lipoprotein cholesterol
+N143	Reference T166 CHEBI:47775	high-density lipoprotein cholesterol
+N144	Reference T167 CHEBI:47774	low-density lipoprotein cholesterol
+N145	Reference T168 CHEBI:47774	low-density lipoprotein cholesterol
+N146	Reference T169 NCIT:C116204	Non-High Density Lipoprotein Cholesterol Measurement
+N147	Reference T170 NCIT:C116204	Non-High Density Lipoprotein Cholesterol Measurement
+N148	Reference T171 CHEBI:17855	triglycerides
+N149	Reference T172 CHEBI:17855	triglyceride
+N150	Reference T173 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N151	Reference T174 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N152	Reference T175 NCIT:C60651	C-Reactive Protein
+N153	Reference T176 NCIT:C60651	C-Reactive Protein
+N154	Reference T177 NCIT:C16358	Body Mass Index
+N155	Reference T178 NCIT:C16358	Body Mass Index
+N156	Reference T179 NCIT:C100948	Waist Circumference
+N157	Reference T180 NCIT:C100948	Waist Circumference
+N158	Reference T181 CHEBI:26666	short-chain fatty acid
+N159	Reference T184 NCIT:C16358	Body Mass Index
+N160	Reference T185 CHEBI:17968	butyrate
+N161	Reference T187 NCIT:C100948	Waist Circumference
+N162	Reference T188 CHEBI:26666	short-chain fatty acid
+N163	Reference T189 CHEBI:30089	acetate
+N164	Reference T190 CHEBI:17968	butyrate
+N165	Reference T191 NCIT:C25150	Age
+N166	Reference T193 CHEBI:26666	short-chain fatty acid
+N167	Reference T195 CHEBI:30089	acetate
+N168	Reference T196 CHEBI:17968	butyrate
+N169	Reference T197 CHEBI:17272	propionate
+N170	Reference T198 FOODON:03311385	yogurt drink
+N171	Reference T200 FOODON:03311385	yogurt drink
+N172	Reference T201 NCIT:C105586	Cholesterol Measurement
+N173	Reference T202 CHEBI:47775	high-density lipoprotein cholesterol
+N174	Reference T203 CHEBI:47774	low-density lipoprotein cholesterol
+N175	Reference T204 NCIT:C116204	Non-High Density Lipoprotein Cholesterol Measurement
+N176	Reference T205 CHEBI:17855	triglycerides
+N177	Reference T206 NCIT:C147362	HDL Cholesterol to Total Cholesterol Ratio Measurement
+N178	Reference T208 NCIT:C2271	Insulin
+N179	Reference T209 CHEBI:17234	glucose
+N180	Reference T210 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N181	Reference T211 NCIT:C60651	C-Reactive Protein
+N182	Reference T212 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N183	Reference T213 FOODON:03311385	yogurt drink
+N184	Reference T214 FOODON:03311385	yogurt drink
+N185	Reference T216 FOODON:03311385	yogurt drink
+N186	Reference T217 FOODON:03311385	yogurt drink
+N187	Reference T219 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N188	Reference T220 FOODON:03311385	yogurt drink
+N189	Reference T221 FOODON:03311385	yogurt drink
+N190	Reference T223 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N191	Reference T224 NCIT:C105586	Cholesterol Measurement
+N192	Reference T225 NCIT:C105586	Cholesterol Measurement
+N193	Reference T226 CHEBI:47775	high-density lipoprotein cholesterol
+N194	Reference T227 CHEBI:47775	high-density lipoprotein cholesterol
+N195	Reference T228 CHEBI:47774	low-density lipoprotein cholesterol
+N196	Reference T229 CHEBI:47774	low-density lipoprotein cholesterol
+N197	Reference T230 CHEBI:17855	triglycerides
+N198	Reference T231 CHEBI:17855	triglyceride
+N199	Reference T232 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N200	Reference T233 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N201	Reference T234 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N202	Reference T235 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N203	Reference T236 FOODON:03311385	yogurt drink
+N204	Reference T237 NCIT:C28421	Sex
+N205	Reference T238 NCIT:C25150	Age
+N206	Reference T239 NCIT:C16358	Body Mass Index
+N207	Reference T242 NCIT:C105586	Cholesterol Measurement
+N208	Reference T243 CHEBI:47775	high-density lipoprotein cholesterol
+N209	Reference T244 NCIT:C116204	Non-High Density Lipoprotein Cholesterol Measurement
+N210	Reference T245 CHEBI:17855	triglycerides
+N211	Reference T246 NCIT:C147362	HDL Cholesterol to Total Cholesterol Ratio Measurement
+N212	Reference T247 NCIT:C2271	Insulin
+N213	Reference T248 CHEBI:17234	glucose
+N214	Reference T249 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N215	Reference T250 NCIT:C60651	C-Reactive Protein
+N216	Reference T251 NCIT:C105586	Cholesterol Measurement
+N217	Reference T252 CHEBI:47774	low-density lipoprotein cholesterol
+N218	Reference T253 NCIT:C116204	Non-High Density Lipoprotein Cholesterol Measurement
+N219	Reference T256 CHEBI:26666	short-chain fatty acid
+N220	Reference T257 CHEBI:26666	short-chain fatty acid
+N221	Reference T260 FOODON:03311385	yogurt drink
+N222	Reference T262 FOODON:03311385	yogurt drink
+N223	Reference T264 FOODON:03311385	yogurt drink
+N224	Reference T265 CHEBI:26666	short-chain fatty acid
+N225	Reference T266 CHEBI:30089	acetate
+N226	Reference T267 CHEBI:17272	propionate
+N227	Reference T268 CHEBI:17968	butyrate
+N228	Reference T269 FOODON:03311385	yogurt drink
+N229	Reference T270 FOODON:03311385	yogurt drink
+N230	Reference T272 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N231	Reference T274 FOODON:03311385	yogurt drink
+N232	Reference T276 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N233	Reference T277 FOODON:03311385	yogurt drink
+N234	Reference T278 FOODON:03311385	yogurt drink
+N235	Reference T280 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N236	Reference T281 CHEBI:26666	short-chain fatty acid
+N237	Reference T282 CHEBI:26666	short-chain fatty acid
+N238	Reference T284 NCIT:C28421	Sex
+N239	Reference T285 NCIT:C25150	Age
+N240	Reference T286 NCIT:C16358	Body Mass Index
+N241	Reference T287 NCIT:C1502	Fiber
+N242	Reference T289 CHEBI:30089	acetate
+N243	Reference T290 FOODON:03311385	yogurt drink
+N244	Reference T292 FOODON:03311385	yogurt drink
+N245	Reference T293 FOODON:03311385	yogurt drink
+N246	Reference T294 FOODON:03311385	yogurt drink
+N247	Reference T296 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N248	Reference T298 FOODON:03311385	yogurt drink
+N249	Reference T300 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N250	Reference T301 FOODON:03311385	yogurt drink
+N251	Reference T302 FOODON:03311385	yogurt drink
+N252	Reference T304 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N253	Reference T305 CHEBI:26666	short-chain fatty acid
+N254	Reference T306 CHEBI:26666	short-chain fatty acid
+N255	Reference T308 CHEBI:26666	short-chain fatty acid
+N256	Reference T309 CHEBI:17272	propionate
+N257	Reference T310 CHEBI:17968	butyrate
+N258	Reference T311 CHEBI:30089	acetate
+N259	Reference T313 FOODON:03311385	yogurt drink
+N260	Reference T317 CHEBI:30089	acetate
+N261	Reference T318 FOODON:03311385	yogurt drink
+N262	Reference T319 FOODON:03311385	yogurt drink
+N263	Reference T320 OCHV:C0151718	hypocholesterolemia
+N264	Reference T321 CHEBI:26666	short-chain fatty acid
+N265	Reference T322 CHEBI:17272	propionate
+N266	Reference T323 CHEBI:17968	butyrate
+N267	Reference T325 CHEBI:26666	short-chain fatty acid
+N268	Reference T326 CHEBI:26666	short-chain fatty acid
+N269	Reference T327 NCIT:C93144	Probiotic
+N270	Reference T328 NCIT:C93144	Probiotic
+N271	Reference T329 CHEBI:18059	lipid
+N272	Reference T330 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N273	Reference T331 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N274	Reference T332 CHEBI:18059	lipid
+N275	Reference T333 CHEBI:6495	lipoprotein
+N276	Reference T334 CHEBI:6495	lipoprotein
+N277	Reference T335 CHEBI:26666	short-chain fatty acid
+N278	Reference T341 CHEBI:18059	lipid
+N279	Reference T342 CHEBI:6495	lipoprotein
+N280	Reference T343 CHEBI:17234	glucose
+N281	Reference T344 NCIT:C2271	Insulin
+N282	Reference T345 NCIT:C60651	C-Reactive Protein
+N283	Reference T346 NCIT:C60651	C-Reactive Protein
+N284	Reference T347 CHEBI:26666	short-chain fatty acid
+N285	Reference T348 FOODON:03311385	yogurt drink
+N286	Reference T349 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N287	Reference T351 FOODON:03311385	yogurt drink
+N288	Reference T353 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N289	Reference T354 FOODON:03311385	yogurt drink
+N290	Reference T355 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N291	Reference T357 NCIT:C105586	Cholesterol Measurement
+N292	Reference T358 NCIT:C105586	Cholesterol Measurement
+N293	Reference T359 CHEBI:47774	low-density lipoprotein cholesterol
+N294	Reference T360 CHEBI:47774	low-density lipoprotein cholesterol
+N295	Reference T361 CHEBI:47775	high-density lipoprotein cholesterol
+N296	Reference T362 CHEBI:47775	high-density lipoprotein cholesterol
+N297	Reference T363 CHEBI:17855	triglyceride
+N298	Reference T364 CHEBI:17855	triglycerides
+N299	Reference T365 CHEBI:30089	acetate
+N300	Reference T368 CHEBI:30089	acetate
+N301	Reference T369 CHEBI:26666	short-chain fatty acid
+N302	Reference T370 CHEBI:17272	propionate
+N303	Reference T371 CHEBI:17968	butyrate
+N304	Reference T372 CHEBI:26666	short-chain fatty acid
+N305	Reference T374 NCIT:C105586	Cholesterol Measurement
+N306	Reference T375 CHEBI:47774	low-density lipoprotein cholesterol
+N307	Reference T376 NCIT:C25150	Age
+N308	Reference T377 NCIT:C100948	Waist Circumference
+N309	Reference T378 NCIT:C174516	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N310	Reference T380 CHEBI:18059	lipid
+N311	Reference T381 CHEBI:6495	lipoprotein
+N312	Reference T383 CHEBI:26666	short-chain fatty acid
+N313	Reference T384 CHEBI:26666	short-chain fatty acid
+N314	Reference T386 NCIT:C105586	Cholesterol Measurement
+N315	Reference T387 CHEBI:47774	low-density lipoprotein cholesterol
+N316	Reference T388 NCIT:C25150	Age
+N317	Reference T389 NCIT:C100948	Waist Circumference
+N318	Reference T390 FOODON:03311385	yogurt drink
+N319	Reference T394 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N320	Reference T395 NCIT:C60651	C-Reactive Protein

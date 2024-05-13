@@ -1,0 +1,81 @@
+T1	Nutrient 69 82	Dietary Fibre
+T2	Disease 96 116	Hypercholesterolemia
+T3	Measurement 220 240	blood lipid profiles
+T4	Nutrient 256 261	fibre
+T5	Nutrient 340 345	fibre
+T6	Nutrient 360 369;396 401	insoluble fibre
+T7	Nutrient 371 378;396 401	soluble fibre
+T8	Nutrient 384 401	antioxidant fibre
+T9	Disease 465 485	hypercholesterolemia
+T10	Population 448 485	individuals with hypercholesterolemia
+T11	Measurement 534 553	blood lipid profile
+T12	Nutrient 632 637	fibre
+T13	INCREASES 647 655	increase
+T14	Microorganism 676 691	Bifidobacterium
+T15	NEG_ASSOCIATED_WITH 724 744	inverse relationship
+T16	Metabolite 753 774	faecal propionic acid
+T17	Chemical 779 800	blood LDL-cholesterol
+T18	Measurement 802 819	LDL particle size
+T19	Measurement 825 847	LDL/HDL particle ratio
+T20	Measurement 970 983	lipid profile
+T21	Nutrient 1007 1012	fibre
+T22	DiversityMetric 1066 1073	Shannon
+T23	DiversityMetric 1078 1101	Simpson diversity index
+T24	DECREASES 1181 1190	reduction
+T25	Metabolite 1194 1217	short-chain fatty acids
+T26	Metabolite 1219 1224	SCFAs
+T27	Microorganism 1261 1277	Clostridium XIVa
+T28	Microorganism 1282 1294	Ruminococcus
+T29	Nutrient 1309 1314	fibre
+T30	DECREASES 1032 1040	decrease
+T31	Nutrient 1406 1411	fibre
+T32	Metabolite 1484 1488	SCFA
+T33	Nutrient 1546 1551	fibre
+T34	AFFECTS 241 247	due to
+T35	INCREASES 1226 1235	producing
+E1	INCREASES:T13 Agent:T12 Theme:T14
+E2	NEG_ASSOCIATED_WITH:T15 Agent:T16 Theme:T17
+E3	NEG_ASSOCIATED_WITH:T15 Agent:T16 Theme:T18
+E4	NEG_ASSOCIATED_WITH:T15 Agent:T16 Theme:T19
+E5	DECREASES:T24 Agent:T29 Theme:T28
+E6	DECREASES:T30 Agent:T21 Theme:T22
+E7	DECREASES:T30 Agent:T21 Theme:T23
+E8	DECREASES:T24 Agent:T29 Theme:T27
+E9	AFFECTS:T34 Agent:T4 Theme:T3
+E10	INCREASES:T35 Agent:T27 Theme:T25
+E11	INCREASES:T35 Agent:T28 Theme:T25
+A1	Unknown E9
+N1	NCIT:C68492 T1	Dietary Fiber
+N2	NCIT:C37967 T2	Hypercholesterolemia
+N3	OCHV:41502 T3	blood lipid
+N4	NCIT:C1502 T4	Fiber
+N5	NCIT:C1502 T5	Fiber
+N6	NCIT:C1502 T8	fiber
+N7	NCIT:C37967 T9	Hypercholesterolemia
+N8	OCHV:41502 T11	blood lipid
+N9	NCIT:C1502 T12	Fiber
+N10	NCBITAXON:1678 T14	Bifidobacterium
+N11	CHEBI:30768 T16	propionic acid
+N12	CHEBI:47774 T17	low-density lipoprotein cholesterol
+N13	NCIT:C103412 T18	LDL Particle Size Measurement
+N14	NCIT:C121182 T19	LDL Cholesterol to HDL Cholesterol Ratio Measurement
+N15	OCHV:C0200382 T20	Lipid panel
+N16	NCIT:C1502 T21	Fiber
+N17	CHEBI:26666 T25	short-chain fatty acid
+N18	CHEBI:26666 T26	short-chain fatty acid
+N19	NCIT:C129411 T27	Clostridium Cluster
+N20	NCBITAXON:1263 T28	Ruminococcus
+N21	NCIT:C1502 T29	Fiber
+N22	NCIT:C1502 T31	Fiber
+N23	CHEBI:26666 T32	short-chain fatty acid
+N24	NCIT:C1502 T33	Fiber
+A2	Factual E1
+A3	Factual E2
+A4	Factual E3
+A5	Factual E4
+A6	Factual E5
+A7	Factual E6
+A8	Factual E7
+A9	Factual E8
+A10	Factual E10
+A11	Factual E11

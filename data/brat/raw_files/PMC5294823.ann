@@ -1,0 +1,1271 @@
+T1	Nutrient 0 16	Resistant starch
+T2	Physiology 29 48	insulin sensitivity
+T3	Disease 133 148	type 2 diabetes
+T4	Disease 153 175	cardiovascular disease
+T5	Population 5447 5465	Germ-free C3H mice
+T6	Nutrient 310 328	Resistant starches
+T7	Nutrient 330 332	RS
+T8	IMPROVES 334 341	improve
+T9	Physiology 342 361	insulin sensitivity
+T10	Nutrient 466 468	RS
+T11	Physiology 466 481	RS fermentation
+T12	Nutrient 673 675	RS
+T13	Nutrient 728 730	RS
+T14	DietPattern 747 759	Western diet
+T15	Chemical 1070 1077	insulin
+T16	Nutrient 826 828	RS
+T17	Population 840 861	conventionalized mice
+T18	DietPattern 917 929	Western diet
+T19	Nutrient 1042 1044	RS
+T20	Nutrient 1131 1133	RS
+T21	DECREASES 1134 1141	reduced
+T22	Metabolite 1207 1212;1239 1249	cecal bile acids
+T23	Nutrient 1458 1460	RS
+T24	Nutrient 1546 1548	RS
+T25	Chemical 1577 1584	insulin
+T26	AFFECTS 1649 1660	alterations
+T27	IMPROVES 862 870	improved
+T28	Physiology 871 890	insulin sensitivity
+T29	Nutrient 7743 7752	l-cystine
+T30	Population 1006 1027	germ-free littermates
+T31	Physiology 8392 8409	Glycemic response
+T32	Population 1258 1293	germ-free and conventionalized mice
+T33	Physiology 1668 1683	bile acid cycle
+T34	AFFECTS 1199 1206	altered
+T35	Chemical 1161 1194	adipose tissue macrophage markers
+T36	Population 5570 5588	Germ-free C3H mice
+T37	IMPROVES 1561 1573	improvements
+T38	IMPROVES 21 28	improve
+T39	Measurement 5495 5506	body weight
+T40	IMPROVES 1054 1066	improvements
+T41	IMPROVES 8318 8326	improved
+T42	Physiology 1688 1720	adipose tissue immune modulation
+T43	DietPattern 5557 5569	Western diet
+T44	Measurement 5618 5629	body weight
+T45	DietPattern 5680 5692	Western diet
+T46	Measurement 5694 5705	Body weight
+T47	Population 5714 5723	germ-free
+T48	Population 5725 5727	GF
+T49	Population 5733 5778	conventionalized (CVZ) male C57BL/6 (B6) mice
+T50	IMPROVES 9888 9895	improve
+T51	DietPattern 5832 5834	WD
+T52	IMPROVES 11888 11913	corrected the proportions
+T53	AFFECTS 12102 12114	altered upon
+T54	Population 5787 5789	GF
+T55	Population 5794 5821	CVZ male C3H/HeN (C3H) mice
+T56	Nutrient 13613 13631	Resistant starches
+T57	Population 5872 5874	GF
+T58	Population 5879 5890	CVZ B6 mice
+T59	Population 5899 5901	GF
+T60	Population 5906 5918	CVZ C3H mice
+T61	DietPattern 5929 5931	WD
+T62	Methodology 5997 6022	Bonferroni post hoc tests
+T63	Methodology 5956 5969	two-way ANOVA
+T64	Population 5951 5954	CVZ
+T65	Nutrient 6183 6185	RS
+T66	Nutrient 6231 6233	RS
+T67	Population 6299 6316	C57BL/6 (B6) mice
+T68	Chemical 13641 13655	plasma insulin
+T69	Disease 6358 6378	diet-induced obesity
+T70	Disease 6380 6383	DIO
+T71	DietPattern 6437 6449	Western diet
+T72	DietPattern 6451 6453	WD
+T73	Population 6495 6517	germ-free (GF) C3H/HeN
+T74	IMPROVES 13632 13640	improved
+T75	Population 6519 6522	C3H
+T76	Disease 6565 6568	DIO
+T77	Disease 6634 6637	DIO
+T78	Population 6666 6711	GF and conventionalized (CVZ) C3H and B6 mice
+T79	Nutrient 7864 7871	HiMaize
+T80	Disease 13680 13698	insulin resistance
+T81	Nutrient 7953 7964	Soybean oil
+T82	DietPattern 6734 6736	WD
+T83	Population 6750 6760	GF B6 mice
+T84	Population 6866 6872	GF C3H
+T85	Population 6905 6908	CVZ
+T86	Population 6938 6950	CVZ C3H mice
+T87	Physiology 6787 6793	weight
+T88	Physiology 6885 6891	weight
+T89	Physiology 6963 6969	weight
+T90	Population 7012 7023	CVZ B6 mice
+T91	Physiology 6993 7006	energy intake
+T92	Population 7104 7115	GF C3H mice
+T93	Nutrient 7215 7228	dietary fiber
+T94	Disease 7247 7254	obesity
+T95	Nutrient 7296 7309	HI-MAIZE® 260
+T96	Nutrient 7314 7326	Fibersym® RW
+T97	Nutrient 7350 7352	RS
+T98	HAS_COMPONENT 7327 7334	contain
+T99	Nutrient 7466 7473	Protein
+T100	Nutrient 7496 7508	Carbohydrate
+T101	Nutrient 7531 7534	Fat
+T102	Nutrient 7595 7602	Protein
+T103	Nutrient 7621 7633	Carbohydrate
+T104	Nutrient 7650 7653	Fat
+T105	Nutrient 7705 7711	Casein
+T106	Nutrient 8043 8062	Dicalcium phosphate
+T107	Nutrient 8078 8095	Calcium carbonate
+T108	Nutrient 7794 7807	Maltodextrine
+T109	Nutrient 7833 7840	Sucrose
+T110	Nutrient 7893 7901	Fibersym
+T111	Nutrient 7922 7931	Cellulose
+T112	Nutrient 8115 8132	Potassium citrate
+T113	Nutrient 7980 7984	Lard
+T114	Nutrient 8009 8020	Mineral mix
+T115	Nutrient 8195 8213	Choline bitartrate
+T116	DietPattern 8528 8531	LFD
+T117	DietPattern 8546 8548	WD
+T118	Nutrient 8162 8173	Vitamin mix
+T119	Nutrient 8563 8566	RS2
+T120	Nutrient 8299 8317	Resistant starches
+T121	Physiology 8327 8346	insulin sensitivity
+T122	Population 8350 8358	C3H mice
+T123	Population 8466 8483	C3H/HeN (C3H) mic
+T124	DietPattern 8532 8544	low-fat diet
+T125	DietPattern 8549 8561	Western diet
+T126	DietPattern 8567 8593	WD with resistant starch 2
+T127	DietPattern 8599 8625	WD with resistant starch 4
+T128	Measurement 8628 8640	Body weights
+T129	Physiology 8717 8744	subcutaneous adipose tissue
+T130	Physiology 8658 8674	body weight gain
+T131	Physiology 8746 8749	SAT
+T132	Physiology 8780 8793	energy intake
+T133	Population 8837 8862	conventionalized C3H mice
+T134	Methodology 8946 8989	one-way ANOVA with Dunnett’s post hoc tests
+T135	DietPattern 8942 8944	WD
+T136	Population 9053 9061	C3H mice
+T137	DietPattern 9068 9080	Western diet
+T138	Physiology 9088 9094	weight
+T139	Population 9168 9176	C3H mice
+T140	INCREASES 9081 9087	gained
+T141	Nutrient 9188 9190	RS
+T142	Population 9220 9227	B6 mice
+T143	Physiology 9238 9249	weight gain
+T144	Population 9313 9316	C3H
+T145	Population 9321 9328	B6 mice
+T146	DietPattern 9355 9357	WD
+T147	DietPattern 9363 9386	WD enriched with 10% RS
+T148	Nutrient 9427 9438	corn starch
+T149	Nutrient 9479 9481	RS
+T150	Nutrient 9615 9617	RS
+T151	Nutrient 9639 9641	RS
+T152	Nutrient 9669 9694	readily digestible starch
+T153	Nutrient 9698 9704	starch
+T154	Nutrient 9761 9763	RS
+T155	Nutrient 9769 9792	resistant starch type 2
+T156	Nutrient 9794 9797	RS2
+T157	Nutrient 9803 9826	resistant starch type 2
+T158	Nutrient 9828 9831	RS4
+T159	Disease 9923 9941	insulin resistance
+T160	Population 10011 10019	C3H mice
+T161	Nutrient 10042 10045	RS4
+T162	IMPROVES 10046 10054	improved
+T163	Physiology 10055 10074	insulin sensitivity
+T164	AFFECTS 10090 10099	no impact
+T165	Measurement 10103 10114	body weight
+T166	Physiology 10116 10132	body weight gain
+T167	Measurement 10134 10168	subcutaneous adipose tissue weight
+T168	Physiology 10174 10187	energy intake
+T169	Population 10231 10238	B6 mice
+T170	Physiology 10346 10357	weight gain
+T171	Nutrient 10461 10463	RS
+T172	Nutrient 10507 10525	resistant starches
+T173	Nutrient 10579 10597	Resistant starches
+T174	Population 10640 10665	conventionalized C3H mice
+T175	DiversityMetric 10704 10725	Alpha-diversity index
+T176	Methodology 10729 10763	Principal Coordinate Analysis plot
+T177	DiversityMetric 10767 10778	β-diversity
+T178	Nutrient 11009 11012	RS4
+T179	DietPattern 10946 10958	low-fat diet
+T180	DietPattern 10963 10975	Western diet
+T181	DietPattern 10981 11007	WD with resistant starch 2
+T182	DietPattern 11013 11039	WD with resistant starch 4
+T183	DietPattern 11154 11156	WD
+T184	Nutrient 11162 11165	RS2
+T185	Nutrient 11169 11172	RS4
+T186	DiversityMetric 11196 11207	α-diversity
+T187	DietPattern 11229 11231	WD
+T188	Population 11235 11247	CVZ C3H mice
+T189	Methodology 11259 11300	Principal Coordinate Analysis (PCoA) plot
+T190	Population 13702 13724;13744 13752	conventionalized (CVZ) C3H mice
+T191	DiversityMetric 11304 11315	β-diversity
+T192	DietPattern 13936 13939	LFD
+T193	DiversityMetric 11474 11493	β-diversity metrics
+T194	Methodology 11495 11515	Bray-Curtis distance
+T195	Methodology 11520 11547	unweighted UniFrac distance
+T196	Nutrient 11621 11623	RS
+T197	DiversityMetric 11759 11763	OTUs
+T198	Nutrient 11885 11887	RS
+T199	Microorganism 11929 11944	Ruminococcaceae
+T200	Microorganism 11949 11991	Clostridiales Incertae Sedis XIII families
+T201	Microorganism 11996 12010	Clostridium IV
+T202	Microorganism 12012 12023	Anaerovorax
+T203	Microorganism 12025 12038	Oscillibacter
+T204	Microorganism 12040 12055	Elizabethkingia
+T205	Microorganism 12061 12082	Flavonifractor genera
+T206	DietPattern 12125 12127	WD
+T207	Nutrient 12174 12176	RS
+T208	DietPattern 13954 13956	WD
+T209	Nutrient 12210 12213	RS4
+T210	INCREASES 12214 12223	increased
+T211	Microorganism 12228 12241	Bacteroidetes
+T212	DECREASES 12253 12262	decreased
+T213	Microorganism 12267 12282	Ruminococcaceae
+T214	Microorganism 12287 12315	Erysipelotrichaceae families
+T215	Methodology 12365 12370	LEfSe
+T216	Microorganism 12429 12443	Proteobacteria
+T217	INCREASES 12475 12483	enriched
+T218	Population 12491 12502	WD-fed mice
+T219	DietPattern 12491 12493	WD
+T220	DietPattern 12590 12592	WD
+T221	Nutrient 12598 12600	RS
+T222	DietPattern 12726 12728	WD
+T223	Nutrient 12739 12757	resistant starches
+T224	IMPROVES 12758 12766	improved
+T225	Chemical 12767 12781	plasma insulin
+T226	Disease 12806 12824	insulin resistance
+T227	Population 12864 12872	C3H mice
+T228	Nutrient 12960 12962	RS
+T229	Population 12969 12971	GF
+T230	Population 12976 12988	CVZ C3H mice
+T231	DietPattern 13015 13017	WD
+T232	DietPattern 13023 13046	WD enriched with 10% RS
+T233	Population 13112 13120	C3H mice
+T234	Population 13141 13143	B6
+T235	Population 13145 13156	GF C3H mice
+T236	Physiology 13164 13170	weight
+T237	Population 13190 13193	CVZ
+T238	DietPattern 13217 13219	WD
+T239	DietPattern 13230 13232	WD
+T240	INCREASES 13241 13250	increased
+T241	Measurement 13251 13262	body weight
+T242	Physiology 13264 13291	white adipose tissue weight
+T243	Chemical 13297 13310	plasma leptin
+T244	Population 13326 13328	GF
+T245	Population 13333 13336	CVZ
+T246	DietPattern 13354 13366	low-fat diet
+T247	DietPattern 13368 13371	LFD
+T248	Nutrient 13387 13389	RS
+T249	AFFECTS 13420 13426	impact
+T250	Population 13729 13752	germ-free (GF) C3H mice
+T251	Chemical 13791 13805	Plasma insulin
+T252	Chemical 13835 13849	Plasma glucose
+T253	Disease 13888 13906	insulin resistance
+T254	Physiology 13908 13910	IR
+T255	Measurement 13927 13934	HOMA-IR
+T256	DietPattern 13940 13952	low-fat diet
+T257	DietPattern 13957 13969	Western diet
+T258	DietPattern 13975 14001	WD with resistant starch 2
+T259	DietPattern 14007 14033	WD with resistant starch 4
+T260	Methodology 14094 14137	one-way ANOVA with Dunnett’s post hoc tests
+T261	Population 14052 14063	WD fed mice
+T262	DietPattern 14052 14054	WD
+T263	Nutrient 8595 8598	RS4
+T264	Nutrient 10977 10980	RS2
+T265	DietPattern 10960 10962	WD
+T266	DietPattern 10942 10945	LFD
+T267	Methodology 11074 11117	one-way ANOVA with Dunnett’s post hoc tests
+T268	DECREASES 11208 11215	reduced
+T269	INCREASES 11173 11181	restored
+T270	Nutrient 13971 13974	RS2
+T271	Nutrient 14003 14006	RS4
+T272	Methodology 14253 14266	two-way ANOVA
+T273	Disease 14188 14199	insulinemia
+T274	Physiology 14204 14212	glycemia
+T275	Population 14323 14337;14369 14373	germ-free (GF) mice
+T276	Population 14342 14373	conventionalized (CVZ) C3H mice
+T277	Chemical 14420 14437	plasma C-peptides
+T278	Gene 14448 14459	Proglucagon
+T279	Chemical 14507 14530	glucagon-like peptide 1
+T280	Chemical 14532 14537	GLP-1
+T281	Chemical 14549 14552	PYY
+T282	Chemical 14600 14610	peptide YY
+T283	Chemical 14612 14615	PYY
+T284	Chemical 14642 14649	ghrelin
+T285	Chemical 14660 14671	Adiponectin
+T286	Physiology 14695 14722	subcutaneous adipose tissue
+T287	Physiology 14724 14727	SAT
+T288	Chemical 14747 14758	adiponectin
+T289	DietPattern 14811 14814	LFD
+T290	DietPattern 14815 14827	low-fat diet
+T291	DietPattern 14829 14831	WD
+T292	DietPattern 14832 14844	Western diet
+T293	Nutrient 14846 14849	RS2
+T294	Nutrient 14878 14881	RS4
+T295	DietPattern 14850 14876	WD with resistant starch 2
+T296	DietPattern 14882 14908	WD with resistant starch 4
+T297	DietPattern 14939 14941	WD
+T298	Methodology 14981 15020	one-way ANOVA with Dunnett’s post tests
+T299	Chemical 15063 15072	C-peptide
+T300	Chemical 15074 15079	GLP-1
+T301	Chemical 15081 15084	PYY
+T302	Chemical 15090 15097	ghrelin
+T303	Gene 15117 15128	proglucagon
+T304	Methodology 15185 15198	two-way ANOVA
+T305	Nutrient 22484 22496	FITC-dextran
+T306	Nutrient 22955 22967	FITC-dextran
+T307	IMPROVES 16530 16552	showed a similar trend
+T308	AFFECTS 17799 17830	was not accompanied by a change
+T309	DECREASES 18719 18726	Reduced
+T310	Measurement 19346 19360	Ratio of M1/M2
+T311	Population 15260 15262;15271 15279	GF C3H mice
+T312	Population 15267 15279	CVZ C3H mice
+T313	DietPattern 15294 15296	WD
+T314	INCREASES 15323 15331	increase
+T315	Chemical 15343 15357	plasma insulin
+T316	Chemical 15362 15369	glucose
+T317	DietPattern 15393 15396	LFD
+T318	DietPattern 15440 15459	RS4-supplemented WD
+T319	DECREASES 15474 15483	decreased
+T320	Chemical 15484 15498	plasma insulin
+T321	Population 15509 15517	CVZ mice
+T322	Population 15631 15639	CVZ mice
+T323	DietPattern 15807 15831	WD supplemented with RS4
+T324	Population 15843 15854	GF C3H mice
+T325	Chemical 15856 15870	plasma insulin
+T326	DECREASES 15897 15906	decreased
+T327	Population 15957 15960	CVZ
+T328	Nutrient 15999 16001	RS
+T329	Population 16103 16105	GF
+T330	Population 16110 16118	CVZ mice
+T331	DietPattern 16126 16145	RS2-supplemented WD
+T332	DECREASES 16186 16195	decreased
+T333	Chemical 16196 16203	insulin
+T334	Population 16277 16280	CVZ
+T335	Population 16298 16300	GF
+T336	Methodology 16302 16326	Dunnett’s post hoc tests
+T337	Disease 16329 16342	Hyperglycemia
+T338	DietPattern 16358 16360	WD
+T339	CAUSES 16343 16350	induced
+T340	IMPROVES 16365 16377	not improved
+T341	Nutrient 16383 16385	RS
+T342	Nutrient 16422 16425	RS4
+T343	IMPROVES 16440 16448	improved
+T344	Disease 16462 16480	insulin resistance
+T345	Nutrient 16526 16529	RS2
+T346	Population 16567 16570	CVZ
+T347	Population 16588 16590	GF
+T348	Methodology 16592 16616	Dunnett’s post hoc tests
+T349	Nutrient 16658 16661	RS2
+T350	Nutrient 16666 16669	RS4
+T351	IMPROVES 16689 16697	improved
+T352	Chemical 16720 16729	C-peptide
+T353	Chemical 16754 16764	proinsulin
+T354	Physiology 16782 16799	insulin secretion
+T355	Chemical 16897 16920	glucagon-like peptide 1
+T356	Chemical 16922 16927	GLP-1
+T357	Chemical 16933 16943	peptide YY
+T358	Chemical 16945 16948	PYY
+T359	Nutrient 16994 16996	RS
+T360	DECREASES 17009 17019	reductions
+T361	Measurement 17023 17035	body weights
+T362	Physiology 17040 17061	fat mass accumulation
+T363	Physiology 21913 21928	adipose tissues
+T364	DECREASES 22259 22266	reduced
+T365	WORSENS 22846 22857	improvement
+T366	Gene 17231 17242	proglucagon
+T367	Chemical 17261 17266	GLP-1
+T368	INCREASES 17272 17281	increased
+T369	Nutrient 17285 17288	RS4
+T370	Gene 17489 17500	Proglucagon
+T371	Gene 17409 17420	proglucagon
+T372	Gene 17609 17620	proglucagon
+T373	Population 17529 17536	GF mice
+T374	Population 17549 17552	CVZ
+T375	Chemical 17645 17650	GLP-1
+T376	Population 17691 17698	GF mice
+T377	Nutrient 17747 17750	RS4
+T378	AFFECTS 23473 23480	changes
+T379	Gene 17771 17782	proglucagon
+T380	Chemical 17841 17846	GLP-1
+T381	Gene 17906 17917	proglucagon
+T382	Chemical 17945 17950	GLP-1
+T383	Enzyme 18079 18101	dipeptidyl peptidase 4
+T384	Enzyme 18109 18134	prohormone convertase 1/3
+T385	Chemical 18176 18179	PYY
+T386	AFFECTS 18185 18197	not affected
+T387	Nutrient 18205 18207	RS
+T388	Chemical 18237 18240	PYY
+T389	Population 18271 18278	GF mice
+T390	Population 18291 18294	CVZ
+T391	DietPattern 18343 18345	WD
+T392	DECREASES 18354 18363	decreased
+T393	Chemical 18371 18378	ghrelin
+T394	Population 18394 18396	GF
+T395	Population 18401 18404	CVZ
+T396	DietPattern 18429 18432	LFD
+T397	Nutrient 18447 18449	RS
+T398	AFFECTS 18462 18482	no additional impact
+T399	Nutrient 7873 7876	RS2
+T400	Physiology 18513 18540	subcutaneous adipose tissue
+T401	Chemical 18625 18636	adiponectin
+T402	Physiology 18679 18698	insulin sensitivity
+T403	Nutrient 18702 18704	RS
+T404	ASSOCIATED_WITH 18699 18701	by
+T405	AFFECTS 18637 18657	does not play a role
+T406	Chemical 18741 18774	adipose tissue macrophage markers
+T407	Population 18778 18789	RS-fed mice
+T408	Nutrient 18778 18780	RS
+T409	ASSOCIATED_WITH 18794 18804	associated
+T410	Disease 18839 18857	insulin resistance
+T411	Physiology 18880 18921	macrophage markers in the adipose tissues
+T412	AFFECTS 20207 20214	control
+T413	Population 18925 18952	C3H mice fed a Western diet
+T414	DietPattern 18940 18989	Western diet supplemented with resistant starches
+T415	Nutrient 18971 18989	resistant starches
+T416	Nutrient 7903 7906	RS4
+T417	Physiology 19007 19012	F4/80
+T418	Gene 19017 19022	CD11c
+T419	Physiology 19041 19053;19067 19082	subcutaneous adipose tissues
+T420	Physiology 19058 19082	visceral adipose tissues
+T421	Physiology 19084 19087	SAT
+T422	Physiology 19092 19095	VAT
+T423	Methodology 19102 19125	Flow cytometry analysis
+T424	Physiology 19133 19158	stromal vascular fraction
+T425	Physiology 19160 19163	SVF
+T426	Physiology 19183 19186	SAT
+T427	Population 19190 19215	conventionalized C3H mice
+T428	Physiology 19233 19244	macrophages
+T429	Physiology 19246 19252	F4/80+
+T430	Gene 19253 19258	CD11b
+T431	Gene 19282 19288	CD11c+
+T432	Gene 19323 19329	CD206+
+T433	Physiology 19278 19280;19290 19301	M1 macrophages
+T434	Physiology 19319 19321;19331 19342	M2 macrophages
+T435	INCREASES 17759 17767	increase
+T436	Gene 19368 19373	CD11c
+T437	Physiology 19379 19381	M1
+T438	Gene 19393 19398	CD206
+T439	Physiology 19404 19406	M2
+T440	DietPattern 19415 19418	LFD
+T441	DietPattern 19419 19431	low-fat diet
+T442	DietPattern 19433 19435	WD
+T443	DietPattern 19436 19448	Western diet
+T444	Nutrient 19450 19453	RS2
+T445	DietPattern 19454 19480	WD with resistant starch 2
+T448	Nutrient 19482 19485	RS4
+T449	DietPattern 19486 19512	WD with resistant starch 4
+T452	DietPattern 19574 19576	WD
+T453	Population 19574 19585	WD fed mice
+T454	Methodology 19616 19659	one-way ANOVA with Dunnett’s post hoc tests
+T457	Population 19730 19732	GF
+T458	Physiology 19786 19791	F4/80
+T459	Physiology 19806 19809	SAT
+T460	Methodology 19850 19863	two-way ANOVA
+T461	DietPattern 19920 19923	LFD
+T462	Nutrient 19960 19962	RS
+T463	Physiology 20083 20109	adipose tissue macrophages
+T464	Physiology 20111 20114	ATM
+T466	Physiology 20218 20237	insulin sensitivity
+T467	Nutrient 20247 20250	RS4
+T468	DECREASES 20265 20272	reduced
+T469	Physiology 20273 20300	subcutaneous adipose tissue
+T470	Physiology 20302 20305	SAT
+T471	Physiology 20326 20331	F4/80
+T472	Population 20369 20371;20380 20384	GF mice
+T473	Population 20376 20384	CVZ mice
+T474	DietPattern 20397 20399	WD
+T475	Physiology 20424 20427	SAT
+T476	Gene 20442 20447	CD11c
+T477	Physiology 20490 20504	M1 macrophages
+T478	Nutrient 20521 20524	RS2
+T479	Nutrient 20529 20532	RS4
+T480	Population 20544 20552	CVZ mice
+T481	Population 20641 20648	GF mice
+T482	Physiology 20660 20665	F4/80
+T483	Gene 20670 20675	CD11c
+T484	Physiology 20706 20729	visceral adipose tissue
+T485	Physiology 20731 20734	VAT
+T486	DECREASES 20746 20755	decreased
+T487	Nutrient 20763 20766	RS2
+T488	Nutrient 20771 20774	RS4
+T489	DECREASES 20510 20517	reduced
+T490	Population 20794 20796	GF
+T491	Population 20801 20809	CVZ mice
+T492	Gene 20898 20903	CD11c
+T493	Physiology 20923 20926	SAT
+T494	Physiology 20931 20934	VAT
+T495	ASSOCIATED_WITH 20948 20958	correlated
+T496	Disease 20977 20995	insulin resistance
+T497	Population 21005 21008	CVZ
+T498	Population 21013 21020	GF mice
+T499	Physiology 21051 21054	SAT
+T500	Physiology 21085 21088	VAT
+T501	Nutrient 21137 21139	RS
+T502	Physiology 21169 21186	modulation of ATM
+T503	Physiology 21204 21229	stromal vascular fraction
+T504	Physiology 21245 21248	SAT
+T505	Population 21252 21260	CVZ mice
+T506	ASSOCIATED_WITH 21151 21161	associated
+T507	DietPattern 21285 21287	WD
+T508	INCREASES 21302 21311	increased
+T509	Physiology 21329 21345	subcutaneous ATM
+T510	Measurement 21361 21372;21399 21401	ratio of M1 M2
+T511	Physiology 21374 21379	F4/80
+T512	Gene 21381 21386	CD11b
+T513	Gene 21388 21393	CD11c
+T514	Physiology 21399 21401	M2
+T515	Physiology 21403 21408	F4/80
+T516	Gene 21410 21415	CD11b
+T517	Gene 21417 21422	CD206
+T518	Physiology 21427 21432	F4/80
+T519	Gene 21434 21439	CD11b
+T520	Gene 21441 21446	CD301
+T521	Physiology 21449 21460	macrophages
+T522	Nutrient 21535 21538	RS2
+T523	Nutrient 21542 21545	RS4
+T524	DECREASES 21560 21567	reduced
+T525	Physiology 21586 21589	ATM
+T526	Physiology 21597 21600	SVF
+T527	Nutrient 21633 21636	RS2
+T528	Nutrient 21641 21644	RS4
+T529	Physiology 21662 21664	M1
+T530	Physiology 21669 21671	M2
+T532	DECREASES 21645 21652	reduced
+T533	Physiology 21751 21754	SAT
+T534	Chemical 21781 21815	monocyte chemoattractant protein 1
+T535	Chemical 21817 21822	MCP-1
+T536	Physiology 21838 21842	CCL2
+T537	Physiology 21884 21907	macrophage infiltration
+T538	AFFECTS 21877 21883	affect
+T539	AFFECTS 21935 21947	not affected
+T540	Nutrient 21951 21953	RS
+T541	AFFECTS 22052 22067	not responsible
+T542	Physiology 22086 22115	subcutaneous ATM accumulation
+T543	Nutrient 22143 22145	RS
+T544	Nutrient 22189 22191	RS
+T545	Physiology 22217 22236	insulin sensitivity
+T547	Physiology 22282 22284	M1
+T548	Physiology 22289 22291	M2
+T549	Physiology 22316 22339	intestinal permeability
+T550	Population 22343 22352	germ-free
+T551	Population 22354 22356	GF
+T552	Population 22362 22378;22385 22393	conventionalized C3H mice
+T553	Population 22380 22383	CVZ
+T554	Physiology 22432 22448	Gut permeability
+T556	Chemical 22500 22518	Zonula occludens 1
+T557	Chemical 22520 22524	ZO-1
+T558	Gene 22532 22540	occludin
+T559	Physiology 22564 22569	ileum
+T560	DietPattern 22571 22574	LFD
+T561	DietPattern 22575 22587	low-fat diet
+T562	DietPattern 22589 22591	WD
+T563	DietPattern 22592 22604	Western diet
+T564	Nutrient 22606 22609	RS2
+T567	DietPattern 22610 22636	WD with resistant starch 2
+T568	Nutrient 22638 22641	RS4
+T569	DietPattern 22642 22668	WD with resistant starch 4
+T572	Physiology 22716 22730	adipose tissue
+T573	Physiology 22754 22759;22772 22802	liver tissue macrophage infiltration
+T574	Physiology 22764 22802	adipose tissue macrophage infiltration
+T575	Disease 22806 22811	obese
+T576	Population 22806 22816	obese mice
+T577	AFFECTS 23442 23451	redressed
+T578	Physiology 22861 22877	gut permeability
+T579	Physiology 22908 22931	intestinal permeability
+T581	Population 22971 22973;22982 22986	GF mice
+T582	Population 22978 22986	CVZ mice
+T583	Physiology 23055 23071	gut permeability
+T584	Chemical 23165 23169	ZO-1
+T585	Gene 23174 23182	occludin
+T586	AFFECTS 23193 23205	not affected
+T587	Nutrient 23293 23295	RS
+T588	DECREASES 23296 23304	decrease
+T589	Chemical 23319 23352	adipose tissue macrophage markers
+T590	Physiology 23404 23420	gut permeability
+T591	Nutrient 23423 23441	Resistant starches
+T592	DietPattern 23452 23464	Western diet
+T593	Metabolite 23484 23499	cecal bile acid
+T594	Population 23517 23526;23548 23552	germ-free mice
+T595	Population 23531 23552	conventionalized mice
+T596	Metabolite 23591 23600	bile acid
+T597	Metabolite 23602 23604	BA
+T598	Disease 23651 23662	prediabetic
+T599	Disease 23671 23686	type 2 diabetes
+T600	Metabolite 23688 23691	BAs
+T601	Physiology 23723 23742	insulin sensitivity
+T602	Physiology 23747 23766	glucose homeostasis
+T603	Chemical 23832 23860	nuclear farnesoid X receptor
+T604	Physiology 23791 23827	inflammatory activity of macrophages
+T605	Enzyme 23862 23865	FXR
+T606	Physiology 23871 23900	membrane-bound TGR5 signaling
+T607	Nutrient 23912 23914	RS
+T608	Metabolite 23947 23949	BA
+T609	Population 23965 23971	humans
+T610	Population 23976 23983	rodents
+T611	AFFECTS 23941 23946	alter
+T612	Metabolite 24026 24034	cecal BA
+T613	Population 24043 24045;24059 24065	GF fed RS
+T614	Population 24050 24065	CVZ mice fed RS
+T615	Nutrient 24067 24085	Resistant starches
+T616	Metabolite 24099 24114	cecal bile acid
+T617	Population 24127 24136	germ-free
+T618	Population 24138 24140	GF
+T619	Population 24146 24162;24169 24177	conventionalized C3H mice
+T620	Population 24164 24167	CVZ
+T621	Metabolite 24774 24802	T taurine-conjugated species
+T622	Metabolite 24219 24228	bile acid
+T623	Metabolite 24302 24312	bile acids
+T624	DietPattern 24404 24407	LFD
+T625	DietPattern 24408 24420	low-fat diet
+T626	DietPattern 24422 24424	WD
+T627	DietPattern 24425 24437	Western diet
+T628	Nutrient 24439 24442	RS2
+T631	DietPattern 24443 24469	WD with resistant starch 2
+T632	Nutrient 24471 24474	RS4
+T635	DietPattern 24475 24501	WD with resistant starch 4
+T636	Metabolite 24506 24517	cholic acid
+T637	Metabolite 24503 24505	CA
+T638	Metabolite 24524 24545	chenodeoxycholic acid
+T639	Metabolite 24519 24523	CDCA
+T640	Metabolite 24547 24550	MCA
+T641	Metabolite 24551 24566	muricholic acid
+T642	Metabolite 24568 24571	HCA
+T643	Metabolite 24572 24586	hyocholic acid
+T644	Metabolite 24588 24594	MuroCA
+T645	Metabolite 24595 24610	murocholic acid
+T646	Metabolite 24612 24615	ACA
+T647	Metabolite 24616 24631	allocholic acid
+T648	Metabolite 24633 24636	LCA
+T649	Metabolite 24637 24653	lithocholic acid
+T650	Metabolite 24655 24658	DCA
+T651	Metabolite 24659 24675	deoxycholic acid
+T652	Metabolite 24677 24681	HDCA
+T653	Metabolite 24682 24701	hyodeoxycholic acid
+T654	Metabolite 24703 24707	ILCA
+T655	Metabolite 24708 24726	isolitocholic acid
+T656	Metabolite 24728 24732	UDCA
+T657	Metabolite 24733 24753	ursodeoxycholic acid
+T658	Metabolite 24757 24772	keto derivative
+T660	DietPattern 24904 24906	WD
+T661	Population 24904 24915	WD fed mice
+T662	Methodology 24946 24989	one-way ANOVA with Dunnett’s post hoc tests
+T664	Metabolite 25058 25066	cecal BA
+T665	Population 25103 25105	GF
+T666	Population 25110 25117	CVZ mic
+T667	Population 25183 25190	GF mice
+T668	Metabolite 25209 25246	taurine-conjugated primary bile acids
+T669	Metabolite 25258 25281	tauro-β-muricholic acid
+T670	Population 25309 25317	CVZ mice
+T671	Metabolite 25368 25381	secondary BAs
+T672	DietPattern 25459 25461	WD
+T673	INCREASES 25484 25493	increased
+T674	Metabolite 25523 25526	BAs
+T675	Metabolite 25536 25552	taurocholic acid
+T676	Metabolite 25554 25557	TCA
+T677	Metabolite 25563 25589	taurochenodeoxycholic acid
+T678	Metabolite 25591 25596	TCDCA
+T679	Population 25607 25609	GF
+T680	Population 25614 25622	CVZ mice
+T683	DietPattern 25647 25657	WD with RS
+T684	ASSOCIATED_WITH 25758 25777	strong correlations
+T685	Metabolite 25786 25789	TCA
+T686	Metabolite 25794 25799	TCDCA
+T687	Chemical 25819 25833	plasma insulin
+T688	Disease 25855 25873	insulin resistance
+T689	Measurement 25879 25890	ATM markers
+T690	ASSOCIATED_WITH 16741 16748	derived
+T691	ASSOCIATED_WITH 17248 17257	precursor
+T692	Chemical 18556 18567	adiponectin
+T693	Population 22130 22145	mice are fed RS
+T694	IMPROVES 22201 22213	improvements
+T695	AFFECTS 22846 22857	improvement
+T697	AFFECTS 24086 24094	restored
+T698	ASSOCIATED_WITH 23638 23647	diagnosed
+T699	AFFECTS 23707 23717	regulating
+T700	DECREASES 23778 23786	reducing
+T701	Nutrient 26028 26030	RS
+T702	AFFECTS 26039 26046	impacts
+T703	Metabolite 26051 26059	cecal BA
+T704	Metabolite 26076 26097	taurine-conjugated BA
+E1	IMPROVES:T8 Agent:T6 Theme:T9
+E2	DECREASES:T21 Agent:T20 Theme:T35
+E3	IMPROVES:T27 Agent:T16 Theme:T28
+E4	IMPROVES:T41 Theme:T121 Agent:T120
+E5	AFFECTS:T34 Agent:T20 Theme:T22
+E6	HAS_COMPONENT:T98 Theme:T97 Agent:T96
+E7	HAS_COMPONENT:T98 Theme:T97 Agent:T95
+E8	INCREASES:T140 Agent:T137 Theme:T138
+E9	IMPROVES:T40 Agent:T19 Theme:T15
+E10	AFFECTS:T26 Agent:T24 Theme:T33
+E11	AFFECTS:T26 Agent:T24 Theme:T42
+E12	IMPROVES:T38 Agent:T1 Theme:T2
+E13	IMPROVES:T37 Agent:T24 Theme:T25
+E14	IMPROVES:T162 Agent:T161 Theme:T163
+E15	AFFECTS:T164 Agent:T161 Theme:T165
+E16	AFFECTS:T164 Agent:T161 Theme:T166
+E17	AFFECTS:T164 Agent:T161 Theme:T167
+E18	AFFECTS:T164 Agent:T161 Theme:T168
+E19	INCREASES:T210 Agent:T209 Theme:T211
+E20	DECREASES:T212 Agent:T209 Theme:T213
+E21	DECREASES:T212 Agent:T209 Theme:T214
+E22	INCREASES:T217 Agent:T219 Theme:T216
+E23	IMPROVES:T224 Agent:T223 Theme:T225
+E24	INCREASES:T240 Agent:T239 Theme:T241
+E25	AFFECTS:T249 Agent:T248 Theme:T243
+E26	INCREASES:T240 Agent:T239 Theme:T242
+E27	INCREASES:T240 Agent:T239 Theme:T243
+E28	AFFECTS:T249 Agent:T248 Theme:T242
+E29	AFFECTS:T249 Agent:T248 Theme:T241
+E30	IMPROVES:T224 Agent:T223 Theme:T226
+E31	IMPROVES:T50 Theme:T159 Agent:T157
+E32	IMPROVES:T50 Theme:T159 Agent:T155
+E33	IMPROVES:T52 Theme:T199 Agent:T198
+E34	IMPROVES:T52 Agent:T198 Theme:T200
+E35	IMPROVES:T52 Agent:T198 Theme:T201
+E36	IMPROVES:T52 Agent:T198 Theme:T202
+E37	IMPROVES:T52 Agent:T198 Theme:T203
+E38	IMPROVES:T52 Agent:T198 Theme:T204
+E39	IMPROVES:T52 Agent:T198 Theme:T205
+E40	AFFECTS:T53 Agent:T206 Theme:T205
+E41	AFFECTS:T53 Agent:T206 Theme:T204
+E42	AFFECTS:T53 Agent:T206 Theme:T203
+E43	AFFECTS:T53 Agent:T206 Theme:T202
+E44	AFFECTS:T53 Agent:T206 Theme:T201
+E45	AFFECTS:T53 Agent:T206 Theme:T200
+E46	AFFECTS:T53 Agent:T206 Theme:T199
+E47	IMPROVES:T74 Theme:T68 Agent:T56
+E48	IMPROVES:T74 Agent:T56 Theme:T80
+E49	DECREASES:T268 Agent:T187 Theme:T186
+E50	INCREASES:T269 Theme:T186 Agent:T185
+E51	INCREASES:T269 Theme:T186 Agent:T184
+E52	ASSOCIATED_WITH:T404 Theme:T403 Theme2:T402
+E53	AFFECTS:T405 Theme:T402 Agent:T401
+E54	ASSOCIATED_WITH:T409 Theme:T406 Theme2:T410
+E55	AFFECTS:T378 Theme:T593 Agent:T592
+E56	INCREASES:T435 Theme:T379 Agent:T377
+E58	DECREASES:T468 Agent:T467 Theme:T471
+E59	DECREASES:T486 Theme:T483 Agent:T487
+E60	DECREASES:T489 Theme:T476 Agent:T478
+E61	DECREASES:T489 Theme:T476 Agent:T479
+E62	DECREASES:T486 Theme:T482 Agent:T487
+E63	DECREASES:T486 Theme:T483 Agent:T488
+E64	DECREASES:T486 Theme:T482 Agent:T488
+E65	ASSOCIATED_WITH:T495 Theme:T492 Theme2:T496
+E66	ASSOCIATED_WITH:T506 Theme:T501 Theme2:T502
+E67	INCREASES:T508 Agent:T507 Theme:T509
+E68	DECREASES:T524 Theme:T525 Agent:T523
+E69	DECREASES:T524 Theme:T525 Agent:T522
+E70	DECREASES:T532 Agent:T528 Theme:T529
+E71	DECREASES:T532 Agent:T527 Theme:T529
+E72	DECREASES:T532 Agent:T527 Theme:T530
+E73	DECREASES:T532 Agent:T528 Theme:T530
+E74	AFFECTS:T538 Agent:T534 Theme:T537
+E75	AFFECTS:T539 Theme:T534 Agent:T540
+E76	AFFECTS:T541 Agent:T534 Theme:T542
+E77	DECREASES:T364 Theme:T547 Agent:T544
+E78	DECREASES:T364 Theme:T548 Agent:T544
+E81	WORSENS:T365 Theme:T578 Agent:T573
+E82	AFFECTS:T695 Theme:T578 Agent:T572
+E83	WORSENS:T365 Theme:T578 Agent:T574
+E84	AFFECTS:T586 Agent:T568 Theme:T585
+E85	AFFECTS:T586 Agent:T564 Theme:T585
+E86	AFFECTS:T586 Agent:T562 Theme:T585
+E87	AFFECTS:T586 Agent:T560 Theme:T585
+E88	AFFECTS:T586 Agent:T560 Theme:T584
+E89	AFFECTS:T586 Agent:T562 Theme:T584
+E90	AFFECTS:T586 Agent:T564 Theme:T584
+E91	AFFECTS:T586 Agent:T568 Theme:T584
+E92	DECREASES:T588 Agent:T587 Theme:T589
+E93	AFFECTS:T611 Agent:T607 Theme:T608
+E96	INCREASES:T673 Agent:T672 Theme:T675
+E98	ASSOCIATED_WITH:T684 Theme:T685 Theme2:T687
+E99	ASSOCIATED_WITH:T684 Theme:T686 Theme2:T687
+E100	ASSOCIATED_WITH:T684 Theme:T686 Theme2:T688
+E101	ASSOCIATED_WITH:T684 Theme:T685 Theme2:T689
+E102	ASSOCIATED_WITH:T684 Theme:T686 Theme2:T689
+E103	ASSOCIATED_WITH:T684 Theme:T685 Theme2:T688
+E104	ASSOCIATED_WITH:T690 Theme:T352 Theme2:T353
+E105	ASSOCIATED_WITH:T691 Theme:T366 Theme2:T367
+E106	AFFECTS:T412 Agent:T463 Theme:T466
+E107	INCREASES:T508 Agent:T507 Theme:T510
+E108	IMPROVES:T694 Agent:T544 Theme:T545
+E109	AFFECTS:T577 Agent:T591 Theme:T593
+E110	AFFECTS:T697 Agent:T615 Theme:T616
+E111	ASSOCIATED_WITH:T698 Theme:T596 Theme2:T598
+E112	ASSOCIATED_WITH:T698 Theme:T596 Theme2:T599
+E113	AFFECTS:T699 Agent:T600 Theme:T601
+E114	AFFECTS:T699 Agent:T600 Theme:T602
+E115	DECREASES:T700 Agent:T600 Theme:T604
+E116	DECREASES:T700 Theme:T606 Agent:T600
+E117	INCREASES:T673 Agent:T672 Theme:T677
+E118	AFFECTS:T702 Agent:T701 Theme:T703
+E119	AFFECTS:T702 Agent:T701 Theme:T704
+E120	IMPROVES:T307 Agent:T345 Theme:T344
+E121	AFFECTS:T308 Theme:T380 Agent:T377
+E122	DECREASES:T309 Theme:T406 Agent:T408
+E3511	INCREASES:T314 Agent:T313 Theme:T315
+E3611	INCREASES:T314 Agent:T313 Theme:T316
+E3711	DECREASES:T319 Agent:T318 Theme:T320
+E3811	DECREASES:T326 Agent:T323 Theme:T325
+E3911	DECREASES:T332 Agent:T331 Theme:T333
+E4011	CAUSES:T339 Theme:T337 Agent:T338
+E4111	IMPROVES:T340 Agent:T341 Theme:T337
+E4211	IMPROVES:T343 Agent:T342 Theme:T344
+E4311	IMPROVES:T351 Theme:T352 Agent:T350
+E4411	IMPROVES:T351 Theme:T352 Agent:T349
+E4511	DECREASES:T360 Agent:T359 Theme:T361
+E4611	DECREASES:T360 Agent:T359 Theme:T362
+E4711	INCREASES:T368 Theme:T366 Agent:T369
+E4911	AFFECTS:T386 Theme:T385 Agent:T387
+E5011	DECREASES:T392 Agent:T391 Theme:T393
+E5111	AFFECTS:T398 Agent:T397 Theme:T393
+A1	Factuality E121 Negated
+A2	Factuality E10 Possible
+A3	Factuality E11 Possible
+A4	Factuality E15 Negated
+A5	Factuality E16 Negated
+A6	Factuality E17 Negated
+A7	Factuality E18 Negated
+A8	Factuality E25 Negated
+A9	Factuality E28 Negated
+A10	Factuality E29 Negated
+A13	Factuality E4111 Negated
+A14	Factuality E4911 Negated
+A15	Factuality E5111 Negated
+A16	Factuality E53 Negated
+A17	Factuality E66 Possible
+A18	Factuality E75 Negated
+A19	Factuality E76 Negated
+A20	Factuality E84 Negated
+A21	Factuality E85 Negated
+A22	Factuality E86 Negated
+A23	Factuality E87 Negated
+A24	Factuality E88 Negated
+A25	Factuality E89 Negated
+A26	Factuality E90 Negated
+A27	Factuality E91 Negated
+N1	Reference T1 NCIT:C94233	Resistant Starch
+N2	Reference T2 OCHV:C0920563	insulin sensitivity
+N3	Reference T3 NCIT:C26747	Type 2 Diabetes Mellitus
+N4	Reference T4 MESH:D002318	Cardiovascular Diseases
+N5	Reference T6 NCIT:C94233	Resistant Starch
+N6	Reference T7 NCIT:C94233	Resistant Starch
+N7	Reference T9 OCHV:C0920563	insulin sensitivity
+N8	Reference T10 NCIT:C94233	Resistant Starch
+N9	Reference T12 NCIT:C94233	Resistant Starch
+N10	Reference T13 NCIT:C94233	Resistant Starch
+N11	Reference T14 MESH:D066273	Diet, Western
+N12	Reference T15 NCIT:C2271	Insulin
+N13	Reference T16 NCIT:C94233	Resistant Starch
+N14	Reference T18 MESH:D066273	Diet, Western
+N15	Reference T19 NCIT:C94233	Resistant Starch
+N16	Reference T20 NCIT:C94233	Resistant Starch
+N17	Reference T22 CHEBI:3098	bile acid
+N18	Reference T23 NCIT:C94233	Resistant Starch
+N19	Reference T24 NCIT:C94233	Resistant Starch
+N20	Reference T25 NCIT:C2271	Insulin
+N21	Reference T28 OCHV:C0920563	insulin sensitivity
+N22	Reference T29 CHEBI:16283	L-cystine
+N23	Reference T33 OCHV:C0678714	bile acid metabolism
+N24	Reference T39 NCIT:C81328	Body Weight
+N25	Reference T43 MESH:D066273	Diet, Western
+N26	Reference T44 NCIT:C81328	Body Weight
+N27	Reference T45 MESH:D066273	Diet, Western
+N28	Reference T46 NCIT:C81328	Body Weight
+N29	Reference T51 FOODON:03316466	walnut (whole or parts)
+N30	Reference T56 NCIT:C94233	Resistant Starch
+N31	Reference T61 FOODON:03316466	walnut (whole or parts)
+N32	Reference T65 NCIT:C94233	Resistant Starch
+N33	Reference T66 NCIT:C94233	Resistant Starch
+N34	Reference T68 OCHV:50560	plasma insulin
+N35	Reference T69 NCIT:C3283	Obesity
+N36	Reference T70 NCIT:C3283	Obesity
+N37	Reference T71 MESH:D066273	Diet, Western
+N38	Reference T72 FOODON:03316466	walnut (whole or parts)
+N39	Reference T76 NCIT:C3283	Obesity
+N40	Reference T77 NCIT:C3283	Obesity
+N41	Reference T79 MESH:C572111	high-amylose maize type 2 resistant starch, maize
+N42	Reference T80 NCIT:C113101	Insulin Resistance
+N43	Reference T81 FOODON:03302776	soybean oil
+N44	Reference T82 FOODON:03316466	walnut (whole or parts)
+N45	Reference T87 NCIT:C25208	Weight
+N46	Reference T88 NCIT:C25208	Weight
+N47	Reference T89 NCIT:C25208	Weight
+N48	Reference T91 NCIT:C28135	Caloric Intake
+N49	Reference T93 NCIT:C68492	Dietary Fiber
+N50	Reference T94 NCIT:C3283	Obesity
+N51	Reference T95 MESH:C572111	high-amylose maize type 2 resistant starch, maize
+N52	Reference T97 NCIT:C94233	Resistant Starch
+N53	Reference T99 CHEBI:36080	protein
+N54	Reference T100 CHEBI:16646	carbohydrate
+N55	Reference T101 MESH:D004041	Dietary Fats
+N56	Reference T102 CHEBI:36080	protein
+N57	Reference T103 CHEBI:16646	carbohydrate
+N58	Reference T104 MESH:D004041	Dietary Fats
+N59	Reference T105 FOODON:3420180	casein
+N60	Reference T106 FOODON:03413076	dicalcium phosphate
+N61	Reference T107 CHEBI:3311	calcium carbonate
+N62	Reference T108 CHEBI:25140	maltodextrin
+N63	Reference T109 CHEBI:17992	sucrose
+N64	Reference T111 NCIT:C68491	Cellulose
+N65	Reference T112 NCIT:C29372	Potassium Citrate
+N66	Reference T113 FOODON:03302051	lard
+N67	Reference T114 CHEBI:46662	mineral
+N68	Reference T115 NCIT:C76834	Choline Bitartrate
+N69	Reference T116 OCHV:C0242970	low fat diet
+N70	Reference T117 FOODON:03316466	walnut (whole or parts)
+N71	Reference T119 NCIT:C94233	Resistant Starch
+N72	Reference T120 NCIT:C94233	Resistant Starch
+N73	Reference T121 OCHV:C0920563	insulin sensitivity
+N74	Reference T124 OCHV:C0242970	low fat diet
+N75	Reference T125 MESH:D066273	Diet, Western
+N76	Reference T126 NCIT:C94233	Resistant Starch
+N77	Reference T127 NCIT:C94233	Resistant Starch
+N78	Reference T128 NCIT:C81328	Body Weight
+N79	Reference T129 NCIT:C33645	Subcutis
+N80	Reference T130 MESH:D015430	Weight gain
+N81	Reference T131 NCIT:C33645	Subcutis
+N82	Reference T132 NCIT:C28135	Caloric Intake
+N83	Reference T135 FOODON:03316466	walnut (whole or parts)
+N84	Reference T137 MESH:D066273	Diet, Western
+N85	Reference T138 NCIT:C25208	Weight
+N86	Reference T141 NCIT:C94233	Resistant Starch
+N87	Reference T143 NCIT:C62754	Weight Gain
+N88	Reference T146 FOODON:03316466	walnut (whole or parts)
+N89	Reference T147 NCIT:C94233	Resistant Starch
+N90	Reference T148 NCIT:C80778	Starch, Corn
+N91	Reference T149 NCIT:C94233	Resistant Starch
+N92	Reference T150 NCIT:C94233	Resistant Starch
+N93	Reference T151 NCIT:C94233	Resistant Starch
+N94	Reference T152 NCIT:C165201	Digestible Starch
+N95	Reference T153 CHEBI:28017	starch
+N96	Reference T154 NCIT:C94233	Resistant Starch
+N97	Reference T155 NCIT:C94233	Resistant Starch
+N98	Reference T156 NCIT:C94233	Resistant Starch
+N99	Reference T157 NCIT:C94233	Resistant Starch
+N100	Reference T158 NCIT:C94233	Resistant Starch
+N101	Reference T159 NCIT:C113101	Insulin Resistance
+N102	Reference T161 NCIT:C94233	Resistant Starch
+N103	Reference T163 OCHV:C0920563	insulin sensitivity
+N104	Reference T165 NCIT:C81328	Body Weight
+N105	Reference T166 MESH:D015430	Weight gain
+N106	Reference T168 NCIT:C28135	Caloric Intake
+N107	Reference T170 NCIT:C62754	Weight Gain
+N108	Reference T171 NCIT:C94233	Resistant Starch
+N109	Reference T172 NCIT:C94233	Resistant Starch
+N110	Reference T173 NCIT:C94233	Resistant Starch
+N111	Reference T178 NCIT:C94233	Resistant Starch
+N112	Reference T179 OCHV:C0242970	low fat diet
+N113	Reference T180 MESH:D066273	Diet, Western
+N114	Reference T181 NCIT:C94233	Resistant Starch
+N115	Reference T182 NCIT:C94233	Resistant Starch
+N116	Reference T183 FOODON:03316466	walnut (whole or parts)
+N117	Reference T184 NCIT:C94233	Resistant Starch
+N118	Reference T185 NCIT:C94233	Resistant Starch
+N119	Reference T187 FOODON:03316466	walnut (whole or parts)
+N120	Reference T192 OCHV:C0242970	low fat diet
+N121	Reference T196 NCIT:C94233	Resistant Starch
+N122	Reference T198 NCIT:C94233	Resistant Starch
+N123	Reference T199 NCBITAXON:216572	Oscillospiraceae
+N124	Reference T200 NCBITAXON:539000	Clostridiales Family XVII. Incertae Sedis
+N125	Reference T201 NCIT:C129412	Clostridium Cluster IV
+N126	Reference T202 NCBITAXON:109326	Anaerovorax
+N127	Reference T203 NCBITAXON:459786	Oscillibacter
+N128	Reference T204 NCBITAXON:308865	Elizabethkingia
+N129	Reference T205 NCBITAXON:946234	Flavonifractor
+N130	Reference T206 FOODON:03316466	walnut (whole or parts)
+N131	Reference T207 NCIT:C94233	Resistant Starch
+N132	Reference T208 FOODON:03316466	walnut (whole or parts)
+N133	Reference T209 NCIT:C94233	Resistant Starch
+N134	Reference T211 NCBITAXON:976	Bacteroidetes
+N135	Reference T213 NCBITAXON:216572	Oscillospiraceae
+N136	Reference T214 NCBITAXON:128827	Erysipelotrichaceae
+N137	Reference T216 NCBITAXON:1224	Proteobacteria
+N138	Reference T219 FOODON:03316466	walnut (whole or parts)
+N139	Reference T220 FOODON:03316466	walnut (whole or parts)
+N140	Reference T221 NCIT:C94233	Resistant Starch
+N141	Reference T222 FOODON:03316466	walnut (whole or parts)
+N142	Reference T223 NCIT:C94233	Resistant Starch
+N143	Reference T225 OCHV:50560	plasma insulin
+N144	Reference T226 NCIT:C113101	Insulin Resistance
+N145	Reference T228 NCIT:C94233	Resistant Starch
+N146	Reference T231 FOODON:03316466	walnut (whole or parts)
+N147	Reference T232 NCIT:C94233	Resistant Starch
+N148	Reference T236 NCIT:C25208	Weight
+N149	Reference T238 FOODON:03316466	walnut (whole or parts)
+N150	Reference T239 FOODON:03316466	walnut (whole or parts)
+N151	Reference T241 NCIT:C81328	Body Weight
+N152	Reference T243 CHEBI:81571	Leptin
+N153	Reference T246 OCHV:C0242970	low fat diet
+N154	Reference T247 OCHV:C0242970	low fat diet
+N155	Reference T248 NCIT:C94233	Resistant Starch
+N156	Reference T251 OCHV:50560	plasma insulin
+N157	Reference T252 NCIT:C41376	Plasma Glucose Measurement
+N158	Reference T253 NCIT:C113101	Insulin Resistance
+N159	Reference T254 NCIT:C113101	Insulin Resistance
+N160	Reference T255 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N161	Reference T256 OCHV:C0242970	low fat diet
+N162	Reference T257 MESH:D066273	Diet, Western
+N163	Reference T258 NCIT:C94233	Resistant Starch
+N164	Reference T259 NCIT:C94233	Resistant Starch
+N165	Reference T262 FOODON:03316466	walnut (whole or parts)
+N166	Reference T263 NCIT:C94233	Resistant Starch
+N167	Reference T264 NCIT:C94233	Resistant Starch
+N168	Reference T265 FOODON:03316466	walnut (whole or parts)
+N169	Reference T266 OCHV:C0242970	low fat diet
+N170	Reference T270 NCIT:C94233	Resistant Starch
+N171	Reference T271 NCIT:C94233	Resistant Starch
+N172	Reference T273 NCIT:C2271	Insulin
+N173	Reference T274 NCIT:C94312	Blood Glucose
+N174	Reference T277 CHEBI:80332	C-peptide
+N175	Reference T278 NCIT:C136747	Proglucagon
+N176	Reference T279 CHEBI:80270	Glucagon-like peptide 1
+N177	Reference T280 CHEBI:80270	Glucagon-like peptide 1
+N178	Reference T281 CHEBI:80330	peptide YY
+N179	Reference T282 CHEBI:80330	peptide YY
+N180	Reference T283 CHEBI:80330	peptide YY
+N181	Reference T284 CHEBI:75431	ghrelin
+N182	Reference T285 NCIT:C94786	Adiponectin
+N183	Reference T286 NCIT:C33645	Subcutis
+N184	Reference T287 NCIT:C33645	Subcutis
+N185	Reference T288 NCIT:C94786	Adiponectin
+N186	Reference T289 OCHV:C0242970	low fat diet
+N187	Reference T290 OCHV:C0242970	low fat diet
+N188	Reference T291 FOODON:03316466	walnut (whole or parts)
+N189	Reference T292 MESH:D066273	Diet, Western
+N190	Reference T293 NCIT:C94233	Resistant Starch
+N191	Reference T294 NCIT:C94233	Resistant Starch
+N192	Reference T295 NCIT:C94233	Resistant Starch
+N193	Reference T296 NCIT:C94233	Resistant Starch
+N194	Reference T297 FOODON:03316466	walnut (whole or parts)
+N195	Reference T299 CHEBI:80332	C-peptide
+N196	Reference T300 CHEBI:80270	Glucagon-like peptide 1
+N197	Reference T301 CHEBI:80330	peptide YY
+N198	Reference T302 CHEBI:75431	ghrelin
+N199	Reference T303 NCIT:C136747	Proglucagon
+N200	Reference T305 MESH:C015219	fluorescein isothiocyanate dextran
+N201	Reference T306 MESH:C015219	fluorescein isothiocyanate dextran
+N202	Reference T310 NCIT:C156005	M1 Macrophage to M2 Macrophage Ratio Measurement
+N203	Reference T313 FOODON:03316466	walnut (whole or parts)
+N204	Reference T315 OCHV:50560	plasma insulin
+N205	Reference T316 CHEBI:17234	glucose
+N206	Reference T317 OCHV:C0242970	low fat diet
+N207	Reference T320 OCHV:50560	plasma insulin
+N208	Reference T323 NCIT:C94233	Resistant Starch
+N209	Reference T325 OCHV:50560	plasma insulin
+N210	Reference T328 NCIT:C94233	Resistant Starch
+N211	Reference T333 NCIT:C2271	Insulin
+N212	Reference T337 NCIT:C26797	Hyperglycemia
+N213	Reference T338 FOODON:03316466	walnut (whole or parts)
+N214	Reference T341 NCIT:C94233	Resistant Starch
+N215	Reference T342 NCIT:C94233	Resistant Starch
+N216	Reference T344 NCIT:C113101	Insulin Resistance
+N217	Reference T345 NCIT:C94233	Resistant Starch
+N218	Reference T349 NCIT:C94233	Resistant Starch
+N219	Reference T350 NCIT:C94233	Resistant Starch
+N220	Reference T352 CHEBI:80332	C-peptide
+N221	Reference T353 NCIT:C113517	Proinsulin
+N222	Reference T354 MESH:D000078790	Insulin Secretion
+N223	Reference T355 CHEBI:80270	Glucagon-like peptide 1
+N224	Reference T356 CHEBI:80270	Glucagon-like peptide 1
+N225	Reference T357 CHEBI:80330	peptide YY
+N226	Reference T358 CHEBI:80330	peptide YY
+N227	Reference T359 NCIT:C94233	Resistant Starch
+N228	Reference T361 NCIT:C81328	Body Weight
+N229	Reference T362 NCIT:C158256	Fat Mass
+N230	Reference T363 NCIT:C12472	Adipose Tissue
+N231	Reference T366 NCIT:C136747	Proglucagon
+N232	Reference T367 CHEBI:80270	Glucagon-like peptide 1
+N233	Reference T369 NCIT:C94233	Resistant Starch
+N234	Reference T370 NCIT:C136747	Proglucagon
+N235	Reference T371 NCIT:C136747	Proglucagon
+N236	Reference T372 NCIT:C136747	Proglucagon
+N237	Reference T375 CHEBI:80270	Glucagon-like peptide 1
+N238	Reference T377 NCIT:C94233	Resistant Starch
+N239	Reference T379 NCIT:C136747	Proglucagon
+N240	Reference T380 CHEBI:80270	Glucagon-like peptide 1
+N241	Reference T381 NCIT:C136747	Proglucagon
+N242	Reference T382 CHEBI:80270	Glucagon-like peptide 1
+N243	Reference T383 NCIT:C91300	Dipeptidyl Peptidase 4
+N244	Reference T384 MESH:D045664	Proprotein Convertase 1
+N245	Reference T385 CHEBI:80330	peptide YY
+N246	Reference T387 NCIT:C94233	Resistant Starch
+N247	Reference T388 CHEBI:80330	peptide YY
+N248	Reference T391 FOODON:03316466	walnut (whole or parts)
+N249	Reference T393 CHEBI:75431	ghrelin
+N250	Reference T396 OCHV:C0242970	low fat diet
+N251	Reference T397 NCIT:C94233	Resistant Starch
+N252	Reference T399 NCIT:C94233	Resistant Starch
+N253	Reference T400 NCIT:C33645	Subcutis
+N254	Reference T401 NCIT:C94786	Adiponectin
+N255	Reference T402 OCHV:C0920563	insulin sensitivity
+N256	Reference T403 NCIT:C94233	Resistant Starch
+N257	Reference T408 NCIT:C94233	Resistant Starch
+N258	Reference T410 NCIT:C113101	Insulin Resistance
+N259	Reference T414 NCIT:C94233	Resistant Starch
+N260	Reference T415 NCIT:C94233	Resistant Starch
+N261	Reference T416 NCIT:C94233	Resistant Starch
+N262	Reference T417 MESH:C036763	monocyte-macrophage differentiation antigen
+N263	Reference T418 GENE:3687	ITGAX
+N264	Reference T419 NCIT:C33645	Subcutis
+N265	Reference T420 MESH:D050152	Intra-Abdominal Fat
+N266	Reference T421 NCIT:C33645	Subcutis
+N267	Reference T422 MESH:D050152	Intra-Abdominal Fat
+N268	Reference T424 MESH:D000090002	Stromal Vascular Fraction
+N269	Reference T425 MESH:D000090002	Stromal Vascular Fraction
+N270	Reference T426 NCIT:C33645	Subcutis
+N271	Reference T428 NCIT:C12558	Macrophage
+N272	Reference T429 MESH:C036763	monocyte-macrophage differentiation antigen
+N273	Reference T430 GENE:3684	ITGAM
+N274	Reference T431 GENE:3687	ITGAX
+N275	Reference T432 GENE:4360	MRC1
+N276	Reference T433 NCIT:C156004	M1 Macrophage
+N277	Reference T434 NCIT:C123783	M2 Macrophage
+N278	Reference T436 GENE:3687	ITGAX
+N279	Reference T437 NCIT:C156004	M1 Macrophage
+N280	Reference T438 GENE:4360	MRC1
+N281	Reference T439 NCIT:C123783	M2 Macrophage
+N282	Reference T440 OCHV:C0242970	low fat diet
+N283	Reference T441 OCHV:C0242970	low fat diet
+N284	Reference T442 FOODON:03316466	walnut (whole or parts)
+N285	Reference T443 MESH:D066273	Diet, Western
+N286	Reference T444 NCIT:C94233	Resistant Starch
+N287	Reference T445 NCIT:C94233	Resistant Starch
+N288	Reference T448 NCIT:C94233	Resistant Starch
+N289	Reference T449 NCIT:C94233	Resistant Starch
+N290	Reference T452 FOODON:03316466	walnut (whole or parts)
+N291	Reference T458 MESH:C036763	monocyte-macrophage differentiation antigen
+N292	Reference T459 NCIT:C33645	Subcutis
+N293	Reference T461 OCHV:C0242970	low fat diet
+N294	Reference T462 NCIT:C94233	Resistant Starch
+N295	Reference T466 OCHV:C0920563	insulin sensitivity
+N296	Reference T467 NCIT:C94233	Resistant Starch
+N297	Reference T469 NCIT:C33645	Subcutis
+N298	Reference T470 NCIT:C33645	Subcutis
+N299	Reference T471 MESH:C036763	monocyte-macrophage differentiation antigen
+N300	Reference T474 FOODON:03316466	walnut (whole or parts)
+N301	Reference T475 NCIT:C33645	Subcutis
+N302	Reference T476 GENE:3687	ITGAX
+N303	Reference T477 NCIT:C156004	M1 Macrophage
+N304	Reference T478 NCIT:C94233	Resistant Starch
+N305	Reference T479 NCIT:C94233	Resistant Starch
+N306	Reference T482 MESH:C036763	monocyte-macrophage differentiation antigen
+N307	Reference T483 GENE:3687	ITGAX
+N308	Reference T484 MESH:D050152	Intra-Abdominal Fat
+N309	Reference T485 MESH:D050152	Intra-Abdominal Fat
+N310	Reference T487 NCIT:C94233	Resistant Starch
+N311	Reference T488 NCIT:C94233	Resistant Starch
+N312	Reference T492 GENE:3687	ITGAX
+N313	Reference T493 NCIT:C33645	Subcutis
+N314	Reference T494 MESH:D050152	Intra-Abdominal Fat
+N315	Reference T496 NCIT:C113101	Insulin Resistance
+N316	Reference T499 NCIT:C33645	Subcutis
+N317	Reference T500 MESH:D050152	Intra-Abdominal Fat
+N318	Reference T501 NCIT:C94233	Resistant Starch
+N319	Reference T503 MESH:D000090002	Stromal Vascular Fraction
+N320	Reference T504 NCIT:C33645	Subcutis
+N321	Reference T507 FOODON:03316466	walnut (whole or parts)
+N322	Reference T510 NCIT:C156005	M1 Macrophage to M2 Macrophage Ratio Measurement
+N323	Reference T511 MESH:C036763	monocyte-macrophage differentiation antigen
+N324	Reference T512 GENE:3684	ITGAM
+N325	Reference T513 GENE:3687	ITGAX
+N326	Reference T514 NCIT:C123783	M2 Macrophage
+N327	Reference T515 MESH:C036763	monocyte-macrophage differentiation antigen
+N328	Reference T516 GENE:3684	ITGAM
+N329	Reference T517 GENE:4360	MRC1
+N330	Reference T518 MESH:C036763	monocyte-macrophage differentiation antigen
+N331	Reference T519 GENE:3684	ITGAM
+N332	Reference T520 GENE:10462	CLEC10A
+N333	Reference T521 NCIT:C12558	Macrophage
+N334	Reference T522 NCIT:C94233	Resistant Starch
+N335	Reference T523 NCIT:C94233	Resistant Starch
+N336	Reference T526 MESH:D000090002	Stromal Vascular Fraction
+N337	Reference T527 NCIT:C94233	Resistant Starch
+N338	Reference T528 NCIT:C94233	Resistant Starch
+N339	Reference T529 NCIT:C156004	M1 Macrophage
+N340	Reference T530 NCIT:C123783	M2 Macrophage
+N341	Reference T533 NCIT:C33645	Subcutis
+N342	Reference T534 MESH:D018932	Chemokine CCL2
+N343	Reference T535 MESH:D018932	Chemokine CCL2
+N344	Reference T536 NCIT:C20909	C-C Motif Chemokine 2
+N345	Reference T540 NCIT:C94233	Resistant Starch
+N346	Reference T543 NCIT:C94233	Resistant Starch
+N347	Reference T544 NCIT:C94233	Resistant Starch
+N348	Reference T545 OCHV:C0920563	insulin sensitivity
+N349	Reference T547 NCIT:C156004	M1 Macrophage
+N350	Reference T548 NCIT:C123783	M2 Macrophage
+N351	Reference T556 MESH:D062826	Zonula Occludens-1 Protein
+N352	Reference T557 MESH:D062826	Zonula Occludens-1 Protein
+N353	Reference T558 GENE:100506658	OCLN
+N354	Reference T559 NCIT:C12387	Ileum
+N355	Reference T560 OCHV:C0242970	low fat diet
+N356	Reference T561 OCHV:C0242970	low fat diet
+N357	Reference T562 FOODON:03316466	walnut (whole or parts)
+N358	Reference T563 MESH:D066273	Diet, Western
+N359	Reference T564 NCIT:C94233	Resistant Starch
+N360	Reference T567 NCIT:C94233	Resistant Starch
+N361	Reference T568 NCIT:C94233	Resistant Starch
+N362	Reference T569 NCIT:C94233	Resistant Starch
+N363	Reference T572 NCIT:C12472	Adipose Tissue
+N364	Reference T575 NCIT:C3283	Obesity
+N365	Reference T584 MESH:D062826	Zonula Occludens-1 Protein
+N366	Reference T585 GENE:100506658	OCLN
+N367	Reference T587 NCIT:C94233	Resistant Starch
+N368	Reference T591 NCIT:C94233	Resistant Starch
+N369	Reference T592 MESH:D066273	Diet, Western
+N370	Reference T593 CHEBI:3098	bile acid
+N371	Reference T596 CHEBI:3098	bile acid
+N372	Reference T597 CHEBI:3098	Bile acid
+N373	Reference T598 NCIT:C122685	Prediabetes
+N374	Reference T599 NCIT:C26747	Type 2 Diabetes Mellitus
+N375	Reference T600 CHEBI:3098	Bile acid
+N376	Reference T601 OCHV:C0920563	insulin sensitivity
+N377	Reference T602 OCHV:C1156258	glucose homeostasis
+N378	Reference T603 NCIT:C114912	Bile Acid Receptor
+N379	Reference T605 NCIT:C114912	Bile Acid Receptor
+N380	Reference T607 NCIT:C94233	Resistant Starch
+N381	Reference T608 CHEBI:3098	Bile acid
+N382	Reference T612 CHEBI:3098	bile acid
+N383	Reference T615 NCIT:C94233	Resistant Starch
+N384	Reference T616 CHEBI:3098	bile acid
+N385	Reference T622 CHEBI:3098	bile acid
+N386	Reference T623 CHEBI:3098	bile acid
+N387	Reference T624 OCHV:C0242970	low fat diet
+N388	Reference T625 OCHV:C0242970	low fat diet
+N389	Reference T626 FOODON:03316466	walnut (whole or parts)
+N390	Reference T627 MESH:D066273	Diet, Western
+N391	Reference T628 NCIT:C94233	Resistant Starch
+N392	Reference T631 NCIT:C94233	Resistant Starch
+N393	Reference T632 NCIT:C94233	Resistant Starch
+N394	Reference T635 NCIT:C94233	Resistant Starch
+N395	Reference T636 CHEBI:16359	cholic acid
+N396	Reference T637 CHEBI:16359	cholic acid
+N397	Reference T638 CHEBI:16755	chenodeoxycholic acid
+N398	Reference T639 CHEBI:16755	chenodeoxycholic acid
+N399	Reference T640 CHEBI:81243	alpha-muricholic acid
+N400	Reference T641 CHEBI:81243	alpha-muricholic acid
+N401	Reference T642 CHEBI:81244	hyocholic acid
+N402	Reference T643 CHEBI:81244	hyocholic acid
+N403	Reference T644 CHEBI:52030	murideoxycholic acid
+N404	Reference T645 CHEBI:52030	murideoxycholic acid
+N405	Reference T646 CHEBI:81308	allocholic acid
+N406	Reference T647 CHEBI:81308	allocholic acid
+N407	Reference T648 CHEBI:16325	lithocholic acid
+N408	Reference T649 CHEBI:16325	lithocholic acid
+N409	Reference T650 CHEBI:28834	deoxycholic acid
+N410	Reference T651 CHEBI:28834	deoxycholic acid
+N411	Reference T652 CHEBI:52023	hyodeoxycholic acid
+N412	Reference T653 CHEBI:52023	hyodeoxycholic acid
+N413	Reference T654 CHEBI:81253	isolithocholic acid
+N414	Reference T655 CHEBI:81253	isolithocholic acid
+N415	Reference T656 CHEBI:9907	ursodeoxycholic acid
+N416	Reference T657 CHEBI:9907	ursodeoxycholic acid
+N417	Reference T660 FOODON:03316466	walnut (whole or parts)
+N418	Reference T664 CHEBI:3098	bile acid
+N419	Reference T669 CHEBI:133057	tauro-beta-muricholic acid
+N420	Reference T671 CHEBI:3098	bile acid
+N421	Reference T672 FOODON:03316466	walnut (whole or parts)
+N422	Reference T674 CHEBI:3098	Bile acid
+N423	Reference T675 CHEBI:28865	taurocholic acid
+N424	Reference T676 CHEBI:28865	taurocholic acid
+N425	Reference T677 CHEBI:16525	taurochenodeoxycholic acid
+N426	Reference T678 CHEBI:16525	taurochenodeoxycholic acid
+N427	Reference T683 NCIT:C94233	Resistant Starch
+N428	Reference T685 CHEBI:28865	taurocholic acid
+N429	Reference T686 CHEBI:16525	taurochenodeoxycholic acid
+N430	Reference T687 OCHV:50560	plasma insulin
+N431	Reference T688 NCIT:C113101	Insulin Resistance
+N432	Reference T692 NCIT:C94786	Adiponectin
+N433	Reference T701 NCIT:C94233	Resistant Starch
+N434	Reference T703 CHEBI:3098	bile acid

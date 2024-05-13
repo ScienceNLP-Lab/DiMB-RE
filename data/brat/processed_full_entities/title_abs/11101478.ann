@@ -1,0 +1,170 @@
+T1	Nutrient 674 686	Polydextrose
+T2	Nutrient 26 38	polydextrose
+T3	AFFECTS 691 712	no significant effect
+T4	Population 74 88	Chinese people
+T5	Nutrient 132 144	polydextrose
+T6	Measurement 716 742	blood biochemistry indexes
+T7	Nutrient 189 202	dietary fiber
+T8	Nutrient 243 255	polydextrose
+T9	Population 310 326	Chinese subjects
+T10	Nutrient 762 774	polydextrose
+T11	Methodology 341 391	placebo-controlled, randomized, double-blind study
+T12	Nutrient 421 433	polydextrose
+T13	Physiology 499 516	glucose tolerance
+T14	Measurement 522 536	glycemic index
+T15	Physiology 538 552	bowel function
+T16	Physiology 554 566	stool weight
+T17	Physiology 554 559;571 573	stool pH
+T18	Metabolite 575 597	short-chain fatty acid
+T19	Physiology 632 663	cecal mucosa cell proliferation
+T20	AFFECTS 410 417	effects
+T21	Measurement 447 476	clinical biochemistry indexes
+T22	Chemical 478 497	glycated hemoglobin
+T23	Measurement 807 821	glycemic index
+T24	Measurement 846 860	glycemic index
+T25	Physiology 903 917	Bowel function
+T26	IMPROVES 953 975	improved significantly
+T27	Physiology 1005 1025	abdominal distention
+T28	Physiology 1027 1043	abdominal cramps
+T29	Physiology 1045 1053	diarrhea
+T30	Physiology 1058 1070	hypoglycemia
+T31	Biospecimen 1072 1077	Fecal
+T32	Physiology 1072 1084	Fecal weight
+T33	INCREASES 1099 1108	increased
+T34	Physiology 1113 1121	fecal pH
+T35	DECREASES 1122 1131	decreased
+T36	Nutrient 1150 1162	polydextrose
+T37	Metabolite 1171 1193	Short-chain fatty acid
+T38	Metabolite 1221 1229	butyrate
+T39	Metabolite 1231 1242	isobutyrate
+T40	Metabolite 1248 1255	acetate
+T41	INCREASES 1256 1265	increased
+T42	Nutrient 1271 1283	polydextrose
+T43	Nutrient 1351 1363	polydextrose
+T44	Microorganism 1329 1344	fecal anaerobes
+T45	AFFECTS 1306 1325	substantial changes
+T46	Microorganism 1394 1405	B. fragilis
+T47	Microorganism 1372 1383	BACTEROIDES
+T48	Microorganism 1407 1418	B. vulgatus
+T49	Microorganism 1424 1438	B. intermedius
+T50	DECREASES 1440 1449	decreased
+T51	Microorganism 1459 1472	LACTOBACILLUS
+T52	Microorganism 1478 1493	BIFIDOBACTERIUM
+T53	INCREASES 1503 1512	increased
+T54	Physiology 1574 1598	colonocyte proliferation
+T55	Metabolite 1681 1689	butyrate
+T56	Measurement 1518 1557	cecal mucosa whole-crypt labeling index
+T57	INCREASES 1558 1567	increased
+T58	Nutrient 1727 1739	Polydextrose
+T59	Nutrient 1766 1779	dietary fiber
+T60	Nutrient 893 900	glucose
+T61	INCREASES 1690 1700	production
+T62	Physiology 933 951	ease of defecation
+T63	AFFECTS 991 1001	no reports
+T66	Nutrient 785 792	glucose
+T68	DECREASES 793 804	resulted in
+E1	AFFECTS:T3 Agent:T1 Theme:T6
+E2	AFFECTS:T20 Agent:T12 Theme:T21
+E3	AFFECTS:T20 Agent:T12 Theme:T22
+E4	AFFECTS:T20 Agent:T12 Theme:T13
+E5	AFFECTS:T20 Agent:T12 Theme:T14
+E6	AFFECTS:T20 Agent:T12 Theme:T15
+E7	AFFECTS:T20 Agent:T12 Theme:T17
+E8	AFFECTS:T20 Agent:T12 Theme:T16
+E9	AFFECTS:T20 Agent:T12 Theme:T18
+E10	AFFECTS:T20 Agent:T12 Theme:T19
+E11	INCREASES:T61 Theme:T55 Agent:T43
+E12	INCREASES:T33 Agent:T36 Theme:T32
+E13	DECREASES:T35 Theme:T34 Agent:T36
+E14	INCREASES:T41 Agent:T42 Theme:T40
+E15	AFFECTS:T45 Agent:T43 Theme:T44
+E16	DECREASES:T50 Agent:T43 Theme:T46
+E17	INCREASES:T53 Agent:T43 Theme:T52
+E18	INCREASES:T57 Theme:T56 Agent:T43
+E19	IMPROVES:T26 Theme:T62 Agent:T10
+E20	AFFECTS:T63 Theme:T27 Agent:T10
+E21	AFFECTS:T63 Theme:T28 Agent:T10
+E22	AFFECTS:T63 Theme:T29 Agent:T10
+E23	AFFECTS:T63 Theme:T30 Agent:T10
+E25	INCREASES:T41 Agent:T42 Theme:T39
+E26	INCREASES:T41 Agent:T42 Theme:T38
+E27	DECREASES:T50 Agent:T43 Theme:T48
+E28	DECREASES:T50 Agent:T43 Theme:T49
+E29	INCREASES:T53 Agent:T43 Theme:T51
+E30	INCREASES:T57 Theme:T54 Agent:T43
+E31	DECREASES:T68 Theme:T23 Agent:T10
+E33	IMPROVES:T26 Theme:T25 Agent:T10
+E34	INCREASES:T41 Theme:T37 Agent:T42
+A1	Negated E1
+A2	Unknown E2
+A3	Unknown E3
+A4	Unknown E4
+A5	Unknown E5
+A6	Unknown E6
+A7	Unknown E7
+A8	Unknown E8
+A9	Unknown E9
+A10	Unknown E10
+A11	Negated E20
+A12	Negated E21
+A13	Negated E22
+A14	Negated E23
+N1	FOODON:03413188 T1	polydextrose
+N2	FOODON:03413188 T2	polydextrose
+N3	FOODON:03413188 T5	polydextrose
+N4	NCIT:C68492 T7	Dietary Fiber
+N5	FOODON:03413188 T8	polydextrose
+N6	FOODON:03413188 T10	polydextrose
+N7	FOODON:03413188 T12	polydextrose
+N8	OCHV:C0178665 T13	glucose tolerance
+N9	NCIT:C46090 T14	Glycemic Index
+N10	NCIT:C94609 T15	Bowel Function
+N11	CHEBI:26666 T18	short-chain fatty acid
+N12	NCIT:C18081 T19	Cell Proliferation
+N13	MESH:D006442 T22	Glycated Hemoglobin
+N14	NCIT:C46090 T23	Glycemic Index
+N15	NCIT:C46090 T24	Glycemic Index
+N16	NCIT:C94609 T25	Bowel Function
+N17	NCIT:C78161 T27	Abdominal Distension
+N18	OCHV:530 T28	abdominal cramps
+N19	NCIT:C2987 T29	Diarrhea
+N20	NCIT:C3126 T30	Hypoglycemia
+N21	FOODON:03413188 T36	polydextrose
+N22	CHEBI:26666 T37	short-chain fatty acid
+N23	CHEBI:17968 T38	butyrate
+N24	CHEBI:48944 T39	isobutyrate
+N25	CHEBI:30089 T40	acetate
+N26	FOODON:03413188 T42	polydextrose
+N27	FOODON:03413188 T43	polydextrose
+N28	NCIT:C119321 T44	Anaerobic Bacteria
+N29	NCBITAXON:817 T46	Bacteroides fragilis
+N30	NCBITAXON:816 T47	Bacteroides
+N31	NCBITAXON:821 T48	Phocaeicola vulgatus
+N32	NCBITAXON:28131 T49	Prevotella intermedia
+N33	NCBITAXON:1578 T51	Lactobacillus
+N34	NCBITAXON:1678 T52	Bifidobacterium
+N35	MESH:D049109 T54	Cell Proliferation
+N36	CHEBI:17968 T55	butyrate
+N37	FOODON:03413188 T58	polydextrose
+N38	NCIT:C68492 T59	Dietary Fiber
+N39	CHEBI:17234 T60	glucose
+N40	NCIT:C62787 T62	Defecation
+N41	CHEBI:17234 T66	glucose
+A15	Factual E11
+A16	Factual E12
+A17	Factual E13
+A18	Factual E14
+A19	Factual E15
+A20	Factual E16
+A21	Factual E17
+A22	Factual E18
+A23	Factual E19
+A24	Factual E25
+A25	Factual E26
+A26	Factual E27
+A27	Factual E28
+A28	Factual E29
+A29	Factual E30
+A30	Factual E31
+A31	Factual E33
+A32	Factual E34

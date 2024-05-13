@@ -1,0 +1,423 @@
+T44	AFFECTS 3485 3494	unchanged
+T46	Nutrient 1154 1167	native inulin
+T49	Nutrient 1693 1699	inulin
+T63	Nutrient 3659 3668	Prebiotic
+T70	Nutrient 5789 5798	Prebiotic
+T76	Physiology 540 554	protein intake
+T77	Physiology 585 604	carbohydrate intake
+T78	AFFECTS 618 630	not affected
+T79	Physiology 672 684	sugar intake
+T80	Nutrient 741 750	prebiotic
+T81	Physiology 719 732	starch intake
+T82	DECREASES 713 718	lower
+T83	DietPattern 791 807	lower fat intake
+T84	Nutrient 840 843	SFA
+T85	Nutrient 845 853	n-3 PUFA
+T86	Nutrient 855 863	n-6 PUFA
+T87	Nutrient 868 876	trans-FA
+T88	Nutrient 953 957	MUFA
+T89	Nutrient 962 966	PUFA
+T90	Nutrient 982 990	n-6 PUFA
+T91	Physiology 1031 1049	Cholesterol intake
+T92	Nutrient 1070 1073	ITF
+T93	DECREASES 1054 1059	lower
+T94	Physiology 529 535;548 554	energy intake
+T95	Nutrient 1089 1091	DF
+T96	Nutrient 1256 1263	fructan
+T97	Nutrient 1343 1350	fructan
+T98	Nutrient 1548 1555	fructan
+T99	Nutrient 1636 1645	prebiotic
+T100	Nutrient 1443 1452	prebiotic
+T101	Physiology 1853 1869	gut inflammation
+T102	Physiology 1837 1848	gut barrier
+T103	Chemical 1893 1900	zonulin
+T104	Chemical 1909 1921	calprotectin
+T105	Disease 1929 1934	obese
+T106	Nutrient 1954 1963	prebiotic
+T110	Physiology 2376 2387	gut barrier
+T112	Chemical 2401 2408	zonulin
+T113	Chemical 2459 2466	zonulin
+T114	Chemical 2561 2568	zonulin
+T115	POS_ASSOCIATED_WITH 2478 2488	associated
+T116	Physiology 2494 2520	increased gut permeability
+T117	Physiology 2628 2644	gut inflammation
+T118	Chemical 2595 2607	calprotectin
+T119	DECREASES 2646 2655	decreased
+T120	Nutrient 2722 2731	prebiotic
+T121	ASSOCIATED_WITH 2617 2623	marker
+T122	Metabolite 2762 2785	short chain fatty acids
+T123	Metabolite 2792 2796	SCFA
+T124	Metabolite 2819 2823	SCFA
+T125	Nutrient 2048 2057	prebiotic
+T126	Nutrient 2853 2862	prebiotic
+T127	Disease 2828 2833	obese
+T129	Nutrient 2923 2932	prebiotic
+T133	Metabolite 3254 3258	SCFA
+T135	INCREASES 3224 3233	increased
+T136	Metabolite 3311 3318	Acetate
+T137	Metabolite 3335 3339	SCFA
+T138	Metabolite 3429 3438	propionic
+T139	Metabolite 3440 3453	(iso) butyric
+T140	Metabolite 3458 3475	(iso)valeric acid
+T141	Metabolite 3540 3550	bile acids
+T142	Nutrient 3501 3510	prebiotic
+T143	Metabolite 3551 3560	Bile acid
+T144	Metabolite 3583 3585	BA
+T145	Disease 3590 3595	obese
+T147	Nutrient 3615 3624	prebiotic
+T148	Metabolite 3826 3830	DHCA
+T149	Metabolite 3906 3916	Primary BA
+T150	Metabolite 3999 4003	CDCA
+T151	Metabolite 4078 4090	Secondary BA
+T152	Metabolite 4094 4098	UDCA
+T153	Metabolite 4175 4178	DCA
+T154	Metabolite 4261 4265	TDCA
+T155	Metabolite 4342 4361	Tauro-conjugated BA
+T156	Metabolite 4365 4368	TCA
+T157	Metabolite 4444 4449	TCDCA
+T158	Metabolite 4528 4532	TDCA
+T159	Metabolite 4609 4628	Total tauro-BA/free
+T160	Nutrient 4760 4769	prebiotic
+T162	Nutrient 4836 4845	Prebiotic
+T165	Nutrient 5065 5068	ITF
+T166	AFFECTS 5076 5083	induced
+T167	Metabolite 5107 5109	BA
+T168	Metabolite 5145 5164	tauro-conjugated BA
+T169	Metabolite 5216 5218	BA
+T170	INCREASES 5230 5238	increase
+T171	Metabolite 5246 5286	ratio of tauro-conjugated versus free BA
+T172	Nutrient 5316 5325	prebiotic
+T173	Nutrient 5367 5376	prebiotic
+T174	INCREASES 5390 5398	increase
+T175	Metabolite 5438 5459	taurodeoxycholic acid
+T176	Metabolite 5461 5465	TDCA
+T177	Metabolite 5471 5497	taurochenodeoxycholic acid
+T178	Metabolite 5499 5504	TCDCA
+T179	Nutrient 5513 5522	prebiotic
+T180	Metabolite 5577 5582	TCDCA
+T181	Disease 5720 5725	obese
+T183	Nutrient 7146 7155	prebiotic
+T187	Nutrient 7478 7492	linolenic acid
+T188	INCREASES 7575 7598	increased significantly
+T189	Nutrient 7605 7608	ITF
+T190	Nutrient 7746 7749	ITF
+T191	Nutrient 7225 7234	Prebiotic
+T192	INCREASES 7766 7789	significantly increased
+T193	Metabolite 7804 7816	rumenic acid
+T194	DECREASES 7891 7896	lower
+T195	Metabolite 7916 7940	conjugated linoleic acid
+T196	Metabolite 7942 7945	CLA
+T197	Nutrient 7954 7963	prebiotic
+T198	Metabolite 5667 5688	Long-chain fatty acid
+T199	Metabolite 5711 5715	LCFA
+T200	Nutrient 5745 5754	prebiotic
+T201	Microorganism 8168 8182	Actinobacteria
+T202	Microorganism 8268 8278	Firmicutes
+T203	Microorganism 8374 8390	Actinomycetaceae
+T204	Microorganism 8470 8488	Bifidobacteriaceae
+T205	Microorganism 8572 8588	Lactobacillaceae
+T206	Microorganism 8759 8774	Lachnospiraceae
+T207	Microorganism 8859 8874	Ruminococcaceae
+T208	Microorganism 8959 8977	Enterobacteriaceae
+T209	Microorganism 9057 9076	Erysipelotrichaceae
+T210	Microorganism 9163 9174	Actinomyces
+T211	Microorganism 9254 9266	Anaerostipes
+T212	Microorganism 9347 9362	Bifidobacterium
+T213	Microorganism 9446 9461	Catenibacterium
+T214	Microorganism 9542 9551	Dialister
+T215	Microorganism 9631 9644	Enterorhabdus
+T216	Microorganism 9723 9746	Erysipelotrichaceae.UCG
+T217	Microorganism 9830 9850	Escherichia.Shigella
+T218	Microorganism 9930 9941	Eubacterium
+T219	Microorganism 10019 10028	Megamonas
+T220	Microorganism 10106 10122	Senegalimassilia
+T221	Microorganism 10208 10226	Enterobacteriaceae
+T222	Microorganism 10408 10423	Lachnospiraceae
+T224	Metabolite 3738 3740	CA
+T227	DiversityMetric 10890 10905	alpha-diversity
+T228	DiversityMetric 10935 10943	richness
+T229	DiversityMetric 10964 10972	evenness
+T230	AFFECTS 11001 11032	were not significantly affected
+T231	DiversityMetric 11069 11083	beta-diversity
+T232	Nutrient 11150 11159	prebiotic
+T234	AFFECTS 11138 11146	modified
+T235	Nutrient 11380 11389	prebiotic
+T236	INCREASES 11450 11458	increase
+T237	Microorganism 11462 11476	Actinobacteria
+T238	Nutrient 11519 11522	ITF
+T239	Microorganism 11502 11512	Firmicutes
+T240	Microorganism 11617 11635	Bifidobacteriaceae
+T241	Microorganism 11640 11655	Lachnospiraceae
+T242	AFFECTS 11593 11600	changes
+T243	Microorganism 11708 11724	Lactobacillaceae
+T244	INCREASES 11730 11739	increased
+T245	Nutrient 11746 11749	ITF
+T246	Nutrient 11820 11830	prebiotics
+T247	INCREASES 11839 11848	increased
+T248	Microorganism 11849 11864	Bifidobacterium
+T249	Microorganism 12130 12143	Enterorhabdus
+T250	Microorganism 12145 12156	Eubacterium
+T251	Microorganism 12161 12170	Dialister
+T252	Microorganism 12185 12201	Senegalimassilia
+T253	Nutrient 12203 12212	Prebiotic
+T254	INCREASES 12240 12249	increased
+T255	Microorganism 12250 12262	Anaerostipes
+T256	Microorganism 12267 12282	Catenibacterium
+T257	DECREASES 12294 12303	decreased
+T258	Microorganism 12304 12315	Actinomyces
+T259	Microorganism 12317 12345	Erysipelotrichaceae (UCG003)
+T260	Microorganism 12397 12412	Lachnospiraceae
+T261	Microorganism 12417 12435	Enterobacteriaceae
+T264	Physiology 12713 12724	gut barrier
+T265	Physiology 12725 12737	inflammation
+T266	Metabolite 12777 12781	LCFA
+T267	Chemical 12934 12952	fecal calprotectin
+T268	NEG_ASSOCIATED_WITH 12958 12979	negatively correlated
+T269	Microorganism 12996 13005	Dialister
+T270	Chemical 13047 13065	fecal calprotectin
+T271	ASSOCIATED_WITH 13070 13080	correlated
+T272	Microorganism 13096 13107	Actinomyces
+T273	Microorganism 13112 13140	Erysipelotrichaceae (UCG003)
+T275	Microorganism 13197 13225	Erysipelotrichaceae (UCG003)
+T277	NEG_ASSOCIATED_WITH 13248 13269	negatively correlated
+T278	Metabolite 13292 13299	acetate
+T279	POS_ASSOCIATED_WITH 13304 13325	positively correlated
+T280	Metabolite 13342 13346	THCA
+T281	Physiology 13363 13384	cholic acid synthesis
+T282	NEG_ASSOCIATED_WITH 13469 13479	correlated
+T283	Metabolite 13433 13445	rumenic acid
+T285	Microorganism 13515 13533	Enterobacteriaceae
+T286	Microorganism 13558 13573	Catenibacterium
+T287	Microorganism 13578 13593	Bifidobacterium
+T288	POS_ASSOCIATED_WITH 13469 13479	correlated
+T7411	Nutrient 485 494	prebiotic
+T7511	DECREASES 521 528	reduced
+E19	AFFECTS:T78 Agent:T7411 Theme:T77
+E20	DECREASES:T82 Agent:T80 Theme:T81
+E21	DECREASES:T93 Agent:T92 Theme:T91
+E22	DECREASES:T7511 Agent:T7411 Theme:T94
+E23	POS_ASSOCIATED_WITH:T115 Theme:T113 Theme2:T116
+E24	DECREASES:T119 Theme:T118 Agent:T120
+E25	ASSOCIATED_WITH:T121 Theme:T118 Theme2:T117
+E26	INCREASES:T135 Agent:T129 Theme:T133
+E27	AFFECTS:T44 Agent:T142 Theme:T138
+E28	AFFECTS:T44 Agent:T142 Theme:T139
+E29	AFFECTS:T44 Agent:T142 Theme:T140
+E30	AFFECTS:T166 Agent:T165 Theme:T167
+E31	INCREASES:T170 Theme:T171 Agent:T172
+E32	INCREASES:T174 Agent:T179 Theme:T175
+E33	INCREASES:T188 Agent:T189 Theme:T187
+E34	INCREASES:T192 Agent:T190 Theme:T193
+E35	DECREASES:T194 Agent:T197 Theme:T195
+E36	INCREASES:T174 Agent:T179 Theme:T177
+E37	AFFECTS:T230 Agent:T197 Theme:T227
+E38	AFFECTS:T230 Agent:T197 Theme:T228
+E39	AFFECTS:T230 Agent:T197 Theme:T229
+E40	AFFECTS:T234 Theme:T231 Agent:T232
+E41	INCREASES:T236 Theme:T237 Agent:T238
+E42	AFFECTS:T242 Agent:T238 Theme:T240
+E43	AFFECTS:T242 Agent:T238 Theme:T241
+E44	INCREASES:T244 Theme:T243 Agent:T245
+E45	INCREASES:T247 Agent:T246 Theme:T248
+E46	INCREASES:T254 Agent:T253 Theme:T255
+E47	DECREASES:T257 Agent:T253 Theme:T258
+E48	NEG_ASSOCIATED_WITH:T268 Agent:T267 Theme:T269
+E49	ASSOCIATED_WITH:T271 Theme:T270 Theme2:T273
+E50	NEG_ASSOCIATED_WITH:T277 Agent:T275 Theme:T278
+E51	POS_ASSOCIATED_WITH:T279 Agent:T275 Theme:T280
+E52	POS_ASSOCIATED_WITH:T288 Theme:T283 Theme2:T286
+E53	NEG_ASSOCIATED_WITH:T282 Theme:T283 Theme2:T285
+E54	INCREASES:T254 Agent:T253 Theme:T256
+E55	DECREASES:T257 Agent:T253 Theme:T259
+E56	DECREASES:T257 Agent:T253 Theme:T260
+E57	DECREASES:T257 Agent:T253 Theme:T261
+E58	ASSOCIATED_WITH:T271 Theme:T270 Theme2:T272
+E59	POS_ASSOCIATED_WITH:T288 Theme:T283 Theme2:T287
+E1811	DECREASES:T7511 Agent:T7411 Theme:T76
+A2	Negated E19
+A3	Negated E27
+A4	Negated E28
+A5	Negated E29
+A6	Negated E37
+A7	Negated E38
+A8	Negated E39
+N22	CHEBI:15443 T46	inulin
+N24	CHEBI:15443 T49	inulin
+N31	MESH:D056692 T63	Prebiotics
+N33	MESH:D056692 T70	Prebiotics
+N35	OCHV:37285 T76	protein intake
+N36	OCHV:37272 T77	carbohydrate intake
+N37	NCIT:C71939 T79	Sugar
+N38	MESH:D056692 T80	Prebiotics
+N39	CHEBI:28017 T81	starch
+N40	OCHV:C0242970 T83	low fat diet
+N41	CHEBI:26607 T84	saturated fatty acid
+N42	CHEBI:25681 T85	omega-3 fatty acid
+N43	CHEBI:36009 T86	omega-6 fatty acid
+N44	CHEBI:166968 T87	trans-fatty acid
+N45	CHEBI:25413 T88	monounsaturated fatty acid
+N46	CHEBI:26208 T89	polyunsaturated fatty acid
+N47	CHEBI:36009 T90	omega-6 fatty acid
+N48	NCIT:C28135 T94	Caloric Intake
+N49	NCIT:C68492 T95	Dietary Fiber
+N50	CHEBI:28796 T96	fructan
+N51	CHEBI:28796 T97	fructan
+N52	CHEBI:28796 T98	fructan
+N53	MESH:D056692 T99	Prebiotics
+N54	MESH:D056692 T100	Prebiotics
+N55	NCIT:C3137 T101	Inflammation
+N56	MESH:C408043 T103	zonulin
+N57	NCIT:C105971 T104	Calprotectin
+N58	NCIT:C3283 T105	Obesity
+N59	MESH:D056692 T106	Prebiotics
+N60	MESH:C408043 T112	zonulin
+N61	MESH:C408043 T113	zonulin
+N62	MESH:C408043 T114	zonulin
+N63	NCIT:C3137 T117	Inflammation
+N64	NCIT:C105971 T118	Calprotectin
+N65	MESH:D056692 T120	Prebiotics
+N66	CHEBI:26666 T122	short-chain fatty acid
+N67	CHEBI:26666 T123	short-chain fatty acid
+N68	CHEBI:26666 T124	short-chain fatty acid
+N69	MESH:D056692 T125	Prebiotics
+N70	MESH:D056692 T126	Prebiotics
+N71	NCIT:C3283 T127	Obesity
+N72	MESH:D056692 T129	Prebiotics
+N73	CHEBI:26666 T133	short-chain fatty acid
+N74	CHEBI:30089 T136	acetate
+N75	CHEBI:26666 T137	short-chain fatty acid
+N76	CHEBI:30768 T138	propionic acid
+N77	CHEBI:16135 T139	isobutyric acid
+N78	CHEBI:28484 T140	isovaleric acid
+N79	CHEBI:3098 T141	bile acid
+N80	MESH:D056692 T142	Prebiotics
+N81	CHEBI:3098 T143	bile acid
+N82	CHEBI:3098 T144	Bile acid
+N83	NCIT:C3283 T145	Obesity
+N84	MESH:D056692 T147	Prebiotics
+N85	CHEBI:31459 T148	3,7,12-trioxo-5beta-cholanic acid
+N86	CHEBI:3098 T149	bile acid
+N87	CHEBI:16755 T150	chenodeoxycholic acid
+N88	CHEBI:3098 T151	bile acid
+N89	CHEBI:9907 T152	ursodeoxycholic acid
+N90	CHEBI:28834 T153	deoxycholic acid
+N91	CHEBI:9410 T154	taurodeoxycholic acid
+N92	CHEBI:28865 T156	taurocholic acid
+N93	CHEBI:16525 T157	taurochenodeoxycholic acid
+N94	CHEBI:9410 T158	taurodeoxycholic acid
+N95	MESH:D056692 T160	Prebiotics
+N96	MESH:D056692 T162	Prebiotics
+N97	CHEBI:3098 T167	Bile acid
+N98	CHEBI:3098 T169	Bile acid
+N99	MESH:D056692 T172	Prebiotics
+N100	MESH:D056692 T173	Prebiotics
+N101	CHEBI:9410 T175	taurodeoxycholic acid
+N102	CHEBI:9410 T176	taurodeoxycholic acid
+N103	CHEBI:16525 T177	taurochenodeoxycholic acid
+N104	CHEBI:16525 T178	taurochenodeoxycholic acid
+N105	MESH:D056692 T179	Prebiotics
+N106	CHEBI:16525 T180	taurochenodeoxycholic acid
+N107	NCIT:C3283 T181	Obesity
+N108	MESH:D056692 T183	Prebiotics
+N109	CHEBI:25048 T187	linolenic acid
+N110	MESH:D056692 T191	Prebiotics
+N111	CHEBI:32798 T193	9-cis,11-trans-octadecadienoic acid
+N112	CHEBI:61159 T195	conjugated linoleic acid
+N113	CHEBI:61159 T196	conjugated linoleic acid
+N114	MESH:D056692 T197	Prebiotics
+N115	CHEBI:15904 T198	long-chain fatty acid
+N116	CHEBI:15904 T199	long-chain fatty acid
+N117	MESH:D056692 T200	Prebiotics
+N118	NCBITAXON:201174 T201	Actinobacteria
+N119	NCBITAXON:1239 T202	Firmicutes
+N120	NCBITAXON:2049 T203	Actinomycetaceae
+N121	NCBITAXON:31953 T204	Bifidobacteriaceae
+N122	NCBITAXON:33958 T205	Lactobacillaceae
+N123	NCBITAXON:186803 T206	Lachnospiraceae
+N124	NCBITAXON:216572 T207	Oscillospiraceae
+N125	NCBITAXON:543 T208	Enterobacteriaceae
+N126	NCBITAXON:128827 T209	Erysipelotrichaceae
+N127	NCBITAXON:1654 T210	Actinomyces
+N128	NCBITAXON:207244 T211	Anaerostipes
+N129	NCBITAXON:1678 T212	Bifidobacterium
+N130	NCBITAXON:135858 T213	Catenibacterium
+N131	NCBITAXON:39948 T214	Dialister
+N132	NCBITAXON:580024 T215	Enterorhabdus
+N133	NCBITAXON:128827 T216	Erysipelotrichaceae
+N134	NCBITAXON:1940338 T217	Escherichia/Shigella sp.
+N135	NCBITAXON:1730 T218	Eubacterium
+N136	NCBITAXON:158846 T219	Megamonas
+N137	NCBITAXON:1473205 T220	Senegalimassilia
+N138	NCBITAXON:543 T221	Enterobacteriaceae
+N139	NCBITAXON:186803 T222	Lachnospiraceae
+N140	CHEBI:16359 T224	cholic acid
+N141	MESH:D056692 T232	Prebiotics
+N142	MESH:D056692 T235	Prebiotics
+N143	NCBITAXON:201174 T237	Actinobacteria
+N144	NCBITAXON:1239 T239	Firmicutes
+N145	NCBITAXON:31953 T240	Bifidobacteriaceae
+N146	NCBITAXON:186803 T241	Lachnospiraceae
+N147	NCBITAXON:33958 T243	Lactobacillaceae
+N148	MESH:D056692 T246	Prebiotics
+N149	NCBITAXON:1678 T248	Bifidobacterium
+N150	NCBITAXON:580024 T249	Enterorhabdus
+N151	NCBITAXON:1730 T250	Eubacterium
+N152	NCBITAXON:39948 T251	Dialister
+N153	NCBITAXON:1473205 T252	Senegalimassilia
+N154	MESH:D056692 T253	Prebiotics
+N155	NCBITAXON:207244 T255	Anaerostipes
+N156	NCBITAXON:135858 T256	Catenibacterium
+N157	NCBITAXON:1654 T258	Actinomyces
+N158	NCBITAXON:128827 T259	Erysipelotrichaceae
+N159	NCBITAXON:186803 T260	Lachnospiraceae
+N160	NCBITAXON:543 T261	Enterobacteriaceae
+N161	NCIT:C3137 T265	Inflammation
+N162	CHEBI:15904 T266	long-chain fatty acid
+N163	NCIT:C105971 T267	Calprotectin
+N164	NCBITAXON:39948 T269	Dialister
+N165	NCIT:C105971 T270	Calprotectin
+N166	NCBITAXON:1654 T272	Actinomyces
+N167	NCBITAXON:128827 T273	Erysipelotrichaceae
+N168	NCBITAXON:128827 T275	Erysipelotrichaceae
+N169	CHEBI:30089 T278	acetate
+N170	CHEBI:89753 T280	3alpha,7alpha,12alpha-trihydroxy-5beta-cholestane-5-carboxylic acid
+N171	CHEBI:32798 T283	9-cis,11-trans-octadecadienoic acid
+N172	NCBITAXON:543 T285	Enterobacteriaceae
+N173	NCBITAXON:135858 T286	Catenibacterium
+N174	NCBITAXON:1678 T287	Bifidobacterium
+N175	MESH:D056692 T7411	Prebiotics
+A25	Factual E20
+A26	Factual E21
+A27	Factual E22
+A28	Factual E23
+A29	Factual E24
+A30	Factual E25
+A31	Factual E26
+A32	Factual E30
+A33	Factual E31
+A34	Factual E32
+A35	Factual E33
+A36	Factual E34
+A37	Factual E35
+A38	Factual E36
+A39	Factual E40
+A40	Factual E41
+A41	Factual E42
+A42	Factual E43
+A43	Factual E44
+A44	Factual E45
+A45	Factual E46
+A46	Factual E47
+A47	Factual E48
+A48	Factual E49
+A49	Factual E50
+A50	Factual E51
+A51	Factual E52
+A52	Factual E53
+A53	Factual E54
+A54	Factual E55
+A55	Factual E56
+A56	Factual E57
+A57	Factual E58
+A58	Factual E59
+A59	Factual E1811

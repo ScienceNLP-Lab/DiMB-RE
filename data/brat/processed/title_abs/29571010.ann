@@ -1,0 +1,126 @@
+T4	ASSOCIATED_WITH 1568 1578	associated
+T5	Metabolite 493 513	volatile fatty acids
+T8	DietPattern 1288 1291	DP2
+T9	DietPattern 939 942	DP1
+T10	DECREASES 1198 1203	lower
+T13	INCREASES 1384 1390	higher
+T14	DECREASES 1457 1462	lower
+T15	DietPattern 1584 1587	DP1
+T16	DietPattern 1592 1595	DP2
+T20	INCREASES 1121 1127	higher
+T27	Food 972 976	fish
+T28	Food 978 991	protein foods
+T29	Food 993 1014	refined carbohydrates
+T30	Food 1016 1026	vegetables
+T31	Food 1028 1033	fruit
+T32	Food 1035 1040	juice
+T33	Food 1045 1064	sweetened beverages
+T34	Food 1066 1077	kid's meals
+T36	Food 1082 1088	snacks
+T37	Food 1093 1099	sweets
+T39	Microorganism 1150 1163	Bacteroidetes
+T40	Microorganism 1165 1176	Bacteroides
+T41	Microorganism 1181 1193	Ruminococcus
+T43	Microorganism 1217 1232	Bifidobacterium
+T44	Microorganism 1234 1244	Prevotella
+T45	Microorganism 1246 1253	Blautia
+T46	Microorganism 1258 1267	Roseburia
+T56	Food 1321 1327	grains
+T57	Food 1329 1334	dairy
+T58	Food 1339 1346	legumes
+T59	Food 1348 1352	nuts
+T60	Food 1357 1362	seeds
+T63	Microorganism 1413 1426	Cyanobacteria
+T64	Microorganism 1431 1452	Phascolarctobacterium
+T66	Microorganism 1476 1481	Dorea
+T67	Microorganism 1486 1497	Eubacterium
+T68	Food 1499 1504	Fruit
+T69	Food 1509 1522	starchy foods
+T84	DietPattern 920 937	Dietary Pattern 1
+T85	HAS_COMPONENT 945 958	characterized
+T86	DietPattern 1269 1286	Dietary Pattern 2
+T87	HAS_COMPONENT 1294 1307	characterized
+E1	HAS_COMPONENT:T85 Agent:T84 Theme:T36
+E3	ASSOCIATED_WITH:T4 Theme:T69 Theme2:T16
+E5	ASSOCIATED_WITH:T4 Theme:T68 Theme2:T15
+E6	INCREASES:T20 Theme:T39 Agent:T84
+E7	DECREASES:T10 Theme:T43 Agent:T84
+E9	HAS_COMPONENT:T85 Agent:T84 Theme:T34
+E10	HAS_COMPONENT:T85 Theme:T28 Agent:T84
+E11	HAS_COMPONENT:T85 Theme:T37 Agent:T84
+E12	INCREASES:T13 Theme:T63 Agent:T86
+E13	DECREASES:T14 Agent:T86 Theme:T66
+E17	HAS_COMPONENT:T85 Agent:T84 Theme:T27
+E19	HAS_COMPONENT:T85 Agent:T84 Theme:T29
+E20	HAS_COMPONENT:T85 Agent:T84 Theme:T30
+E21	HAS_COMPONENT:T85 Agent:T84 Theme:T31
+E22	HAS_COMPONENT:T85 Agent:T84 Theme:T32
+E23	HAS_COMPONENT:T85 Agent:T84 Theme:T33
+E24	INCREASES:T20 Theme:T40 Agent:T84
+E25	INCREASES:T20 Theme:T41 Agent:T84
+E26	DECREASES:T10 Theme:T46 Agent:T84
+E27	DECREASES:T10 Theme:T45 Agent:T84
+E28	DECREASES:T10 Theme:T44 Agent:T84
+E29	HAS_COMPONENT:T87 Agent:T86 Theme:T56
+E30	HAS_COMPONENT:T87 Agent:T86 Theme:T57
+E31	HAS_COMPONENT:T87 Agent:T86 Theme:T58
+E32	HAS_COMPONENT:T87 Agent:T86 Theme:T59
+E33	HAS_COMPONENT:T87 Agent:T86 Theme:T60
+E34	INCREASES:T13 Theme:T64 Agent:T86
+E35	DECREASES:T14 Agent:T86 Theme:T67
+N1	MESH:D005232 T5	Fatty Acids, Volatile
+N2	FOODON:03411222 T27	fish
+N3	FOODON:03510203 T28	high protein food
+N4	OCHV:C0175898 T29	refined carbohydrates
+N5	FOODON:03315308 T30	vegetable (whole or parts)
+N6	NCIT:C71972 T31	Fruit
+N7	NCIT:C65141 T32	Juice
+N8	MESH:D000080845 T33	Sugar-Sweetened Beverages
+N9	MESH:D062410 T36	Snacks
+N10	FOODON:03316428 T37	sweets
+N11	NCBITAXON:976 T39	Bacteroidetes
+N12	NCBITAXON:816 T40	Bacteroides
+N13	NCBITAXON:1263 T41	Ruminococcus
+N14	NCBITAXON:1678 T43	Bifidobacterium
+N15	NCBITAXON:838 T44	Prevotella
+N16	NCBITAXON:572511 T45	Blautia
+N17	NCBITAXON:841 T46	Roseburia
+N18	OCHV:15907 T56	grain
+N19	MESH:D003611 T57	Dairy Products
+N20	MESH:D007887 T58	Fabaceae
+N21	MESH:D009754 T59	Nuts
+N22	NCIT:C73913 T60	Seed
+N23	NCBITAXON:1117 T63	Cyanobacteria
+N24	NCBITAXON:33024 T64	Phascolarctobacterium
+N25	NCBITAXON:189330 T66	Dorea
+N26	NCBITAXON:1730 T67	Eubacterium
+N27	NCIT:C71972 T68	Fruit
+N28	CHEBI:28017 T69	starch
+A1	Factual E1
+A2	Factual E3
+A3	Factual E5
+A4	Factual E6
+A5	Factual E7
+A6	Factual E9
+A7	Factual E10
+A8	Factual E11
+A9	Factual E12
+A10	Factual E13
+A11	Factual E17
+A12	Factual E19
+A13	Factual E20
+A14	Factual E21
+A15	Factual E22
+A16	Factual E23
+A17	Factual E24
+A18	Factual E25
+A19	Factual E26
+A20	Factual E27
+A21	Factual E28
+A22	Factual E29
+A23	Factual E30
+A24	Factual E31
+A25	Factual E32
+A26	Factual E33
+A27	Factual E34
+A28	Factual E35

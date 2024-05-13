@@ -1,0 +1,67 @@
+T1	Disease 13 31	ulcerative colitis
+T2	Food 48 75	germinated barley foodstuff
+T4	Food 140 167	Germinated barley foodstuff
+T5	Food 169 172	GBF
+T6	INCREASES 216 225	increases
+T7	Metabolite 234 242	butyrate
+T8	Food 330 333	GBF
+T9	Disease 410 428	ulcerative colitis
+T10	Disease 430 432	UC
+T11	Physiology 386 406	mucosal inflammation
+T12	Food 492 495	GBF
+T13	Disease 516 518	UC
+T16	Disease 616 618	UC
+T18	Food 778 781	GBF
+T20	Food 832 835	GBF
+T21	Food 1050 1053	GBF
+T22	DECREASES 1077 1097	significant decrease
+T23	Measurement 1101 1131	clinical activity index scores
+T24	Nutrient 179 188	prebiotic
+T25	Food 1222 1225	GBF
+T26	Microorganism 1268 1283	Bifidobacterium
+T27	Microorganism 1288 1307	Eubacterium limosum
+T28	INCREASES 1234 1243	increased
+T29	Food 1327 1330	GBF
+T30	Disease 1391 1393	UC
+T31	Disease 1492 1494	UC
+T32	Food 1444 1447	GBF
+T33	INCREASES 257 268	stimulating
+T34	Microorganism 283 302	protective bacteria
+T35	IMPROVES 352 358	reduce
+T36	IMPROVES 480 488	efficacy
+T40	IMPROVES 1339 1369	may have the potency to reduce
+T41	ASSOCIATED_WITH 407 409	in
+T42	IMPROVES 1480 1487	therapy
+T43	Food 1203 1206	GBF
+E1	INCREASES:T6 Theme:T7 Agent:T4
+E2	DECREASES:T22 Agent:T21 Theme:T23
+E3	IMPROVES:T36 Agent:T12 Theme:T13
+E4	INCREASES:T28 Agent:T25 Theme:T26
+E5	INCREASES:T28 Agent:T25 Theme:T27
+E6	INCREASES:T33 Theme:T34 Agent:T4
+E7	IMPROVES:T35 Agent:T8 Theme:T11
+E8	IMPROVES:T40 Agent:T29 Theme:T30
+E9	ASSOCIATED_WITH:T41 Theme:T9 Theme2:T11
+E10	IMPROVES:T42 Theme:T31 Agent:T32
+A1	Unknown E3
+A2	Unknown E8
+A3	Unknown E10
+N1	NCIT:C2952 T1	Ulcerative Colitis
+N2	CHEBI:17968 T7	butyrate
+N3	NCIT:C2952 T9	Ulcerative Colitis
+N4	NCIT:C2952 T10	Ulcerative Colitis
+N5	NCIT:C115965 T11	Mucositis
+N6	NCIT:C2952 T13	Ulcerative Colitis
+N7	NCIT:C2952 T16	Ulcerative Colitis
+N8	MESH:D056692 T24	Prebiotics
+N9	NCBITAXON:1678 T26	Bifidobacterium
+N10	NCBITAXON:1736 T27	Eubacterium limosum
+N11	NCIT:C2952 T30	Ulcerative Colitis
+N12	NCIT:C2952 T31	Ulcerative Colitis
+A4	Factual E1
+A5	Factual E2
+A6	Factual E4
+A7	Factual E5
+A8	Factual E6
+A9	Factual E7
+A10	Factual E9

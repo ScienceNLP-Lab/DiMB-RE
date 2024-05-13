@@ -1,0 +1,97 @@
+T1	Food 42 51	Navy Bean
+T2	Food 29 38	Rice Bran
+T3	AFFECTS 52 58	Alters
+T4	Physiology 59 83	Gut Bacterial Metabolism
+T5	Population 87 114	Colorectal Cancer Survivors
+T172	Food 122 147	Heat-stabilized rice bran
+T173	Food 152 175	cooked navy bean powder
+T174	HAS_COMPONENT 176 183	contain
+T175	Nutrient 197 211	phytochemicals
+T176	AFFECTS 257 270	may influence
+T177	Physiology 271 288	intestinal health
+T178	Physiology 221 252	fermented by colonic microbiota
+T179	ASSOCIATED_WITH 212 220	that are
+T180	Disease 673 690	colorectal cancer
+T182	Disease 363 380	colorectal cancer
+T183	Methodology 409 451	randomized-controlled pilot clinical trial
+T184	Food 487 512	heat-stabilized rice bran
+T185	Food 526 549	cooked navy bean powder
+T186	Population 621 690	overweight/obese volunteers with a prior history of colorectal cancer
+T187	Food 772 781	rice bran
+T188	Food 785 796	bean powder
+T189	INCREASES 804 813	increased
+T190	Disease 621 631	overweight
+T191	Disease 632 637	obese
+T192	DiversityMetric 814 837	gut bacterial diversity
+T193	Food 930 939	rice bran
+T194	Food 943 954	bean powder
+T195	INCREASES 955 964	increased
+T196	Nutrient 965 984	total dietary fiber
+T197	Food 1012 1021	rice bran
+T198	DECREASES 1038 1047	decreased
+T199	DiversityMetric 1048 1078	Firmicutes:Bacteroidetes ratio
+T200	INCREASES 1083 1092	increased
+T201	Metabolite 1093 1116	short chain fatty acids
+T202	Metabolite 1118 1128	propionate
+T203	Metabolite 1133 1140	acetate
+T204	Biospecimen 1145 1150	stool
+T205	Food 1280 1305	heat-stabilized rice bran
+T206	Physiology 1432 1452	microbial metabolism
+T207	Nutrient 1370 1375	fiber
+T208	Disease 87 104	Colorectal Cancer
+T209	PREVENTS 352 362	modulating
+E1	AFFECTS:T3 Theme:T4 Agent:T2
+E2	AFFECTS:T3 Theme:T4 Agent:T1
+E52	HAS_COMPONENT:T174 Theme:T175 Agent:T173
+E53	AFFECTS:T176 Theme:T177 Agent:T175
+E54	HAS_COMPONENT:T174 Theme:T175 Agent:T172
+E55	ASSOCIATED_WITH:T179 Theme:T175 Theme2:T178
+E56	PREVENTS:T209 Agent:T172 Theme:T182
+E57	PREVENTS:T209 Agent:T173 Theme:T182
+E58	INCREASES:T189 Theme:T192 Agent:T187
+E59	INCREASES:T189 Theme:T192 Agent:T188
+E60	INCREASES:T195 Theme:T196 Agent:T193
+E61	DECREASES:T198 Agent:T197 Theme:T199
+E63	INCREASES:T195 Theme:T196 Agent:T194
+E64	INCREASES:T200 Agent:T197 Theme:T202
+E65	INCREASES:T200 Agent:T197 Theme:T203
+A6	Unknown E53
+A7	Unknown E56
+A8	Unknown E57
+N1	FOODON:00002685 T1	navy bean (whole)
+N2	FOODON:03306185 T2	rice bran
+N92	NCIT:C111686 T172	Rice Bran
+N93	NCIT:C111687 T173	Navy Bean Powder
+N94	NCIT:C28269 T175	Phytochemical
+N95	OCHV:42890 T178	gut fermentation
+N96	NCIT:C2956 T180	Colorectal Neoplasm
+N97	NCIT:C2956 T182	Colorectal Neoplasm
+N98	NCIT:C111686 T184	Rice Bran
+N99	NCIT:C111687 T185	Navy Bean Powder
+N100	FOODON:03306185 T187	rice bran
+N101	NCIT:C111687 T188	Navy Bean Powder
+N102	NCIT:C94250 T190	Overweight
+N103	NCIT:C3283 T191	Obesity
+N104	FOODON:03306185 T193	rice bran
+N105	NCIT:C111687 T194	Navy Bean Powder
+N106	NCIT:C68492 T196	Dietary Fiber
+N107	FOODON:03306185 T197	rice bran
+N108	NCIT:C189550 T199	Firmicutes to Bacteroidetes Ratio Measurement
+N109	CHEBI:26666 T201	short-chain fatty acid
+N110	CHEBI:17272 T202	propionate
+N111	CHEBI:30089 T203	acetate
+N112	NCIT:C111686 T205	Rice Bran
+N113	NCIT:C1502 T207	Fiber
+N114	NCIT:C2956 T208	Colorectal Neoplasm
+A14	Factual E1
+A15	Factual E2
+A59	Factual E52
+A60	Factual E54
+A61	Factual E55
+A62	Factual E58
+A63	Factual E59
+A64	Factual E60
+A65	Factual E61
+A66	Factual E63
+A67	Factual E64
+A68	Factual E65

@@ -1,0 +1,430 @@
+T38	Nutrient 4911 4921	probiotics
+T48	Microorganism 526 546	lactic acid bacteria
+T49	Microorganism 562 576	bifidobacteria
+T51	Microorganism 632 652	lactic acid bacteria
+T52	Microorganism 680 690	Prevotella
+T53	POS_ASSOCIATED_WITH 658 675	most common genus
+T54	Microorganism 763 786	Lachnospiraceae NK4A136
+T55	Microorganism 808 819	Bacteroides
+T56	Microorganism 835 848	Lactobacillus
+T57	Microorganism 864 875	Akkermansia
+T58	Microorganism 891 900	Alistipes
+T59	Microorganism 916 933	Rikenellaceae RC9
+T60	Microorganism 959 971	Helicobacter
+T61	Microorganism 987 1001	Alloprevotella
+T62	Microorganism 1018 1028	Dubosiella
+T63	Microorganism 1044 1060	Colidextribacter
+T64	Microorganism 1081 1092	Muribaculum
+T65	Microorganism 1132 1144	Ruminococcus
+T66	Microorganism 1146 1160	Parasutterella
+T67	Microorganism 1162 1185	Lachnospiraceae UCG-001
+T68	Microorganism 1187 1198	Odoribacter
+T69	Microorganism 1200 1213	Oscillibacter
+T70	Microorganism 1218 1232	Intestinimonas
+T72	Microorganism 1347 1361	bifidobacteria
+T73	Microorganism 1394 1404	Prevotella
+T74	Microorganism 1445 1468	Lachnospiraceae UCG-001
+T76	Microorganism 1600 1620	lactic acid bacteria
+T77	Microorganism 1708 1721	Ileibacterium
+T78	Microorganism 1737 1748	Allobaculum
+T79	Microorganism 1764 1787	Lachnospiraceae NK4A136
+T80	Microorganism 1809 1820	Muribaculum
+T81	Microorganism 1836 1847	Akkermansia
+T82	Microorganism 1863 1877	Parasutterella
+T83	Microorganism 1893 1908	Bifidobacterium
+T84	Microorganism 1924 1934	Dubosiella
+T85	Microorganism 1954 1966	Helicobacter
+T86	POS_ASSOCIATED_WITH 1367 1384	most common genus
+T87	POS_ASSOCIATED_WITH 1426 1440	second largest
+T88	DiversityMetric 2353 2368	alpha diversity
+T89	Microorganism 2027 2040	Lactobacillus
+T90	Microorganism 2042 2055	Streptococcus
+T91	Microorganism 2057 2073	Colidextribacter
+T92	Microorganism 2075 2086	Bacteroides
+T93	Microorganism 2088 2105	Rikenellaceae RC9
+T94	Microorganism 2117 2126	Alistipes
+T95	Microorganism 2128 2142	Alloprevotella
+T96	Microorganism 2144 2158	Intestinimonas
+T97	Microorganism 2160 2173	Oscillibacter
+T98	Microorganism 2175 2187	Ruminococcus
+T99	Microorganism 2189 2202	Acetatifactor
+T100	Microorganism 2207 2218	Odoribacter
+T103	Microorganism 2400 2420	lactic acid bacteria
+T104	Microorganism 2436 2450	bifidobacteria
+T105	DiversityMetric 2472 2485	Shannon index
+T106	DiversityMetric 2528 2543	alpha diversity
+T107	Microorganism 2599 2615	Lactobacillaceae
+T108	DiversityMetric 2895 2910	alpha diversity
+T109	Microorganism 2926 2940	bifidobacteria
+T110	DiversityMetric 3100 3115	alpha diversity
+T113	Microorganism 3343 3359	Lactobacillaceae
+T114	Microorganism 3398 3410	Bacteroidota
+T115	INCREASES 3411 3420	increased
+T116	Microorganism 3639 3649	Firmicutes
+T117	DECREASES 3650 3659	decreased
+T118	Microorganism 3946 3958	Bacteroidota
+T119	Microorganism 4003 4023	lactic acid bacteria
+T121	Microorganism 4059 4073	bifidobacteria
+T123	Microorganism 4158 4178	lactic acid bacteria
+T124	Microorganism 4238 4248	Firmicutes
+T125	Microorganism 4456 4468	Bacteroidota
+T126	POS_ASSOCIATED_WITH 3972 3987	dominant phylum
+T127	Microorganism 4802 4822	lactic acid bacteria
+T128	Microorganism 4996 5012	Campylobacterota
+T129	Microorganism 5062 5077	Patescibacteria
+T130	DECREASES 5037 5046	decreased
+T131	INCREASES 5102 5111	increased
+T132	Microorganism 5211 5231	lactic acid bacteria
+T133	Microorganism 5306 5318	Bacteroidota
+T134	INCREASES 5326 5335	increased
+T135	Microorganism 5359 5376	Verrucomicrobiota
+T136	INCREASES 5384 5393	increased
+T137	Microorganism 5417 5433	Campylobacterota
+T138	DECREASES 5441 5450	decreased
+T139	Microorganism 5477 5493	Deferribacterota
+T140	DECREASES 5501 5510	decreased
+T141	Microorganism 5575 5595	lactic acid bacteria
+T142	Microorganism 5664 5676	Bacteroidota
+T143	INCREASES 5684 5693	increased
+T144	Microorganism 5716 5729	Cyanobacteria
+T145	DECREASES 5737 5746	decreased
+T146	Microorganism 5773 5789	Abditibacteriota
+T147	INCREASES 5811 5820	increased
+T148	INCREASES 6047 6055	increase
+T149	Microorganism 6079 6095	Actinobacteriota
+T150	Microorganism 6123 6136	Spirochaetota
+T151	DECREASES 6230 6238	decrease
+T152	Microorganism 6256 6272	Abditibacteriota
+T153	Microorganism 6308 6325	Verrucomicrobiota
+T154	INCREASES 6363 6371	increase
+T155	Microorganism 6403 6415	Bacteroidota
+T156	Microorganism 6444 6460	Actinobacteriota
+T157	Microorganism 6547 6561	bifidobacteria
+T158	DECREASES 6601 6609	decrease
+T159	Microorganism 6624 6641	Verrucomicrobiota
+T160	Microorganism 6680 6696	Desulfobacterota
+T161	Microorganism 6785 6799	Proteobacteria
+T162	INCREASES 6800 6809	increased
+T163	Microorganism 6836 6852	Actinobacteriota
+T164	INCREASES 6853 6862	increased
+T166	Microorganism 7002 7022	lactic acid bacteria
+T167	INCREASES 7129 7137	increase
+T168	Microorganism 7169 7181	Ruminococcus
+T169	Microorganism 7195 7205	Dubosiella
+T170	Microorganism 7222 7246	Candidatus Saccharimonas
+T171	DECREASES 7264 7272	decrease
+T172	Microorganism 7276 7288	Helicobacter
+T173	Microorganism 7305 7317	Nocardioides
+T174	Microorganism 7380 7400	lactic acid bacteria
+T175	DECREASES 7485 7493	decrease
+T176	Microorganism 7508 7520	Nocardioides
+T177	Microorganism 7546 7559	Mucispirillum
+T178	Microorganism 7587 7599	Helicobacter
+T179	INCREASES 7639 7647	increase
+T180	Microorganism 7662 7672	Prevotella
+T181	Microorganism 7698 7712	Alloprevotella
+T182	Microorganism 7738 7749	Akkermansia
+T183	Microorganism 7775 7789	Faecalibaculum
+T184	Microorganism 7904 7924	lactic acid bacteria
+T186	Microorganism 7974 7994	lactic acid bacteria
+T187	DECREASES 8030 8038	decrease
+T188	Microorganism 8046 8058	Nocardioides
+T189	Microorganism 8105 8116	Lactococcus
+T190	DECREASES 8089 8097	decrease
+T191	INCREASES 8164 8172	increase
+T192	Microorganism 8180 8190	Prevotella
+T193	INCREASES 8220 8228	increase
+T194	Microorganism 8236 8259	Lachnospiraceae UCG-003
+T195	INCREASES 8293 8301	increase
+T196	Microorganism 8309 8324	Abditibacterium
+T197	Microorganism 8472 8495	Lachnospiraceae UCG-001
+T198	Microorganism 8521 8541	Prevotellaceae Ga6A1
+T199	Microorganism 8573 8586	Acetatifactor
+T200	Microorganism 8611 8624	Anaerotruncus
+T201	DECREASES 8386 8421	Statistically significant decreases
+T202	Microorganism 8649 8671	Lachnospiraceae ASF356
+T203	Microorganism 8696 8706	Tyzzerella
+T204	Microorganism 8731 8742	Odoribacter
+T205	Microorganism 8768 8778	Prevotella
+T206	Microorganism 8804 8821	Rikenellaceae RC9
+T207	Microorganism 8859 8868	Alistipes
+T208	INCREASES 8894 8929	Statistically significant increases
+T209	Microorganism 8964 8987	Lachnospiraceae NK4A136
+T210	Microorganism 9018 9031	Lactobacillus
+T211	Microorganism 9056 9080	Candidatus Saccharimonas
+T212	Microorganism 9104 9122	Lachnospiraceae A2
+T213	Microorganism 9147 9158	Muribaculum
+T214	Microorganism 9184 9195	Brachyspira
+T215	Microorganism 9223 9238	Bifidobacterium
+T216	DECREASES 9318 9326	decrease
+T217	Microorganism 9330 9342	Nocardioides
+T218	DECREASES 9356 9364	decrease
+T219	Microorganism 9368 9383	Abditibacterium
+T220	INCREASES 9397 9405	increase
+T221	Microorganism 9409 9420	Akkermansia
+T222	INCREASES 9437 9445	increase
+T223	Microorganism 9449 9460	Muribaculum
+T224	Microorganism 9579 9599	Escherichia-Shigella
+T225	INCREASES 9614 9623	increased
+T226	Microorganism 9696 9710	bifidobacteria
+T227	Microorganism 6022 6036	bifidobacteria
+T228	Microorganism 7817 7828	Veillonella
+E13	INCREASES:T154 Theme:T156 Agent:T227
+E23	POS_ASSOCIATED_WITH:T53 Theme:T52 Agent:T51
+E24	POS_ASSOCIATED_WITH:T86 Theme:T73 Agent:T72
+E25	POS_ASSOCIATED_WITH:T87 Theme:T74 Agent:T72
+E26	INCREASES:T115 Theme:T114 Agent:T113
+E27	DECREASES:T117 Theme:T116 Agent:T113
+E28	POS_ASSOCIATED_WITH:T126 Theme:T118 Agent:T119
+E29	DECREASES:T130 Agent:T127 Theme:T128
+E30	INCREASES:T131 Theme:T129 Agent:T127
+E31	INCREASES:T134 Theme:T133 Agent:T132
+E32	INCREASES:T136 Theme:T135 Agent:T132
+E33	DECREASES:T138 Theme:T137 Agent:T132
+E34	DECREASES:T140 Theme:T139 Agent:T132
+E35	INCREASES:T143 Theme:T142 Agent:T141
+E36	DECREASES:T145 Theme:T144 Agent:T141
+E37	INCREASES:T147 Theme:T146 Agent:T141
+E38	INCREASES:T148 Theme:T149 Agent:T227
+E39	DECREASES:T151 Agent:T227 Theme:T152
+E40	INCREASES:T154 Theme:T155 Agent:T227
+E41	DECREASES:T158 Agent:T157 Theme:T159
+E42	INCREASES:T162 Theme:T161 Agent:T157
+E43	INCREASES:T164 Theme:T163 Agent:T157
+E44	INCREASES:T167 Agent:T166 Theme:T168
+E45	DECREASES:T171 Agent:T166 Theme:T172
+E46	DECREASES:T175 Agent:T174 Theme:T176
+E47	INCREASES:T179 Agent:T174 Theme:T180
+E48	DECREASES:T187 Agent:T186 Theme:T188
+E49	DECREASES:T190 Theme:T189 Agent:T186
+E50	INCREASES:T191 Theme:T192 Agent:T186
+E51	INCREASES:T193 Theme:T194 Agent:T186
+E52	INCREASES:T195 Theme:T196 Agent:T186
+E53	DECREASES:T201 Agent:T186 Theme:T197
+E54	INCREASES:T208 Agent:T186 Theme:T209
+E55	DECREASES:T216 Theme:T217 Agent:T186
+E56	DECREASES:T218 Theme:T219 Agent:T186
+E57	INCREASES:T220 Theme:T221 Agent:T186
+E58	INCREASES:T222 Theme:T223 Agent:T186
+E59	INCREASES:T225 Theme:T224 Agent:T186
+E60	INCREASES:T148 Agent:T227 Theme:T150
+E61	DECREASES:T151 Agent:T227 Theme:T153
+E62	DECREASES:T158 Agent:T157 Theme:T160
+E63	INCREASES:T167 Agent:T166 Theme:T169
+E64	INCREASES:T167 Agent:T166 Theme:T170
+E65	DECREASES:T171 Agent:T166 Theme:T173
+E66	INCREASES:T179 Agent:T174 Theme:T181
+E67	INCREASES:T179 Agent:T174 Theme:T182
+E68	INCREASES:T179 Agent:T174 Theme:T183
+E69	INCREASES:T179 Agent:T174 Theme:T228
+E70	DECREASES:T175 Agent:T174 Theme:T177
+E71	DECREASES:T175 Agent:T174 Theme:T178
+E72	DECREASES:T201 Agent:T186 Theme:T198
+E73	DECREASES:T201 Agent:T186 Theme:T199
+E74	DECREASES:T201 Agent:T186 Theme:T200
+E75	DECREASES:T201 Agent:T186 Theme:T202
+E76	DECREASES:T201 Agent:T186 Theme:T203
+E77	DECREASES:T201 Agent:T186 Theme:T204
+E78	DECREASES:T201 Agent:T186 Theme:T205
+E79	DECREASES:T201 Agent:T186 Theme:T206
+E80	DECREASES:T201 Agent:T186 Theme:T207
+E81	INCREASES:T208 Agent:T186 Theme:T210
+E82	INCREASES:T208 Agent:T186 Theme:T211
+E83	INCREASES:T208 Agent:T186 Theme:T212
+E84	INCREASES:T208 Agent:T186 Theme:T213
+E85	INCREASES:T208 Agent:T186 Theme:T214
+E86	INCREASES:T208 Agent:T186 Theme:T215
+N27	NCIT:C93144 T38	Probiotic
+N28	OCHV:42757 T48	Lactic acid bacteria
+N29	NCBITAXON:1678 T49	Bifidobacterium
+N30	OCHV:42757 T51	Lactic acid bacteria
+N31	NCBITAXON:838 T52	Prevotella
+N32	NCBITAXON:877420 T54	Lachnospiraceae bacterium NK4A136
+N33	NCBITAXON:816 T55	Bacteroides
+N34	NCBITAXON:1578 T56	Lactobacillus
+N35	NCBITAXON:239934 T57	Akkermansia
+N36	NCBITAXON:239759 T58	Alistipes
+N37	NCBITAXON:171550 T59	Rikenellaceae
+N38	NCBITAXON:209 T60	Helicobacter
+N39	NCBITAXON:1283313 T61	Alloprevotella
+N40	NCBITAXON:1937008 T62	Dubosiella
+N41	NCBITAXON:1980681 T63	Colidextribacter
+N42	NCBITAXON:1918540 T64	Muribaculum
+N43	NCBITAXON:1263 T65	Ruminococcus
+N44	NCBITAXON:577310 T66	Parasutterella
+N45	NCBITAXON:186803 T67	Lachnospiraceae
+N46	NCBITAXON:283168 T68	Odoribacter
+N47	NCBITAXON:459786 T69	Oscillibacter
+N48	NCBITAXON:1392389 T70	Intestinimonas
+N49	NCBITAXON:1678 T72	Bifidobacterium
+N50	NCBITAXON:838 T73	Prevotella
+N51	NCBITAXON:186803 T74	Lachnospiraceae
+N52	OCHV:42757 T76	Lactic acid bacteria
+N53	NCBITAXON:1937007 T77	Ileibacterium
+N54	NCBITAXON:174708 T78	Allobaculum
+N55	NCBITAXON:877420 T79	Lachnospiraceae bacterium NK4A136
+N56	NCBITAXON:1918540 T80	Muribaculum
+N57	NCBITAXON:239934 T81	Akkermansia
+N58	NCBITAXON:577310 T82	Parasutterella
+N59	NCBITAXON:1678 T83	Bifidobacterium
+N60	NCBITAXON:1937008 T84	Dubosiella
+N61	NCBITAXON:209 T85	Helicobacter
+N62	NCBITAXON:1578 T89	Lactobacillus
+N63	NCBITAXON:1301 T90	Streptococcus
+N64	NCBITAXON:1980681 T91	Colidextribacter
+N65	NCBITAXON:816 T92	Bacteroides
+N66	NCBITAXON:171550 T93	Rikenellaceae
+N67	NCBITAXON:239759 T94	Alistipes
+N68	NCBITAXON:1283313 T95	Alloprevotella
+N69	NCBITAXON:1392389 T96	Intestinimonas
+N70	NCBITAXON:459786 T97	Oscillibacter
+N71	NCBITAXON:1263 T98	Ruminococcus
+N72	NCBITAXON:1427378 T99	Acetatifactor
+N73	NCBITAXON:283168 T100	Odoribacter
+N74	OCHV:42757 T103	Lactic acid bacteria
+N75	NCBITAXON:1678 T104	Bifidobacterium
+N76	NCBITAXON:33958 T107	Lactobacillaceae
+N77	NCBITAXON:1678 T109	Bifidobacterium
+N78	NCBITAXON:33958 T113	Lactobacillaceae
+N79	NCBITAXON:976 T114	Bacteroidetes
+N80	NCBITAXON:1239 T116	Firmicutes
+N81	NCBITAXON:976 T118	Bacteroidetes
+N82	OCHV:42757 T119	Lactic acid bacteria
+N83	NCBITAXON:1678 T121	Bifidobacterium
+N84	OCHV:42757 T123	Lactic acid bacteria
+N85	NCBITAXON:1239 T124	Firmicutes
+N86	NCBITAXON:976 T125	Bacteroidetes
+N87	OCHV:42757 T127	Lactic acid bacteria
+N88	NCBITAXON:29547 T128	Epsilonproteobacteria
+N89	NCBITAXON:1783273 T129	Patescibacteria group
+N90	OCHV:42757 T132	Lactic acid bacteria
+N91	NCBITAXON:976 T133	Bacteroidetes
+N92	NCBITAXON:74201 T135	Verrucomicrobia
+N93	NCBITAXON:29547 T137	Epsilonproteobacteria
+N94	NCBITAXON:200930 T139	Deferribacteres
+N95	OCHV:42757 T141	Lactic acid bacteria
+N96	NCBITAXON:976 T142	Bacteroidetes
+N97	NCBITAXON:1117 T144	Cyanobacteria
+N98	NCBITAXON:2109258 T146	Abditibacteriota
+N99	NCBITAXON:201174 T149	Actinobacteria
+N100	NCBITAXON:203691 T150	Spirochaetes
+N101	NCBITAXON:2109258 T152	Abditibacteriota
+N102	NCBITAXON:74201 T153	Verrucomicrobia
+N103	NCBITAXON:976 T155	Bacteroidetes
+N104	NCBITAXON:201174 T156	Actinobacteria
+N105	NCBITAXON:1678 T157	Bifidobacterium
+N106	NCBITAXON:74201 T159	Verrucomicrobia
+N107	NCBITAXON:2904303 T160	Desulfobacterota
+N108	NCBITAXON:1224 T161	Proteobacteria
+N109	NCBITAXON:201174 T163	Actinobacteria
+N110	OCHV:42757 T166	Lactic acid bacteria
+N111	NCBITAXON:1263 T168	Ruminococcus
+N112	NCBITAXON:1937008 T169	Dubosiella
+N113	NCBITAXON:1331051 T170	Candidatus Saccharimonas
+N114	NCBITAXON:209 T172	Helicobacter
+N115	NCBITAXON:1839 T173	Nocardioides
+N116	OCHV:42757 T174	Lactic acid bacteria
+N117	NCBITAXON:1839 T176	Nocardioides
+N118	NCBITAXON:248038 T177	Mucispirillum
+N119	NCBITAXON:209 T178	Helicobacter
+N120	NCBITAXON:838 T180	Prevotella
+N121	NCBITAXON:1283313 T181	Alloprevotella
+N122	NCBITAXON:239934 T182	Akkermansia
+N123	NCBITAXON:1729679 T183	Faecalibaculum
+N124	OCHV:42757 T184	Lactic acid bacteria
+N125	OCHV:42757 T186	Lactic acid bacteria
+N126	NCBITAXON:1839 T188	Nocardioides
+N127	NCBITAXON:1357 T189	Lactococcus
+N128	NCBITAXON:838 T192	Prevotella
+N129	NCBITAXON:186803 T194	Lachnospiraceae
+N130	NCBITAXON:2109263 T196	Abditibacterium
+N131	NCBITAXON:186803 T197	Lachnospiraceae
+N132	NCBITAXON:171552 T198	Prevotellaceae
+N133	NCBITAXON:1427378 T199	Acetatifactor
+N134	NCBITAXON:244127 T200	Anaerotruncus
+N135	NCBITAXON:186803 T202	Lachnospiraceae
+N136	NCBITAXON:1506577 T203	Tyzzerella
+N137	NCBITAXON:283168 T204	Odoribacter
+N138	NCBITAXON:838 T205	Prevotella
+N139	NCBITAXON:171550 T206	Rikenellaceae
+N140	NCBITAXON:239759 T207	Alistipes
+N141	NCBITAXON:877420 T209	Lachnospiraceae bacterium NK4A136
+N142	NCBITAXON:1578 T210	Lactobacillus
+N143	NCBITAXON:1331051 T211	Candidatus Saccharimonas
+N144	NCBITAXON:397290 T212	Lachnospiraceae bacterium A2
+N145	NCBITAXON:1918540 T213	Muribaculum
+N146	NCBITAXON:29521 T214	Brachyspira
+N147	NCBITAXON:1678 T215	Bifidobacterium
+N148	NCBITAXON:1839 T217	Nocardioides
+N149	NCBITAXON:2109263 T219	Abditibacterium
+N150	NCBITAXON:239934 T221	Akkermansia
+N151	NCBITAXON:1918540 T223	Muribaculum
+N152	NCBITAXON:1940338 T224	Escherichia/Shigella sp.
+N153	NCBITAXON:1678 T226	Bifidobacterium
+N154	NCBITAXON:1678 T227	Bifidobacterium
+N155	NCBITAXON:29465 T228	Veillonella
+A13	Factual E13
+A19	Factual E23
+A20	Factual E24
+A21	Factual E25
+A22	Factual E26
+A23	Factual E27
+A24	Factual E28
+A25	Factual E29
+A26	Factual E30
+A27	Factual E31
+A28	Factual E32
+A29	Factual E33
+A30	Factual E34
+A31	Factual E35
+A32	Factual E36
+A33	Factual E37
+A34	Factual E38
+A35	Factual E39
+A36	Factual E40
+A37	Factual E41
+A38	Factual E42
+A39	Factual E43
+A40	Factual E44
+A41	Factual E45
+A42	Factual E46
+A43	Factual E47
+A44	Factual E48
+A45	Factual E49
+A46	Factual E50
+A47	Factual E51
+A48	Factual E52
+A49	Factual E53
+A50	Factual E54
+A51	Factual E55
+A52	Factual E56
+A53	Factual E57
+A54	Factual E58
+A55	Factual E59
+A56	Factual E60
+A57	Factual E61
+A58	Factual E62
+A59	Factual E63
+A60	Factual E64
+A61	Factual E65
+A62	Factual E66
+A63	Factual E67
+A64	Factual E68
+A65	Factual E69
+A66	Factual E70
+A67	Factual E71
+A68	Factual E72
+A69	Factual E73
+A70	Factual E74
+A71	Factual E75
+A72	Factual E76
+A73	Factual E77
+A74	Factual E78
+A75	Factual E79
+A76	Factual E80
+A77	Factual E81
+A78	Factual E82
+A79	Factual E83
+A80	Factual E84
+A81	Factual E85
+A82	Factual E86

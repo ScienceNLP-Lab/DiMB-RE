@@ -1,0 +1,133 @@
+T1	Nutrient 38 75	fermentable short-chain carbohydrates
+T2	Chemical 117 125	cytokine
+T4	Disease 152 176	irritable bowel syndrome
+T5	DietPattern 280 287	FODMAPs
+T6	Nutrient 205 233	fermentable oligosaccharides
+T7	Nutrient 235 248	disaccharides
+T8	Nutrient 250 265	monosaccharides
+T9	Nutrient 271 278	polyols
+T11	Disease 361 364	IBS
+T12	Disease 335 359	irritable bowel syndrome
+T13	DietPattern 416 426	low-FODMAP
+T14	DietPattern 430 469	high-fructo-oligosaccharides (FOS) diet
+T15	Disease 627 630	IBS
+T16	Physiology 483 500	immune activation
+T17	Metabolite 534 557	short-chain fatty acids
+T18	Metabolite 559 564	SCFAs
+T19	AFFECTS 395 402	effects
+T21	DietPattern 659 674	low-FODMAP diet
+T22	DietPattern 676 679	LFD
+T23	Disease 928 952	Irritable bowel syndrome
+T24	Nutrient 813 816	FOS
+T25	DietPattern 818 824	FODMAP
+T26	Nutrient 829 841	maltodextrin
+T29	Chemical 1018 1027	Cytokines
+T30	Chemical 1029 1047	interleukin [IL]-6
+T31	Chemical 1049 1053	IL-8
+T32	Chemical 1059 1086	tumor necrosis factor alpha
+T34	Metabolite 1166 1171	SCFAs
+T37	Disease 1217 1241	Irritable bowel syndrome
+T38	IMPROVES 1264 1272	improved
+T39	DietPattern 1290 1293	LFD
+T40	Nutrient 1389 1392	FOS
+T42	Chemical 1432 1436	IL-6
+T43	Chemical 1441 1445	IL-8
+T44	Microorganism 1484 1498	Actinobacteria
+T45	Microorganism 1500 1515	Bifidobacterium
+T46	Microorganism 1521 1549	Faecalibacterium prausnitzii
+T47	Metabolite 1552 1563	total SCFAs
+T48	Metabolite 1569 1583	n-butyric acid
+T49	DECREASES 1585 1594	decreased
+T50	DietPattern 1616 1619	LFD
+T51	Nutrient 1657 1660	FOS
+T52	INCREASES 1677 1686	increased
+T53	Chemical 1734 1743	cytokines
+T54	Metabolite 1748 1753	SCFAs
+T55	AFFECTS 1763 1772	unchanged
+T56	DietPattern 1841 1844	LFD
+T57	Disease 1860 1863	IBS
+T58	AFFECTS 1883 1890	changes
+T59	Chemical 1894 1916	inflammatory cytokines
+T60	Metabolite 1942 1947	SCFAs
+T61	IMPROVES 1848 1859	alleviating
+E1	AFFECTS:T19 Agent:T13 Theme:T16
+E2	AFFECTS:T19 Agent:T14 Theme:T16
+E3	AFFECTS:T19 Agent:T14 Theme:T17
+E4	AFFECTS:T19 Agent:T13 Theme:T17
+E5	IMPROVES:T38 Agent:T39 Theme:T37
+E6	DECREASES:T49 Agent:T50 Theme:T48
+E7	DECREASES:T49 Agent:T50 Theme:T47
+E8	DECREASES:T49 Agent:T50 Theme:T46
+E9	DECREASES:T49 Agent:T50 Theme:T45
+E10	DECREASES:T49 Agent:T50 Theme:T44
+E11	INCREASES:T52 Agent:T51 Theme:T44
+E12	AFFECTS:T55 Agent:T51 Theme:T54
+E13	INCREASES:T52 Agent:T51 Theme:T45
+E14	INCREASES:T52 Agent:T51 Theme:T46
+E15	AFFECTS:T55 Agent:T51 Theme:T53
+E16	AFFECTS:T58 Agent:T56 Theme:T59
+E17	AFFECTS:T58 Agent:T56 Theme:T60
+E18	DECREASES:T49 Theme:T43 Agent:T50
+E19	DECREASES:T49 Theme:T42 Agent:T50
+E20	IMPROVES:T61 Theme:T57 Agent:T56
+A1	Unknown E1
+A2	Unknown E2
+A3	Unknown E3
+A4	Unknown E4
+A5	Negated E12
+A6	Negated E15
+N1	NCIT:C20464 T2	Cytokine
+N2	NCIT:C82343 T4	Irritable Bowel Syndrome
+N3	MESH:D000092622 T5	FODMAP Diet
+N4	NCIT:C68472 T7	Disaccharide
+N5	CHEBI:35281 T8	monosaccharide
+N6	CHEBI:26191 T9	polyol
+N7	NCIT:C82343 T11	Irritable Bowel Syndrome
+N8	NCIT:C82343 T12	Irritable Bowel Syndrome
+N9	NCIT:C157910 T13	Low FODMAP Diet
+N10	OCHV:C0873033 T14	fructooligosaccharides
+N11	NCIT:C82343 T15	Irritable Bowel Syndrome
+N12	CHEBI:26666 T17	short-chain fatty acid
+N13	CHEBI:26666 T18	short-chain fatty acid
+N14	NCIT:C157910 T21	Low FODMAP Diet
+N15	OCHV:C0242970 T22	low fat diet
+N16	NCIT:C82343 T23	Irritable Bowel Syndrome
+N17	CHEBI:190523 T24	fructooligosaccharide
+N18	MESH:D000092622 T25	FODMAP Diet
+N19	CHEBI:25140 T26	maltodextrin
+N20	NCIT:C20464 T29	Cytokine
+N21	NCIT:C20451 T30	Interleukin-6
+N22	NCIT:C20473 T31	Interleukin-8
+N23	MESH:D014409 T32	Tumor Necrosis Factor-alpha
+N24	CHEBI:26666 T34	short-chain fatty acid
+N25	NCIT:C82343 T37	Irritable Bowel Syndrome
+N26	OCHV:C0242970 T39	low fat diet
+N27	CHEBI:190523 T40	fructooligosaccharide
+N28	NCIT:C20451 T42	Interleukin-6
+N29	NCIT:C20473 T43	Interleukin-8
+N30	NCBITAXON:201174 T44	Actinobacteria
+N31	NCBITAXON:1678 T45	Bifidobacterium
+N32	NCBITAXON:853 T46	Faecalibacterium prausnitzii
+N33	CHEBI:26666 T47	short-chain fatty acid
+N34	CHEBI:30772 T48	butyric acid
+N35	OCHV:C0242970 T50	low fat diet
+N36	CHEBI:190523 T51	fructooligosaccharide
+N37	NCIT:C20464 T53	Cytokine
+N38	CHEBI:26666 T54	short-chain fatty acid
+N39	OCHV:C0242970 T56	low fat diet
+N40	NCIT:C82343 T57	Irritable Bowel Syndrome
+N41	CHEBI:26666 T60	short-chain fatty acid
+A7	Factual E5
+A8	Factual E6
+A9	Factual E7
+A10	Factual E8
+A11	Factual E9
+A12	Factual E10
+A13	Factual E11
+A14	Factual E13
+A15	Factual E14
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19
+A20	Factual E20

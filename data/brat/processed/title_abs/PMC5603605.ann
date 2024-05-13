@@ -1,0 +1,132 @@
+T1	Nutrient 0 21	Fructooligosaccharide
+T2	Nutrient 23 26	FOS
+T3	Nutrient 32 54	Galactooligosaccharide
+T4	Nutrient 56 59	GOS
+T5	INCREASES 61 69	Increase
+T6	Microorganism 70 85	Bifidobacterium
+T7	DECREASES 90 96	Reduce
+T8	Microorganism 97 124	Butyrate Producing Bacteria
+T9	Metabolite 97 105	Butyrate
+T10	Physiology 130 157	Adverse Glycemic Metabolism
+T302	Disease 229 248	glucose intolerance
+T333	Disease 277 301	type-2 diabetes mellitus
+T334	Disease 303 307	T2DM
+T336	Nutrient 350 359	prebiotic
+T337	Nutrient 425 447	fructooligosaccharides
+T338	AFFECTS 415 421	impact
+T339	Nutrient 449 452	FOS
+T340	Nutrient 458 481	galactooligosaccharides
+T341	Nutrient 483 486	GOS
+T342	Physiology 491 499	glycemia
+T347	Nutrient 654 657	FOS
+T348	Nutrient 662 665	GOS
+T351	Measurement 716 741	anthropometric parameters
+T352	Physiology 822 840	glucose metabolism
+T353	Nutrient 848 851	FOS
+T355	Nutrient 906 909	GOS
+T356	AFFECTS 804 818	adverse effect
+T357	Chemical 939 954	fasting glucose
+T358	ASSOCIATED_WITH 923 935	demonstrated
+T360	INCREASES 969 989	significant increase
+T361	Microorganism 1019 1034	Bifidobacterium
+T362	Nutrient 1056 1059	FOS
+T363	Nutrient 1064 1067	GOS
+T364	Microorganism 1085 1112	butyrate-producing bacteria
+T365	Metabolite 1085 1093	butyrate
+T366	Microorganism 1118 1139	Phascolarctobacterium
+T367	WORSENS 1436 1450	adverse effect
+T368	Nutrient 1143 1146	FOS
+T369	Nutrient 1173 1176	GOS
+T370	DECREASES 1188 1197	decreased
+T372	Measurement 1275 1286	OGTT levels
+T373	Nutrient 1293 1302	prebiotic
+T374	Nutrient 1381 1384	FOS
+T375	Nutrient 1389 1392	GOS
+T376	INCREASES 1393 1402	increased
+T377	Microorganism 1403 1418	Bifidobacterium
+T378	Microorganism 1157 1169	Ruminococcus
+T379	Physiology 1454 1472	glucose metabolism
+T380	DECREASES 1476 1484	reducing
+T381	Microorganism 1485 1512	butyrate-producing microbes
+T382	Metabolite 1485 1493	butyrate
+T383	POS_ASSOCIATED_WITH 257 268	progression
+E1	INCREASES:T5 Theme:T6 Agent:T3
+E2	DECREASES:T7 Theme:T8 Agent:T3
+E3	DECREASES:T7 Theme:T8 Agent:T1
+E4	INCREASES:T5 Theme:T6 Agent:T1
+E59	AFFECTS:T338 Agent:T337 Theme:T342
+E60	AFFECTS:T356 Theme:T352 Agent:T353
+E61	AFFECTS:T356 Agent:T355 Theme:T352
+E62	ASSOCIATED_WITH:T358 Theme:T355 Theme2:T357
+E64	INCREASES:T360 Theme:T361 Agent:T362
+E66	INCREASES:T360 Theme:T361 Agent:T363
+E67	DECREASES:T370 Theme:T366 Agent:T368
+E68	DECREASES:T370 Agent:T369 Theme:T378
+E69	INCREASES:T376 Theme:T377 Agent:T375
+E70	INCREASES:T376 Theme:T377 Agent:T374
+E71	WORSENS:T367 Theme:T379 Agent:T374
+E72	DECREASES:T380 Agent:T375 Theme:T381
+E73	WORSENS:T367 Theme:T379 Agent:T375
+E74	POS_ASSOCIATED_WITH:T383 Theme:T333 Agent:T302
+E75	AFFECTS:T338 Agent:T340 Theme:T342
+E76	DECREASES:T380 Agent:T374 Theme:T381
+A5	Unknown E59
+A6	Unknown E75
+N1	CHEBI:190523 T1	fructooligosaccharide
+N2	CHEBI:190523 T2	fructooligosaccharide
+N3	CHEBI:24151 T3	galactooligosaccharide
+N4	CHEBI:24151 T4	galactooligosaccharide
+N5	NCBITAXON:1678 T6	Bifidobacterium
+N6	NCBITAXON:2811711 T8	butyrate-producing bacterium
+N7	CHEBI:17968 T9	butyrate
+N206	NCIT:C34646 T302	Glucose Intolerance
+N227	NCIT:C26747 T333	Type 2 Diabetes Mellitus
+N228	NCIT:C26747 T334	Type 2 Diabetes Mellitus
+N229	MESH:D056692 T336	Prebiotics
+N230	CHEBI:190523 T337	fructooligosaccharide
+N231	CHEBI:190523 T339	fructooligosaccharide
+N232	CHEBI:24151 T340	galactooligosaccharide
+N233	CHEBI:24151 T341	galactooligosaccharide
+N234	NCIT:C94312 T342	Blood Glucose
+N235	CHEBI:190523 T347	fructooligosaccharide
+N236	CHEBI:24151 T348	galactooligosaccharide
+N237	OCHV:C0815129 T351	anthropometric measurement
+N238	OCHV:41587 T352	glucose metabolism
+N239	CHEBI:190523 T353	fructooligosaccharide
+N240	CHEBI:24151 T355	galactooligosaccharide
+N241	NCIT:C94312 T357	Blood Glucose
+N242	NCBITAXON:1678 T361	Bifidobacterium
+N243	CHEBI:190523 T362	fructooligosaccharide
+N244	CHEBI:24151 T363	galactooligosaccharide
+N245	NCBITAXON:2811711 T364	butyrate-producing bacterium
+N246	CHEBI:17968 T365	butyrate
+N247	NCBITAXON:33024 T366	Phascolarctobacterium
+N248	CHEBI:190523 T368	fructooligosaccharide
+N249	CHEBI:24151 T369	galactooligosaccharide
+N250	MESH:D005951 T372	Glucose Tolerance Test
+N251	MESH:D056692 T373	Prebiotics
+N252	CHEBI:190523 T374	fructooligosaccharide
+N253	CHEBI:24151 T375	galactooligosaccharide
+N254	NCBITAXON:1678 T377	Bifidobacterium
+N255	NCBITAXON:1263 T378	Ruminococcus
+N256	OCHV:41587 T379	glucose metabolism
+N257	NCBITAXON:2811711 T381	butyrate-producing bacterium
+N258	CHEBI:17968 T382	butyrate
+A18	Factual E1
+A19	Factual E2
+A20	Factual E3
+A21	Factual E4
+A71	Factual E60
+A72	Factual E61
+A73	Factual E62
+A75	Factual E64
+A76	Factual E66
+A77	Factual E67
+A78	Factual E68
+A79	Factual E69
+A80	Factual E70
+A81	Factual E71
+A82	Factual E72
+A83	Factual E73
+A84	Factual E74
+A85	Factual E76

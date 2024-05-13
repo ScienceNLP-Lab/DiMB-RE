@@ -1,0 +1,41 @@
+T1	Nutrient 46 59	Dietary Fiber
+T2	Metabolite 79 101	Short-Chain Fatty Acid
+T3	Nutrient 115 129	Dietary fibers
+T4	AFFECTS 71 78	Directs
+T6	Nutrient 427 453	type-IV resistant starches
+T7	Nutrient 455 459	RS4s
+T8	Nutrient 903 907	RS4s
+T9	Nutrient 718 721	RS4
+T10	Nutrient 349 352	DFs
+T12	AFFECTS 588 595	effects
+T13	Metabolite 681 691	propionate
+T14	Metabolite 695 703	butyrate
+T15	Nutrient 954 960	starch
+T17	Nutrient 494 505;520 550	crystalline cross-linked starch structures
+T18	Nutrient 510 550	phosphate cross-linked starch structures
+T27	Nutrient 1037 1039	DF
+T29	Nutrient 131 134	DFs
+E1	AFFECTS:T12 Agent:T18 Theme:T14
+E2	AFFECTS:T12 Agent:T17 Theme:T13
+E3	AFFECTS:T12 Agent:T18 Theme:T13
+E4	AFFECTS:T12 Agent:T17 Theme:T14
+E9	AFFECTS:T4 Agent:T1 Theme:T2
+N1	NCIT:C68492 T1	Dietary Fiber
+N2	CHEBI:26666 T2	short-chain fatty acid
+N3	NCIT:C68492 T3	Dietary Fiber
+N4	NCIT:C94233 T6	Resistant Starch
+N5	NCIT:C94233 T7	Resistant Starch
+N6	NCIT:C94233 T8	Resistant Starch
+N7	NCIT:C94233 T9	Resistant Starch
+N8	NCIT:C68492 T10	Dietary Fiber
+N9	CHEBI:17272 T13	propionate
+N10	CHEBI:17968 T14	butyrate
+N11	CHEBI:28017 T15	starch
+N12	CHEBI:62968 T17	crystalline cellulose
+N13	NCIT:C68492 T27	Dietary Fiber
+N14	NCIT:C68492 T29	Dietary Fiber
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E9

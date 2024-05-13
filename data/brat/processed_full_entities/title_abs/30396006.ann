@@ -1,0 +1,71 @@
+T1	Nutrient 99 118	barley beta glucans
+T2	Food 893 898	bread
+T3	Disease 150 168	metabolic syndrome
+T4	Disease 183 201	Metabolic syndrome
+T5	Measurement 330 346	metabolic status
+T7	Nutrient 360 379	Barley beta glucans
+T8	Nutrient 384 398	dietary fibres
+T9	IMPROVES 421 432	improvement
+T10	Chemical 433 444	cholesterol
+T11	Physiology 456 485	postprandial glucose response
+T12	Methodology 585 644	double-blind, placebo-controlled, randomised clinical trial
+T13	Disease 697 715	metabolic syndrome
+T14	Population 667 764	volunteers with high risk for metabolic syndrome development or with diagnosed metabolic syndrome
+T15	Disease 746 764	metabolic syndrome
+T16	Food 840 845	bread
+T17	HAS_COMPONENT 846 856	containing
+T18	Nutrient 864 883	barley beta glucans
+T19	Nutrient 911 923	beta glucans
+T20	Chemical 953 977	total plasma cholesterol
+T21	DECREASES 978 987	decreased
+T22	Metabolite 1063 1086	Short chain fatty acids
+T23	Metabolite 1088 1092	SCFA
+T24	Biospecimen 1109 1115	faeces
+T25	INCREASES 1143 1151	increase
+T26	Metabolite 1155 1169	propionic acid
+T27	DECREASES 1212 1220	decrease
+T28	Metabolite 1224 1235	acetic acid
+T29	Methodology 1306 1354	Illumina paired end sequencing of 16S rRNA genes
+T30	DECREASES 1364 1372	decrease
+T31	DiversityMetric 1386 1395	diversity
+T32	DiversityMetric 1400 1408	richness
+T33	Microorganism 1521 1541	Bifidobacterium spp.
+T34	Microorganism 1546 1569	Akkermansia municiphila
+T35	Physiology 1620 1651	diet-induced metabolic response
+E1	IMPROVES:T9 Agent:T7 Theme:T10
+E2	HAS_COMPONENT:T17 Agent:T16 Theme:T18
+E4	DECREASES:T21 Agent:T18 Theme:T20
+E5	INCREASES:T25 Agent:T18 Theme:T26
+E6	DECREASES:T27 Theme:T28 Agent:T18
+E7	DECREASES:T30 Agent:T18 Theme:T31
+E8	DECREASES:T30 Agent:T18 Theme:T32
+E9	IMPROVES:T9 Agent:T7 Theme:T11
+A1	Unknown E1
+A3	Unknown E9
+N1	NCIT:C2678 T1	Beta-Glucan
+N2	NCIT:C178203 T2	Bread
+N3	NCIT:C84442 T3	Metabolic Syndrome
+N4	NCIT:C84442 T4	Metabolic Syndrome
+N5	NCIT:C2678 T7	Beta-Glucan
+N6	NCIT:C68492 T8	Dietary Fiber
+N7	NCIT:C369 T10	Cholesterol
+N8	NCIT:C129778 T11	2-Hour Postprandial Glucose
+N9	NCIT:C84442 T13	Metabolic Syndrome
+N10	NCIT:C84442 T15	Metabolic Syndrome
+N11	NCIT:C178203 T16	Bread
+N12	NCIT:C2678 T18	Beta-Glucan
+N13	NCIT:C2678 T19	Beta-Glucan
+N14	NCIT:C105586 T20	Cholesterol Measurement
+N15	CHEBI:26666 T22	short-chain fatty acid
+N16	CHEBI:26666 T23	short-chain fatty acid
+N17	CHEBI:30768 T26	propionic acid
+N18	CHEBI:15366 T28	acetic acid
+N19	NCBITAXON:1678 T33	Bifidobacterium
+N20	NCBITAXON:239934 T34	Akkermansia
+N21	NCIT:C123623 T35	Metabolic Response
+A4	Factual E2
+A5	Factual E4
+A6	Factual E5
+A7	Factual E6
+A8	Factual E7
+A9	Factual E8

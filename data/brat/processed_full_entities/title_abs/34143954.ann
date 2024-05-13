@@ -1,0 +1,75 @@
+T1	Microorganism 0 14	Bifidobacteria
+T2	Disease 129 138	allergies
+T3	Disease 140 146	asthma
+T4	Physiology 181 194	Breastfeeding
+T5	Microorganism 456 470	bifidobacteria
+T6	Nutrient 522 548	human milk oligosaccharide
+T7	Nutrient 550 553	HMO
+T8	Physiology 607 628	systemic inflammation
+T9	Physiology 633 653	immune dysregulation
+T10	Population 672 689	breastfed infants
+T11	Microorganism 696 727	Bifidobacterium infantis EVC001
+T12	Gene 749 770	HMO-utilization genes
+T13	Chemical 772 793	intestinal T helper 2
+T14	Chemical 795 798	Th2
+T15	Chemical 804 818	Th17 cytokines
+T16	Chemical 837 849	interferon β
+T17	Chemical 851 855	IFNβ
+T18	Biospecimen 870 881	Fecal water
+T19	Population 887 914	EVC001-supplemented infants
+T20	Microorganism 887 893	EVC001
+T21	Metabolite 933 946	indolelactate
+T22	Metabolite 971 991	indole-3-lactic acid
+T23	Chemical 993 996	ILA
+T24	INCREASES 998 1009	upregulated
+T25	Chemical 1027 1037	galectin-1
+T26	Physiology 1067 1079	polarization
+T27	Physiology 1141 1157	immunoregulation
+T28	NEG_ASSOCIATED_WITH 591 606	associated with
+T29	DECREASES 824 832	silenced
+T30	INCREASES 861 868	induced
+T31	INTERACTS_WITH 735 744	expresses
+T32	INCREASES 924 932	abundant
+T33	Microorganism 951 962	B. infantis
+T34	INCREASES 963 970	derived
+E1	NEG_ASSOCIATED_WITH:T28 Theme:T8 Agent:T5
+E2	NEG_ASSOCIATED_WITH:T28 Theme:T9 Agent:T5
+E3	DECREASES:T29 Theme:T15 Agent:T11
+E4	DECREASES:T29 Agent:T11 Theme:T13
+E5	INCREASES:T30 Theme:T16 Agent:T11
+E6	INTERACTS_WITH:T31 Theme:T11 Theme2:T12
+E7	INCREASES:T32 Theme:T21 Agent:T20
+E8	INCREASES:T34 Theme:T22 Agent:T33
+E9	INCREASES:T24 Agent:T22 Theme:T25
+N1	NCBITAXON:1678 T1	Bifidobacterium
+N2	NCIT:C114476 T2	Allergic Reaction
+N3	NCIT:C28397 T3	Asthma
+N4	NCIT:C25596 T4	Breast Feeding
+N5	NCBITAXON:1678 T5	Bifidobacterium
+N6	NCIT:C714 T6	Oligosaccharide
+N7	NCIT:C714 T7	Oligosaccharide
+N8	MESH:D007249 T8	Inflammation
+N9	NCIT:C176595 T9	Immune Dysregulation Disorder
+N10	NCBITAXON:324767 T11	Bacillus infantis
+N11	NCIT:C12540 T13	Type 2 Helper Cell
+N12	NCIT:C12540 T14	Type 2 Helper Cell
+N13	MESH:D058504 T15	Th17 cells
+N14	NCIT:C20495 T16	Interferon Beta
+N15	NCIT:C20495 T17	Interferon Beta
+N16	MESH:D000070236 T20	Bifidobacterium longum subspecies infantis
+N17	CHEBI:17282 T21	3-(indol-3-yl)lactate
+N18	CHEBI:194705 T22	Dl-Indole-3-lactic-acid
+N19	MESH:C024139 T23	indole-3-lactic acid
+N20	NCIT:C104408 T25	Galectin-1
+N21	OCHV:C0946292 T26	polarization
+N22	NCIT:C18095 T27	Immunoregulation
+N23	NCBITAXON:324767 T33	Bacillus infantis
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9

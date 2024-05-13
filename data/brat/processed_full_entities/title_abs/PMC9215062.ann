@@ -1,0 +1,87 @@
+T1	Population 51 91	patients with inflammatory bowel disease
+T2	Disease 65 91	inflammatory bowel disease
+T3	Disease 93 119	Inflammatory bowel disease
+T4	Disease 121 124	IBD
+T6	Population 1860 1872	IBD patients
+T7	Disease 523 526	IBD
+T8	Population 598 610	IBD patients
+T9	Disease 598 601	IBD
+T10	Biospecimen 626 631	fecal
+T11	Population 663 675	IBD patients
+T12	Disease 663 666	IBD
+T13	Physiology 483 503	immune dysregulation
+T14	ASSOCIATED_WITH 509 522	characterizes
+T15	Biospecimen 552 557	fecal
+T16	Methodology 704 728	16S rDNA gene sequencing
+T17	Methodology 733 747	UHPLC/Q-TOF-MS
+T18	Disease 941 944	IBD
+T19	DECREASES 976 985	decreased
+T20	Microorganism 999 1012	Bacteroidetes
+T21	Microorganism 1017 1027	Firmicutes
+T22	INCREASES 1029 1038	increased
+T23	Microorganism 1072 1086	Proteobacteria
+T24	Microorganism 1091 1105	Actinobacteria
+T25	INCREASES 1111 1120	increased
+T26	Microorganism 1121 1137	Escherichia coli
+T27	Microorganism 1142 1163	Klebsiella pneumoniae
+T28	Disease 1167 1170	IBD
+T31	Disease 1269 1272	IBD
+T36	Disease 1356 1359	IBD
+T37	Metabolite 1394 1421	6,7,4′-trihydroxyisoflavone
+T38	Metabolite 1426 1461	thyroxine 4′-o-.beta.-d-glucuronide
+T39	Metabolite 1476 1487	normorphine
+T40	Metabolite 1523 1537	trichostachine
+T41	Metabolite 1492 1504	salvinorin a
+T42	Disease 1566 1569	IBD
+T43	AFFECTS 1594 1602	affected
+T44	Physiology 1622 1652	primary bile acid biosynthesis
+T45	Physiology 1654 1686	vitamin digestion and absorption
+T46	Physiology 1692 1715	carbohydrate metabolism
+T47	Disease 1860 1863	IBD
+T48	Biospecimen 1784 1789	fecal
+E1	ASSOCIATED_WITH:T14 Theme:T13 Theme2:T7
+E2	DECREASES:T19 Theme:T20 Agent:T28
+E3	INCREASES:T22 Theme:T23 Agent:T28
+E4	INCREASES:T25 Theme:T26 Agent:T28
+E5	INCREASES:T25 Theme:T27 Agent:T28
+E6	DECREASES:T19 Theme:T21 Agent:T28
+E7	INCREASES:T22 Theme:T24 Agent:T28
+E10	AFFECTS:T43 Agent:T42 Theme:T44
+E11	AFFECTS:T43 Agent:T42 Theme:T46
+E12	AFFECTS:T43 Agent:T42 Theme:T45
+N1	NCIT:C3138 T2	Inflammatory Bowel Disease
+N2	NCIT:C3138 T3	Inflammatory Bowel Disease
+N3	NCIT:C3138 T4	Inflammatory Bowel Disease
+N4	NCIT:C3138 T7	Inflammatory Bowel Disease
+N5	NCIT:C3138 T9	Inflammatory Bowel Disease
+N6	NCIT:C3138 T12	Inflammatory Bowel Disease
+N7	NCIT:C176595 T13	Immune Dysregulation Disorder
+N8	NCIT:C3138 T18	Inflammatory Bowel Disease
+N9	NCBITAXON:976 T20	Bacteroidetes
+N10	NCBITAXON:1239 T21	Firmicutes
+N11	NCBITAXON:1224 T23	Proteobacteria
+N12	NCBITAXON:201174 T24	Actinobacteria
+N13	NCBITAXON:562 T26	Escherichia coli
+N14	NCBITAXON:573 T27	Klebsiella pneumoniae
+N15	NCIT:C3138 T28	Inflammatory Bowel Disease
+N16	NCIT:C3138 T31	Inflammatory Bowel Disease
+N20	NCIT:C3138 T36	Inflammatory Bowel Disease
+N21	CHEBI:74957 T37	4',6,7-trihydroxyisoflavone
+N22	MESH:C054785 T38	thyroxine glucuronide
+N23	CHEBI:7633 T39	Normorphine
+N24	CHEBI:9691 T40	piperyline
+N25	CHEBI:67900 T41	salvinorin A
+N26	NCIT:C3138 T42	Inflammatory Bowel Disease
+N27	NCIT:C38789 T44	Bile Acid Biosynthesis Pathway
+N28	MESH:D050260 T46	Carbohydrate Metabolism
+N29	NCIT:C3138 T47	Inflammatory Bowel Disease
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E10
+A9	Factual E11
+A10	Factual E12

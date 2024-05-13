@@ -1,0 +1,81 @@
+T1	Food 13 21	red wine
+T2	Nutrient 13 33	red wine polyphenols
+T3	Food 38 45	ethanol
+T4	Nutrient 161 180	dietary polyphenols
+T5	Nutrient 252 272	polyphenol molecules
+T6	Nutrient 383 403	red wine polyphenols
+T7	Food 383 391	red wine
+T8	Population 483 506	healthy male volunteers
+T9	Methodology 519 571	randomized, crossover, controlled intervention study
+T10	Food 626 634	red wine
+T11	Biospecimen 714 723	fecal DNA
+T12	Methodology 816 842	real-time quantitative PCR
+T13	Methodology 741 811	polymerase chain reaction(PCR)-denaturing gradient gel electrophoresis
+T15	Nutrient 1091 1110	red wine polyphenol
+T16	Food 1091 1099	red wine
+T17	INCREASES 1120 1143	significantly increased
+T18	Microorganism 1158 1170	Enterococcus
+T19	Microorganism 1172 1182	Prevotella
+T20	Microorganism 1184 1195	Bacteroides
+T21	Microorganism 1197 1212	Bifidobacterium
+T22	Microorganism 1214 1235	Bacteroides uniformis
+T23	Microorganism 1237 1254	Eggerthella lenta
+T24	Microorganism 1260 1304	Blautia coccoides-Eubacterium rectale groups
+T25	Physiology 1330 1368	systolic and diastolic blood pressures
+T26	Chemical 1373 1385	triglyceride
+T27	Chemical 1387 1404	total cholesterol
+T28	Chemical 1406 1421	HDL cholesterol
+T29	Chemical 1427 1445	C-reactive protein
+T30	DECREASES 1461 1484	decreased significantly
+T31	ASSOCIATED_WITH 1573 1582	linked to
+T32	Microorganism 1598 1612	bifidobacteria
+T33	Chemical 1518 1529	cholesterol
+T34	Chemical 1534 1552	C-reactive protein
+T35	Food 1656 1664	red wine
+T36	Nutrient 1827 1847	red wine polyphenols
+T37	Food 1827 1835	red wine
+T38	Measurement 904 923	biochemical markers
+T39	Nutrient 1775 1784	prebiotic
+T40	Food 661 684	de-alcoholized red wine
+T41	Food 689 692	gin
+E1	INCREASES:T17 Agent:T15 Theme:T18
+E2	INCREASES:T17 Agent:T15 Theme:T19
+E3	INCREASES:T17 Agent:T15 Theme:T20
+E4	INCREASES:T17 Agent:T15 Theme:T21
+E5	INCREASES:T17 Agent:T15 Theme:T22
+E6	INCREASES:T17 Agent:T15 Theme:T23
+E7	INCREASES:T17 Agent:T15 Theme:T24
+E8	DECREASES:T30 Theme:T29 Agent:T15
+E9	ASSOCIATED_WITH:T31 Theme:T33 Theme2:T32
+E10	ASSOCIATED_WITH:T31 Theme:T34 Theme2:T32
+E11	DECREASES:T30 Theme:T25 Agent:T15
+E12	DECREASES:T30 Theme:T26 Agent:T15
+E13	DECREASES:T30 Theme:T27 Agent:T15
+E14	DECREASES:T30 Theme:T28 Agent:T15
+N1	Reference T1 FOODON:03310272	red wine
+N2	Reference T3 NCIT:C2190	Alcohol
+N3	Reference T4 CHEBI:26195	Polyphenol
+N4	Reference T5 CHEBI:26195	polyphenol
+N5	Reference T7 FOODON:03310272	red wine
+N6	Reference T10 FOODON:03310272	red wine
+N7	Reference T16 FOODON:03310272	red wine
+N8	Reference T18 NCBITAXON:1350	Enterococcus
+N9	Reference T19 NCBITAXON:838	Prevotella
+N10	Reference T20 NCBITAXON:816	Bacteroides
+N11	Reference T21 NCBITAXON:1678	Bifidobacterium
+N12	Reference T22 NCBITAXON:820	Bacteroides uniformis
+N13	Reference T23 NCBITAXON:84112	Eggerthella lenta
+N14	Reference T24 NCBITAXON:1532	Blautia coccoides
+N15	Reference T25 NCIT:C54706	Blood Pressure
+N16	Reference T26 CHEBI:17855	triglyceride
+N17	Reference T27 NCIT:C105586	Cholesterol Measurement
+N18	Reference T28 CHEBI:47775	high-density lipoprotein cholesterol
+N19	Reference T29 NCIT:C60651	C-Reactive Protein
+N20	Reference T32 NCBITAXON:1678	Bifidobacterium
+N21	Reference T33 NCIT:C369	Cholesterol
+N22	Reference T34 NCIT:C60651	C-Reactive Protein
+N23	Reference T35 FOODON:03310272	red wine
+N24	Reference T37 FOODON:03310272	red wine
+N25	Reference T38 OCHV:C0206015	biochemical markers
+N26	Reference T39 MESH:D056692	Prebiotics
+N27	Reference T41 FOODON:03309491	gin

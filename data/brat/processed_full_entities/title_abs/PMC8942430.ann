@@ -1,0 +1,126 @@
+T1	Nutrient 28 42	dietary fibers
+T2	Food 63 68	bread
+T3	Population 118 150	subjects at cardiometabolic risk
+T4	Physiology 166 194	cardiometabolic risk factors
+T5	Food 487 492	bread
+T6	Disease 203 215	dyslipidemia
+T7	Disease 220 238	insulin resistance
+T8	INCREASES 1481 1490	increased
+T9	DiversityMetric 275 298	gut microbiota richness
+T10	Nutrient 369 383	dietary fibers
+T11	Nutrient 385 387	DF
+T12	DiversityMetric 315 338	gut microbiota richness
+T13	ASSOCIATED_WITH 302 306	link
+T14	Nutrient 458 460	DF
+T15	Methodology 708 764	double-blind, randomized, cross-over, twice 8-week study
+T16	Population 656 688	subjects at cardiometabolic risk
+T17	Measurement 130 150	cardiometabolic risk
+T18	Measurement 668 688	cardiometabolic risk
+T19	Food 794 808	standard bread
+T20	Food 803 808;812 843	bread enriched with a 7-dietary fiber
+T21	Biospecimen 929 934	stool
+T22	Methodology 1048 1068	shotgun metagenomics
+T23	DECREASES 1156 1165	decreased
+T24	Microorganism 1166 1186	Bacteroides vulgatus
+T25	INCREASES 1199 1208	increased
+T26	Microorganism 1209 1235	Parabacteroides distasonis
+T27	Microorganism 1237 1268	Fusicatenibacter saccharivorans
+T28	Microorganism 1286 1304	Acutalibacteraceae
+T29	Microorganism 1325 1339	Eisenbergiella
+T30	Food 1112 1129	Multi-fiber bread
+T31	Enzyme 1440 1460	glycoside hydrolases
+T32	Enzyme 1462 1469	CAZymes
+T33	NEG_ASSOCIATED_WITH 255 265	associated
+T34	NEG_ASSOCIATED_WITH 1495 1516	negatively correlated
+T35	Food 1648 1665	multi-fiber bread
+T36	DECREASES 1666 1675	decreased
+T37	Food 1641 1646	bread
+T38	HAS_COMPONENT 43 45	in
+T40	Measurement 1791 1795	HOMA
+T41	Nutrient 1858 1860	DF
+T42	AFFECTS 69 77	modifies
+T43	Measurement 97 114	metabolic profile
+T44	Measurement 508 528	cardiometabolic risk
+T45	Measurement 619 642	cardiometabolic profile
+T46	AFFECTS 546 553	impacts
+T47	Measurement 1074 1097	cardiometabolic profile
+T48	Chemical 1676 1693	total cholesterol
+T49	Chemical 1716 1731	LDL cholesterol
+T50	Chemical 1754 1761	insulin
+T51	IMPROVES 1982 1989	improve
+T52	Measurement 1990 2013	cardiometabolic profile
+T54	Disease 1608 1619	insulinemia
+T55	Chemical 1582 1603	postprandial glycemia
+T56	Measurement 1532 1566	total/incremental area under curve
+T57	Measurement 1568 1577	tAUC/iAUC
+T58	Population 496 528	subjects at cardiometabolic risk
+E1	NEG_ASSOCIATED_WITH:T33 Theme:T7 Agent:T9
+E2	NEG_ASSOCIATED_WITH:T33 Theme:T6 Agent:T9
+E3	ASSOCIATED_WITH:T13 Theme:T10 Theme2:T12
+E4	DECREASES:T23 Agent:T30 Theme:T24
+E5	INCREASES:T25 Agent:T30 Theme:T26
+E6	INCREASES:T25 Agent:T30 Theme:T27
+E7	INCREASES:T25 Agent:T30 Theme:T28
+E8	INCREASES:T25 Agent:T30 Theme:T29
+E9	NEG_ASSOCIATED_WITH:T34 Agent:T31 Theme:T54
+E10	NEG_ASSOCIATED_WITH:T34 Agent:T31 Theme:T55
+E11	DECREASES:T36 Agent:T35 Theme:T48
+E12	AFFECTS:T42 Theme:T43 Agent:T1
+E13	AFFECTS:T46 Theme:T45 Agent:T14
+E14	DECREASES:T36 Agent:T35 Theme:T49
+E15	DECREASES:T36 Agent:T35 Theme:T50
+E16	DECREASES:T36 Agent:T35 Theme:T40
+E17	IMPROVES:T51 Agent:T41 Theme:T52
+E18	INCREASES:T8 Theme:T31 Agent:T30
+E19	HAS_COMPONENT:T38 Theme:T1 Agent:T2
+A1	Unknown E13
+A2	Unknown E17
+N1	NCIT:C68492 T1	Dietary Fiber
+N2	NCIT:C178203 T2	Bread
+N3	MESH:D000083202 T4	Cardiometabolic Risk Factors
+N4	NCIT:C178203 T5	Bread
+N5	NCIT:C80385 T6	Dyslipidemia
+N6	NCIT:C113101 T7	Insulin Resistance
+N7	NCIT:C68492 T10	Dietary Fiber
+N8	NCIT:C68492 T11	Dietary Fiber
+N9	NCIT:C68492 T14	Dietary Fiber
+N10	MESH:D000083202 T17	Cardiometabolic Risk Factors
+N11	MESH:D000083202 T18	Cardiometabolic Risk Factors
+N12	NCIT:C178203 T19	Bread
+N13	FOODON:03303712 T20	bread (high fiber)
+N14	NCBITAXON:821 T24	Phocaeicola vulgatus
+N15	NCBITAXON:823 T26	Parabacteroides distasonis
+N16	NCBITAXON:1150298 T27	Fusicatenibacter saccharivorans
+N17	NCBITAXON:1432051 T29	Eisenbergiella
+N18	FOODON:03303712 T30	bread (high fiber)
+N19	MESH:D006026 T31	Glycoside Hydrolases
+N20	FOODON:03303712 T35	bread (high fiber)
+N21	NCIT:C178203 T37	Bread
+N23	NCIT:C100447 T40	Homeostatic Model Assessment of Insulin Resistance
+N24	NCIT:C68492 T41	Dietary Fiber
+N25	MESH:D055442 T43	Metabolome
+N26	MESH:D000083202 T44	Cardiometabolic Risk Factors
+N27	NCIT:C105586 T48	Cholesterol Measurement
+N28	CHEBI:47774 T49	low-density lipoprotein cholesterol
+N29	NCIT:C2271 T50	Insulin
+N31	NCIT:C2271 T54	Insulin
+N32	NCIT:C129778 T55	2-Hour Postprandial Glucose
+N33	NCIT:C64774 T56	Area Under Curve
+N34	NCIT:C64774 T57	Area Under Curve
+A212	Factual E1
+A213	Factual E2
+A214	Factual E3
+A215	Factual E4
+A216	Factual E5
+A217	Factual E6
+A218	Factual E7
+A219	Factual E8
+A220	Factual E9
+A221	Factual E10
+A222	Factual E11
+A223	Factual E12
+A224	Factual E14
+A225	Factual E15
+A226	Factual E16
+A227	Factual E18
+A228	Factual E19

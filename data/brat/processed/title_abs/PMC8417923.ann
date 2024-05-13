@@ -1,0 +1,121 @@
+T1	Food 0 7	Avocado
+T2	Physiology 46 68	Oral Glucose Tolerance
+T3	Physiology 21 40	Abdominal Adiposity
+T4	DECREASES 1598 1607	reduction
+T5	Disease 88 98	Overweight
+T6	Disease 103 110	Obesity
+T8	Food 151 163	Hass avocado
+T9	Food 254 261	avocado
+T10	Physiology 277 296	abdominal adiposity
+T11	Food 361 368	avocado
+T12	Food 1941 1953	Hass avocado
+T13	Physiology 1858 1877	abdominal adiposity
+T14	Physiology 1881 1898	glycemic outcomes
+T16	IMPROVES 201 206	lower
+T17	Disease 207 224	abdominal obesity
+T18	Physiology 301 318	glycemic outcomes
+T19	Physiology 384 403	abdominal adiposity
+T20	Disease 405 423	insulin resistance
+T21	Measurement 425 452	oral-glucose-tolerance test
+T22	Measurement 454 458	OGTT
+T23	Physiology 475 490	β-cell function
+T26	Measurement 568 571	BMI
+T28	Physiology 840 859	abdominal adiposity
+T29	Physiology 861 884	visceral adipose tissue
+T30	Physiology 886 889	VAT
+T31	Physiology 892 929	subcutaneous abdominal adipose tissue
+T32	Physiology 931 935	SAAT
+T33	Measurement 946 966	ratio of VAT to SAAT
+T34	Measurement 968 976	VS Ratio
+T35	Chemical 987 994	glucose
+T36	Chemical 999 1006	insulin
+T39	Physiology 1290 1293	sex
+T40	AFFECTS 1954 1961	changed
+T41	Physiology 1962 1981	abdominal adiposity
+T44	Disease 2116 2126	overweight
+T45	Disease 2131 2138	obesity
+T46	Physiology 2082 2097	β-cell function
+T47	Physiology 2048 2078	peripheral insulin sensitivity
+T48	IMPROVES 2032 2044	improvements
+T52	Disease 1051 1069	insulin resistance
+T53	Measurement 1071 1078	HOMA-IR
+T54	Physiology 1085 1104	insulin sensitivity
+T55	Measurement 1106 1119	Matsuda index
+T56	Physiology 1125 1140	β-cell function
+T57	Measurement 1142 1161	Insulinogenic index
+T58	DECREASES 1341 1350	reduction
+T59	Physiology 1354 1358	SAAT
+T60	Physiology 1611 1614	VAT
+T61	Food 673 685	Hass avocado
+T62	Measurement 1696 1704	VS Ratio
+T63	Food 766 781	without avocado
+T65	AFFECTS 350 357	effects
+T66	INCREASES 1443 1451	increase
+T67	Measurement 1455 1463	VS Ratio
+T69	AFFECTS 243 250	effects
+E1	IMPROVES:T16 Agent:T8 Theme:T17
+E3	AFFECTS:T40 Agent:T12 Theme:T41
+E4	IMPROVES:T48 Theme:T47 Agent:T12
+E5	IMPROVES:T48 Theme:T46 Agent:T12
+E7	DECREASES:T4 Theme:T60 Agent:T61
+E8	DECREASES:T58 Agent:T63 Theme:T59
+E9	DECREASES:T4 Theme:T62 Agent:T61
+E10	INCREASES:T66 Agent:T63 Theme:T67
+E11	AFFECTS:T65 Agent:T11 Theme:T19
+E12	AFFECTS:T65 Agent:T11 Theme:T20
+E13	AFFECTS:T65 Agent:T11 Theme:T21
+E14	AFFECTS:T65 Agent:T11 Theme:T23
+E15	AFFECTS:T69 Agent:T9 Theme:T10
+E16	AFFECTS:T69 Agent:T9 Theme:T18
+A1	Negated E4
+A2	Negated E5
+A3	Unknown E11
+A4	Unknown E12
+A5	Unknown E13
+A6	Unknown E14
+A7	Unknown E15
+A8	Unknown E16
+N1	FOODON:00003600 T1	avocado (whole)
+N2	MESH:D005951 T2	Glucose Tolerance Test
+N3	NCIT:C139218 T3	Abdominal Fat
+N4	NCIT:C94250 T5	Overweight
+N5	NCIT:C3283 T6	Obesity
+N6	FOODON:00002982 T8	hass avocado
+N7	FOODON:00003600 T9	avocado (whole)
+N8	NCIT:C139218 T10	Abdominal Fat
+N9	FOODON:00003600 T11	avocado (whole)
+N10	FOODON:00002982 T12	hass avocado
+N11	NCIT:C139218 T13	Abdominal Fat
+N12	MESH:D056128 T17	Obesity, Abdominal
+N13	NCIT:C139218 T19	Abdominal Fat
+N14	NCIT:C113101 T20	Insulin Resistance
+N15	MESH:D005951 T21	Glucose Tolerance Test
+N16	MESH:D005951 T22	Glucose Tolerance Test
+N17	NCIT:C123455 T23	Beta-Cell Function Measurement
+N18	NCIT:C16358 T26	Body Mass Index
+N19	NCIT:C139218 T28	Abdominal Fat
+N20	MESH:D050152 T29	Intra-Abdominal Fat
+N21	MESH:D050152 T30	Intra-Abdominal Fat
+N22	MESH:D050507 T31	Subcutaneous Fat, Abdominal
+N23	MESH:D050507 T32	Subcutaneous Fat, Abdominal
+N24	CHEBI:17234 T35	glucose
+N25	NCIT:C2271 T36	Insulin
+N26	NCIT:C28421 T39	Sex
+N27	NCIT:C139218 T41	Abdominal Fat
+N28	NCIT:C94250 T44	Overweight
+N29	NCIT:C3283 T45	Obesity
+N30	NCIT:C123455 T46	Beta-Cell Function Measurement
+N31	MESH:D007333 T47	Insulin Resistance
+N32	NCIT:C113101 T52	Insulin Resistance
+N33	NCIT:C100447 T53	Homeostatic Model Assessment of Insulin Resistance
+N34	OCHV:C0920563 T54	insulin sensitivity
+N35	NCIT:C123455 T56	Beta-Cell Function Measurement
+N36	MESH:D050507 T59	Subcutaneous Fat, Abdominal
+N37	MESH:D050152 T60	Intra-Abdominal Fat
+N38	FOODON:00002982 T61	hass avocado
+A9	Factual E1
+A10	Factual E3
+A11	Factual E7
+A12	Factual E8
+A13	Factual E9
+A14	Factual E10

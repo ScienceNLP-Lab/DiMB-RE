@@ -1,0 +1,115 @@
+T1	Physiology 114 136	nutrient digestibility
+T2	Physiology 141 159	microbial activity
+T3	Physiology 76 112	nutrient transporter gene expression
+T4	Physiology 54 71;97 112	intestinal enzyme gene expression
+T6	Measurement 27 42	feed efficiency
+T7	Measurement 162 177	Feed efficiency
+T9	Physiology 350 372	nutrient digestibility
+T10	Measurement 374 387	organ weights
+T11	Metabolite 419 439	volatile fatty acids
+T12	Metabolite 441 446	VFA's
+T14	Measurement 541 556	feed efficiency
+T15	Physiology 460 507	intestinal nutrient transporter gene expression
+T17	Physiology 583 585	BW
+T18	Physiology 683 694	feed intake
+T19	Physiology 699 705	growth
+T20	Measurement 737 757	residual feed intake
+T21	Measurement 759 762	RFI
+T23	Physiology 1255 1286;1298 1313	intestinal nutrient transporter gene expression
+T24	Physiology 765 779	Phenotypic RFI
+T26	Gene 1291 1313	enzyme gene expression
+T27	Gene 449 455;492 507	enzyme gene expression
+T28	Physiology 988 996	high RFI
+T29	Physiology 998 1002	HRFI
+T30	Physiology 1008 1015	low RFI
+T31	Physiology 1017 1021	LRFI
+T32	Physiology 1083 1126	coefficient of apparent ileal digestibility
+T33	Physiology 1128 1132	CAID
+T34	Physiology 1135 1169	total tract nutrient digestibility
+T35	Physiology 1171 1176	CATTD
+T36	Metabolite 1205 1210	VFA's
+T38	Physiology 1602 1606	HRFI
+T39	Physiology 1319 1323	LRFI
+T40	DECREASES 1333 1338	lower
+T41	Measurement 1339 1343	ADFI
+T42	IMPROVES 1355 1363	improved
+T43	Measurement 1364 1385	feed conversion ratio
+T44	IMPROVES 1403 1411	improved
+T45	Measurement 1412 1421	RFI value
+T46	Measurement 1562 1564	GE
+T47	Physiology 1434 1438	HRFI
+T49	Physiology 1483 1487	LRFI
+T50	INCREASES 1500 1509	increased
+T51	Physiology 1510 1514	CAID
+T52	Measurement 1532 1534	GE
+T53	IMPROVES 1544 1552	improved
+T54	Physiology 1553 1558	CATTD
+T56	Food 1579 1589	dry matter
+T57	Metabolite 1566 1574	nitrogen
+T59	Physiology 1626 1630	LRFI
+T60	INCREASES 1640 1646	higher
+T61	Gene 1682 1714	fatty acid binding transporter 2
+T62	Gene 1716 1721	FABP2
+T63	Gene 1737 1768	sodium/glucose co-transporter 1
+T64	Gene 1770 1775	SGLT1
+T65	Physiology 1791 1810	glucose transporter
+T66	Gene 1811 1816	GLUT2
+T67	Enzyme 1842 1860	sucrase-isomaltase
+T68	Enzyme 1862 1864	SI
+T70	Physiology 1895 1899	LRFI
+T71	INCREASES 1909 1918	increased
+T72	Microorganism 1934 1952	lactobacillus spp.
+T74	Physiology 1981 1985	HRFI
+T76	Physiology 2011 2015	HRFI
+T77	INCREASES 2025 2034	increased
+T78	Metabolite 2035 2046	acetic acid
+T80	Measurement 2268 2283	feed efficiency
+T81	Physiology 2087 2109	nutrient digestibility
+T82	Gene 2174 2206	intestinal nutrient transporters
+T83	Measurement 847 872	average daily feed intake
+T84	Measurement 874 878	ADFI
+T86	Measurement 903 906	ADG
+T87	Physiology 883 901	average daily gain
+T89	Measurement 1518 1530	gross energy
+E1	DECREASES:T40 Agent:T39 Theme:T41
+E2	IMPROVES:T42 Theme:T43 Agent:T39
+E3	IMPROVES:T44 Agent:T39 Theme:T45
+E4	INCREASES:T50 Agent:T49 Theme:T51
+E5	IMPROVES:T53 Theme:T54 Agent:T49
+E6	INCREASES:T60 Agent:T59 Theme:T61
+E7	INCREASES:T71 Agent:T70 Theme:T72
+E8	INCREASES:T77 Agent:T76 Theme:T78
+E9	INCREASES:T60 Agent:T59 Theme:T63
+E10	INCREASES:T60 Agent:T59 Theme:T66
+E11	INCREASES:T60 Agent:T59 Theme:T67
+N1	NCIT:C90429 T10	Organ Weight
+N2	MESH:D005232 T11	Fatty Acids, Volatile
+N3	MESH:D005232 T12	Fatty Acids, Volatile
+N4	NCIT:C81328 T17	Body Weight
+N5	MESH:D004435 T18	Eating
+N6	NCIT:C64379 T19	Growth
+N7	MESH:D005232 T36	Fatty Acids, Volatile
+N8	NCIT:C61863 T57	Nitrogen
+N9	GENE:2169 T61	FABP2
+N10	GENE:2169 T62	FABP2
+N11	GENE:6523 T63	SLC5A1
+N12	GENE:6523 T64	SLC5A1
+N13	OCHV:5568 T65	glucose transporter
+N14	GENE:6514 T66	SLC2A2
+N15	MESH:D013394 T67	Sucrase-Isomaltase Complex
+N16	MESH:D013394 T68	Sucrase-Isomaltase Complex
+N17	NCBITAXON:1578 T72	Lactobacillus
+N18	CHEBI:15366 T78	acetic acid
+N19	NCIT:C90363 T86	Average Body Weight Gain
+N20	NCIT:C90363 T87	Average Body Weight Gain
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11

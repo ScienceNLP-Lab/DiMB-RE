@@ -1,0 +1,13 @@
+Walnut Consumption Alters the Gastrointestinal Microbiota, Microbially Derived Secondary Bile Acids, and Health Markers in Healthy Adults: A Randomized Controlled Trial
+
+Abstract
+Background
+Epidemiologic data suggest that diets rich in nuts have beneficial health effects, including reducing total and cause-specific mortality from cancer and heart disease. Although there is accumulating preclinical evidence that walnuts beneficially affect the gastrointestinal microbiota and gut and metabolic health, these relations have not been investigated in humans.
+Objective
+We aimed to assess the impact of walnut consumption on the human gastrointestinal microbiota and metabolic markers of health.
+Methods
+A controlled-feeding, randomized crossover study was undertaken in healthy men and women [n = 18; mean age = 53.1 y; body mass index (kg/m2): 28.8]. Study participants received isocaloric diets containing 0 or 42 g walnuts/d for two 3-wk periods, with a 1-wk washout between diet periods. Fecal and blood samples were collected at baseline and at the end of each period to assess secondary outcomes of the study, including effects of walnut consumption on fecal microbiota and bile acids and metabolic markers of health.
+Results
+Compared with after the control period, walnut consumption resulted in a 49–160% higher relative abundance of Faecalibacterium, Clostridium, Dialister, and Roseburia and 16–38% lower relative abundances of Ruminococcus, Dorea, Oscillospira, and Bifidobacterium (P < 0.05). Fecal secondary bile acids, deoxycholic acid and lithocholic acid, were 25% and 45% lower, respectively, after the walnut treatment compared with the control treatment (P < 0.05). Serum LDL cholesterol and the noncholesterol sterol campesterol concentrations were 7% and 6% lower, respectively, after walnut consumption compared with after the control treatment (P < 0.01).
+Conclusion
+Walnut consumption affected the composition and function of the human gastrointestinal microbiota, increasing the relative abundances of Firmicutes species in butyrate-producing Clostridium clusters XIVa and IV, including Faecalibacterium and Roseburia, and reducing microbially derived, proinflammatory secondary bile acids and LDL cholesterol. These results suggest that the gastrointestinal microbiota may contribute to the underlying mechanisms of the beneficial health effects of walnut consumption. This trial was registered at www.clinicaltrials.gov as NCT01832909.

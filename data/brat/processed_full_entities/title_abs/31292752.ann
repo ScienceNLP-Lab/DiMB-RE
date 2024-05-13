@@ -1,0 +1,119 @@
+T1	DietPattern 23 53	low-calorie Mediterranean diet
+T2	DietPattern 70 85	vegetarian diet
+T3	Metabolite 114 118	SCFA
+T4	AFFECTS 167 173	effect
+T5	DietPattern 177 202	low-calorie mediterranean
+T6	DietPattern 204 206	MD
+T7	DietPattern 212 222	vegetarian
+T8	DietPattern 224 226	VD
+T9	Metabolite 273 296	short-chain-fatty acids
+T10	Methodology 338 382	next generation sequencing (NGS) of 16S rRNA
+T11	Physiology 478 497	cardiovascular risk
+T12	Methodology 387 400	SCFA analysis
+T13	Biospecimen 404 409	fecal
+T14	Population 424 497	overweight omnivores (16 F; 7 M) with low-to-moderate cardiovascular risk
+T15	Disease 424 434	overweight
+T16	DietPattern 532 534	VD
+T17	DietPattern 538 540	MD
+T18	Methodology 572 594	crossover study design
+T19	DietPattern 750 752	MD
+T20	DietPattern 757 759	VD
+T21	DietPattern 793 795	MD
+T22	AFFECTS 810 817	changed
+T23	Microorganism 835 848	Enterorhabdus
+T24	Microorganism 850 867	Lachnoclostridium
+T25	Microorganism 872 887	Parabacteroides
+T26	DietPattern 895 897	VD
+T27	AFFECTS 912 920	affected
+T28	Microorganism 938 950	Anaerostipes
+T29	Microorganism 952 965	Streptococcus
+T30	Microorganism 967 992	Clostridium sensu stricto
+T31	Microorganism 998 1009	Odoribacter
+T32	Metabolite 1052 1056	SCFA
+T33	DietPattern 1065 1067	MD
+T34	DietPattern 1072 1074	VD
+T35	Metabolite 1134 1148	propionic acid
+T36	Metabolite 1219 1223	SCFA
+T37	NEG_ASSOCIATED_WITH 1229 1250	negatively correlated
+T38	Chemical 1272 1294	inflammatory cytokines
+T39	Chemical 1303 1307	VEGF
+T40	Chemical 1309 1314	MCP-1
+T41	Chemical 1316 1321	IL-17
+T42	Chemical 1323 1328	IP-10
+T43	Chemical 1333 1338	IL-12
+T44	DietPattern 1351 1353	MD
+T45	DietPattern 1574 1576	MD
+T46	DietPattern 1580 1582	VD
+T47	Metabolite 1731 1735	SCFA
+T48	Physiology 1784 1805	inflammatory response
+T49	DietPattern 1873 1875	MD
+T50	Methodology 1364 1384	correlation analyses
+T51	AFFECTS 1769 1779	modulating
+E1	AFFECTS:T4 Theme:T9 Agent:T5
+E2	AFFECTS:T4 Theme:T9 Agent:T7
+E3	AFFECTS:T22 Agent:T21 Theme:T23
+E4	AFFECTS:T27 Agent:T26 Theme:T28
+E5	AFFECTS:T22 Agent:T21 Theme:T24
+E6	AFFECTS:T22 Agent:T21 Theme:T25
+E7	AFFECTS:T27 Agent:T26 Theme:T29
+E8	AFFECTS:T27 Agent:T26 Theme:T30
+E9	AFFECTS:T27 Agent:T26 Theme:T31
+E10	NEG_ASSOCIATED_WITH:T37 Agent:T36 Theme:T39
+E11	NEG_ASSOCIATED_WITH:T37 Agent:T36 Theme:T40
+E12	NEG_ASSOCIATED_WITH:T37 Agent:T36 Theme:T41
+E13	NEG_ASSOCIATED_WITH:T37 Agent:T36 Theme:T42
+E14	NEG_ASSOCIATED_WITH:T37 Agent:T36 Theme:T43
+E15	AFFECTS:T51 Theme:T48 Agent:T47
+A1	Unknown E1
+A2	Unknown E2
+N1	MESH:D038441 T1	Diet, Mediterranean
+N2	MESH:D014676 T2	Diet, Vegetarian
+N3	CHEBI:26666 T3	short-chain fatty acid
+N4	MESH:D038441 T5	Diet, Mediterranean
+N5	MESH:D038441 T6	Diet, Mediterranean
+N6	MESH:D014676 T7	Diet, Vegetarian
+N7	MESH:D014676 T8	Diet, Vegetarian
+N8	CHEBI:26666 T9	short-chain fatty acid
+N9	NCIT:C94250 T15	Overweight
+N10	MESH:D014676 T16	Diet, Vegetarian
+N11	MESH:D038441 T17	Diet, Mediterranean
+N12	MESH:D038441 T19	Diet, Mediterranean
+N13	MESH:D014676 T20	Diet, Vegetarian
+N14	MESH:D038441 T21	Diet, Mediterranean
+N15	NCBITAXON:580024 T23	Enterorhabdus
+N16	NCBITAXON:1506553 T24	Lachnoclostridium
+N17	NCBITAXON:375288 T25	Parabacteroides
+N18	MESH:D014676 T26	Diet, Vegetarian
+N19	NCBITAXON:207244 T28	Anaerostipes
+N20	NCBITAXON:1301 T29	Streptococcus
+N21	NCBITAXON:84086 T30	unclassified Firmicutes sensu stricto
+N22	NCBITAXON:283168 T31	Odoribacter
+N23	CHEBI:26666 T32	short-chain fatty acid
+N24	MESH:D038441 T33	Diet, Mediterranean
+N25	MESH:D014676 T34	Diet, Vegetarian
+N26	CHEBI:30768 T35	propionic acid
+N27	CHEBI:26666 T36	short-chain fatty acid
+N28	MESH:D042461 T39	Vascular Endothelial Growth Factor A
+N29	MESH:D018932 T40	Chemokine CCL2
+N30	MESH:D020381 T41	Interleukin-17
+N31	NCIT:C28756 T42	C-X-C Motif Chemokine 10
+N32	NCIT:C20514 T43	Interleukin-12
+N33	MESH:D038441 T44	Diet, Mediterranean
+N34	MESH:D038441 T45	Diet, Mediterranean
+N35	MESH:D014676 T46	Diet, Vegetarian
+N36	CHEBI:26666 T47	short-chain fatty acid
+N37	NCIT:C20151 T48	Inflammatory Response
+N38	MESH:D038441 T49	Diet, Mediterranean
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15

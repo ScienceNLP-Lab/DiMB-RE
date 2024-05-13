@@ -1,0 +1,194 @@
+T1	AFFECTS 0 6	Effect
+T2	Food 34 44	grape seed
+T3	Physiology 48 66	growth performance
+T4	Physiology 68 88	antioxidant capacity
+T6	AFFECTS 161 167	effect
+T7	Food 200 210	grape seed
+T8	Food 212 214	GS
+T9	Physiology 223 234	performance
+T10	Physiology 236 250	carcass traits
+T11	Measurement 252 271	plasma biochemistry
+T12	Measurement 273 291	antioxidant status
+T14	Food 406 415	GS powder
+T16	Food 550 552	GS
+T17	DietPattern 560 570	basal diet
+T18	INCREASES 571 580	increased
+T20	Physiology 581 598	final body weight
+T21	Physiology 603 619	body weight gain
+T22	IMPROVES 621 629	improved
+T23	Measurement 634 655	feed conversion ratio
+T24	AFFECTS 660 674	did not affect
+T25	Physiology 675 686	feed intake
+T26	Food 701 703	GS
+T27	INCREASES 718 727	increased
+T28	Physiology 756 771	carcass yield %
+T29	Measurement 773 783	dressing %
+T30	Physiology 788 795	gizzard
+T31	Food 833 835	GS
+T32	DECREASES 850 857	reduced
+T33	Physiology 876 889	abdominal fat
+T35	Food 928 930	GS
+T36	Food 1157 1159	GS
+T37	Chemical 1168 1182	plasma protein
+T38	Chemical 1184 1191	albumin
+T39	Chemical 1193 1201	globulin
+T40	Enzyme 1203 1229	aspartate aminotransferase
+T41	Enzyme 1234 1258	alanine aminotransferase
+T42	AFFECTS 1281 1302	no significant change
+T44	Nutrient 18 28	polyphenol
+T45	Food 1374 1376	GS
+T46	DECREASES 1381 1386	lower
+T47	Chemical 1397 1411	plasma glucose
+T48	Nutrient 1413 1425	total lipids
+T49	Chemical 1427 1440	triglycerides
+T50	Chemical 1445 1456	cholesterol
+T51	Food 1524 1526	GS
+T52	DECREASES 1576 1583	reduced
+T53	Chemical 1584 1595	glutathione
+T54	Enzyme 1597 1605	catalase
+T55	Enzyme 1607 1627	superoxide dismutase
+T56	Enzyme 1629 1651	glutathione peroxidase
+T57	Enzyme 1656 1659	GST
+T58	DECREASES 1695 1704	decreased
+T59	Chemical 1705 1744	thiobarbituric acid-reactive substances
+T60	Physiology 1798 1806	ileal pH
+T61	AFFECTS 1811 1837	not significantly affected
+T62	Food 1845 1847	GS
+T64	HAS_COMPONENT 29 33	rich
+T65	Food 1893 1895	GS
+T66	DECREASES 1900 1905	lower
+T67	Microorganism 1912 1930	Streptococcus spp.
+T68	Microorganism 1935 1951	Escherichia coli
+T69	INCREASES 1968 1974	higher
+T70	Microorganism 1975 1992	Lactobacillus spp
+T71	Food 2085 2087	GS
+T72	AFFECTS 2017 2035	No adverse effects
+T73	Physiology 2039 2052	birds' health
+T75	Food 2095 2097	GS
+T77	IMPROVES 2178 2185	improve
+T78	Physiology 2186 2197	performance
+T79	DECREASES 2199 2205	reduce
+T80	Chemical 2206 2218	blood lipids
+T81	INCREASES 2220 2227	enhance
+T82	Physiology 2228 2248	antioxidant capacity
+E1	AFFECTS:T1 Agent:T2 Theme:T3
+E2	AFFECTS:T1 Agent:T2 Theme:T4
+E3	AFFECTS:T6 Agent:T7 Theme:T9
+E4	AFFECTS:T6 Agent:T7 Theme:T10
+E5	AFFECTS:T6 Agent:T7 Theme:T11
+E6	AFFECTS:T6 Agent:T7 Theme:T12
+E7	INCREASES:T18 Agent:T16 Theme:T20
+E9	IMPROVES:T22 Agent:T16 Theme:T23
+E10	AFFECTS:T24 Agent:T16 Theme:T25
+E11	INCREASES:T18 Agent:T16 Theme:T21
+E12	INCREASES:T27 Agent:T26 Theme:T28
+E13	INCREASES:T27 Agent:T26 Theme:T29
+E14	INCREASES:T27 Agent:T26 Theme:T30
+E15	DECREASES:T32 Agent:T31 Theme:T33
+E16	AFFECTS:T42 Agent:T36 Theme:T41
+E17	AFFECTS:T42 Agent:T36 Theme:T40
+E18	AFFECTS:T42 Agent:T36 Theme:T39
+E19	AFFECTS:T42 Agent:T36 Theme:T38
+E20	AFFECTS:T42 Agent:T36 Theme:T37
+E21	DECREASES:T46 Theme:T47 Agent:T45
+E22	DECREASES:T46 Theme:T48 Agent:T45
+E23	DECREASES:T46 Theme:T49 Agent:T45
+E24	DECREASES:T46 Theme:T50 Agent:T45
+E25	DECREASES:T52 Agent:T51 Theme:T53
+E26	DECREASES:T52 Agent:T51 Theme:T54
+E27	DECREASES:T52 Agent:T51 Theme:T55
+E28	DECREASES:T52 Agent:T51 Theme:T56
+E29	DECREASES:T52 Agent:T51 Theme:T57
+E30	DECREASES:T58 Agent:T51 Theme:T59
+E31	AFFECTS:T61 Agent:T62 Theme:T60
+E32	DECREASES:T66 Theme:T67 Agent:T65
+E33	INCREASES:T69 Theme:T70 Agent:T65
+E34	DECREASES:T66 Theme:T68 Agent:T65
+E35	AFFECTS:T72 Theme:T73 Agent:T71
+E36	IMPROVES:T77 Agent:T75 Theme:T78
+E37	DECREASES:T79 Agent:T75 Theme:T80
+E38	INCREASES:T81 Agent:T75 Theme:T82
+E39	HAS_COMPONENT:T64 Agent:T2 Theme:T44
+A1	Unknown E1
+A2	Unknown E2
+A3	Unknown E3
+A4	Unknown E4
+A5	Unknown E5
+A6	Unknown E6
+A7	Negated E10
+A8	Unknown E16
+A9	Unknown E17
+A10	Unknown E18
+A11	Unknown E19
+A12	Unknown E20
+A13	Negated E31
+A14	Negated E35
+N1	OCHV:C0772453 T2	grape seed
+N2	OCHV:55258 T4	antioxidant activity
+N3	OCHV:C0772453 T7	grape seed
+N4	OCHV:C0772453 T8	grape seed
+N5	NCIT:C25361 T9	Performance
+N6	MESH:D056604 T14	Grape Seed Extract
+N7	OCHV:C0772453 T16	grape seed
+N8	NCIT:C90364 T17	Basal Diet
+N9	NCIT:C81328 T20	Body Weight
+N10	MESH:D015430 T21	Weight gain
+N11	MESH:D004435 T25	Eating
+N12	OCHV:C0772453 T26	grape seed
+N13	NCIT:C77615 T30	Gizzard
+N14	OCHV:C0772453 T31	grape seed
+N15	NCIT:C139218 T33	Abdominal Fat
+N16	OCHV:C0772453 T35	grape seed
+N17	OCHV:C0772453 T36	grape seed
+N18	OCHV:C0032120 T37	plasma protein
+N19	NCIT:C214 T38	Albumin
+N20	MESH:D005916 T39	Globulins
+N21	NCIT:C25202 T40	Aspartate Aminotransferase
+N22	NCIT:C25293 T41	Alanine Aminotransferase
+N23	CHEBI:26195 T44	polyphenol
+N24	OCHV:C0772453 T45	grape seed
+N25	NCIT:C41376 T47	Plasma Glucose Measurement
+N26	CHEBI:18059 T48	lipid
+N27	CHEBI:17855 T49	triglyceride
+N28	NCIT:C369 T50	Cholesterol
+N29	OCHV:C0772453 T51	grape seed
+N30	NCIT:C523 T53	Glutathione
+N31	NCIT:C61062 T54	Catalase
+N32	NCIT:C17172 T55	Superoxide Dismutase
+N33	MESH:D005979 T56	Glutathione Peroxidase
+N34	NCIT:C16641 T57	Glutathione S-Transferase
+N35	MESH:D017392 T59	Thiobarbituric Acid Reactive Substances
+N36	OCHV:C0772453 T62	grape seed
+N37	OCHV:C0772453 T65	grape seed
+N38	NCBITAXON:1301 T67	Streptococcus
+N39	NCBITAXON:562 T68	Escherichia coli
+N40	NCBITAXON:1578 T70	Lactobacillus
+N41	OCHV:C0772453 T71	grape seed
+N42	OCHV:C0772453 T75	grape seed
+N43	NCIT:C25361 T78	Performance
+N44	OCHV:41502 T80	blood lipid
+N45	OCHV:55258 T82	antioxidant activity
+A15	Factual E7
+A16	Factual E9
+A17	Factual E11
+A18	Factual E12
+A19	Factual E13
+A20	Factual E14
+A21	Factual E15
+A22	Factual E21
+A23	Factual E22
+A24	Factual E23
+A25	Factual E24
+A26	Factual E25
+A27	Factual E26
+A28	Factual E27
+A29	Factual E28
+A30	Factual E29
+A31	Factual E30
+A32	Factual E32
+A33	Factual E33
+A34	Factual E34
+A35	Factual E36
+A36	Factual E37
+A37	Factual E38
+A38	Factual E39

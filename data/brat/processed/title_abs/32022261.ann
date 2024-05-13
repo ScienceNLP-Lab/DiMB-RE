@@ -1,0 +1,97 @@
+T2	Nutrient 51 58	APG-157
+T3	Disease 62 73	oral cancer
+T4	Chemical 135 144	cytokines
+T5	DECREASES 114 124	inhibitory
+T6	Nutrient 198 206	curcumin
+T7	Disease 219 239	head and neck cancer
+T8	Nutrient 383 390	APG-157
+T9	HAS_COMPONENT 411 421	containing
+T10	Nutrient 431 442	polyphenols
+T11	Nutrient 454 462	curcumin
+T13	Nutrient 726 733	APG-157
+T20	Nutrient 1062 1069	APG-157
+T21	Nutrient 1112 1120	curcumin
+T22	Chemical 1165 1170	IL-1β
+T23	Chemical 1172 1176	IL-6
+T24	Chemical 1182 1186	IL-8
+T27	DECREASES 1157 1164	reduced
+T28	DECREASES 1304 1313	reduction
+T29	Microorganism 1317 1330	Bacteroidetes
+T33	Physiology 1504 1522	T-cell recruitment
+T34	POS_ASSOCIATED_WITH 1438 1483	increased expression of genes associated with
+T35	Nutrient 1615 1622	APG-157
+T36	Nutrient 1705 1713	Curcumin
+T38	Disease 1914 1925	oral cancer
+T39	Nutrient 1942 1949	APG-157
+T40	HAS_COMPONENT 1968 1978	containing
+T41	Nutrient 1988 1999	polyphenols
+T42	Nutrient 2011 2019	curcumin
+T43	Nutrient 2021 2029	Curcumin
+T46	Measurement 2075 2095	Inflammatory markers
+T47	Microorganism 2100 2111	Bacteroides
+T48	DECREASES 2137 2146	decreased
+T50	Physiology 2166 2180	immune T cells
+T51	INCREASES 2186 2195	increased
+T53	Nutrient 2217 2224	APG-157
+T54	DECREASES 2243 2250	reduces
+T55	Physiology 2251 2263	inflammation
+T56	Physiology 2278 2285	T cells
+T57	AFFECTS 209 215	effect
+T59	DECREASES 1732 1740	suppress
+T60	Physiology 1741 1752	tumor cells
+E1	DECREASES:T5 Agent:T2 Theme:T4
+E2	HAS_COMPONENT:T9 Agent:T8 Theme:T11
+E3	DECREASES:T27 Agent:T20 Theme:T22
+E4	DECREASES:T27 Agent:T20 Theme:T23
+E5	DECREASES:T27 Agent:T20 Theme:T24
+E6	DECREASES:T28 Agent:T20 Theme:T29
+E7	POS_ASSOCIATED_WITH:T34 Agent:T20 Theme:T33
+E8	HAS_COMPONENT:T40 Agent:T39 Theme:T42
+E9	DECREASES:T48 Agent:T39 Theme:T47
+E10	DECREASES:T48 Agent:T39 Theme:T46
+E11	INCREASES:T51 Theme:T50 Agent:T39
+E12	DECREASES:T54 Agent:T53 Theme:T55
+E13	AFFECTS:T57 Theme:T7 Agent:T6
+E15	DECREASES:T59 Theme:T60 Agent:T36
+N1	NCIT:C187126 T2	Curcumin/Polyphenols-containing Botanical Agent APG-157
+N2	NCIT:C9316 T3	Malignant Oral Neoplasm
+N3	NCIT:C20464 T4	Cytokine
+N4	CHEBI:3962 T6	curcumin
+N5	MESH:D006258 T7	Head and Neck Neoplasms
+N6	NCIT:C187126 T8	Curcumin/Polyphenols-containing Botanical Agent APG-157
+N7	CHEBI:26195 T10	polyphenol
+N8	CHEBI:3962 T11	curcumin
+N9	NCIT:C187126 T13	Curcumin/Polyphenols-containing Botanical Agent APG-157
+N10	NCIT:C187126 T20	Curcumin/Polyphenols-containing Botanical Agent APG-157
+N11	CHEBI:3962 T21	curcumin
+N12	MESH:D053583 T22	Interleukin-1beta
+N13	NCIT:C20451 T23	Interleukin-6
+N14	NCIT:C20473 T24	Interleukin-8
+N15	NCBITAXON:976 T29	Bacteroidetes
+N16	NCIT:C187126 T35	Curcumin/Polyphenols-containing Botanical Agent APG-157
+N17	CHEBI:3962 T36	curcumin
+N18	NCIT:C9316 T38	Malignant Oral Neoplasm
+N19	NCIT:C187126 T39	Curcumin/Polyphenols-containing Botanical Agent APG-157
+N20	CHEBI:26195 T41	polyphenol
+N21	CHEBI:3962 T42	curcumin
+N22	CHEBI:3962 T43	curcumin
+N23	NCBITAXON:816 T47	Bacteroides
+N24	NCIT:C12476 T50	T-Lymphocyte
+N25	NCIT:C187126 T53	Curcumin/Polyphenols-containing Botanical Agent APG-157
+N26	NCIT:C3137 T55	Inflammation
+N27	NCIT:C12476 T56	T-Lymphocyte
+N28	NCIT:C12922 T60	Neoplastic Cell
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E15

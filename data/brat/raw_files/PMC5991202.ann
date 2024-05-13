@@ -1,0 +1,530 @@
+T1	Food 0 6	Walnut
+T2	Metabolite 79 99	Secondary Bile Acids
+T3	Population 123 137	Healthy Adults
+T4	Methodology 141 168	Randomized Controlled Trial
+T5	INCREASES 1989 1999	increasing
+T6	Food 236 240	nuts
+T7	DECREASES 2148 2156	reducing
+T8	PREVENTS 283 291	reducing
+T9	Disease 332 338	cancer
+T10	Disease 343 356	heart disease
+T11	Food 415 422	walnuts
+T12	Food 602 608	walnut
+T13	Methodology 705 751	controlled-feeding, randomized crossover study
+T14	Population 770 791	healthy men and women
+T15	DietPattern 880 896	isocaloric diets
+T16	HAS_COMPONENT 897 907	containing
+T17	Food 918 925	walnuts
+T18	AFFECTS 19 25	Alters
+T19	Biospecimen 992 997	Fecal
+T20	Biospecimen 1002 1007	blood
+T21	Food 1137 1143	walnut
+T22	AFFECTS 1126 1133	effects
+T23	Metabolite 1180 1190	bile acids
+T24	Food 1272 1278	walnut
+T25	Metabolite 1533 1549	deoxycholic acid
+T26	Microorganism 1342 1358	Faecalibacterium
+T27	Microorganism 1360 1371	Clostridium
+T28	Microorganism 1373 1382	Dialister
+T29	Microorganism 1388 1397	Roseburia
+T30	INCREASES 1313 1319	higher
+T31	DECREASES 1409 1414	lower
+T32	Microorganism 1438 1450	Ruminococcus
+T33	Microorganism 1452 1457	Dorea
+T34	Microorganism 1459 1471	Oscillospira
+T35	Microorganism 1477 1492	Bifidobacterium
+T36	Biospecimen 1159 1164	fecal
+T37	Metabolite 1554 1570	lithocholic acid
+T38	DECREASES 1589 1594	lower
+T39	Food 1620 1626	walnut
+T40	Metabolite 1505 1531	Fecal secondary bile acids
+T41	DECREASES 1779 1784	lower
+T42	Food 1806 1812	walnut
+T43	Food 1890 1896	Walnut
+T44	Microorganism 2112 2128	Faecalibacterium
+T45	Microorganism 2133 2142	Roseburia
+T46	Metabolite 2194 2214	secondary bile acids
+T48	ASSOCIATED_WITH 19068 19083	no associations
+T49	Chemical 1715 1736	noncholesterol sterol
+T50	Food 2375 2381	walnut
+T51	Biospecimen 1505 1510	Fecal
+T52	Measurement 1195 1222	metabolic markers of health
+T53	Metabolite 2049 2057	butyrate
+T54	Measurement 666 693	metabolic markers of health
+T55	Microorganism 2027 2037	Firmicutes
+T56	Chemical 1691 1706	LDL cholesterol
+T57	Chemical 1737 1748	campesterol
+T58	Chemical 2219 2234	LDL cholesterol
+T59	Physiology 487 503	metabolic health
+T60	IMPROVES 423 442	beneficially affect
+T61	AFFECTS 592 598	impact
+T62	Food 13419 13425	walnut
+T63	Chemical 13547 13568	Serum LDL cholesterol
+T64	Chemical 13597 13618	Serum HDL cholesterol
+T65	Chemical 13649 13658	Serum TGs
+T66	Chemical 13688 13701	Serum glucose
+T67	Physiology 13731 13754	Systolic blood pressure
+T68	Physiology 13781 13805	Diastolic blood pressure
+T69	DiversityMetric 13953 13956	OTU
+T70	Microorganism 14115 14125	Firmicutes
+T71	Microorganism 14127 14140	Bacteroidetes
+T72	Microorganism 14146 14160	Actinobacteria
+T73	Microorganism 14252 14267	Lachnospiraceae
+T74	Microorganism 14269 14284	Ruminococcaceae
+T75	Microorganism 14313 14325	Clostridales
+T76	Microorganism 14333 14347	Bacteroidaceae
+T77	Microorganism 14349 14367	Bifodobacteriaceae
+T78	Microorganism 14373 14392	Verrucomicrobiaceae
+T79	Microorganism 14526 14537	Bacteroides
+T80	Microorganism 14539 14546	Blautia
+T81	Microorganism 14548 14559	Coprococcus
+T82	Microorganism 14561 14573	Ruminococcus
+T83	Microorganism 14588 14603	Ruminococcaceae
+T84	Microorganism 14618 14631	Clostridiales
+T85	Microorganism 14650 14665	Lachnospiraceae
+T86	DiversityMetric 14710 14722	archaeal OTU
+T87	Microorganism 14836 14843	archaea
+T88	DiversityMetric 14856 14867	Fungal OTUs
+T89	Microorganism 15045 15051	fungal
+T90	Food 15064 15070	Walnut
+T91	AFFECTS 15091 15097	affect
+T92	DiversityMetric 15108 15128	α diversity measures
+T93	DiversityMetric 15140 15162	phylogenetic diversity
+T94	DiversityMetric 15173 15177	OTUs
+T95	DiversityMetric 15182 15190	richness
+T96	DiversityMetric 15195 15203	evenness
+T97	DiversityMetric 15209 15220	β diversity
+T98	Methodology 15231 15282	principal coordinates analysis of UniFrac distances
+T99	Food 16425 16431	Walnut
+T100	Methodology 15318 15348	OTU composition and abundances
+T101	Food 15400 15406	walnut
+T102	Food 15497 15503	walnut
+T103	INCREASES 15516 15525	increased
+T104	Microorganism 15563 15573	Firmicutes
+T105	DECREASES 15578 15587	decreased
+T106	Microorganism 15625 15639	Actinobacteria
+T107	Microorganism 15675 15691	Faecalibacterium
+T108	Microorganism 15693 15704	Clostridium
+T109	Microorganism 15706 15715	Roseburia
+T110	Microorganism 15721 15730	Dialister
+T111	INCREASES 15736 15745	increased
+T112	Food 15775 15781	walnut
+T113	Microorganism 15882 15894	Ruminococcus
+T114	Microorganism 15896 15901	Dorea
+T115	Microorganism 15903 15915	Oscillospira
+T116	Microorganism 15921 15936	Bifidobacterium
+T117	DECREASES 15942 15947	lower
+T118	Food 16020 16026	walnut
+T119	Gene 16084 16110	butanoate metabolism genes
+T120	Food 16147 16153	walnut
+T121	AFFECTS 16115 16128	not different
+T122	Food 16320 16326	walnut
+T123	Microorganism 16440 16450	Firmicutes
+T124	Microorganism 16474 16481	Blautia
+T125	Microorganism 16505 16516	Coprococcus
+T126	Microorganism 16540 16552	Ruminococcus
+T127	Microorganism 16577 16582	Dorea
+T128	Microorganism 16607 16620	Streptococcus
+T129	Microorganism 16644 16660	Faecalibacterium
+T130	Microorganism 16684 16693	Roseburia
+T131	Microorganism 16718 16729	Clostridium
+T132	Microorganism 16753 16765	Oscillospira
+T133	Microorganism 16790 16799	Dialister
+T134	Microorganism 16823 16836	Lactobacillus
+T135	Microorganism 16860 16871	Lachnospira
+T136	Microorganism 16895 16907	Anaerostipes
+T137	Microorganism 16930 16943	Bacteroidetes
+T138	Microorganism 16967 16978	Bacteroides
+T139	Microorganism 17002 17017	Parabacteroides
+T140	Microorganism 17040 17054	Actinobacteria
+T141	Microorganism 17078 17093	Bifidobacterium
+T142	Microorganism 17117 17128	Collinsella
+T143	Microorganism 17152 17167	Verrucomicrobia
+T144	Microorganism 17192 17203	Akkermansia
+T145	Microorganism 17226 17240	Proteobacteria
+T146	Microorganism 17263 17273	Firmicutes
+T147	Microorganism 17274 17288	Bacteroidetes3
+T148	Methodology 17438 17455	mixed-model ANOVA
+T149	DiversityMetric 17575 17608	Firmicutes-to-Bacteroidetes ratio
+T150	Metabolite 17610 17628	Primary bile acids
+T151	Metabolite 17681 17701	secondary bile acids
+T152	Metabolite 17703 17719	deoxycholic acid
+T153	Metabolite 17724 17740	lithocholic acid
+T154	Food 17792 17798	walnut
+T155	Metabolite 17903 17923	secondary bile acids
+T156	Food 17978 17984	walnut
+T157	Metabolite 18067 18082	Fecal bile acid
+T158	Biospecimen 18100 18118	freeze-dried feces
+T159	Food 18166 18172	walnut
+T160	Metabolite 18219 18230	Cholic acid
+T161	Metabolite 18260 18281	Chenodeoxycholic acid
+T162	Metabolite 18311 18327	Deoxycholic acid
+T163	Metabolite 18358 18374	Lithocholic acid
+T164	Methodology 18547 18564	mixed-model ANOVA
+T165	Chemical 18566 18589	Serum total cholesterol
+T166	Chemical 18657 18672	LDL-cholesterol
+T167	DECREASES 18610 18615	lower
+T168	DECREASES 18693 18698	lower
+T169	Food 18742 18748	walnut
+T170	Food 18843 18849	walnut
+T171	Chemical 18863 18880	Serum campesterol
+T172	DECREASES 18885 18890	lower
+T173	Chemical 18938 18949	lathosterol
+T174	DECREASES 18978 18983	lower
+T175	Food 19006 19012	walnut
+T176	Metabolite 19198 19214	Lithocholic acid
+T177	Chemical 19106 19123	total cholesterol
+T178	Chemical 19127 19142	LDL cholesterol
+T179	Food 19168 19174	walnut
+T180	POS_ASSOCIATED_WITH 19235 19256	positively associated
+T181	Microorganism 19289 19294	Dorea
+T182	Food 19346 19352	walnut
+T183	NEG_ASSOCIATED_WITH 19387 19408	negatively associated
+T184	Microorganism 19414 19423	Roseburia
+T185	Metabolite 19494 19510	deoxycholic acid
+T186	Food 19551 19557	walnut
+T187	Food 19649 19655	walnut
+T188	Microorganism 19736 19741	Dorea
+T189	Microorganism 19750 19759	Roseburia
+T190	Metabolite 19788 19804	lithocholic acid
+T191	Food 19838 19844	walnut
+T192	Methodology 19863 19877	Serum analytes
+T193	Food 19913 19919	walnut
+T194	Chemical 19966 19977	Cholesterol
+T195	Chemical 20004 20019	LDL cholesterol
+T196	Chemical 20047 20062	HDL cholesterol
+T197	Chemical 20091 20094	TGs
+T198	Chemical 20123 20130	Glucose
+T199	Chemical 20159 20163	IL-6
+T200	Chemical 20193 20196	CRP
+T201	Chemical 20226 20229	SAA
+T202	Chemical 20259 20264	sICAM
+T203	Chemical 20292 20297	sVCAM
+T204	Methodology 20467 20484	mixed-model ANOVA
+T205	Chemical 20486 20489	CRP
+T206	Chemical 20491 20509	C-reactive protein
+T207	Chemical 20511 20514	SAA
+T208	Chemical 20516 20531	serum amyloid A
+T209	Chemical 20533 20538	sICAM
+T210	Chemical 20540 20579	soluble intercellular adhesion molecule
+T211	Chemical 20581 20586	sVCAM
+T212	Chemical 20588 20627	soluble vascular cell adhesion molecule
+T213	Chemical 20629 20656	Serum noncholesterol sterol
+T214	Food 20706 20712	walnut
+T215	Chemical 21408 21423	LDL cholesterol
+T216	Chemical 20817 20828	Desmosterol
+T217	Food 18204 18210	Walnut
+T218	Chemical 20877 20888	Lathosterol
+T219	Food 19951 19957	Walnut
+T220	Metabolite 20936 20947	Cholestanol
+T221	Food 20744 20750	Walnut
+T222	Chemical 20995 21006	Campesterol
+T223	Physiology 20759 20767	Squalene
+T224	Chemical 21054 21066	β-Sitosterol
+T226	Methodology 21189 21205	crossover design
+T227	Methodology 21258 21275	mixed-model ANOVA
+T228	Methodology 20398 20414	crossover design
+T229	Methodology 18478 18494	crossover design
+T230	Chemical 21319 21336	serum cholesterol
+T231	Chemical 21341 21356	LDL cholesterol
+T232	Food 21364 21370	walnut
+T233	Chemical 21389 21400	Cholesterol
+T235	Microorganism 21466 21478	Ruminococcus
+T236	Microorganism 21503 21508	Dorea
+T237	Microorganism 21533 21549	Faecalibacterium
+T238	Microorganism 21572 21581	Roseburia
+T239	Microorganism 21604 21615	Clostridium
+T240	Microorganism 21639 21651	Oscillospira
+T241	Microorganism 21676 21685	Dialister
+T242	Microorganism 21710 21725	Bifidobacterium
+T243	Food 21862 21868	walnut
+T244	Chemical 21885 21908	serum total cholesterol
+T245	Chemical 21913 21928	LDL cholesterol
+T246	Food 21965 21971	walnut
+T247	Methodology 22037 22049	Spearman's ρ
+T248	Metabolite 22123 22142	secondary bile acid
+T249	Food 22176 22182	walnut
+T250	Population 22215 22220	adult
+T251	Metabolite 22235 22251	Deoxycholic acid
+T252	Metabolite 22259 22275	Lithocholic acid
+T253	Microorganism 22318 22330	Ruminococcus
+T254	Microorganism 22353 22358	Dorea
+T255	Microorganism 22381 22397	Faecalibacterium
+T256	Microorganism 22422 22431	Roseburia
+T257	Microorganism 22456 22467	Clostridium
+T258	Microorganism 22492 22504	Oscillospira
+T259	Microorganism 22528 22537	Dialister
+T260	Microorganism 22562 22577	Bifidobacterium
+T261	Microorganism 2068 2093	Clostridium clusters XIVa
+T262	Microorganism 2068 2088;2098 2100	Clostridium clusters IV
+T263	DECREASES 17747 17754	reduced
+T264	DECREASES 17954 17959	lower
+T266	ASSOCIATED_WITH 19470 19485	no associations
+E1	AFFECTS:T91 Agent:T90 Theme:T92
+E2	PREVENTS:T8 Agent:T6 Theme:T9
+E3	PREVENTS:T8 Agent:T6 Theme:T10
+E4	HAS_COMPONENT:T16 Agent:T15 Theme:T17
+E5	AFFECTS:T22 Agent:T21 Theme:T23
+E6	INCREASES:T30 Agent:T24 Theme:T27
+E7	INCREASES:T30 Agent:T24 Theme:T26
+E8	DECREASES:T31 Agent:T24 Theme:T32
+E9	INCREASES:T5 Agent:T43 Theme:T44
+E10	INCREASES:T30 Agent:T24 Theme:T28
+E11	INCREASES:T30 Agent:T24 Theme:T29
+E12	DECREASES:T31 Agent:T24 Theme:T33
+E13	DECREASES:T31 Agent:T24 Theme:T34
+E14	DECREASES:T31 Agent:T24 Theme:T35
+E15	DECREASES:T38 Agent:T39 Theme:T25
+E16	DECREASES:T41 Agent:T42 Theme:T56
+E17	DECREASES:T41 Agent:T42 Theme:T57
+E18	INCREASES:T5 Agent:T43 Theme:T45
+E19	DECREASES:T7 Agent:T43 Theme:T46
+E20	DECREASES:T7 Agent:T43 Theme:T58
+E21	AFFECTS:T18 Agent:T1 Theme:T2
+E22	AFFECTS:T22 Agent:T21 Theme:T52
+E23	DECREASES:T38 Agent:T39 Theme:T37
+E24	IMPROVES:T60 Agent:T11 Theme:T59
+E25	AFFECTS:T61 Agent:T12 Theme:T54
+E26	AFFECTS:T91 Agent:T90 Theme:T93
+E27	AFFECTS:T91 Agent:T90 Theme:T94
+E28	AFFECTS:T91 Agent:T90 Theme:T95
+E29	AFFECTS:T91 Agent:T90 Theme:T96
+E30	INCREASES:T103 Agent:T102 Theme:T104
+E31	DECREASES:T105 Agent:T102 Theme:T106
+E32	INCREASES:T111 Agent:T112 Theme:T110
+E33	INCREASES:T111 Agent:T112 Theme:T109
+E34	INCREASES:T111 Agent:T112 Theme:T108
+E35	INCREASES:T111 Agent:T112 Theme:T107
+E36	DECREASES:T117 Agent:T118 Theme:T116
+E37	DECREASES:T117 Agent:T118 Theme:T115
+E38	DECREASES:T117 Agent:T118 Theme:T114
+E39	DECREASES:T117 Agent:T118 Theme:T113
+E40	AFFECTS:T121 Theme:T119 Agent:T120
+E41	DECREASES:T167 Agent:T169 Theme:T165
+E42	DECREASES:T168 Agent:T169 Theme:T166
+E43	DECREASES:T172 Agent:T175 Theme:T171
+E44	DECREASES:T174 Agent:T175 Theme:T173
+E45	POS_ASSOCIATED_WITH:T180 Agent:T176 Theme:T181
+E46	NEG_ASSOCIATED_WITH:T183 Agent:T176 Theme:T184
+E47	DECREASES:T263 Agent:T154 Theme:T153
+E48	DECREASES:T263 Agent:T154 Theme:T152
+E49	DECREASES:T264 Agent:T156 Theme:T155
+E50	ASSOCIATED_WITH:T48 Theme:T179 Theme2:T177
+E51	ASSOCIATED_WITH:T48 Theme:T179 Theme2:T178
+E52	ASSOCIATED_WITH:T266 Theme:T185 Theme2:T186
+A1	Factuality E5 Unknown
+A2	Factuality E1 Negated
+A3	Factuality E22 Unknown
+A4	Factuality E25 Unknown
+A5	Factuality E26 Negated
+A6	Factuality E27 Negated
+A7	Factuality E28 Negated
+A8	Factuality E29 Negated
+A9	Factuality E40 Negated
+A10	Factuality E2 Possible
+A11	Factuality E3 Possible
+A12	Factuality E24 Probable
+A13	Factuality E50 Negated
+A14	Factuality E51 Negated
+A15	Factuality E52 Negated
+N1	Reference T1 FOODON:03316466	walnut (whole or parts)
+N2	Reference T2 CHEBI:3098	bile acid
+N3	Reference T6 MESH:D009754	Nuts
+N4	Reference T9 NCIT:C9035	Malignant Neoplasm
+N5	Reference T10 NCIT:C3079	Heart Disorder
+N6	Reference T11 FOODON:03316466	walnut (whole or parts)
+N7	Reference T12 FOODON:03316466	walnut (whole or parts)
+N8	Reference T17 FOODON:03316466	walnut (whole or parts)
+N9	Reference T21 FOODON:03316466	walnut (whole or parts)
+N10	Reference T23 CHEBI:3098	bile acid
+N11	Reference T24 FOODON:03316466	walnut (whole or parts)
+N12	Reference T25 CHEBI:28834	deoxycholic acid
+N13	Reference T26 NCBITAXON:216851	Faecalibacterium
+N14	Reference T27 NCBITAXON:1485	Clostridium
+N15	Reference T28 NCBITAXON:39948	Dialister
+N16	Reference T29 NCBITAXON:841	Roseburia
+N17	Reference T32 NCBITAXON:1263	Ruminococcus
+N18	Reference T33 NCBITAXON:189330	Dorea
+N19	Reference T34 NCBITAXON:119852	Oscillospira
+N20	Reference T35 NCBITAXON:1678	Bifidobacterium
+N21	Reference T37 CHEBI:16325	lithocholic acid
+N22	Reference T39 FOODON:03316466	walnut (whole or parts)
+N23	Reference T40 CHEBI:3098	bile acid
+N24	Reference T42 FOODON:03316466	walnut (whole or parts)
+N25	Reference T43 FOODON:03316466	walnut (whole or parts)
+N26	Reference T44 NCBITAXON:216851	Faecalibacterium
+N27	Reference T45 NCBITAXON:841	Roseburia
+N28	Reference T46 CHEBI:3098	bile acid
+N29	Reference T49 CHEBI:15889	sterol
+N30	Reference T50 FOODON:03316466	walnut (whole or parts)
+N31	Reference T52 NCIT:C18520	Metabolic Marker
+N32	Reference T53 CHEBI:17968	butyrate
+N33	Reference T54 NCIT:C18520	Metabolic Marker
+N34	Reference T55 NCBITAXON:1239	Firmicutes
+N35	Reference T56 CHEBI:47774	low-density lipoprotein cholesterol
+N36	Reference T57 CHEBI:28623	campesterol
+N37	Reference T58 CHEBI:47774	low-density lipoprotein cholesterol
+N38	Reference T62 FOODON:03316466	walnut (whole or parts)
+N39	Reference T63 NCIT:C61042	Serum LDL Cholesterol Measurement
+N40	Reference T64 NCIT:C61041	Serum HDL Cholesterol Measurement
+N41	Reference T65 NCIT:C61037	Serum Triglyceride Measurement
+N42	Reference T66 NCIT:C61027	Serum Glucose Measurement
+N43	Reference T67 NCIT:C25298	Systolic Blood Pressure
+N44	Reference T68 NCIT:C25299	Diastolic Blood Pressure
+N45	Reference T70 NCBITAXON:1239	Firmicutes
+N46	Reference T71 NCBITAXON:976	Bacteroidetes
+N47	Reference T72 NCBITAXON:201174	Actinobacteria
+N48	Reference T73 NCBITAXON:186803	Lachnospiraceae
+N49	Reference T74 NCBITAXON:216572	Oscillospiraceae
+N50	Reference T75 NCBITAXON:1898207	Clostridiales bacterium
+N51	Reference T76 NCBITAXON:815	Bacteroidaceae
+N52	Reference T77 NCBITAXON:31953	Bifidobacteriaceae
+N53	Reference T78 NCBITAXON:203557	Verrucomicrobiaceae
+N54	Reference T79 NCBITAXON:816	Bacteroides
+N55	Reference T80 NCBITAXON:572511	Blautia
+N56	Reference T81 NCBITAXON:33042	Coprococcus
+N57	Reference T82 NCBITAXON:1263	Ruminococcus
+N58	Reference T83 NCBITAXON:216572	Oscillospiraceae
+N59	Reference T84 NCBITAXON:1898207	Clostridiales bacterium
+N60	Reference T85 NCBITAXON:186803	Lachnospiraceae
+N61	Reference T87 NCBITAXON:2157	Archaea
+N62	Reference T89 NCBITAXON:4751	Fungi
+N63	Reference T90 FOODON:03316466	walnut (whole or parts)
+N64	Reference T99 FOODON:03316466	walnut (whole or parts)
+N65	Reference T101 FOODON:03316466	walnut (whole or parts)
+N66	Reference T102 FOODON:03316466	walnut (whole or parts)
+N67	Reference T104 NCBITAXON:1239	Firmicutes
+N68	Reference T106 NCBITAXON:201174	Actinobacteria
+N69	Reference T107 NCBITAXON:216851	Faecalibacterium
+N70	Reference T108 NCBITAXON:1485	Clostridium
+N71	Reference T109 NCBITAXON:841	Roseburia
+N72	Reference T110 NCBITAXON:39948	Dialister
+N73	Reference T112 FOODON:03316466	walnut (whole or parts)
+N74	Reference T113 NCBITAXON:1263	Ruminococcus
+N75	Reference T114 NCBITAXON:189330	Dorea
+N76	Reference T115 NCBITAXON:119852	Oscillospira
+N77	Reference T116 NCBITAXON:1678	Bifidobacterium
+N78	Reference T118 FOODON:03316466	walnut (whole or parts)
+N79	Reference T120 FOODON:03316466	walnut (whole or parts)
+N80	Reference T122 FOODON:03316466	walnut (whole or parts)
+N81	Reference T123 NCBITAXON:1239	Firmicutes
+N82	Reference T124 NCBITAXON:572511	Blautia
+N83	Reference T125 NCBITAXON:33042	Coprococcus
+N84	Reference T126 NCBITAXON:1263	Ruminococcus
+N85	Reference T127 NCBITAXON:189330	Dorea
+N86	Reference T128 NCBITAXON:1301	Streptococcus
+N87	Reference T129 NCBITAXON:216851	Faecalibacterium
+N88	Reference T130 NCBITAXON:841	Roseburia
+N89	Reference T131 NCBITAXON:1485	Clostridium
+N90	Reference T132 NCBITAXON:119852	Oscillospira
+N91	Reference T133 NCBITAXON:39948	Dialister
+N92	Reference T134 NCBITAXON:1578	Lactobacillus
+N93	Reference T135 NCBITAXON:28050	Lachnospira
+N94	Reference T136 NCBITAXON:207244	Anaerostipes
+N95	Reference T137 NCBITAXON:976	Bacteroidetes
+N96	Reference T138 NCBITAXON:816	Bacteroides
+N97	Reference T139 NCBITAXON:375288	Parabacteroides
+N98	Reference T140 NCBITAXON:201174	Actinobacteria
+N99	Reference T141 NCBITAXON:1678	Bifidobacterium
+N100	Reference T142 NCBITAXON:102106	Collinsella
+N101	Reference T143 NCBITAXON:74201	Verrucomicrobia
+N102	Reference T144 NCBITAXON:239934	Akkermansia
+N103	Reference T145 NCBITAXON:1224	Proteobacteria
+N104	Reference T146 NCBITAXON:1239	Firmicutes
+N105	Reference T147 NCBITAXON:976	Bacteroidetes
+N106	Reference T149 NCIT:C189550	Firmicutes to Bacteroidetes Ratio Measurement
+N107	Reference T150 CHEBI:3098	bile acid
+N108	Reference T151 CHEBI:3098	bile acid
+N109	Reference T152 CHEBI:28834	deoxycholic acid
+N110	Reference T153 CHEBI:16325	lithocholic acid
+N111	Reference T154 FOODON:03316466	walnut (whole or parts)
+N112	Reference T155 CHEBI:3098	bile acid
+N113	Reference T156 FOODON:03316466	walnut (whole or parts)
+N114	Reference T157 CHEBI:3098	bile acid
+N115	Reference T159 FOODON:03316466	walnut (whole or parts)
+N116	Reference T160 CHEBI:16359	cholic acid
+N117	Reference T161 CHEBI:16755	chenodeoxycholic acid
+N118	Reference T162 CHEBI:28834	deoxycholic acid
+N119	Reference T163 CHEBI:16325	lithocholic acid
+N120	Reference T165 NCIT:C61032	Serum Total Cholesterol Measurement
+N121	Reference T166 CHEBI:47774	low-density lipoprotein cholesterol
+N122	Reference T169 FOODON:03316466	walnut (whole or parts)
+N123	Reference T170 FOODON:03316466	walnut (whole or parts)
+N124	Reference T171 CHEBI:28623	campesterol
+N125	Reference T173 CHEBI:17168	5alpha-cholest-7-en-3beta-ol
+N126	Reference T175 FOODON:03316466	walnut (whole or parts)
+N127	Reference T176 CHEBI:16325	lithocholic acid
+N128	Reference T177 NCIT:C105586	Cholesterol Measurement
+N129	Reference T178 CHEBI:47774	low-density lipoprotein cholesterol
+N130	Reference T179 FOODON:03316466	walnut (whole or parts)
+N131	Reference T181 NCBITAXON:189330	Dorea
+N132	Reference T182 FOODON:03316466	walnut (whole or parts)
+N133	Reference T184 NCBITAXON:841	Roseburia
+N134	Reference T185 CHEBI:28834	deoxycholic acid
+N135	Reference T186 FOODON:03316466	walnut (whole or parts)
+N136	Reference T187 FOODON:03316466	walnut (whole or parts)
+N137	Reference T188 NCBITAXON:189330	Dorea
+N138	Reference T189 NCBITAXON:841	Roseburia
+N139	Reference T190 CHEBI:16325	lithocholic acid
+N140	Reference T191 FOODON:03316466	walnut (whole or parts)
+N141	Reference T193 FOODON:03316466	walnut (whole or parts)
+N142	Reference T194 NCIT:C369	Cholesterol
+N143	Reference T195 CHEBI:47774	low-density lipoprotein cholesterol
+N144	Reference T196 CHEBI:47775	high-density lipoprotein cholesterol
+N145	Reference T197 CHEBI:17855	triglycerides
+N146	Reference T198 CHEBI:17234	glucose
+N147	Reference T199 NCIT:C20451	Interleukin-6
+N148	Reference T200 NCIT:C60651	C-Reactive Protein
+N149	Reference T201 CHEBI:138152	serum amyloid A
+N150	Reference T202 NCIT:C132386	Soluble Intercellular Adhesion Molecule 1 Measurement
+N151	Reference T203 NCIT:C92533	Soluble Vascular Cell Adhesion Molecule 1
+N152	Reference T205 NCIT:C60651	C-Reactive Protein
+N153	Reference T206 NCIT:C60651	C-Reactive Protein
+N154	Reference T207 CHEBI:138152	serum amyloid A
+N155	Reference T208 CHEBI:138152	serum amyloid A
+N156	Reference T209 NCIT:C132386	Soluble Intercellular Adhesion Molecule 1 Measurement
+N157	Reference T210 NCIT:C132386	Soluble Intercellular Adhesion Molecule 1 Measurement
+N158	Reference T211 NCIT:C92533	Soluble Vascular Cell Adhesion Molecule 1
+N159	Reference T212 NCIT:C92533	Soluble Vascular Cell Adhesion Molecule 1
+N160	Reference T213 CHEBI:15889	sterol
+N161	Reference T214 FOODON:03316466	walnut (whole or parts)
+N162	Reference T215 CHEBI:47774	low-density lipoprotein cholesterol
+N163	Reference T216 MESH:D003897	Desmosterol
+N164	Reference T217 FOODON:03316466	walnut (whole or parts)
+N165	Reference T218 CHEBI:17168	5alpha-cholest-7-en-3beta-ol
+N166	Reference T219 FOODON:03316466	walnut (whole or parts)
+N167	Reference T220 MESH:D004083	Cholestanol
+N168	Reference T221 FOODON:03316466	walnut (whole or parts)
+N169	Reference T222 CHEBI:28623	campesterol
+N170	Reference T223 CHEBI:15440	squalene
+N171	Reference T224 NCIT:C63662	Beta-Sitosterol
+N172	Reference T230 NCIT:C61032	Serum Total Cholesterol Measurement
+N173	Reference T231 CHEBI:47774	low-density lipoprotein cholesterol
+N174	Reference T232 FOODON:03316466	walnut (whole or parts)
+N175	Reference T233 NCIT:C369	Cholesterol
+N176	Reference T235 NCBITAXON:1263	Ruminococcus
+N177	Reference T236 NCBITAXON:189330	Dorea
+N178	Reference T237 NCBITAXON:216851	Faecalibacterium
+N179	Reference T238 NCBITAXON:841	Roseburia
+N180	Reference T239 NCBITAXON:1485	Clostridium
+N181	Reference T240 NCBITAXON:119852	Oscillospira
+N182	Reference T241 NCBITAXON:39948	Dialister
+N183	Reference T242 NCBITAXON:1678	Bifidobacterium
+N184	Reference T243 FOODON:03316466	walnut (whole or parts)
+N185	Reference T244 NCIT:C61032	Serum Total Cholesterol Measurement
+N186	Reference T245 CHEBI:47774	low-density lipoprotein cholesterol
+N187	Reference T246 FOODON:03316466	walnut (whole or parts)
+N188	Reference T248 CHEBI:3098	bile acid
+N189	Reference T249 FOODON:03316466	walnut (whole or parts)
+N190	Reference T251 CHEBI:28834	deoxycholic acid
+N191	Reference T252 CHEBI:16325	lithocholic acid
+N192	Reference T253 NCBITAXON:1263	Ruminococcus
+N193	Reference T254 NCBITAXON:189330	Dorea
+N194	Reference T255 NCBITAXON:216851	Faecalibacterium
+N195	Reference T256 NCBITAXON:841	Roseburia
+N196	Reference T257 NCBITAXON:1485	Clostridium
+N197	Reference T258 NCBITAXON:119852	Oscillospira
+N198	Reference T259 NCBITAXON:39948	Dialister
+N199	Reference T260 NCBITAXON:1678	Bifidobacterium
+N200	Reference T261 NCIT:C129411	Clostridium Cluster
+N201	Reference T262 NCIT:C129412	Clostridium Cluster IV

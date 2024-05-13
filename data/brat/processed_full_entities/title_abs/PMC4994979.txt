@@ -1,0 +1,12 @@
+Effect of vitamin E with therapeutic iron supplementation on iron repletion and gut microbiome in U.S. iron deficient infants and toddlers: a randomized control trial
+
+Background
+Iron therapy induces inflammation which could decrease iron absorption. Increased exposure of iron in the gut could also alter microbiome file. Providing antioxidants such as vitamin E with iron therapy has been associated with reduced oxidative potential.
+Objective
+Test the efficacy of adding vitamin E to therapeutic iron therapy on iron repletion, inflammation markers and gut microbiome in iron deficient infants and toddlers.
+Design
+This was a randomized, double-blind, control trial in which infants and toddlers (Denver, CO metro area) who were at risk of iron deficiency were screened. Eligible participants were randomized to receive iron therapy (6 mg/kg/d) plus placebo (n = 22) or iron (6 mg/kg/d) plus vitamin E (18 mg/d, n =14) for 8 weeks. Iron and inflammation status, and gut microbiome (16S sequencing) were analyzed in all participants before and after the treatment.
+Results
+After 8 weeks of treatment, average serum ferritin level returned to normal for both iron + placebo and iron + vitamin E groups at 33.3 ± 20.2 and 33.5 ± 21.5 ug/L, respectively. Serum vitamin E concentration increased in iron + vitamin E group. No change over time was observed regarding serum IL-4, TNF-α or fecal calprotectin. The relative abundance of the genus Roseburia (phylum Firmicutes), a butyrate producer, increased in the Fe + E group (Δ 1.3%, P < 0.01). Also at the genus level, the genus Escherichia decreased by 1.2% on average among all participants (effect of time P = 0.01).
+Conclusion
+Using a therapeutic iron dose of 6mg/kg/d is effective in treating iron deficiency during an 8-week period, without inducing persistent inflammatory response. Changes of the gut microbiome raised the possibility that antioxidant therapy in conjunction with therapeutic iron supplementation could potentially improve microbial community profiles in the intestinal tract.

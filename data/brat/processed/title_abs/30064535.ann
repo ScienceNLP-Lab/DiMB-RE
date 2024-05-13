@@ -1,0 +1,85 @@
+T1	Nutrient 21 41	inulin-type fructans
+T2	Disease 156 163	obesity
+T3	Chemical 1122 1145	glucagon-like peptide-1
+T4	Metabolite 409 411	BA
+T8	Disease 130 140	overweight
+T10	Disease 214 231	diabetes mellitus
+T11	Nutrient 521 530	cellulose
+T12	Nutrient 304 324	inulin-type fructans
+T13	Nutrient 349 358	prebiotic
+T16	Metabolite 397 407	bile acids
+T17	Nutrient 617 626	prebiotic
+T18	Nutrient 11 20	prebiotic
+T19	Disease 419 429	overweight
+T20	Measurement 1073 1077	IAUC
+T21	POS_ASSOCIATED_WITH 167 177	associated
+T22	Measurement 1056 1071	incremental AUC
+T24	AFFECTS 334 341	effects
+T25	Nutrient 293 302	prebiotic
+T27	Chemical 1207 1214	insulin
+T31	Chemical 995 1002	glucose
+T32	Physiology 1043 1055	postprandial
+T33	Chemical 1094 1101	glucose
+T34	Nutrient 1725 1747	inulin-type prebiotics
+T39	Chemical 1103 1110	insulin
+T41	AFFECTS 1761 1771	modulators
+T45	Chemical 1195 1202	Glucose
+T47	Nutrient 907 919	maltodextrin
+T50	Nutrient 1325 1334	Prebiotic
+T51	INCREASES 1363 1371	increase
+T52	Microorganism 1402 1412	Firmicutes
+T53	DECREASES 1419 1427	decrease
+T54	Microorganism 1462 1476	Proteobacteria
+T56	Nutrient 1559 1568	prebiotic
+T57	Metabolite 1618 1627	faecal BA
+T58	INCREASES 1638 1646	increase
+T59	Nutrient 1663 1672	prebiotic
+T66	Metabolite 1807 1809	BA
+T68	Disease 1818 1828	overweight
+T69	INCREASES 1530 1539	increased
+T84	Chemical 1207 1219	insulin IAUC
+T87	Metabolite 1499 1510	faecal SCFA
+E1	AFFECTS:T41 Agent:T34 Theme:T66
+E2	AFFECTS:T24 Theme:T16 Agent:T12
+E5	POS_ASSOCIATED_WITH:T21 Agent:T2 Theme:T10
+E12	INCREASES:T51 Agent:T50 Theme:T52
+E13	DECREASES:T53 Agent:T50 Theme:T54
+E14	INCREASES:T58 Theme:T57 Agent:T59
+E16	INCREASES:T69 Theme:T87 Agent:T56
+A1	Unknown E1
+A2	Unknown E2
+N1	NCIT:C3283 T2	Obesity
+N2	CHEBI:80270 T3	Glucagon-like peptide 1
+N3	CHEBI:3098 T4	Bile acid
+N4	NCIT:C94250 T8	Overweight
+N5	NCIT:C2985 T10	Diabetes Mellitus
+N6	NCIT:C68491 T11	Cellulose
+N7	MESH:D056692 T13	Prebiotics
+N8	CHEBI:3098 T16	bile acid
+N9	MESH:D056692 T17	Prebiotics
+N10	MESH:D056692 T18	Prebiotics
+N11	NCIT:C94250 T19	Overweight
+N12	NCIT:C64774 T20	Area Under Curve
+N13	NCIT:C64774 T22	Area Under Curve
+N14	MESH:D056692 T25	Prebiotics
+N15	NCIT:C2271 T27	Insulin
+N16	CHEBI:17234 T31	glucose
+N17	NCIT:C65056 T32	Postprandial
+N18	CHEBI:17234 T33	glucose
+N19	NCIT:C2271 T39	Insulin
+N20	CHEBI:17234 T45	glucose
+N21	CHEBI:25140 T47	maltodextrin
+N22	MESH:D056692 T50	Prebiotics
+N23	NCBITAXON:1239 T52	Firmicutes
+N24	NCBITAXON:1224 T54	Proteobacteria
+N25	MESH:D056692 T56	Prebiotics
+N26	CHEBI:3098 T57	bile acid
+N27	MESH:D056692 T59	Prebiotics
+N28	CHEBI:3098 T66	Bile acid
+N29	NCIT:C94250 T68	Overweight
+N30	CHEBI:26666 T87	short-chain fatty acid
+A3	Factual E5
+A4	Factual E12
+A5	Factual E13
+A6	Factual E14
+A7	Factual E16

@@ -1,0 +1,113 @@
+T1	Physiology 10 28	Rumen Fermentation
+T2	ASSOCIATED_WITH 48 58	Associated
+T3	Metabolite 64 90	Dissolved Ruminal Hydrogen
+T4	Population 109 129	Lactating Dairy Cows
+T5	Nutrient 153 166	Carbohydrates
+T6	Nutrient 191 204	carbohydrates
+T7	AFFECTS 214 231	greatly influence
+T8	Physiology 232 250	rumen fermentation
+T9	Metabolite 278 285	methane
+T10	Metabolite 297 329	Dissolved hydrogen concentration
+T11	ASSOCIATED_WITH 333 340	related
+T12	Physiology 344 362	rumen fermentation
+T13	Metabolite 367 374	methane
+T14	Nutrient 429 442	carbohydrates
+T15	AFFECTS 460 465	alter
+T16	Population 491 501	dairy cows
+T17	Metabolite 512 544	dissolved hydrogen concentration
+T18	ASSOCIATED_WITH 548 558	associated
+T19	Physiology 581 599	rumen fermentation
+T20	Physiology 470 475	rumen
+T21	Population 638 675	lactating Chinese Holstein dairy cows
+T22	Measurement 689 700	body weight
+T23	Methodology 741 773	randomized complete block design
+T24	Food 872 882	rice straw
+T25	Food 899 936	mixture of rice straw and corn silage
+T26	Physiology 941 952	feed intake
+T27	Physiology 954 972	rumen fermentation
+T28	Physiology 1010 1021	Feed intake
+T29	Physiology 1043 1060	fiber degradation
+T30	Metabolite 1184 1191	methane
+T31	Metabolite 1240 1258	dissolved hydrogen
+T32	Metabolite 1280 1307	rumen fermentation products
+T33	Metabolite 1325 1351	Ruminal dissolved hydrogen
+T34	NEG_ASSOCIATED_WITH 1356 1377	negatively correlated
+T35	Metabolite 1425 1432	acetate
+T36	Microorganism 1445 1450	fungi
+T37	Microorganism 1465 1489	Fibrobacter succinogenes
+T38	Measurement 1495 1508	methane yield
+T39	POS_ASSOCIATED_WITH 1514 1535	positively correlated
+T40	Metabolite 1583 1593	propionate
+T41	Metabolite 1598 1608	n-butyrate
+T42	Microorganism 1621 1632	methanogens
+T43	Microorganism 1651 1674	Selenomonas ruminantium
+T44	Microorganism 1679 1694	Prevotella spp.
+T45	Metabolite 1695 1721	Ruminal dissolved hydrogen
+T46	POS_ASSOCIATED_WITH 1726 1747	positively correlated
+T47	Metabolite 1832 1839	acetate
+T48	Metabolite 1844 1852	hydrogen
+T49	ASSOCIATED_WITH 1854 1872	but not correlated
+T50	Metabolite 1989 1996	acetate
+T51	Metabolite 2004 2014	propionate
+T52	Metabolite 1909 1919	propionate
+T54	Metabolite 2115 2141	ruminal dissolved hydrogen
+T55	Population 2145 2165	lactating dairy cows
+T56	POS_ASSOCIATED_WITH 2099 2114	associated with
+T57	Microorganism 2067 2085	amylolytic species
+T58	Metabolite 2206 2224	dissolved hydrogen
+T59	POS_ASSOCIATED_WITH 2229 2260	associated with greater numbers
+T60	Microorganism 2264 2275	methanogens
+T61	NEG_ASSOCIATED_WITH 2285 2290	lower
+T62	Metabolite 2299 2306	methane
+E1	ASSOCIATED_WITH:T2 Theme:T1 Theme2:T3
+E2	AFFECTS:T7 Agent:T6 Theme:T8
+E3	AFFECTS:T7 Agent:T6 Theme:T9
+E4	ASSOCIATED_WITH:T11 Theme:T10 Theme2:T12
+E5	ASSOCIATED_WITH:T11 Theme:T10 Theme2:T13
+E6	AFFECTS:T15 Agent:T14 Theme:T20
+E7	ASSOCIATED_WITH:T18 Theme:T17 Theme2:T19
+E8	NEG_ASSOCIATED_WITH:T34 Agent:T33 Theme:T35
+E9	POS_ASSOCIATED_WITH:T39 Agent:T33 Theme:T40
+E10	NEG_ASSOCIATED_WITH:T34 Agent:T33 Theme:T36
+E11	NEG_ASSOCIATED_WITH:T34 Agent:T33 Theme:T37
+E12	NEG_ASSOCIATED_WITH:T34 Agent:T33 Theme:T38
+E13	POS_ASSOCIATED_WITH:T39 Agent:T33 Theme:T41
+E14	POS_ASSOCIATED_WITH:T39 Agent:T33 Theme:T42
+E15	POS_ASSOCIATED_WITH:T39 Agent:T33 Theme:T43
+E16	POS_ASSOCIATED_WITH:T39 Agent:T33 Theme:T44
+E17	POS_ASSOCIATED_WITH:T46 Agent:T45 Theme:T47
+E18	ASSOCIATED_WITH:T49 Theme:T52 Theme2:T45
+E19	POS_ASSOCIATED_WITH:T46 Agent:T45 Theme:T48
+E20	POS_ASSOCIATED_WITH:T56 Theme2:T54 Theme:T51
+E21	POS_ASSOCIATED_WITH:T56 Theme:T57 Theme2:T54
+E22	POS_ASSOCIATED_WITH:T59 Agent:T58 Theme:T60
+E23	NEG_ASSOCIATED_WITH:T61 Theme:T62 Agent:T58
+A1	Factuality E18 Negated
+N1	Reference T5 CHEBI:16646	carbohydrate
+N2	Reference T6 CHEBI:16646	carbohydrate
+N3	Reference T9 CHEBI:16183	methane
+N4	Reference T10 MESH:D006863	Hydrogen-Ion Concentration
+N5	Reference T13 CHEBI:16183	methane
+N6	Reference T14 CHEBI:16646	carbohydrate
+N7	Reference T17 MESH:D006863	Hydrogen-Ion Concentration
+N8	Reference T20 NCIT:C98778	Rumen
+N9	Reference T22 NCIT:C81328	Body Weight
+N10	Reference T26 MESH:D004435	Eating
+N11	Reference T28 MESH:D004435	Eating
+N12	Reference T30 CHEBI:16183	methane
+N13	Reference T31 MESH:D006859	Hydrogen
+N14	Reference T35 CHEBI:30089	acetate
+N15	Reference T36 NCBITAXON:4751	Fungi
+N16	Reference T37 NCBITAXON:833	Fibrobacter succinogenes
+N17	Reference T38 CHEBI:16183	methane
+N18	Reference T40 CHEBI:17272	propionate
+N19	Reference T41 CHEBI:17968	butyrate
+N20	Reference T43 NCBITAXON:971	Selenomonas ruminantium
+N21	Reference T44 NCBITAXON:838	Prevotella
+N22	Reference T47 CHEBI:30089	acetate
+N23	Reference T48 MESH:D006859	Hydrogen
+N24	Reference T50 CHEBI:30089	acetate
+N25	Reference T51 CHEBI:17272	propionate
+N26	Reference T52 CHEBI:17272	propionate
+N27	Reference T58 MESH:D006859	Hydrogen
+N28	Reference T62 CHEBI:16183	methane

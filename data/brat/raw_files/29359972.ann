@@ -1,0 +1,89 @@
+T1	DietPattern 30 63	moderate-protein, high-fiber diet
+T2	Biospecimen 118 123	fecal
+T3	Biospecimen 324 329	fecal
+T4	Measurement 892 920	body fat mass and percentage
+T5	Disease 138 143	obese
+T6	Population 371 395	neutered male adult cats
+T7	Population 1693 1706	neutered cats
+T8	Biospecimen 754 759	fecal
+T9	Physiology 546 557	Food intake
+T10	Methodology 653 679	serum biochemical analysis
+T11	Measurement 588 608	body condition score
+T12	Physiology 1038 1040	BW
+T13	AFFECTS 174 181	effects
+T14	Population 138 148	obese cats
+T15	Population 344 359	overweight cats
+T16	Disease 344 354	overweight
+T17	Physiology 268 270	BW
+T18	Population 1099 1114	overweight cats
+T20	Physiology 414 428	BW maintenance
+T22	Measurement 832 852	body condition score
+T23	DECREASES 921 930	decreased
+T24	DECREASES 966 975	decreased
+T25	INCREASES 1453 1462	increased
+T29	DietPattern 210 243	moderate-protein, high-fiber diet
+T31	Physiology 247 266	loss of body weight
+T35	Physiology 11 22	weight loss
+T37	Chemical 854 872	serum triglyceride
+T39	Disease 1099 1109	overweight
+T40	Microorganism 1438 1452	Actinobacteria
+T41	Microorganism 1467 1480	Bacteroidetes
+T42	Physiology 1648 1659	weight loss
+T43	Measurement 956 965	Lean mass
+T45	DECREASES 1481 1490	decreased
+T48	Physiology 1496 1507	weight loss
+T49	DietPattern 1568 1601	moderate-protein, high-fiber diet
+T52	IMPROVES 1628 1637	effective
+T59	Physiology 1191 1202	weight loss
+T60	Physiology 1301 1312	weight loss
+T71	Physiology 828 830	BW
+T72	Physiology 567 569	BW
+T73	Measurement 619 635	body composition
+T75	Physiology 715 732	physical activity
+T76	Measurement 302 318	body composition
+T77	Physiology 273 300	voluntary physical activity
+T78	Measurement 67 83	body composition
+T79	Physiology 85 112	voluntary physical activity
+E1	DECREASES:T23 Theme:T4 Agent:T29
+E2	AFFECTS:T13 Agent:T29 Theme:T31
+E4	DECREASES:T24 Theme:T43 Agent:T29
+E5	DECREASES:T23 Theme:T22 Agent:T29
+E6	DECREASES:T23 Theme:T37 Agent:T29
+E7	DECREASES:T23 Theme:T71 Agent:T29
+E8	AFFECTS:T13 Agent:T29 Theme:T77
+E9	AFFECTS:T13 Agent:T29 Theme:T76
+E14	INCREASES:T25 Theme:T40 Agent:T48
+E15	DECREASES:T45 Theme:T41 Agent:T48
+E18	IMPROVES:T52 Theme:T42 Agent:T49
+A2	Factuality E2 Unknown
+A8	Factuality E8 Unknown
+A9	Factuality E9 Unknown
+N1	Reference T1 OCHV:C0301568	high fiber diet
+N2	Reference T4 NCIT:C139218	Body Fat Percentage
+N3	Reference T5 NCIT:C3283	Obesity
+N4	Reference T9 MESH:D004435	Eating
+N5	Reference T12 NCIT:C81328	Body Weight
+N6	Reference T16 NCIT:C94250	Overweight
+N7	Reference T17 NCIT:C81328	Body Weight
+N8	Reference T20 MESH:D000068959	Body Weight Maintenance
+N9	Reference T29 OCHV:C0301568	high fiber diet
+N10	Reference T31 NCIT:C3445	Weight Loss
+N11	Reference T35 NCIT:C3445	Weight Loss
+N12	Reference T37 NCIT:C61037	Serum Triglyceride Measurement
+N13	Reference T39 NCIT:C94250	Overweight
+N14	Reference T40 NCBITAXON:201174	Actinobacteria
+N15	Reference T41 NCBITAXON:976	Bacteroidetes
+N16	Reference T42 NCIT:C3445	Weight Loss
+N17	Reference T43 NCIT:C71258	Lean Body Mass
+N18	Reference T48 NCIT:C3445	Weight Loss
+N19	Reference T49 OCHV:C0301568	high fiber diet
+N20	Reference T59 NCIT:C3445	Weight Loss
+N21	Reference T60 NCIT:C3445	Weight Loss
+N22	Reference T71 NCIT:C81328	Body Weight
+N23	Reference T72 NCIT:C81328	Body Weight
+N24	Reference T73 MESH:D001823	Body Composition
+N25	Reference T75 NCIT:C17708	Physical Activity
+N26	Reference T76 MESH:D001823	Body Composition
+N27	Reference T77 NCIT:C17708	Physical Activity
+N28	Reference T78 MESH:D001823	Body Composition
+N29	Reference T79 NCIT:C17708	Physical Activity

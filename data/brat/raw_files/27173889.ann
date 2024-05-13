@@ -1,0 +1,120 @@
+T1	Physiology 114 136	nutrient digestibility
+T2	Physiology 141 159	microbial activity
+T3	Physiology 76 112	nutrient transporter gene expression
+T4	Physiology 54 71;97 112	intestinal enzyme gene expression
+T5	Population 0 4	Pigs
+T6	Measurement 27 42	feed efficiency
+T7	Measurement 162 177	Feed efficiency
+T8	Population 232 235	pig
+T9	Physiology 350 372	nutrient digestibility
+T10	Measurement 374 387	organ weights
+T11	Metabolite 419 439	volatile fatty acids
+T12	Metabolite 441 446	VFA's
+T13	Population 513 516	pig
+T14	Measurement 541 556	feed efficiency
+T15	Physiology 460 507	intestinal nutrient transporter gene expression
+T16	Population 558 567	Male pigs
+T17	Physiology 583 585	BW
+T18	Physiology 683 694	feed intake
+T19	Physiology 699 705	growth
+T20	Measurement 737 757	residual feed intake
+T21	Measurement 759 762	RFI
+T22	Population 949 953	pigs
+T23	Physiology 1255 1286;1298 1313	intestinal nutrient transporter gene expression
+T24	Physiology 765 779	Phenotypic RFI
+T25	Methodology 819 835	regression model
+T26	Gene 1291 1313	enzyme gene expression
+T27	Gene 449 455;492 507	enzyme gene expression
+T28	Physiology 988 996	high RFI
+T29	Physiology 998 1002	HRFI
+T30	Physiology 1008 1015	low RFI
+T31	Physiology 1017 1021	LRFI
+T32	Physiology 1083 1126	coefficient of apparent ileal digestibility
+T33	Physiology 1128 1132	CAID
+T34	Physiology 1135 1169	total tract nutrient digestibility
+T35	Physiology 1171 1176	CATTD
+T36	Metabolite 1205 1210	VFA's
+T37	Biospecimen 1212 1229	Intestinal tissue
+T38	Physiology 1602 1606	HRFI
+T39	Physiology 1319 1323	LRFI
+T40	DECREASES 1333 1338	lower
+T41	Measurement 1339 1343	ADFI
+T42	IMPROVES 1355 1363	improved
+T43	Measurement 1364 1385	feed conversion ratio
+T44	IMPROVES 1403 1411	improved
+T45	Measurement 1412 1421	RFI value
+T46	Measurement 1562 1564	GE
+T47	Physiology 1434 1438	HRFI
+T48	Population 1324 1328	pigs
+T49	Physiology 1483 1487	LRFI
+T50	INCREASES 1500 1509	increased
+T51	Physiology 1510 1514	CAID
+T52	Measurement 1532 1534	GE
+T53	IMPROVES 1544 1552	improved
+T54	Physiology 1553 1558	CATTD
+T55	Population 1488 1492	pigs
+T56	Food 1579 1589	dry matter
+T57	Metabolite 1566 1574	nitrogen
+T58	Population 1631 1635	pigs
+T59	Physiology 1626 1630	LRFI
+T60	INCREASES 1640 1646	higher
+T61	Gene 1682 1714	fatty acid binding transporter 2
+T62	Gene 1716 1721	FABP2
+T63	Gene 1737 1768	sodium/glucose co-transporter 1
+T64	Gene 1770 1775	SGLT1
+T65	Physiology 1791 1810	glucose transporter
+T66	Gene 1811 1816	GLUT2
+T67	Enzyme 1842 1860	sucrase-isomaltase
+T68	Enzyme 1862 1864	SI
+T69	Population 1439 1443	pigs
+T70	Physiology 1895 1899	LRFI
+T71	INCREASES 1909 1918	increased
+T72	Microorganism 1934 1952	lactobacillus spp.
+T73	Population 1607 1611	pigs
+T74	Physiology 1981 1985	HRFI
+T75	Population 1986 1990	pigs
+T76	Physiology 2011 2015	HRFI
+T77	INCREASES 2025 2034	increased
+T78	Metabolite 2035 2046	acetic acid
+T79	Population 2287 2291	pigs
+T80	Measurement 2268 2283	feed efficiency
+T81	Physiology 2087 2109	nutrient digestibility
+T82	Gene 2174 2206	intestinal nutrient transporters
+T83	Measurement 847 872	average daily feed intake
+T84	Measurement 874 878	ADFI
+T85	Population 2016 2020	pigs
+T86	Measurement 903 906	ADG
+T87	Physiology 883 901	average daily gain
+T88	Population 1900 1904	pigs
+T89	Measurement 1518 1530	gross energy
+E1	DECREASES:T40 Agent:T39 Theme:T41
+E2	IMPROVES:T42 Theme:T43 Agent:T39
+E3	IMPROVES:T44 Agent:T39 Theme:T45
+E4	INCREASES:T50 Agent:T49 Theme:T51
+E5	IMPROVES:T53 Theme:T54 Agent:T49
+E6	INCREASES:T60 Agent:T59 Theme:T61
+E7	INCREASES:T71 Agent:T70 Theme:T72
+E8	INCREASES:T77 Agent:T76 Theme:T78
+E9	INCREASES:T60 Agent:T59 Theme:T63
+E10	INCREASES:T60 Agent:T59 Theme:T66
+E11	INCREASES:T60 Agent:T59 Theme:T67
+N1	Reference T10 NCIT:C90429	Organ Weight
+N2	Reference T11 MESH:D005232	Fatty Acids, Volatile
+N3	Reference T12 MESH:D005232	Fatty Acids, Volatile
+N4	Reference T17 NCIT:C81328	Body Weight
+N5	Reference T18 MESH:D004435	Eating
+N6	Reference T19 NCIT:C64379	Growth
+N7	Reference T36 MESH:D005232	Fatty Acids, Volatile
+N8	Reference T57 NCIT:C61863	Nitrogen
+N9	Reference T61 GENE:2169	FABP2
+N10	Reference T62 GENE:2169	FABP2
+N11	Reference T63 GENE:6523	SLC5A1
+N12	Reference T64 GENE:6523	SLC5A1
+N13	Reference T65 OCHV:5568	glucose transporter
+N14	Reference T66 GENE:6514	SLC2A2
+N15	Reference T67 MESH:D013394	Sucrase-Isomaltase Complex
+N16	Reference T68 MESH:D013394	Sucrase-Isomaltase Complex
+N17	Reference T72 NCBITAXON:1578	Lactobacillus
+N18	Reference T78 CHEBI:15366	acetic acid
+N19	Reference T86 NCIT:C90363	Average Body Weight Gain
+N20	Reference T87 NCIT:C90363	Average Body Weight Gain

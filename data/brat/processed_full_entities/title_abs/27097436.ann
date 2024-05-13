@@ -1,0 +1,251 @@
+T1	DietPattern 11 25	anti-heat diet
+T2	Physiology 50 68	growth performance
+T3	Physiology 70 82	immune organ
+T4	Metabolite 102 125	short chain fatty acids
+T5	Population 129 163	broiler chickens under heat stress
+T6	AFFECTS 0 7	Effects
+T7	DietPattern 240 257	extreme heat diet
+T8	DietPattern 259 262	EHD
+T9	HAS_COMPONENT 264 274	containing
+T10	Nutrient 275 307	heat stress resistance nutrients
+T11	Physiology 399 418	extreme heat stress
+T12	Physiology 152 163	heat stress
+T13	Physiology 349 367	growth performance
+T14	Population 371 418	broiler chickens exposed to extreme heat stress
+T15	AFFECTS 201 208	effects
+T16	DietPattern 431 436	EHD 1
+T17	HAS_COMPONENT 437 446	contained
+T18	DietPattern 489 494	EHD 2
+T19	HAS_COMPONENT 495 504	contained
+T20	Population 570 586	broiler chickens
+T21	Population 588 596	Ross 308
+T22	Methodology 664 687	randomized block design
+T23	Physiology 948 964	body weight gain
+T24	Population 972 980	broilers
+T25	INCREASES 981 990	increased
+T26	DietPattern 1013 1015	T2
+T27	DietPattern 794 796	T2
+T28	DietPattern 798 803	EHD 2
+T29	DietPattern 749 754	EHD 1
+T30	DietPattern 745 747	T1
+T31	DietPattern 843 845	T3
+T32	DietPattern 847 852	EHD 1
+T33	DietPattern 895 897	T4
+T34	DietPattern 899 904	EHD 2
+T35	INCREASES 1124 1130	higher
+T36	DietPattern 1134 1136	T1
+T37	DietPattern 1141 1143	T2
+T38	Nutrient 447 454	soy oil
+T39	Nutrient 456 464	molasses
+T40	Nutrient 466 476	methionine
+T41	Nutrient 481 487	lysine
+T42	Nutrient 532 541	vitamin C
+T43	Physiology 1085 1091	thymus
+T44	Physiology 1096 1114	bursa of Fabricius
+T45	Physiology 1167 1173	spleen
+T46	INCREASES 1178 1184	higher
+T47	DietPattern 1188 1190	T1
+T48	DietPattern 1192 1194	T2
+T49	DietPattern 1199 1201	T3
+T50	Chemical 1231 1243	triglyceride
+T51	Chemical 1245 1262	total cholesterol
+T52	Chemical 1267 1278	blood sugar
+T53	DietPattern 1294 1296	T1
+T54	DietPattern 1301 1303	T2
+T55	INCREASES 1284 1290	higher
+T56	Chemical 1334 1339	LDL-C
+T57	Chemical 1393 1398	HDL-C
+T58	POS_ASSOCIATED_WITH 1340 1353	recorded high
+T59	DietPattern 1370 1372	T4
+T60	DietPattern 1385 1387	T1
+T61	Chemical 1436 1439	IgG
+T62	Chemical 1441 1444	IgA
+T63	Chemical 1449 1452	IgM
+T64	DietPattern 1468 1470	T1
+T65	DietPattern 1475 1477	T2
+T66	INCREASES 1458 1464	higher
+T67	Chemical 1510 1524	corticosterone
+T68	DietPattern 1486 1488	T3
+T69	DietPattern 1493 1495	T4
+T70	Microorganism 1574 1587	Lactobacillus
+T71	INCREASES 1601 1607	higher
+T72	DietPattern 1611 1613	T1
+T73	DietPattern 1618 1620	T2
+T74	Microorganism 1668 1675	E. coli
+T75	INCREASES 1699 1705	higher
+T76	DietPattern 1709 1711	T4
+T77	DietPattern 1716 1718	T3
+T78	Metabolite 1761 1772	acetic acid
+T79	Metabolite 1774 1788	propionic acid
+T80	Metabolite 1793 1821	total Short chain fatty acid
+T81	INCREASES 1827 1847	significantly higher
+T82	DietPattern 1864 1866	T2
+T83	Metabolite 1883 1895	Butyric acid
+T84	Metabolite 1897 1912	isobutyric acid
+T85	Metabolite 1914 1926	valeric acid
+T86	Metabolite 1931 1946	isovaleric acid
+T87	INCREASES 1952 1958	higher
+T88	DietPattern 1962 1964	T4
+T89	DietPattern 1969 1971	T3
+T90	DietPattern 1868 1870	T1
+T91	DietPattern 1629 1631	T3
+T92	DietPattern 1636 1638	T4
+T93	DietPattern 1980 1982	T1
+T94	DietPattern 1987 1989	T2
+T95	DietPattern 1872 1874	T3
+T96	DietPattern 1879 1881	T4
+T97	DietPattern 1727 1729	T2
+T98	DietPattern 1734 1736	T1
+T99	DietPattern 1312 1314	T3
+T100	DietPattern 1319 1321	T4
+T101	DietPattern 1152 1154	T3
+T102	DietPattern 1159 1161	T4
+T103	DietPattern 1029 1031	T1
+T104	DietPattern 1033 1035	T4
+T105	DietPattern 1040 1042	T3
+T106	DietPattern 1210 1212	T4
+T107	Physiology 275 286	heat stress
+T108	DietPattern 522 527	EHD 1
+E1	AFFECTS:T6 Agent:T1 Theme:T2
+E2	AFFECTS:T6 Agent:T1 Theme:T3
+E3	AFFECTS:T6 Agent:T1 Theme:T4
+E4	HAS_COMPONENT:T9 Agent:T7 Theme:T10
+E5	AFFECTS:T15 Agent:T7 Theme:T13
+E6	HAS_COMPONENT:T17 Agent:T16 Theme:T38
+E7	HAS_COMPONENT:T19 Agent:T18 Theme:T38
+E8	INCREASES:T25 Theme:T23 Agent:T26
+E9	INCREASES:T35 Theme:T43 Agent:T36
+E10	HAS_COMPONENT:T17 Agent:T16 Theme:T39
+E11	HAS_COMPONENT:T17 Agent:T16 Theme:T40
+E12	HAS_COMPONENT:T17 Agent:T16 Theme:T41
+E13	HAS_COMPONENT:T19 Agent:T18 Theme:T39
+E14	HAS_COMPONENT:T19 Agent:T18 Theme:T40
+E15	HAS_COMPONENT:T19 Agent:T18 Theme:T41
+E16	HAS_COMPONENT:T19 Theme:T42 Agent:T18
+E17	INCREASES:T35 Theme:T43 Agent:T37
+E18	INCREASES:T46 Theme:T45 Agent:T47
+E19	INCREASES:T46 Theme:T45 Agent:T48
+E20	INCREASES:T46 Theme:T45 Agent:T49
+E21	INCREASES:T55 Theme:T50 Agent:T53
+E22	INCREASES:T55 Theme:T50 Agent:T54
+E23	POS_ASSOCIATED_WITH:T58 Theme:T56 Agent:T59
+E24	POS_ASSOCIATED_WITH:T58 Agent:T60 Theme:T57
+E25	INCREASES:T66 Theme:T61 Agent:T64
+E26	INCREASES:T66 Theme:T61 Agent:T65
+E27	INCREASES:T66 Agent:T65 Theme:T63
+E28	INCREASES:T66 Agent:T64 Theme:T63
+E29	INCREASES:T71 Theme:T70 Agent:T72
+E30	INCREASES:T71 Theme:T70 Agent:T73
+E31	INCREASES:T75 Theme:T74 Agent:T76
+E32	INCREASES:T75 Theme:T74 Agent:T77
+E33	INCREASES:T81 Agent:T82 Theme:T80
+E34	INCREASES:T81 Agent:T82 Theme:T79
+E35	INCREASES:T81 Agent:T82 Theme:T78
+E36	INCREASES:T87 Theme:T83 Agent:T88
+E37	INCREASES:T87 Theme:T83 Agent:T89
+E38	INCREASES:T81 Agent:T90 Theme:T80
+E39	INCREASES:T81 Agent:T90 Theme:T79
+E40	INCREASES:T81 Agent:T90 Theme:T78
+E41	INCREASES:T35 Agent:T37 Theme:T44
+E42	INCREASES:T35 Agent:T36 Theme:T44
+E43	INCREASES:T55 Theme:T52 Agent:T54
+E44	INCREASES:T55 Theme:T52 Agent:T53
+E45	INCREASES:T55 Theme:T51 Agent:T54
+E46	INCREASES:T55 Theme:T51 Agent:T53
+E47	INCREASES:T66 Agent:T65 Theme:T62
+E48	INCREASES:T66 Agent:T64 Theme:T62
+E49	INCREASES:T66 Agent:T69 Theme:T67
+E50	INCREASES:T66 Agent:T68 Theme:T67
+E51	INCREASES:T87 Theme:T84 Agent:T89
+E52	INCREASES:T87 Theme:T85 Agent:T88
+E53	INCREASES:T87 Theme:T85 Agent:T89
+E54	INCREASES:T87 Theme:T86 Agent:T88
+E55	INCREASES:T87 Theme:T86 Agent:T89
+E56	INCREASES:T87 Theme:T84 Agent:T88
+A1	Unknown E1
+A2	Unknown E2
+A3	Unknown E3
+A4	Unknown E5
+N1	CHEBI:26666 T4	short-chain fatty acid
+N2	OCHV:C0282507 T11	heat stress
+N3	OCHV:C0282507 T12	heat stress
+N4	MESH:D015430 T23	Weight gain
+N5	CHEBI:166975 T38	soybean oil
+N6	CHEBI:83163 T39	molasses
+N7	CHEBI:16811 T40	methionine
+N8	CHEBI:25094 T41	lysine
+N9	CHEBI:176783 T42	vitamin C
+N10	NCIT:C12433 T43	Thymus Gland
+N11	NCIT:C111141 T44	Bursa Of Fabricius
+N12	NCIT:C12432 T45	Spleen
+N13	CHEBI:17855 T50	triglyceride
+N14	NCIT:C105586 T51	Cholesterol Measurement
+N15	NCIT:C94312 T52	Blood Glucose
+N16	CHEBI:47774 T56	low-density lipoprotein cholesterol
+N17	CHEBI:47775 T57	high-density lipoprotein cholesterol
+N18	NCIT:C568 T61	IgG
+N19	NCIT:C565 T62	IgA
+N20	NCIT:C569 T63	IgM
+N21	NCIT:C393 T67	Corticosterone
+N22	NCBITAXON:1578 T70	Lactobacillus
+N23	NCBITAXON:562 T74	Escherichia coli
+N24	CHEBI:15366 T78	acetic acid
+N25	CHEBI:30768 T79	propionic acid
+N26	CHEBI:26666 T80	short-chain fatty acid
+N27	CHEBI:30772 T83	butyric acid
+N28	CHEBI:16135 T84	isobutyric acid
+N29	CHEBI:17418 T85	valeric acid
+N30	CHEBI:28484 T86	isovaleric acid
+N31	OCHV:C0282507 T107	heat stress
+A5	Factual E4
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19
+A20	Factual E20
+A21	Factual E21
+A22	Factual E22
+A23	Factual E23
+A24	Factual E24
+A25	Factual E25
+A26	Factual E26
+A27	Factual E27
+A28	Factual E28
+A29	Factual E29
+A30	Factual E30
+A31	Factual E31
+A32	Factual E32
+A33	Factual E33
+A34	Factual E34
+A35	Factual E35
+A36	Factual E36
+A37	Factual E37
+A38	Factual E38
+A39	Factual E39
+A40	Factual E40
+A41	Factual E41
+A42	Factual E42
+A43	Factual E43
+A44	Factual E44
+A45	Factual E45
+A46	Factual E46
+A47	Factual E47
+A48	Factual E48
+A49	Factual E49
+A50	Factual E50
+A51	Factual E51
+A52	Factual E52
+A53	Factual E53
+A54	Factual E54
+A55	Factual E55
+A56	Factual E56

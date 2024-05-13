@@ -1,0 +1,75 @@
+T1	Population 106 115	obese men
+T2	Disease 106 111	obese
+T3	Metabolite 81 102	fermentation products
+T4	Disease 272 290	metabolic syndrome
+T5	Population 358 369	obese males
+T6	Disease 358 363	obese
+T7	Nutrient 421 437	resistant starch
+T8	Nutrient 439 441	RS
+T9	Nutrient 446 472	non-starch polysaccharides
+T10	Nutrient 474 478	NSPs
+T11	DietPattern 486 507	weight-loss (WL) diet
+T12	ASSOCIATED_WITH 741 746	proxy
+T13	Methodology 611 634	phylogenetic microarray
+T14	Methodology 639 671	quantitative PCR (qPCR) analysis
+T16	Metabolite 704 727	short chain fatty acids
+T17	Metabolite 729 734	SCFAs
+T18	Physiology 787 806	insulin sensitivity
+T19	Biospecimen 812 817	blood
+T20	Physiology 750 770	colonic fermentation
+T21	Microorganism 1063 1078	Ruminococcaceae
+T22	INCREASES 1090 1099	increased
+T23	DietPattern 1107 1114	RS diet
+T24	DietPattern 1175 1183	NSP diet
+T25	Microorganism 1131 1146	Lachnospiraceae
+T26	INCREASES 1158 1167	increased
+T27	Microorganism 1185 1199	Bifidobacteria
+T28	DECREASES 1200 1223	decreased significantly
+T29	DietPattern 1231 1238	WL diet
+T30	DietPattern 1244 1251	RS diet
+T31	DECREASES 1252 1261	decreased
+T32	DiversityMetric 1266 1293	diversity of the microbiota
+T33	Methodology 1362 1366	qPCR
+T34	POS_ASSOCIATED_WITH 1367 1388	correlated positively
+T35	Metabolite 1410 1415	SCFAs
+T36	Metabolite 1437 1447	propionate
+T37	ASSOCIATED_WITH 1461 1476	correlated with
+T38	Microorganism 1481 1494	Bacteroidetes
+T39	Gene 1319 1341	16S ribosomal RNA gene
+T40	Biospecimen 698 703	fecal
+E1	INCREASES:T22 Agent:T23 Theme:T21
+E2	INCREASES:T26 Agent:T24 Theme:T25
+E3	DECREASES:T28 Agent:T29 Theme:T27
+E4	DECREASES:T31 Agent:T30 Theme:T32
+E5	POS_ASSOCIATED_WITH:T34 Theme:T39 Agent:T35
+E6	ASSOCIATED_WITH:T37 Theme:T36 Theme2:T38
+E7	ASSOCIATED_WITH:T12 Theme:T20 Theme2:T16
+N1	NCIT:C3283 T2	Obesity
+N2	CHEBI:82933 T3	gut flora metabolite
+N3	NCIT:C84442 T4	Metabolic Syndrome
+N4	NCIT:C3283 T6	Obesity
+N5	NCIT:C94233 T7	Resistant Starch
+N6	NCIT:C94233 T8	Resistant Starch
+N7	NCIT:C68497 T9	Non-Starch Polysaccharide
+N8	NCIT:C68497 T10	Non-Starch Polysaccharide
+N9	MESH:D004038 T11	Diet, Reducing
+N10	CHEBI:26666 T16	short-chain fatty acid
+N11	CHEBI:26666 T17	short-chain fatty acid
+N12	OCHV:C0920563 T18	insulin sensitivity
+N13	NCBITAXON:216572 T21	Oscillospiraceae
+N14	NCIT:C94233 T23	Resistant Starch
+N15	NCIT:C68497 T24	Non-Starch Polysaccharide
+N16	NCBITAXON:186803 T25	Lachnospiraceae
+N17	NCBITAXON:1678 T27	Bifidobacterium
+N18	MESH:D004038 T29	Diet, Reducing
+N19	NCIT:C94233 T30	Resistant Starch
+N20	CHEBI:26666 T35	short-chain fatty acid
+N21	CHEBI:17272 T36	propionate
+N22	NCBITAXON:976 T38	Bacteroidetes
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7

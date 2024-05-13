@@ -1,0 +1,132 @@
+T1	AFFECTS 4 11	Effects
+T2	Food 15 29	High Fiber Rye
+T3	Food 43 56	Refined Wheat
+T4	Metabolite 96 119	Short Chain Fatty Acids
+T5	Physiology 142 153	Weight Loss
+T6	Physiology 158 180	Metabolic Risk Factors
+T7	Food 219 230	whole grain
+T8	Nutrient 235 247	cereal fiber
+T9	NEG_ASSOCIATED_WITH 258 278	inversely associated
+T10	Measurement 284 295	body weight
+T11	Disease 300 307	obesity
+T12	Food 420 427	cereals
+T13	Food 429 432	rye
+T14	Nutrient 449 454	fiber
+T15	HAS_COMPONENT 433 436	has
+T16	Food 472 475	rye
+T17	INCREASES 507 516	increased
+T18	Metabolite 531 556	gut fermentation products
+T19	INCREASES 1259 1268	producing
+T20	Disease 586 593	obesity
+T21	Disease 598 615	metabolic disease
+T22	Measurement 632 643	body weight
+T23	Physiology 648 670	metabolic risk factors
+T24	Metabolite 730 751	fermentation products
+T26	DietPattern 853 869	hypocaloric diet
+T27	HAS_COMPONENT 870 874	rich
+T28	Food 885 905	high fiber rye foods
+T29	Food 909 928	refined wheat foods
+T30	Metabolite 1023 1053	plasma short chain fatty acids
+T31	ASSOCIATED_WITH 1070 1091	potential association
+T32	Physiology 1097 1108	weight loss
+T33	Measurement 1113 1135	metabolic risk markers
+T35	Food 1137 1140	Rye
+T36	Food 1154 1159	wheat
+T37	Metabolite 1586 1608	short chain fatty acid
+T38	INCREASES 1223 1232	increased
+T39	Metabolite 1250 1258	butyrate
+T40	Microorganism 1269 1281	Agathobacter
+T41	DECREASES 1286 1293	reduced
+T42	Microorganism 1308 1329	Ruminococcus] torques
+T43	IMPROVES 1343 1371	may be related to reductions
+T44	Physiology 1375 1397	low grade inflammation
+T45	Metabolite 1433 1441	butyrate
+T46	INCREASES 1442 1451	increased
+T47	Food 1459 1462	rye
+T49	Food 1503 1523	high fiber rye foods
+T50	AFFECTS 1537 1544	changes
+T51	IMPROVES 1635 1663	associated with improvements
+T52	Measurement 1667 1689	metabolic risk markers
+T53	PREVENTS 569 582	reduced risks
+E1	AFFECTS:T1 Agent:T2 Theme:T4
+E2	AFFECTS:T1 Agent:T3 Theme:T4
+E3	AFFECTS:T1 Agent:T3 Theme:T5
+E4	AFFECTS:T1 Agent:T3 Theme:T6
+E5	AFFECTS:T1 Agent:T2 Theme:T5
+E6	AFFECTS:T1 Agent:T2 Theme:T6
+E7	NEG_ASSOCIATED_WITH:T9 Agent:T8 Theme:T10
+E8	NEG_ASSOCIATED_WITH:T9 Agent:T7 Theme:T10
+E9	NEG_ASSOCIATED_WITH:T9 Agent:T7 Theme:T11
+E10	NEG_ASSOCIATED_WITH:T9 Agent:T8 Theme:T11
+E11	HAS_COMPONENT:T15 Agent:T13 Theme:T14
+E12	INCREASES:T17 Agent:T16 Theme:T18
+E13	PREVENTS:T53 Agent:T16 Theme:T20
+E14	PREVENTS:T53 Agent:T16 Theme:T21
+E15	HAS_COMPONENT:T27 Agent:T26 Theme:T28
+E16	HAS_COMPONENT:T27 Agent:T26 Theme:T29
+E17	ASSOCIATED_WITH:T31 Theme:T30 Theme2:T32
+E18	ASSOCIATED_WITH:T31 Theme:T30 Theme2:T33
+E19	INCREASES:T38 Agent:T35 Theme:T40
+E20	DECREASES:T41 Agent:T35 Theme:T42
+E21	IMPROVES:T43 Agent:T42 Theme:T44
+E22	INCREASES:T46 Agent:T47 Theme:T45
+E23	AFFECTS:T50 Agent:T49 Theme:T37
+E24	IMPROVES:T51 Agent:T37 Theme:T52
+E25	INCREASES:T19 Agent:T40 Theme:T39
+A1	Unknown E1
+A2	Unknown E2
+A3	Unknown E3
+A4	Unknown E4
+A5	Unknown E5
+A6	Unknown E6
+A7	Unknown E17
+A8	Unknown E18
+A9	Unknown E21
+N1	NCIT:C85249 T2	Rye
+N2	FOODON:00002355 T3	wheat refined food product
+N3	CHEBI:26666 T4	short-chain fatty acid
+N4	NCIT:C3445 T5	Weight Loss
+N5	FOODON:00003950 T7	whole grain
+N6	FOODON:03310642 T8	breakfast cereal (high fiber)
+N7	NCIT:C81328 T10	Body Weight
+N8	NCIT:C3283 T11	Obesity
+N9	OCHV:2645 T12	cereals
+N10	NCIT:C85249 T13	Rye
+N11	NCIT:C1502 T14	Fiber
+N12	NCIT:C85249 T16	Rye
+N13	CHEBI:82933 T18	gut flora metabolite
+N14	NCIT:C3283 T20	Obesity
+N15	NCIT:C3235 T21	Metabolic Disorder
+N16	NCIT:C81328 T22	Body Weight
+N17	CHEBI:82933 T24	gut flora metabolite
+N18	OCHV:C0452267 T26	low calorie diet
+N19	NCIT:C85249 T28	Rye
+N20	FOODON:00002355 T29	wheat refined food product
+N21	CHEBI:26666 T30	short-chain fatty acid
+N22	NCIT:C3445 T32	Weight Loss
+N23	NCIT:C85249 T35	Rye
+N24	NCIT:C74546 T36	Wheat
+N25	CHEBI:26666 T37	short-chain fatty acid
+N26	CHEBI:17968 T39	butyrate
+N27	NCBITAXON:1766253 T40	Agathobacter
+N28	NCBITAXON:33039 T42	[Ruminococcus] torques
+N29	NCIT:C3137 T44	Inflammation
+N30	CHEBI:17968 T45	butyrate
+N31	NCIT:C85249 T47	Rye
+N32	NCIT:C85249 T49	Rye
+A10	Factual E7
+A11	Factual E8
+A12	Factual E9
+A13	Factual E10
+A14	Factual E11
+A15	Factual E12
+A16	Factual E13
+A17	Factual E14
+A18	Factual E15
+A19	Factual E16
+A20	Factual E19
+A21	Factual E20
+A22	Factual E22
+A23	Factual E23
+A24	Factual E24
+A25	Factual E25

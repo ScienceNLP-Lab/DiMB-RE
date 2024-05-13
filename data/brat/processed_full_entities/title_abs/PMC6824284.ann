@@ -1,0 +1,166 @@
+T1	Nutrient 0 16	Prebiotic UG1601
+T2	DECREASES 17 26	mitigates
+T3	Physiology 27 54	constipation-related events
+T4	Methodology 93 141	randomized placebo-controlled intervention study
+T5	Physiology 154 166	Constipation
+T6	Physiology 190 215	gastrointestinal disorder
+T7	Disease 283 303	intestinal dysbiosis
+T8	ASSOCIATED_WITH 307 322	associated with
+T9	Physiology 342 354	constipation
+T10	Nutrient 356 366	Prebiotics
+T11	Physiology 384 406	bacterial fermentation
+T12	Metabolite 429 452	short-chain fatty acids
+T13	Metabolite 454 459	SCFAs
+T14	IMPROVES 477 484	relieve
+T15	Physiology 485 506	constipation symptoms
+T16	POS_ASSOCIATED_WITH 421 428	produce
+T17	Nutrient 512 528	prebiotic UG1601
+T18	Nutrient 541 547	inulin
+T19	Nutrient 549 557	lactitol
+T20	Nutrient 563 576	aloe vera gel
+T21	Methodology 609 647	randomized, controlled clinical trials
+T22	HAS_COMPONENT 529 537	consists
+T23	Nutrient 769 785	prebiotic UG1601
+T24	IMPROVES 789 800	suppressing
+T25	Physiology 801 836	constipation-related adverse events
+T26	Population 840 871	subjects with mild constipation
+T27	Physiology 854 871	mild constipation
+T28	Biospecimen 895 900	stool
+T29	Population 881 937	Adults with a stool frequency of less than thrice a week
+T30	Nutrient 972 982	prebiotics
+T31	Biospecimen 1049 1054	fecal
+T32	Biospecimen 1059 1064	blood
+T33	Physiology 1117 1142	Gastrointestinal symptoms
+T34	Physiology 1147 1162	stool frequency
+T35	Biospecimen 1147 1152	stool
+T36	Measurement 1207 1226	endotoxemia markers
+T37	Biospecimen 1231 1236	fecal
+T38	Metabolite 1237 1242	SCFAs
+T39	Microorganism 1286 1309	SCFA-producing bacteria
+T40	Metabolite 1286 1290	SCFA
+T41	Nutrient 1386 1396	prebiotics
+T42	Physiology 1629 1655	cluster of differentiation
+T43	Physiology 1484 1509	gastrointestinal symptoms
+T44	Nutrient 1539 1548	prebiotic
+T46	Physiology 1657 1659	CD
+T47	Chemical 1668 1686	lipopolysaccharide
+T48	Chemical 1688 1691	LPS
+T49	DECREASES 1727 1736	decreased
+T50	Physiology 1776 1789	change in LPS
+T51	POS_ASSOCIATED_WITH 1808 1828	significantly larger
+T52	Nutrient 1836 1845	prebiotic
+T53	Biospecimen 1891 1896	Fecal
+T54	Metabolite 1897 1902	SCFAs
+T55	Microorganism 1981 1998	Roseburia hominis
+T56	INCREASES 2045 2054	increased
+T57	Metabolite 2008 2016	butyrate
+T58	Nutrient 2062 2071	prebiotic
+T59	INCREASES 2017 2025	producer
+T60	Microorganism 2120 2130	Firmicutes
+T61	Microorganism 2146 2161	Lachnospiraceae
+T62	Microorganism 2170 2180	Firmicutes
+T63	Microorganism 2188 2198	Clostridia
+T64	DECREASES 2217 2226	decreased
+T65	Nutrient 2256 2265	prebiotic
+T66	Microorganism 2316 2326	Firmicutes
+T67	Microorganism 2338 2348	Clostridia
+T68	Microorganism 2364 2377	Clostridiales
+T69	NEG_ASSOCIATED_WITH 2383 2403	inversely correlated
+T70	Metabolite 2423 2428	SCFAs
+T71	Biospecimen 2417 2422	fecal
+T72	DECREASES 2507 2515	decrease
+T73	Microorganism 2530 2540	Firmicutes
+T74	INCREASES 2548 2556	increase
+T75	Microorganism 2560 2587	butyrate-producing bacteria
+T76	Metabolite 2560 2568	butyrate
+T77	Nutrient 2599 2615	prebiotic UG1601
+T78	IMPROVES 2632 2652	might help alleviate
+T79	Measurement 2653 2667	symptom scores
+T80	Disease 2672 2683	endotoxemia
+E1	DECREASES:T2 Agent:T1 Theme:T3
+E2	ASSOCIATED_WITH:T8 Theme:T7 Theme2:T9
+E3	IMPROVES:T14 Agent:T12 Theme:T15
+E4	POS_ASSOCIATED_WITH:T16 Agent:T11 Theme:T12
+E5	HAS_COMPONENT:T22 Agent:T17 Theme:T18
+E6	HAS_COMPONENT:T22 Agent:T17 Theme:T19
+E7	HAS_COMPONENT:T22 Agent:T17 Theme:T20
+E8	IMPROVES:T24 Agent:T23 Theme:T25
+E9	DECREASES:T49 Agent:T23 Theme:T47
+E11	DECREASES:T49 Agent:T23 Theme:T42
+E12	POS_ASSOCIATED_WITH:T51 Theme:T50 Agent:T23
+E13	INCREASES:T56 Theme:T55 Agent:T23
+E14	INCREASES:T59 Agent:T55 Theme:T57
+E15	DECREASES:T64 Agent:T23 Theme:T60
+E16	DECREASES:T64 Agent:T23 Theme:T61
+E17	DECREASES:T64 Agent:T23 Theme:T63
+E18	NEG_ASSOCIATED_WITH:T69 Theme:T70 Agent:T68
+E19	NEG_ASSOCIATED_WITH:T69 Theme:T70 Agent:T67
+E20	NEG_ASSOCIATED_WITH:T69 Theme:T70 Agent:T66
+E21	DECREASES:T72 Theme:T73 Agent:T77
+E22	INCREASES:T74 Theme:T75 Agent:T77
+E23	IMPROVES:T78 Agent:T77 Theme:T79
+E24	IMPROVES:T78 Agent:T77 Theme:T80
+A1	Unknown E8
+A2	Unknown E23
+A3	Unknown E24
+N1	NCIT:C37930 T5	Constipation
+N2	NCIT:C2990 T6	Digestive System Disorder
+N3	MESH:D064806 T7	Dysbiosis
+N4	NCIT:C37930 T9	Constipation
+N5	MESH:D056692 T10	Prebiotics
+N6	CHEBI:26666 T12	short-chain fatty acid
+N7	CHEBI:26666 T13	short-chain fatty acid
+N8	CHEBI:15443 T18	inulin
+N9	CHEBI:75323 T19	lactitol
+N10	NCIT:C1565 T20	Aloe Vera Gel
+N11	NCIT:C37930 T27	Constipation
+N12	MESH:D056692 T30	Prebiotics
+N13	OCHV:C0426576 T33	gastrointestinal symptoms
+N14	CHEBI:26666 T38	short-chain fatty acid
+N15	CHEBI:26666 T40	short-chain fatty acid
+N16	MESH:D056692 T41	Prebiotics
+N17	NCIT:C78347 T42	Cluster of Differentiation
+N18	OCHV:C0426576 T43	gastrointestinal symptoms
+N19	MESH:D056692 T44	Prebiotics
+N20	NCIT:C78347 T46	Cluster of Differentiation
+N21	CHEBI:16412 T47	lipopolysaccharide
+N22	CHEBI:16412 T48	lipopolysaccharide
+N23	MESH:D056692 T52	Prebiotics
+N24	CHEBI:26666 T54	short-chain fatty acid
+N25	NCBITAXON:301301 T55	Roseburia hominis
+N26	CHEBI:17968 T57	butyrate
+N27	MESH:D056692 T58	Prebiotics
+N28	NCBITAXON:1239 T60	Firmicutes
+N29	NCBITAXON:186803 T61	Lachnospiraceae
+N30	NCBITAXON:1239 T62	Firmicutes
+N31	NCBITAXON:186801 T63	Clostridia
+N32	MESH:D056692 T65	Prebiotics
+N33	NCBITAXON:1239 T66	Firmicutes
+N34	NCBITAXON:186801 T67	Clostridia
+N35	NCBITAXON:1898207 T68	Clostridiales bacterium
+N36	CHEBI:26666 T70	short-chain fatty acid
+N37	NCBITAXON:1239 T73	Firmicutes
+N38	NCBITAXON:2811711 T75	butyrate-producing bacterium
+N39	CHEBI:17968 T76	butyrate
+N40	NCIT:C120071 T79	Severity of Symptom Likert Scale
+N41	MESH:D019446 T80	Endotoxemia
+A4	Factual E1
+A5	Factual E2
+A6	Factual E3
+A7	Factual E4
+A8	Factual E5
+A9	Factual E6
+A10	Factual E7
+A11	Factual E9
+A12	Factual E11
+A13	Factual E12
+A14	Factual E13
+A15	Factual E14
+A16	Factual E15
+A17	Factual E16
+A18	Factual E17
+A19	Factual E18
+A20	Factual E19
+A21	Factual E20
+A22	Factual E21
+A23	Factual E22

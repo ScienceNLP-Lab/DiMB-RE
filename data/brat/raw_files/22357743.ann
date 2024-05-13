@@ -1,0 +1,146 @@
+T1	Nutrient 0 17	Fermentable fiber
+T2	IMPROVES 18 29	ameliorates
+T3	Population 134 141	piglets
+T4	Physiology 100 116	mucosal response
+T5	Physiology 30 65	fermentable protein-induced changes
+T6	Nutrient 165 190	fermentable carbohydrates
+T7	Nutrient 192 196	fCHO
+T8	Physiology 381 400	epithelial response
+T9	DietPattern 346 363	diets high in fCP
+T10	Nutrient 422 426	fCHO
+T11	Population 456 470	weaned piglets
+T12	Methodology 493 515	2 × 2 factorial design
+T13	DietPattern 521 537	low fCP/low fCHO
+T14	Nutrient 545 558	crude protein
+T15	Nutrient 560 562	CP
+T16	Nutrient 570 589	total dietary fiber
+T17	Nutrient 591 594	TDF
+T18	DietPattern 598 615	low fCP/high fCHO
+T19	Nutrient 623 625	CP
+T20	Nutrient 632 635	TDF
+T21	DietPattern 638 655	high fCP low fCHO
+T22	Nutrient 663 665	CP
+T23	Nutrient 672 675	TDF
+T24	DietPattern 682 700	high fCP/high fCHO
+T25	Nutrient 708 710	CP
+T26	Nutrient 717 720	TDF
+T27	Gene 914 925	mucus genes
+T28	Gene 927 930	MUC
+T29	Measurement 937 961	oxidative stress indices
+T30	Physiology 857 901	tissue expression of genes for cell turnover
+T31	Chemical 903 912	cytokines
+T32	Population 760 764	pigs
+T33	Population 963 966	Pig
+T34	Biospecimen 781 794	colon digesta
+T35	Biospecimen 799 805	tissue
+T36	Nutrient 1003 1006	fCP
+T37	INCREASES 1007 1016	increased
+T38	Microorganism 1043 1053	clostridia
+T39	Metabolite 1090 1101;1115 1132	total short chain fatty acids
+T40	Metabolite 1106 1132	branched chain fatty acids
+T41	DietPattern 1205 1214	high fCHO
+T42	INCREASES 1215 1224	increased
+T43	DietPattern 1418 1434	High dietary fCP
+T44	INCREASES 1435 1444	increased
+T45	Nutrient 1533 1537	fCHO
+T46	Nutrient 1723 1740	fermentable fiber
+T47	IMPROVES 1741 1752	ameliorates
+T48	AFFECTS 333 342	influence
+T49	Microorganism 1251 1261	clostridia
+T50	DECREASES 1375 1382	reduced
+T51	Metabolite 1383 1390	ammonia
+T52	Metabolite 1395 1405	putrescine
+T53	Metabolite 1170 1180	spermidine
+T54	Metabolite 1143 1153	putrescine
+T55	Metabolite 1134 1141	ammonia
+T56	Metabolite 1155 1164	histamine
+T57	Microorganism 1061 1079	Clostridium leptum
+T58	Microorganism 1269 1278;1296 1302	C. leptum groups
+T59	Microorganism 1283 1302	C. coccoides groups
+T60	Metabolite 1316 1343	acetate to propionate ratio
+T61	AFFECTS 1304 1311	shifted
+T62	Metabolite 1351 1358	acetate
+T63	Gene 1470 1474	PCNA
+T64	Gene 1476 1480	IL1β
+T65	Gene 1482 1486	IL10
+T66	Gene 1488 1492	TGFβ
+T67	Gene 1494 1498	MUC1
+T68	Gene 1500 1504	MUC2
+T69	Gene 1510 1515	MUC20
+T70	Metabolite 1557 1599	ratio of glutathione:glutathione disulfide
+T71	DECREASES 1604 1611	reduced
+T72	Nutrient 1626 1629	fCP
+T73	Enzyme 1652 1675	glutathione transferase
+T74	DECREASES 1680 1687	reduced
+T75	Nutrient 1691 1695	fCHO
+T76	Population 1890 1894	pigs
+T77	Physiology 1753 1788	fermentable protein-induced changes
+T78	Physiology 1847 1886	mucosal response in the large intestine
+T79	Nutrient 292 312	fermentable proteins
+T80	Nutrient 314 317	fCP
+T82	Measurement 963 978	Pig performance
+T83	AFFECTS 983 993	unaffected
+E1	IMPROVES:T2 Agent:T1 Theme:T5
+E2	AFFECTS:T83 Theme:T82 Agent:T13
+E3	INCREASES:T37 Agent:T36 Theme:T38
+E4	INCREASES:T42 Agent:T41 Theme:T49
+E5	INCREASES:T44 Agent:T43 Theme:T63
+E6	IMPROVES:T47 Agent:T46 Theme:T77
+E7	AFFECTS:T48 Agent:T9 Theme:T8
+E8	DECREASES:T50 Agent:T41 Theme:T51
+E9	INCREASES:T37 Agent:T36 Theme:T39
+E10	INCREASES:T37 Agent:T36 Theme:T40
+E11	INCREASES:T37 Agent:T36 Theme:T55
+E12	INCREASES:T37 Agent:T36 Theme:T54
+E13	INCREASES:T37 Agent:T36 Theme:T56
+E14	INCREASES:T37 Agent:T36 Theme:T53
+E15	DECREASES:T50 Agent:T41 Theme:T52
+E16	AFFECTS:T61 Agent:T41 Theme:T60
+E17	INCREASES:T44 Agent:T43 Theme:T64
+E18	INCREASES:T44 Agent:T43 Theme:T65
+E19	INCREASES:T44 Agent:T43 Theme:T66
+E20	INCREASES:T44 Agent:T43 Theme:T67
+E21	INCREASES:T44 Agent:T43 Theme:T68
+E22	INCREASES:T44 Agent:T43 Theme:T69
+E23	DECREASES:T71 Theme:T70 Agent:T72
+E24	DECREASES:T74 Agent:T75 Theme:T73
+E25	AFFECTS:T83 Theme:T82 Agent:T18
+E26	AFFECTS:T83 Theme:T82 Agent:T21
+E27	AFFECTS:T83 Theme:T82 Agent:T24
+E28	IMPROVES:T2 Theme:T4 Agent:T1
+E29	IMPROVES:T47 Agent:T46 Theme:T78
+A1	Factuality E2 Negated
+A2	Factuality E7 Unknown
+A3	Factuality E25 Negated
+A4	Factuality E26 Negated
+A5	Factuality E27 Negated
+A6	Factuality E28 Negated
+A7	Factuality E29 Negated
+N1	Reference T16 NCIT:C68492	Dietary Fiber
+N2	Reference T17 NCIT:C68492	Dietary Fiber
+N3	Reference T20 NCIT:C68492	Dietary Fiber
+N4	Reference T23 NCIT:C68492	Dietary Fiber
+N5	Reference T26 NCIT:C68492	Dietary Fiber
+N6	Reference T31 NCIT:C20464	Cytokine
+N7	Reference T38 NCBITAXON:186801	Clostridia
+N8	Reference T39 CHEBI:26666	short-chain fatty acid
+N9	Reference T40 CHEBI:35819	branched-chain fatty acid
+N10	Reference T49 NCBITAXON:186801	Clostridia
+N11	Reference T51 CHEBI:16134	ammonia
+N12	Reference T52 CHEBI:17148	putrescine
+N13	Reference T53 CHEBI:16610	spermidine
+N14	Reference T54 CHEBI:17148	putrescine
+N15	Reference T55 CHEBI:16134	ammonia
+N16	Reference T56 CHEBI:18295	histamine
+N17	Reference T57 NCBITAXON:1535	[Clostridium] leptum
+N18	Reference T58 NCBITAXON:1535	[Clostridium] leptum
+N19	Reference T59 NCBITAXON:1532	Blautia coccoides
+N20	Reference T62 CHEBI:30089	acetate
+N21	Reference T63 GENE:5111	PCNA
+N22	Reference T64 GENE:3553	IL1B
+N23	Reference T65 GENE:3586	IL10
+N24	Reference T66 GENE:7040	TGFB1
+N25	Reference T67 GENE:4582	MUC1
+N26	Reference T68 GENE:4583	MUC2
+N27	Reference T69 GENE:200958	MUC20
+N28	Reference T73 MESH:D005982	Glutathione Transferase

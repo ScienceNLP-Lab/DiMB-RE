@@ -1,0 +1,224 @@
+T17	Measurement 778 782	lean
+T18	Disease 786 796	overweight
+T19	Disease 797 802	obese
+T20	Measurement 803 818	body mass index
+T21	Measurement 820 823	BMI
+T22	Measurement 848 851	BMI
+T23	Measurement 860 863	BMI
+T28	Physiology 8175 8194	sucrose degradation
+T29	Physiology 8196 8216	glycerol degradation
+T30	Physiology 8218 8244	glucose/xylose degradation
+T31	Measurement 1289 1308	waist circumference
+T34	Disease 1890 1900	overweight
+T35	Disease 1859 1866	obesity
+T38	Disease 2159 2166	obesity
+T43	Physiology 8250 8281	glucose fermentation to lactate
+T62	INTERACTS_WITH 10104 10113	degrading
+T63	DiversityMetric 4613 4621	richness
+T67	DiversityMetric 4778 4806	lower phylogenetic diversity
+T68	ASSOCIATED_WITH 4811 4821	associated
+T69	Disease 4827 4834	obesity
+T73	Microorganism 5271 5299	Faecalibacterium prausnitzii
+T81	Microorganism 5854 5864	Prevotella
+T82	Microorganism 5877 5888	Bacteroides
+T83	Microorganism 5906 5916	Prevotella
+T85	Microorganism 5985 5996	Bacteroides
+T86	Microorganism 6053 6063	Prevotella
+T88	Microorganism 6121 6132	Bacteroides
+T89	Microorganism 6136 6146	Prevotella
+T98	Microorganism 6764 6775	Bacteroides
+T99	Microorganism 6780 6790	Prevotella
+T102	Microorganism 6849 6860	Bacteroides
+T103	Microorganism 6877 6887	Prevotella
+T104	Microorganism 7037 7048	Bacteroides
+T105	Microorganism 7083 7093	Prevotella
+T106	Microorganism 7122 7130	P. copri
+T108	Microorganism 7210 7220	Prevotella
+T109	Microorganism 7279 7290	Bacteroides
+T111	Microorganism 7444 7455	Bacteroides
+T112	Microorganism 7502 7512	Prevotella
+T113	Microorganism 7558 7569	Bacteroides
+T114	Microorganism 7574 7584	Prevotella
+T117	Microorganism 7692 7702	Prevotella
+T118	Microorganism 7769 7780	Bacteroides
+T121	Physiology 7875 7898	plant fiber degradation
+T128	Nutrient 8515 8536	complex carbohydrates
+T129	Physiology 8500 8536	degradation of complex carbohydrates
+T130	Physiology 8548 8574	β-(1,4)-mannan degradation
+T131	Physiology 8579 8597	starch degradation
+T132	Enzyme 8800 8830	carbohydrate-degrading enzymes
+T133	Enzyme 8832 8839	CAZymes
+T135	Enzyme 8889 8896	CAZymes
+T138	Enzyme 9044 9064	glycoside hydrolases
+T139	Enzyme 9066 9070	GH17
+T140	Enzyme 9072 9076	GH64
+T141	Enzyme 9078 9082	GH87
+T143	HAS_COMPONENT 10646 10656	associated
+T144	ASSOCIATED_WITH 9218 9235	may be associated
+T145	Nutrient 9249 9262	dietary fiber
+T146	Enzyme 9197 9217	glycoside hydrolases
+T148	Nutrient 9396 9410	dietary fibers
+T149	Enzyme 9420 9440	glycoside hydrolases
+T150	Microorganism 9471 9487	Prevotella copri
+T151	Microorganism 9553 9563	Prevotella
+T153	Physiology 9613 9636	plant fiber degradation
+T154	Enzyme 9676 9679	GH5
+T155	Enzyme 9684 9688	GH26
+T156	Enzyme 9689 9709	glycoside hydrolases
+T159	Physiology 9782 9791;9829 9850	cellulose degradative potential
+T160	Physiology 9793 9804;9829 9850	beta-mannan degradative potential
+T161	Nutrient 9818 9828	xyloglucan
+T162	Nutrient 9782 9791	cellulose
+T163	Physiology 9818 9850	xyloglucan degradative potential
+T164	Nutrient 9852 9864	Beta-mannans
+T165	Nutrient 9946 9956	xyloglucan
+T166	Food 9985 9993	tamarind
+T167	Food 9880 9885	seeds
+T168	Food 9887 9894	kernels
+T169	Food 9900 9905	corms
+T170	Food 9915 9919	palm
+T171	Food 9921 9928	coconut
+T172	Food 9934 9940	konjac
+T173	HAS_COMPONENT 9960 9981	found most abundantly
+T174	Enzyme 10079 10099	glycoside hydrolases
+T176	Nutrient 10114 10123	cellulose
+T178	Nutrient 10270 10290	plant-derived fibers
+T179	Enzyme 10459 10479	glycoside hydrolases
+T180	ASSOCIATED_WITH 9455 9465	originated
+T181	DECREASES 9545 9549	loss
+T182	Nutrient 9793 9804	beta-mannan
+T183	DECREASES 9668 9672	loss
+T185	HAS_COMPONENT 9869 9876	present
+T186	Nutrient 10406 10419	dietary fiber
+T187	Nutrient 10622 10636	macronutrients
+T188	DietPattern 10664 10676	Western diet
+T189	Food 10678 10684	sugars
+T190	Nutrient 10686 10690	fats
+T191	Nutrient 10696 10703	protein
+T194	Nutrient 10886 10901	polysaccharides
+T196	Nutrient 10811 10816	fiber
+T200	Food 11280 11290	white rice
+T203	Nutrient 12150 12164	polysaccharide
+T205	Measurement 12971 12974	BMI
+T211	Microorganism 13686 13696	Prevotella
+T222	Physiology 15448 15461	gained weight
+T223	Nutrient 15505 15512	protein
+T230	Microorganism 16358 16368	Prevotella
+T231	Microorganism 16372 16383	Bacteroides
+T233	DiversityMetric 16505 16533	Bacteroides-Prevotella ratio
+T236	Microorganism 16864 16874	Prevotella
+T237	Microorganism 16879 16890	Bacteroides
+E1	ASSOCIATED_WITH:T144 Theme:T146 Theme2:T145
+E2	ASSOCIATED_WITH:T68 Theme:T67 Theme2:T69
+E3	DECREASES:T183 Theme:T154 Agent:T150
+E4	HAS_COMPONENT:T173 Theme:T165 Agent:T166
+E6	ASSOCIATED_WITH:T180 Theme:T149 Theme2:T150
+E7	DECREASES:T181 Agent:T151 Theme:T153
+E8	DECREASES:T183 Theme:T155 Agent:T150
+E9	INTERACTS_WITH:T62 Theme:T174 Theme2:T176
+E12	HAS_COMPONENT:T185 Theme:T164 Agent:T168
+E13	HAS_COMPONENT:T185 Theme:T164 Agent:T169
+E14	HAS_COMPONENT:T185 Theme:T164 Agent:T167
+E15	HAS_COMPONENT:T185 Theme:T164 Agent:T170
+E16	HAS_COMPONENT:T185 Theme:T164 Agent:T171
+E17	HAS_COMPONENT:T185 Theme:T164 Agent:T172
+E19	HAS_COMPONENT:T143 Theme:T191 Agent:T188
+E20	HAS_COMPONENT:T143 Agent:T188 Theme:T190
+E21	HAS_COMPONENT:T143 Agent:T188 Theme:T189
+A1	Unknown E1
+A5	Unknown E7
+N4	NCIT:C71258 T17	Lean Body Mass
+N5	NCIT:C94250 T18	Overweight
+N6	NCIT:C3283 T19	Obesity
+N7	NCIT:C16358 T20	Body Mass Index
+N8	NCIT:C16358 T21	Body Mass Index
+N9	NCIT:C16358 T22	Body Mass Index
+N10	NCIT:C16358 T23	Body Mass Index
+N11	NCIT:C100948 T31	Waist Circumference
+N12	NCIT:C94250 T34	Overweight
+N13	NCIT:C3283 T35	Obesity
+N14	NCIT:C3283 T38	Obesity
+N15	NCIT:C3283 T69	Obesity
+N16	NCBITAXON:853 T73	Faecalibacterium prausnitzii
+N17	NCBITAXON:838 T81	Prevotella
+N18	NCBITAXON:816 T82	Bacteroides
+N19	NCBITAXON:838 T83	Prevotella
+N20	NCBITAXON:816 T85	Bacteroides
+N21	NCBITAXON:838 T86	Prevotella
+N22	NCBITAXON:816 T88	Bacteroides
+N23	NCBITAXON:838 T89	Prevotella
+N24	NCBITAXON:816 T98	Bacteroides
+N25	NCBITAXON:838 T99	Prevotella
+N26	NCBITAXON:816 T102	Bacteroides
+N27	NCBITAXON:838 T103	Prevotella
+N28	NCBITAXON:816 T104	Bacteroides
+N29	NCBITAXON:838 T105	Prevotella
+N30	NCBITAXON:165179 T106	Prevotella copri
+N31	NCBITAXON:838 T108	Prevotella
+N32	NCBITAXON:816 T109	Bacteroides
+N33	NCBITAXON:816 T111	Bacteroides
+N34	NCBITAXON:838 T112	Prevotella
+N35	NCBITAXON:816 T113	Bacteroides
+N36	NCBITAXON:838 T114	Prevotella
+N37	NCBITAXON:838 T117	Prevotella
+N38	NCBITAXON:816 T118	Bacteroides
+N39	OCHV:39256 T128	complex carbohydrate
+N40	MESH:D006026 T138	Glycoside Hydrolases
+N41	MESH:D006026 T139	Glycoside Hydrolases
+N42	MESH:D006026 T140	Glycoside Hydrolases
+N43	MESH:D006026 T141	Glycoside Hydrolases
+N44	NCIT:C68492 T145	Dietary Fiber
+N45	MESH:D006026 T146	Glycoside Hydrolases
+N46	NCIT:C68492 T148	Dietary Fiber
+N47	MESH:D006026 T149	Glycoside Hydrolases
+N48	NCBITAXON:165179 T150	Prevotella copri
+N49	NCBITAXON:838 T151	Prevotella
+N50	MESH:D006026 T154	Glycoside Hydrolases
+N51	MESH:D006026 T155	Glycoside Hydrolases
+N52	MESH:D006026 T156	Glycoside Hydrolases
+N53	CHEBI:18233 T161	xyloglucan
+N54	NCIT:C68491 T162	Cellulose
+N55	CHEBI:18233 T165	xyloglucan
+N56	FOODON:00003674 T166	tamarind (whole)
+N57	NCIT:C73913 T167	Seed
+N58	NCIT:C79628 T169	Corm
+N59	FOODON:03411286 T170	palm plant
+N60	NCIT:C71966 T171	Coconut
+N61	FOODON:03414400 T172	konjac
+N62	MESH:D006026 T174	Glycoside Hydrolases
+N63	NCIT:C68491 T176	Cellulose
+N64	FOODON:03316427 T178	plant fiber (compressed)
+N65	MESH:D006026 T179	Glycoside Hydrolases
+N66	NCIT:C68492 T186	Dietary Fiber
+N67	CHEBI:33937 T187	macronutrient
+N68	MESH:D066273 T188	Diet, Western
+N69	NCIT:C71939 T189	Sugar
+N70	MESH:D004041 T190	Dietary Fats
+N71	CHEBI:36080 T191	protein
+N72	CHEBI:18154 T194	polysaccharide
+N73	NCIT:C1502 T196	Fiber
+N74	FOODON:03311818 T200	white rice food product
+N75	CHEBI:18154 T203	polysaccharide
+N76	NCIT:C16358 T205	Body Mass Index
+N77	NCBITAXON:838 T211	Prevotella
+N78	MESH:D015430 T222	Weight gain
+N79	CHEBI:36080 T223	protein
+N80	NCBITAXON:838 T230	Prevotella
+N81	NCBITAXON:816 T231	Bacteroides
+N82	NCBITAXON:838 T236	Prevotella
+N83	NCBITAXON:816 T237	Bacteroides
+A6	Factual E2
+A7	Factual E3
+A8	Factual E4
+A9	Factual E6
+A10	Factual E8
+A11	Factual E9
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E19
+A19	Factual E20
+A20	Factual E21

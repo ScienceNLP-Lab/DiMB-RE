@@ -1,0 +1,94 @@
+T1	Food 0 7	Peanuts
+T2	Food 90 125	lower-fat higher-carbohydrate snack
+T3	Population 129 165	adults with elevated fasting glucose
+T4	Methodology 169 195	randomized crossover trial
+T5	Food 210 219	Tree nuts
+T6	Chemical 150 165	fasting glucose
+T7	Food 305 312	peanuts
+T8	DietPattern 451 491	isocaloric lower-fat higher-carbohydrate
+T9	Food 417 424	peanuts
+T10	Food 493 497	LFHC
+T11	Methodology 651 670	metatranscriptomics
+T12	Methodology 686 713	randomized, crossover trial
+T13	Population 718 724	adults
+T14	Chemical 1880 1895	fasting glucose
+T15	Measurement 749 752	BMI
+T16	Chemical 771 785	plasma glucose
+T17	Food 820 850	dry roasted, unsalted, peanuts
+T18	Nutrient 868 880	carbohydrate
+T19	Nutrient 888 895	protein
+T20	Nutrient 903 906	fat
+T21	Food 930 940	LFHC snack
+T22	Nutrient 958 970	carbohydrate
+T23	Nutrient 978 985	protein
+T24	Nutrient 993 996	fat
+T25	Nutrient 918 923	fiber
+T26	Nutrient 1006 1011	fiber
+T27	Methodology 1090 1109	16S rRNA sequencing
+T28	Methodology 1131 1170	Exploratory metatranscriptomic analyses
+T29	Food 1234 1240	Peanut
+T30	DiversityMetric 1303 1315	β- diversity
+T31	DiversityMetric 1297 1299;1306 1315	α- diversity
+T32	AFFECTS 1261 1293	No between-condition differences
+T33	Food 1341 1347	peanut
+T34	Microorganism 1356 1371	Ruminococcaceae
+T35	INCREASES 1391 1404	more abundant
+T36	Methodology 1406 1440	Linear discriminant analysis score
+T37	Methodology 1442 1445	LDA
+T38	Food 1478 1482	LFHC
+T39	Methodology 1484 1503	Metatranscriptomics
+T40	Gene 1539 1545	K03518
+T41	INCREASES 1511 1520	increased
+T42	Food 1615 1621	peanut
+T43	Microorganism 1656 1684	Roseburia intestinalis L1-82
+T44	INCREASES 1705 1716	contributor
+T45	INCREASES 1761 1770	increased
+T46	Microorganism 1784 1799	Ruminococcaceae
+T47	Food 1848 1855	peanuts
+T48	Population 1859 1895	adults with elevated fasting glucose
+T49	Methodology 1909 1928	Metatranscriptomics
+T50	Gene 1966 1972	K03518
+T51	Food 2001 2007	peanut
+T52	INCREASES 2015 2023	enriches
+T53	Metabolite 36 44	butyrate
+T54	Metabolite 2032 2040	butyrate
+T55	Metabolite 2103 2111	butyrate
+T56	INCREASES 2058 2078	increased expression
+E1	AFFECTS:T32 Agent:T29 Theme:T31
+E2	AFFECTS:T32 Agent:T29 Theme:T30
+E3	INCREASES:T35 Agent:T33 Theme:T34
+E4	INCREASES:T41 Agent:T42 Theme:T40
+E5	INCREASES:T44 Agent:T43 Theme:T40
+E6	INCREASES:T45 Theme:T46 Agent:T47
+E7	INCREASES:T52 Agent:T51 Theme:T46
+E8	INCREASES:T56 Agent:T51 Theme:T50
+A1	Factuality E1 Negated
+A2	Factuality E2 Negated
+N1	Reference T1 NCIT:C72071	Peanut
+N2	Reference T5 FOODON:03301354	tree nut
+N3	Reference T6 NCIT:C94312	Blood Glucose
+N4	Reference T7 NCIT:C72071	Peanut
+N5	Reference T9 NCIT:C72071	Peanut
+N6	Reference T14 NCIT:C94312	Blood Glucose
+N7	Reference T15 NCIT:C16358	Body Mass Index
+N8	Reference T16 NCIT:C41376	Plasma Glucose Measurement
+N9	Reference T17 FOODON:03306859	peanut (whole, dry roasted)
+N10	Reference T18 CHEBI:16646	carbohydrate
+N11	Reference T19 CHEBI:36080	protein
+N12	Reference T20 MESH:D004041	Dietary Fats
+N13	Reference T22 CHEBI:16646	carbohydrate
+N14	Reference T23 CHEBI:36080	protein
+N15	Reference T24 MESH:D004041	Dietary Fats
+N16	Reference T25 NCIT:C1502	Fiber
+N17	Reference T26 NCIT:C1502	Fiber
+N18	Reference T29 NCIT:C72071	Peanut
+N19	Reference T33 NCIT:C72071	Peanut
+N20	Reference T34 NCBITAXON:216572	Oscillospiraceae
+N21	Reference T42 NCIT:C72071	Peanut
+N22	Reference T43 NCBITAXON:166486	Roseburia intestinalis
+N23	Reference T46 NCBITAXON:216572	Oscillospiraceae
+N24	Reference T47 NCIT:C72071	Peanut
+N25	Reference T51 NCIT:C72071	Peanut
+N26	Reference T53 CHEBI:17968	butyrate
+N27	Reference T54 CHEBI:17968	butyrate
+N28	Reference T55 CHEBI:17968	butyrate

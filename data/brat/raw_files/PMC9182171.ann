@@ -1,0 +1,519 @@
+T1	Nutrient 11 19	Poncirin
+T2	Population 125 129	Mice
+T3	Nutrient 131 139	Poncirin
+T4	Nutrient 141 143	PC
+T5	Nutrient 58 72	Isosakuranetin
+T6	Nutrient 163 177	isosakuranetin
+T7	Nutrient 179 181	IR
+T8	Food 203 216	citrus fruits
+T9	Nutrient 299 301	PC
+T10	Nutrient 306 308	IR
+T11	Population 419 423	mice
+T12	Methodology 429 453	16S rRNA gene sequencing
+T13	Population 510 514	mice
+T14	Nutrient 521 523	PC
+T15	Nutrient 528 530	IR
+T16	Nutrient 569 571	PC
+T17	Nutrient 576 578	IR
+T18	Population 582 586	mice
+T19	Methodology 639 653	LC-MS analysis
+T20	Nutrient 703 705	PC
+T21	Nutrient 710 712	IR
+T22	Microorganism 741 756	Parabacteroides
+T23	INCREASES 713 723	multiplied
+T24	Nutrient 821 823	PC
+T25	INCREASES 824 833	increased
+T26	Microorganism 851 862	Bacteroides
+T27	Nutrient 877 879	IR
+T28	DECREASES 880 887	reduced
+T29	Microorganism 892 903	Allobaculum
+T30	INCREASES 930 939	increased
+T31	Microorganism 940 954	Alloprevotella
+T32	Population 984 988	mice
+T33	Nutrient 1000 1002	PC
+T34	Metabolite 1010 1027	fecal acetic acid
+T35	INCREASES 1034 1043	increased
+T36	Metabolite 1070 1080;1096 1100	isobutyric acid
+T37	Metabolite 1085 1100	isovaleric acid
+T38	INCREASES 1109 1118	increased
+T39	Nutrient 1176 1178	IR
+T40	AFFECTS 1198 1204	effect
+T41	Metabolite 1223 1246	short-chain fatty acids
+T42	Biospecimen 1262 1267	feces
+T43	Population 1271 1275	mice
+T44	Metabolite 1248 1253	SCFAs
+T45	Biospecimen 1010 1015	fecal
+T46	Biospecimen 1291 1296	urine
+T47	Population 1311 1315	mice
+T48	Nutrient 1323 1325	PC
+T49	Nutrient 1381 1388	protein
+T50	Nutrient 1393 1405	carbohydrate
+T51	Nutrient 1527 1529	IR
+T52	AFFECTS 1537 1545	affected
+T53	ASSOCIATED_WITH 1337 1345	involved
+T54	Physiology 1599 1633	taurine and hypotaurine metabolism
+T55	Physiology 1635 1657	glutathione metabolism
+T56	Physiology 1659 1679	histidine metabolism
+T57	Physiology 1681 1703	D-glutamate metabolism
+T58	Population 1583 1587	mice
+T59	Nutrient 1803 1805	PC
+T60	Nutrient 1810 1812	IR
+T61	Physiology 1353 1362;1381 1405	digestion protein and carbohydrate
+T62	Food 23 29	Citrus
+T63	Metabolite 1457 1464	glycine
+T64	Chemical 1466 1472	serine
+T65	Chemical 1474 1483	threonine
+T66	Metabolite 1485 1495	tryptophan
+T67	Chemical 1497 1507	D-arginine
+T68	Chemical 1509 1520	D-ornithine
+T69	Physiology 1367 1405	absorption of protein and carbohydrate
+T70	Physiology 1422 1447	metabolism of amino acids
+T71	Physiology 1550 1579	amino acid metabolic pathways
+T72	Methodology 109 121	Metabolomics
+T73	Methodology 403 415	metabolomics
+T74	Methodology 608 629	metabolomics approach
+T75	Population 760 766	mice’s
+T76	Measurement 1291 1307	urine biomarkers
+T77	DiversityMetric 81 104	Gut Microbial Diversity
+T78	HAS_COMPONENT 184 189	occur
+T79	DiversityMetric 375 398	gut microbial diversity
+T80	Biospecimen 6072 6077	feces
+T81	Population 6090 6092;6101 6113	PC mouse groups
+T82	Population 6098 6113	IR mouse groups
+T83	Methodology 6115 6166	UniFrac distance-based principal component analysis
+T84	Nutrient 6387 6389	IR
+T85	Nutrient 6343 6345	PC
+T86	Nutrient 6350 6352	IR
+T87	Population 6387 6389;6402 6408	IR groups
+T88	Population 6460 6462;6475 6481	PC groups
+T89	Nutrient 6504 6506	PC
+T90	Methodology 6587 6608	Venn diagram analysis
+T91	Biospecimen 6808 6813	fecal
+T92	Microorganism 6859 6869	Firmicutes
+T93	Microorganism 6874 6887	Bacteroidetes
+T94	Microorganism 7005 7018	Spirochaetota
+T95	Microorganism 7020 7036	Actinobacteriota
+T96	Microorganism 7038 7054	Desulfobacterota
+T97	Microorganism 7056 7073	Verrucomicrobiota
+T98	Microorganism 7079 7095	Deferribacterota
+T99	DECREASES 7101 7110	decreased
+T100	Nutrient 7118 7120	PC
+T101	Population 7124 7139	IR-treated mice
+T102	Population 7118 7120;7126 7139	PC -treated mice
+T103	Nutrient 7124 7126	IR
+T104	Microorganism 7179 7193	Proteobacteria
+T105	Microorganism 7198 7211	Cyanobacteria
+T106	INCREASES 7217 7226	increased
+T107	Population 7234 7238	mice
+T108	Nutrient 7245 7247	PC
+T109	Nutrient 7251 7253	IR
+T110	Microorganism 7340 7354	Alloprevotella
+T111	Microorganism 7356 7366	Dubosiella
+T112	Microorganism 7368 7390	Prevotellaceae_UCG-001
+T113	Microorganism 7392 7403	Bacteroides
+T114	Microorganism 7409 7424	Parabacteroides
+T115	INCREASES 7430 7439	increased
+T116	Nutrient 7446 7448	PC
+T117	Nutrient 7452 7454	IR
+T118	Nutrient 7548 7550	IR
+T119	INCREASES 7575 7582	boosted
+T120	Microorganism 7583 7598	Parabacteroides
+T121	Microorganism 7603 7617	Alloprevotella
+T122	DECREASES 7646 7655	decreased
+T123	Microorganism 7656 7667	Allobaculum
+T124	Nutrient 7679 7681	PC
+T125	INCREASES 7706 7715	increased
+T126	Microorganism 7716 7731	Parabacteroides
+T127	Microorganism 7736 7747	Bacteroides
+T128	Biospecimen 7797 7802	Feces
+T129	Nutrient 7809 7811	PC
+T130	Metabolite 7764 7768	SCFA
+T131	Nutrient 7815 7817	IR
+T132	Metabolite 7848 7852	SCFA
+T133	Biospecimen 7856 7861	feces
+T134	Metabolite 7886 7892;7917 7922	acetic acids
+T135	Metabolite 7894 7903;7917 7922	propionic acids
+T136	Metabolite 7909 7922	butyric acids
+T137	Metabolite 7964 7968	SCFA
+T138	Metabolite 7998 8004;8033 8038	acetic acids
+T139	Metabolite 8006 8016;8033 8038	isobutyric acids
+T140	Metabolite 8022 8038	isovaleric acids
+T141	Biospecimen 8046 8051	feces
+T142	Population 8059 8067	PC group
+T143	Nutrient 8144 8146	IR
+T144	AFFECTS 8161 8179	no distinct effect
+T145	Metabolite 8198 8202	SCFA
+T146	Biospecimen 8206 8211	feces
+T147	POS_ASSOCIATED_WITH 8306 8326	positive correlation
+T148	Metabolite 8335 8346	acetic acid
+T149	Microorganism 8358 8368	Dubosiella
+T150	Microorganism 8370 8400	Eubacterium_xylanophilum_group
+T151	Microorganism 8422 8447	Eubacterium_siraeum_group
+T152	Microorganism 8402 8416	Faecalibaculum
+T153	Metabolite 8453 8467	propanoic acid
+T154	POS_ASSOCIATED_WITH 8480 8501	positively correlated
+T155	Microorganism 8507 8521	Peptococcaceae
+T156	Microorganism 8523 8537	Intestinimonas
+T157	Microorganism 8543 8556	Oscillibacter
+T158	Metabolite 8562 8575	butryate acid
+T159	POS_ASSOCIATED_WITH 8588 8609	positively correlated
+T160	Microorganism 8615 8628	Oscillibacter
+T161	Microorganism 8633 8650	Lachnoclostridium
+T162	Metabolite 8656 8676	hexanoic acid levels
+T163	POS_ASSOCIATED_WITH 8682 8703	positively correlated
+T164	Microorganism 8709 8720	Allobaculum
+T165	Metabolite 8726 8741	isobutyric acid
+T166	Metabolite 8746 8761	isovaleric acid
+T167	NEG_ASSOCIATED_WITH 8774 8795	correlated negatively
+T168	Microorganism 8801 8816	Bifidobacterium
+T169	POS_ASSOCIATED_WITH 8824 8845	correlated positively
+T170	Microorganism 8851 8860	Rikenella
+T171	Microorganism 8862 8886	norank_f_Ruminococcaceae
+T172	Microorganism 8892 8901	Alistipes
+T173	Metabolite 8907 8919	valeric acid
+T174	NEG_ASSOCIATED_WITH 8932 8953	correlated negatively
+T175	Microorganism 8959 8970	Akkermansia
+T176	POS_ASSOCIATED_WITH 8976 8997	correlated positively
+T177	Microorganism 9003 9020	Lachnoclostridium
+T178	Metabolite 9026 9042	isohexanoic acid
+T179	NEG_ASSOCIATED_WITH 9069 9090	negatively correlated
+T180	Microorganism 9096 9121	Eubacterium_siraeum_group
+T181	Microorganism 9126 9155	Eubacterium_fissicatena_group
+T182	Nutrient 9190 9192	PC
+T183	Nutrient 9196 9198	IR
+T184	Methodology 9217 9238	volcano plot analysis
+T185	Population 9348 9359	PC/IR group
+T186	Population 9516 9524	PC group
+T187	Population 9627 9635	IR group
+T188	Population 9741 9749	PC group
+T189	Population 9758 9766	IR group
+T190	Methodology 9812 9842	Pareto scaling PLS-DA analysis
+T191	Population 10047 10058	PC/IR group
+T192	Population 10083 10091	PC group
+T193	Population 10100 10108	IR group
+T194	Nutrient 10638 10640	PC
+T195	Nutrient 10644 10646	IR
+T196	Physiology 10765 10797	protein digestion and absorption
+T197	Physiology 10933 10954	tryptophan metabolism
+T198	Physiology 10799 10821	gastric acid secretion
+T199	Physiology 10823 10853	sphingolipid signaling pathway
+T200	Disease 10855 10873	insulin resistance
+T201	Physiology 10875 10888	thermogenesis
+T202	Physiology 10890 10927	carbohydrate digestion and absorption
+T203	Physiology 11036 11053	purine metabolism
+T204	Physiology 11055 11089	taurine and hypotaurine metabolism
+T205	Physiology 11091 11110	thiamine metabolism
+T206	Physiology 11116 11138	glutathione metabolism
+T207	Population 11199 11207	PC group
+T208	Methodology 11217 11225	IR group
+T209	Physiology 11231 11252	pyrimidine metabolism
+T210	Methodology 11439 11456	MetaboAnalyst 4.0
+T211	Nutrient 11638 11640	PC
+T212	Physiology 11660 11667;11690 11700	glycine metabolism
+T213	Physiology 11669 11700	serine and threonine metabolism
+T214	Physiology 11702 11723	tryplophan metabolism
+T215	Physiology 11725 11746	N-glycan biosynthesis
+T216	Physiology 11752 11789	D-arginine and D-ornithine metabolism
+T217	AFFECTS 11613 11634	significant responses
+T218	Nutrient 11855 11857	IR
+T219	AFFECTS 11830 11851	significant responses
+T220	Physiology 11877 11894	purine metabolism
+T221	Physiology 11896 11930	taurine and hypotaurine metabolism
+T222	Physiology 11932 11954	glutathione metabolism
+T223	Physiology 11956 11977	vitamin B6 metabolism
+T224	Physiology 11979 11999	histidine metabolism
+T225	Physiology 12005 12043	D-glutamine and D-glutamate metabolism
+T226	Population 12140 12142	PC
+T227	Population 12147 12156	IR groups
+T228	Physiology 12193 12214	pyrimidine metabolism
+T229	Physiology 12216 12236	histidine metabolism
+T230	Physiology 12238 12269	arginine and proline metabolism
+T231	Physiology 12275 12292	purine metabolism
+T232	Nutrient 6090 6092	PC
+T233	Nutrient 6098 6100	IR
+T234	Nutrient 6460 6462	PC
+T235	Nutrient 8059 8061	PC
+T236	INCREASES 8087 8093	higher
+T237	Nutrient 9348 9350	PC
+T238	Nutrient 9351 9353	IR
+T239	Nutrient 9516 9518	PC
+T240	Nutrient 9627 9629	IR
+T241	Nutrient 9741 9743	PC
+T242	Nutrient 9758 9760	IR
+T243	Nutrient 10047 10049	PC
+T244	Nutrient 10050 10052	IR
+T245	Nutrient 10083 10085	PC
+T246	Nutrient 10100 10102	IR
+T247	Nutrient 10239 10241	PC
+T248	Nutrient 10242 10244	IR
+T249	Nutrient 10283 10285	PC
+T250	Nutrient 10300 10302	IR
+T251	Nutrient 11199 11201	PC
+T252	Nutrient 11217 11219	IR
+T253	Nutrient 12140 12142	PC
+T254	Nutrient 12147 12149	IR
+T7511	Nutrient 5861 5863	PC
+T7611	Nutrient 5867 5869	IR
+T7711	Nutrient 5950 5952	PC
+T7811	Nutrient 5956 5958	IR
+T7911	Methodology 5993 6032	analysis of the 16S rRNA gene sequences
+E1	INCREASES:T23 Theme:T22 Agent:T20
+E2	INCREASES:T23 Agent:T21 Theme:T22
+E3	INCREASES:T25 Agent:T24 Theme:T26
+E4	DECREASES:T28 Agent:T27 Theme:T29
+E5	INCREASES:T30 Agent:T27 Theme:T31
+E6	INCREASES:T35 Agent:T33 Theme:T34
+E7	INCREASES:T38 Theme:T36 Agent:T33
+E8	INCREASES:T38 Theme:T37 Agent:T33
+E9	AFFECTS:T40 Agent:T39 Theme:T41
+E10	AFFECTS:T52 Agent:T51 Theme:T54
+E11	AFFECTS:T52 Agent:T51 Theme:T55
+E12	AFFECTS:T52 Agent:T51 Theme:T56
+E13	AFFECTS:T52 Agent:T51 Theme:T57
+E14	HAS_COMPONENT:T78 Theme:T6 Agent:T8
+E15	HAS_COMPONENT:T78 Theme:T3 Agent:T8
+E16	ASSOCIATED_WITH:T53 Theme:T48 Theme2:T61
+E17	ASSOCIATED_WITH:T53 Theme:T48 Theme2:T69
+E18	ASSOCIATED_WITH:T53 Theme:T48 Theme2:T70
+E19	DECREASES:T99 Agent:T103 Theme:T98
+E20	DECREASES:T99 Agent:T103 Theme:T97
+E21	DECREASES:T99 Agent:T103 Theme:T96
+E22	DECREASES:T99 Agent:T103 Theme:T95
+E23	DECREASES:T99 Agent:T103 Theme:T94
+E24	DECREASES:T99 Agent:T100 Theme:T97
+E25	DECREASES:T99 Agent:T100 Theme:T96
+E26	DECREASES:T99 Agent:T100 Theme:T95
+E27	DECREASES:T99 Agent:T100 Theme:T94
+E28	INCREASES:T106 Agent:T108 Theme:T105
+E29	INCREASES:T106 Agent:T109 Theme:T105
+E30	INCREASES:T106 Agent:T109 Theme:T104
+E31	INCREASES:T106 Agent:T108 Theme:T104
+E32	INCREASES:T115 Agent:T116 Theme:T114
+E33	INCREASES:T115 Agent:T117 Theme:T114
+E34	INCREASES:T115 Agent:T117 Theme:T113
+E35	INCREASES:T115 Agent:T117 Theme:T112
+E36	INCREASES:T115 Agent:T117 Theme:T111
+E37	INCREASES:T115 Agent:T117 Theme:T110
+E38	INCREASES:T115 Agent:T116 Theme:T113
+E39	INCREASES:T115 Agent:T116 Theme:T112
+E40	INCREASES:T115 Agent:T116 Theme:T111
+E41	INCREASES:T115 Agent:T116 Theme:T110
+E42	INCREASES:T119 Agent:T118 Theme:T120
+E43	DECREASES:T122 Theme:T123 Agent:T118
+E44	INCREASES:T119 Agent:T118 Theme:T121
+E45	INCREASES:T125 Agent:T124 Theme:T126
+E46	INCREASES:T125 Agent:T124 Theme:T127
+E47	AFFECTS:T144 Agent:T143 Theme:T145
+E48	POS_ASSOCIATED_WITH:T147 Theme:T149 Theme2:T148
+E49	POS_ASSOCIATED_WITH:T147 Theme:T150 Theme2:T148
+E50	POS_ASSOCIATED_WITH:T147 Theme:T152 Theme2:T148
+E51	POS_ASSOCIATED_WITH:T147 Theme:T151 Theme2:T148
+E52	POS_ASSOCIATED_WITH:T154 Theme:T155 Theme2:T153
+E53	POS_ASSOCIATED_WITH:T154 Theme:T156 Theme2:T153
+E54	POS_ASSOCIATED_WITH:T154 Theme:T157 Theme2:T153
+E55	POS_ASSOCIATED_WITH:T159 Theme:T160 Theme2:T158
+E56	POS_ASSOCIATED_WITH:T159 Theme:T161 Theme2:T158
+E57	POS_ASSOCIATED_WITH:T163 Theme:T162 Theme2:T164
+E58	NEG_ASSOCIATED_WITH:T167 Theme:T168 Theme2:T166
+E59	NEG_ASSOCIATED_WITH:T167 Theme:T168 Theme2:T165
+E63	POS_ASSOCIATED_WITH:T169 Theme:T166 Theme2:T170
+E64	POS_ASSOCIATED_WITH:T169 Theme:T165 Theme2:T172
+E65	POS_ASSOCIATED_WITH:T169 Theme:T166 Theme2:T171
+E66	POS_ASSOCIATED_WITH:T169 Theme:T165 Theme2:T171
+E67	POS_ASSOCIATED_WITH:T169 Theme:T166 Theme2:T172
+E68	POS_ASSOCIATED_WITH:T169 Theme:T165 Theme2:T170
+E69	NEG_ASSOCIATED_WITH:T174 Theme:T173 Theme2:T175
+E70	POS_ASSOCIATED_WITH:T176 Theme:T173 Theme2:T177
+E71	NEG_ASSOCIATED_WITH:T179 Theme:T180 Theme2:T178
+E72	NEG_ASSOCIATED_WITH:T179 Theme:T181 Theme2:T178
+E73	AFFECTS:T217 Agent:T211 Theme:T212
+E74	AFFECTS:T217 Agent:T211 Theme:T213
+E75	AFFECTS:T217 Agent:T211 Theme:T214
+E76	AFFECTS:T217 Agent:T211 Theme:T215
+E77	AFFECTS:T217 Agent:T211 Theme:T216
+E78	AFFECTS:T219 Agent:T218 Theme:T220
+E79	AFFECTS:T219 Agent:T218 Theme:T221
+E80	AFFECTS:T219 Agent:T218 Theme:T222
+E81	AFFECTS:T219 Agent:T218 Theme:T223
+E82	AFFECTS:T219 Agent:T218 Theme:T224
+E83	AFFECTS:T219 Agent:T218 Theme:T225
+E84	INCREASES:T236 Agent:T235 Theme:T140
+E85	INCREASES:T236 Agent:T235 Theme:T138
+E86	INCREASES:T236 Agent:T235 Theme:T139
+E1811	DECREASES:T99 Agent:T100 Theme:T98
+A1	Factuality E9 Negated
+A6	Factuality E47 Negated
+N1	Reference T1 MESH:C119641	poncirin
+N2	Reference T3 MESH:C119641	poncirin
+N3	Reference T4 CHEBI:33853	phenols
+N4	Reference T5 MESH:C538973	isosakuranetin
+N5	Reference T6 MESH:C538973	isosakuranetin
+N6	Reference T7 MESH:C538973	Ile-Arg
+N7	Reference T8 NCIT:C71965	Citrus Fruit
+N8	Reference T9 CHEBI:33853	phenols
+N9	Reference T10 MESH:C538973	Ile-Arg
+N10	Reference T14 CHEBI:33853	phenols
+N11	Reference T15 MESH:C538973	Ile-Arg
+N12	Reference T16 CHEBI:33853	phenols
+N13	Reference T17 MESH:C538973	Ile-Arg
+N14	Reference T20 CHEBI:33853	phenols
+N15	Reference T21 MESH:C538973	Ile-Arg
+N16	Reference T22 NCBITAXON:375288	Parabacteroides
+N17	Reference T24 CHEBI:33853	phenols
+N18	Reference T26 NCBITAXON:816	Bacteroides
+N19	Reference T27 MESH:C538973	Ile-Arg
+N20	Reference T29 NCBITAXON:174708	Allobaculum
+N21	Reference T31 NCBITAXON:1283313	Alloprevotella
+N22	Reference T33 CHEBI:33853	phenols
+N23	Reference T34 CHEBI:15366	acetic acid
+N24	Reference T36 CHEBI:16135	isobutyric acid
+N25	Reference T37 CHEBI:28484	isovaleric acid
+N26	Reference T39 MESH:C538973	Ile-Arg
+N27	Reference T41 CHEBI:26666	short-chain fatty acid
+N28	Reference T44 CHEBI:26666	short-chain fatty acid
+N29	Reference T48 CHEBI:33853	phenols
+N30	Reference T49 CHEBI:36080	protein
+N31	Reference T50 CHEBI:16646	carbohydrate
+N32	Reference T51 MESH:C538973	Ile-Arg
+N33	Reference T54 NCIT:C38871	Taurine and Hypotaurine Metabolism Pathway
+N34	Reference T55 OCHV:C1158188	glutathione metabolism
+N35	Reference T56 NCIT:C38824	Histidine Metabolism Pathway
+N36	Reference T57 NCIT:C38803	D-Glutamine and D-Glutamate Metabolism Pathway
+N37	Reference T59 CHEBI:33853	phenols
+N38	Reference T60 MESH:C538973	Ile-Arg
+N39	Reference T61 MESH:D059748	Proteolysis
+N40	Reference T62 NCIT:C71965	Citrus Fruit
+N41	Reference T63 CHEBI:15428	glycine
+N42	Reference T64 CHEBI:17822	serine
+N43	Reference T65 CHEBI:26986	threonine
+N44	Reference T66 CHEBI:27897	tryptophan
+N45	Reference T67 NCIT:C77308	D-Arginine
+N46	Reference T68 CHEBI:16176	D-ornithine
+N47	Reference T70 OCHV:C0596076	amino acid metabolism
+N48	Reference T71 NCIT:C39730	Amino Acid Metabolism Pathway
+N49	Reference T84 MESH:C538973	Ile-Arg
+N50	Reference T85 CHEBI:33853	phenols
+N51	Reference T86 MESH:C538973	Ile-Arg
+N52	Reference T89 CHEBI:33853	phenols
+N53	Reference T92 NCBITAXON:1239	Firmicutes
+N54	Reference T93 NCBITAXON:976	Bacteroidetes
+N55	Reference T94 NCBITAXON:203691	Spirochaetes
+N56	Reference T95 NCBITAXON:201174	Actinobacteria
+N57	Reference T96 NCBITAXON:2904303	Desulfobacterota
+N58	Reference T97 NCBITAXON:74201	Verrucomicrobia
+N59	Reference T98 NCBITAXON:200930	Deferribacteres
+N60	Reference T100 CHEBI:33853	phenols
+N61	Reference T103 MESH:C538973	Ile-Arg
+N62	Reference T104 NCBITAXON:1224	Proteobacteria
+N63	Reference T105 NCBITAXON:1117	Cyanobacteria
+N64	Reference T108 CHEBI:33853	phenols
+N65	Reference T109 MESH:C538973	Ile-Arg
+N66	Reference T110 NCBITAXON:1283313	Alloprevotella
+N67	Reference T111 NCBITAXON:1937008	Dubosiella
+N68	Reference T112 NCBITAXON:171552	Prevotellaceae
+N69	Reference T113 NCBITAXON:816	Bacteroides
+N70	Reference T114 NCBITAXON:375288	Parabacteroides
+N71	Reference T116 CHEBI:33853	phenols
+N72	Reference T117 MESH:C538973	Ile-Arg
+N73	Reference T118 MESH:C538973	Ile-Arg
+N74	Reference T120 NCBITAXON:375288	Parabacteroides
+N75	Reference T121 NCBITAXON:1283313	Alloprevotella
+N76	Reference T123 NCBITAXON:174708	Allobaculum
+N77	Reference T124 CHEBI:33853	phenols
+N78	Reference T126 NCBITAXON:375288	Parabacteroides
+N79	Reference T127 NCBITAXON:816	Bacteroides
+N80	Reference T129 CHEBI:33853	phenols
+N81	Reference T130 CHEBI:26666	short-chain fatty acid
+N82	Reference T131 MESH:C538973	Ile-Arg
+N83	Reference T132 CHEBI:26666	short-chain fatty acid
+N84	Reference T134 CHEBI:15366	acetic acid
+N85	Reference T135 CHEBI:30768	propionic acid
+N86	Reference T136 CHEBI:30772	butyric acid
+N87	Reference T137 CHEBI:26666	short-chain fatty acid
+N88	Reference T138 CHEBI:15366	acetic acid
+N89	Reference T139 CHEBI:16135	isobutyric acid
+N90	Reference T140 CHEBI:28484	isovaleric acid
+N91	Reference T143 MESH:C538973	Ile-Arg
+N92	Reference T145 CHEBI:26666	short-chain fatty acid
+N93	Reference T148 CHEBI:15366	acetic acid
+N94	Reference T149 NCBITAXON:1937008	Dubosiella
+N95	Reference T150 NCBITAXON:39497	Eubacterium xylanophilum
+N96	Reference T151 NCBITAXON:39492	[Eubacterium] siraeum
+N97	Reference T152 NCBITAXON:1729679	Faecalibaculum
+N98	Reference T153 CHEBI:30768	propionic acid
+N99	Reference T155 NCBITAXON:186807	Peptococcaceae
+N100	Reference T156 NCBITAXON:1392389	Intestinimonas
+N101	Reference T157 NCBITAXON:459786	Oscillibacter
+N102	Reference T158 CHEBI:30772	butyric acid
+N103	Reference T160 NCBITAXON:459786	Oscillibacter
+N104	Reference T161 NCBITAXON:1506553	Lachnoclostridium
+N105	Reference T162 CHEBI:30776	hexanoic acid
+N106	Reference T164 NCBITAXON:174708	Allobaculum
+N107	Reference T165 CHEBI:16135	isobutyric acid
+N108	Reference T166 CHEBI:28484	isovaleric acid
+N109	Reference T168 NCBITAXON:1678	Bifidobacterium
+N110	Reference T170 NCBITAXON:28138	Rikenella
+N111	Reference T171 NCBITAXON:216572	Oscillospiraceae
+N112	Reference T172 NCBITAXON:239759	Alistipes
+N113	Reference T173 CHEBI:17418	valeric acid
+N114	Reference T175 NCBITAXON:239934	Akkermansia
+N115	Reference T177 NCBITAXON:1506553	Lachnoclostridium
+N116	Reference T178 CHEBI:74903	isocaproic acid
+N117	Reference T180 NCBITAXON:39492	[Eubacterium] siraeum
+N118	Reference T181 NCBITAXON:290055	Faecalicatena fissicatena
+N119	Reference T182 CHEBI:33853	phenols
+N120	Reference T183 MESH:C538973	Ile-Arg
+N121	Reference T194 CHEBI:33853	phenols
+N122	Reference T195 MESH:C538973	Ile-Arg
+N123	Reference T196 NCIT:C70845	Protein Digestion
+N124	Reference T197 NCIT:C38875	Tryptophan Metabolism Pathway
+N125	Reference T198 OCHV:C0232552	gastric acid secretion
+N126	Reference T200 NCIT:C113101	Insulin Resistance
+N127	Reference T201 MESH:D022722	Thermogenesis
+N128	Reference T203 NCIT:C38858	Purine Metabolism Pathway
+N129	Reference T204 NCIT:C38871	Taurine and Hypotaurine Metabolism Pathway
+N130	Reference T205 NCIT:C38873	Thiamine Metabolism Pathway
+N131	Reference T206 OCHV:C1158188	glutathione metabolism
+N132	Reference T209 NCIT:C38859	Pyrimidine Metabolism Pathway
+N133	Reference T211 CHEBI:33853	phenols
+N134	Reference T213 NCIT:C38817	Glycine, Serine and Threonine Metabolism Pathway
+N135	Reference T214 NCIT:C38875	Tryptophan Metabolism Pathway
+N136	Reference T215 NCIT:C38819	N-Glycan Biosynthesis Pathway
+N137	Reference T216 NCIT:C38802	D-Arginine and D-Ornithine Metabolism Pathway
+N138	Reference T218 MESH:C538973	Ile-Arg
+N139	Reference T220 NCIT:C38858	Purine Metabolism Pathway
+N140	Reference T221 NCIT:C38871	Taurine and Hypotaurine Metabolism Pathway
+N141	Reference T222 OCHV:C1158188	glutathione metabolism
+N142	Reference T223 NCIT:C38885	Vitamin B6 Metabolism Pathway
+N143	Reference T224 NCIT:C38824	Histidine Metabolism Pathway
+N144	Reference T225 NCIT:C38803	D-Glutamine and D-Glutamate Metabolism Pathway
+N145	Reference T228 NCIT:C38859	Pyrimidine Metabolism Pathway
+N146	Reference T229 NCIT:C38824	Histidine Metabolism Pathway
+N147	Reference T230 NCIT:C38785	Arginine and Proline Metabolism Pathway
+N148	Reference T231 NCIT:C38858	Purine Metabolism Pathway
+N149	Reference T232 CHEBI:33853	phenols
+N150	Reference T233 MESH:C538973	Ile-Arg
+N151	Reference T234 CHEBI:33853	phenols
+N152	Reference T235 CHEBI:33853	phenols
+N153	Reference T237 CHEBI:33853	phenols
+N154	Reference T238 MESH:C538973	Ile-Arg
+N155	Reference T239 CHEBI:33853	phenols
+N156	Reference T240 MESH:C538973	Ile-Arg
+N157	Reference T241 CHEBI:33853	phenols
+N158	Reference T242 MESH:C538973	Ile-Arg
+N159	Reference T243 CHEBI:33853	phenols
+N160	Reference T244 MESH:C538973	Ile-Arg
+N161	Reference T245 CHEBI:33853	phenols
+N162	Reference T246 MESH:C538973	Ile-Arg
+N163	Reference T247 CHEBI:33853	phenols
+N164	Reference T248 MESH:C538973	Ile-Arg
+N165	Reference T249 CHEBI:33853	phenols
+N166	Reference T250 MESH:C538973	Ile-Arg
+N167	Reference T251 CHEBI:33853	phenols
+N168	Reference T252 MESH:C538973	Ile-Arg
+N169	Reference T253 CHEBI:33853	phenols
+N170	Reference T254 MESH:C538973	Ile-Arg
+N171	Reference T7511 CHEBI:33853	phenols
+N172	Reference T7611 MESH:C538973	Ile-Arg
+N173	Reference T7711 CHEBI:33853	phenols
+N174	Reference T7811 MESH:C538973	Ile-Arg

@@ -1,0 +1,325 @@
+T83	Biospecimen 3045 3050	fecal
+T84	Chemical 519 522	LBP
+T85	Metabolite 567 596	Stool short chain fatty acids
+T86	Metabolite 615 619	SCFA
+T87	Biospecimen 2934 2939	fecal
+T88	Measurement 4736 4756	inflammatory markers
+T89	Food 3981 3983	WG
+T90	Metabolite 824 828	BCFA
+T91	Microorganism 928 942	Actinobacteria
+T92	Microorganism 987 1000	Bacteroidetes
+T93	Microorganism 1042 1052	Firmicutes
+T94	Microorganism 1094 1108	Proteobacteria
+T95	Microorganism 1153 1168	Verrucomicrobia
+T96	Food 1293 1304	whole grain
+T97	Food 1290 1292	WG
+T98	Food 1306 1308	FV
+T99	Food 1309 1315	fruits
+T100	Food 1320 1330	vegetables
+T101	Measurement 1332 1335	BMI
+T102	Measurement 1336 1351	body mass index
+T103	Chemical 1353 1357	IL-6
+T104	Chemical 1358 1371	interleukin-6
+T105	Chemical 1373 1376	TNF
+T106	Chemical 1377 1400	tumor necrosis factor-α
+T107	Chemical 1402 1408	hs-CRP
+T108	Chemical 1409 1444	high-sensitivity C-reactive protein
+T109	Chemical 1446 1449	LBP
+T110	Chemical 1450 1484	lipopolysaccharide binding protein
+T111	Metabolite 1486 1490	SCFA
+T112	Metabolite 1491 1514	short chain fatty acids
+T113	Metabolite 1516 1520	BCFA
+T114	Metabolite 1521 1547	branched chain fatty acids
+T115	Food 1667 1669	WG
+T116	Food 1834 1836	FV
+T117	Metabolite 662 669	Acetate
+T118	Measurement 328 355	Plasma inflammatory markers
+T119	Chemical 410 415	TNF-α
+T120	Chemical 466 472	hs-CRP
+T121	Food 2146 2148	WG
+T122	Food 2176 2178	FV
+T123	Metabolite 2315 2323	butyrate
+T124	Food 7279 7281	WG
+T125	Metabolite 2501 2509	butyrate
+T126	Microorganism 2588 2601	Bacteroidetes
+T127	Microorganism 2643 2653	Firmicutes
+T128	Microorganism 2798 2811	Bacteroidetes
+T129	Methodology 2934 2954	fecal DNA extraction
+T130	Food 3292 3305	Refined grain
+T131	Food 3316 3321	Fruit
+T132	Food 3332 3342	Vegetables
+T133	Food 3353 3355	FV
+T134	Food 3366 3368	WG
+T135	Food 3448 3450	WG
+T136	Food 3743 3745	WG
+T137	Food 3750 3752	FV
+T138	Food 3909 3911	FV
+T139	Food 3998 4000	FV
+T140	Food 3950 3952	WG
+T141	Population 3965 3989	subjects in the WG group
+T142	Population 3893 3917	subjects in the FV group
+T143	Population 1647 1675	Participants in the WG group
+T144	Population 4077 4101	subjects in the WG group
+T145	Food 4111 4124	refined grain
+T146	Food 4136 4138	WG
+T147	Population 4205 4229	subjects in the FV group
+T148	Food 4221 4223	FV
+T149	Food 4256 4269	refined grain
+T150	Physiology 4375 4400	gastrointestinal symptoms
+T151	Physiology 4491 4502	GI symptoms
+T152	AFFECTS 4465 4487	no significant changes
+T153	Measurement 4601 4604	BMI
+T154	AFFECTS 4670 4692	no significant changes
+T155	Measurement 4696 4699	BMI
+T156	Chemical 4789 4823	Lipopolysaccharide binding protein
+T157	Chemical 4825 4828	LBP
+T158	Chemical 4834 4863	tumor necrosis factor (TNF)-α
+T161	Chemical 4868 4886	interleukin (IL)-6
+T162	Chemical 4895 4930	high sensitivity C-reactive protein
+T163	Chemical 4932 4938	hs-CRP
+T164	Measurement 5077 5092	body mass index
+T165	Food 7286 7288	FV
+T166	Microorganism 8163 8173	Firmicutes
+T167	Chemical 5149 5153	IL-6
+T168	DECREASES 5224 5233	decreases
+T169	Chemical 5237 5240	LBP
+T170	Food 5292 5294	WG
+T171	Food 5299 5301	FV
+T173	Food 5381 5383	WG
+T174	DECREASES 5415 5423	decrease
+T175	Chemical 5427 5432	TNF-α
+T176	AFFECTS 5473 5495	no significant changes
+T177	Chemical 5499 5504	TNF-α
+T178	Food 5650 5652	WG
+T179	Chemical 5599 5603	IL-6
+T180	Chemical 5668 5672	IL-6
+T181	DECREASES 5690 5710	significant decrease
+T182	Food 5714 5716	FV
+T183	AFFECTS 5561 5583	no significant changes
+T184	Chemical 5775 5781	hs-CRP
+T185	AFFECTS 5734 5756	no significant changes
+T186	Metabolite 5888 5910	short chain fatty acid
+T187	Metabolite 5912 5916	SCFA
+T188	AFFECTS 5856 5878	no significant changes
+T189	Biospecimen 5882 5887	fecal
+T190	Metabolite 6019 6033	fecal butyrate
+T191	DiversityMetric 6237 6248	α-Diversity
+T192	DiversityMetric 6253 6264	β-diversity
+T195	Measurement 6434 6449	body mass index
+T196	Biospecimen 6481 6486	fecal
+T197	Methodology 6600 6613	Ward’s method
+T198	Food 6745 6747	WG
+T199	Food 6749 6760	whole grain
+T200	Food 6718 6720	FV
+T201	Food 6722 6728	fruits
+T202	Food 6733 6743	vegetables
+T203	Food 6765 6767	FV
+T204	INCREASES 6795 6815	significant increase
+T205	DiversityMetric 6819 6830	α-diversity
+T206	DiversityMetric 6853 6861	richness
+T207	AFFECTS 6896 6919	did not show any effect
+T208	DiversityMetric 6930 6941	β-Diversity
+T209	DiversityMetric 6978 6986	richness
+T210	Microorganism 7613 7624	Bacteroides
+T211	Microorganism 7626 7638	Ruminococcus
+T212	Microorganism 7640 7655	Ruminococcaceae
+T213	Microorganism 7658 7670	Ruminococcus
+T214	Microorganism 7672 7687	Lachnospiraceae
+T215	Microorganism 7690 7705	Bifidobacterium
+T216	Microorganism 7711 7726	Fecalibacterium
+T217	Measurement 7872 7892	inflammatory markers
+T218	Measurement 7951 7965	plasma markers
+T219	Measurement 8610 8629	inflammatory makers
+T220	Chemical 8915 8918	LBP
+T222	Microorganism 8969 8986	higher Firmicutes
+T223	Chemical 8188 8222	lipopolysaccharide binding protein
+T224	Microorganism 8991 9010	lower Bacteroidetes
+T225	DECREASES 9028 9036	decrease
+T226	Chemical 9040 9043	LBP
+T227	Microorganism 9163 9175	Clostridales
+T228	Chemical 8224 8227	LBP
+T229	Chemical 8247 8250	LBP
+T230	Chemical 8251 8285	lipopolysaccharide binding protein
+T231	Chemical 8293 8314	tumor necrosis factor
+T232	Chemical 8287 8292	TNF-α
+T233	Chemical 8316 8320	IL-6
+T234	Chemical 8321 8334	interleukin-6
+T235	Chemical 8336 8342	hs-CRP
+T236	Chemical 8343 8378	high sensitivity C-reactive protein
+T237	Food 8380 8382	WG
+T238	Food 8383 8394	whole grain
+T239	Food 8396 8398	FV
+T240	Food 8399 8405	fruits
+T241	Food 8410 8420	vegetables
+T242	Physiology 8462 8465	age
+T243	Physiology 8467 8473	gender
+T244	Measurement 8479 8494	body mass index
+T245	Chemical 8510 8514	IL-6
+T246	Metabolite 715 725	Propionate
+T247	Metabolite 771 779	Butyrate
+T8011	Measurement 276 279	BMI
+T8111	Food 4021 4034	refined grain
+T8211	Food 4093 4095	WG
+E28	DECREASES:T168 Theme:T169 Agent:T170
+E30	AFFECTS:T152 Agent:T148 Theme:T151
+E31	AFFECTS:T152 Theme:T151 Agent:T146
+E33	AFFECTS:T154 Theme:T155 Agent:T148
+E34	AFFECTS:T154 Theme:T155 Agent:T146
+E36	DECREASES:T168 Theme:T169 Agent:T171
+E37	DECREASES:T174 Agent:T173 Theme:T175
+E38	AFFECTS:T176 Theme:T177 Agent:T171
+E39	AFFECTS:T176 Theme:T177 Agent:T170
+E40	DECREASES:T181 Theme:T180 Agent:T182
+E41	AFFECTS:T183 Theme:T179 Agent:T178
+E43	AFFECTS:T185 Theme:T184 Agent:T178
+E44	AFFECTS:T185 Agent:T182 Theme:T184
+E46	AFFECTS:T188 Theme:T186 Agent:T178
+E47	AFFECTS:T188 Theme:T186 Agent:T182
+E49	INCREASES:T204 Agent:T203 Theme:T205
+E50	AFFECTS:T207 Theme:T205 Agent:T198
+E52	DECREASES:T225 Theme:T226 Agent:T224
+E54	DECREASES:T225 Theme:T226 Agent:T222
+A11	Negated E30
+A12	Negated E31
+A14	Negated E33
+A15	Negated E34
+A16	Negated E38
+A17	Negated E39
+A18	Negated E41
+A20	Negated E43
+A21	Negated E44
+A23	Negated E46
+A24	Negated E47
+A26	Negated E50
+N44	MESH:C061257 T84	lipopolysaccharide-binding protein
+N45	CHEBI:26666 T85	short-chain fatty acid
+N46	CHEBI:26666 T86	short-chain fatty acid
+N47	FOODON:00003950 T89	whole grain
+N48	CHEBI:35819 T90	branched-chain fatty acid
+N49	NCBITAXON:201174 T91	Actinobacteria
+N50	NCBITAXON:976 T92	Bacteroidetes
+N51	NCBITAXON:1239 T93	Firmicutes
+N52	NCBITAXON:1224 T94	Proteobacteria
+N53	NCBITAXON:74201 T95	Verrucomicrobia
+N54	FOODON:00003950 T96	whole grain
+N55	FOODON:00003950 T97	whole grain
+N56	NCIT:C1945 T98	Fruit or Vegetable
+N57	NCIT:C71972 T99	Fruit
+N58	FOODON:03315308 T100	vegetable (whole or parts)
+N59	NCIT:C16358 T101	Body Mass Index
+N60	NCIT:C16358 T102	Body Mass Index
+N61	NCIT:C20451 T103	Interleukin-6
+N62	NCIT:C20451 T104	Interleukin-6
+N63	MESH:D014409 T105	Tumor Necrosis Factor-alpha
+N64	MESH:D014409 T106	Tumor Necrosis Factor-alpha
+N65	NCIT:C157114 T107	High Sensitivity C-Reactive Protein Measurement
+N66	NCIT:C157114 T108	High Sensitivity C-Reactive Protein Measurement
+N67	MESH:C061257 T109	lipopolysaccharide-binding protein
+N68	NCIT:C105867 T110	Lipopolysaccharide-Binding Protein
+N69	CHEBI:26666 T111	short-chain fatty acid
+N70	CHEBI:26666 T112	short-chain fatty acid
+N71	CHEBI:35819 T113	branched-chain fatty acid
+N72	CHEBI:35819 T114	branched-chain fatty acid
+N73	FOODON:00003950 T115	whole grain
+N74	NCIT:C1945 T116	Fruit or Vegetable
+N75	CHEBI:30089 T117	acetate
+N76	MESH:D014409 T119	Tumor Necrosis Factor-alpha
+N77	NCIT:C157114 T120	High Sensitivity C-Reactive Protein Measurement
+N78	FOODON:00003950 T121	whole grain
+N79	NCIT:C1945 T122	Fruit or Vegetable
+N80	CHEBI:17968 T123	butyrate
+N81	FOODON:00003950 T124	whole grain
+N82	CHEBI:17968 T125	butyrate
+N83	NCBITAXON:976 T126	Bacteroidetes
+N84	NCBITAXON:1239 T127	Firmicutes
+N85	NCBITAXON:976 T128	Bacteroidetes
+N86	NCIT:C71972 T131	Fruit
+N87	FOODON:03315308 T132	vegetable (whole or parts)
+N88	NCIT:C1945 T133	Fruit or Vegetable
+N89	FOODON:00003950 T134	whole grain
+N90	FOODON:00003950 T135	whole grain
+N91	FOODON:00003950 T136	whole grain
+N92	NCIT:C1945 T137	Fruit or Vegetable
+N93	NCIT:C1945 T138	Fruit or Vegetable
+N94	NCIT:C1945 T139	Fruit or Vegetable
+N95	FOODON:00003950 T140	whole grain
+N96	FOODON:00003950 T146	whole grain
+N97	NCIT:C1945 T148	Fruit or Vegetable
+N98	OCHV:C0426576 T150	gastrointestinal symptoms
+N99	OCHV:C0426576 T151	gastrointestinal symptoms
+N100	NCIT:C16358 T153	Body Mass Index
+N101	NCIT:C16358 T155	Body Mass Index
+N102	NCIT:C105867 T156	Lipopolysaccharide-Binding Protein
+N103	MESH:C061257 T157	lipopolysaccharide-binding protein
+N104	MESH:D014409 T158	Tumor Necrosis Factor-alpha
+N105	NCIT:C20451 T161	Interleukin-6
+N106	NCIT:C157114 T162	High Sensitivity C-Reactive Protein Measurement
+N107	NCIT:C157114 T163	High Sensitivity C-Reactive Protein Measurement
+N108	NCIT:C16358 T164	Body Mass Index
+N109	NCIT:C1945 T165	Fruit or Vegetable
+N110	NCBITAXON:1239 T166	Firmicutes
+N111	NCIT:C20451 T167	Interleukin-6
+N112	MESH:C061257 T169	lipopolysaccharide-binding protein
+N113	FOODON:00003950 T170	whole grain
+N114	NCIT:C1945 T171	Fruit or Vegetable
+N115	FOODON:00003950 T173	whole grain
+N116	MESH:D014409 T175	Tumor Necrosis Factor-alpha
+N117	MESH:D014409 T177	Tumor Necrosis Factor-alpha
+N118	FOODON:00003950 T178	whole grain
+N119	NCIT:C20451 T179	Interleukin-6
+N120	NCIT:C20451 T180	Interleukin-6
+N121	NCIT:C1945 T182	Fruit or Vegetable
+N122	NCIT:C157114 T184	High Sensitivity C-Reactive Protein Measurement
+N123	CHEBI:26666 T186	short-chain fatty acid
+N124	CHEBI:26666 T187	short-chain fatty acid
+N125	CHEBI:17968 T190	butyrate
+N126	NCIT:C16358 T195	Body Mass Index
+N127	FOODON:00003950 T198	whole grain
+N128	FOODON:00003950 T199	whole grain
+N129	NCIT:C1945 T200	Fruit or Vegetable
+N130	NCIT:C71972 T201	Fruit
+N131	FOODON:03315308 T202	vegetable (whole or parts)
+N132	NCIT:C1945 T203	Fruit or Vegetable
+N133	NCBITAXON:816 T210	Bacteroides
+N134	NCBITAXON:1263 T211	Ruminococcus
+N135	NCBITAXON:216572 T212	Oscillospiraceae
+N136	NCBITAXON:1263 T213	Ruminococcus
+N137	NCBITAXON:186803 T214	Lachnospiraceae
+N138	NCBITAXON:1678 T215	Bifidobacterium
+N139	NCBITAXON:216851 T216	Faecalibacterium
+N140	NCIT:C13356 T218	Plasma
+N141	MESH:C061257 T220	lipopolysaccharide-binding protein
+N142	NCBITAXON:1239 T222	Firmicutes
+N143	NCIT:C105867 T223	Lipopolysaccharide-Binding Protein
+N144	NCBITAXON:976 T224	Bacteroidetes
+N145	MESH:C061257 T226	lipopolysaccharide-binding protein
+N146	NCBITAXON:1898207 T227	Clostridiales bacterium
+N147	MESH:C061257 T228	lipopolysaccharide-binding protein
+N148	MESH:C061257 T229	lipopolysaccharide-binding protein
+N149	NCIT:C105867 T230	Lipopolysaccharide-Binding Protein
+N150	MESH:D014409 T231	Tumor Necrosis Factor-alpha
+N151	MESH:D014409 T232	Tumor Necrosis Factor-alpha
+N152	NCIT:C20451 T233	Interleukin-6
+N153	NCIT:C20451 T234	Interleukin-6
+N154	NCIT:C157114 T235	High Sensitivity C-Reactive Protein Measurement
+N155	NCIT:C157114 T236	High Sensitivity C-Reactive Protein Measurement
+N156	FOODON:00003950 T237	whole grain
+N157	FOODON:00003950 T238	whole grain
+N158	NCIT:C1945 T239	Fruit or Vegetable
+N159	NCIT:C71972 T240	Fruit
+N160	FOODON:03315308 T241	vegetable (whole or parts)
+N161	NCIT:C25150 T242	Age
+N162	NCIT:C17357 T243	Gender
+N163	NCIT:C16358 T244	Body Mass Index
+N164	NCIT:C20451 T245	Interleukin-6
+N165	CHEBI:17272 T246	propionate
+N166	CHEBI:17968 T247	butyrate
+N167	NCIT:C16358 T8011	Body Mass Index
+N168	FOODON:00003950 T8211	whole grain
+A39	Factual E28
+A40	Factual E36
+A41	Factual E37
+A42	Factual E40
+A43	Factual E49
+A44	Factual E52
+A45	Factual E54

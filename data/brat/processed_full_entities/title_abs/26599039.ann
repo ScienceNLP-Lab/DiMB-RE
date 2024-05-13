@@ -1,0 +1,91 @@
+T1	Nutrient 9 20	polyphenols
+T2	Food 0 8	Red wine
+T3	IMPROVES 51 57	reduce
+T4	Measurement 58 91	markers of the metabolic syndrome
+T5	Disease 73 91	metabolic syndrome
+T6	Population 95 109	obese patients
+T7	Nutrient 196 207	polyphenols
+T8	Food 187 195	red wine
+T9	IMPROVES 268 279	improvement
+T10	Physiology 287 326	risk factors for the metabolic syndrome
+T11	Disease 308 326	metabolic syndrome
+T12	Population 330 344	obese patients
+T13	Population 350 377	metabolic syndrome patients
+T14	Methodology 422 474	randomized, crossover, controlled intervention study
+T15	Food 522 530	red wine
+T16	Food 693 701	red wine
+T17	Population 725 752	metabolic syndrome patients
+T18	Nutrient 763 774	polyphenols
+T19	Food 754 762	red wine
+T20	INCREASES 789 798	increased
+T21	Microorganism 819 833	bifidobacteria
+T22	Microorganism 838 851	Lactobacillus
+T23	Microorganism 917 945	Faecalibacterium prausnitzii
+T24	Microorganism 950 959	Roseburia
+T25	Measurement 1176 1202	metabolic syndrome markers
+T26	Disease 725 743	metabolic syndrome
+T27	Microorganism 1036 1052	Escherichia coli
+T28	Microorganism 1057 1077	Enterobacter cloacae
+T29	Disease 1176 1194	metabolic syndrome
+T30	Food 1246 1254	red wine
+T31	Disease 1299 1317	metabolic diseases
+T32	ASSOCIATED_WITH 1318 1328	associated
+T33	Disease 1334 1341	obesity
+T34	IMPROVES 1157 1168	improvement
+T35	IMPROVES 1255 1285	could be an effective strategy
+T36	Disease 330 335	obese
+T37	Food 535 558	de-alcoholized red wine
+T38	Metabolite 888 896	butyrate
+T39	INCREASES 897 906	producing
+T40	Chemical 1021 1024	LPS
+T41	INCREASES 1025 1034	producers
+E1	IMPROVES:T3 Agent:T1 Theme:T4
+E2	IMPROVES:T9 Theme:T10 Agent:T7
+E3	INCREASES:T20 Agent:T18 Theme:T21
+E4	ASSOCIATED_WITH:T32 Theme:T31 Theme2:T33
+E5	IMPROVES:T34 Theme:T25 Agent:T18
+E6	IMPROVES:T35 Agent:T30 Theme:T31
+E7	INCREASES:T20 Agent:T18 Theme:T22
+E8	INCREASES:T20 Agent:T18 Theme:T23
+E9	INCREASES:T20 Agent:T18 Theme:T24
+E10	INCREASES:T39 Agent:T23 Theme:T38
+E11	INCREASES:T39 Agent:T24 Theme:T38
+E12	INCREASES:T41 Agent:T27 Theme:T40
+E13	INCREASES:T41 Theme:T40 Agent:T28
+A1	Unknown E6
+N1	CHEBI:26195 T1	polyphenol
+N2	FOODON:03310272 T2	red wine
+N3	NCIT:C84442 T5	Metabolic Syndrome
+N4	CHEBI:26195 T7	polyphenol
+N5	FOODON:03310272 T8	red wine
+N6	NCIT:C84442 T11	Metabolic Syndrome
+N7	FOODON:03310272 T15	red wine
+N8	FOODON:03310272 T16	red wine
+N9	CHEBI:26195 T18	polyphenol
+N10	FOODON:03310272 T19	red wine
+N11	NCBITAXON:1678 T21	Bifidobacterium
+N12	NCBITAXON:1578 T22	Lactobacillus
+N13	NCBITAXON:853 T23	Faecalibacterium prausnitzii
+N14	NCBITAXON:841 T24	Roseburia
+N15	NCIT:C84442 T26	Metabolic Syndrome
+N16	NCBITAXON:562 T27	Escherichia coli
+N17	NCBITAXON:550 T28	Enterobacter cloacae
+N18	NCIT:C84442 T29	Metabolic Syndrome
+N19	FOODON:03310272 T30	red wine
+N20	NCIT:C3235 T31	Metabolic Disorder
+N21	NCIT:C3283 T33	Obesity
+N22	NCIT:C3283 T36	Obesity
+N23	CHEBI:17968 T38	butyrate
+N24	CHEBI:16412 T40	lipopolysaccharide
+A2	Factual E1
+A3	Factual E2
+A4	Factual E3
+A5	Factual E4
+A6	Factual E5
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13

@@ -1,0 +1,114 @@
+T1	Nutrient 11 22	dietary fat
+T2	Metabolite 45 63	faecal metabolites
+T3	Physiology 93 121	cardiometabolic risk factors
+T4	Methodology 133 168	randomised controlled-feeding trial
+T5	Nutrient 224 227	fat
+T6	Measurement 265 292	faecal metabolomic profiles
+T7	Physiology 335 363	cardiometabolic risk factors
+T8	Population 367 381	healthy adults
+T9	DietPattern 431 443	low-fat diet
+T10	DietPattern 449 493	diet high in fat and reduced in carbohydrate
+T11	Methodology 517 552	randomised controlled-feeding trial
+T12	Population 558 578	healthy young adults
+T13	Measurement 598 613	body mass index
+T14	DietPattern 776 790	lower-fat diet
+T15	DietPattern 811 828	moderate-fat diet
+T16	DietPattern 852 867	higher-fat diet
+T17	Biospecimen 950 956	faecal
+T18	Physiology 974 1001	plasma inflammatory factors
+T19	DietPattern 1034 1048	lower-fat diet
+T20	INCREASES 1069 1078	increased
+T21	DiversityMetric 1079 1090	α-diversity
+T22	DiversityMetric 1107 1120	Shannon index
+T23	INCREASES 1131 1140	increased
+T24	Microorganism 1154 1161	Blautia
+T25	Microorganism 1176 1192	Faecalibacterium
+T26	DietPattern 1215 1230	higher-fat diet
+T27	INCREASES 1251 1260	increased
+T28	Microorganism 1261 1270	Alistipes
+T29	Microorganism 1281 1292	Bacteroides
+T30	DECREASES 1307 1316	decreased
+T31	Microorganism 1317 1333	Faecalibacterium
+T32	Metabolite 1371 1394	short-chain fatty acids
+T33	DECREASES 1413 1422	decreased
+T34	DietPattern 1430 1445	higher-fat diet
+T35	Metabolite 1530 1536	indole
+T36	Metabolite 1517 1525	p-cresol
+T37	ASSOCIATED_WITH 1550 1560	associated
+T38	Disease 1571 1590	metabolic disorders
+T39	DECREASES 1597 1606	decreased
+T40	DietPattern 1614 1628	lower-fat diet
+T41	DietPattern 1653 1668	higher-fat diet
+T44	Metabolite 1710 1726	arachidonic acid
+T45	Physiology 1735 1774	lipopolysaccharide biosynthesis pathway
+T46	Physiology 1795 1825	plasma proinflammatory factors
+T47	Biospecimen 1689 1695	faecal
+T48	INCREASES 1696 1706	enrichment
+T49	INCREASES 1786 1794	elevated
+T50	DietPattern 1862 1872	Higher-fat
+T51	Population 1888 1908	healthy young adults
+T52	Biospecimen 2029 2035	faecal
+T53	Methodology 950 969	faecal metabolomics
+T54	Measurement 2029 2056	faecal metabolomic profiles
+T55	Physiology 2061 2090	plasma proinﬂammatory factors
+T56	NEG_ASSOCIATED_WITH 1973 2009	associated with unfavourable changes
+E1	INCREASES:T20 Agent:T19 Theme:T21
+E2	INCREASES:T23 Agent:T19 Theme:T24
+E3	INCREASES:T27 Agent:T26 Theme:T28
+E4	DECREASES:T30 Agent:T26 Theme:T31
+E5	INCREASES:T23 Agent:T19 Theme:T25
+E6	INCREASES:T27 Agent:T26 Theme:T29
+E7	DECREASES:T33 Agent:T34 Theme:T32
+E8	ASSOCIATED_WITH:T37 Theme:T35 Theme2:T38
+E9	DECREASES:T39 Agent:T40 Theme:T35
+E10	ASSOCIATED_WITH:T37 Theme:T36 Theme2:T38
+E11	DECREASES:T39 Agent:T40 Theme:T36
+E12	INCREASES:T48 Agent:T41 Theme:T44
+E13	INCREASES:T49 Theme:T46 Agent:T41
+E14	INCREASES:T48 Agent:T41 Theme:T45
+E15	NEG_ASSOCIATED_WITH:T56 Agent:T50 Theme:T54
+E16	NEG_ASSOCIATED_WITH:T56 Agent:T50 Theme:T55
+N1	MESH:D004041 T1	Dietary Fats
+N2	CHEBI:25212 T2	metabolite
+N3	MESH:D000083202 T3	Cardiometabolic Risk Factors
+N4	MESH:D004041 T5	Dietary Fats
+N5	MESH:D000083202 T7	Cardiometabolic Risk Factors
+N6	OCHV:C0242970 T9	low fat diet
+N7	NCIT:C177426 T10	Low Carbohydrate High Fat Diet
+N8	NCIT:C16358 T13	Body Mass Index
+N9	OCHV:C0242970 T14	low fat diet
+N10	OCHV:C0452286 T15	fat controlled diet
+N11	MESH:D059305 T16	Diet, High-Fat
+N12	OCHV:C0242970 T19	low fat diet
+N13	NCBITAXON:572511 T24	Blautia
+N14	NCBITAXON:216851 T25	Faecalibacterium
+N15	MESH:D059305 T26	Diet, High-Fat
+N16	NCBITAXON:239759 T28	Alistipes
+N17	NCBITAXON:816 T29	Bacteroides
+N18	NCBITAXON:216851 T31	Faecalibacterium
+N19	CHEBI:26666 T32	short-chain fatty acid
+N20	MESH:D059305 T34	Diet, High-Fat
+N21	CHEBI:35581 T35	indole
+N22	CHEBI:17847 T36	p-cresol
+N23	NCIT:C3235 T38	Metabolic Disorder
+N24	OCHV:C0242970 T40	low fat diet
+N25	MESH:D059305 T41	Diet, High-Fat
+N26	CHEBI:15843 T44	arachidonic acid
+N27	NCIT:C38831 T45	Lipopolysaccharide Biosynthesis Pathway
+N28	MESH:D059305 T50	Diet, High-Fat
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16

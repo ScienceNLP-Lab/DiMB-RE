@@ -1,0 +1,136 @@
+T1	Nutrient 2 24	carvacrol-thymol blend
+T2	DECREASES 25 34	decreased
+T3	Physiology 35 62	intestinal oxidative stress
+T4	Physiology 233 260	intestinal oxidative stress
+T5	Population 186 201	weaning piglets
+T6	ASSOCIATED_WITH 289 297	involved
+T7	Physiology 317 339	intestinal dysfunction
+T8	Population 343 350	piglets
+T9	Nutrient 397 419	carvacrol-thymol blend
+T10	Measurement 441 464	intestinal redox status
+T11	Physiology 505 523	intestinal barrier
+T12	Population 527 542	weaning piglets
+T13	AFFECTS 377 383	effect
+T14	Population 548 555	piglets
+T15	Population 656 663	piglets
+T16	Population 710 717	piglets
+T17	POS_ASSOCIATED_WITH 1254 1280	indicated by the increased
+T18	DietPattern 815 825	basal diet
+T19	Physiology 1816 1853	dysfunction of the intestinal barrier
+T20	DietPattern 870 925	basal diet supplemented with 100 mg/kg carvacrol-thymol
+T21	Population 980 987	piglets
+T22	Measurement 1033 1056	intestinal redox status
+T23	Physiology 1090 1103;1111 1157	messenger RNA transcript levels of proinflammatory cytokines
+T24	Measurement 1162 1203	biomarkers of intestinal barrier function
+T25	CAUSES 1808 1815	induced
+T26	Physiology 1225 1252	intestinal oxidative stress
+T27	Physiology 1935 1942	weaning
+T28	Chemical 1298 1321	reactive oxygen species
+T29	Chemical 1326 1365	thiobarbituric acid-reactive substances
+T30	DECREASES 1405 1412	reduced
+T31	Microorganism 1431 1444	Lactobacillus
+T32	INCREASES 1455 1464	increased
+T33	Microorganism 1484 1496	Enterococcus
+T34	Microorganism 1507 1523	Escherichia coli
+T35	INCREASES 1544 1553	increased
+T36	Chemical 1569 1592	tumor necrosis factor α
+T37	Chemical 1594 1599	TNF-α
+T38	Chemical 1602 1616	interleukin 1β
+T39	Chemical 1621 1634	interleukin 6
+T40	Chemical 1636 1640	IL-6
+T41	DECREASES 1656 1665	decreased
+T42	Chemical 1681 1697	zonula occludens
+T43	Gene 1702 1710	occludin
+T44	INCREASES 1737 1746	increased
+T45	Enzyme 1747 1769	plasma diamine oxidase
+T46	Physiology 1800 1807	weaning
+T47	Nutrient 1903 1925	carvacrol-thymol blend
+T48	IMPROVES 1926 1934	restored
+T49	Physiology 1951 1978	intestinal oxidative stress
+T50	CAUSES 2227 2234	induced
+T51	AFFECTS 2458 2474	without changing
+T52	INCREASES 2039 2048	increased
+T53	Microorganism 2063 2076	Lactobacillus
+T54	DECREASES 2087 2094	reduced
+T55	Microorganism 2110 2122	Enterococcus
+T56	Microorganism 2133 2140	E. coli
+T57	DECREASES 2160 2169	decreased
+T58	Chemical 2185 2190	TNF-α
+T59	Physiology 2219 2226	weaning
+T61	Physiology 2235 2262	intestinal oxidative stress
+T62	Physiology 2267 2304	dysfunction of the intestinal barrier
+T63	Nutrient 2345 2361	carvacrol-thymol
+T64	DECREASES 2370 2379	decreased
+T65	Physiology 2384 2411	intestinal oxidative stress
+T66	Population 2515 2530	weaning piglets
+T67	Physiology 1205 1212	Weaning
+T68	CAUSES 1213 1221	resulted
+T69	Physiology 1392 1399	Weaning
+T70	Nutrient 2023 2025	CB
+T71	Physiology 265 285	microbiota imbalance
+T72	CAUSES 1943 1950	induced
+T73	Physiology 301 308	weaning
+T74	CAUSES 309 316	induced
+T77	Measurement 2479 2511	biomarkers of intestinal barrier
+E1	DECREASES:T2 Agent:T1 Theme:T3
+E2	ASSOCIATED_WITH:T6 Theme:T4 Theme2:T7
+E3	AFFECTS:T13 Agent:T9 Theme:T10
+E4	AFFECTS:T13 Agent:T9 Theme:T11
+E5	POS_ASSOCIATED_WITH:T17 Theme:T28 Agent:T26
+E6	DECREASES:T30 Agent:T69 Theme:T31
+E7	INCREASES:T32 Agent:T69 Theme:T33
+E8	INCREASES:T35 Agent:T69 Theme:T36
+E9	DECREASES:T41 Theme:T42 Agent:T46
+E10	INCREASES:T44 Theme:T45 Agent:T46
+E11	IMPROVES:T48 Agent:T47 Theme:T49
+E12	INCREASES:T52 Agent:T70 Theme:T53
+E13	DECREASES:T54 Agent:T70 Theme:T55
+E14	DECREASES:T57 Theme:T58 Agent:T70
+E15	CAUSES:T50 Agent:T59 Theme:T61
+E16	DECREASES:T64 Agent:T63 Theme:T65
+E17	CAUSES:T68 Agent:T67 Theme:T26
+E18	POS_ASSOCIATED_WITH:T17 Theme:T29 Agent:T26
+E19	INCREASES:T32 Agent:T69 Theme:T34
+E20	INCREASES:T35 Agent:T69 Theme:T38
+E21	INCREASES:T35 Agent:T69 Theme:T39
+E22	DECREASES:T41 Theme:T43 Agent:T46
+E23	DECREASES:T54 Agent:T70 Theme:T56
+E24	CAUSES:T50 Agent:T59 Theme:T62
+E25	ASSOCIATED_WITH:T6 Theme:T71 Theme2:T7
+E26	CAUSES:T25 Agent:T46 Theme:T19
+E27	CAUSES:T72 Theme:T49 Agent:T27
+E28	CAUSES:T74 Theme:T7 Agent:T73
+E29	AFFECTS:T51 Theme:T77 Agent:T63
+A1	Factuality E3 Unknown
+A2	Factuality E4 Unknown
+A3	Factuality E29 Negated
+N1	Reference T3 NCIT:C17741	Oxidative Stress
+N2	Reference T4 NCIT:C17741	Oxidative Stress
+N3	Reference T18 NCIT:C90364	Basal Diet
+N4	Reference T26 NCIT:C17741	Oxidative Stress
+N5	Reference T27 MESH:D014886	Weaning
+N6	Reference T28 NCIT:C1421	Oxygen Radical
+N7	Reference T29 MESH:D017392	Thiobarbituric Acid Reactive Substances
+N8	Reference T31 NCBITAXON:1578	Lactobacillus
+N9	Reference T33 NCBITAXON:1350	Enterococcus
+N10	Reference T34 NCBITAXON:562	Escherichia coli
+N11	Reference T36 MESH:D014409	Tumor Necrosis Factor-alpha
+N12	Reference T37 MESH:D014409	Tumor Necrosis Factor-alpha
+N13	Reference T38 MESH:D053583	Interleukin-1beta
+N14	Reference T39 NCIT:C20451	Interleukin-6
+N15	Reference T40 NCIT:C20451	Interleukin-6
+N16	Reference T42 MESH:D062825	Zonula Occludens Proteins
+N17	Reference T43 GENE:100506658	OCLN
+N18	Reference T46 MESH:D014886	Weaning
+N19	Reference T49 NCIT:C17741	Oxidative Stress
+N20	Reference T53 NCBITAXON:1578	Lactobacillus
+N21	Reference T55 NCBITAXON:1350	Enterococcus
+N22	Reference T56 NCBITAXON:562	Escherichia coli
+N23	Reference T58 MESH:D014409	Tumor Necrosis Factor-alpha
+N24	Reference T59 MESH:D014886	Weaning
+N25	Reference T61 NCIT:C17741	Oxidative Stress
+N26	Reference T65 NCIT:C17741	Oxidative Stress
+N27	Reference T67 MESH:D014886	Weaning
+N28	Reference T69 MESH:D014886	Weaning
+N29	Reference T71 MESH:D064806	Dysbiosis
+N30	Reference T73 MESH:D014886	Weaning

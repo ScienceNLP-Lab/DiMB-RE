@@ -6,11 +6,14 @@ This repository contains (PyTorch) code, dataset, and fine-tuned models for DiMB
 - [DiMB-RE: Mining the Scientific Literature for Diet-Microbiome Associations](#dimb-re-mining-the-scientific-literature-for-diet-microbiome-associations)
   - [Quick links](#quick-links)
   - [Overview](#overview)
-  - [1. Reproducibility Check for Training of Pipeline system](#1-reproducibility-check-for-training-of-pipeline-system)
-  - [2. Setup](#2-setup)
+  - [1. Setup](#1-setup)
     - [Install dependencies](#install-dependencies)
-  - [3. Details for Training Model (Under construction):](#3-details-for-training-model-under-construction)
-  - [Fine-tuned Models](#fine-tuned-models)
+  - [2. Reproduce the Training and Inference for Pipeline RE system](#2-reproduce-the-training-and-inference-for-pipeline-re-system)
+  - [3. Data Preprocessing](#3-data-preprocessing)
+  - [4. Details for Entity and Trigger Extraction Model](#4-details-for-entity-and-trigger-extraction-model)
+  - [5. Details for RE Model (Under construction)](#5-details-for-re-model)
+  - [6. Details for Factuality Detection Model (Under construction)](#6-details-for-factuality-detection-model)
+  - [7. Fine-tuned Models](#7-fine-tuned-models)
 
 ## Overview
 ![](./figs/annotation-example-new-wb.png)
@@ -22,67 +25,70 @@ In this work, we annotate new benchmark corpus for entity and relation extractio
 
 <!-- Please find more details of this work in our [paper](https://arxiv.org/pdf/2010.12812.pdf). -->
 
-## 1. Reproducibility Check for Training of Pipeline system
-<!-- ## Quick Start -->
-
-For simple reproducibility check, you can run this [Colab Notebook](https://colab.research.google.com/drive/1abCEYlFOCmu7yO7TQQeHOwVPCDX8H4Rs?usp=sharing) which is to train end-to-end system from NER-RE-Factuality Detection.
-
-The final end-to-end result should "approximate" with the following scores, which are the best performance of PURE-based RE models from our paper.
-
-```plaintext
-NER - P: 0.772500, R: 0.747900, F1: 0.760000
-NER Relaxed - P: 0.847500, R: 0.794900, F1: 0.820400
-TRG - P: 0.708300, R: 0.627700, F1: 0.665600
-TRG Relaxed - P: 0.756900, R: 0.670800, F1: 0.711300
-REL Relaxed - P: 0.460000, R: 0.377000, F1: 0.414400
-REL Strict - P: 0.416500, R: 0.341300, F1: 0.375200
-REL Relaxed+Factuality - P: 0.445500, R: 0.365100, F1: 0.401300
-REL Strict+Factuality - P: 0.401900, R: 0.329400, F1: 0.362100
-
-```
-
-If you want to run check reproducibility in your own environment, first you need to follow the instructions in [2. Setup](#2-setup). And then, all you need to do is to run the bash command below. In the shell script, you can check all the arguments for training entity, relation, and factuality detection model.
-
-```bash
-
-# Run the fine-tuned relation model
-bash check_reproducibility_train.sh
-
-```
-
-## 2. Setup
+## 1. Setup
 
 ### Install dependencies
-Please install all the dependency packages using the following command:
-```
+Please install all the dependency packages using the following command lines:
+```bash
 conda create -n DiMB-RE python=3.8
 conda activate DiMB-RE
 conda install --file requirements.txt
 ```
-
-*Note*: We modified and utilized the existing codes from [PURE](https://github.com/princeton-nlp/PURE) as a baseline, while employing the preprocessing scripts from [DeepEventMine](https://github.com/aistairc/DeepEventMine/tree/master/scripts).
-
-<!-- ### Download and preprocess the datasets
-Our experiments are based on three datasets: ACE04, ACE05, and SciERC. Please find the links and pre-processing below:
-* ACE04/ACE05: We use the preprocessing code from [DyGIE repo](https://github.com/luanyi/DyGIE/tree/master/preprocessing). Please follow the instructions to preprocess the ACE05 and ACE04 datasets.
-* SciERC: The preprocessed SciERC dataset can be downloaded in their project [website](http://nlp.cs.washington.edu/sciIE/). -->
-
-
-<!-- ## Entity Model
-
-### Input data format for the entity model
-
-The input data format of the entity model is JSONL. Each line of the input file contains one document in the following format.
+or
+```bash
+conda create -n DiMB-RE python=3.8
+conda activate DiMB-RE
+conda install pip
+pip install -r requirements.txt
 ```
+
+*Note*: We employed and modified the existing codes from [PURE](https://github.com/princeton-nlp/PURE) as a baseline, while employing the preprocessing scripts from [DeepEventMine](https://github.com/aistairc/DeepEventMine/tree/master/scripts).
+
+
+## 2. Reproduce the Training and Inference for Pipeline RE system
+<!-- ## Quick Start -->
+
+<!-- For simple reproducibility check, you can run this [Colab Notebook](https://colab.research.google.com/drive/1abCEYlFOCmu7yO7TQQeHOwVPCDX8H4Rs?usp=sharing) which is to train end-to-end system from NER-RE-Factuality Detection. -->
+
+The final end-to-end result would approximate to the following scores, which are the best performance of PURE-based RE models from our paper.
+
+```plaintext
+NER - P: 0.773, R: 0.745, F1: 0.760
+NER Relaxed - P: 0.848, R: 0.795, F1: 0.820
+TRG - P: 0.708, R: 0.628, F1: 0.666
+TRG Relaxed - P: 0.757, R: 0.671, F1: 0.711
+REL Relaxed - P: 0.460, R: 0.377, F1: 0.414
+REL Strict - P: 0.417, R: 0.341, F1: 0.375
+REL Relaxed+Factuality - P: 0.446, R: 0.365, F1: 0.401
+REL Strict+Factuality - P: 0.402, R: 0.329, F1: 0.362
+
+```
+
+If you want to run check reproducibility in your own environment, first you need to follow the instructions in [1. Setup](#1-setup). And then, all you need to do is to run the bash command below. In the shell script, you can check all the arguments for training and making inference for each different model.
+
+```bash
+bash check_reproducibility_train.sh
+
+```
+
+## 3. Data Preprocessing
+We preprocessed our raw dataset to fit into the input format of PURE, the SpanNER model we are based on. We uploaded the processed dataset for training PURE-based model, so we recommend you to use the processed input files in the `./data/DiMB-RE` folder. 
+
+We also put our raw dataset which are formatted in BRAT style. If you want to check or modify the preprocessing code, please refer to the notebook files in the `./preprocess` directory. 
+
+### Input data format
+We follow the protocol of the original PURE paper to construct the input: each line of the input file contains one document.
+
+```json
 {
-  # document ID (please make sure doc_key can be used to identify a certain document)
-  "doc_key": "CNN_ENG_20030306_083604.6",
+  # PMID (please make sure doc_key can be used to identify a certain document)
+  "doc_key": "34143954",
 
   # sentences in the document, each sentence is a list of tokens
   "sentences": [
     [...],
     [...],
-    ["tens", "of", "thousands", "of", "college", ...],
+    ["Here", "we", "show", "that", "a", "lack", "of", "bifidobacteria", ...],
     ...
   ],
 
@@ -90,24 +96,43 @@ The input data format of the entity model is JSONL. Each line of the input file 
   "ner": [
     [...],
     [...],
-    [[26, 26, "LOC"], [14, 14, "PER"], ...], #the boundary positions are indexed in the document level
+    [[78, 78, "Microorganism"], [88, 90, "Nutrient"], ...], # start and end indices are document-level, token-based spans 
     ...,
   ],
 
-  # relations (two spans and relation type) in each sentence
+  # triggers (boundaries and entity type) in each sentence
+  "triggers": [
+    [...],
+    [...],
+    [[100, 101, "NEG_ASSOCIATED_WITH"]], # Same with the format of ner values.
+    ...,
+  ],
+
+  # relations (spans of entity pair (in the order of Agent -> Theme), relation type, and factuality value) in each sentence
   "relations": [
     [...],
     [...],
-    [[14, 14, 10, 10, "ORG-AFF"], [14, 14, 12, 13, "ORG-AFF"], ...],
+    [[78, 78, 102, 103, "NEG_ASSOCIATED_WITH", "Factual"], [78, 78, 105, 106, "NEG_ASSOCIATED_WITH", "Factual"]], 
+    ...
+  ],
+
+  # triplets (spans of entity pair (in the order of Agent -> Theme) and trigger mention, relation type) in each sentence
+  "triplets": [
+    [...],
+    [...],
+    [[78, 78, 102, 103, 100, 101, "NEG_ASSOCIATED_WITH"], [78, 78, 105, 106, 100, 101, "NEG_ASSOCIATED_WITH"]], # We require the information of trigger mention spans to pass them as inputs for triplet classification
     ...
   ]
 }
 ```
 
-### Train/evaluate the entity model
+## 4. Details for Entity and Trigger Extraction Model
 
-You can use `run_entity.py` with `--do_train` to train an entity model and with `--do_eval` to evaluate an entity model.
-A trianing command template is as follow:
+### Train/evaluate
+
+You can use `run_entity_trigger.py` with `--do_train` to train an entity model and with `--do_eval` to evaluate an entity model.
+
+A training command template is as follow:
 ```bash
 python run_entity.py \
     --do_train --do_eval [--eval_test] \
@@ -126,9 +151,9 @@ Arguments:
 * `--model`: the base transformer model. We use `bert-base-uncased` and `albert-xxlarge-v1` for ACE04/ACE05 and use `allenai/scibert_scivocab_uncased` for SciERC.
 * `--eval_test`: whether evaluate on the test set or not.
 
-The predictions of the entity model will be saved as a file (`ent_pred_dev.json`) in the `output_dir` directory. If you set `--eval_test`, the predictions (`ent_pred_test.json`) are on the test set. The prediction file of the entity model will be the input file of the relation model. -->
+The predictions of the entity model will be saved as a file (`ent_pred_dev.json`) in the `output_dir` directory. If you set `--eval_test`, the predictions (`ent_pred_test.json`) are on the test set. The prediction file of the entity model will be the input file of the relation model.
 
-## 3. Details for Training Model (Under construction):
+<!-- ## 3. Details for Training Model (Under construction): -->
 <!-- ### Input data format for the relation model
 The input data format of the relation model is almost the same as that of the entity model, except that there is one more filed `."predicted_ner"` to store the predictions of the entity model.
 ```bash
@@ -215,62 +240,8 @@ python run_relation_approx.py \
 ## Fine-tuned Models
 We release our fine-tuned relation models, and factuality detection models for our dataset in HuggingFace with the model name of gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE and gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_FD.
 
-
-<!-- ### Pre-trained models for ACE05
-**Entity models**:
-* [BERT (single, W=0)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/ent-bert-ctx0.zip) (388M): Single-sentence entity model based on `bert-base-uncased`
-* [ALBERT (single, W=0)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/ent-alb-ctx0.zip) (793M): Single-sentence entity model based on `albert-xxlarge-v1`
-* [BERT (cross, W=300)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/ent-bert-ctx300.zip) (388M): Cross-sentence entity model based on `bert-base-uncased`
-* [ALBERT (cross, W=100)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/ent-alb-ctx100.zip) (793M): Cross-sentence entity model based on `albert-xxlarge-v1`
-
-**Relation models**:
-* [BERT (single, W=0)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/rel-bert-ctx0.zip) (387M): Single-sentence relation model based on `bert-base-uncased`
-* [BERT-approx (single, W=0)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/rel_approx-bert-ctx0.zip) (387M): Single-sentence approximation relation model based on `bert-base-uncased`
-* [ALBERT (single, W=0)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/rel-alb-ctx0.zip) (789M): Single-sentence relation model based on `albert-xxlarge-v1`
-* [BERT (cross, W=100)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/rel-bert-ctx100.zip) (387M): Cross-sentence relation model based on `bert-base-uncased`
-* [BERT-approx (cross, W=100)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/rel_approx-bert-ctx100.zip) (387M): Crosss-sentence approximation relation model based on `bert-base-uncased`
-* [ALBERT (cross, W=100)](https://nlp.cs.princeton.edu/projects/pure/ace05_models/rel-alb-ctx100.zip) (789M): Cross-sentence relation model based on `albert-xxlarge-v1` -->
-
-<!-- **Performance of pretrained models on DiMB-RE test set**:
-* BiomedBERT-abstract-fulltext
-```
-NER - P: 0.890260, R: 0.882944, F1: 0.886587
-REL - P: 0.689624, R: 0.652476, F1: 0.670536
-REL (strict) - P: 0.664830, R: 0.629018, F1: 0.646429
-``` -->
-<!-- * BERT-approx (single)
-```
-NER - P: 0.890260, R: 0.882944, F1: 0.886587
-REL - P: 0.678899, R: 0.642919, F1: 0.660419
-REL (strict) - P: 0.651376, R: 0.616855, F1: 0.633646
-```
-* ALBERT (single)
-```
-NER - P: 0.900237, R: 0.901388, F1: 0.900812
-REL - P: 0.739901, R: 0.652476, F1: 0.693444
-REL (strict) - P: 0.698522, R: 0.615986, F1: 0.654663
-```
-* BERT (cross)
-```
-NER - P: 0.902111, R: 0.905405, F1: 0.903755
-REL - P: 0.701950, R: 0.656820, F1: 0.678636
-REL (strict) - P: 0.668524, R: 0.625543, F1: 0.646320
-```
-* BERT-approx (cross)
-```
-NER - P: 0.902111, R: 0.905405, F1: 0.903755
-REL - P: 0.684448, R: 0.657689, F1: 0.670802
-REL (strict) - P: 0.659132, R: 0.633362, F1: 0.645990
-```
-* ALBERT (cross)
-```
-NER - P: 0.911111, R: 0.905953, F1: 0.908525
-REL - P: 0.748521, R: 0.659427, F1: 0.701155
-REL (strict) - P: 0.723866, R: 0.637706, F1: 0.678060
-``` -->
-
 <!-- ## Bugs or Questions?
-If you have any questions related to the code or the paper, feel free to email Zexuan Zhong `(zzhong@cs.princeton.edu)`. If you encounter any problems when using the code, or want to report a bug, you can open an issue. Please try to specify the problem with details so we can help you better and quicker!
+If you have any questions related to the code or the paper, feel free to email Zexuan Zhong `(zzhong@cs.princeton.edu)`. If you encounter any problems when using the code, or want to report a bug, you can open an issue. Please try to specify the problem with details so we can help you better and quicker! -->
 
 ## Citation
 If you use our code in your research, please cite our work:
@@ -280,5 +251,5 @@ If you use our code in your research, please cite our work:
    author={Zhong, Zexuan and Chen, Danqi},
    booktitle={North American Association for Computational Linguistics (NAACL)},
    year={2021}
-} -->
+}
 ```

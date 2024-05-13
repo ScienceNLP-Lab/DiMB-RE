@@ -1,0 +1,121 @@
+T1	Physiology 33 64	postprandial glucose metabolism
+T2	DietPattern 102 131	Mediterranean dietary pattern
+T3	Metabolite 137 142	SCFAs
+T4	IMPROVES 18 29	improvement
+T5	Physiology 176 212	Postprandial metabolic abnormalities
+T6	Disease 271 294	cardiovascular diseases
+T7	DietPattern 324 342	Mediterranean diet
+T8	Physiology 346 369	postprandial metabolism
+T9	AFFECTS 309 316	effects
+T10	AFFECTS 556 563	effects
+T11	Chemical 577 597	postprandial glucose
+T12	Physiology 602 618	lipid metabolism
+T13	DietPattern 624 668	diet resembling a typical Mediterranean diet
+T14	DietPattern 670 675	Med-D
+T15	DietPattern 691 708	western-type diet
+T17	Disease 788 798	overweight
+T18	Disease 799 804	obese
+T19	DietPattern 936 941	Med-D
+T23	Measurement 1237 1257	metabolic parameters
+T24	Metabolite 1262 1284	short chain fatty acid
+T25	Metabolite 1286 1290	SCFA
+T27	Physiology 1383 1390;1403 1412	Glucose responses
+T28	Physiology 1395 1412	insulin responses
+T29	DECREASES 1525 1548	effect was strengthened
+T30	DietPattern 1462 1475	Med test meal
+T31	DietPattern 1588 1606	Mediterranean diet
+T32	Metabolite 1709 1721	butyric acid
+T33	Metabolite 1689 1754	postprandial plasma butyric acid incremental area under the curve
+T34	Measurement 1756 1760	IAUC
+T35	INCREASES 1780 1789	increased
+T37	DietPattern 1797 1802	Med-D
+T38	NEG_ASSOCIATED_WITH 1825 1845	correlated inversely
+T39	Chemical 1851 1870	plasma insulin IAUC
+T40	POS_ASSOCIATED_WITH 1875 1883	directly
+T41	Measurement 1889 1921	oral glucose insulin sensitivity
+T42	Measurement 1923 1927	OGIS
+T43	INCREASES 2084 2092	increase
+T44	Microorganism 2122 2154	Intestinimonas butyriciproducens
+T45	Microorganism 2159 2182	Akkermansia muciniphila
+T46	DietPattern 2201 2206	Med-D
+T47	DietPattern 2291 2328	diet resembling the traditional Med-D
+T48	IMPROVES 2329 2337	improves
+T49	Physiology 2338 2369	postprandial glucose metabolism
+T50	Physiology 2374 2393	insulin sensitivity
+T51	Metabolite 2492 2504	butyric acid
+T52	Nutrient 2513 2526	dietary fiber
+T53	Physiology 2557 2575	glucose metabolism
+T54	Physiology 2580 2599	insulin sensitivity
+T55	IMPROVES 2547 2556	improving
+T56	PREDISPOSES 254 266	risk factors
+T58	DECREASES 1432 1439	reduced
+E1	IMPROVES:T4 Theme:T1 Agent:T2
+E2	AFFECTS:T9 Agent:T7 Theme:T8
+E3	AFFECTS:T10 Agent:T13 Theme:T11
+E4	AFFECTS:T10 Agent:T13 Theme:T12
+E5	DECREASES:T29 Theme:T28 Agent:T31
+E6	DECREASES:T29 Theme:T27 Agent:T31
+E7	INCREASES:T35 Agent:T37 Theme:T33
+E8	NEG_ASSOCIATED_WITH:T38 Agent:T33 Theme:T39
+E9	POS_ASSOCIATED_WITH:T40 Agent:T33 Theme:T41
+E10	INCREASES:T43 Agent:T46 Theme:T44
+E11	INCREASES:T43 Agent:T46 Theme:T45
+E12	IMPROVES:T48 Agent:T47 Theme:T49
+E13	IMPROVES:T48 Agent:T47 Theme:T50
+E14	IMPROVES:T55 Agent:T51 Theme:T53
+E15	IMPROVES:T55 Agent:T52 Theme:T53
+E16	IMPROVES:T55 Agent:T51 Theme:T54
+E17	IMPROVES:T55 Agent:T52 Theme:T54
+E18	PREDISPOSES:T56 Agent:T5 Theme:T6
+E19	DECREASES:T58 Agent:T30 Theme:T27
+E20	DECREASES:T58 Agent:T30 Theme:T28
+A1	Unknown E1
+A2	Unknown E2
+A3	Unknown E3
+A4	Unknown E4
+A5	Unknown E14
+A6	Unknown E15
+A7	Unknown E16
+A8	Unknown E17
+N1	MESH:D038441 T2	Diet, Mediterranean
+N2	CHEBI:26666 T3	short-chain fatty acid
+N3	MESH:D002318 T6	Cardiovascular Diseases
+N4	MESH:D038441 T7	Diet, Mediterranean
+N5	NCIT:C129778 T11	2-Hour Postprandial Glucose
+N6	NCIT:C19405 T12	Lipid Metabolic Process
+N7	MESH:D038441 T13	Diet, Mediterranean
+N8	MESH:D038441 T14	Diet, Mediterranean
+N9	MESH:D066273 T15	Diet, Western
+N10	NCIT:C94250 T17	Overweight
+N11	NCIT:C3283 T18	Obesity
+N12	MESH:D038441 T19	Diet, Mediterranean
+N13	CHEBI:26666 T24	short-chain fatty acid
+N14	CHEBI:26666 T25	short-chain fatty acid
+N15	MESH:D038441 T30	Diet, Mediterranean
+N16	MESH:D038441 T31	Diet, Mediterranean
+N17	CHEBI:30772 T32	butyric acid
+N18	NCIT:C64774 T34	Area Under Curve
+N19	MESH:D038441 T37	Diet, Mediterranean
+N20	MESH:D007333 T41	Insulin Resistance
+N21	MESH:D007333 T42	Insulin Resistance
+N22	NCBITAXON:1297617 T44	Intestinimonas butyriciproducens
+N23	NCBITAXON:239935 T45	Akkermansia muciniphila
+N24	MESH:D038441 T46	Diet, Mediterranean
+N25	MESH:D038441 T47	Diet, Mediterranean
+N26	OCHV:C0920563 T50	insulin sensitivity
+N27	CHEBI:30772 T51	butyric acid
+N28	NCIT:C68492 T52	Dietary Fiber
+N29	OCHV:41587 T53	glucose metabolism
+N30	OCHV:C0920563 T54	insulin sensitivity
+A9	Factual E5
+A10	Factual E6
+A11	Factual E7
+A12	Factual E8
+A13	Factual E9
+A14	Factual E10
+A15	Factual E11
+A16	Factual E12
+A17	Factual E13
+A18	Factual E18
+A19	Factual E19
+A20	Factual E20

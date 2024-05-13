@@ -1,0 +1,42 @@
+T1	Nutrient 35 52	trans-resveratrol
+T2	Nutrient 162 181	dietary polyphenols
+T3	Physiology 222 250	trans-resveratrol metabolism
+T5	Physiology 461 489	trans-resveratrol metabolism
+T9	Nutrient 978 995	trans-resveratrol
+T10	INCREASES 1787 1796	producers
+T18	Nutrient 1266 1283	trans-resveratrol
+T21	Metabolite 1437 1455	dihydroresveratrol
+T22	Metabolite 1556 1585	3,4'-dihydroxy-trans-stilbene
+T23	Metabolite 1590 1612	3,4'-dihydroxybibenzyl
+T24	Metabolite 1614 1623	lunularin
+T25	Metabolite 340 358	dihydroresveratrol
+T26	Microorganism 1694 1715	Slackia equolifaciens
+T27	Microorganism 1720 1747	Adlercreutzia equolifaciens
+T28	Metabolite 1768 1786	dihydroresveratrol
+T29	Metabolite 1827 1853	dehydroxylated metabolites
+T30	Physiology 1902 1930	trans-Resveratrol metabolism
+T31	Nutrient 222 239	trans-resveratrol
+T33	Metabolite 1478 1517	bacterial trans-resveratrol metabolites
+T34	Nutrient 1902 1919	trans-Resveratrol
+T35	Nutrient 461 478	trans-resveratrol
+T36	Food 1316 1342	grapevine-shoot supplement
+T37	HAS_COMPONENT 1299 1313	in the form of
+E1	INCREASES:T10 Agent:T26 Theme:T28
+E2	INCREASES:T10 Agent:T27 Theme:T28
+E3	HAS_COMPONENT:T37 Agent:T36 Theme:T18
+N1	CHEBI:45713 T1	trans-resveratrol
+N2	CHEBI:26195 T2	Polyphenol
+N3	CHEBI:45713 T9	trans-resveratrol
+N4	CHEBI:45713 T18	trans-resveratrol
+N5	CHEBI:4582 T21	dihydroresveratrol
+N6	CHEBI:6568 T24	Lunularin
+N7	CHEBI:4582 T25	dihydroresveratrol
+N8	NCBITAXON:498718 T26	Slackia equolifaciens
+N9	NCBITAXON:446660 T27	Adlercreutzia equolifaciens
+N10	CHEBI:4582 T28	dihydroresveratrol
+N11	CHEBI:45713 T31	trans-resveratrol
+N12	CHEBI:45713 T34	trans-resveratrol
+N13	CHEBI:45713 T35	trans-resveratrol
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3

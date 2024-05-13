@@ -1,0 +1,159 @@
+T1	Nutrient 10 24	wheat aleurone
+T2	Disease 452 455	CVD
+T4	Population 100 132	adults with high body mass index
+T5	Measurement 117 132	body mass index
+T6	Methodology 136 195	double-blind, placebo-controlled, randomized clinical trial
+T7	AFFECTS 0 6	Impact
+T8	Nutrient 205 213	Aleurone
+T9	Food 219 230	cereal bran
+T10	HAS_COMPONENT 240 250	containing
+T11	Nutrient 295 306	polyphenols
+T12	Nutrient 308 314	fibers
+T13	Nutrient 316 324	minerals
+T14	Nutrient 329 337	vitamins
+T15	Nutrient 395 403	aleurone
+T16	PREVENTS 419 427	reducing
+T17	Nutrient 1639 1647	aleurone
+T18	Disease 42 64	cardiovascular disease
+T19	Measurement 776 790	CVD biomarkers
+T20	Disease 428 450	cardiovascular disease
+T21	Physiology 478 496	fiber fermentation
+T22	Physiology 498 519	polyphenol metabolism
+T23	Physiology 532 550	choline metabolism
+T24	Physiology 524 531;540 550	betaine metabolism
+T25	DietPattern 1132 1134	PL
+T26	ASSOCIATED_WITH 551 573	may in part contribute
+T27	Nutrient 606 614	aleurone
+T29	Nutrient 667 681	wheat aleurone
+T30	IMPROVES 701 713	could modify
+T31	Chemical 721 733	homocysteine
+T33	Disease 776 779	CVD
+T34	Measurement 832 857	urine metabolite profiles
+T35	Measurement 825 831;838 857	plasma metabolite profiles
+T36	Methodology 869 931	parallel double-blind, placebo-controlled and randomized trial
+T37	Disease 965 970	obese
+T38	Disease 971 981	overweight
+T39	Population 965 990	obese/overweight subjects
+T40	Measurement 1009 1012	BMI
+T43	Nutrient 1066 1074	aleurone
+T44	Nutrient 1102 1111	cellulose
+T45	Chemical 1198 1210	homocysteine
+T46	AFFECTS 1165 1187	No significant changes
+T48	Nutrient 1087 1089	AL
+T50	INCREASES 1295 1304	increased
+T51	Nutrient 1311 1313	AL
+T52	DietPattern 1318 1320	PL
+T53	Physiology 1274 1294	Dietary fiber intake
+T54	Physiology 1322 1343	animal protein intake
+T56	INCREASES 1344 1353	increased
+T57	DietPattern 1360 1362	PL
+T58	INCREASES 1400 1408	increase
+T59	Microorganism 1418 1437	Bifidobacterium spp
+T60	Nutrient 1443 1445	AL
+T61	Microorganism 1450 1467	Lactobacillus spp
+T62	Nutrient 1478 1480	AL
+T63	DietPattern 1485 1487	PL
+T64	Methodology 1566 1589	16S rRNA metataxonomics
+T65	Methodology 1591 1603	Metabolomics
+T66	Nutrient 1648 1659	polyphenols
+T67	Nutrient 1699 1701	AL
+T68	Metabolite 1723 1738	alkylresorcinol
+T69	Metabolite 1740 1748;1770 1775	cinnamic acids
+T70	Metabolite 1750 1757;1770 1775	benzoic acids
+T71	Metabolite 1762 1775	ferulic acids
+T72	Metabolite 1777 1787	folic acid
+T73	Metabolite 1789 1800	fatty acids
+T74	Metabolite 1802 1815	benzoxazinoid
+T75	Metabolite 1820 1853	roasted aroma related metabolites
+T76	Methodology 1855 1875	Correlation analysis
+T77	Physiology 1958 1977	aleurone metabolism
+T78	Nutrient 1958 1966	aleurone
+T79	Nutrient 2015 2023	Aleurone
+T80	INCREASES 2089 2097	increase
+T81	Microorganism 2104 2119	bifidobacterial
+T82	Nutrient 2155 2163	aleurone
+T83	AFFECTS 2164 2178	did not impact
+T84	Chemical 2189 2201	homocysteine
+T85	Measurement 2211 2225	CVD biomarkers
+T86	Disease 2211 2214	CVD
+E1	AFFECTS:T7 Agent:T1 Theme:T18
+E3	HAS_COMPONENT:T10 Agent:T8 Theme:T14
+E4	HAS_COMPONENT:T10 Agent:T8 Theme:T13
+E5	HAS_COMPONENT:T10 Agent:T8 Theme:T12
+E6	HAS_COMPONENT:T10 Agent:T8 Theme:T11
+E7	PREVENTS:T16 Agent:T15 Theme:T20
+E8	ASSOCIATED_WITH:T26 Theme:T24 Theme2:T27
+E9	ASSOCIATED_WITH:T26 Theme:T23 Theme2:T27
+E10	ASSOCIATED_WITH:T26 Theme:T22 Theme2:T27
+E11	ASSOCIATED_WITH:T26 Theme:T21 Theme2:T27
+E12	IMPROVES:T30 Theme:T31 Agent:T29
+E15	AFFECTS:T46 Theme:T45 Agent:T44
+E16	AFFECTS:T46 Theme:T45 Agent:T43
+E17	INCREASES:T50 Theme:T53 Agent:T51
+E18	INCREASES:T56 Theme:T54 Agent:T57
+E19	INCREASES:T50 Theme:T53 Agent:T52
+E20	INCREASES:T58 Agent:T60 Theme:T59
+E23	INCREASES:T58 Agent:T63 Theme:T61
+E25	INCREASES:T58 Agent:T62 Theme:T61
+E26	INCREASES:T80 Theme:T81 Agent:T79
+E27	AFFECTS:T83 Agent:T82 Theme:T84
+E28	AFFECTS:T83 Agent:T82 Theme:T85
+A1	Factuality E1 Unknown
+A3	Factuality E8 Possible
+A4	Factuality E9 Possible
+A5	Factuality E10 Possible
+A6	Factuality E11 Possible
+A7	Factuality E12 Possible
+A8	Factuality E15 Negated
+A9	Factuality E16 Negated
+A10	Factuality E26 Possible
+A11	Factuality E27 Negated
+A12	Factuality E28 Negated
+N1	Reference T2 MESH:D002318	Cardiovascular Diseases
+N2	Reference T5 NCIT:C16358	Body Mass Index
+N3	Reference T8 MESH:C000624173	aleurone
+N4	Reference T9 FOODON:03540108	cereal bran
+N5	Reference T11 CHEBI:26195	polyphenol
+N6	Reference T12 NCIT:C1502	Fiber
+N7	Reference T13 CHEBI:46662	mineral
+N8	Reference T14 NCIT:C944	Vitamin
+N9	Reference T15 MESH:C000624173	aleurone
+N10	Reference T17 MESH:C000624173	aleurone
+N11	Reference T18 MESH:D002318	Cardiovascular Diseases
+N12	Reference T20 MESH:D002318	Cardiovascular Diseases
+N13	Reference T25 NCIT:C753	Placebo
+N14	Reference T27 MESH:C000624173	aleurone
+N15	Reference T31 NCIT:C105949	Homocysteine
+N16	Reference T33 MESH:D002318	Cardiovascular Diseases
+N17	Reference T35 MESH:D055442	metabolome
+N18	Reference T37 NCIT:C3283	Obesity
+N19	Reference T38 NCIT:C94250	Overweight
+N20	Reference T40 NCIT:C16358	Body Mass Index
+N21	Reference T43 MESH:C000624173	aleurone
+N22	Reference T44 NCIT:C68491	Cellulose
+N23	Reference T45 NCIT:C105949	Homocysteine
+N24	Reference T48 MESH:C000624173	Aleurone
+N25	Reference T51 MESH:C000624173	Aleurone
+N26	Reference T52 NCIT:C753	Placebo
+N27	Reference T53 OCHV:C0474451	dietary fiber intake
+N28	Reference T54 OCHV:C0489617	protein intake
+N29	Reference T57 NCIT:C753	Placebo
+N30	Reference T59 NCBITAXON:1678	Bifidobacterium
+N31	Reference T60 MESH:C000624173	Aleurone
+N32	Reference T61 NCBITAXON:1578	Lactobacillus
+N33	Reference T62 MESH:C000624173	Aleurone
+N34	Reference T63 NCIT:C753	Placebo
+N35	Reference T66 CHEBI:26195	polyphenol
+N36	Reference T67 MESH:C000624173	Aleurone
+N37	Reference T69 CHEBI:23252	cinnamic acids
+N38	Reference T70 CHEBI:30746	benzoic acid
+N39	Reference T71 CHEBI:24031	ferulic acids
+N40	Reference T72 CHEBI:27470	folic acid
+N41	Reference T73 CHEBI:35366	fatty acid
+N42	Reference T74 MESH:D048588	Benzoxazines
+N43	Reference T78 MESH:C000624173	aleurone
+N44	Reference T79 MESH:C000624173	aleurone
+N45	Reference T81 NCBITAXON:1678	Bifidobacterium
+N46	Reference T82 MESH:C000624173	aleurone
+N47	Reference T84 NCIT:C105949	Homocysteine
+N48	Reference T86 MESH:D002318	Cardiovascular Diseases

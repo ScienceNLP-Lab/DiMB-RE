@@ -1,0 +1,402 @@
+T1	AFFECTS 0 7	Effects
+T2	Nutrient 11 26	sodium selenite
+T3	Nutrient 31 53	coated sodium selenite
+T4	Physiology 57 78	lactation performance
+T5	Physiology 80 110	total tract nutrient digestion
+T6	Physiology 115 133	rumen fermentation
+T7	Population 137 156	Holstein dairy cows
+T8	Physiology 174 195	lactation performance
+T9	Measurement 234 252	antioxidant status
+T10	Physiology 209 229	nutrient utilization
+T11	Nutrient 741 743	Se
+T12	Nutrient 263 278	sodium selenite
+T13	Nutrient 280 282	SS
+T14	Nutrient 327 329	Se
+T15	Nutrient 392 394	Se
+T16	Nutrient 434 436	SS
+T17	Nutrient 441 450	coated SS
+T18	Nutrient 452 455	CSS
+T19	AFFECTS 423 430	impacts
+T20	Physiology 476 497	lactation performance
+T21	Physiology 499 521	nutrient digestibility
+T22	Physiology 523 543	ruminal fermentation
+T23	Population 562 572	dairy cows
+T24	Population 580 611	multiparous Holstein dairy cows
+T25	Measurement 636 652	daily milk yield
+T26	Nutrient 721 723	SS
+T27	Nutrient 769 772	CSS
+T28	Nutrient 753 755	SS
+T29	Nutrient 815 818	CSS
+T30	Nutrient 836 839	CSS
+T31	DietPattern 841 845	LCSS
+T32	DietPattern 832 839	low CSS
+T35	Nutrient 2481 2483	Se
+T36	DietPattern 848 858	medium CSS
+T37	Nutrient 855 858	CSS
+T38	DietPattern 860 864	MCSS
+T39	DietPattern 870 878	high CSS
+T40	Nutrient 875 878	CSS
+T41	DietPattern 880 884	HCSS
+T42	DietPattern 1027 1031	MCSS
+T43	DietPattern 1036 1040	HCSS
+T44	Physiology 994 1011	Dry matter intake
+T45	INCREASES 1016 1022	higher
+T46	Physiology 1064 1078	Yields of milk
+T47	Nutrient 1080 1088	milk fat
+T48	Nutrient 1093 1105	milk protein
+T49	Measurement 1110 1125	feed efficiency
+T50	INCREASES 1131 1137	higher
+T51	DietPattern 1142 1146	MCSS
+T52	DietPattern 1151 1155	HCSS
+T53	Nutrient 1174 1176	SS
+T54	DietPattern 1181 1185	LCSS
+T55	Physiology 1187 1206	Digestibility of DM
+T56	Chemical 1211 1225	organic matter
+T57	Nutrient 1242 1245	CSS
+T58	Nutrient 1268 1270	SS
+T59	Physiology 1298 1317	Digestibility of CP
+T60	INCREASES 1230 1237	highest
+T61	INCREASES 1322 1328	higher
+T62	DietPattern 1333 1337	MCSS
+T63	DietPattern 1342 1346	HCSS
+T64	Nutrient 1365 1367	SS
+T65	DietPattern 1372 1376	LCSS
+T66	Physiology 1385 1415	digestibility of ether extract
+T67	Nutrient 1417 1420	NDF
+T68	Nutrient 1425 1428	ADF
+T69	Nutrient 1446 1448	SS
+T70	Physiology 1385 1401;1425 1428	digestibility of ADF
+T71	Physiology 1385 1401;1417 1420	digestibility of NDF
+T72	INCREASES 1378 1384	Higher
+T73	Nutrient 1452 1455	CSS
+T74	Physiology 1466 1476	Ruminal pH
+T75	DECREASES 1477 1486	decreased
+T76	Nutrient 1500 1502	Se
+T79	Metabolite 1513 1540	Acetate to propionate ratio
+T80	Metabolite 1545 1554	ammonia N
+T81	DECREASES 1560 1565	lower
+T82	Metabolite 1571 1618	total volatile fatty acids (VFAs) concentration
+T83	INCREASES 1623 1630	greater
+T84	Nutrient 1635 1637	SS
+T85	DietPattern 1639 1643	MCSS
+T86	DietPattern 1648 1652	HCSS
+T87	Metabolite 1667 1694	Ruminal H ion concentration
+T88	INCREASES 1699 1706	highest
+T89	DietPattern 1711 1715	MCSS
+T90	DietPattern 1720 1724	HCSS
+T91	Enzyme 1763 1773	cellobiase
+T92	Enzyme 1775 1798	carboxymethyl-cellulase
+T93	Enzyme 1800 1808	xylanase
+T94	Enzyme 1813 1821	protease
+T95	Microorganism 1852 1857	fungi
+T96	Microorganism 1859 1884	Ruminococcus flavefaciens
+T97	Microorganism 1886 1910	Fibrobacter succinogenes
+T98	Microorganism 1915 1939	Ruminococcus amylophilus
+T99	INCREASES 1940 1949	increased
+T100	Nutrient 1955 1957	SS
+T101	Nutrient 1961 1964	CSS
+T102	Enzyme 1987 1996	α-amylase
+T103	Microorganism 2008 2016	protozoa
+T104	Microorganism 2018 2036	Ruminococcus albus
+T105	Microorganism 2041 2066	Butyrivibrio fibrisolvens
+T106	Chemical 2071 2084	serum glucose
+T107	Nutrient 2086 2099	total protein
+T108	Chemical 2101 2108	albumin
+T109	Enzyme 2113 2135	glutathione peroxidase
+T110	INCREASES 2141 2147	higher
+T111	Nutrient 2152 2154	SS
+T112	DietPattern 2156 2160	MCSS
+T113	DietPattern 2165 2169	HCSS
+T114	DietPattern 2191 2195	LCSS
+T115	Nutrient 2205 2207	SS
+T116	Nutrient 2211 2214	CSS
+T117	Chemical 2240 2262	blood Se concentration
+T118	Physiology 2273 2293	antioxidant capacity
+T119	INCREASES 2231 2239	elevated
+T120	Physiology 2326 2336	milk yield
+T121	Physiology 2373 2407	total tract nutrient digestibility
+T122	Metabolite 2409 2432	total VFA concentration
+T123	Food 2487 2489	DM
+T124	Nutrient 2495 2498	CSS
+T126	Population 2518 2528	dairy cows
+T127	POS_ASSOCIATED_WITH 2341 2369	elevated due to the increase
+T128	Nutrient 2544 2546	SS
+T129	DietPattern 2548 2552	HCSS
+T130	IMPROVES 2584 2593	promoting
+T131	Physiology 2594 2615	lactation performance
+T132	Population 2619 2629	dairy cows
+T133	Nutrient 159 161	Se
+T134	IMPROVES 166 173	enhance
+T135	IMPROVES 199 208	improving
+T136	Nutrient 803 805	Se
+E1	AFFECTS:T1 Theme:T4 Agent:T2
+E2	AFFECTS:T1 Theme:T5 Agent:T2
+E3	AFFECTS:T1 Theme:T6 Agent:T2
+E4	AFFECTS:T1 Theme:T6 Agent:T3
+E5	AFFECTS:T1 Theme:T5 Agent:T3
+E6	AFFECTS:T1 Theme:T4 Agent:T3
+E7	IMPROVES:T135 Agent:T133 Theme:T10
+E8	IMPROVES:T135 Agent:T133 Theme:T9
+E9	AFFECTS:T19 Agent:T16 Theme:T20
+E10	AFFECTS:T19 Agent:T17 Theme:T20
+E11	AFFECTS:T19 Agent:T17 Theme:T21
+E12	AFFECTS:T19 Agent:T17 Theme:T22
+E13	AFFECTS:T19 Agent:T16 Theme:T21
+E14	AFFECTS:T19 Agent:T16 Theme:T22
+E15	INCREASES:T45 Theme:T44 Agent:T42
+E16	INCREASES:T45 Theme:T44 Agent:T43
+E17	INCREASES:T50 Agent:T51 Theme:T49
+E18	INCREASES:T50 Agent:T52 Theme:T49
+E19	INCREASES:T50 Agent:T52 Theme:T48
+E20	INCREASES:T50 Agent:T52 Theme:T47
+E21	INCREASES:T50 Agent:T52 Theme:T46
+E22	INCREASES:T50 Agent:T51 Theme:T48
+E23	INCREASES:T50 Agent:T51 Theme:T47
+E24	INCREASES:T50 Agent:T51 Theme:T46
+E25	INCREASES:T60 Agent:T57 Theme:T56
+E26	INCREASES:T60 Agent:T57 Theme:T55
+E27	INCREASES:T61 Theme:T59 Agent:T62
+E28	INCREASES:T61 Theme:T59 Agent:T63
+E29	INCREASES:T72 Agent:T69 Theme:T66
+E30	INCREASES:T72 Agent:T73 Theme:T66
+E31	INCREASES:T72 Agent:T69 Theme:T71
+E32	INCREASES:T72 Agent:T69 Theme:T70
+E33	INCREASES:T72 Agent:T73 Theme:T71
+E34	INCREASES:T72 Agent:T73 Theme:T70
+E35	DECREASES:T75 Agent:T76 Theme:T74
+E36	DECREASES:T81 Agent:T84 Theme:T80
+E37	INCREASES:T83 Theme:T82 Agent:T84
+E38	INCREASES:T83 Theme:T82 Agent:T85
+E39	INCREASES:T83 Theme:T82 Agent:T86
+E40	DECREASES:T81 Agent:T85 Theme:T80
+E41	DECREASES:T81 Agent:T86 Theme:T80
+E42	DECREASES:T81 Agent:T86 Theme:T79
+E43	DECREASES:T81 Agent:T84 Theme:T79
+E44	DECREASES:T81 Agent:T85 Theme:T79
+E45	INCREASES:T88 Theme:T87 Agent:T89
+E46	INCREASES:T88 Theme:T87 Agent:T90
+E47	INCREASES:T99 Agent:T100 Theme:T98
+E48	INCREASES:T99 Agent:T101 Theme:T98
+E49	INCREASES:T99 Agent:T100 Theme:T97
+E50	INCREASES:T99 Agent:T100 Theme:T96
+E51	INCREASES:T99 Agent:T100 Theme:T95
+E52	INCREASES:T99 Agent:T100 Theme:T94
+E53	INCREASES:T99 Agent:T100 Theme:T93
+E54	INCREASES:T99 Agent:T100 Theme:T92
+E55	INCREASES:T99 Agent:T100 Theme:T91
+E56	INCREASES:T99 Agent:T101 Theme:T97
+E57	INCREASES:T99 Agent:T101 Theme:T96
+E58	INCREASES:T99 Agent:T101 Theme:T95
+E59	INCREASES:T99 Agent:T101 Theme:T94
+E60	INCREASES:T99 Agent:T101 Theme:T93
+E61	INCREASES:T99 Agent:T101 Theme:T92
+E62	INCREASES:T99 Agent:T101 Theme:T91
+E63	INCREASES:T110 Agent:T111 Theme:T109
+E64	INCREASES:T110 Agent:T112 Theme:T109
+E65	INCREASES:T110 Agent:T113 Theme:T109
+E66	INCREASES:T110 Agent:T113 Theme:T108
+E67	INCREASES:T110 Agent:T113 Theme:T107
+E68	INCREASES:T110 Agent:T113 Theme:T106
+E69	INCREASES:T110 Agent:T113 Theme:T105
+E70	INCREASES:T110 Agent:T113 Theme:T104
+E71	INCREASES:T110 Agent:T113 Theme:T103
+E72	INCREASES:T110 Agent:T113 Theme:T102
+E73	INCREASES:T110 Agent:T112 Theme:T108
+E74	INCREASES:T110 Agent:T112 Theme:T107
+E75	INCREASES:T110 Agent:T112 Theme:T106
+E76	INCREASES:T110 Agent:T112 Theme:T105
+E77	INCREASES:T110 Agent:T112 Theme:T104
+E78	INCREASES:T110 Agent:T112 Theme:T103
+E79	INCREASES:T110 Agent:T112 Theme:T102
+E80	INCREASES:T110 Agent:T111 Theme:T108
+E81	INCREASES:T110 Agent:T111 Theme:T107
+E82	INCREASES:T110 Agent:T111 Theme:T106
+E83	INCREASES:T110 Agent:T111 Theme:T105
+E84	INCREASES:T110 Agent:T111 Theme:T104
+E85	INCREASES:T110 Agent:T111 Theme:T103
+E86	INCREASES:T110 Agent:T111 Theme:T102
+E87	INCREASES:T119 Agent:T116 Theme:T117
+E88	INCREASES:T119 Agent:T115 Theme:T117
+E89	INCREASES:T119 Agent:T115 Theme:T118
+E90	INCREASES:T119 Agent:T116 Theme:T118
+E92	POS_ASSOCIATED_WITH:T127 Theme:T120 Agent:T121
+E93	POS_ASSOCIATED_WITH:T127 Theme:T120 Agent:T122
+E94	IMPROVES:T134 Theme:T8 Agent:T133
+E95	IMPROVES:T130 Agent:T129 Theme:T131
+A1	Unknown E1
+A2	Unknown E2
+A3	Unknown E3
+A4	Unknown E4
+A5	Unknown E5
+A6	Unknown E6
+A7	Unknown E9
+A8	Unknown E10
+A9	Unknown E11
+A10	Unknown E12
+A11	Unknown E13
+A12	Unknown E14
+N1	NCIT:C87346 T2	Sodium Selenite
+N2	NCIT:C87346 T3	Sodium Selenite
+N3	MESH:D007774 T4	Lactation
+N4	MESH:D007774 T8	Lactation
+N5	NCIT:C87346 T11	Sodium Selenite
+N6	NCIT:C87346 T12	Sodium Selenite
+N7	NCIT:C87346 T13	Sodium Selenite
+N8	NCIT:C87346 T14	Sodium Selenite
+N9	NCIT:C87346 T15	Sodium Selenite
+N10	NCIT:C87346 T16	Sodium Selenite
+N11	NCIT:C87346 T17	Sodium Selenite
+N12	NCIT:C87346 T18	Sodium Selenite
+N13	MESH:D007774 T20	Lactation
+N14	NCIT:C87346 T26	Sodium Selenite
+N15	NCIT:C87346 T27	Sodium Selenite
+N16	NCIT:C87346 T28	Sodium Selenite
+N17	NCIT:C87346 T29	Sodium Selenite
+N18	NCIT:C87346 T30	Sodium Selenite
+N19	NCIT:C87346 T31	Sodium Selenite
+N20	NCIT:C87346 T32	Sodium Selenite
+N21	NCIT:C87346 T35	Sodium Selenite
+N22	NCIT:C87346 T36	Sodium Selenite
+N23	NCIT:C87346 T37	Sodium Selenite
+N24	NCIT:C87346 T38	Sodium Selenite
+N25	NCIT:C87346 T39	Sodium Selenite
+N26	NCIT:C87346 T40	Sodium Selenite
+N27	NCIT:C87346 T41	Sodium Selenite
+N28	NCIT:C87346 T42	Sodium Selenite
+N29	NCIT:C87346 T43	Sodium Selenite
+N30	FOODON:00002681 T47	milk fat
+N31	MESH:D008894 T48	Milk Proteins
+N32	NCIT:C87346 T51	Sodium Selenite
+N33	NCIT:C87346 T52	Sodium Selenite
+N34	NCIT:C87346 T53	Sodium Selenite
+N35	NCIT:C87346 T54	Sodium Selenite
+N36	NCIT:C87346 T57	Sodium Selenite
+N37	NCIT:C87346 T58	Sodium Selenite
+N38	NCIT:C87346 T62	Sodium Selenite
+N39	NCIT:C87346 T63	Sodium Selenite
+N40	NCIT:C87346 T64	Sodium Selenite
+N41	NCIT:C87346 T65	Sodium Selenite
+N42	NCIT:C87346 T69	Sodium Selenite
+N43	NCIT:C87346 T73	Sodium Selenite
+N44	NCIT:C87346 T76	Sodium Selenite
+N45	NCIT:C79714 T80	Ammonia N-13
+N46	MESH:D005232 T82	Fatty Acids, Volatile
+N47	NCIT:C87346 T84	Sodium Selenite
+N48	NCIT:C87346 T85	Sodium Selenite
+N49	NCIT:C87346 T86	Sodium Selenite
+N50	NCIT:C87346 T89	Sodium Selenite
+N51	NCIT:C87346 T90	Sodium Selenite
+N52	MESH:D001617 T91	beta-Glucosidase
+N53	MESH:C019826 T92	carboxymethylcellulase
+N54	CHEBI:173301 T93	endo-1,4-beta-Xylanase
+N55	MESH:D010447 T94	Peptide Hydrolases
+N56	NCBITAXON:4751 T95	Fungi
+N57	NCBITAXON:1265 T96	Ruminococcus flavefaciens
+N58	NCBITAXON:833 T97	Fibrobacter succinogenes
+N59	NCIT:C87346 T100	Sodium Selenite
+N60	NCIT:C87346 T101	Sodium Selenite
+N61	NCIT:C107565 T102	Alpha Amylase
+N62	NCIT:C77916 T103	Protozoa
+N63	NCBITAXON:1264 T104	Ruminococcus albus
+N64	NCBITAXON:831 T105	Butyrivibrio fibrisolvens
+N65	NCIT:C61027 T106	Serum Glucose Measurement
+N66	NCIT:C64858 T107	Total Protein Measurement
+N67	NCIT:C214 T108	Albumin
+N68	MESH:D005979 T109	Glutathione Peroxidase
+N69	NCIT:C87346 T111	Sodium Selenite
+N70	NCIT:C87346 T112	Sodium Selenite
+N71	NCIT:C87346 T113	Sodium Selenite
+N72	NCIT:C87346 T114	Sodium Selenite
+N73	NCIT:C87346 T115	Sodium Selenite
+N74	NCIT:C87346 T116	Sodium Selenite
+N75	NCIT:C87346 T117	Sodium Selenite
+N76	OCHV:55258 T118	antioxidant activity
+N77	MESH:D005232 T122	Fatty Acids, Volatile
+N78	NCIT:C87346 T124	Sodium Selenite
+N79	NCIT:C87346 T128	Sodium Selenite
+N80	NCIT:C87346 T129	Sodium Selenite
+N81	MESH:D007774 T131	Lactation
+N82	NCIT:C87346 T133	Sodium Selenite
+N83	NCIT:C87346 T136	Sodium Selenite
+A13	Factual E7
+A14	Factual E8
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19
+A20	Factual E20
+A21	Factual E21
+A22	Factual E22
+A23	Factual E23
+A24	Factual E24
+A25	Factual E25
+A26	Factual E26
+A27	Factual E27
+A28	Factual E28
+A29	Factual E29
+A30	Factual E30
+A31	Factual E31
+A32	Factual E32
+A33	Factual E33
+A34	Factual E34
+A35	Factual E35
+A36	Factual E36
+A37	Factual E37
+A38	Factual E38
+A39	Factual E39
+A40	Factual E40
+A41	Factual E41
+A42	Factual E42
+A43	Factual E43
+A44	Factual E44
+A45	Factual E45
+A46	Factual E46
+A47	Factual E47
+A48	Factual E48
+A49	Factual E49
+A50	Factual E50
+A51	Factual E51
+A52	Factual E52
+A53	Factual E53
+A54	Factual E54
+A55	Factual E55
+A56	Factual E56
+A57	Factual E57
+A58	Factual E58
+A59	Factual E59
+A60	Factual E60
+A61	Factual E61
+A62	Factual E62
+A63	Factual E63
+A64	Factual E64
+A65	Factual E65
+A66	Factual E66
+A67	Factual E67
+A68	Factual E68
+A69	Factual E69
+A70	Factual E70
+A71	Factual E71
+A72	Factual E72
+A73	Factual E73
+A74	Factual E74
+A75	Factual E75
+A76	Factual E76
+A77	Factual E77
+A78	Factual E78
+A79	Factual E79
+A80	Factual E80
+A81	Factual E81
+A82	Factual E82
+A83	Factual E83
+A84	Factual E84
+A85	Factual E85
+A86	Factual E86
+A87	Factual E87
+A88	Factual E88
+A89	Factual E89
+A90	Factual E90
+A91	Factual E92
+A92	Factual E93
+A93	Factual E94
+A94	Factual E95

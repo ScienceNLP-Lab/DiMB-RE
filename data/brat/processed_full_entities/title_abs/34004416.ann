@@ -1,0 +1,100 @@
+T1	Methodology 51 112	randomized, double-blind, placebo-controlled, crossover trial
+T2	Population 116 130	healthy adults
+T3	Nutrient 10 25	arabinogalactan
+T4	Nutrient 201 216	arabinogalactan
+T5	Nutrient 263 290	non-digestible carbohydrate
+T6	AFFECTS 401 407	effect
+T7	Nutrient 414 429	arabinogalactan
+T8	Metabolite 478 501	short-chain fatty acids
+T9	Physiology 506 532	gastrointestinal tolerance
+T10	Population 536 550	healthy adults
+T11	Methodology 556 597	randomized, double-blind, crossover trial
+T12	Nutrient 689 698	ResistAid
+T13	Nutrient 439 448	ResistAid
+T14	Nutrient 663 675	maltodextrin
+T15	Nutrient 750 759	ResistAid
+T16	INCREASES 870 878	increase
+T17	DiversityMetric 813 855	ratio of fecal Firmicutes to Bacteroidetes
+T18	DECREASES 797 805	decrease
+T19	Microorganism 882 895	Bacteroidetes
+T20	DECREASES 902 910	decrease
+T21	Microorganism 914 924	Firmicutes
+T22	Microorganism 962 977	Bifidobacterium
+T23	INCREASES 988 996	increase
+T24	Nutrient 1002 1011	ResistAid
+T25	Nutrient 1043 1052	ResistAid
+T26	DECREASES 1067 1076	decreased
+T27	DiversityMetric 1081 1092	α-diversity
+T28	Methodology 1159 1177	16S rRNA sequences
+T29	Nutrient 1190 1199	ResistAid
+T30	INCREASES 1216 1225	increased
+T31	Nutrient 1464 1473	ResistAid
+T32	Methodology 1118 1149	Predicted functional abundances
+T33	Enzyme 1271 1287	α-l-rhamnosidase
+T34	Enzyme 1289 1303	β-fructosidase
+T35	Enzyme 1309 1317	levanase
+T36	Physiology 1330 1348;1364 1385	tricarboxylic acid biosynthesis pathways
+T37	Physiology 1353 1385	vitamin B6 biosynthesis pathways
+T38	Metabolite 1418 1432	hexanoic acids
+T39	Metabolite 1405 1412;1427 1432	valeric acids
+T40	Metabolite 1393 1403;1427 1432	isovaleric acids
+T41	DECREASES 1452 1457	lower
+T42	Physiology 1538 1549	bowel habit
+T43	Physiology 1551 1568	stool consistency
+T44	Physiology 1570 1605	gastrointestinal tolerance symptoms
+T45	Nutrient 1696 1705	ResistAid
+T46	AFFECTS 1501 1534	statistically significant changes
+T47	Nutrient 1843 1852	ResistAid
+E1	AFFECTS:T6 Theme:T8 Agent:T13
+E2	INCREASES:T16 Agent:T15 Theme:T19
+E3	DECREASES:T18 Agent:T15 Theme:T17
+E4	DECREASES:T20 Agent:T15 Theme:T21
+E5	INCREASES:T23 Agent:T24 Theme:T22
+E6	DECREASES:T26 Theme:T27 Agent:T25
+E7	INCREASES:T30 Agent:T29 Theme:T33
+E8	AFFECTS:T6 Theme:T9 Agent:T13
+E9	INCREASES:T30 Agent:T29 Theme:T34
+E10	INCREASES:T30 Agent:T29 Theme:T35
+E11	INCREASES:T30 Agent:T29 Theme:T36
+E12	INCREASES:T30 Agent:T29 Theme:T37
+E13	DECREASES:T41 Agent:T31 Theme:T40
+E14	DECREASES:T41 Agent:T31 Theme:T39
+E15	DECREASES:T41 Agent:T31 Theme:T38
+E16	AFFECTS:T46 Theme:T42 Agent:T45
+E17	AFFECTS:T46 Theme:T43 Agent:T45
+E18	AFFECTS:T46 Theme:T44 Agent:T45
+A1	Unknown E8
+A2	Unknown E1
+A3	Negated E16
+A4	Negated E17
+A5	Negated E18
+N1	CHEBI:27569 T3	arabinogalactan
+N2	CHEBI:27569 T4	arabinogalactan
+N3	CHEBI:27569 T7	arabinogalactan
+N4	CHEBI:26666 T8	short-chain fatty acid
+N5	CHEBI:25140 T14	maltodextrin
+N6	NCIT:C189550 T17	Firmicutes to Bacteroidetes Ratio Measurement
+N7	NCBITAXON:976 T19	Bacteroidetes
+N8	NCBITAXON:1239 T21	Firmicutes
+N9	NCBITAXON:1678 T22	Bifidobacterium
+N10	MESH:C022525 T33	alpha-L-rhamnosidase
+N11	MESH:C044118 T34	fructan beta-fructosidase
+N12	MESH:C021512 T35	levanase
+N13	CHEBI:30776 T38	hexanoic acid
+N14	CHEBI:17418 T39	valeric acid
+N15	CHEBI:28484 T40	isovaleric acid
+N16	NCIT:C94609 T42	Bowel Function
+N17	NCIT:C129750 T43	Shape and Consistency of Stool
+A6	Factual E2
+A7	Factual E3
+A8	Factual E4
+A9	Factual E5
+A10	Factual E6
+A11	Factual E7
+A12	Factual E9
+A13	Factual E10
+A14	Factual E11
+A15	Factual E12
+A16	Factual E13
+A17	Factual E14
+A18	Factual E15

@@ -1,0 +1,6 @@
+T1	Disease 112 130	metabolic diseases
+T2	Disease 229 246	metabolic disease
+T11	Disease 998 1005	obesity
+N1	NCIT:C3235 T1	Metabolic Disorder
+N2	NCIT:C3235 T2	Metabolic Disorder
+N3	NCIT:C3283 T11	Obesity

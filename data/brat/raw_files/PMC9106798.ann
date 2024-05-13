@@ -1,0 +1,754 @@
+T1	Food 30 37	Granola
+T2	HAS_COMPONENT 38 48	Containing
+T3	Nutrient 49 67	Cereal Beta-Glucan
+T4	IMPROVES 68 76	Improves
+T5	Physiology 77 94	Glycemic Response
+T6	Population 129 148	Healthy Individuals
+T7	Methodology 150 167	A Crossover Study
+T8	Nutrient 179 193	soluble fibers
+T9	Nutrient 204 215	beta-glucan
+T10	IMPROVES 229 236	improve
+T11	Physiology 237 268	post-prandial glycemic response
+T12	ASSOCIATED_WITH 438 442	link
+T13	Nutrient 461 472	beta-glucan
+T14	AFFECTS 585 591	effect
+T15	Food 595 602	granola
+T16	HAS_COMPONENT 603 607	with
+T17	Nutrient 629 647	cereal beta-glucan
+T18	Physiology 651 668	glycemic response
+T19	Population 741 770	healthy, normal weight adults
+T20	Methodology 783 820	dose-response dietary crossover study
+T21	Nutrient 843 861	cereal beta-glucan
+T22	Food 923 930	granola
+T23	HAS_COMPONENT 920 922	in
+T24	Food 953 965	low-fat milk
+T25	Chemical 1013 1026	Blood glucose
+T26	Chemical 1031 1038	insulin
+T27	Methodology 1073 1100	oral glucose tolerance test
+T28	Methodology 1102 1106	OGTT
+T29	Chemical 1142 1152	peptide YY
+T30	Chemical 1163 1184	glucagon-like peptide
+T31	Chemical 1154 1157	PYY
+T32	Chemical 1186 1191	GLP-2
+T33	Metabolite 1243 1252	breath H2
+T34	Biospecimen 1276 1281	feces
+T35	Metabolite 1194 1225	fasting short chain fatty acids
+T36	Metabolite 1227 1231	SCFA
+T37	Nutrient 1328 1339	beta-glucan
+T38	DECREASES 1340 1349	decreased
+T39	Methodology 1383 1387	OGTT
+T40	Chemical 1350 1363	blood glucose
+T41	Chemical 1368 1375	insulin
+T42	Chemical 1410 1421	Fasting PYY
+T43	INCREASES 1422 1431	increased
+T44	Metabolite 1532 1537	SCFAs
+T45	Metabolite 1604 1611	acetate
+T46	Metabolite 1616 1624	butyrate
+T47	Metabolite 1642 1652	propionate
+T48	INCREASES 1625 1634	increased
+T49	Nutrient 1713 1724	beta-glucan
+T50	Biospecimen 1236 1241	blood
+T51	Nutrient 1442 1448;1458 1469	medium beta-glucan
+T52	AFFECTS 1657 1666	unchanged
+T53	Measurement 1873 1901	markers of glycemic response
+T54	Food 1925 1932	granola
+T55	HAS_COMPONENT 1933 1943	containing
+T56	Nutrient 1950 1968	cereal beta-glucan
+T57	Physiology 2268 2287	glycemic regulation
+T58	DECREASES 2015 2022	reduced
+T59	Physiology 2027 2044	glycemic response
+T60	Methodology 2054 2058	OGTT
+T61	Nutrient 30407 30413;30423 30434	medium beta-glucan
+T62	Nutrient 2246 2264	cereal beta-glucan
+T63	Physiology 477 505	improved glycemic regulation
+T64	Nutrient 1453 1469	high beta-glucan
+T65	Nutrient 1491 1506	low beta-glucan
+T66	Microorganism 1740 1751	Haemophilus
+T67	Microorganism 1765 1776	Veillonella
+T68	Microorganism 1781 1791	Sutterella
+T69	POS_ASSOCIATED_WITH 1676 1691	positive effect
+T70	Population 25160 25165	women
+T71	Population 25172 25175	men
+T72	Measurement 25257 25272	body mass index
+T73	Measurement 25274 25277	BMI
+T74	Nutrient 25390 25393	fat
+T75	Nutrient 25475 25496	Saturated fatty acids
+T76	Nutrient 25498 25501	SFA
+T77	Nutrient 25549 25576	monounsaturated fatty acids
+T78	Nutrient 25578 25582	MUFA
+T79	Nutrient 25588 25615	polyunsaturated fatty acids
+T80	Nutrient 25617 25621	PUFA
+T81	Nutrient 25693 25701	proteins
+T82	Nutrient 25706 25719	carbohydrates
+T83	Nutrient 25766 25771	fiber
+T84	Measurement 25955 25958	BMI
+T85	Chemical 25988 26003	Fasting glucose
+T86	Chemical 26031 26046	Fasting insulin
+T87	Chemical 26077 26102	Fasting total cholesterol
+T88	Chemical 26130 26150	Fasting triglyceride
+T89	Chemical 26181 26194	Fasting hsCRP
+T90	Measurement 26294 26309	Body mass index
+T91	Measurement 26289 26292	BMI
+T92	Chemical 26311 26316	hsCRP
+T93	Chemical 26318 26353	high sensitivity C-reactive protein
+T94	Physiology 32784 32811	gut microbiota fermentation
+T95	Nutrient 26431 26438	Protein
+T96	Nutrient 26461 26464	Fat
+T97	Nutrient 26487 26490	SFA
+T98	Nutrient 26513 26517	MUFA
+T99	Nutrient 26540 26544	PUFA
+T100	Nutrient 26564 26577	Carbohydrates
+T101	Nutrient 26600 26605	Fiber
+T102	Methodology 26668 26671	FFQ
+T103	Methodology 26729 26732	FFQ
+T104	Methodology 26734 26762	food frequency questionnaire
+T105	Microorganism 37203 37214	Akkermansia
+T106	Nutrient 26833 26836	SFA
+T107	Nutrient 26838 26859	saturated fatty acids
+T108	Nutrient 26861 26865	PUFA
+T109	Nutrient 26867 26894	Monounsaturated fatty acids
+T110	Nutrient 26896 26900	PUFA
+T111	Nutrient 26902 26929	Polyunsaturated fatty acids
+T112	Physiology 26932 26951	Glycemic Regulation
+T113	Food 26968 26975	Granola
+T114	HAS_COMPONENT 26976 26980	With
+T115	Nutrient 26981 26999	Cereal Beta-Glucan
+T116	Food 27048 27055	granola
+T117	HAS_COMPONENT 27062 27066	with
+T118	Nutrient 27086 27097	beta-glucan
+T119	Physiology 27101 27118	glycemic response
+T120	Methodology 27178 27182	OGTT
+T121	Physiology 27184 27201	Glycemic response
+T122	IMPROVES 27206 27214	improved
+T123	Food 27220 27227	granola
+T124	HAS_COMPONENT 27241 27251	containing
+T125	Nutrient 27252 27270	cereal beta-glucan
+T126	Chemical 27322 27337	fasting glucose
+T127	DECREASES 27358 27367	decreased
+T128	Nutrient 27379 27395	high beta-glucan
+T129	Chemical 27475 27490	Fasting insulin
+T130	DECREASES 27517 27524	reduced
+T131	Nutrient 27589 27600	beta-glucan
+T132	Microorganism 37222 37235	Streptococcus
+T133	Physiology 27660 27696	post-prandial blood glucose response
+T134	Measurement 27698 27702	iAUC
+T135	DECREASES 27722 27729	reduced
+T136	Nutrient 27758 27776	medium beta-glucan
+T137	Nutrient 27838 27842;27855 27866	high beta-glucan
+T138	Physiology 27896 27926	insulin post-prandial response
+T139	Measurement 27928 27932	iAUC
+T140	DECREASES 27938 27945	reduced
+T141	Nutrient 27962 27980	medium beta-glucan
+T142	Nutrient 28041 28045;28058 28075	high beta-glucan meals
+T143	Measurement 28122 28129	HOMA-IR
+T144	Measurement 28134 28147	Matsuda index
+T145	Disease 28160 28178	insulin resistance
+T146	Physiology 28183 28202	insulin sensitivity
+T147	Measurement 28257 28264	HOMA-IR
+T148	AFFECTS 28239 28253	no differences
+T149	Nutrient 28306 28317	beta-glucan
+T150	Measurement 28319 28332	Matsuda index
+T151	INCREASES 28347 28356	increased
+T152	Nutrient 28405 28416	beta-glucan
+T153	Microorganism 37240 37251	Actinomyces
+T154	IMPROVES 28495 28503	improved
+T155	Physiology 28504 28523	insulin sensitivity
+T156	Physiology 28535 28570	Postprandial blood glucose response
+T157	Food 28587 28594	granola
+T158	HAS_COMPONENT 28595 28599	with
+T159	Nutrient 28600 28618	cereal beta-glucan
+T160	Physiology 28624 28653	postprandial glucose response
+T161	Methodology 28727 28731	OGTT
+T162	Nutrient 28795 28806	beta-glucan
+T163	Methodology 28904 28920	Friedman’s Anova
+T164	Methodology 28933 28958	Wilcoxon signed rank test
+T165	Chemical 29032 29053	Fasting blood glucose
+T166	Chemical 29058 29065	insulin
+T167	Food 29100 29107	granola
+T168	HAS_COMPONENT 29108 29112	with
+T169	Nutrient 29113 29131	cereal beta-glucan
+T170	Nutrient 29155 29170	Low beta-glucan
+T171	Nutrient 29171 29189	Medium beta-glucan
+T172	Nutrient 29190 29206	High beta-glucan
+T173	Chemical 29289 29304	Fasting Glucose
+T174	Chemical 29418 29439	Fasting Serum Insulin
+T175	Methodology 29682 29697	Friedmans Anova
+T176	Methodology 29702 29727	Wilcoxon signed rank test
+T177	Methodology 29765 29790	Wilcoxon signed rank test
+T178	Methodology 29832 29847	Friedmans Anova
+T179	Methodology 29920 29945	Wilcoxon signed rank test
+T180	Chemical 29959 29985	Postprandial serum insulin
+T181	Food 30011 30018	granola
+T182	HAS_COMPONENT 30019 30023	with
+T183	Nutrient 30024 30042	cereal beta-glucan
+T184	Physiology 30048 30077	postprandial insulin response
+T185	Methodology 30151 30155	OGTT
+T187	Methodology 30328 30344	Friedman’s Anova
+T188	Methodology 30357 30382	Wilcoxon signed rank test
+T189	Chemical 30385 30400	Fasting insulin
+T191	Nutrient 30418 30434	high beta-glucan
+T192	Chemical 30473 30480	Insulin
+T193	Nutrient 30506 30524	medium beta-glucan
+T194	Nutrient 30570 30586	high beta-glucan
+T195	Nutrient 30562 30565;30575 30586	low beta-glucan
+T197	Nutrient 30219 30230	beta-glucan
+T198	Disease 30588 30606	Insulin resistance
+T199	Measurement 30608 30615	HOMA-IR
+T200	Physiology 30621 30640	insulin sensitivity
+T201	Measurement 30642 30655	Matsuda index
+T202	Food 30673 30680	granola
+T203	HAS_COMPONENT 30681 30685	with
+T204	Nutrient 30686 30704	cereal beta-glucan
+T205	Nutrient 30737 30752	Low beta-glucan
+T206	Nutrient 30753 30771	Medium beta-glucan
+T207	Nutrient 30772 30788	High beta-glucan
+T208	Measurement 30800 30807	HOMA-IR
+T209	Measurement 30881 30894	Matsuda index
+T210	Methodology 31056 31072	Friedman’s Anova
+T211	Methodology 31085 31110	Wilcoxon signed rank test
+T212	Methodology 31148 31163	Friedman’s Anov
+T213	Methodology 31237 31262	Wolcoxon signed rank test
+T214	Measurement 31264 31271	HOMA-IR
+T215	Measurement 31273 31324	Homeostatic Model Assessment for Insulin Resistance
+T216	Chemical 31327 31350	Glucagon-Like Peptide-2
+T217	Chemical 31355 31365	Peptide YY
+T218	Food 31382 31389	Granola
+T219	HAS_COMPONENT 31390 31394	With
+T220	Nutrient 31395 31413	Cereal Beta-Glucan
+T221	Chemical 31490 31495	GLP-2
+T222	AFFECTS 31464 31486	no significant changes
+T223	Chemical 31576 31579	PYY
+T224	INCREASES 31594 31603	increased
+T225	Nutrient 31635 31646	beta-glucan
+T226	Nutrient 31714 31736	high beta-glucan meals
+T227	Nutrient 31703 31709;31719 31736	medium beta-glucan meals
+T228	INCREASES 31737 31746	increased
+T229	Chemical 31747 31758	fasting PYY
+T230	Nutrient 31777 31797	low beta-glucan meal
+T231	Nutrient 31874 31895	high beta-glucan meal
+T232	INCREASES 31896 31905	increased
+T233	Chemical 31906 31917	fasting PYY
+T234	Nutrient 31932 31955	medium beta-glucan meal
+T236	Chemical 32025 32030	GLP-2
+T237	Chemical 32017 32020	PYY
+T239	Food 32047 32054	granola
+T240	HAS_COMPONENT 32055 32059	with
+T241	Nutrient 32060 32078	cereal beta-glucan
+T242	Methodology 32157 32161	OGTT
+T243	Nutrient 32209 32220	beta-glucan
+T246	Methodology 32318 32334	Friedman’s Anova
+T247	Methodology 32347 32372	Wilcoxon signed rank test
+T248	Metabolite 32427 32436	Breath H2
+T249	Metabolite 32441 32464	Short Chain Fatty Acids
+T250	Physiology 32479 32495	Gut Fermentation
+T251	Metabolite 32564 32573	breath H2
+T252	Metabolite 32578 32582	SCFA
+T253	Nutrient 32596 32607	beta-glucan
+T254	INCREASES 32623 32631	increase
+T255	Chemical 32635 32652	fasting breath H2
+T256	Methodology 32738 32742	OGTT
+T257	Metabolite 32759 32763	SCFA
+T258	Nutrient 32889 32900	beta-glucan
+T259	Metabolite 32927 32934	acetate
+T260	Metabolite 32939 32947	butyrate
+T261	INCREASES 32948 32957	increased
+T262	Metabolite 33049 33057	butyrate
+T263	INCREASES 33063 33072	increased
+T264	Nutrient 33101 33122	high beta-glucan meal
+T265	Nutrient 33141 33161	low beta-glucan meal
+T266	Metabolite 33212 33222	propionate
+T267	Metabolite 33310 33314	SCFA
+T268	Physiology 33284 33301	glycemia response
+T269	ASSOCIATED_WITH 33260 33271	correlation
+T270	Metabolite 33324 33331	acetate
+T271	NEG_ASSOCIATED_WITH 33336 33357	negatively correlated
+T272	Physiology 33363 33379	glucose response
+T273	Metabolite 33410 33420	Propionate
+T274	POS_ASSOCIATED_WITH 33425 33446	positively correlated
+T275	Chemical 33452 33467	fasting insulin
+T276	Physiology 33495 33511	insulin response
+T277	Metabolite 33597 33606	H2 breath
+T278	Food 33623 33630	granola
+T279	HAS_COMPONENT 33631 33635	with
+T280	Nutrient 33636 33654	cereal beta-glucan
+T281	Methodology 33758 33762	OGTT
+T282	Nutrient 33826 33837	beta-glucan
+T285	Methodology 33935 33951	Friedman’s Anova
+T286	Methodology 33964 33989	Wilcoxon signed rank test
+T287	Nutrient 34044 34055	beta-glucan
+T290	Nutrient 34124 34140	high beta-glucan
+T291	Metabolite 33992 33994	H2
+T292	Metabolite 34094 34096	H2
+T293	Nutrient 34168 34171;34183 34194	low beta-glucan
+T294	Nutrient 34176 34194	medium beta-glucan
+T295	Metabolite 34204 34208	SCFA
+T296	Food 34225 34232	granola
+T297	HAS_COMPONENT 34233 34237	with
+T298	Nutrient 34238 34256	cereal beta-glucan
+T299	Metabolite 34280 34287	Acetate
+T300	Metabolite 34293 34301	Butyrate
+T301	Metabolite 34310 34320	Propionate
+T302	Nutrient 34388 34399	beta-glucan
+T305	Methodology 34497 34513	Friedman’s Anova
+T306	Methodology 34526 34551	Wilcoxon signed rank test
+T307	Biospecimen 34682 34687	feces
+T308	Microorganism 34747 34757	Firmicutes
+T309	Microorganism 34795 34808	Bacteroidetes
+T310	Microorganism 34819 34833	Actinobacteria
+T311	Food 35284 35301	beta-glucan meals
+T314	Microorganism 35630 35641	Haemophilus
+T315	Microorganism 35655 35666	Veillonella
+T316	Microorganism 35671 35681	Sutterella
+T317	Nutrient 35769 35790	high beta-glucan meal
+T318	Microorganism 35792 35805	Streptococcus
+T319	Microorganism 35807 35816	Dialister
+T320	Microorganism 35822 35833	Bacteroides
+T321	AFFECTS 35844 35863	positively affected
+T322	Nutrient 35871 35892	high beta-glucan meal
+T323	Nutrient 35898 35921	medium beta-glucan meal
+T324	Microorganism 35963 35976	Butyricimonas
+T325	Microorganism 36000 36011	Akkermansia
+T326	AFFECTS 35939 35954	positive effect
+T327	AFFECTS 35983 35996	slight effect
+T328	Nutrient 36030 36050	low beta-glucan meal
+T329	AFFECTS 36055 36070	positive effect
+T330	Microorganism 36080 36090	Prevotella
+T331	Microorganism 36092 36107	Bifidobacterium
+T332	Microorganism 36109 36118	Roseburia
+T333	Microorganism 36123 36139	Faecalibacterium
+T334	Food 36172 36179	granola
+T335	HAS_COMPONENT 36180 36184	with
+T336	Nutrient 36185 36203	cereal beta-glucan
+T337	Nutrient 36539 36550	beta-glucan
+T338	Microorganism 36661 36675	Actinobacteria
+T339	Microorganism 36680 36693	Bacteroidetes
+T340	Microorganism 36698 36708	Firmicutes
+T341	Microorganism 36713 36727	Proteobacteria
+T342	Microorganism 36732 36747	Verrucomicrobia
+T343	Chemical 36945 36952	insulin
+T344	Nutrient 37059 37070	beta-glucan
+T345	Physiology 37113 37130	glycemic response
+T346	NEG_ASSOCIATED_WITH 37303 37323	Negative correlation
+T347	Chemical 37327 37342	fasting insulin
+T348	Microorganism 37360 37371	Akkermansia
+T349	Microorganism 37373 37383	Prevotella
+T350	Microorganism 37385 37395	Sutterella
+T351	Microorganism 37400 37411	Haemophilus
+T352	POS_ASSOCIATED_WITH 37421 37429	opposite
+T353	Microorganism 37443 37458	Bifidobacterium
+T354	Methodology 37471 37510	Spearman’s rank correlation coefficient
+T355	Chemical 37648 37655	insulin
+T356	Physiology 37849 37864	glucose fasting
+T357	Chemical 37866 37871	GLP-2
+T358	Metabolite 37880 37882	H2
+T359	Microorganism 37932 37946	Actinobacteria
+T360	Microorganism 37951 37964	Bacteroidetes
+T361	Microorganism 37969 37979	Firmicutes
+T362	Chemical 37986 37993	Glucose
+T363	Chemical 37995 38000	GLP-2
+T364	Chemical 38002 38025	Glucagon-like peptide 2
+T365	Metabolite 38027 38029	H2
+T366	Chemical 38081 38084	Ins
+T367	Metabolite 38031 38039	Hydrogen
+T368	Chemical 37981 37984	Glu
+T369	Chemical 38086 38093	Insulin
+T370	Microorganism 38098 38112	Proteobacteria
+T371	Chemical 38114 38117	PYY
+T372	Chemical 38119 38129	Peptide YY
+T373	Microorganism 38134 38149	Verrucomicrobia
+T374	POS_ASSOCIATED_WITH 38151 38171	Positive correlation
+T375	Chemical 38175 38186	fasting PYY
+T376	Microorganism 38217 38228	Bacteroides
+T377	Microorganism 38233 38242	Roseburia
+T378	NEG_ASSOCIATED_WITH 38265 38286	negatively correlated
+T379	Chemical 38290 38293	PYY
+T380	Microorganism 38310 38321	Haemophilus
+T381	Microorganism 38323 38334	Veillonella
+T382	Microorganism 38339 38349	Sutterella
+T383	Metabolite 38360 38367	acetate
+T384	Metabolite 38372 38380	butyrate
+T385	AFFECTS 38387 38395	affected
+T386	Food 38403 38420	beta-glucan meals
+T387	POS_ASSOCIATED_WITH 38432 38453	positively correlated
+T388	Microorganism 38459 38469	Sutterella
+T389	Microorganism 38474 38485	Bacteroides
+T390	Metabolite 38487 38494	Acetate
+T391	POS_ASSOCIATED_WITH 38504 38525	positively correlated
+T392	Microorganism 38529 38540	Akkermansia
+T393	Metabolite 38548 38556	butyrate
+T394	ASSOCIATED_WITH 38569 38579	correlated
+T395	Microorganism 38583 38594	Haemophilus
+T396	Microorganism 38599 38608	Roseburia
+T397	Chemical 38677 38692	fasting glucose
+T398	Chemical 38694 38699	GLP-2
+T399	Metabolite 38708 38717	breath H2
+T400	Nutrient 38980 38996	high beta-glucan
+T401	Nutrient 39034 39050	high beta-glucan
+T402	Nutrient 39119 39130	beta-glucan
+T403	Nutrient 39180 39198	medium beta-glucan
+T404	Nutrient 39294 39309	low beta-glucan
+T405	Nutrient 39434 39452	medium beta-glucan
+T406	Nutrient 39558 39573	low beta-glucan
+T407	Nutrient 39607 39623	high beta-glucan
+T408	Nutrient 39701 39722	insoluble beta-glucan
+T409	Nutrient 39724 39733	cellulose
+T410	Nutrient 39677 39693	glucose polymers
+T411	Nutrient 39738 39754	resistant starch
+T412	Nutrient 39772 39785	arabinoxylans
+E1	HAS_COMPONENT:T2 Agent:T1 Theme:T3
+E2	IMPROVES:T4 Agent:T3 Theme:T5
+E3	IMPROVES:T10 Agent:T9 Theme:T11
+E4	ASSOCIATED_WITH:T12 Theme:T13 Theme2:T63
+E5	AFFECTS:T14 Agent:T17 Theme:T18
+E6	HAS_COMPONENT:T16 Agent:T15 Theme:T17
+E7	HAS_COMPONENT:T23 Agent:T22 Theme:T21
+E8	DECREASES:T38 Agent:T37 Theme:T40
+E9	INCREASES:T43 Theme:T42 Agent:T64
+E10	INCREASES:T48 Theme:T45 Agent:T64
+E11	HAS_COMPONENT:T55 Agent:T54 Theme:T56
+E12	DECREASES:T58 Agent:T56 Theme:T59
+E13	DECREASES:T38 Agent:T37 Theme:T41
+E14	INCREASES:T48 Theme:T46 Agent:T51
+E15	POS_ASSOCIATED_WITH:T69 Agent:T49 Theme:T66
+E16	POS_ASSOCIATED_WITH:T69 Agent:T49 Theme:T67
+E17	POS_ASSOCIATED_WITH:T69 Agent:T49 Theme:T68
+E18	INCREASES:T43 Theme:T42 Agent:T51
+E19	AFFECTS:T52 Theme:T47 Agent:T65
+E20	INCREASES:T48 Theme:T46 Agent:T64
+E21	INCREASES:T48 Theme:T45 Agent:T65
+E22	INCREASES:T48 Theme:T45 Agent:T51
+E23	INCREASES:T48 Theme:T46 Agent:T65
+E24	AFFECTS:T52 Agent:T51 Theme:T47
+E25	AFFECTS:T52 Agent:T64 Theme:T47
+E26	DECREASES:T130 Theme:T129 Agent:T131
+E27	DECREASES:T135 Agent:T136 Theme:T133
+E28	DECREASES:T140 Agent:T141 Theme:T138
+E29	AFFECTS:T148 Agent:T149 Theme:T147
+E30	INCREASES:T151 Theme:T150 Agent:T152
+E31	IMPROVES:T154 Theme:T155 Agent:T152
+E33	HAS_COMPONENT:T158 Agent:T157 Theme:T159
+E34	HAS_COMPONENT:T168 Agent:T167 Theme:T169
+E35	HAS_COMPONENT:T182 Agent:T181 Theme:T183
+E36	HAS_COMPONENT:T203 Agent:T202 Theme:T204
+E37	HAS_COMPONENT:T219 Agent:T218 Theme:T220
+E38	AFFECTS:T222 Agent:T220 Theme:T221
+E39	INCREASES:T224 Agent:T225 Theme:T223
+E40	INCREASES:T228 Theme:T229 Agent:T227
+E41	INCREASES:T228 Theme:T229 Agent:T226
+E42	INCREASES:T232 Agent:T231 Theme:T233
+E43	HAS_COMPONENT:T240 Agent:T239 Theme:T241
+E44	INCREASES:T254 Agent:T253 Theme:T255
+E45	INCREASES:T261 Agent:T258 Theme:T260
+E46	INCREASES:T261 Agent:T258 Theme:T259
+E47	INCREASES:T263 Agent:T264 Theme:T262
+E48	ASSOCIATED_WITH:T269 Theme:T268 Theme2:T267
+E49	NEG_ASSOCIATED_WITH:T271 Agent:T270 Theme:T272
+E50	POS_ASSOCIATED_WITH:T274 Agent:T273 Theme:T275
+E51	POS_ASSOCIATED_WITH:T274 Agent:T273 Theme:T276
+E52	HAS_COMPONENT:T279 Agent:T278 Theme:T280
+E53	HAS_COMPONENT:T297 Agent:T296 Theme:T298
+E54	AFFECTS:T321 Agent:T322 Theme:T320
+E55	AFFECTS:T321 Agent:T322 Theme:T319
+E56	AFFECTS:T321 Agent:T322 Theme:T318
+E57	AFFECTS:T326 Agent:T323 Theme:T324
+E58	AFFECTS:T327 Theme:T325 Agent:T323
+E59	AFFECTS:T329 Agent:T328 Theme:T330
+E60	AFFECTS:T329 Agent:T328 Theme:T331
+E61	AFFECTS:T329 Agent:T328 Theme:T332
+E62	AFFECTS:T329 Agent:T328 Theme:T333
+E63	HAS_COMPONENT:T335 Agent:T334 Theme:T336
+E64	NEG_ASSOCIATED_WITH:T346 Agent:T347 Theme:T348
+E65	POS_ASSOCIATED_WITH:T352 Agent:T347 Theme:T353
+E66	NEG_ASSOCIATED_WITH:T346 Agent:T347 Theme:T349
+E67	NEG_ASSOCIATED_WITH:T346 Agent:T347 Theme:T350
+E68	NEG_ASSOCIATED_WITH:T346 Agent:T347 Theme:T351
+E69	POS_ASSOCIATED_WITH:T374 Theme:T375 Theme2:T376
+E70	NEG_ASSOCIATED_WITH:T378 Theme:T380 Theme2:T379
+E71	POS_ASSOCIATED_WITH:T374 Theme:T375 Theme2:T377
+E72	NEG_ASSOCIATED_WITH:T378 Theme:T381 Theme2:T379
+E73	NEG_ASSOCIATED_WITH:T378 Theme:T382 Theme2:T379
+E74	AFFECTS:T385 Agent:T386 Theme:T384
+E75	POS_ASSOCIATED_WITH:T387 Agent:T388 Theme:T384
+E76	AFFECTS:T385 Agent:T386 Theme:T383
+E77	POS_ASSOCIATED_WITH:T387 Agent:T389 Theme:T383
+E78	POS_ASSOCIATED_WITH:T387 Agent:T389 Theme:T384
+E79	POS_ASSOCIATED_WITH:T387 Agent:T388 Theme:T383
+E80	POS_ASSOCIATED_WITH:T391 Theme:T390 Agent:T392
+E81	ASSOCIATED_WITH:T394 Theme:T393 Theme2:T395
+E82	ASSOCIATED_WITH:T394 Theme:T393 Theme2:T396
+E2011	HAS_COMPONENT:T114 Agent:T113 Theme:T115
+E2111	HAS_COMPONENT:T117 Agent:T116 Theme:T118
+E2211	IMPROVES:T122 Agent:T123 Theme:T121
+E2311	HAS_COMPONENT:T124 Agent:T123 Theme:T125
+E2411	DECREASES:T127 Agent:T128 Theme:T126
+A1	Factuality E5 Unknown
+A2	Factuality E19 Negated
+A3	Factuality E25 Negated
+A4	Factuality E24 Negated
+A5	Factuality E38 Negated
+A411	Factuality E29 Negated
+N1	Reference T3 NCIT:C2678	Beta-Glucan
+N2	Reference T9 NCIT:C2678	Beta-Glucan
+N3	Reference T11 OCHV:C1318329	post prandial blood sugar
+N4	Reference T13 NCIT:C2678	Beta-Glucan
+N5	Reference T17 NCIT:C2678	Beta-Glucan
+N6	Reference T21 NCIT:C2678	Beta-Glucan
+N7	Reference T24 NCIT:C178186	Low-fat Milk
+N8	Reference T25 NCIT:C94312	Blood Glucose
+N9	Reference T26 NCIT:C2271	Insulin
+N10	Reference T29 CHEBI:80330	peptide YY
+N11	Reference T30 MESH:D004763	Glucagon-Like Peptides
+N12	Reference T31 CHEBI:80330	peptide YY
+N13	Reference T32 CHEBI:80271	Glucagon-Like peptide 2
+N14	Reference T33 NCIT:C94552	Breath
+N15	Reference T35 CHEBI:26666	short-chain fatty acid
+N16	Reference T36 CHEBI:26666	short-chain fatty acid
+N17	Reference T37 NCIT:C2678	Beta-Glucan
+N18	Reference T40 NCIT:C94312	Blood Glucose
+N19	Reference T41 NCIT:C2271	Insulin
+N20	Reference T42 CHEBI:80330	peptide YY
+N21	Reference T44 CHEBI:26666	short-chain fatty acid
+N22	Reference T45 CHEBI:30089	acetate
+N23	Reference T46 CHEBI:17968	butyrate
+N24	Reference T47 CHEBI:17272	propionate
+N25	Reference T49 NCIT:C2678	Beta-Glucan
+N26	Reference T51 NCIT:C2678	Beta-Glucan
+N27	Reference T56 NCIT:C2678	Beta-Glucan
+N28	Reference T61 NCIT:C2678	Beta-Glucan
+N29	Reference T62 NCIT:C2678	Beta-Glucan
+N30	Reference T64 NCIT:C2678	Beta-Glucan
+N31	Reference T65 NCIT:C2678	Beta-Glucan
+N32	Reference T66 NCBITAXON:724	Haemophilus
+N33	Reference T67 NCBITAXON:29465	Veillonella
+N34	Reference T68 NCBITAXON:40544	Sutterella
+N35	Reference T72 NCIT:C16358	Body Mass Index
+N36	Reference T73 NCIT:C16358	Body Mass Index
+N37	Reference T74 MESH:D004041	Dietary Fats
+N38	Reference T75 CHEBI:26607	saturated fatty acid
+N39	Reference T76 CHEBI:26607	saturated fatty acid
+N40	Reference T77 CHEBI:25413	monounsaturated fatty acid
+N41	Reference T78 CHEBI:25413	monounsaturated fatty acid
+N42	Reference T79 CHEBI:26208	polyunsaturated fatty acid
+N43	Reference T80 CHEBI:26208	polyunsaturated fatty acid
+N44	Reference T81 CHEBI:36080	protein
+N45	Reference T82 CHEBI:16646	carbohydrate
+N46	Reference T83 NCIT:C1502	Fiber
+N47	Reference T84 NCIT:C16358	Body Mass Index
+N48	Reference T85 NCIT:C94312	Blood Glucose
+N49	Reference T86 NCIT:C2271	Insulin
+N50	Reference T87 NCIT:C105586	Cholesterol Measurement
+N51	Reference T88 CHEBI:17855	triglyceride
+N52	Reference T89 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N53	Reference T90 NCIT:C16358	Body Mass Index
+N54	Reference T91 NCIT:C16358	Body Mass Index
+N55	Reference T92 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N56	Reference T93 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N57	Reference T94 OCHV:42890	gut fermentation
+N58	Reference T95 CHEBI:36080	protein
+N59	Reference T96 MESH:D004041	Dietary Fats
+N60	Reference T97 CHEBI:26607	saturated fatty acid
+N61	Reference T98 CHEBI:25413	monounsaturated fatty acid
+N62	Reference T99 CHEBI:26208	polyunsaturated fatty acid
+N63	Reference T100 CHEBI:16646	carbohydrate
+N64	Reference T101 NCIT:C1502	Fiber
+N65	Reference T105 NCBITAXON:239934	Akkermansia
+N66	Reference T106 CHEBI:26607	saturated fatty acid
+N67	Reference T107 CHEBI:26607	saturated fatty acid
+N68	Reference T108 CHEBI:26208	polyunsaturated fatty acid
+N69	Reference T109 CHEBI:25413	monounsaturated fatty acid
+N70	Reference T110 CHEBI:26208	polyunsaturated fatty acid
+N71	Reference T111 CHEBI:26208	polyunsaturated fatty acid
+N72	Reference T115 NCIT:C2678	Beta-Glucan
+N73	Reference T118 NCIT:C2678	Beta-Glucan
+N74	Reference T125 NCIT:C2678	Beta-Glucan
+N75	Reference T126 NCIT:C94312	Blood Glucose
+N76	Reference T128 NCIT:C2678	Beta-Glucan
+N77	Reference T129 NCIT:C2271	Insulin
+N78	Reference T131 NCIT:C2678	Beta-Glucan
+N79	Reference T132 NCBITAXON:1301	Streptococcus
+N80	Reference T133 OCHV:C0428569	post prandial blood sugar
+N81	Reference T134 NCIT:C64774	Area Under Curve
+N82	Reference T136 NCIT:C2678	Beta-Glucan
+N83	Reference T137 NCIT:C2678	Beta-Glucan
+N84	Reference T138 NCIT:C129779	2-Hour Postprandial Insulin
+N85	Reference T139 NCIT:C64774	Area Under Curve
+N86	Reference T141 NCIT:C2678	Beta-Glucan
+N87	Reference T142 NCIT:C2678	Beta-Glucan
+N88	Reference T143 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N89	Reference T145 NCIT:C113101	Insulin Resistance
+N90	Reference T146 OCHV:C0920563	insulin sensitivity
+N91	Reference T147 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N92	Reference T149 NCIT:C2678	Beta-Glucan
+N93	Reference T152 NCIT:C2678	Beta-Glucan
+N94	Reference T153 NCBITAXON:1654	Actinomyces
+N95	Reference T155 OCHV:C0920563	insulin sensitivity
+N96	Reference T156 OCHV:C0428569	post prandial blood sugar
+N97	Reference T159 NCIT:C2678	Beta-Glucan
+N98	Reference T160 NCIT:C129778	2-Hour Postprandial Glucose
+N99	Reference T162 NCIT:C2678	Beta-Glucan
+N100	Reference T165 NCIT:C94312	Blood Glucose
+N101	Reference T166 NCIT:C2271	Insulin
+N102	Reference T169 NCIT:C2678	Beta-Glucan
+N103	Reference T170 NCIT:C2678	Beta-Glucan
+N104	Reference T171 NCIT:C2678	Beta-Glucan
+N105	Reference T172 NCIT:C2678	Beta-Glucan
+N106	Reference T173 NCIT:C94312	Blood Glucose
+N107	Reference T174 OCHV:C0428357	serum insulin
+N108	Reference T180 NCIT:C129779	2-Hour Postprandial Insulin
+N109	Reference T183 NCIT:C2678	Beta-Glucan
+N110	Reference T184 NCIT:C129779	2-Hour Postprandial Insulin
+N111	Reference T189 NCIT:C2271	Insulin
+N112	Reference T191 NCIT:C2678	Beta-Glucan
+N113	Reference T192 NCIT:C2271	Insulin
+N114	Reference T193 NCIT:C2678	Beta-Glucan
+N115	Reference T194 NCIT:C2678	Beta-Glucan
+N116	Reference T195 NCIT:C2678	Beta-Glucan
+N117	Reference T197 NCIT:C2678	Beta-Glucan
+N118	Reference T198 NCIT:C113101	Insulin Resistance
+N119	Reference T199 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N120	Reference T200 OCHV:C0920563	insulin sensitivity
+N121	Reference T204 NCIT:C2678	Beta-Glucan
+N122	Reference T205 NCIT:C2678	Beta-Glucan
+N123	Reference T206 NCIT:C2678	Beta-Glucan
+N124	Reference T207 NCIT:C2678	Beta-Glucan
+N125	Reference T208 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N126	Reference T214 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N127	Reference T215 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N128	Reference T216 CHEBI:80271	glucagon-like peptide 2
+N129	Reference T217 CHEBI:80330	peptide YY
+N130	Reference T220 NCIT:C2678	Beta-Glucan
+N131	Reference T221 CHEBI:80271	Glucagon-Like peptide 2
+N132	Reference T223 CHEBI:80330	peptide YY
+N133	Reference T225 NCIT:C2678	Beta-Glucan
+N134	Reference T226 NCIT:C2678	Beta-Glucan
+N135	Reference T227 NCIT:C2678	Beta-Glucan
+N136	Reference T229 CHEBI:80330	peptide YY
+N137	Reference T230 NCIT:C2678	Beta-Glucan
+N138	Reference T231 NCIT:C2678	Beta-Glucan
+N139	Reference T233 CHEBI:80330	peptide YY
+N140	Reference T234 NCIT:C2678	Beta-Glucan
+N141	Reference T236 CHEBI:80271	Glucagon-Like peptide 2
+N142	Reference T237 CHEBI:80330	peptide YY
+N143	Reference T241 NCIT:C2678	Beta-Glucan
+N144	Reference T243 NCIT:C2678	Beta-Glucan
+N145	Reference T248 NCIT:C94552	Breath
+N146	Reference T249 CHEBI:26666	short-chain fatty acid
+N147	Reference T250 OCHV:42890	gut fermentation
+N148	Reference T251 NCIT:C94552	Breath
+N149	Reference T252 CHEBI:26666	short-chain fatty acid
+N150	Reference T253 NCIT:C2678	Beta-Glucan
+N151	Reference T255 NCIT:C94552	Breath
+N152	Reference T257 CHEBI:26666	short-chain fatty acid
+N153	Reference T258 NCIT:C2678	Beta-Glucan
+N154	Reference T259 CHEBI:30089	acetate
+N155	Reference T260 CHEBI:17968	butyrate
+N156	Reference T262 CHEBI:17968	butyrate
+N157	Reference T264 NCIT:C2678	Beta-Glucan
+N158	Reference T265 NCIT:C2678	Beta-Glucan
+N159	Reference T266 CHEBI:17272	propionate
+N160	Reference T267 CHEBI:26666	short-chain fatty acid
+N161	Reference T270 CHEBI:30089	acetate
+N162	Reference T273 CHEBI:17272	propionate
+N163	Reference T275 NCIT:C2271	Insulin
+N164	Reference T277 NCIT:C94552	Breath
+N165	Reference T280 NCIT:C2678	Beta-Glucan
+N166	Reference T282 NCIT:C2678	Beta-Glucan
+N167	Reference T287 NCIT:C2678	Beta-Glucan
+N168	Reference T290 NCIT:C2678	Beta-Glucan
+N169	Reference T291 MESH:D006859	Hydrogen
+N170	Reference T292 MESH:D006859	Hydrogen
+N171	Reference T293 NCIT:C2678	Beta-Glucan
+N172	Reference T294 NCIT:C2678	Beta-Glucan
+N173	Reference T295 CHEBI:26666	short-chain fatty acid
+N174	Reference T298 NCIT:C2678	Beta-Glucan
+N175	Reference T299 CHEBI:30089	acetate
+N176	Reference T300 CHEBI:17968	butyrate
+N177	Reference T301 CHEBI:17272	propionate
+N178	Reference T302 NCIT:C2678	Beta-Glucan
+N179	Reference T308 NCBITAXON:1239	Firmicutes
+N180	Reference T309 NCBITAXON:976	Bacteroidetes
+N181	Reference T310 NCBITAXON:201174	Actinobacteria
+N182	Reference T311 NCIT:C2678	Beta-Glucan
+N183	Reference T314 NCBITAXON:724	Haemophilus
+N184	Reference T315 NCBITAXON:29465	Veillonella
+N185	Reference T316 NCBITAXON:40544	Sutterella
+N186	Reference T317 NCIT:C2678	Beta-Glucan
+N187	Reference T318 NCBITAXON:1301	Streptococcus
+N188	Reference T319 NCBITAXON:39948	Dialister
+N189	Reference T320 NCBITAXON:816	Bacteroides
+N190	Reference T322 NCIT:C2678	Beta-Glucan
+N191	Reference T323 NCIT:C2678	Beta-Glucan
+N192	Reference T324 NCBITAXON:574697	Butyricimonas
+N193	Reference T325 NCBITAXON:239934	Akkermansia
+N194	Reference T328 NCIT:C2678	Beta-Glucan
+N195	Reference T330 NCBITAXON:838	Prevotella
+N196	Reference T331 NCBITAXON:1678	Bifidobacterium
+N197	Reference T332 NCBITAXON:841	Roseburia
+N198	Reference T333 NCBITAXON:216851	Faecalibacterium
+N199	Reference T336 NCIT:C2678	Beta-Glucan
+N200	Reference T337 NCIT:C2678	Beta-Glucan
+N201	Reference T338 NCBITAXON:201174	Actinobacteria
+N202	Reference T339 NCBITAXON:976	Bacteroidetes
+N203	Reference T340 NCBITAXON:1239	Firmicutes
+N204	Reference T341 NCBITAXON:1224	Proteobacteria
+N205	Reference T342 NCBITAXON:74201	Verrucomicrobia
+N206	Reference T343 NCIT:C2271	Insulin
+N207	Reference T344 NCIT:C2678	Beta-Glucan
+N208	Reference T347 NCIT:C2271	Insulin
+N209	Reference T348 NCBITAXON:239934	Akkermansia
+N210	Reference T349 NCBITAXON:838	Prevotella
+N211	Reference T350 NCBITAXON:40544	Sutterella
+N212	Reference T351 NCBITAXON:724	Haemophilus
+N213	Reference T353 NCBITAXON:1678	Bifidobacterium
+N214	Reference T355 NCIT:C2271	Insulin
+N215	Reference T356 CHEBI:17234	glucose
+N216	Reference T357 CHEBI:80271	Glucagon-Like peptide 2
+N217	Reference T358 MESH:D006859	Hydrogen
+N218	Reference T359 NCBITAXON:201174	Actinobacteria
+N219	Reference T360 NCBITAXON:976	Bacteroidetes
+N220	Reference T361 NCBITAXON:1239	Firmicutes
+N221	Reference T362 CHEBI:17234	glucose
+N222	Reference T363 CHEBI:80271	Glucagon-Like peptide 2
+N223	Reference T364 CHEBI:80271	glucagon-like peptide 2
+N224	Reference T365 MESH:D006859	Hydrogen
+N225	Reference T366 NCIT:C2271	Insulin
+N226	Reference T367 MESH:D006859	Hydrogen
+N227	Reference T368 CHEBI:17234	glucose
+N228	Reference T369 NCIT:C2271	Insulin
+N229	Reference T370 NCBITAXON:1224	Proteobacteria
+N230	Reference T371 CHEBI:80330	peptide YY
+N231	Reference T372 CHEBI:80330	peptide YY
+N232	Reference T373 NCBITAXON:74201	Verrucomicrobia
+N233	Reference T375 CHEBI:80330	peptide YY
+N234	Reference T376 NCBITAXON:816	Bacteroides
+N235	Reference T377 NCBITAXON:841	Roseburia
+N236	Reference T379 CHEBI:80330	peptide YY
+N237	Reference T380 NCBITAXON:724	Haemophilus
+N238	Reference T381 NCBITAXON:29465	Veillonella
+N239	Reference T382 NCBITAXON:40544	Sutterella
+N240	Reference T383 CHEBI:30089	acetate
+N241	Reference T384 CHEBI:17968	butyrate
+N242	Reference T386 NCIT:C2678	Beta-Glucan
+N243	Reference T388 NCBITAXON:40544	Sutterella
+N244	Reference T389 NCBITAXON:816	Bacteroides
+N245	Reference T390 CHEBI:30089	acetate
+N246	Reference T392 NCBITAXON:239934	Akkermansia
+N247	Reference T393 CHEBI:17968	butyrate
+N248	Reference T395 NCBITAXON:724	Haemophilus
+N249	Reference T396 NCBITAXON:841	Roseburia
+N250	Reference T397 NCIT:C94312	Blood Glucose
+N251	Reference T398 CHEBI:80271	Glucagon-Like peptide 2
+N252	Reference T399 NCIT:C94552	Breath
+N253	Reference T400 NCIT:C2678	Beta-Glucan
+N254	Reference T401 NCIT:C2678	Beta-Glucan
+N255	Reference T402 NCIT:C2678	Beta-Glucan
+N256	Reference T403 NCIT:C2678	Beta-Glucan
+N257	Reference T404 NCIT:C2678	Beta-Glucan
+N258	Reference T405 NCIT:C2678	Beta-Glucan
+N259	Reference T406 NCIT:C2678	Beta-Glucan
+N260	Reference T407 NCIT:C2678	Beta-Glucan
+N261	Reference T408 NCIT:C2678	Beta-Glucan
+N262	Reference T409 NCIT:C68491	Cellulose
+N263	Reference T410 MESH:D005936	Glucans
+N264	Reference T411 NCIT:C94233	Resistant Starch
+N265	Reference T412 CHEBI:28427	arabinoxylan

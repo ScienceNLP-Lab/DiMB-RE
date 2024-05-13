@@ -2,14 +2,20 @@
 
 ROOT=$PWD
 
-source ### DiMB-RE
+# Designate your own path for virtual environment
+venv_path=""
+
+source $venv_path
 echo "Activated DiMB-RE environment"
 
-data_dir=./data/pernut/
+# Set the data directory and the version of dataset
+data_dir=./data/DiMB-RE/
 dataset=ner_reduced_v6.1_trg_abs_result
 
+# Set LLM for huggingface archive
 MODEL=microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
 
+# Pipeline directory
 output_dir=./output
 entity_output_dir="${output_dir}/entity"
 entity_output_test_dir="${output_dir}/entity"
@@ -17,9 +23,12 @@ triplet_output_dir="${output_dir}/triplet"
 triplet_output_test_dir="${output_dir}/triplet"
 certainty_output_dir="${output_dir}/certainty"
 
-# Step 1. Reproducibility check for Entity & Trigger Extraction
-pipeline_task=entity
+# Set different seed number at here
+SEED=2025
+
+# Step 1. Train and Inference for Entity & Trigger Extraction model
 task=pn_reduced_trg
+pipeline_task=entity
 
 ner_plm_lr=1e-5
 ner_task_lr=1e-3
@@ -43,9 +52,10 @@ python run_entity_trigger.py \
   --num_epoch $n_epochs --eval_per_epoch 0.33 --max_patience $ner_patience \
   --model $MODEL \
   --max_span_length_entity $max_span_len_ent --max_span_length_trigger $max_span_len_trg \
-  --extract_trigger --dual_classifier
+  --extract_trigger --dual_classifier \
+  --seed $SEED
 
-# NER evaluation
+# Evaluation
 dataset_name=pn_reduced_trg
 task=test
 pred_file=ent_pred_${task}.json
@@ -57,9 +67,9 @@ python run_eval.py \
   --dataset_name $dataset_name
 
 
-# Step 2. Reproducibility check for RE
-pipeline_task='triplet'
+# Step 2. Train and Inference for RE model
 task=pn_reduced_trg
+pipeline_task=triplet
 
 # Optimal hyperparams for RE w/ Typed Trigger
 re_lr=2e-5
@@ -83,7 +93,8 @@ python run_triplet_classification.py \
   --train_batch_size $re_bs --eval_batch_size $re_bs --learning_rate $re_lr \
   --num_epoch $n_epochs  --max_patience $re_patience --sampling_proportion $sampling_p \
   --model $MODEL \
-  --binary_classification
+  --binary_classification \
+  --seed $SEED
   
 # RE evaluation
 dataset_name=pn_reduced_trg
@@ -97,9 +108,9 @@ python run_eval.py \
   --dataset_name $dataset_name
 
 
-# Step 3. Reproducibility check for FD (end-to-end)
-pipeline_task=certainty
+# Step 3. Train and Inference for Factuality Detection (end-to-end)
 task=pn_reduced_trg
+pipeline_task=certainty
 
 fd_lr=3e-5
 fd_cw=0
@@ -107,7 +118,7 @@ fd_max_len=200
 fd_patience=4
 sampling_p=0.0
 n_epochs=7
-fd_bs=64
+fd_bs=128
 
 python run_certainty_detection.py \
   --task $task --pipeline_task $pipeline_task \
@@ -122,7 +133,8 @@ python run_certainty_detection.py \
   --train_batch_size $fd_bs --eval_batch_size $fd_bs --learning_rate $fd_lr \
   --num_epoch $n_epochs  --max_patience $fd_patience --sampling_proportion $sampling_p \
   --model $MODEL \
-  --use_trigger
+  --use_trigger \
+  --seed $SEED
   
 # End-to-end evaluation
 dataset_name=pn_reduced_trg
@@ -134,4 +146,3 @@ python run_eval.py \
   --output_dir ${certainty_output_dir} \
   --task $task \
   --dataset_name $dataset_name
-

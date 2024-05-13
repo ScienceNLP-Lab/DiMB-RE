@@ -1,0 +1,14 @@
+Avocado Consumption, Abdominal Adiposity, and Oral Glucose Tolerance Among Persons with Overweight and Obesity
+
+ABSTRACT
+Background
+Although intake of Hass avocado has been cross-sectionally linked to lower abdominal obesity, knowledge of the effects of avocado consumption on abdominal adiposity and glycemic outcomes remains limited.
+Objective
+The effects of avocado consumption on abdominal adiposity, insulin resistance, oral-glucose-tolerance test (OGTT), and estimated β-cell function were evaluated.
+Methods
+A total of 105 adults aged 25–45 y (61% female) with BMI ≥25 kg/m2 were randomly assigned to an intervention (N = 53) that received a daily meal with 1 fresh Hass avocado or a control (N = 52) that received an isocaloric meal with similar ingredients without avocado for 12 wk. DXA was used to assess the primary outcomes of abdominal adiposity [visceral adipose tissue (VAT), subcutaneous abdominal adipose tissue (SAAT), and the ratio of VAT to SAAT (VS Ratio)]. Fasted glucose and insulin were used to assess the primary outcomes of insulin resistance (HOMA-IR), and insulin sensitivity (Matsuda index) and β-cell function (Insulinogenic index) were estimated using an OGTT. Changes between groups were compared using an ANCOVA. Secondary analyses were conducted based on sex.
+Results
+The control group exhibited a greater reduction in SAAT [–54.5 ± 155.8 g (control) compared with 17.4 ± 155.1 g (treatment), P = 0.017] and increase in VS Ratio [0.007 ± 0.047 (control) compared with –0.011 ± 0.044 (treatment), P = 0.024]. Among females, the treatment group exhibited a greater reduction in VAT [1.6 ± 89.8 g (control) compared with –32.9 ± 81.6 g (treatment), P = 0.021] and VS Ratio [0.01 ± 0.05 (control) compared with –0.01 ± 0.03 (treatment), P = 0.001]. Among males, there was no significant difference between groups in changes in abdominal adiposity or glycemic outcomes.
+Conclusions
+Daily consumption of 1 fresh Hass avocado changed abdominal adiposity distribution among females but did not facilitate improvements in peripheral insulin sensitivity or β-cell function among adults with overweight and obesity.
+This study was registered at clinicaltrials.gov as NCT02740439.

@@ -1,0 +1,59 @@
+T1	DietPattern 12 33;55 59	Chicken Protein-Based Diet
+T2	DietPattern 37 59	Soy Protein-Based Diet
+T3	AFFECTS 75 82	Affects
+T5	Physiology 83 101	Growth Performance
+T6	Nutrient 205 212	protein
+T8	Food 171 176	plant
+T9	Food 181 196	animal products
+T10	Food 255 270	protein sources
+T12	Food 464 479	chicken protein
+T13	Nutrient 484 495	soy protein
+T16	Physiology 581 599	growth performance
+T17	Physiology 621 654	morphology of the small intestine
+T20	DietPattern 783 809	chicken protein-based diet
+T21	DietPattern 811 815	CHPD
+T22	IMPROVES 817 825	enhances
+T23	Physiology 826 844	growth performance
+T25	DietPattern 899 921	soy protein-based diet
+T26	DietPattern 923 926	SPD
+T27	DietPattern 933 937	CHPD
+T28	POS_ASSOCIATED_WITH 948 954	higher
+T29	Microorganism 965 978	Lactobacillus
+T30	DietPattern 1043 1047	CHPD
+T32	Physiology 1102 1120	growth performance
+T33	Physiology 1125 1144	absorptive capacity
+T34	Physiology 849 868	absorptive capacity
+T35	Physiology 103 122	Absorptive Capacity
+T37	Physiology 683 702	absorptive capacity
+T38	Physiology 1004 1025	glutathione synthesis
+T39	ASSOCIATED_WITH 988 998	associated
+T40	POS_ASSOCIATED_WITH 1048 1063	seems favorable
+E1	AFFECTS:T3 Agent:T1 Theme:T5
+E2	AFFECTS:T3 Agent:T2 Theme:T5
+E5	IMPROVES:T22 Agent:T20 Theme:T23
+E6	POS_ASSOCIATED_WITH:T28 Agent:T27 Theme:T29
+E7	AFFECTS:T3 Agent:T1 Theme:T35
+E8	AFFECTS:T3 Agent:T2 Theme:T35
+E10	POS_ASSOCIATED_WITH:T40 Agent:T30 Theme:T32
+E11	IMPROVES:T22 Agent:T20 Theme:T34
+E12	ASSOCIATED_WITH:T39 Theme2:T38 Theme:T29
+E13	POS_ASSOCIATED_WITH:T40 Agent:T30 Theme:T33
+A1	Unknown E10
+A2	Unknown E13
+N1	NCIT:C14193 T1	Chicken
+N2	CHEBI:36080 T6	protein
+N3	NCIT:C14258 T8	Plant
+N4	FOODON:3302001 T9	animal-derived food
+N5	FOODON:03510203 T10	high protein food
+N6	NCIT:C14193 T12	Chicken
+N7	FOODON:03310368 T13	soy protein
+N8	NCIT:C14193 T20	Chicken
+N9	NCBITAXON:1578 T29	Lactobacillus
+A3	Factual E1
+A4	Factual E2
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E11
+A10	Factual E12

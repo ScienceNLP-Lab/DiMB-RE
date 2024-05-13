@@ -1,0 +1,464 @@
+T1	Microorganism 92 106	Bifidobacteria
+T2	Population 45 57	Healthy Mice
+T3	Microorganism 67 87	Lactic Acid Bacteria
+T4	Nutrient 108 118	Probiotics
+T5	Nutrient 199 209	Probiotics
+T6	IMPROVES 285 292	improve
+T7	Physiology 297 332	integrity of the epithelial barrier
+T8	Nutrient 380 389	probiotic
+T9	Microorganism 420 440	lactic acid bacteria
+T10	Microorganism 445 459	bifidobacteria
+T11	Nutrient 805 814	probiotic
+T12	HAS_COMPONENT 411 419	based on
+T13	Microorganism 616 632	Lactobacillaceae
+T14	Microorganism 644 658	bifidobacteria
+T15	Population 685 697	healthy mice
+T16	Methodology 708 727	16S rRNA sequencing
+T17	INCREASES 960 968	increase
+T18	Microorganism 986 1002	Actinobacteriota
+T19	Microorganism 1004 1016	Bacteroidota
+T20	Microorganism 1018 1033	Verrucomicrobia
+T21	Microorganism 1038 1052	Proteobacteria
+T22	DECREASES 1136 1144	decrease
+T23	Microorganism 1180 1192	Nocardioides
+T24	Microorganism 1194 1206	Helicobacter
+T25	Microorganism 1211 1224	Mucispirillum
+T26	Physiology 1254 1276	inflammatory processes
+T27	Microorganism 1331 1351	lactic acid bacteria
+T28	Microorganism 1393 1407	bifidobacteria
+T29	DECREASES 1411 1419	decrease
+T30	Microorganism 1461 1471	Tyzzerella
+T31	Microorganism 1476 1487	Akkermansia
+T32	Population 1588 1600	healthy mice
+T33	Nutrient 1624 1634	probiotics
+T34	Nutrient 1654 1664	probiotics
+T35	Microorganism 1698 1714	Lactobacillaceae
+T36	Microorganism 1806 1820	bifidobacteria
+T37	Nutrient 1777 1787	probiotics
+T38	Nutrient 18257 18267	probiotics
+T39	ASSOCIATED_WITH 1242 1250	involved
+T40	HAS_COMPONENT 1674 1682	based on
+T42	Physiology 342 367	anti-inflammatory effects
+T44	Population 1308 1351	mice that was fed with lactic acid bacteria
+T45	Population 1370 1407	mice that was fed with bifidobacteria
+T46	HAS_COMPONENT 1797 1805	based on
+T47	Population 13399 13403	mice
+T48	Microorganism 13872 13892	lactic acid bacteria
+T49	Microorganism 13908 13922	bifidobacteria
+T50	Population 13959 13998	mice that received lactic acid bacteria
+T51	Microorganism 13978 13998	lactic acid bacteria
+T52	Microorganism 14026 14036	Prevotella
+T53	POS_ASSOCIATED_WITH 14004 14021	most common genus
+T54	Microorganism 14109 14132	Lachnospiraceae NK4A136
+T55	Microorganism 14154 14165	Bacteroides
+T56	Microorganism 14181 14194	Lactobacillus
+T57	Microorganism 14210 14221	Akkermansia
+T58	Microorganism 14237 14246	Alistipes
+T59	Microorganism 14262 14279	Rikenellaceae RC9
+T60	Microorganism 14305 14317	Helicobacter
+T61	Microorganism 14333 14347	Alloprevotella
+T62	Microorganism 14364 14374	Dubosiella
+T63	Microorganism 14390 14406	Colidextribacter
+T64	Microorganism 14427 14438	Muribaculum
+T65	Microorganism 14478 14490	Ruminococcus
+T66	Microorganism 14492 14506	Parasutterella
+T67	Microorganism 14508 14531	Lachnospiraceae UCG-001
+T68	Microorganism 14533 14544	Odoribacter
+T69	Microorganism 14546 14559	Oscillibacter
+T70	Microorganism 14564 14578	Intestinimonas
+T71	Population 14674 14707	mice that received bifidobacteria
+T72	Microorganism 14693 14707	bifidobacteria
+T73	Microorganism 14740 14750	Prevotella
+T74	Microorganism 14791 14814	Lachnospiraceae UCG-001
+T75	Population 14918 14966	group of mice that received lactic acid bacteria
+T76	Microorganism 14946 14966	lactic acid bacteria
+T77	Microorganism 15054 15067	Ileibacterium
+T78	Microorganism 15083 15094	Allobaculum
+T79	Microorganism 15110 15133	Lachnospiraceae NK4A136
+T80	Microorganism 15155 15166	Muribaculum
+T81	Microorganism 15182 15193	Akkermansia
+T82	Microorganism 15209 15223	Parasutterella
+T83	Microorganism 15239 15254	Bifidobacterium
+T84	Microorganism 15270 15280	Dubosiella
+T85	Microorganism 15300 15312	Helicobacter
+T86	POS_ASSOCIATED_WITH 14713 14730	most common genus
+T87	POS_ASSOCIATED_WITH 14772 14786	second largest
+T88	DiversityMetric 15699 15714	alpha diversity
+T89	Microorganism 15373 15386	Lactobacillus
+T90	Microorganism 15388 15401	Streptococcus
+T91	Microorganism 15403 15419	Colidextribacter
+T92	Microorganism 15421 15432	Bacteroides
+T93	Microorganism 15434 15451	Rikenellaceae RC9
+T94	Microorganism 15463 15472	Alistipes
+T95	Microorganism 15474 15488	Alloprevotella
+T96	Microorganism 15490 15504	Intestinimonas
+T97	Microorganism 15506 15519	Oscillibacter
+T98	Microorganism 15521 15533	Ruminococcus
+T99	Microorganism 15535 15548	Acetatifactor
+T100	Microorganism 15553 15564	Odoribacter
+T101	Population 15727 15766	mice that received lactic acid bacteria
+T102	Population 15727 15745;15782 15796	mice that received bifidobacteria
+T103	Microorganism 15746 15766	lactic acid bacteria
+T104	Microorganism 15782 15796	bifidobacteria
+T105	DiversityMetric 15818 15831	Shannon index
+T106	DiversityMetric 15874 15889	alpha diversity
+T107	Microorganism 15945 15961	Lactobacillaceae
+T108	DiversityMetric 16241 16256	alpha diversity
+T109	Microorganism 16272 16286	bifidobacteria
+T110	DiversityMetric 16446 16461	alpha diversity
+T111	Methodology 16506 16527	phylogenetic analysis
+T112	Population 16655 16705	mice that received members of the Lactobacillaceae
+T113	Microorganism 16689 16705	Lactobacillaceae
+T114	Microorganism 16744 16756	Bacteroidota
+T115	INCREASES 16757 16766	increased
+T116	Microorganism 16985 16995	Firmicutes
+T117	DECREASES 16996 17005	decreased
+T118	Microorganism 17292 17304	Bacteroidota
+T119	Microorganism 17349 17369	lactic acid bacteria
+T120	Population 17386 17419	mice that received bifidobacteria
+T121	Microorganism 17405 17419	bifidobacteria
+T122	Population 17504 17537	lactic acid bacteria-treated mice
+T123	Microorganism 17504 17524	lactic acid bacteria
+T124	Microorganism 17584 17594	Firmicutes
+T125	Microorganism 17802 17814	Bacteroidota
+T126	POS_ASSOCIATED_WITH 17318 17333	dominant phylum
+T127	Microorganism 18148 18168	lactic acid bacteria
+T128	Microorganism 18342 18358	Campylobacterota
+T129	Microorganism 18408 18423	Patescibacteria
+T130	DECREASES 18383 18392	decreased
+T131	INCREASES 18448 18457	increased
+T132	Microorganism 18557 18577	lactic acid bacteria
+T133	Microorganism 18652 18664	Bacteroidota
+T134	INCREASES 18672 18681	increased
+T135	Microorganism 18705 18722	Verrucomicrobiota
+T136	INCREASES 18730 18739	increased
+T137	Microorganism 18763 18779	Campylobacterota
+T138	DECREASES 18787 18796	decreased
+T139	Microorganism 18823 18839	Deferribacterota
+T140	DECREASES 18847 18856	decreased
+T141	Microorganism 18921 18941	lactic acid bacteria
+T142	Microorganism 19010 19022	Bacteroidota
+T143	INCREASES 19030 19039	increased
+T144	Microorganism 19062 19075	Cyanobacteria
+T145	DECREASES 19083 19092	decreased
+T146	Microorganism 19119 19135	Abditibacteriota
+T147	INCREASES 19157 19166	increased
+T148	INCREASES 19393 19401	increase
+T149	Microorganism 19425 19441	Actinobacteriota
+T150	Microorganism 19469 19482	Spirochaetota
+T151	DECREASES 19576 19584	decrease
+T152	Microorganism 19602 19618	Abditibacteriota
+T153	Microorganism 19654 19671	Verrucomicrobiota
+T154	INCREASES 19709 19717	increase
+T155	Microorganism 19749 19761	Bacteroidota
+T156	Microorganism 19790 19806	Actinobacteriota
+T157	Microorganism 19893 19907	bifidobacteria
+T158	DECREASES 19947 19955	decrease
+T159	Microorganism 19970 19987	Verrucomicrobiota
+T160	Microorganism 20026 20042	Desulfobacterota
+T161	Microorganism 20131 20145	Proteobacteria
+T162	INCREASES 20146 20155	increased
+T163	Microorganism 20182 20198	Actinobacteriota
+T164	INCREASES 20199 20208	increased
+T165	Population 20329 20368	mice that received lactic acid bacteria
+T166	Microorganism 20348 20368	lactic acid bacteria
+T167	INCREASES 20475 20483	increase
+T168	Microorganism 20515 20527	Ruminococcus
+T169	Microorganism 20541 20551	Dubosiella
+T170	Microorganism 20568 20592	Candidatus Saccharimonas
+T171	DECREASES 20610 20618	decrease
+T172	Microorganism 20622 20634	Helicobacter
+T173	Microorganism 20651 20663	Nocardioides
+T174	Microorganism 20726 20746	lactic acid bacteria
+T175	DECREASES 20831 20839	decrease
+T176	Microorganism 20854 20866	Nocardioides
+T177	Microorganism 20892 20905	Mucispirillum
+T178	Microorganism 20933 20945	Helicobacter
+T179	INCREASES 20985 20993	increase
+T180	Microorganism 21008 21018	Prevotella
+T181	Microorganism 21044 21058	Alloprevotella
+T182	Microorganism 21084 21095	Akkermansia
+T183	Microorganism 21121 21135	Faecalibaculum
+T184	Microorganism 21250 21270	lactic acid bacteria
+T185	Population 21320 21349	lactic acid bacteria-fed mice
+T186	Microorganism 21320 21340	lactic acid bacteria
+T187	DECREASES 21376 21384	decrease
+T188	Microorganism 21392 21404	Nocardioides
+T189	Microorganism 21451 21462	Lactococcus
+T190	DECREASES 21435 21443	decrease
+T191	INCREASES 21510 21518	increase
+T192	Microorganism 21526 21536	Prevotella
+T193	INCREASES 21566 21574	increase
+T194	Microorganism 21582 21605	Lachnospiraceae UCG-003
+T195	INCREASES 21639 21647	increase
+T196	Microorganism 21655 21670	Abditibacterium
+T197	Microorganism 21818 21841	Lachnospiraceae UCG-001
+T198	Microorganism 21867 21887	Prevotellaceae Ga6A1
+T199	Microorganism 21919 21932	Acetatifactor
+T200	Microorganism 21957 21970	Anaerotruncus
+T201	DECREASES 21732 21767	Statistically significant decreases
+T202	Microorganism 21995 22017	Lachnospiraceae ASF356
+T203	Microorganism 22042 22052	Tyzzerella
+T204	Microorganism 22077 22088	Odoribacter
+T205	Microorganism 22114 22124	Prevotella
+T206	Microorganism 22150 22167	Rikenellaceae RC9
+T207	Microorganism 22205 22214	Alistipes
+T208	INCREASES 22240 22275	Statistically significant increases
+T209	Microorganism 22310 22333	Lachnospiraceae NK4A136
+T210	Microorganism 22364 22377	Lactobacillus
+T211	Microorganism 22402 22426	Candidatus Saccharimonas
+T212	Microorganism 22450 22468	Lachnospiraceae A2
+T213	Microorganism 22493 22504	Muribaculum
+T214	Microorganism 22530 22541	Brachyspira
+T215	Microorganism 22569 22584	Bifidobacterium
+T216	DECREASES 22664 22672	decrease
+T217	Microorganism 22676 22688	Nocardioides
+T218	DECREASES 22702 22710	decrease
+T219	Microorganism 22714 22729	Abditibacterium
+T220	INCREASES 22743 22751	increase
+T221	Microorganism 22755 22766	Akkermansia
+T222	INCREASES 22783 22791	increase
+T223	Microorganism 22795 22806	Muribaculum
+T224	Microorganism 22925 22945	Escherichia-Shigella
+T225	INCREASES 22960 22969	increased
+T226	Microorganism 23042 23056	bifidobacteria
+T227	Microorganism 19368 19382	bifidobacteria
+T228	Microorganism 21163 21174	Veillonella
+T4611	Biospecimen 13380 13385	fecal
+E1	IMPROVES:T6 Agent:T5 Theme:T7
+E2	INCREASES:T17 Agent:T11 Theme:T18
+E3	HAS_COMPONENT:T12 Agent:T8 Theme:T9
+E4	HAS_COMPONENT:T12 Agent:T8 Theme:T10
+E5	INCREASES:T17 Theme:T19 Agent:T11
+E6	INCREASES:T17 Agent:T11 Theme:T20
+E7	INCREASES:T17 Agent:T11 Theme:T21
+E8	DECREASES:T22 Theme:T23 Agent:T27
+E9	DECREASES:T22 Theme:T25 Agent:T27
+E10	DECREASES:T22 Theme:T24 Agent:T27
+E11	DECREASES:T29 Agent:T28 Theme:T30
+E12	DECREASES:T29 Agent:T28 Theme:T31
+E13	INCREASES:T154 Theme:T156 Agent:T227
+E14	HAS_COMPONENT:T46 Agent:T37 Theme:T36
+E15	ASSOCIATED_WITH:T39 Theme:T23 Theme2:T26
+E16	ASSOCIATED_WITH:T39 Theme:T24 Theme2:T26
+E17	ASSOCIATED_WITH:T39 Theme:T25 Theme2:T26
+E18	HAS_COMPONENT:T40 Theme:T35 Agent:T34
+E23	POS_ASSOCIATED_WITH:T53 Theme:T52 Agent:T51
+E24	POS_ASSOCIATED_WITH:T86 Theme:T73 Agent:T72
+E25	POS_ASSOCIATED_WITH:T87 Theme:T74 Agent:T72
+E26	INCREASES:T115 Theme:T114 Agent:T113
+E27	DECREASES:T117 Theme:T116 Agent:T113
+E28	POS_ASSOCIATED_WITH:T126 Theme:T118 Agent:T119
+E29	DECREASES:T130 Agent:T127 Theme:T128
+E30	INCREASES:T131 Theme:T129 Agent:T127
+E31	INCREASES:T134 Theme:T133 Agent:T132
+E32	INCREASES:T136 Theme:T135 Agent:T132
+E33	DECREASES:T138 Theme:T137 Agent:T132
+E34	DECREASES:T140 Theme:T139 Agent:T132
+E35	INCREASES:T143 Theme:T142 Agent:T141
+E36	DECREASES:T145 Theme:T144 Agent:T141
+E37	INCREASES:T147 Theme:T146 Agent:T141
+E38	INCREASES:T148 Theme:T149 Agent:T227
+E39	DECREASES:T151 Agent:T227 Theme:T152
+E40	INCREASES:T154 Theme:T155 Agent:T227
+E41	DECREASES:T158 Agent:T157 Theme:T159
+E42	INCREASES:T162 Theme:T161 Agent:T157
+E43	INCREASES:T164 Theme:T163 Agent:T157
+E44	INCREASES:T167 Agent:T166 Theme:T168
+E45	DECREASES:T171 Agent:T166 Theme:T172
+E46	DECREASES:T175 Agent:T174 Theme:T176
+E47	INCREASES:T179 Agent:T174 Theme:T180
+E48	DECREASES:T187 Agent:T186 Theme:T188
+E49	DECREASES:T190 Theme:T189 Agent:T186
+E50	INCREASES:T191 Theme:T192 Agent:T186
+E51	INCREASES:T193 Theme:T194 Agent:T186
+E52	INCREASES:T195 Theme:T196 Agent:T186
+E53	DECREASES:T201 Agent:T186 Theme:T197
+E54	INCREASES:T208 Agent:T186 Theme:T209
+E55	DECREASES:T216 Theme:T217 Agent:T186
+E56	DECREASES:T218 Theme:T219 Agent:T186
+E57	INCREASES:T220 Theme:T221 Agent:T186
+E58	INCREASES:T222 Theme:T223 Agent:T186
+E59	INCREASES:T225 Theme:T224 Agent:T186
+E60	INCREASES:T148 Agent:T227 Theme:T150
+E61	DECREASES:T151 Agent:T227 Theme:T153
+E62	DECREASES:T158 Agent:T157 Theme:T160
+E63	INCREASES:T167 Agent:T166 Theme:T169
+E64	INCREASES:T167 Agent:T166 Theme:T170
+E65	DECREASES:T171 Agent:T166 Theme:T173
+E66	INCREASES:T179 Agent:T174 Theme:T181
+E67	INCREASES:T179 Agent:T174 Theme:T182
+E68	INCREASES:T179 Agent:T174 Theme:T183
+E69	INCREASES:T179 Agent:T174 Theme:T228
+E70	DECREASES:T175 Agent:T174 Theme:T177
+E71	DECREASES:T175 Agent:T174 Theme:T178
+E72	DECREASES:T201 Agent:T186 Theme:T198
+E73	DECREASES:T201 Agent:T186 Theme:T199
+E74	DECREASES:T201 Agent:T186 Theme:T200
+E75	DECREASES:T201 Agent:T186 Theme:T202
+E76	DECREASES:T201 Agent:T186 Theme:T203
+E77	DECREASES:T201 Agent:T186 Theme:T204
+E78	DECREASES:T201 Agent:T186 Theme:T205
+E79	DECREASES:T201 Agent:T186 Theme:T206
+E80	DECREASES:T201 Agent:T186 Theme:T207
+E81	INCREASES:T208 Agent:T186 Theme:T210
+E82	INCREASES:T208 Agent:T186 Theme:T211
+E83	INCREASES:T208 Agent:T186 Theme:T212
+E84	INCREASES:T208 Agent:T186 Theme:T213
+E85	INCREASES:T208 Agent:T186 Theme:T214
+E86	INCREASES:T208 Agent:T186 Theme:T215
+N1	Reference T1 NCBITAXON:1678	Bifidobacterium
+N2	Reference T3 OCHV:42757	Lactic acid bacteria
+N3	Reference T4 NCIT:C93144	Probiotic
+N4	Reference T5 NCIT:C93144	Probiotic
+N5	Reference T8 NCIT:C93144	Probiotic
+N6	Reference T9 OCHV:42757	Lactic acid bacteria
+N7	Reference T10 NCBITAXON:1678	Bifidobacterium
+N8	Reference T11 NCIT:C93144	Probiotic
+N9	Reference T13 NCBITAXON:33958	Lactobacillaceae
+N10	Reference T14 NCBITAXON:1678	Bifidobacterium
+N11	Reference T18 NCBITAXON:201174	Actinobacteria
+N12	Reference T19 NCBITAXON:976	Bacteroidetes
+N13	Reference T20 NCBITAXON:74201	Verrucomicrobia
+N14	Reference T21 NCBITAXON:1224	Proteobacteria
+N15	Reference T23 NCBITAXON:1839	Nocardioides
+N16	Reference T24 NCBITAXON:209	Helicobacter
+N17	Reference T25 NCBITAXON:248038	Mucispirillum
+N18	Reference T27 OCHV:42757	Lactic acid bacteria
+N19	Reference T28 NCBITAXON:1678	Bifidobacterium
+N20	Reference T30 NCBITAXON:1506577	Tyzzerella
+N21	Reference T31 NCBITAXON:239934	Akkermansia
+N22	Reference T33 NCIT:C93144	Probiotic
+N23	Reference T34 NCIT:C93144	Probiotic
+N24	Reference T35 NCBITAXON:33958	Lactobacillaceae
+N25	Reference T36 NCBITAXON:1678	Bifidobacterium
+N26	Reference T37 NCIT:C93144	Probiotic
+N27	Reference T38 NCIT:C93144	Probiotic
+N28	Reference T48 OCHV:42757	Lactic acid bacteria
+N29	Reference T49 NCBITAXON:1678	Bifidobacterium
+N30	Reference T51 OCHV:42757	Lactic acid bacteria
+N31	Reference T52 NCBITAXON:838	Prevotella
+N32	Reference T54 NCBITAXON:877420	Lachnospiraceae bacterium NK4A136
+N33	Reference T55 NCBITAXON:816	Bacteroides
+N34	Reference T56 NCBITAXON:1578	Lactobacillus
+N35	Reference T57 NCBITAXON:239934	Akkermansia
+N36	Reference T58 NCBITAXON:239759	Alistipes
+N37	Reference T59 NCBITAXON:171550	Rikenellaceae
+N38	Reference T60 NCBITAXON:209	Helicobacter
+N39	Reference T61 NCBITAXON:1283313	Alloprevotella
+N40	Reference T62 NCBITAXON:1937008	Dubosiella
+N41	Reference T63 NCBITAXON:1980681	Colidextribacter
+N42	Reference T64 NCBITAXON:1918540	Muribaculum
+N43	Reference T65 NCBITAXON:1263	Ruminococcus
+N44	Reference T66 NCBITAXON:577310	Parasutterella
+N45	Reference T67 NCBITAXON:186803	Lachnospiraceae
+N46	Reference T68 NCBITAXON:283168	Odoribacter
+N47	Reference T69 NCBITAXON:459786	Oscillibacter
+N48	Reference T70 NCBITAXON:1392389	Intestinimonas
+N49	Reference T72 NCBITAXON:1678	Bifidobacterium
+N50	Reference T73 NCBITAXON:838	Prevotella
+N51	Reference T74 NCBITAXON:186803	Lachnospiraceae
+N52	Reference T76 OCHV:42757	Lactic acid bacteria
+N53	Reference T77 NCBITAXON:1937007	Ileibacterium
+N54	Reference T78 NCBITAXON:174708	Allobaculum
+N55	Reference T79 NCBITAXON:877420	Lachnospiraceae bacterium NK4A136
+N56	Reference T80 NCBITAXON:1918540	Muribaculum
+N57	Reference T81 NCBITAXON:239934	Akkermansia
+N58	Reference T82 NCBITAXON:577310	Parasutterella
+N59	Reference T83 NCBITAXON:1678	Bifidobacterium
+N60	Reference T84 NCBITAXON:1937008	Dubosiella
+N61	Reference T85 NCBITAXON:209	Helicobacter
+N62	Reference T89 NCBITAXON:1578	Lactobacillus
+N63	Reference T90 NCBITAXON:1301	Streptococcus
+N64	Reference T91 NCBITAXON:1980681	Colidextribacter
+N65	Reference T92 NCBITAXON:816	Bacteroides
+N66	Reference T93 NCBITAXON:171550	Rikenellaceae
+N67	Reference T94 NCBITAXON:239759	Alistipes
+N68	Reference T95 NCBITAXON:1283313	Alloprevotella
+N69	Reference T96 NCBITAXON:1392389	Intestinimonas
+N70	Reference T97 NCBITAXON:459786	Oscillibacter
+N71	Reference T98 NCBITAXON:1263	Ruminococcus
+N72	Reference T99 NCBITAXON:1427378	Acetatifactor
+N73	Reference T100 NCBITAXON:283168	Odoribacter
+N74	Reference T103 OCHV:42757	Lactic acid bacteria
+N75	Reference T104 NCBITAXON:1678	Bifidobacterium
+N76	Reference T107 NCBITAXON:33958	Lactobacillaceae
+N77	Reference T109 NCBITAXON:1678	Bifidobacterium
+N78	Reference T113 NCBITAXON:33958	Lactobacillaceae
+N79	Reference T114 NCBITAXON:976	Bacteroidetes
+N80	Reference T116 NCBITAXON:1239	Firmicutes
+N81	Reference T118 NCBITAXON:976	Bacteroidetes
+N82	Reference T119 OCHV:42757	Lactic acid bacteria
+N83	Reference T121 NCBITAXON:1678	Bifidobacterium
+N84	Reference T123 OCHV:42757	Lactic acid bacteria
+N85	Reference T124 NCBITAXON:1239	Firmicutes
+N86	Reference T125 NCBITAXON:976	Bacteroidetes
+N87	Reference T127 OCHV:42757	Lactic acid bacteria
+N88	Reference T128 NCBITAXON:29547	Epsilonproteobacteria
+N89	Reference T129 NCBITAXON:1783273	Patescibacteria group
+N90	Reference T132 OCHV:42757	Lactic acid bacteria
+N91	Reference T133 NCBITAXON:976	Bacteroidetes
+N92	Reference T135 NCBITAXON:74201	Verrucomicrobia
+N93	Reference T137 NCBITAXON:29547	Epsilonproteobacteria
+N94	Reference T139 NCBITAXON:200930	Deferribacteres
+N95	Reference T141 OCHV:42757	Lactic acid bacteria
+N96	Reference T142 NCBITAXON:976	Bacteroidetes
+N97	Reference T144 NCBITAXON:1117	Cyanobacteria
+N98	Reference T146 NCBITAXON:2109258	Abditibacteriota
+N99	Reference T149 NCBITAXON:201174	Actinobacteria
+N100	Reference T150 NCBITAXON:203691	Spirochaetes
+N101	Reference T152 NCBITAXON:2109258	Abditibacteriota
+N102	Reference T153 NCBITAXON:74201	Verrucomicrobia
+N103	Reference T155 NCBITAXON:976	Bacteroidetes
+N104	Reference T156 NCBITAXON:201174	Actinobacteria
+N105	Reference T157 NCBITAXON:1678	Bifidobacterium
+N106	Reference T159 NCBITAXON:74201	Verrucomicrobia
+N107	Reference T160 NCBITAXON:2904303	Desulfobacterota
+N108	Reference T161 NCBITAXON:1224	Proteobacteria
+N109	Reference T163 NCBITAXON:201174	Actinobacteria
+N110	Reference T166 OCHV:42757	Lactic acid bacteria
+N111	Reference T168 NCBITAXON:1263	Ruminococcus
+N112	Reference T169 NCBITAXON:1937008	Dubosiella
+N113	Reference T170 NCBITAXON:1331051	Candidatus Saccharimonas
+N114	Reference T172 NCBITAXON:209	Helicobacter
+N115	Reference T173 NCBITAXON:1839	Nocardioides
+N116	Reference T174 OCHV:42757	Lactic acid bacteria
+N117	Reference T176 NCBITAXON:1839	Nocardioides
+N118	Reference T177 NCBITAXON:248038	Mucispirillum
+N119	Reference T178 NCBITAXON:209	Helicobacter
+N120	Reference T180 NCBITAXON:838	Prevotella
+N121	Reference T181 NCBITAXON:1283313	Alloprevotella
+N122	Reference T182 NCBITAXON:239934	Akkermansia
+N123	Reference T183 NCBITAXON:1729679	Faecalibaculum
+N124	Reference T184 OCHV:42757	Lactic acid bacteria
+N125	Reference T186 OCHV:42757	Lactic acid bacteria
+N126	Reference T188 NCBITAXON:1839	Nocardioides
+N127	Reference T189 NCBITAXON:1357	Lactococcus
+N128	Reference T192 NCBITAXON:838	Prevotella
+N129	Reference T194 NCBITAXON:186803	Lachnospiraceae
+N130	Reference T196 NCBITAXON:2109263	Abditibacterium
+N131	Reference T197 NCBITAXON:186803	Lachnospiraceae
+N132	Reference T198 NCBITAXON:171552	Prevotellaceae
+N133	Reference T199 NCBITAXON:1427378	Acetatifactor
+N134	Reference T200 NCBITAXON:244127	Anaerotruncus
+N135	Reference T202 NCBITAXON:186803	Lachnospiraceae
+N136	Reference T203 NCBITAXON:1506577	Tyzzerella
+N137	Reference T204 NCBITAXON:283168	Odoribacter
+N138	Reference T205 NCBITAXON:838	Prevotella
+N139	Reference T206 NCBITAXON:171550	Rikenellaceae
+N140	Reference T207 NCBITAXON:239759	Alistipes
+N141	Reference T209 NCBITAXON:877420	Lachnospiraceae bacterium NK4A136
+N142	Reference T210 NCBITAXON:1578	Lactobacillus
+N143	Reference T211 NCBITAXON:1331051	Candidatus Saccharimonas
+N144	Reference T212 NCBITAXON:397290	Lachnospiraceae bacterium A2
+N145	Reference T213 NCBITAXON:1918540	Muribaculum
+N146	Reference T214 NCBITAXON:29521	Brachyspira
+N147	Reference T215 NCBITAXON:1678	Bifidobacterium
+N148	Reference T217 NCBITAXON:1839	Nocardioides
+N149	Reference T219 NCBITAXON:2109263	Abditibacterium
+N150	Reference T221 NCBITAXON:239934	Akkermansia
+N151	Reference T223 NCBITAXON:1918540	Muribaculum
+N152	Reference T224 NCBITAXON:1940338	Escherichia/Shigella sp.
+N153	Reference T226 NCBITAXON:1678	Bifidobacterium
+N154	Reference T227 NCBITAXON:1678	Bifidobacterium
+N155	Reference T228 NCBITAXON:29465	Veillonella

@@ -1,0 +1,69 @@
+T1	Nutrient 82 91	berberine
+T2	Physiology 48 69	amino acid metabolism
+T4	Nutrient 136 145	berberine
+T5	Nutrient 147 150	BBR
+T6	Nutrient 229 232	BBR
+T8	Nutrient 360 363	BBR
+T9	Nutrient 432 435	BBR
+T10	DECREASES 436 443	reduced
+T11	Metabolite 462 473	acetic acid
+T12	Metabolite 478 492	propionic acid
+T13	Metabolite 529 541	butyric acid
+T14	Nutrient 603 606	BBR
+T15	INCREASES 607 616	increased
+T16	Microorganism 634 650	Faecalibacterium
+T17	DECREASES 655 664	decreased
+T18	Microorganism 682 697	Bifidobacterium
+T19	Microorganism 699 712	Streptococcus
+T20	Microorganism 717 729	Enterococcus
+T21	Nutrient 762 765	BBR
+T22	Nutrient 934 937	BBR
+T23	Nutrient 1024 1027	BBR
+T27	AFFECTS 776 785	regulated
+T28	AFFECTS 504 510	effect
+T31	Physiology 794 824	amino acid metabolism pathways
+T32	Metabolite 862 870	tyrosine
+T33	Chemical 872 878	serine
+T34	Metabolite 883 894	L-glutamate
+E1	DECREASES:T10 Agent:T9 Theme:T11
+E2	DECREASES:T10 Agent:T9 Theme:T12
+E3	INCREASES:T15 Agent:T14 Theme:T16
+E4	DECREASES:T17 Agent:T14 Theme:T18
+E5	DECREASES:T17 Agent:T14 Theme:T19
+E6	DECREASES:T17 Agent:T14 Theme:T20
+E9	AFFECTS:T28 Agent:T9 Theme:T13
+E10	AFFECTS:T27 Agent:T21 Theme:T32
+E11	AFFECTS:T27 Agent:T21 Theme:T34
+E12	AFFECTS:T27 Agent:T21 Theme:T33
+A1	Negated E9
+N1	CHEBI:16118 T1	berberine
+N2	OCHV:C0596076 T2	amino acid metabolism
+N3	CHEBI:16118 T4	berberine
+N4	CHEBI:16118 T5	berberine
+N5	CHEBI:16118 T6	berberine
+N6	CHEBI:16118 T8	berberine
+N7	CHEBI:16118 T9	berberine
+N8	CHEBI:15366 T11	acetic acid
+N9	CHEBI:30768 T12	propionic acid
+N10	CHEBI:30772 T13	butyric acid
+N11	CHEBI:16118 T14	berberine
+N12	NCBITAXON:216851 T16	Faecalibacterium
+N13	NCBITAXON:1678 T18	Bifidobacterium
+N14	NCBITAXON:1301 T19	Streptococcus
+N15	NCBITAXON:1350 T20	Enterococcus
+N16	CHEBI:16118 T21	berberine
+N17	CHEBI:16118 T22	berberine
+N18	CHEBI:16118 T23	berberine
+N19	NCIT:C39730 T31	Amino Acid Metabolism Pathway
+N20	CHEBI:18186 T32	tyrosine
+N21	CHEBI:17822 T33	serine
+N22	CHEBI:18237 T34	glutamic acid
+A2	Factual E1
+A3	Factual E2
+A4	Factual E3
+A5	Factual E4
+A6	Factual E5
+A7	Factual E6
+A8	Factual E10
+A9	Factual E11
+A10	Factual E12

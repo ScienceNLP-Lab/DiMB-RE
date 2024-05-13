@@ -1,0 +1,37 @@
+T1	Nutrient 18 36	polydextrose fiber
+T2	Nutrient 127 139	polydextrose
+T3	Nutrient 140 143	PDX
+T6	Nutrient 381 384	PDX
+T7	Physiology 522 548	partial degradation of PDX
+T8	Nutrient 765 768	PDX
+T9	Metabolite 809 816	acetate
+T10	Metabolite 821 831	propionate
+T11	ASSOCIATED_WITH 744 756	associations
+T12	Microorganism 931 946	Bifidobacterium
+T13	Microorganism 965 976	Bacteroides
+T15	Nutrient 147 160	soluble fiber
+T19	Nutrient 493 509	oligosaccharides
+T20	Nutrient 472 488	undigested fiber
+T24	Nutrient 688 701	dietary fiber
+T25	Nutrient 545 548	PDX
+T26	INCREASES 510 516	formed
+E1	ASSOCIATED_WITH:T11 Theme:T8 Theme2:T9
+E2	INCREASES:T26 Theme:T20 Agent:T7
+E3	INCREASES:T26 Theme:T19 Agent:T7
+E4	ASSOCIATED_WITH:T11 Theme:T8 Theme2:T10
+N1	FOODON:03413188 T1	polydextrose
+N2	FOODON:03413188 T2	polydextrose
+N3	CHEBI:181906 T3	Polydextrose
+N4	CHEBI:181906 T6	Polydextrose
+N5	CHEBI:181906 T8	Polydextrose
+N6	CHEBI:30089 T9	acetate
+N7	CHEBI:17272 T10	propionate
+N8	NCBITAXON:1678 T12	Bifidobacterium
+N9	NCBITAXON:816 T13	Bacteroides
+N10	CHEBI:50699 T19	oligosaccharide
+N11	NCIT:C68492 T24	Dietary Fiber
+N12	CHEBI:181906 T25	Polydextrose
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4

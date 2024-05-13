@@ -1,0 +1,14 @@
+Effects of Bifidobacterium animalis subsp. lactis BB-12® on the lipid/lipoprotein profile and short chain fatty acids in healthy young adults: a randomized controlled trial
+
+Background
+Some probiotics have hypocholesterolemic effects in animal studies, which are mediated, in part, by increases in fecal short chain fatty acids (SCFAs). Clinical trials of probiotics on lipids/lipoproteins are inconsistent.
+Objective
+We examined the effects of Bifidobacterium animalis subsp. lactis BB-12® (BB-12®) (3.16 × 109 CFUs/day) on lipids and lipoproteins and fecal excretion of SCFAs in healthy adults.
+Methods
+In a randomized, partially blinded, 4-period, crossover study, 30 adults (11 men, 19 women) aged 18–40 years were randomly assigned to: 1) yogurt smoothie with no BB-12® (YS), 2) yogurt smoothie with BB-12® added pre-fermentation (PRE), 3) yogurt smoothie with BB-12® added post-fermentation (POST), 4) BB-12® containing capsule (CAP). We measured serum lipids/lipoproteins, glucose, insulin, C-reactive protein (CRP), and fecal SCFAs at baseline and after each treatment period.
+Results
+Total cholesterol (TC), LDL cholesterol (LDL-C), HDL cholesterol (HDL-C), and triglycerides (TGs) did not differ after the PRE, POST, and CAP periods versus the YS or between treatments. Compared to baseline, fecal acetate was significantly increased after the YS (Δ = 211.89 ± 75.87 μg/g, P = 0.007) and PRE (Δ = 204.98 ± 75.70 μg/g, P = 0.009) periods. The percent increase in fecal acetate was significantly greater after the YS versus the POST period (52.2 ± 13.2% vs. 24.5 ± 13.2%, P = 0.023). Fecal total SCFAs, propionate and butyrate did not differ between treatment periods. Fecal total SCFAs were negatively associated with TC (r = -0.22, P = 0.01), LDL-C (r = -0.24, P = 0.004), age (r = -0.33, P < 0.001), and waist circumference (r = -0.25, P = 0.003).
+Conclusions
+BB-12® supplementation did not improve lipids, lipoproteins and total and individual fecal SCFAs. Fecal SCFAs were negatively associated with TC, LDL-C, age, and waist circumference.
+Trial registration
+This trial was registered at clinicaltrials.gov as NCT01399996.

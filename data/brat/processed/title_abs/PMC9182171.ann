@@ -1,0 +1,146 @@
+T1	Nutrient 11 19	Poncirin
+T3	Nutrient 131 139	Poncirin
+T4	Nutrient 141 143	PC
+T5	Nutrient 58 72	Isosakuranetin
+T6	Nutrient 163 177	isosakuranetin
+T7	Nutrient 179 181	IR
+T8	Food 203 216	citrus fruits
+T9	Nutrient 299 301	PC
+T10	Nutrient 306 308	IR
+T14	Nutrient 521 523	PC
+T15	Nutrient 528 530	IR
+T16	Nutrient 569 571	PC
+T17	Nutrient 576 578	IR
+T20	Nutrient 703 705	PC
+T21	Nutrient 710 712	IR
+T22	Microorganism 741 756	Parabacteroides
+T23	INCREASES 713 723	multiplied
+T24	Nutrient 821 823	PC
+T25	INCREASES 824 833	increased
+T26	Microorganism 851 862	Bacteroides
+T27	Nutrient 877 879	IR
+T28	DECREASES 880 887	reduced
+T29	Microorganism 892 903	Allobaculum
+T30	INCREASES 930 939	increased
+T31	Microorganism 940 954	Alloprevotella
+T33	Nutrient 1000 1002	PC
+T34	Metabolite 1010 1027	fecal acetic acid
+T35	INCREASES 1034 1043	increased
+T36	Metabolite 1070 1080;1096 1100	isobutyric acid
+T37	Metabolite 1085 1100	isovaleric acid
+T38	INCREASES 1109 1118	increased
+T39	Nutrient 1176 1178	IR
+T40	AFFECTS 1198 1204	effect
+T41	Metabolite 1223 1246	short-chain fatty acids
+T44	Metabolite 1248 1253	SCFAs
+T48	Nutrient 1323 1325	PC
+T49	Nutrient 1381 1388	protein
+T50	Nutrient 1393 1405	carbohydrate
+T51	Nutrient 1527 1529	IR
+T52	AFFECTS 1537 1545	affected
+T53	ASSOCIATED_WITH 1337 1345	involved
+T54	Physiology 1599 1633	taurine and hypotaurine metabolism
+T55	Physiology 1635 1657	glutathione metabolism
+T56	Physiology 1659 1679	histidine metabolism
+T57	Physiology 1681 1703	D-glutamate metabolism
+T59	Nutrient 1803 1805	PC
+T60	Nutrient 1810 1812	IR
+T61	Physiology 1353 1362;1381 1405	digestion protein and carbohydrate
+T62	Food 23 29	Citrus
+T63	Metabolite 1457 1464	glycine
+T64	Chemical 1466 1472	serine
+T65	Chemical 1474 1483	threonine
+T66	Metabolite 1485 1495	tryptophan
+T67	Chemical 1497 1507	D-arginine
+T68	Chemical 1509 1520	D-ornithine
+T69	Physiology 1367 1405	absorption of protein and carbohydrate
+T70	Physiology 1422 1447	metabolism of amino acids
+T71	Physiology 1550 1579	amino acid metabolic pathways
+T76	Measurement 1291 1307	urine biomarkers
+T77	DiversityMetric 81 104	Gut Microbial Diversity
+T78	HAS_COMPONENT 184 189	occur
+T79	DiversityMetric 375 398	gut microbial diversity
+E1	INCREASES:T23 Theme:T22 Agent:T20
+E2	INCREASES:T23 Agent:T21 Theme:T22
+E3	INCREASES:T25 Agent:T24 Theme:T26
+E4	DECREASES:T28 Agent:T27 Theme:T29
+E5	INCREASES:T30 Agent:T27 Theme:T31
+E6	INCREASES:T35 Agent:T33 Theme:T34
+E7	INCREASES:T38 Theme:T36 Agent:T33
+E8	INCREASES:T38 Theme:T37 Agent:T33
+E9	AFFECTS:T40 Agent:T39 Theme:T41
+E10	AFFECTS:T52 Agent:T51 Theme:T54
+E11	AFFECTS:T52 Agent:T51 Theme:T55
+E12	AFFECTS:T52 Agent:T51 Theme:T56
+E13	AFFECTS:T52 Agent:T51 Theme:T57
+E14	HAS_COMPONENT:T78 Theme:T6 Agent:T8
+E15	HAS_COMPONENT:T78 Theme:T3 Agent:T8
+E16	ASSOCIATED_WITH:T53 Theme:T48 Theme2:T61
+E17	ASSOCIATED_WITH:T53 Theme:T48 Theme2:T69
+E18	ASSOCIATED_WITH:T53 Theme:T48 Theme2:T70
+A1	Negated E9
+N1	MESH:C119641 T1	poncirin
+N2	MESH:C119641 T3	poncirin
+N3	CHEBI:33853 T4	phenols
+N4	MESH:C538973 T5	isosakuranetin
+N5	MESH:C538973 T6	isosakuranetin
+N6	MESH:C538973 T7	Ile-Arg
+N7	NCIT:C71965 T8	Citrus Fruit
+N8	CHEBI:33853 T9	phenols
+N9	MESH:C538973 T10	Ile-Arg
+N10	CHEBI:33853 T14	phenols
+N11	MESH:C538973 T15	Ile-Arg
+N12	CHEBI:33853 T16	phenols
+N13	MESH:C538973 T17	Ile-Arg
+N14	CHEBI:33853 T20	phenols
+N15	MESH:C538973 T21	Ile-Arg
+N16	NCBITAXON:375288 T22	Parabacteroides
+N17	CHEBI:33853 T24	phenols
+N18	NCBITAXON:816 T26	Bacteroides
+N19	MESH:C538973 T27	Ile-Arg
+N20	NCBITAXON:174708 T29	Allobaculum
+N21	NCBITAXON:1283313 T31	Alloprevotella
+N22	CHEBI:33853 T33	phenols
+N23	CHEBI:15366 T34	acetic acid
+N24	CHEBI:16135 T36	isobutyric acid
+N25	CHEBI:28484 T37	isovaleric acid
+N26	MESH:C538973 T39	Ile-Arg
+N27	CHEBI:26666 T41	short-chain fatty acid
+N28	CHEBI:26666 T44	short-chain fatty acid
+N29	CHEBI:33853 T48	phenols
+N30	CHEBI:36080 T49	protein
+N31	CHEBI:16646 T50	carbohydrate
+N32	MESH:C538973 T51	Ile-Arg
+N33	NCIT:C38871 T54	Taurine and Hypotaurine Metabolism Pathway
+N34	OCHV:C1158188 T55	glutathione metabolism
+N35	NCIT:C38824 T56	Histidine Metabolism Pathway
+N36	NCIT:C38803 T57	D-Glutamine and D-Glutamate Metabolism Pathway
+N37	CHEBI:33853 T59	phenols
+N38	MESH:C538973 T60	Ile-Arg
+N39	MESH:D059748 T61	Proteolysis
+N40	NCIT:C71965 T62	Citrus Fruit
+N41	CHEBI:15428 T63	glycine
+N42	CHEBI:17822 T64	serine
+N43	CHEBI:26986 T65	threonine
+N44	CHEBI:27897 T66	tryptophan
+N45	NCIT:C77308 T67	D-Arginine
+N46	CHEBI:16176 T68	D-ornithine
+N47	OCHV:C0596076 T70	amino acid metabolism
+N48	NCIT:C39730 T71	Amino Acid Metabolism Pathway
+A7	Factual E1
+A8	Factual E2
+A9	Factual E3
+A10	Factual E4
+A11	Factual E5
+A12	Factual E6
+A13	Factual E7
+A14	Factual E8
+A15	Factual E10
+A16	Factual E11
+A17	Factual E12
+A18	Factual E13
+A19	Factual E14
+A20	Factual E15
+A21	Factual E16
+A22	Factual E17
+A23	Factual E18

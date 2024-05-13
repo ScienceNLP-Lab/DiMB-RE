@@ -1,0 +1,95 @@
+T1	Microorganism 26 36	Prevotella
+T2	Population 78 96	elderly volunteers
+T3	ASSOCIATED_WITH 97 107	determines
+T4	Physiology 2336 2347	bifidogenic
+T5	Nutrient 171 211	wheat bran arabinoxylan-oligosaccharides
+T6	ASSOCIATED_WITH 2413 2424	depended on
+T10	Nutrient 416 431	polysaccharides
+T11	Nutrient 436 452	oligosaccharides
+T13	Nutrient 620 660	wheat bran arabinoxylan oligosaccharides
+T14	Nutrient 662 666	AXOS
+T15	Nutrient 672 684	maltodextrin
+T17	Population 772 805	healthy adults over the age of 60
+T19	Measurement 849 852	BMI
+T20	Methodology 891 932	double-blind, cross over supplement study
+T21	Biospecimen 934 940	Faecal
+T22	Metabolite 992 1015	short chain fatty acids
+T23	Chemical 1027 1039	calprotectin
+T24	Biospecimen 1041 1046	Blood
+T25	Chemical 1081 1088	glucose
+T26	Chemical 1090 1101	cholesterol
+T27	Chemical 1106 1119	triglycerides
+T28	AFFECTS 1138 1147	no change
+T29	Chemical 1172 1184	calprotectin
+T32	INCREASES 1357 1365	increase
+T33	Microorganism 1406 1429	Bifidobacterium species
+T34	Nutrient 1456 1460	AXOS
+T35	Nutrient 1470 1482	maltodextrin
+T36	AFFECTS 1466 1469	not
+T39	INCREASES 1831 1839	increase
+T40	Microorganism 1647 1657	Prevotella
+T41	Microorganism 1705 1715	Prevotella
+T42	Microorganism 1885 1900	Bifidobacterium
+T43	Microorganism 1916 1926	Prevotella
+T45	Microorganism 1949 1959	Prevotella
+T46	Nutrient 1983 1987	AXOS
+T47	Microorganism 2011 2021	Prevotella
+T48	Microorganism 2026 2037	Bacteroides
+T49	NEG_ASSOCIATED_WITH 2068 2088	inverse relationship
+T50	Microorganism 2135 2149	bifidobacteria
+T51	Microorganism 2154 2173	Anaerostipes hadrus
+T54	Microorganism 2226 2236	Prevotella
+T55	Microorganism 2254 2264	Prevotella
+T56	Nutrient 2300 2315	wheat bran AXOS
+T57	Microorganism 2497 2512	Prevotella spp.
+T58	Nutrient 2739 2749	prebiotics
+E1	ASSOCIATED_WITH:T3 Agent:T1 Theme:T5
+E2	ASSOCIATED_WITH:T6 Theme:T56 Theme2:T57
+E5	AFFECTS:T28 Agent:T13 Theme:T25
+E6	AFFECTS:T28 Agent:T15 Theme:T25
+E7	AFFECTS:T28 Agent:T13 Theme:T26
+E8	AFFECTS:T28 Agent:T13 Theme:T27
+E9	AFFECTS:T28 Agent:T15 Theme:T26
+E10	AFFECTS:T28 Agent:T15 Theme:T27
+E11	AFFECTS:T28 Agent:T15 Theme:T29
+E12	AFFECTS:T28 Agent:T13 Theme:T29
+E13	INCREASES:T32 Theme:T33 Agent:T34
+E14	AFFECTS:T36 Theme:T33 Agent:T35
+E15	INCREASES:T39 Agent:T46 Theme:T42
+E16	NEG_ASSOCIATED_WITH:T49 Theme:T47 Theme2:T48
+E17	INCREASES:T39 Agent:T46 Theme:T43
+A3	Factuality E5 Unknown
+A4	Factuality E6 Unknown
+A5	Factuality E7 Unknown
+A6	Factuality E8 Unknown
+A7	Factuality E9 Unknown
+A8	Factuality E10 Unknown
+A9	Factuality E11 Unknown
+A10	Factuality E12 Unknown
+A11	Factuality E14 Negated
+N1	Reference T1 NCBITAXON:838	Prevotella
+N2	Reference T10 CHEBI:18154	polysaccharide
+N3	Reference T11 CHEBI:50699	oligosaccharide
+N4	Reference T15 CHEBI:25140	maltodextrin
+N5	Reference T19 NCIT:C16358	Body Mass Index
+N6	Reference T22 CHEBI:26666	short-chain fatty acid
+N7	Reference T23 NCIT:C105971	Calprotectin
+N8	Reference T25 CHEBI:17234	glucose
+N9	Reference T26 NCIT:C369	Cholesterol
+N10	Reference T27 CHEBI:17855	triglyceride
+N11	Reference T29 NCIT:C105971	Calprotectin
+N12	Reference T33 NCBITAXON:1678	Bifidobacterium
+N13	Reference T35 CHEBI:25140	maltodextrin
+N14	Reference T40 NCBITAXON:838	Prevotella
+N15	Reference T41 NCBITAXON:838	Prevotella
+N16	Reference T42 NCBITAXON:1678	Bifidobacterium
+N17	Reference T43 NCBITAXON:838	Prevotella
+N18	Reference T45 NCBITAXON:838	Prevotella
+N19	Reference T47 NCBITAXON:838	Prevotella
+N20	Reference T48 NCBITAXON:816	Bacteroides
+N21	Reference T50 NCBITAXON:1678	Bifidobacterium
+N22	Reference T51 NCBITAXON:649756	Anaerostipes hadrus
+N23	Reference T54 NCBITAXON:838	Prevotella
+N24	Reference T55 NCBITAXON:838	Prevotella
+N25	Reference T57 NCBITAXON:838	Prevotella
+N26	Reference T58 MESH:D056692	Prebiotics

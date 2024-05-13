@@ -1,0 +1,113 @@
+T1	Nutrient 0 10	Synbiotics
+T2	Disease 109 115	sepsis
+T3	Physiology 46 55	enteritis
+T4	Disease 60 91	ventilator-associated pneumonia
+T8	Nutrient 246 265	probiotic/synbiotic
+T9	Disease 292 312	septic complications
+T11	PREVENTS 224 242	preventive effects
+T12	Nutrient 425 435	synbiotics
+T14	Disease 2367 2373	sepsis
+T15	Disease 533 539	sepsis
+T17	PREVENTS 39 45	reduce
+T19	Nutrient 707 717	synbiotics
+T20	Microorganism 719 754	Bifidobacterium breve strain Yakult
+T21	Microorganism 756 790	Lactobacillus casei strain Shirota
+T22	Nutrient 796 819	galactooligosaccharides
+T23	Nutrient 866 876	Synbiotics
+T24	Nutrient 932 942	synbiotics
+T25	Physiology 1029 1038	enteritis
+T26	Disease 1040 1071	ventilator-associated pneumonia
+T27	Disease 1073 1076	VAP
+T28	Disease 1083 1093	bacteremia
+T29	Physiology 1157 1166	mortality
+T31	Metabolite 1211 1237	organic acid concentration
+T32	Microorganism 1183 1205	fecal bacterial counts
+T33	Physiology 1239 1248	Enteritis
+T34	Physiology 1294 1307	liquid stools
+T35	Nutrient 1400 1410	synbiotics
+T36	Nutrient 1443 1453	synbiotics
+T37	Physiology 1472 1481	enteritis
+T38	DECREASES 1500 1505	lower
+T39	Nutrient 1513 1523	Synbiotics
+T40	Disease 1598 1601	VAP
+T41	IMPROVES 1625 1630	lower
+T42	Nutrient 1638 1648	Synbiotics
+T43	Disease 1724 1734	bacteremia
+T44	Physiology 1739 1748	mortality
+T46	Microorganism 1851 1866	Bifidobacterium
+T47	Microorganism 1871 1884	Lactobacillus
+T48	Nutrient 1892 1902	Synbiotics
+T49	INCREASES 1927 1933	higher
+T50	Metabolite 1997 2010	organic acids
+T51	Metabolite 2012 2044	total organic acid concentration
+T52	Metabolite 2072 2079	acetate
+T54	INCREASES 2100 2107	greater
+T55	Nutrient 2115 2125	Synbiotics
+T56	Nutrient 2219 2229	synbiotics
+T57	PREVENTS 2284 2311	may have preventive effects
+T58	Physiology 2332 2341	enteritis
+T59	Disease 2346 2349	VAP
+T61	Disease 549 555	Sepsis
+T62	Disease 365 371	sepsis
+E1	PREVENTS:T17 Agent:T1 Theme:T3
+E2	PREVENTS:T17 Agent:T1 Theme:T4
+E3	PREVENTS:T11 Agent:T8 Theme:T9
+E4	DECREASES:T38 Theme:T37 Agent:T39
+E5	INCREASES:T49 Agent:T48 Theme:T46
+E6	IMPROVES:T41 Theme:T40 Agent:T42
+E7	INCREASES:T49 Agent:T48 Theme:T47
+E8	INCREASES:T54 Agent:T55 Theme:T52
+E9	PREVENTS:T57 Agent:T56 Theme:T59
+E10	PREVENTS:T57 Theme:T58 Agent:T56
+A1	Unknown E3
+A2	Unknown E9
+A3	Unknown E10
+N1	MESH:D058616 T1	Synbiotics
+N2	MESH:D018805 T2	Sepsis
+N3	NCIT:C26765 T3	Enteritis
+N4	MESH:D053717 T4	Pneumonia, Ventilator-Associated
+N5	MESH:D058616 T8	Synbiotics
+N6	MESH:D058616 T12	Synbiotics
+N7	MESH:D018805 T14	Sepsis
+N8	MESH:D018805 T15	Sepsis
+N9	MESH:D058616 T19	Synbiotics
+N10	NCBITAXON:1685 T20	Bifidobacterium breve
+N11	NCBITAXON:655183 T21	Lactobacillus casei group
+N12	CHEBI:24151 T22	galactooligosaccharide
+N13	MESH:D058616 T23	Synbiotics
+N14	MESH:D058616 T24	Synbiotics
+N15	NCIT:C26765 T25	Enteritis
+N16	MESH:D053717 T26	Pneumonia, Ventilator-Associated
+N17	MESH:D053717 T27	Pneumonia, Ventilator-Associated
+N18	NCIT:C102993 T28	Bacteremia
+N19	MESH:D009026 T29	Mortality
+N20	CHEBI:64709 T31	organic acid
+N21	NCIT:C64469 T32	Bacterial Count
+N22	NCIT:C26765 T33	Enteritis
+N23	NCIT:C87128 T34	Loose Stool
+N24	MESH:D058616 T35	Synbiotics
+N25	MESH:D058616 T36	Synbiotics
+N26	NCIT:C26765 T37	Enteritis
+N27	MESH:D058616 T39	Synbiotics
+N28	MESH:D053717 T40	Pneumonia, Ventilator-Associated
+N29	MESH:D058616 T42	Synbiotics
+N30	NCIT:C102993 T43	Bacteremia
+N31	MESH:D009026 T44	Mortality
+N32	NCBITAXON:1678 T46	Bifidobacterium
+N33	NCBITAXON:1578 T47	Lactobacillus
+N34	MESH:D058616 T48	Synbiotics
+N35	CHEBI:64709 T50	organic acid
+N36	CHEBI:30089 T52	acetate
+N37	MESH:D058616 T55	Synbiotics
+N38	MESH:D058616 T56	Synbiotics
+N39	NCIT:C26765 T58	Enteritis
+N40	MESH:D053717 T59	Pneumonia, Ventilator-Associated
+N41	MESH:D018805 T61	Sepsis
+N42	MESH:D018805 T62	Sepsis
+A4	Factual E1
+A5	Factual E2
+A6	Factual E4
+A7	Factual E5
+A8	Factual E6
+A9	Factual E7
+A10	Factual E8

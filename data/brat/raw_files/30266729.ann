@@ -1,0 +1,43 @@
+T1	Nutrient 45 61	Resistant Starch
+T2	Nutrient 159 175	resistant starch
+T3	Nutrient 177 179	RS
+T4	Methodology 282 301	multiomics approach
+T5	Methodology 311 335	16S rRNA gene sequencing
+T6	Methodology 337 351	metaproteomics
+T7	Methodology 357 369	metabolomics
+T8	Biospecimen 373 378	fecal
+T9	Nutrient 439 448	type 2 RS
+T10	Nutrient 450 453	RS2
+T11	Methodology 518 540	crossover intervention
+T12	Methodology 596 630	pathway-based metagenomic analyses
+T13	Nutrient 791 794	RS2
+T14	Microorganism 913 923	Firmicutes
+T15	Microorganism 930 949	Ruminococcus bromii
+T16	Metabolite 1025 1032	acetate
+T17	Metabolite 1080 1088	butyrate
+T18	Enzyme 1121 1169	butyryl-coenzyme A (CoA):acetate CoA-transferase
+T20	INCREASES 1015 1024	increased
+T21	Microorganism 1206 1215	acetogens
+T22	Disease 1735 1742	obesity
+T23	Disease 1747 1762	type 2 diabetes
+T24	Nutrient 1804 1822	resistant starches
+T25	Nutrient 1824 1826	RS
+T26	Nutrient 2087 2089	RS
+E1	INCREASES:T20 Theme:T16 Agent:T15
+E2	INCREASES:T20 Theme:T16 Agent:T14
+N1	Reference T1 NCIT:C94233	Resistant Starch
+N2	Reference T2 NCIT:C94233	Resistant Starch
+N3	Reference T3 NCIT:C94233	Resistant Starch
+N4	Reference T9 NCIT:C94233	Resistant Starch
+N5	Reference T10 NCIT:C94233	Resistant Starch
+N6	Reference T13 NCIT:C94233	Resistant Starch
+N7	Reference T14 NCBITAXON:1239	Firmicutes
+N8	Reference T15 NCBITAXON:40518	Ruminococcus bromii
+N9	Reference T16 CHEBI:30089	acetate
+N10	Reference T17 CHEBI:17968	butyrate
+N11	Reference T18 MESH:C019803	butyryl-CoA acetoacetate CoA transferase
+N12	Reference T22 NCIT:C3283	Obesity
+N13	Reference T23 NCIT:C26747	Type 2 Diabetes Mellitus
+N14	Reference T24 NCIT:C94233	Resistant Starch
+N15	Reference T25 NCIT:C94233	Resistant Starch
+N16	Reference T26 NCIT:C94233	Resistant Starch

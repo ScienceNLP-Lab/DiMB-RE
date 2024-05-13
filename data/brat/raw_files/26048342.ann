@@ -1,0 +1,108 @@
+T1	Food 0 26	Schisandra chinensis fruit
+T2	ASSOCIATED_WITH 71 82	association
+T3	Measurement 88 105	metabolic markers
+T4	Population 109 120	obese women
+T5	Disease 109 114	obese
+T6	Methodology 124 173	randomized, double-blind placebo-controlled study
+T7	Food 176 202	Schisandra chinensis fruit
+T8	Food 204 207	SCF
+T9	Disease 278 285	obesity
+T10	IMPROVES 226 244	beneficial effects
+T11	Physiology 428 444	lipid metabolism
+T12	Methodology 481 519	double-blind, placebo-controlled study
+T13	Population 528 539	obese women
+T14	Disease 528 533	obese
+T15	Food 545 548	SCF
+T16	Biospecimen 606 611	blood
+T17	Biospecimen 616 621	fecal
+T18	Biospecimen 708 713	feces
+T19	Methodology 734 773	denaturing gradient gel electrophoresis
+T20	Methodology 778 816	quantitative polymerase chain reaction
+T21	Food 893 896	SCF
+T22	DECREASES 920 936	greater decrease
+T23	Measurement 940 959	waist circumference
+T24	Measurement 961 969	fat mass
+T25	Chemical 971 992	fasting blood glucose
+T26	Chemical 994 1007	triglycerides
+T27	Enzyme 1009 1035	aspartate aminotransferase
+T28	Enzyme 1041 1065	alanine aminotransferase
+T29	Methodology 1108 1147	denaturing gradient gel electrophoresis
+T30	Food 1245 1248	SCF
+T31	Methodology 1272 1292	correlation analysis
+T32	Microorganism 1294 1305	Bacteroides
+T33	Microorganism 1310 1323	Bacteroidetes
+T34	Food 1343 1346	SCF
+T35	INCREASES 1330 1339	increased
+T36	NEG_ASSOCIATED_WITH 1367 1387	negative correlation
+T37	Measurement 1393 1401	fat mass
+T38	Enzyme 1403 1429	aspartate aminotransferase
+T39	Enzyme 1438 1462	alanine aminotransferase
+T40	Microorganism 1478 1490	Ruminococcus
+T41	DECREASES 1492 1501	decreased
+T42	Food 1505 1508	SCF
+T43	NEG_ASSOCIATED_WITH 1517 1537	negative correlation
+T44	Chemical 1543 1579	high-density lipoprotein cholesterol
+T45	Chemical 1584 1605	fasting blood glucose
+T46	Food 1640 1643	SCF
+T47	Population 1717 1735	Korean obese women
+T48	Disease 1724 1729	obese
+T49	Food 1851 1854	SCF
+T51	Disease 1907 1914	obesity
+T52	AFFECTS 1859 1903	not sufficient to induce significant changes
+T54	Disease 248 266	metabolic diseases
+T55	AFFECTS 419 424	roles
+E1	ASSOCIATED_WITH:T2 Theme:T1 Theme2:T3
+E2	IMPROVES:T10 Agent:T7 Theme:T9
+E3	DECREASES:T22 Agent:T21 Theme:T23
+E4	DECREASES:T22 Agent:T21 Theme:T24
+E5	DECREASES:T22 Agent:T21 Theme:T25
+E6	DECREASES:T22 Agent:T21 Theme:T26
+E7	DECREASES:T22 Agent:T21 Theme:T27
+E8	DECREASES:T22 Agent:T21 Theme:T28
+E9	INCREASES:T35 Agent:T34 Theme:T33
+E10	INCREASES:T35 Agent:T34 Theme:T32
+E11	NEG_ASSOCIATED_WITH:T36 Theme:T39 Agent:T32
+E12	NEG_ASSOCIATED_WITH:T36 Agent:T33 Theme:T39
+E13	DECREASES:T41 Agent:T42 Theme:T40
+E14	NEG_ASSOCIATED_WITH:T43 Agent:T40 Theme:T44
+E15	NEG_ASSOCIATED_WITH:T43 Agent:T40 Theme:T45
+E16	AFFECTS:T52 Agent:T49 Theme:T51
+E17	AFFECTS:T55 Theme:T11 Agent:T7
+E18	NEG_ASSOCIATED_WITH:T36 Theme:T37 Agent:T32
+E19	NEG_ASSOCIATED_WITH:T36 Theme:T37 Agent:T33
+E20	NEG_ASSOCIATED_WITH:T36 Theme:T38 Agent:T32
+E21	NEG_ASSOCIATED_WITH:T36 Theme:T38 Agent:T33
+A1	Factuality E16 Negated
+A2	Factuality E17 Unknown
+N1	Reference T1 FOODON:03415055	schisandra plant
+N2	Reference T3 NCIT:C18520	Metabolic Marker
+N3	Reference T5 NCIT:C3283	Obesity
+N4	Reference T7 FOODON:03415055	schisandra plant
+N5	Reference T8 FOODON:03415055	schisandra plant
+N6	Reference T9 NCIT:C3283	Obesity
+N7	Reference T11 NCIT:C19405	Lipid Metabolic Process
+N8	Reference T14 NCIT:C3283	Obesity
+N9	Reference T15 FOODON:03415055	schisandra plant
+N10	Reference T21 FOODON:03415055	schisandra plant
+N11	Reference T23 NCIT:C100948	Waist Circumference
+N12	Reference T24 NCIT:C158256	Fat Mass
+N13	Reference T25 NCIT:C94312	Blood Glucose
+N14	Reference T26 CHEBI:17855	triglyceride
+N15	Reference T27 NCIT:C25202	Aspartate Aminotransferase
+N16	Reference T28 NCIT:C25293	Alanine Aminotransferase
+N17	Reference T30 FOODON:03415055	schisandra plant
+N18	Reference T32 NCBITAXON:816	Bacteroides
+N19	Reference T33 NCBITAXON:976	Bacteroidetes
+N20	Reference T34 FOODON:03415055	schisandra plant
+N21	Reference T37 NCIT:C158256	Fat Mass
+N22	Reference T38 NCIT:C25202	Aspartate Aminotransferase
+N23	Reference T39 NCIT:C25293	Alanine Aminotransferase
+N24	Reference T40 NCBITAXON:1263	Ruminococcus
+N25	Reference T42 FOODON:03415055	schisandra plant
+N26	Reference T44 CHEBI:47775	high-density lipoprotein cholesterol
+N27	Reference T45 NCIT:C94312	Blood Glucose
+N28	Reference T46 FOODON:03415055	schisandra plant
+N29	Reference T48 NCIT:C3283	Obesity
+N30	Reference T49 FOODON:03415055	schisandra plant
+N31	Reference T51 NCIT:C3283	Obesity
+N32	Reference T54 NCIT:C3235	Metabolic Disorder

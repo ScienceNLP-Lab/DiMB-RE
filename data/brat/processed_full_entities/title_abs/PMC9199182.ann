@@ -1,0 +1,94 @@
+T1	DietPattern 173 200	plant-based dietary pattern
+T2	Physiology 86 108	cardiometabolic health
+T3	Methodology 112 136	prospective cohort study
+T4	DietPattern 29 38;54 81	long-term plant-based dietary pattern
+T5	DietPattern 43 81	short-term plant-based dietary pattern
+T6	ASSOCIATED_WITH 153 162	interplay
+T7	Physiology 222 244	cardiometabolic health
+T8	Physiology 1847 1878	microbial taxonomic composition
+T9	DietPattern 355 364;380 408	long-term plant-based dietary patterns
+T10	DietPattern 369 408	short-term plant-based dietary patterns
+T11	Measurement 513 539	cardiometabolic biomarkers
+T12	ASSOCIATED_WITH 1831 1841	associated
+T17	Methodology 896 932	repeat food frequency questionnaires
+T18	DietPattern 1002 1028	Short-term dietary pattern
+T19	Methodology 1049 1075	3-day 24-h dietary recalls
+T21	DietPattern 975 1000	long-term dietary pattern
+T22	Biospecimen 1095 1100	Fecal
+T23	Methodology 1151 1170	16S rRNA sequencing
+T24	DietPattern 1207 1216;1232 1260	long-term plant-based dietary patterns
+T25	DietPattern 1221 1260	short-term plant-based dietary patterns
+T26	Methodology 1333 1352	linear mixed models
+T27	Methodology 1513 1530	linear regression
+T28	Measurement 1461 1487	cardiometabolic biomarkers
+T29	DiversityMetric 1609 1624	alpha-diversity
+T30	ASSOCIATED_WITH 1563 1574	association
+T33	Population 656 710	participants from 15 provinces/megacities across China
+T34	Methodology 557 598	population-based prospective cohort study
+T35	DietPattern 1631 1640;1656 1672	long-term plant-based diet
+T36	DietPattern 1645 1672	short-term plant-based diet
+T38	ASSOCIATED_WITH 1936 1947	association
+T39	Microorganism 2061 2079	Peptostreptococcus
+T40	NEG_ASSOCIATED_WITH 2013 2057	associated with the lower relative abundance
+T41	POS_ASSOCIATED_WITH 2104 2125	positively correlated
+T44	NEG_ASSOCIATED_WITH 2175 2195	inversely associated
+T45	DietPattern 2308 2317;2333 2361	long-term plant-based dietary patterns
+T46	DietPattern 2322 2361	short-term plant-based dietary patterns
+T47	DietPattern 2444 2481	long-term plant-based dietary pattern
+T48	Physiology 2486 2508	cardiometabolic health
+T49	IMPROVES 2425 2440	protective role
+T53	Measurement 1960 1986	cardiometabolic biomarkers
+T56	Chemical 2135 2170	high-sensitivity C-reactive protein
+T57	Chemical 2201 2237	high-density lipoprotein cholesterol
+T58	Measurement 734 756	plant-based diet index
+T59	Measurement 758 761	PDI
+T60	Measurement 766 798	healthful plant-based diet index
+T61	Measurement 800 804	hPDI
+T62	Measurement 814 848	unhealthful plant-based diet index
+T63	Measurement 850 854	uPDI
+T64	Measurement 869 873	PDIs
+T65	Measurement 1578 1593	short-term hPDI
+T67	Measurement 1809 1813	PDIs
+T68	Measurement 1995 2008	long-term PDI
+T69	DiversityMetric 1266 1289	gut microbial diversity
+E1	ASSOCIATED_WITH:T6 Theme:T1 Theme2:T7
+E2	ASSOCIATED_WITH:T30 Theme2:T29 Theme:T65
+E3	ASSOCIATED_WITH:T38 Theme2:T53 Theme:T35
+E4	NEG_ASSOCIATED_WITH:T40 Theme:T39 Agent:T68
+E5	POS_ASSOCIATED_WITH:T41 Agent:T39 Theme:T56
+E6	NEG_ASSOCIATED_WITH:T44 Agent:T39 Theme:T57
+E7	IMPROVES:T49 Agent:T47 Theme:T48
+E8	ASSOCIATED_WITH:T12 Theme:T8 Theme2:T67
+A1	Unknown E1
+A2	Unknown E7
+N1	NCIT:C180543 T1	Plant-Based Diet
+N2	NCIT:C180543 T4	Plant-Based Diet
+N3	NCIT:C180543 T5	Plant-Based Diet
+N4	MESH:D064307 T8	Microbiota
+N5	NCIT:C180543 T9	Plant-Based Diet
+N6	NCIT:C180543 T10	Plant-Based Diet
+N11	NCIT:C180543 T24	Plant-Based Diet
+N12	NCIT:C180543 T25	Plant-Based Diet
+N14	NCIT:C180543 T35	Plant-Based Diet
+N15	NCIT:C180543 T36	Plant-Based Diet
+N16	NCBITAXON:1257 T39	Peptostreptococcus
+N17	NCIT:C180543 T45	Plant-Based Diet
+N18	NCIT:C180543 T46	Plant-Based Diet
+N19	NCIT:C180543 T47	Plant-Based Diet
+N20	NCIT:C157114 T56	High Sensitivity C-Reactive Protein Measurement
+N21	CHEBI:47775 T57	high-density lipoprotein cholesterol
+N22	NCIT:C180543 T58	Plant-Based Diet
+N23	NCIT:C63852 T59	Polydispersity Index
+N24	NCIT:C180543 T60	Plant-Based Diet
+N25	NCIT:C180543 T61	Plant-Based Diet
+N26	NCIT:C180543 T63	Plant-Based Diet
+N27	NCIT:C63852 T64	Polydispersity Index
+N28	NCIT:C180543 T65	Plant-Based Diet
+N29	NCIT:C63852 T67	Polydispersity Index
+N30	NCIT:C180543 T68	Plant-Based Diet
+A5	Factual E2
+A6	Factual E3
+A7	Factual E4
+A8	Factual E5
+A9	Factual E6
+A10	Factual E8

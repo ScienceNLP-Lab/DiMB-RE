@@ -1,0 +1,14 @@
+Impact of wheat aleurone on biomarkers of cardiovascular disease, gut microbiota and metabolites in adults with high body mass index: a double-blind, placebo-controlled, randomized clinical trial
+
+Purpose
+Aleurone is a cereal bran fraction containing a variety of beneficial nutrients including polyphenols, fibers, minerals and vitamins. Animal and human studies support the beneficial role of aleurone consumption in reducing cardiovascular disease (CVD) risk. Gut microbiota fiber fermentation, polyphenol metabolism and betaine/choline metabolism may in part contribute to the physiological effects of aleurone. As primary objective, this study evaluated whether wheat aleurone supplemented foods could modify plasma homocysteine. Secondary objectives included changes in CVD biomarkers, fecal microbiota composition and plasma/urine metabolite profiles.
+Methods
+A parallel double-blind, placebo-controlled and randomized trial was carried out in two groups of obese/overweight subjects, matched for age, BMI and gender, consuming foods supplemented with either aleurone (27 g/day) (AL, n = 34) or cellulose (placebo treatment, PL, n = 33) for 4 weeks.
+Results
+No significant changes in plasma homocysteine or other clinical markers were observed with either treatment. Dietary fiber intake increased after AL and PL, animal protein intake increased after PL treatment. We observed a significant increase in fecal Bifidobacterium spp with AL and Lactobacillus spp with both AL and PL, but overall fecal microbiota community structure changed little according to 16S rRNA metataxonomics. Metabolomics implicated microbial metabolism of aleurone polyphenols and revealed distinctive biomarkers of AL treatment, including alkylresorcinol, cinnamic, benzoic and ferulic acids, folic acid, fatty acids, benzoxazinoid and roasted aroma related metabolites. Correlation analysis highlighted bacterial genera potentially linked to urinary compounds derived from aleurone metabolism and clinical parameters.
+Conclusions
+Aleurone has potential to modulate the gut microbial metabolic output and increase fecal bifidobacterial abundance. However, in this study, aleurone did not impact on plasma homocysteine or other CVD biomarkers.
+Trial Registration
+The study was registered at ClinicalTrials.gov (NCT02067026) on the 17th February 2014.
+Supplementary Information
+The online version contains supplementary material available at 10.1007/s00394-022-02836-9.

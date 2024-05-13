@@ -1,0 +1,369 @@
+T1	Disease 140 149	Dysbiosis
+T2	Disease 91 112	Aorta Atherosclerosis
+T3	Physiology 73 85	Inflammation
+T4	Microorganism 0 20	Bacteroides fragilis
+T5	Disease 50 71	Metabolic Dysfunction
+T6	WORSENS 37 49	Deteriorated
+T7	Disease 300 327	inflammatory bowel diseases
+T8	Disease 329 336	obesity
+T9	Disease 338 352	hyperlipidemia
+T10	Disease 358 375	diabetes mellitus
+T11	Disease 414 429	atherosclerosis
+T12	CAUSES 116 124	Inducing
+T13	PREDISPOSES 1800 1808	promoted
+T14	Disease 490 517	atherosclerotic progression
+T15	Population 576 589	mice, C57Bl/6
+T16	Microorganism 693 713	Bacteroides fragilis
+T17	Microorganism 715 718	BFS
+T18	DietPattern 736 749	high-fat diet
+T19	Biospecimen 783 788	feces
+T20	Methodology 813 862	16S rDNA cloning library construction, sequencing
+T21	Methodology 868 891	bioinformatics analysis
+T22	Methodology 940 958	Oil Red O staining
+T23	Disease 1011 1026	atherosclerosis
+T24	Methodology 1098 1124	quantitative real-time PCR
+T25	Microorganism 1159 1162	BFS
+T26	INCREASES 1176 1185	increased
+T27	PREDISPOSES 397 409	risk factors
+T28	PREDISPOSES 397 409	risk factors
+T29	PREDISPOSES 397 409	risk factors
+T30	Physiology 1276 1306	aortic atherosclerotic lesions
+T31	Microorganism 1308 1311	BFS
+T32	DECREASES 1325 1332	reduced
+T33	Microorganism 1333 1349	Lactobacillaceae
+T34	Microorganism 1351 1354	LAC
+T35	INCREASES 1370 1379	increased
+T36	Microorganism 1380 1399	Desulfovibrionaceae
+T37	Microorganism 1401 1404	DSV
+T38	Microorganism 1623 1626	BFS
+T39	Disease 1598 1607	dysbiosis
+T40	CAUSES 1612 1619	induced
+T41	Microorganism 1660 1663	LAC
+T42	DECREASES 1652 1659	reduced
+T43	INCREASES 1668 1677	increased
+T44	Microorganism 1678 1681	DSV
+T45	WORSENS 1707 1720	deterioration
+T46	Disease 1724 1759	glucose/lipid metabolic dysfunction
+T47	Physiology 1764 1785	inflammatory response
+T48	INCREASES 13265 13275	increasing
+T49	Physiology 1809 1831	aorta plaque formation
+T50	Physiology 1186 1197	food intake
+T51	Disease 1855 1870	atherosclerosis
+T52	Microorganism 1505 1508	BFS
+T53	Physiology 897 919	atherosclerotic lesion
+T54	Gene 970 974	CD36
+T55	CAUSES 997 1010	implicated in
+T56	Physiology 1032 1037	F4/80
+T57	Gene 1447 1451	CD36
+T58	Physiology 1456 1461	F4/80
+T59	INCREASES 1534 1540	higher
+T60	Chemical 1199 1226	fasting blood glucose level
+T61	Measurement 1228 1239	body weight
+T62	Chemical 1241 1270	low-density lipoprotein level
+T63	PREDISPOSES 1800 1808	promoted
+T64	Population 552 570	Four-week-old mice
+T65	PREDISPOSES 1800 1808	promoted
+T66	Population 10438 10442	mice
+T67	Population 10664 10673	BFS group
+T68	Physiology 10423 10434	food intake
+T69	Physiology 10576 10587	food intake
+T70	Physiology 10645 10656	food intake
+T71	Physiology 10795 10806	food intake
+T72	Population 10815 10820	mouse
+T73	Population 10836 10845	BFS group
+T74	Microorganism 10664 10667	BFS
+T75	INCREASES 10674 10683	increased
+T76	Microorganism 10836 10839	BFS
+T77	INCREASES 10856 10865	increased
+T78	Nutrient 10976 10990	drinking water
+T79	Chemical 11177 11198	Fasting Blood Glucose
+T80	Chemical 11228 11249	fasting blood glucose
+T81	Population 11257 11266	BFS group
+T82	Microorganism 11257 11260	BFS
+T83	Microorganism 11323 11326	BFS
+T84	Chemical 11332 11353	fasting blood glucose
+T85	INCREASES 11267 11276	increased
+T86	Chemical 11460 11481	fasting blood glucose
+T87	Microorganism 11532 11535	BFS
+T88	Chemical 11570 11591	fasting blood glucose
+T89	Microorganism 11599 11602	BFS
+T90	Population 11599 11608	BFS group
+T91	INCREASES 11627 11633	higher
+T92	Physiology 11716 11728	Heart Weight
+T93	Measurement 11711 11715;11722 11728	Body Weight
+T94	Physiology 11733 11758	Cardiac Systolic Function
+T95	Measurement 11787 11799	body weights
+T96	Measurement 11960 11971	body weight
+T97	Measurement 12032 12043	body weight
+T98	Population 12051 12060	BFS group
+T99	Microorganism 12051 12054	BFS
+T100	INCREASES 12061 12070	increased
+T101	Measurement 12145 12156	body weight
+T102	Population 12164 12173	BFS group
+T103	Microorganism 12164 12167	BFS
+T104	INCREASES 12188 12197	increased
+T105	Population 12317 12321	mice
+T106	Population 12410 12419	BFS group
+T107	Microorganism 12410 12413	BFS
+T108	Physiology 12520 12537	heart/body weight
+T109	Physiology 12622 12647	cardiac systolic function
+T110	AFFECTS 12465 12490	no significant difference
+T111	Chemical 12677 12688	Blood Lipid
+T112	Population 12747 12756	BFS group
+T113	Microorganism 12747 12750	BFS
+T114	Chemical 12788 12793	HDL-C
+T115	Chemical 12862 12867	LDL-C
+T116	AFFECTS 12757 12784	did not show any difference
+T117	Population 12915 12924	BFS group
+T118	Microorganism 12915 12918	BFS
+T119	INCREASES 12930 12936	higher
+T120	Population 13037 13046	BFS group
+T121	Microorganism 13037 13040	BFS
+T122	AFFECTS 13047 13074	did not show any difference
+T123	Chemical 13078 13090	triglyceride
+T124	Chemical 13165 13182	total cholesterol
+T125	Population 13243 13252	BFS group
+T126	Microorganism 13243 13246	BFS
+T127	Physiology 13336 13358	Atherosclerotic Lesion
+T128	Methodology 13400 13409	Oil Red O
+T129	Physiology 13442 13465	atherosclerotic lesions
+T130	Physiology 13581 13604	atherosclerotic lesions
+T131	INCREASES 13561 13570	increased
+T132	Population 13647 13656	BFS group
+T133	Microorganism 13647 13650	BFS
+T134	Physiology 13709 13739	Inflammatory Marker Expression
+T135	Chemical 13770 13774	TLR2
+T136	Chemical 13776 13780	TLR4
+T137	Gene 13782 13786	CD36
+T138	Physiology 13792 13797	F4/80
+T139	Methodology 13852 13859	qRT-PCR
+T140	Microorganism 13898 13901	BFS
+T141	Population 13898 13907	BFS group
+T142	INCREASES 13929 13938	increased
+T143	Gene 13965 13969	CD36
+T144	Physiology 14022 14027	F4/80
+T145	Chemical 14080 14084	TLR2
+T146	Chemical 14141 14145	TLR4
+T147	Gene 14251 14255	CD36
+T148	Physiology 14311 14316	F4/80
+T149	Population 14375 14384	BFS group
+T150	Microorganism 14375 14378	BFS
+T151	INCREASES 14424 14432	elevated
+T152	DiversityMetric 15084 15099	alpha diversity
+T153	DiversityMetric 15323 15337	beta diversity
+T154	Methodology 15499 15502	PCA
+T155	Microorganism 15631 15645	Bacteroidaceae
+T156	Microorganism 15660 15674	Bacteroidaceae
+T157	Microorganism 15676 15679	BAC
+T158	Population 15718 15722	mice
+T159	Microorganism 15778 15781	BAC
+T160	Microorganism 15806 15809	BFS
+T161	Microorganism 15932 15935	BAC
+T162	Biospecimen 15960 15965	feces
+T163	Microorganism 16139 16142	BAC
+T164	Biospecimen 16167 16172	feces
+T165	Microorganism 16176 16179	BFS
+T166	Microorganism 16279 16295	Lactobacillaceae
+T167	Microorganism 16331 16347	Lactobacillaceae
+T168	Microorganism 16349 16352	LAC
+T169	Biospecimen 16378 16383	feces
+T170	Population 16387 16391	mice
+T171	Microorganism 16399 16402	BFS
+T172	Microorganism 15992 15995	BAC
+T173	Population 15806 15809;15822 15828	BFS groups
+T174	Population 16399 16402;16415 16421	BFS groups
+T175	Microorganism 16539 16542	LAC
+T176	Microorganism 16665 16668	LAC
+T177	DECREASES 16679 16688	decreased
+T178	Microorganism 16718 16721	BFS
+T179	Methodology 16718 16727	BFS group
+T180	Microorganism 16788 16791	LAC
+T181	Microorganism 16889 16892	LAC
+T182	Population 16910 16919	BFS group
+T183	Microorganism 16910 16913	BFS
+T184	DECREASES 16934 16943	decreased
+T185	Microorganism 17032 17051	Desulfovibrionaceae
+T186	Microorganism 17087 17106	Desulfovibrionaceae
+T187	Microorganism 17108 17111	DSV
+T188	Biospecimen 17137 17142	feces
+T189	Population 17146 17150	mice
+T190	Microorganism 17224 17227	DSV
+T191	Biospecimen 17244 17249	feces
+T192	Microorganism 17391 17394	DSV
+T193	Microorganism 17442 17445	DSV
+T194	Population 17463 17472	BFS group
+T195	Microorganism 17463 17466	BFS
+T196	INCREASES 17491 17497	higher
+T6511	Nutrient 10404 10418	Drinking Water
+E1	WORSENS:T6 Agent:T4 Theme:T5
+E2	WORSENS:T6 Agent:T4 Theme:T3
+E3	WORSENS:T6 Agent:T4 Theme:T2
+E4	CAUSES:T12 Theme:T1 Agent:T4
+E5	INCREASES:T26 Theme:T50 Agent:T25
+E7	INCREASES:T26 Agent:T25 Theme:T60
+E8	INCREASES:T26 Agent:T25 Theme:T61
+E9	INCREASES:T26 Agent:T25 Theme:T62
+E10	INCREASES:T26 Agent:T25 Theme:T30
+E11	DECREASES:T32 Agent:T31 Theme:T33
+E12	CAUSES:T40 Theme:T39 Agent:T38
+E13	INCREASES:T35 Theme:T36 Agent:T31
+E14	DECREASES:T42 Theme:T41 Agent:T38
+E15	INCREASES:T43 Theme:T44 Agent:T38
+E16	INCREASES:T48 Agent:T126 Theme:T124
+E18	WORSENS:T45 Theme:T46 Agent:T38
+E19	WORSENS:T45 Theme:T47 Agent:T38
+E20	PREDISPOSES:T65 Agent:T47 Theme:T51
+E21	PREDISPOSES:T13 Theme:T49 Agent:T47
+E22	PREDISPOSES:T63 Theme:T49 Agent:T46
+E23	PREDISPOSES:T13 Agent:T46 Theme:T51
+E24	CAUSES:T55 Agent:T54 Theme:T23
+E25	INCREASES:T59 Agent:T52 Theme:T57
+E26	INCREASES:T59 Agent:T52 Theme:T58
+E27	AFFECTS:T110 Agent:T107 Theme:T108
+E28	PREDISPOSES:T27 Theme:T11 Agent:T7
+E29	PREDISPOSES:T27 Theme:T11 Agent:T10
+E30	PREDISPOSES:T29 Theme:T11 Agent:T9
+E31	PREDISPOSES:T28 Theme:T11 Agent:T8
+E32	INCREASES:T131 Agent:T133 Theme:T130
+E33	INCREASES:T142 Agent:T140 Theme:T143
+E34	INCREASES:T142 Agent:T140 Theme:T144
+E35	INCREASES:T142 Agent:T140 Theme:T145
+E36	INCREASES:T142 Agent:T140 Theme:T146
+E37	INCREASES:T151 Agent:T150 Theme:T148
+E38	INCREASES:T151 Agent:T150 Theme:T147
+E39	DECREASES:T177 Theme:T176 Agent:T178
+E40	DECREASES:T184 Agent:T183 Theme:T181
+E41	INCREASES:T196 Agent:T195 Theme:T193
+E2111	INCREASES:T75 Agent:T74 Theme:T70
+E2211	INCREASES:T77 Agent:T76 Theme:T71
+E2311	INCREASES:T85 Agent:T82 Theme:T80
+E2411	INCREASES:T91 Agent:T89 Theme:T88
+E2511	INCREASES:T100 Agent:T99 Theme:T97
+E2611	INCREASES:T104 Agent:T103 Theme:T101
+E2811	AFFECTS:T110 Agent:T107 Theme:T109
+E2911	AFFECTS:T116 Agent:T113 Theme:T114
+E3011	INCREASES:T119 Agent:T118 Theme:T115
+E3111	AFFECTS:T122 Agent:T121 Theme:T123
+A1	Factuality E21 Probable
+A2	Factuality E22 Probable
+A3	Factuality E20 Probable
+A4	Factuality E23 Probable
+A5	Factuality E27 Negated
+A6	Factuality E2811 Negated
+A7	Factuality E2911 Negated
+A8	Factuality E3111 Negated
+N1	Reference T1 MESH:D064806	Dysbiosis
+N2	Reference T2 NCIT:C197845	Atherosclerosis of Aorta
+N3	Reference T3 NCIT:C3137	Inflammation
+N4	Reference T4 NCBITAXON:817	Bacteroides fragilis
+N5	Reference T5 NCIT:C3235	Metabolic Disorder
+N6	Reference T7 NCIT:C3138	Inflammatory Bowel Disease
+N7	Reference T8 NCIT:C3283	Obesity
+N8	Reference T9 NCIT:C34707	Hyperlipidemia
+N9	Reference T10 NCIT:C2985	Diabetes Mellitus
+N10	Reference T11 NCIT:C35768	Atherosclerosis
+N11	Reference T14 NCIT:C35768	Atherosclerosis
+N12	Reference T16 NCBITAXON:817	Bacteroides fragilis
+N13	Reference T17 NCBITAXON:817	Bacteroides fragilis
+N14	Reference T18 MESH:D059305	Diet, High-Fat
+N15	Reference T23 NCIT:C35768	Atherosclerosis
+N16	Reference T25 NCBITAXON:817	Bacteroides fragilis
+N17	Reference T30 NCIT:C78739	Atherosclerotic Plaque
+N18	Reference T31 NCBITAXON:817	Bacteroides fragilis
+N19	Reference T33 NCBITAXON:33958	Lactobacillaceae
+N20	Reference T34 NCBITAXON:33958	Lactobacillaceae
+N21	Reference T36 NCBITAXON:194924	Desulfovibrionaceae
+N22	Reference T37 NCIT:C85931	Desulfovibrionaceae
+N23	Reference T38 NCBITAXON:817	Bacteroides fragilis
+N24	Reference T39 MESH:D064806	Dysbiosis
+N25	Reference T41 NCBITAXON:33958	Lactobacillaceae
+N26	Reference T44 NCIT:C85931	Desulfovibrionaceae
+N27	Reference T47 NCIT:C20151	Inflammatory Response
+N28	Reference T49 NCIT:C78739	Atherosclerotic Plaque
+N29	Reference T51 NCIT:C35768	Atherosclerosis
+N30	Reference T52 NCBITAXON:817	Bacteroides fragilis
+N31	Reference T53 NCIT:C78739	Atherosclerotic Plaque
+N32	Reference T54 GENE:948	CD36
+N33	Reference T56 MESH:C036763	monocyte-macrophage differentiation antigen
+N34	Reference T57 GENE:948	CD36
+N35	Reference T58 MESH:C036763	monocyte-macrophage differentiation antigen
+N36	Reference T60 NCIT:C94312	Blood Glucose
+N37	Reference T61 NCIT:C81328	Body Weight
+N38	Reference T62 CHEBI:39026	low-density lipoprotein
+N39	Reference T68 MESH:D004435	Eating
+N40	Reference T69 MESH:D004435	Eating
+N41	Reference T70 MESH:D004435	Eating
+N42	Reference T71 MESH:D004435	Eating
+N43	Reference T74 NCBITAXON:817	Bacteroides fragilis
+N44	Reference T76 NCBITAXON:817	Bacteroides fragilis
+N45	Reference T78 CHEBI:15377	water
+N46	Reference T79 NCIT:C94312	Blood Glucose
+N47	Reference T80 NCIT:C94312	Blood Glucose
+N48	Reference T82 NCBITAXON:817	Bacteroides fragilis
+N49	Reference T83 NCBITAXON:817	Bacteroides fragilis
+N50	Reference T84 NCIT:C94312	Blood Glucose
+N51	Reference T86 NCIT:C94312	Blood Glucose
+N52	Reference T87 NCBITAXON:817	Bacteroides fragilis
+N53	Reference T88 NCIT:C94312	Blood Glucose
+N54	Reference T89 NCBITAXON:817	Bacteroides fragilis
+N55	Reference T93 NCIT:C81328	Body Weight
+N56	Reference T95 NCIT:C81328	Body Weight
+N57	Reference T96 NCIT:C81328	Body Weight
+N58	Reference T97 NCIT:C81328	Body Weight
+N59	Reference T99 NCBITAXON:817	Bacteroides fragilis
+N60	Reference T101 NCIT:C81328	Body Weight
+N61	Reference T103 NCBITAXON:817	Bacteroides fragilis
+N62	Reference T107 NCBITAXON:817	Bacteroides fragilis
+N63	Reference T111 OCHV:41502	blood lipid
+N64	Reference T113 NCBITAXON:817	Bacteroides fragilis
+N65	Reference T114 CHEBI:47775	high-density lipoprotein cholesterol
+N66	Reference T115 CHEBI:47774	low-density lipoprotein cholesterol
+N67	Reference T118 NCBITAXON:817	Bacteroides fragilis
+N68	Reference T121 NCBITAXON:817	Bacteroides fragilis
+N69	Reference T123 CHEBI:17855	triglyceride
+N70	Reference T124 NCIT:C105586	Cholesterol Measurement
+N71	Reference T126 NCBITAXON:817	Bacteroides fragilis
+N72	Reference T127 NCIT:C78739	Atherosclerotic Plaque
+N73	Reference T129 NCIT:C78739	Atherosclerotic Plaque
+N74	Reference T130 NCIT:C78739	Atherosclerotic Plaque
+N75	Reference T133 NCBITAXON:817	Bacteroides fragilis
+N76	Reference T135 NCIT:C30102	Toll-Like Receptor 2
+N77	Reference T136 NCIT:C30105	Toll-Like Receptor 4
+N78	Reference T137 GENE:948	CD36
+N79	Reference T138 MESH:C036763	monocyte-macrophage differentiation antigen
+N80	Reference T140 NCBITAXON:817	Bacteroides fragilis
+N81	Reference T143 GENE:948	CD36
+N82	Reference T144 MESH:C036763	monocyte-macrophage differentiation antigen
+N83	Reference T145 NCIT:C30102	Toll-Like Receptor 2
+N84	Reference T146 NCIT:C30105	Toll-Like Receptor 4
+N85	Reference T147 GENE:948	CD36
+N86	Reference T148 MESH:C036763	monocyte-macrophage differentiation antigen
+N87	Reference T150 NCBITAXON:817	Bacteroides fragilis
+N88	Reference T155 NCBITAXON:815	Bacteroidaceae
+N89	Reference T156 NCBITAXON:815	Bacteroidaceae
+N90	Reference T157 NCBITAXON:815	Bacteroidaceae
+N91	Reference T159 NCBITAXON:815	Bacteroidaceae
+N92	Reference T160 NCBITAXON:817	Bacteroides fragilis
+N93	Reference T161 NCBITAXON:815	Bacteroidaceae
+N94	Reference T163 NCBITAXON:815	Bacteroidaceae
+N95	Reference T165 NCBITAXON:817	Bacteroides fragilis
+N96	Reference T166 NCBITAXON:33958	Lactobacillaceae
+N97	Reference T167 NCBITAXON:33958	Lactobacillaceae
+N98	Reference T168 NCBITAXON:33958	Lactobacillaceae
+N99	Reference T171 NCBITAXON:817	Bacteroides fragilis
+N100	Reference T172 NCBITAXON:815	Bacteroidaceae
+N101	Reference T175 NCBITAXON:33958	Lactobacillaceae
+N102	Reference T176 NCBITAXON:33958	Lactobacillaceae
+N103	Reference T178 NCBITAXON:817	Bacteroides fragilis
+N104	Reference T180 NCBITAXON:33958	Lactobacillaceae
+N105	Reference T181 NCBITAXON:33958	Lactobacillaceae
+N106	Reference T183 NCBITAXON:817	Bacteroides fragilis
+N107	Reference T185 NCBITAXON:194924	Desulfovibrionaceae
+N108	Reference T186 NCBITAXON:194924	Desulfovibrionaceae
+N109	Reference T187 NCIT:C85931	Desulfovibrionaceae
+N110	Reference T190 NCIT:C85931	Desulfovibrionaceae
+N111	Reference T192 NCIT:C85931	Desulfovibrionaceae
+N112	Reference T193 NCIT:C85931	Desulfovibrionaceae
+N113	Reference T195 NCBITAXON:817	Bacteroides fragilis
+N114	Reference T6511 CHEBI:15377	water
+N115	Reference T50 MESH:D004435	Eating

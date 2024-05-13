@@ -1,0 +1,148 @@
+T1	Population 94 116	normal-weight subjects
+T2	Methodology 120 146	randomized crossover trial
+T3	Nutrient 67 90	resistant starch type 2
+T4	Nutrient 148 164	Resistant starch
+T5	Nutrient 166 168	RS
+T6	Nutrient 320 322	RS
+T7	Population 329 364	volunteers with normal body weights
+T8	Methodology 368 430	randomized, double-blinded and crossover design clinical trial
+T9	Nutrient 488 504	high amylose RS2
+T10	Nutrient 609 611	RS
+T11	Physiology 753 761;779 782	visceral fat
+T12	Physiology 766 782	subcutaneous fat
+T13	DECREASES 808 815	reduced
+T14	Metabolite 700 723	short-chain fatty acids
+T15	Metabolite 725 730	SCFAs
+T16	Nutrient 826 828	RS
+T17	INCREASES 931 940	increased
+T18	DECREASES 1036 1045	decreased
+T19	Nutrient 1056 1058	RS
+T20	Methodology 1082 1101	16S rRNA sequencing
+T21	Nutrient 1159 1161	RS
+T22	Microorganism 1197 1220	Ruminococcaceae_UCG-005
+T23	INCREASES 1231 1239	increase
+T24	Nutrient 1288 1290	RS
+T25	Microorganism 1313 1324	Akkermansia
+T26	Microorganism 1326 1340	Ruminococcus_2
+T27	Microorganism 1342 1353	Victivallis
+T28	Microorganism 1359 1368	Comamonas
+T29	Microorganism 1417 1430	Streptococcus
+T30	Microorganism 1432 1458	Ruminococcus_torques_group
+T31	Microorganism 1460 1484	Eubacterium_hallii_group
+T32	Microorganism 1490 1515	Eubacterium_eligens_group
+T33	ASSOCIATED_WITH 1534 1544	associated
+T34	Measurement 94 107	normal-weight
+T35	Measurement 198 206	body fat
+T36	Nutrient 1588 1590	RS
+T37	Nutrient 1650 1652	RS
+T38	POS_ASSOCIATED_WITH 1656 1679	effective in modulating
+T39	Metabolite 1690 1695	SCFAs
+T40	Population 1763 1785	normal-weight subjects
+T41	Measurement 640 648	body fat
+T42	Physiology 650 668	glucose metabolism
+T43	Physiology 670 682	gut hormones
+T44	Chemical 870 879	C-peptide
+T45	Chemical 884 907	glucagon-like peptide-1
+T46	Chemical 909 914	GLP-1
+T47	Metabolite 837 844	Acetate
+T48	Chemical 849 868	early-phase insulin
+T49	Chemical 950 985	low-density lipoprotein cholesterol
+T50	Chemical 987 992	LDL-C
+T51	Metabolite 998 1017	blood urea nitrogen
+T52	Metabolite 1019 1022	BUN
+T53	ASSOCIATED_WITH 1260 1280	potential signatures
+T54	Measurement 1680 1688	body fat
+T55	Chemical 1697 1716	early-phase insulin
+T56	Chemical 1721 1726	GLP-1
+T57	DECREASES 191 197	reduce
+T58	Disease 210 215	obese
+T59	Measurement 1763 1776	normal-weight
+E1	DECREASES:T13 Theme:T11 Agent:T16
+E2	DECREASES:T13 Agent:T16 Theme:T12
+E3	INCREASES:T17 Theme:T47 Agent:T19
+E4	DECREASES:T18 Theme:T49 Agent:T19
+E5	INCREASES:T23 Theme:T22 Agent:T21
+E6	ASSOCIATED_WITH:T33 Theme:T29 Theme2:T36
+E7	POS_ASSOCIATED_WITH:T38 Agent:T37 Theme:T54
+E8	INCREASES:T17 Theme:T48 Agent:T19
+E9	INCREASES:T17 Theme:T44 Agent:T19
+E10	INCREASES:T17 Theme:T45 Agent:T19
+E11	DECREASES:T18 Theme:T51 Agent:T19
+E12	ASSOCIATED_WITH:T53 Theme:T24 Theme2:T25
+E13	ASSOCIATED_WITH:T53 Theme:T24 Theme2:T26
+E14	ASSOCIATED_WITH:T53 Theme:T24 Theme2:T27
+E15	ASSOCIATED_WITH:T53 Theme:T24 Theme2:T28
+E18	ASSOCIATED_WITH:T33 Theme:T30 Theme2:T36
+E20	ASSOCIATED_WITH:T33 Theme:T31 Theme2:T36
+E22	ASSOCIATED_WITH:T33 Theme:T32 Theme2:T36
+E23	POS_ASSOCIATED_WITH:T38 Agent:T37 Theme:T39
+E24	POS_ASSOCIATED_WITH:T38 Agent:T37 Theme:T55
+E25	POS_ASSOCIATED_WITH:T38 Agent:T37 Theme:T56
+E26	DECREASES:T57 Theme:T35 Agent:T4
+A1	Unknown E12
+A2	Unknown E13
+A3	Unknown E14
+A4	Unknown E15
+A7	Negated E23
+N1	NCIT:C94233 T3	Resistant Starch
+N2	NCIT:C94233 T4	Resistant Starch
+N3	NCIT:C94233 T5	Resistant Starch
+N4	NCIT:C94233 T6	Resistant Starch
+N5	MESH:C572111 T9	high-amylose maize type 2 resistant starch, maize
+N6	NCIT:C94233 T10	Resistant Starch
+N7	MESH:D050152 T11	Intra-Abdominal Fat
+N8	NCIT:C33645 T12	Subcutis
+N9	CHEBI:26666 T14	short-chain fatty acid
+N10	CHEBI:26666 T15	short-chain fatty acid
+N11	NCIT:C94233 T16	Resistant Starch
+N12	NCIT:C94233 T19	Resistant Starch
+N13	NCIT:C94233 T21	Resistant Starch
+N14	NCBITAXON:216572 T22	Oscillospiraceae
+N15	NCIT:C94233 T24	Resistant Starch
+N16	NCBITAXON:239934 T25	Akkermansia
+N17	NCBITAXON:1263 T26	Ruminococcus
+N18	NCBITAXON:172900 T27	Victivallis
+N19	NCBITAXON:283 T28	Comamonas
+N20	NCBITAXON:1301 T29	Streptococcus
+N21	NCBITAXON:33039 T30	[Ruminococcus] torques
+N22	NCBITAXON:39488 T31	Anaerobutyricum hallii
+N23	NCBITAXON:39485 T32	Lachnospira eligens
+N24	OCHV:C0332541 T34	normal weight
+N25	MESH:D000273 T35	Adipose Tissue
+N26	NCIT:C94233 T36	Resistant Starch
+N27	NCIT:C94233 T37	Resistant Starch
+N28	CHEBI:26666 T39	short-chain fatty acid
+N29	MESH:D000273 T41	Adipose Tissue
+N30	OCHV:41587 T42	glucose metabolism
+N31	OCHV:C0684155 T43	gut hormone
+N32	CHEBI:80332 T44	C-peptide
+N33	CHEBI:80270 T45	Glucagon-like peptide 1
+N34	CHEBI:80270 T46	Glucagon-like peptide 1
+N35	CHEBI:30089 T47	acetate
+N36	NCIT:C2271 T48	Insulin
+N37	CHEBI:47774 T49	low-density lipoprotein cholesterol
+N38	CHEBI:47774 T50	low-density lipoprotein cholesterol
+N39	MESH:D001806 T51	Blood Urea Nitrogen
+N40	NCIT:C1753 T52	Blood Urea
+N41	MESH:D000273 T54	Adipose Tissue
+N42	NCIT:C2271 T55	Insulin
+N43	CHEBI:80270 T56	Glucagon-like peptide 1
+N44	NCIT:C3283 T58	Obesity
+N45	OCHV:C0332541 T59	normal weight
+A412	Factual E1
+A413	Factual E2
+A414	Factual E3
+A415	Factual E4
+A416	Factual E5
+A417	Factual E6
+A418	Factual E7
+A419	Factual E8
+A420	Factual E9
+A421	Factual E10
+A422	Factual E11
+A424	Factual E18
+A425	Factual E20
+A426	Factual E22
+A427	Factual E24
+A428	Factual E25
+A429	Factual E26

@@ -1,0 +1,64 @@
+T1	Nutrient 13 42	arabinoxylan-oligosaccharides
+T5	Nutrient 231 260	arabinoxylan-oligosaccharides
+T6	Nutrient 262 266	AXOS
+T7	Nutrient 327 339	arabinoxlyan
+T8	Physiology 281 307	partial enzymic hydrolysis
+T11	Nutrient 486 490	AXOS
+T15	Metabolite 837 845	p-cresol
+T16	Metabolite 850 856	phenol
+T21	Chemical 1265 1277	Blood lipids
+T22	Nutrient 1189 1193	AXOS
+T23	Nutrient 1298 1302	AXOS
+T24	DECREASES 1498 1521	significantly decreased
+T25	Nutrient 1539 1543	AXOS
+T26	Microorganism 1566 1580	bifidobacteria
+T27	INCREASES 1586 1609	significantly increased
+T28	Nutrient 1633 1637	AXOS
+T29	Nutrient 1705 1709	AXOS
+T30	Microorganism 1713 1727	bifidobacteria
+T31	AFFECTS 1695 1701	effect
+T32	Nutrient 1785 1789	AXOS
+T33	Nutrient 1844 1848	AXOS
+T34	INCREASES 1856 1865	increases
+T35	Microorganism 1873 1887	bifidobacteria
+T36	DECREASES 1892 1899	reduces
+T37	Metabolite 1900 1926	urinary p-cresol excretion
+T38	Metabolite 1428 1454	Urinary p-cresol excretion
+T39	AFFECTS 1307 1342	no statistically significant effect
+T40	Physiology 1359 1384	gastrointestinal symptoms
+T41	Measurement 1109 1125	blood parameters
+T42	AFFECTS 1131 1141	influenced
+T44	Measurement 652 666;690 700	haematological parameters
+T45	Measurement 671 700	clinical chemistry parameters
+T46	Physiology 53 71	prebiotic activity
+T47	Physiology 163 179	prebiotic effect
+T48	Physiology 1416 1426	flatulence
+T49	INCREASES 1399 1412	mild increase
+T50	Nutrient 1811 1820	prebiotic
+T51	Nutrient 315 326	wheat fibre
+E1	DECREASES:T24 Theme:T38 Agent:T25
+E2	INCREASES:T27 Theme:T26 Agent:T28
+E3	AFFECTS:T31 Agent:T29 Theme:T30
+E4	INCREASES:T34 Agent:T33 Theme:T35
+E5	DECREASES:T36 Agent:T33 Theme:T37
+E6	AFFECTS:T39 Agent:T23 Theme:T40
+E7	AFFECTS:T42 Theme:T41 Agent:T22
+E8	INCREASES:T49 Theme:T48 Agent:T23
+A1	Negated E6
+N1	CHEBI:28427 T7	arabinoxylan
+N2	CHEBI:17847 T15	p-cresol
+N3	CHEBI:33853 T16	phenols
+N4	OCHV:41502 T21	blood lipid
+N5	NCBITAXON:1678 T26	Bifidobacterium
+N6	NCBITAXON:1678 T30	Bifidobacterium
+N7	NCBITAXON:1678 T35	Bifidobacterium
+N8	OCHV:C0426576 T40	gastrointestinal symptoms
+N9	NCIT:C37954 T48	Flatulence
+N10	MESH:D056692 T50	Prebiotics
+A2	Factual E1
+A3	Factual E2
+A4	Factual E3
+A5	Factual E4
+A6	Factual E5
+A7	Factual E7
+A8	Factual E8

@@ -1,0 +1,67 @@
+T1	Nutrient 82 91	berberine
+T2	Physiology 48 69	amino acid metabolism
+T3	Methodology 70 78	in vitro
+T4	Nutrient 136 145	berberine
+T5	Nutrient 147 150	BBR
+T6	Nutrient 229 232	BBR
+T7	Methodology 275 296	in vitro fermentation
+T8	Nutrient 360 363	BBR
+T9	Nutrient 432 435	BBR
+T10	DECREASES 436 443	reduced
+T11	Metabolite 462 473	acetic acid
+T12	Metabolite 478 492	propionic acid
+T13	Metabolite 529 541	butyric acid
+T14	Nutrient 603 606	BBR
+T15	INCREASES 607 616	increased
+T16	Microorganism 634 650	Faecalibacterium
+T17	DECREASES 655 664	decreased
+T18	Microorganism 682 697	Bifidobacterium
+T19	Microorganism 699 712	Streptococcus
+T20	Microorganism 717 729	Enterococcus
+T21	Nutrient 762 765	BBR
+T22	Nutrient 934 937	BBR
+T23	Nutrient 1024 1027	BBR
+T24	Population 13 18	human
+T25	Population 300 305	human
+T26	Methodology 739 760	metabolomics analysis
+T27	AFFECTS 776 785	regulated
+T28	AFFECTS 504 510	effect
+T29	AFFECTS 776 785	regulated
+T30	Methodology 559 588	16S rRNA gene-based community
+T31	Physiology 794 824	amino acid metabolism pathways
+T32	Metabolite 862 870	tyrosine
+T33	Chemical 872 878	serine
+T34	Metabolite 883 894	L-glutamate
+E1	DECREASES:T10 Agent:T9 Theme:T11
+E2	DECREASES:T10 Agent:T9 Theme:T12
+E3	INCREASES:T15 Agent:T14 Theme:T16
+E4	DECREASES:T17 Agent:T14 Theme:T18
+E5	DECREASES:T17 Agent:T14 Theme:T19
+E6	DECREASES:T17 Agent:T14 Theme:T20
+E9	AFFECTS:T28 Agent:T9 Theme:T13
+E10	AFFECTS:T27 Agent:T21 Theme:T32
+E11	AFFECTS:T27 Agent:T21 Theme:T34
+E12	AFFECTS:T29 Agent:T21 Theme:T33
+A1	Factuality E9 Negated
+N1	Reference T1 CHEBI:16118	berberine
+N2	Reference T2 OCHV:C0596076	amino acid metabolism
+N3	Reference T4 CHEBI:16118	berberine
+N4	Reference T5 CHEBI:16118	berberine
+N5	Reference T6 CHEBI:16118	berberine
+N6	Reference T8 CHEBI:16118	berberine
+N7	Reference T9 CHEBI:16118	berberine
+N8	Reference T11 CHEBI:15366	acetic acid
+N9	Reference T12 CHEBI:30768	propionic acid
+N10	Reference T13 CHEBI:30772	butyric acid
+N11	Reference T14 CHEBI:16118	berberine
+N12	Reference T16 NCBITAXON:216851	Faecalibacterium
+N13	Reference T18 NCBITAXON:1678	Bifidobacterium
+N14	Reference T19 NCBITAXON:1301	Streptococcus
+N15	Reference T20 NCBITAXON:1350	Enterococcus
+N16	Reference T21 CHEBI:16118	berberine
+N17	Reference T22 CHEBI:16118	berberine
+N18	Reference T23 CHEBI:16118	berberine
+N19	Reference T31 NCIT:C39730	Amino Acid Metabolism Pathway
+N20	Reference T32 CHEBI:18186	tyrosine
+N21	Reference T33 CHEBI:17822	serine
+N22	Reference T34 CHEBI:18237	glutamic acid

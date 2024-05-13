@@ -1,0 +1,68 @@
+T1	Population 76 124	people with western and healthy dietary patterns
+T2	Population 460 487;506 521	people with a healthy (HDP) dietary pattern
+T4	Population 460 471;492 521	people with western (WDP) dietary pattern
+T6	Methodology 534 570	cross-sectional, observational study
+T7	Methodology 715 733	3-day food records
+T8	Methodology 833 857	16S rRNA gene sequencing
+T9	Methodology 910 927	PICRUSt2 workflow
+T10	DiversityMetric 942 953	α-diversity
+T13	DietPattern 474 487;506 521	healthy (HDP) dietary pattern
+T14	DietPattern 492 521	western (WDP) dietary pattern
+T15	DiversityMetric 1006 1017	β-diversity
+T16	DietPattern 1067 1070	HDP
+T17	DietPattern 1219 1222	WDP
+T18	DietPattern 989 992	WDP
+T19	DietPattern 997 1000	HDP
+T20	Biospecimen 753 758	stool
+T21	INCREASES 1075 1081	higher
+T22	Microorganism 1110 1120	Firmicutes
+T23	Microorganism 1125 1141	Faecalibacterium
+T24	DECREASES 1146 1151	lower
+T25	Microorganism 1158 1170	Bacteroidota
+T26	Microorganism 1175 1195	Escherichia-Shigella
+T27	Methodology 753 772	stool transit times
+T28	Biospecimen 1443 1448	stool
+T29	DietPattern 670 673	HDP
+T30	Food 1372 1379	legumes
+T31	Nutrient 1381 1394	simple sugars
+T32	Food 1419 1424	fruit
+T33	Food 1426 1437	soft drinks
+T34	Physiology 1443 1472	stool transit characteristics
+T35	Physiology 1596 1619	frequency of defecation
+T36	DietPattern 678 681	WDP
+T37	ASSOCIATED_WITH 1022 1032	associated
+T38	Biospecimen 788 793	Fecal
+T39	ASSOCIATED_WITH 962 968	differ
+T40	Physiology 1527 1546	metabolic potential
+E1	ASSOCIATED_WITH:T37 Theme:T15 Theme2:T19
+E2	INCREASES:T21 Agent:T16 Theme:T22
+E3	INCREASES:T21 Agent:T16 Theme:T23
+E4	DECREASES:T24 Theme:T25 Agent:T16
+E5	DECREASES:T24 Theme:T26 Agent:T16
+E6	ASSOCIATED_WITH:T37 Theme:T15 Theme2:T18
+E7	ASSOCIATED_WITH:T39 Theme:T18 Theme2:T10
+E8	ASSOCIATED_WITH:T39 Theme:T19 Theme2:T10
+A1	Negated E7
+A2	Negated E8
+N1	MESH:D000072001 T13	Diet, Healthy
+N2	MESH:D066273 T14	Diet, Western
+N3	MESH:D000072001 T16	Diet, Healthy
+N4	MESH:D066273 T17	Diet, Western
+N5	MESH:D066273 T18	Diet, Western
+N6	MESH:D000072001 T19	Diet, Healthy
+N7	NCBITAXON:1239 T22	Firmicutes
+N8	NCBITAXON:216851 T23	Faecalibacterium
+N9	NCBITAXON:976 T25	Bacteroidetes
+N10	NCBITAXON:1940338 T26	Escherichia/Shigella sp.
+N11	MESH:D000072001 T29	Diet, Healthy
+N12	MESH:D007887 T30	Fabaceae
+N13	NCIT:C68471 T31	Monosaccharide
+N14	NCIT:C71972 T32	Fruit
+N15	FOODON:03310815 T33	soft drink
+N16	MESH:D066273 T36	Diet, Western
+A3	Factual E1
+A4	Factual E2
+A5	Factual E3
+A6	Factual E4
+A7	Factual E5
+A8	Factual E6

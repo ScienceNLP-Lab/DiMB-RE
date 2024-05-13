@@ -1,0 +1,89 @@
+T1	Nutrient 10 22	polydextrose
+T2	Methodology 51 108	double-blind, crossover, placebo-controlled feeding study
+T3	Population 112 125	healthy human
+T4	Methodology 145 208	placebo-controlled, double-blind, crossover human feeding study
+T5	Nutrient 225 237	polydextrose
+T6	AFFECTS 214 221	effects
+T7	Nutrient 239 242	PDX
+T8	Nutrient 360 363	PDX
+T9	Measurement 289 306	immune parameters
+T10	Nutrient 369 393	complex glucose oligomer
+T11	Nutrient 535 538	PDX
+T12	INCREASES 566 574	increase
+T13	DECREASES 728 737	decreases
+T14	Microorganism 752 765	Lactobacillus
+T15	Microorganism 603 628	Ruminococcus intestinalis
+T16	Methodology 804 852	Denaturing gel gradient electrophoresis analysis
+T17	Nutrient 892 895	PDX
+T18	Nutrient 1080 1083	PDX
+T19	Nutrient 949 952	PDX
+T20	Nutrient 1301 1304	PDX
+T21	Nutrient 1356 1359	PDX
+T22	Nutrient 1236 1239	PDX
+T23	AFFECTS 1089 1097	affected
+T24	Biospecimen 1066 1078	faecal water
+T25	Food 404 418	sugar replacer
+T26	Physiology 504 520	PDX fermentation
+T27	Microorganism 766 778	Enterococcus
+T28	PREVENTS 1416 1424	reducing
+T29	Disease 1470 1482	colon cancer
+T30	Physiology 308 320	bowel habits
+T31	DECREASES 1034 1041	reduced
+T32	Nutrient 504 507	PDX
+T33	Metabolite 585 593	butyrate
+T34	Microorganism 649 671	Clostridium clusters I
+T35	Microorganism 649 669;673 675	Clostridium clusters II
+T36	Microorganism 649 669;680 682	Clostridium clusters IV
+T37	INCREASES 594 602	producer
+T38	Physiology 1046 1058	genotoxicity
+T39	Physiology 1098 1110	bowel habits
+T40	IMPROVES 1131 1135	less
+T41	Physiology 1136 1156	abdominal discomfort
+T42	Food 1274 1282	snacking
+T43	Methodology 1007 1019	fermentation
+T44	Biospecimen 1222 1228	stools
+T45	ASSOCIATED_WITH 1186 1191	trend
+T47	Physiology 1196 1228	less hard and more formed stools
+E1	AFFECTS:T6 Agent:T5 Theme:T9
+E2	INCREASES:T12 Agent:T11 Theme:T15
+E3	DECREASES:T13 Agent:T11 Theme:T14
+E4	AFFECTS:T23 Agent:T18 Theme:T39
+E5	INCREASES:T37 Agent:T15 Theme:T33
+E6	DECREASES:T31 Theme:T38 Agent:T19
+E7	PREVENTS:T28 Agent:T21 Theme:T29
+E8	AFFECTS:T6 Agent:T5 Theme:T30
+E9	DECREASES:T13 Theme:T27 Agent:T11
+E11	INCREASES:T12 Agent:T11 Theme:T34
+E12	INCREASES:T12 Agent:T11 Theme:T35
+E13	INCREASES:T12 Agent:T11 Theme:T36
+E16	IMPROVES:T40 Agent:T18 Theme:T41
+E17	ASSOCIATED_WITH:T45 Theme:T22 Theme2:T47
+A1	Factuality E1 Unknown
+A2	Factuality E7 Possible
+A3	Factuality E8 Unknown
+N1	Reference T1 FOODON:03413188	polydextrose
+N2	Reference T5 FOODON:03413188	polydextrose
+N3	Reference T7 CHEBI:181906	Polydextrose
+N4	Reference T8 CHEBI:181906	Polydextrose
+N5	Reference T11 CHEBI:181906	Polydextrose
+N6	Reference T14 NCBITAXON:1578	Lactobacillus
+N7	Reference T15 NCBITAXON:1263	Ruminococcus
+N8	Reference T17 CHEBI:181906	Polydextrose
+N9	Reference T18 CHEBI:181906	Polydextrose
+N10	Reference T19 CHEBI:181906	Polydextrose
+N11	Reference T20 CHEBI:181906	Polydextrose
+N12	Reference T21 CHEBI:181906	Polydextrose
+N13	Reference T22 CHEBI:181906	Polydextrose
+N14	Reference T25 MESH:D013549	Sweetening Agents
+N15	Reference T27 NCBITAXON:1350	Enterococcus
+N16	Reference T29 NCIT:C4910	Colon Carcinoma
+N17	Reference T30 NCIT:C94609	Bowel Function
+N18	Reference T32 CHEBI:181906	Polydextrose
+N19	Reference T33 CHEBI:17968	butyrate
+N20	Reference T34 NCIT:C129411	Clostridium Cluster
+N21	Reference T35 NCIT:C129411	Clostridium Cluster
+N22	Reference T36 NCIT:C129412	Clostridium Cluster IV
+N23	Reference T38 OCHV:C0598309	genotoxicity
+N24	Reference T39 NCIT:C94609	Bowel Function
+N25	Reference T41 OCHV:C0232487	abdominal discomfort
+N26	Reference T42 MESH:D062410	Snacks

@@ -1,0 +1,74 @@
+T1	Methodology 127 154	Randomized Controlled Trial
+T2	Food 0 6	Almond
+T3	Population 96 123	Healthy Adult Men and Women
+T4	Food 168 174	Almond
+T5	Food 394 400	almond
+T6	Methodology 474 534	controlled-feeding, randomized, five-period, crossover study
+T8	Population 587 601	healthy adults
+T9	Food 658 665	almonds
+T10	Food 708 721	whole almonds
+T11	Food 747 769	whole, roasted almonds
+T12	Food 795 819	roasted, chopped almonds
+T13	Food 849 862	almond butter
+T14	Biospecimen 864 869	Fecal
+T16	Food 945 951	Almond
+T17	INCREASES 964 973	increased
+T18	Microorganism 1001 1012	Lachnospira
+T19	Microorganism 1014 1023	Roseburia
+T20	Microorganism 1029 1038	Dialister
+T21	Microorganism 1150 1161	Lachnospira
+T22	Microorganism 1163 1172	Roseburia
+T23	Microorganism 1178 1190	Oscillospira
+T24	Microorganism 1253 1262	Dialister
+T25	INCREASES 1243 1252	increased
+T26	Food 1330 1343	almond butter
+T27	Food 1396 1402	almond
+T28	Food 1539 1545	almond
+T29	Methodology 168 185	Almond processing
+T30	Methodology 0 6;23 33	Almond Processing
+T31	Methodology 394 400;417 427	almond processing
+T33	Food 1124 1139	chopped almonds
+T34	INCREASES 1140 1149	increased
+T35	Food 1229 1242	whole almonds
+T36	Methodology 1539 1556	almond processing
+T38	Physiology 226 246	metabolizable energy
+T43	DietPattern 1092 1109	almond treatments
+T98	AFFECTS 219 225	impact
+E1	INCREASES:T17 Agent:T16 Theme:T18
+E2	INCREASES:T17 Agent:T16 Theme:T19
+E3	INCREASES:T17 Agent:T16 Theme:T20
+E4	INCREASES:T25 Agent:T35 Theme:T24
+E5	INCREASES:T34 Agent:T33 Theme:T21
+E6	INCREASES:T34 Agent:T33 Theme:T22
+E7	INCREASES:T34 Agent:T33 Theme:T23
+E15	AFFECTS:T98 Theme:T38 Agent:T4
+N1	NCIT:C74458 T2	Almond
+N2	NCIT:C74458 T4	Almond
+N3	NCIT:C74458 T5	Almond
+N5	NCIT:C74458 T9	Almond
+N6	FOODON:00003523 T10	almond (whole)
+N7	FOODON:03311210 T11	almond (dry, roasted)
+N8	FOODON:03311210 T12	almond (dry, roasted)
+N9	FOODON:03310875 T13	almond butter
+N10	NCIT:C74458 T16	Almond
+N11	NCBITAXON:28050 T18	Lachnospira
+N12	NCBITAXON:841 T19	Roseburia
+N13	NCBITAXON:39948 T20	Dialister
+N14	NCBITAXON:28050 T21	Lachnospira
+N15	NCBITAXON:841 T22	Roseburia
+N16	NCBITAXON:119852 T23	Oscillospira
+N17	NCBITAXON:39948 T24	Dialister
+N18	FOODON:03310875 T26	almond butter
+N19	NCIT:C74458 T27	Almond
+N20	NCIT:C74458 T28	Almond
+N21	NCIT:C74458 T33	Almond
+N22	FOODON:00003523 T35	almond (whole)
+N26	NCIT:C74458 T43	Almond
+A3	Factual E1
+A4	Factual E2
+A5	Factual E3
+A6	Factual E4
+A7	Factual E5
+A8	Factual E6
+A9	Factual E7
+A15	Factual E15

@@ -1,0 +1,166 @@
+T1	Physiology 303 320	intestinal damage
+T2	Physiology 47 64	intestinal damage
+T4	AFFECTS 0 6	Effect
+T5	Nutrient 19 27	curcumin
+T6	Nutrient 208 216	curcumin
+T7	Physiology 289 293	IUGR
+T9	PREVENTS 233 254	might protect against
+T13	Physiology 529 538	pregnancy
+T14	Physiology 543 552	lactation
+T15	DietPattern 558 572	normal protein
+T16	DietPattern 584 595	low protein
+T17	DietPattern 610 621	low protein
+T18	Nutrient 641 649	curcumin
+T19	Nutrient 736 744	curcumin
+T20	IMPROVES 761 776	could normalize
+T21	Physiology 829 849	jejunal SOD activity
+T22	Nutrient 876 883	protein
+T23	Nutrient 909 916	protein
+T24	Nutrient 943 950	protein
+T25	Physiology 966 979	T-AOC content
+T26	Nutrient 1006 1013	protein
+T27	Nutrient 1038 1045	protein
+T28	Nutrient 1072 1079	protein
+T30	Nutrient 1123 1131	curcumin
+T31	INCREASES 1148 1157	increased
+T32	Measurement 1211 1248	ratio of villus height-to-crypt depth
+T33	Chemical 1330 1342	goblet cells
+T34	Measurement 1420 1448	ratio of PCNA-positive cells
+T35	IMPROVES 1528 1536	reversed
+T36	Measurement 1593 1604	body weight
+T37	Chemical 1685 1698	serum glucose
+T38	Measurement 1802 1825	jejunal apoptotic index
+T39	Nutrient 1920 1928	curcumin
+T40	INCREASES 1945 1953	enhanced
+T41	Gene 1983 1987	Nrf2
+T42	Gene 2055 2059	Sod2
+T43	Gene 2130 2134	Ocln
+T44	Nutrient 2239 2247	curcumin
+T45	IMPROVES 2264 2274	normalized
+T46	Microorganism 2301 2314	Lactobacillus
+T47	Microorganism 2390 2403	Desulfovibrio
+T48	DiversityMetric 2484 2516	ratio of Firmicutes/Bacteroidota
+T49	Microorganism 2594 2607	Lactobacillus
+T50	POS_ASSOCIATED_WITH 2612 2633	positively correlated
+T51	Enzyme 2643 2655	SOD activity
+T52	NEG_ASSOCIATED_WITH 2668 2689	negatively correlated
+T53	Chemical 2695 2702	Il - 1β
+T54	Microorganism 2726 2739	Desulfovibrio
+T55	NEG_ASSOCIATED_WITH 2744 2765	negatively correlated
+T56	Enzyme 2775 2787	SOD activity
+T57	Gene 2818 2822	Sod1
+T58	Gene 2824 2831	Bcl - 2
+T59	Gene 2833 2839	Card11
+T60	Gene 2845 2851	Zo - 1
+T61	Nutrient 2886 2894	curcumin
+T62	IMPROVES 2911 2924	could improve
+T63	Physiology 2925 2945	intestinal integrity
+T64	Measurement 2947 2963	oxidative status
+T66	Physiology 116 148	intra-uterine growth retardation
+T67	Physiology 255 287	intra-uterine growth retardation
+T68	CAUSES 295 302	induced
+T69	DietPattern 1171 1187	low protein diet
+T70	DECREASES 1188 1203	induced decline
+T71	Disease 781 808	maternal protein deficiency
+T72	DECREASES 809 825	induced decrease
+T73	Disease 1541 1568	maternal protein deficiency
+T74	INCREASES 1569 1585	induced increase
+E1	AFFECTS:T4 Agent:T5 Theme:T2
+E2	PREVENTS:T9 Agent:T6 Theme:T1
+E3	IMPROVES:T20 Agent:T19 Theme:T21
+E4	INCREASES:T31 Agent:T30 Theme:T32
+E5	INCREASES:T31 Agent:T30 Theme:T33
+E6	INCREASES:T31 Agent:T30 Theme:T34
+E7	IMPROVES:T35 Agent:T30 Theme:T36
+E8	IMPROVES:T35 Agent:T30 Theme:T38
+E9	IMPROVES:T35 Agent:T30 Theme:T37
+E10	INCREASES:T40 Agent:T39 Theme:T41
+E11	INCREASES:T40 Agent:T39 Theme:T42
+E12	INCREASES:T40 Agent:T39 Theme:T43
+E13	IMPROVES:T45 Agent:T44 Theme:T46
+E14	IMPROVES:T45 Agent:T44 Theme:T47
+E15	POS_ASSOCIATED_WITH:T50 Agent:T49 Theme:T51
+E16	NEG_ASSOCIATED_WITH:T52 Theme:T53 Agent:T49
+E17	NEG_ASSOCIATED_WITH:T55 Theme:T56 Agent:T54
+E18	NEG_ASSOCIATED_WITH:T55 Theme:T60 Agent:T54
+E19	NEG_ASSOCIATED_WITH:T55 Theme:T59 Agent:T54
+E20	NEG_ASSOCIATED_WITH:T55 Theme:T58 Agent:T54
+E21	NEG_ASSOCIATED_WITH:T55 Theme:T57 Agent:T54
+E22	IMPROVES:T62 Agent:T61 Theme:T63
+E23	IMPROVES:T62 Agent:T61 Theme:T64
+E24	CAUSES:T68 Theme:T1 Agent:T67
+E25	DECREASES:T70 Agent:T69 Theme:T32
+E26	DECREASES:T72 Theme:T21 Agent:T71
+E27	INCREASES:T74 Theme:T36 Agent:T73
+E28	IMPROVES:T45 Agent:T44 Theme:T48
+A1	Unknown E1
+A2	Unknown E2
+A3	Unknown E3
+A4	Unknown E22
+A5	Unknown E23
+N1	CHEBI:3962 T5	curcumin
+N2	CHEBI:3962 T6	curcumin
+N3	MESH:D005317 T7	Fetal Growth Retardation
+N4	NCIT:C25742 T13	Pregnancy
+N5	MESH:D007774 T14	Lactation
+N6	OCHV:C0242972 T16	low protein diet
+N7	OCHV:C0242972 T17	low protein diet
+N8	CHEBI:3962 T18	curcumin
+N9	CHEBI:3962 T19	curcumin
+N10	CHEBI:36080 T22	protein
+N11	CHEBI:36080 T23	protein
+N12	CHEBI:36080 T24	protein
+N13	CHEBI:36080 T26	protein
+N14	CHEBI:36080 T27	protein
+N15	CHEBI:36080 T28	protein
+N16	CHEBI:3962 T30	curcumin
+N17	NCIT:C12586 T33	Goblet Cell
+N18	NCIT:C81328 T36	Body Weight
+N19	NCIT:C61027 T37	Serum Glucose Measurement
+N20	CHEBI:3962 T39	curcumin
+N21	GENE:4780 T41	NFE2L2
+N22	GENE:6648 T42	SOD2
+N23	GENE:100506658 T43	OCLN
+N24	CHEBI:3962 T44	curcumin
+N25	NCBITAXON:1578 T46	Lactobacillus
+N26	NCBITAXON:872 T47	Desulfovibrio
+N27	NCIT:C189550 T48	Firmicutes to Bacteroidetes Ratio Measurement
+N28	NCBITAXON:1578 T49	Lactobacillus
+N29	NCIT:C17172 T51	Superoxide Dismutase
+N30	MESH:D053583 T53	Interleukin-1beta
+N31	NCBITAXON:872 T54	Desulfovibrio
+N32	NCIT:C17172 T56	Superoxide Dismutase
+N33	GENE:6647 T57	SOD1
+N34	GENE:596 T58	BCL2
+N35	GENE:84433 T59	CARD11
+N36	GENE:7082 T60	TJP1
+N37	CHEBI:3962 T61	curcumin
+N38	NCIT:C16944 T64	Oxidation
+N39	MESH:D005317 T66	Fetal Growth Retardation
+N40	MESH:D005317 T67	Fetal Growth Retardation
+N41	OCHV:C0242972 T69	low protein diet
+N42	MESH:D011488 T71	Protein Deficiency
+N43	MESH:D011488 T73	Protein Deficiency
+A6	Factual E4
+A7	Factual E5
+A8	Factual E6
+A9	Factual E7
+A10	Factual E8
+A11	Factual E9
+A12	Factual E10
+A13	Factual E11
+A14	Factual E12
+A15	Factual E13
+A16	Factual E14
+A17	Factual E15
+A18	Factual E16
+A19	Factual E17
+A20	Factual E18
+A21	Factual E19
+A22	Factual E20
+A23	Factual E21
+A24	Factual E24
+A25	Factual E25
+A26	Factual E26
+A27	Factual E27
+A28	Factual E28

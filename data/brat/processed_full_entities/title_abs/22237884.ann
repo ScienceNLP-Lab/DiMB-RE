@@ -1,0 +1,163 @@
+T1	Food 531 533	BF
+T2	Food 557 559	FF
+T3	HAS_COMPONENT 1641 1651	containing
+T4	Nutrient 1664 1680	oligosaccharides
+T6	Food 630 633	PRE
+T7	Methodology 103 130	randomized controlled trial
+T8	Biospecimen 1210 1215	Feces
+T9	Food 1221 1228	formula
+T10	Population 1221 1240	formula-fed infants
+T11	Microorganism 1017 1031	bifidobacteria
+T12	INCREASES 1520 1524	more
+T13	Physiology 1534 1557	stools that were yellow
+T14	Physiology 1534 1550;1585 1591	stools that were liquid
+T15	Nutrient 661 685	galacto-oligosaccharides
+T16	Microorganism 1167 1188	Clostridium difficile
+T17	Nutrient 1435 1444	Prebiotic
+T18	Food 942 945	PRE
+T19	Nutrient 690 713	fructo-oligosaccharides
+T20	Food 590 623	partially hydrolyzed whey formula
+T21	HAS_COMPONENT 624 628	with
+T22	Microorganism 1111 1125	bifidobacteria
+T23	Nutrient 11 20	prebiotic
+T24	Metabolite 1338 1349	total SCFAs
+T25	Population 1779 1794	healthy infants
+T26	Food 1626 1640	Infant formula
+T27	Microorganism 1739 1753	bifidobacteria
+T28	Physiology 1767 1775	fecal pH
+T29	DECREASES 1759 1766	reduced
+T30	Population 1037 1052	CON-fed infants
+T31	INCREASES 1701 1710	increased
+T32	Population 930 937	infants
+T33	Food 1513 1515	BF
+T34	Nutrient 145 154	Prebiotic
+T35	Biospecimen 919 924	Feces
+T36	Metabolite 1270 1277	acetate
+T37	Food 1597 1599	FF
+T38	INCREASES 952 958	higher
+T39	Food 1077 1079	BF
+T40	INCREASES 1245 1251	higher
+T41	Metabolite 1290 1298	butyrate
+T42	Metabolite 1311 1321	propionate
+T43	Physiology 1380 1388	fecal pH
+T44	Food 1081 1083	BF
+T46	Population 536 555	Formula-fed infants
+T47	Food 1367 1369	BF
+T48	Population 455 484	Full-term formula-fed infants
+T49	Population 503 529	breastfed comparison group
+T50	Physiology 288 314	gastrointestinal tolerance
+T51	Physiology 319 324;337 339	fecal pH
+T52	Food 1194 1196	FF
+T53	Physiology 50 76	gastrointestinal tolerance
+T54	INCREASES 1090 1096	higher
+T56	DECREASES 1151 1156	lower
+T57	DECREASES 1393 1398	lower
+T58	Food 1414 1417	PRE
+T59	Food 1422 1424	BF
+T61	Physiology 205 231	gastrointestinal tolerance
+T62	Metabolite 345 367	short-chain fatty acid
+T63	Metabolite 369 373	SCFA
+T64	Food 411 418	formula
+T65	HAS_COMPONENT 419 423	with
+T66	Food 435 445	prebiotics
+T67	Physiology 721 726;737 739	Fecal pH
+T68	AFFECTS 1469 1474	alter
+T69	Physiology 1505 1511	growth
+T70	Physiology 1491 1500	tolerance
+T71	Physiology 1475 1489	stool patterns
+T72	Metabolite 745 749	SCFA
+T73	HAS_COMPONENT 155 165	containing
+T74	Food 166 180	infant formula
+T75	HAS_COMPONENT 21 31	containing
+T76	Food 32 46	infant formula
+T77	Food 503 512	breastfed
+T78	Food 536 543	Formula
+T79	Food 465 472	formula
+E1	INCREASES:T12 Agent:T33 Theme:T13
+E2	INCREASES:T12 Theme:T14 Agent:T33
+E3	INCREASES:T54 Theme:T22 Agent:T44
+E4	DECREASES:T56 Agent:T44 Theme:T16
+E5	DECREASES:T57 Theme:T43 Agent:T15
+E6	HAS_COMPONENT:T3 Theme:T4 Agent:T26
+E7	DECREASES:T57 Agent:T59 Theme:T43
+E8	INCREASES:T38 Theme:T11 Agent:T15
+E9	AFFECTS:T68 Theme:T71 Agent:T17
+E10	INCREASES:T40 Theme:T36 Agent:T9
+E11	INCREASES:T40 Theme:T41 Agent:T9
+E12	INCREASES:T40 Theme:T42 Agent:T9
+E13	INCREASES:T40 Theme:T24 Agent:T9
+E14	HAS_COMPONENT:T21 Agent:T20 Theme:T15
+E15	HAS_COMPONENT:T21 Agent:T20 Theme:T19
+E16	HAS_COMPONENT:T65 Agent:T64 Theme:T66
+E17	HAS_COMPONENT:T73 Theme:T34 Agent:T74
+E18	AFFECTS:T68 Theme:T70 Agent:T17
+E19	INCREASES:T31 Theme:T27 Agent:T26
+E20	DECREASES:T29 Theme:T28 Agent:T26
+E21	AFFECTS:T68 Theme:T69 Agent:T17
+E22	HAS_COMPONENT:T75 Theme:T23 Agent:T76
+E23	INCREASES:T38 Theme:T11 Agent:T19
+E24	DECREASES:T57 Agent:T19 Theme:T43
+A8	Negated E9
+A18	Negated E18
+A21	Negated E21
+N1	NCIT:C25596 T1	Breast Feeding
+N2	FOODON:03303130 T2	infant formula
+N3	CHEBI:50699 T4	oligosaccharide
+N4	FOODON:03303130 T9	infant formula
+N5	NCBITAXON:1678 T11	Bifidobacterium
+N6	NCIT:C87128 T14	Loose Stool
+N7	CHEBI:24151 T15	galactooligosaccharide
+N8	NCBITAXON:1496 T16	Clostridioides difficile
+N9	MESH:D056692 T17	Prebiotics
+N10	CHEBI:190523 T19	fructooligosaccharide
+N11	FOODON:00002358 T20	whey based formula food product
+N12	NCBITAXON:1678 T22	Bifidobacterium
+N13	MESH:D056692 T23	Prebiotics
+N14	CHEBI:26666 T24	short-chain fatty acid
+N15	FOODON:03303130 T26	infant formula
+N16	NCBITAXON:1678 T27	Bifidobacterium
+N17	NCIT:C25596 T33	Breast Feeding
+N18	MESH:D056692 T34	Prebiotics
+N19	CHEBI:30089 T36	acetate
+N20	FOODON:03303130 T37	infant formula
+N21	NCIT:C25596 T39	Breast Feeding
+N22	CHEBI:17968 T41	butyrate
+N23	CHEBI:17272 T42	propionate
+N24	NCIT:C25596 T44	Breast Feeding
+N25	NCIT:C25596 T47	Breast Feeding
+N26	FOODON:03303130 T52	infant formula
+N27	NCIT:C25596 T59	Breast Feeding
+N28	CHEBI:26666 T62	short-chain fatty acid
+N29	CHEBI:26666 T63	short-chain fatty acid
+N30	FOODON:03303130 T64	infant formula
+N31	MESH:D056692 T66	Prebiotics
+N32	NCIT:C64379 T69	Growth
+N33	NCIT:C43414 T70	Tolerance
+N34	NCIT:C13234 T71	Feces
+N35	CHEBI:26666 T72	short-chain fatty acid
+N36	FOODON:03303130 T74	infant formula
+N37	FOODON:03303130 T76	infant formula
+N38	NCIT:C25596 T77	Breast Feeding
+N39	FOODON:03303130 T78	infant formula
+N40	FOODON:03303130 T79	infant formula
+A22	Factual E1
+A23	Factual E2
+A24	Factual E3
+A25	Factual E4
+A26	Factual E5
+A27	Factual E6
+A28	Factual E7
+A29	Factual E8
+A30	Factual E10
+A31	Factual E11
+A32	Factual E12
+A33	Factual E13
+A34	Factual E14
+A35	Factual E15
+A36	Factual E16
+A37	Factual E17
+A38	Factual E19
+A39	Factual E20
+A40	Factual E22
+A41	Factual E23
+A42	Factual E24

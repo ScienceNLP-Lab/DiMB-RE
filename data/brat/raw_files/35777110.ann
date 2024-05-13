@@ -1,0 +1,110 @@
+T1	Population 107 138	overweight and obese population
+T2	Disease 107 117	overweight
+T3	Disease 122 127	obese
+T4	Physiology 176 187	weight loss
+T5	Methodology 332 349	integrative model
+T6	Physiology 444 455	weight loss
+T7	Population 459 497	individuals with excess of body weight
+T8	Methodology 2 19	weight-loss model
+T9	Population 523 564	Spanish overweight and obese participants
+T10	DietPattern 658 692	moderately high protein (MHP) diet
+T12	DietPattern 729 746	low fat (LF) diet
+T14	Measurement 860 882	percentage of BMI loss
+T15	DietPattern 898 901	MHP
+T16	DietPattern 906 908	LF
+T17	Methodology 928 952	Bootstrapping techniques
+T18	Methodology 957 990	multiple linear regression models
+T19	Physiology 1189 1200	weight loss
+T20	Physiology 1279 1290	weight loss
+T21	Methodology 1305 1332	several linear mixed models
+T22	DietPattern 1517 1525	MHP-diet
+T23	Microorganism 1535 1546	Coprococcus
+T24	Microorganism 1548 1553	Dorea
+T25	Microorganism 1555 1569	Flavonifractor
+T26	Microorganism 1571 1589	Ruminococcus albus
+T27	Microorganism 1594 1614	Clostridium bolteaea
+T28	DietPattern 1620 1627	LF-diet
+T29	Microorganism 1635 1648	Cytophagaceae
+T30	Microorganism 1650 1666	Catabacteriaceae
+T31	Microorganism 1668 1684	Flammeovirgaceae
+T32	Microorganism 1686 1703	Rhodobacteriaceae
+T33	Microorganism 1705 1721	Clostridium-x1vb
+T34	Microorganism 1723 1743	Bacteriodes nordiiay
+T35	Microorganism 1745 1767	Alistipes senegalensis
+T36	Microorganism 1769 1785	Blautia wexlerae
+T37	Microorganism 1790 1821	Psedoflavonifractor phocaeensis
+T38	DietPattern 1827 1835	MHP-diet
+T39	Microorganism 1841 1854	Cytophagaceae
+T40	Microorganism 1856 1874	Acidaminococcaceae
+T41	Microorganism 1876 1893	Marinilabiliaceae
+T42	Microorganism 1895 1909	Bacteroidaceae
+T43	Microorganism 1911 1927	Fusicatenibacter
+T44	Microorganism 1929 1940	Odoribacter
+T45	Microorganism 1945 1964	Ruminococcus faecis
+T46	DietPattern 1974 1976	LF
+T47	Microorganism 1982 2000	Porphyromanadaceae
+T48	Microorganism 2002 2016	Intestinimonas
+T49	Microorganism 2018 2040	Bacteroides finegoldii
+T50	Microorganism 2045 2067	Clostridium bartlettii
+T51	Population 1827 1839	MHP-diet men
+T52	Population 1620 1633	LF-diet women
+T53	Population 1494 1499	women
+T54	Biospecimen 757 766	fecal DNA
+T55	Population 701 706	women
+T56	Methodology 2069 2085	The mixed models
+T57	Methodology 2295 2320	Decision algorithm models
+T58	Physiology 2366 2377	weight loss
+T59	Physiology 2 13	weight-loss
+T60	Physiology 476 497	excess of body weight
+T61	Population 630 635	women
+T62	Population 643 646	men
+T63	Population 714 717	men
+T64	Methodology 771 780	sequenced
+T65	Population 1974 1980	LF-men
+T66	Population 2153 2158	women
+T67	Population 2173 2176	men
+T68	Disease 531 541	overweight
+T69	Disease 546 551	obese
+N1	Reference T2 NCIT:C94250	Overweight
+N2	Reference T3 NCIT:C3283	Obesity
+N3	Reference T4 NCIT:C3445	Weight Loss
+N4	Reference T6 NCIT:C3445	Weight Loss
+N5	Reference T10 MESH:D000073600	Diet, High-Protein
+N6	Reference T12 OCHV:C0242970	low fat diet
+N7	Reference T15 MESH:D000073600	Diet, High-Protein
+N8	Reference T16 OCHV:C0242970	low fat diet
+N9	Reference T19 NCIT:C3445	Weight Loss
+N10	Reference T20 NCIT:C3445	Weight Loss
+N11	Reference T22 MESH:D000073600	Diet, High-Protein
+N12	Reference T23 NCBITAXON:33042	Coprococcus
+N13	Reference T24 NCBITAXON:189330	Dorea
+N14	Reference T25 NCBITAXON:946234	Flavonifractor
+N15	Reference T26 NCBITAXON:1264	Ruminococcus albus
+N16	Reference T27 NCBITAXON:208479	Enterocloster bolteae
+N17	Reference T28 OCHV:C0242970	low fat diet
+N18	Reference T29 NCBITAXON:89373	Cytophagaceae
+N19	Reference T30 NCBITAXON:2840490	Catabacteriaceae incertae sedis
+N20	Reference T31 NCBITAXON:200667	Flammeovirgaceae
+N21	Reference T32 NCBITAXON:31989	Rhodobacteraceae
+N22	Reference T33 NCIT:C129412	Clostridium Cluster
+N23	Reference T35 NCBITAXON:1288121	Alistipes senegalensis
+N24	Reference T36 NCBITAXON:418240	Blautia wexlerae
+N25	Reference T37 NCBITAXON:1870988	Pseudoflavonifractor phocaeensis
+N26	Reference T38 MESH:D000073600	Diet, High-Protein
+N27	Reference T39 NCBITAXON:89373	Cytophagaceae
+N28	Reference T40 NCBITAXON:909930	Acidaminococcaceae
+N29	Reference T41 NCBITAXON:558415	Marinilabiliaceae
+N30	Reference T42 NCBITAXON:815	Bacteroidaceae
+N31	Reference T43 NCBITAXON:1407607	Fusicatenibacter
+N32	Reference T44 NCBITAXON:283168	Odoribacter
+N33	Reference T45 MESH:C000637998	ruminococcus faecis
+N34	Reference T46 OCHV:C0242970	low fat diet
+N35	Reference T47 NCBITAXON:171551	Porphyromonadaceae
+N36	Reference T48 NCBITAXON:1392389	Intestinimonas
+N37	Reference T49 NCBITAXON:338188	Bacteroides finegoldii
+N38	Reference T50 NCBITAXON:261299	Intestinibacter bartlettii
+N39	Reference T58 NCIT:C3445	Weight Loss
+N40	Reference T59 NCIT:C3445	Weight Loss
+N41	Reference T60 NCIT:C94250	Overweight
+N42	Reference T68 NCIT:C94250	Overweight
+N43	Reference T69 NCIT:C3283	Obesity

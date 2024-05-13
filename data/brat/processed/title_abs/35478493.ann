@@ -1,0 +1,75 @@
+T1	Disease 21 37	maternal obesity
+T2	Disease 107 123	Maternal obesity
+T3	Disease 155 172	offspring obesity
+T4	POS_ASSOCIATED_WITH 140 151	determinant
+T5	Metabolite 289 312	short-chain fatty acids
+T6	Metabolite 314 318	SCFA
+T7	Nutrient 325 361	maternal human milk oligosaccharides
+T8	Nutrient 363 366	HMO
+T10	Disease 384 394	overweight
+T11	Disease 395 400	obese
+T12	Measurement 401 416	body mass index
+T13	Measurement 418 421	BMI
+T14	Disease 424 426	OW
+T15	Measurement 442 455	normal weight
+T16	Physiology 457 459	NW
+T19	Physiology 663 672	adiposity
+T20	Metabolite 1046 1050	SCFA
+T21	Measurement 596 602	BODPOD
+T24	Nutrient 688 692	HMOs
+T25	Metabolite 720 732	faecal SCFAs
+T28	Microorganism 1081 1093	Ruminococcus
+T29	Microorganism 1098 1110	Turicibacter
+T30	Metabolite 1129 1141	butyric acid
+T31	Microorganism 1150 1165	Lachnospiraceae
+T33	Measurement 1215 1230	infant fat mass
+T37	NEG_ASSOCIATED_WITH 1235 1256	negatively associated
+T38	Microorganism 1276 1286	Sutterella
+T40	DiversityMetric 1343 1354	α-diversity
+T41	Physiology 1413 1422	adiposity
+T43	Nutrient 1498 1501	HMO
+T48	Measurement 1609 1612	BMI
+T50	Metabolite 1686 1701	faecal butyrate
+T51	ASSOCIATED_WITH 1616 1626	associated
+T53	Physiology 1802 1811	adiposity
+T54	INCREASES 1051 1060	producing
+T55	POS_ASSOCIATED_WITH 1394 1403	predicted
+E1	POS_ASSOCIATED_WITH:T4 Agent:T2 Theme:T3
+E2	NEG_ASSOCIATED_WITH:T37 Agent:T33 Theme:T38
+E3	ASSOCIATED_WITH:T51 Theme:T48 Theme2:T50
+E4	INCREASES:T54 Agent:T28 Theme:T20
+E5	INCREASES:T54 Agent:T29 Theme:T20
+E6	POS_ASSOCIATED_WITH:T55 Theme:T41 Agent:T40
+A1	Unknown E1
+N1	NCIT:C97176 T1	Maternal Obesity
+N2	NCIT:C97176 T2	Maternal Obesity
+N3	CHEBI:26666 T5	short-chain fatty acid
+N4	CHEBI:26666 T6	short-chain fatty acid
+N5	NCIT:C714 T7	Oligosaccharide
+N6	NCIT:C714 T8	Oligosaccharide
+N7	NCIT:C94250 T10	Overweight
+N8	NCIT:C3283 T11	Obesity
+N9	NCIT:C16358 T12	Body Mass Index
+N10	NCIT:C16358 T13	Body Mass Index
+N11	NCIT:C94250 T14	Overweight
+N12	OCHV:C0332541 T15	normal weight
+N13	OCHV:C0332541 T16	normal weight
+N14	MESH:D050154 T19	Adiposity
+N15	CHEBI:26666 T20	short-chain fatty acid
+N16	CHEBI:26666 T25	short-chain fatty acid
+N17	NCBITAXON:1263 T28	Ruminococcus
+N18	NCBITAXON:191303 T29	Turicibacter
+N19	CHEBI:30772 T30	butyric acid
+N20	NCBITAXON:186803 T31	Lachnospiraceae
+N21	NCIT:C158256 T33	Fat Mass
+N22	NCBITAXON:40544 T38	Sutterella
+N23	MESH:D050154 T41	Adiposity
+N24	NCIT:C714 T43	Oligosaccharide
+N25	NCIT:C16358 T48	Body Mass Index
+N26	CHEBI:17968 T50	butyrate
+N27	MESH:D050154 T53	Adiposity
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6

@@ -1,0 +1,100 @@
+T1	Food 23 35	Grape Powder
+T2	Population 73 89	Healthy Subjects
+T3	Food 106 112	Grapes
+T4	Nutrient 138 149	polyphenols
+T5	Nutrient 154 160	fibers
+T6	AFFECTS 195 201	effect
+T7	Food 244 256	grape powder
+T8	Food 302 325	California table grapes
+T9	Physiology 353 364;375 385	cholesterol metabolism
+T10	Physiology 365 385	bile acid metabolism
+T11	Population 389 403	healthy adults
+T12	DietPattern 455 474	low-polyphenol diet
+T13	Food 507 519	grape powder
+T14	DietPattern 553 572	low-polyphenol diet
+T15	Food 611 623	grape powder
+T16	INCREASES 650 659	increased
+T17	DiversityMetric 664 679	alpha diversity
+T18	INCREASES 730 740	increasing
+T19	Microorganism 741 756	Verrucomicrobia
+T20	INCREASES 808 816	increase
+T21	Microorganism 820 831	Akkermansia
+T22	INCREASES 869 877	increase
+T23	Microorganism 881 895	Flavonifractor
+T24	Microorganism 900 923	Lachnospiraceae_UCG-010
+T25	DECREASES 931 939	decrease
+T26	Microorganism 943 958	Bifidobacterium
+T27	Microorganism 963 972	Dialister
+T28	Food 993 1005	Grape powder
+T29	DECREASES 1032 1041	decreased
+T30	Chemical 1046 1063	total cholesterol
+T31	Chemical 1076 1091	HDL cholesterol
+T32	DECREASES 1127 1137	decreasing
+T33	Chemical 1138 1153	LDL cholesterol
+T34	DECREASES 1167 1177	decreasing
+T35	Metabolite 1178 1193	total bile acid
+T36	Chemical 1204 1222	Blood triglyceride
+T37	Measurement 1234 1250	body composition
+T38	AFFECTS 1256 1267	not changed
+T39	Food 1271 1283	grape powder
+T40	Food 1312 1324	grape powder
+T41	IMPROVES 1351 1359	modified
+T42	Physiology 1383 1394;1405 1415	cholesterol metabolism
+T43	Physiology 1395 1415	bile acid metabolism
+T44	HAS_COMPONENT 123 134	rich source
+T45	Nutrient 459 469	polyphenol
+T46	Nutrient 557 567	polyphenol
+E1	AFFECTS:T6 Agent:T7 Theme:T9
+E2	AFFECTS:T6 Agent:T7 Theme:T10
+E3	INCREASES:T16 Agent:T15 Theme:T17
+E4	INCREASES:T18 Agent:T15 Theme:T19
+E5	INCREASES:T20 Theme:T21 Agent:T15
+E6	INCREASES:T22 Agent:T15 Theme:T23
+E7	DECREASES:T25 Agent:T15 Theme:T26
+E8	INCREASES:T22 Agent:T15 Theme:T24
+E9	DECREASES:T25 Agent:T15 Theme:T27
+E10	DECREASES:T29 Agent:T28 Theme:T30
+E11	DECREASES:T32 Agent:T28 Theme:T33
+E12	DECREASES:T34 Agent:T28 Theme:T35
+E13	DECREASES:T29 Agent:T28 Theme:T31
+E14	AFFECTS:T38 Agent:T39 Theme:T37
+E15	IMPROVES:T41 Agent:T40 Theme:T42
+E16	AFFECTS:T38 Agent:T39 Theme:T36
+E17	IMPROVES:T41 Agent:T40 Theme:T43
+E18	HAS_COMPONENT:T44 Theme:T4 Agent:T3
+E19	HAS_COMPONENT:T44 Theme:T5 Agent:T3
+A1	Factuality E1 Unknown
+A2	Factuality E2 Unknown
+A3	Factuality E14 Negated
+A4	Factuality E16 Negated
+N1	Reference T1 NCIT:C74078	Standardized Freeze-Dried Table Grape Powder
+N2	Reference T3 NCIT:C71982	Grape
+N3	Reference T4 CHEBI:26195	polyphenol
+N4	Reference T5 NCIT:C1502	Fiber
+N5	Reference T7 NCIT:C74078	Standardized Freeze-Dried Table Grape Powder
+N6	Reference T8 FOODON:03541530	table grapes
+N7	Reference T9 OCHV:C1156530	cholesterol metabolism
+N8	Reference T10 OCHV:C0678714	bile acid metabolism
+N9	Reference T12 NCIT:C157910	Low FODMAP Diet
+N10	Reference T13 NCIT:C74078	Standardized Freeze-Dried Table Grape Powder
+N11	Reference T14 NCIT:C157910	Low FODMAP Diet
+N12	Reference T15 NCIT:C74078	Standardized Freeze-Dried Table Grape Powder
+N13	Reference T19 NCBITAXON:74201	Verrucomicrobia
+N14	Reference T21 NCBITAXON:239934	Akkermansia
+N15	Reference T23 NCBITAXON:946234	Flavonifractor
+N16	Reference T24 NCBITAXON:186803	Lachnospiraceae
+N17	Reference T26 NCBITAXON:1678	Bifidobacterium
+N18	Reference T27 NCBITAXON:39948	Dialister
+N19	Reference T28 NCIT:C74078	Standardized Freeze-Dried Table Grape Powder
+N20	Reference T30 NCIT:C105586	Cholesterol Measurement
+N21	Reference T31 CHEBI:47775	high-density lipoprotein cholesterol
+N22	Reference T33 CHEBI:47774	low-density lipoprotein cholesterol
+N23	Reference T35 CHEBI:3098	bile acid
+N24	Reference T36 CHEBI:17855	triglyceride
+N25	Reference T37 MESH:D001823	Body Composition
+N26	Reference T39 NCIT:C74078	Standardized Freeze-Dried Table Grape Powder
+N27	Reference T40 NCIT:C74078	Standardized Freeze-Dried Table Grape Powder
+N28	Reference T42 OCHV:C1156530	cholesterol metabolism
+N29	Reference T43 OCHV:C0678714	bile acid metabolism
+N30	Reference T45 CHEBI:26195	polyphenol
+N31	Reference T46 CHEBI:26195	polyphenol

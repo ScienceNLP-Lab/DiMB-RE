@@ -1,0 +1,14 @@
+Prebiotic effect of inulin-type fructans on faecal microbiota and short-chain fatty acids in type 2 diabetes: a randomised controlled trial
+
+Purpose
+Compared to a healthy population, the gut microbiota in type 2 diabetes presents with several unfavourable features that may impair glucose regulation. The aim of this study was to evaluate the prebiotic effect of inulin-type fructans on the faecal microbiota and short-chain fatty acids (SCFA) in patients with type 2 diabetes.
+Methods
+The study was a placebo controlled crossover study, where 25 patients (15 men) aged 41–71 years consumed 16 g of inulin-type fructans (a mixture of oligofructose and inulin) and 16-g placebo (maltodextrin) for 6 weeks in randomised order. A 4-week washout separated the 6 weeks treatments. The faecal microbiota was analysed by high-throughput 16S rRNA amplicon sequencing and SCFA in faeces were analysed using vacuum distillation followed by gas chromatography.
+Results
+Treatment with inulin-type fructans induced moderate changes in the faecal microbiota composition (1.5%, p = 0.045). A bifidogenic effect was most prominent, with highest positive effect on operational taxonomic units (OTUs) of Bifidobacterium adolescentis, followed by OTUs of Bacteroides. Significantly higher faecal concentrations of total SCFA, acetic acid and propionic acid were detected after prebiotic consumption compared to placebo. The prebiotic fibre had no effects on the concentration of butyric acid or on the overall microbial diversity.
+Conclusion
+Six weeks supplementation with inulin-type fructans had a significant bifidogenic effect and induced increased concentrations of faecal SCFA, without changing faecal microbial diversity. Our findings suggest a moderate potential of inulin-type fructans to improve gut microbiota composition and to increase microbial fermentation in type 2 diabetes.
+Trial registration
+The trial is registered at clinicaltrials.gov (NCT02569684).
+Electronic supplementary material
+The online version of this article (10.1007/s00394-020-02282-5) contains supplementary material, which is available to authorized users.

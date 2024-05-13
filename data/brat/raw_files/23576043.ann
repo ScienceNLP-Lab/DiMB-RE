@@ -1,0 +1,160 @@
+T1	Food 20 48	chronic red wine consumption
+T2	Chemical 52 70	lipopolysaccharide
+T3	AFFECTS 0 6	Effect
+T4	Food 10 15;28 48	acute red wine consumption
+T5	Food 100 133	Chronic red wine (RW) consumption
+T6	NEG_ASSOCIATED_WITH 143 168	associated with decreased
+T8	Disease 169 191	cardiovascular disease
+T10	IMPROVES 222 233	improvement
+T11	Measurement 237 250	lipid profile
+T12	Food 252 254	RW
+T13	DietPattern 320 335	High fat intake
+T14	CAUSES 366 374	increase
+T15	Disease 375 396	metabolic endotoxemia
+T16	Chemical 466 485	lipopolysaccharides
+T17	Chemical 487 491	LPSs
+T18	Disease 496 517	metabolic endotoxemia
+T19	AFFECTS 546 552	effect
+T20	Chemical 556 559	LPS
+T21	Food 578 600	chronic RW consumption
+T22	Food 605 620	acute RW intake
+T23	DietPattern 636 651	high fat intake
+T24	Population 655 670	middle-aged men
+T25	Population 706 722	middle-aged male
+T26	Methodology 739 777	randomly assigned in a crossover trial
+T27	Food 829 831	RW
+T28	Food 833 855	dealcoholized red wine
+T29	Food 857 860	DRW
+T30	Food 866 869	gin
+T31	Chemical 900 919	LPS-binding protein
+T32	Chemical 921 924	LBP
+T33	Chemical 880 895	Serum endotoxin
+T34	Population 1088 1097	adult men
+T35	Food 1174 1176	RW
+T36	Food 1178 1181	DRW
+T37	Food 1186 1189	gin
+T41	Metabolite 1267 1282	chylomicron LPS
+T42	Chemical 1231 1234	LBP
+T43	Chemical 1223 1226	LPS
+T44	AFFECTS 1333 1359	no significant differences
+T45	Chemical 1377 1380	LPS
+T46	Chemical 1384 1387	LBP
+T47	Food 1411 1421	chronic RW
+T48	Food 1423 1426	DRW
+T49	Food 1432 1435	gin
+T50	Microorganism 1449 1464	Bifidobacterium
+T51	Microorganism 1469 1479	Prevotella
+T52	INCREASES 1493 1516	significantly increased
+T53	Food 1520 1522	RW
+T54	NEG_ASSOCIATED_WITH 1527 1548	correlated negatively
+T55	Chemical 1554 1557	LPS
+T56	AFFECTS 1585 1599	no differences
+T57	Chemical 1622 1625	LPS
+T58	Chemical 1627 1630	LBP
+T59	Metabolite 1635 1650	chylomicron LPS
+T60	Food 1674 1682	acute RW
+T61	Food 1684 1687	DRW
+T62	Food 1692 1695	gin
+T64	DietPattern 1719 1729	fatty meal
+T65	Food 1743 1765	Chronic RW consumption
+T66	INCREASES 1766 1775	increases
+T67	Microorganism 1776 1791	Bifidobacterium
+T68	Microorganism 1796 1806	Prevotella
+T69	Chemical 1870 1873	LPS
+T70	DECREASES 1864 1869	lower
+T71	Biospecimen 1031 1036	fecal
+E1	AFFECTS:T3 Theme:T2 Agent:T4
+E2	AFFECTS:T3 Theme:T2 Agent:T1
+E3	NEG_ASSOCIATED_WITH:T6 Agent:T5 Theme:T8
+E4	IMPROVES:T10 Theme:T11 Agent:T5
+E5	CAUSES:T14 Agent:T13 Theme:T15
+E6	AFFECTS:T19 Theme:T20 Agent:T21
+E7	AFFECTS:T19 Theme:T20 Agent:T22
+E8	AFFECTS:T19 Theme:T20 Agent:T23
+E9	AFFECTS:T44 Agent:T47 Theme:T45
+E10	AFFECTS:T44 Agent:T47 Theme:T46
+E11	AFFECTS:T44 Agent:T48 Theme:T45
+E12	AFFECTS:T44 Agent:T48 Theme:T46
+E13	AFFECTS:T44 Agent:T49 Theme:T46
+E14	AFFECTS:T44 Agent:T49 Theme:T45
+E15	INCREASES:T52 Agent:T53 Theme:T50
+E16	INCREASES:T52 Agent:T53 Theme:T51
+E17	NEG_ASSOCIATED_WITH:T54 Agent:T55 Theme:T50
+E18	NEG_ASSOCIATED_WITH:T54 Agent:T55 Theme:T51
+E19	AFFECTS:T56 Agent:T60 Theme:T59
+E20	AFFECTS:T56 Theme:T57 Agent:T60
+E21	INCREASES:T66 Agent:T65 Theme:T67
+E22	DECREASES:T70 Theme:T69 Agent:T68
+E23	INCREASES:T66 Agent:T65 Theme:T68
+E24	AFFECTS:T56 Theme:T57 Agent:T61
+E25	AFFECTS:T56 Theme:T57 Agent:T62
+E26	AFFECTS:T56 Agent:T61 Theme:T59
+E27	AFFECTS:T56 Agent:T62 Theme:T59
+E28	DECREASES:T70 Theme:T69 Agent:T67
+E29	AFFECTS:T56 Theme:T58 Agent:T60
+E30	AFFECTS:T56 Theme:T58 Agent:T62
+E31	AFFECTS:T56 Theme:T58 Agent:T61
+A1	Factuality E9 Negated
+A2	Factuality E10 Negated
+A3	Factuality E11 Negated
+A4	Factuality E12 Negated
+A5	Factuality E13 Negated
+A6	Factuality E14 Negated
+A7	Factuality E19 Negated
+A8	Factuality E26 Negated
+A9	Factuality E27 Negated
+A10	Factuality E2 Unknown
+A11	Factuality E1 Unknown
+A12	Factuality E6 Unknown
+A13	Factuality E7 Unknown
+A14	Factuality E8 Unknown
+A15	Factuality E20 Negated
+A16	Factuality E24 Negated
+A17	Factuality E25 Negated
+A18	Factuality E29 Negated
+A19	Factuality E30 Negated
+A20	Factuality E31 Negated
+N1	Reference T1 FOODON:03310272	red wine
+N2	Reference T2 CHEBI:16412	lipopolysaccharide
+N3	Reference T4 FOODON:03310272	red wine
+N4	Reference T5 FOODON:03310272	red wine
+N5	Reference T8 MESH:D002318	Cardiovascular Diseases
+N6	Reference T11 OCHV:C0200382	Lipid panel
+N7	Reference T12 FOODON:03310272	red wine
+N8	Reference T13 MESH:D059305	Diet, High-Fat
+N9	Reference T15 MESH:D019446	Endotoxemia
+N10	Reference T16 CHEBI:16412	lipopolysaccharide
+N11	Reference T17 CHEBI:16412	lipopolysaccharide
+N12	Reference T18 MESH:D019446	Endotoxemia
+N13	Reference T20 CHEBI:16412	lipopolysaccharide
+N14	Reference T21 FOODON:03310272	red wine
+N15	Reference T22 FOODON:03310272	red wine
+N16	Reference T23 MESH:D059305	Diet, High-Fat
+N17	Reference T27 FOODON:03310272	red wine
+N18	Reference T30 FOODON:03309491	gin
+N19	Reference T31 NCIT:C105867	Lipopolysaccharide-Binding Protein
+N20	Reference T32 MESH:C061257	lipopolysaccharide-binding protein
+N21	Reference T33 NCIT:C50918	Endotoxin
+N22	Reference T35 FOODON:03310272	red wine
+N23	Reference T37 FOODON:03309491	gin
+N24	Reference T41 MESH:D002914	Chylomicrons
+N25	Reference T42 MESH:C061257	lipopolysaccharide-binding protein
+N26	Reference T43 CHEBI:16412	lipopolysaccharide
+N27	Reference T45 CHEBI:16412	lipopolysaccharide
+N28	Reference T46 MESH:C061257	lipopolysaccharide-binding protein
+N29	Reference T47 FOODON:03310272	red wine
+N30	Reference T49 FOODON:03309491	gin
+N31	Reference T50 NCBITAXON:1678	Bifidobacterium
+N32	Reference T51 NCBITAXON:838	Prevotella
+N33	Reference T53 FOODON:03310272	red wine
+N34	Reference T55 CHEBI:16412	lipopolysaccharide
+N35	Reference T57 CHEBI:16412	lipopolysaccharide
+N36	Reference T58 MESH:C061257	lipopolysaccharide-binding protein
+N37	Reference T59 MESH:D002914	Chylomicrons
+N38	Reference T60 FOODON:03310272	red wine
+N39	Reference T62 FOODON:03309491	gin
+N40	Reference T64 MESH:D059305	Diet, High-Fat
+N41	Reference T65 FOODON:03310272	red wine
+N42	Reference T67 NCBITAXON:1678	Bifidobacterium
+N43	Reference T68 NCBITAXON:838	Prevotella
+N44	Reference T69 CHEBI:16412	lipopolysaccharide

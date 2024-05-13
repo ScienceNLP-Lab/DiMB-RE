@@ -1,0 +1,135 @@
+T7	AFFECTS 30 37	effects
+T14	PREDISPOSES 1460 1467	promote
+T16	Nutrient 41 47	inulin
+T17	Physiology 1416 1437	preneoplastic changes
+T19	Disease 51 63	colon cancer
+T27	Nutrient 77 87	Prebiotics
+T29	IMPROVES 123 139	ensure a healthy
+T30	PREVENTS 184 191	prevent
+T42	Disease 192 204	colon cancer
+T44	Physiology 140 162	gastrointestinal tract
+T62	Population 305 324	Sprague-Dawley rats
+T64	Disease 415 427	colon cancer
+T65	Nutrient 584 590	inulin
+T66	Nutrient 594 603	prebiotic
+T67	Nutrient 609 612	PRE
+T68	Nutrient 630 636	inulin
+T69	AFFECTS 619 626	effects
+T70	Enzyme 658 686	bacterial glycolytic enzymes
+T71	Metabolite 688 711	short-chain fatty acids
+T72	Microorganism 713 721	coliform
+T73	Microorganism 726 738	lactobacilli
+T74	Chemical 747 755	cytokine
+T75	Enzyme 768 784	cyclooxygenase-2
+T76	Enzyme 786 791	COX-2
+T77	Chemical 797 836	transcription nuclear factor kappa beta
+T78	Chemical 838 842	NFκB
+T80	Nutrient 876 882	Inulin
+T81	DECREASES 897 906	decreased
+T82	Microorganism 907 915	coliform
+T83	INCREASES 935 944	increased
+T84	Microorganism 945 957	lactobacilli
+T85	DECREASES 982 991	decreased
+T86	Enzyme 1008 1023	β-glucuronidase
+T88	Metabolite 1036 1043	Butyric
+T89	Metabolite 1048 1057	propionic
+T90	Population 445 449	rats
+T91	Nutrient 1106 1112	Inulin
+T92	INCREASES 1113 1122	increased
+T93	Nutrient 1171 1177	Inulin
+T94	DECREASES 1178 1187	decreased
+T95	Enzyme 1203 1208	COX-2
+T96	Chemical 1214 1218	NFκB
+T97	Physiology 1241 1255;1276 1288	tunica mucosae of the colon
+T98	Physiology 1260 1288	tela submucosae of the colon
+T99	Chemical 1308 1312	IL-2
+T100	Chemical 1314 1318	TNFα
+T101	Chemical 1324 1329	IL-10
+T102	DECREASES 1339 1349	diminished
+T103	Nutrient 1400 1406	inulin
+T104	PREVENTS 1407 1415	prevents
+T106	Physiology 1442 1454	inflammation
+T107	Disease 1468 1480	colon cancer
+E1	IMPROVES:T29 Agent:T27 Theme:T44
+E4	PREVENTS:T30 Agent:T27 Theme:T42
+E5	AFFECTS:T69 Agent:T68 Theme:T70
+E8	AFFECTS:T69 Agent:T68 Theme:T71
+E9	AFFECTS:T69 Agent:T68 Theme:T72
+E10	AFFECTS:T69 Agent:T68 Theme:T73
+E13	AFFECTS:T69 Agent:T68 Theme:T74
+E19	AFFECTS:T69 Agent:T68 Theme:T75
+E20	AFFECTS:T69 Agent:T68 Theme:T77
+E21	PREDISPOSES:T14 Theme:T107 Agent:T106
+E22	DECREASES:T81 Theme:T82 Agent:T80
+E23	INCREASES:T83 Theme:T84 Agent:T80
+E24	DECREASES:T85 Agent:T80 Theme:T86
+E25	DECREASES:T94 Agent:T93 Theme:T95
+E26	INCREASES:T92 Agent:T91 Theme:T88
+E27	DECREASES:T94 Agent:T93 Theme:T96
+E28	DECREASES:T102 Agent:T93 Theme:T101
+E29	DECREASES:T102 Agent:T93 Theme:T100
+E30	DECREASES:T102 Agent:T93 Theme:T99
+E31	PREVENTS:T104 Agent:T103 Theme:T106
+E32	AFFECTS:T7 Agent:T16 Theme:T19
+E33	PREVENTS:T104 Theme:T17 Agent:T103
+E34	PREDISPOSES:T14 Agent:T17 Theme:T107
+E35	INCREASES:T92 Agent:T91 Theme:T89
+A1	Unknown E32
+A2	Unknown E20
+A3	Unknown E19
+A4	Unknown E13
+A5	Unknown E10
+A6	Unknown E9
+A7	Unknown E8
+A8	Unknown E5
+N6	CHEBI:15443 T16	inulin
+N7	NCIT:C20204 T17	preneoplastic changes
+N9	NCIT:C4910 T19	Colon Carcinoma
+N14	MESH:D056692 T27	Prebiotics
+N23	NCIT:C4910 T42	Colon Carcinoma
+N24	NCIT:C34082 T44	Gastrointestinal Tract
+N34	NCIT:C4910 T64	Colon Carcinoma
+N35	CHEBI:15443 T65	inulin
+N36	MESH:D056692 T66	Prebiotics
+N37	MESH:D056692 T67	Prebiotics
+N38	CHEBI:15443 T68	inulin
+N39	CHEBI:26666 T71	short-chain fatty acid
+N40	NCIT:C122046 T72	Coliform Bacteria
+N41	NCBITAXON:1578 T73	Lactobacillus
+N42	NCIT:C20464 T74	Cytokine
+N43	MESH:D051546 T75	Cyclooxygenase 2
+N44	MESH:D051546 T76	Cyclooxygenase 2
+N45	NCIT:C17380 T77	NF-kB
+N46	NCIT:C17380 T78	NF-kB
+N47	CHEBI:15443 T80	inulin
+N48	NCIT:C122046 T82	Coliform Bacteria
+N49	NCBITAXON:1578 T84	Lactobacillus
+N50	NCIT:C148006 T86	Beta-Glucuronidase
+N51	CHEBI:30772 T88	butyric acid
+N52	CHEBI:30768 T89	propionic acid
+N53	CHEBI:15443 T91	inulin
+N54	CHEBI:15443 T93	inulin
+N55	MESH:D051546 T95	Cyclooxygenase 2
+N56	NCIT:C17380 T96	NF-kB
+N57	NCIT:C20507 T99	Interleukin-2
+N58	MESH:D014409 T100	Tumor Necrosis Factor-alpha
+N59	NCIT:C20512 T101	Interleukin-10
+N60	CHEBI:15443 T103	inulin
+N61	NCIT:C3137 T106	Inflammation
+N62	NCIT:C4910 T107	Colon Carcinoma
+A9	Factual E1
+A12	Factual E4
+A22	Factual E21
+A23	Factual E22
+A24	Factual E23
+A25	Factual E24
+A26	Factual E25
+A27	Factual E26
+A28	Factual E27
+A29	Factual E28
+A30	Factual E29
+A31	Factual E30
+A32	Factual E31
+A33	Factual E33
+A34	Factual E34
+A35	Factual E35

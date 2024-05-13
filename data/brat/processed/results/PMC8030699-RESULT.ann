@@ -1,0 +1,383 @@
+T58	Disease 1454 1464	overweight
+T63	Food 588 595	avocado
+T64	Measurement 2012 2023	Body weight
+T65	Disease 2146 2156	Overweight
+T70	Food 684 691	avocado
+T71	Food 777 784	avocado
+T72	Food 850 857	avocado
+T73	Food 912 919	avocado
+T75	Disease 1247 1257	overweight
+T76	Disease 1270 1277	obesity
+T80	Measurement 1335 1338	BMI
+T81	Disease 1395 1402	obesity
+T82	Measurement 1465 1468	BMI
+T85	Microorganism 6683 6693	Firmicutes
+T86	Measurement 2779 2790	body weight
+T87	Food 2843 2850	avocado
+T88	Nutrient 2866 2870	MUFA
+T89	Disease 2205 2210	Obese
+T90	Nutrient 2952 2965	dietary fiber
+T91	Food 3039 3046	avocado
+T92	Nutrient 3156 3165;3186 3189	saturated fat
+T93	Nutrient 3170 3189	polyunsaturated fat
+T94	Nutrient 3252 3263	fatty acids
+T95	Measurement 3308 3319	Body weight
+T96	Food 3401 3408	avocado
+T98	Food 3592 3599	avocado
+T99	Food 3619 3626	Avocado
+T100	Nutrient 3689 3698	Total fat
+T101	Nutrient 3734 3747	Saturated fat
+T102	Nutrient 3782 3801	Monounsaturated fat
+T103	Nutrient 3838 3857	Polyunsaturated fat
+T104	Nutrient 3892 3910	Total carbohydrate
+T105	Nutrient 3945 3958	Total protein
+T106	Nutrient 3993 4012	Total dietary fiber
+T107	Nutrient 4049 4072	Insoluble dietary fiber
+T108	Nutrient 4109 4130	Soluble dietary fiber
+T109	Nutrient 4166 4173	Pectins
+T112	DiversityMetric 4432 4443	α-diversity
+T113	Food 4467 4474	avocado
+T114	INCREASES 4449 4456	greater
+T116	DiversityMetric 4549 4560	β-diversity
+T117	INCREASES 4575 4582	greater
+T118	Food 4590 4597	avocado
+T119	Microorganism 4748 4764	Faecalibacterium
+T120	Microorganism 4766 4777	Lachnospira
+T121	Microorganism 4783 4792	Alistipes
+T122	INCREASES 4798 4806	enriched
+T123	Food 4814 4821	avocado
+T124	Microorganism 4862 4871	Roseburia
+T125	Microorganism 4876 4888	Ruminococcus
+T126	DECREASES 4894 4904	diminished
+T127	Metabolite 4922 4929	acetate
+T128	POS_ASSOCIATED_WITH 4961 4968	greater
+T129	Food 4976 4983	avocado
+T130	Metabolite 5106 5117	cholic acid
+T131	Nutrient 5293 5297	SFAs
+T132	Metabolite 5146 5167	chenodeoxycholic acid
+T133	Nutrient 5302 5307	MUFAs
+T134	INCREASES 5313 5320	greater
+T135	Food 5328 5335	avocado
+T137	Food 5539 5546	avocado
+T138	DiversityMetric 5548 5559	ɑ-Diversity
+T140	Metabolite 5797 5804;5819 5828	primary bile acid
+T141	Metabolite 5809 5828	secondary bile acid
+T142	Food 5922 5929	avocado
+T144	Food 6042 6049	avocado
+T145	Metabolite 6183 6199	fecal fatty acid
+T146	Food 6293 6300	avocado
+T148	Food 6633 6640	avocado
+T149	Food 6660 6667	Avocado
+T152	Metabolite 8458 8477	volatile fatty acid
+T153	Food 8571 8578	avocado
+T156	Metabolite 8672 8679	Acetate
+T157	Metabolite 8710 8720	Propionate
+T158	Metabolite 8753 8761	Butyrate
+T159	Metabolite 8801 8806	SCFAs
+T160	Metabolite 8837 8848	Isobutyrate
+T161	Metabolite 8881 8892	Isovalerate
+T162	Metabolite 8925 8933	Valerate
+T163	Metabolite 8973 8978	BCFAs
+T164	Metabolite 9011 9026	SCFA:BCFA ratio
+T165	Metabolite 8580 8599	Volatile fatty acid
+T168	Metabolite 9148 9152	BCFA
+T169	Metabolite 9154 9179	branched-chain fatty acid
+T171	Food 9351 9358	avocado
+T172	Microorganism 9527 9538	Lachnospira
+T173	Metabolite 9549 9560	cholic acid
+T174	Food 9711 9718	avocado
+T175	Microorganism 9758 9767	Alistipes
+T176	NEG_ASSOCIATED_WITH 9777 9795	negatively related
+T177	Metabolite 9805 9816	cholic acid
+T178	Food 9869 9876	avocado
+T179	Food 10067 10074	avocado
+T180	Chemical 9607 9618	insulin AUC
+T181	Microorganism 10078 10087	Roseburia
+T182	Microorganism 10088 10100	Ruminococcus
+T183	Microorganism 10101 10112	Lachnospira
+T184	Microorganism 10113 10122	Alistipes
+T185	Microorganism 10124 10140	Faecalibacterium
+T186	Metabolite 10168 10175	Acetate
+T188	Metabolite 10250 10261	Cholic acid
+T190	Metabolite 10340 10361	Chenodeoxycholic acid
+T192	Metabolite 10439 10455	Lithocholic acid
+T194	Metabolite 10531 10547	Deoxycholic acid
+T196	Chemical 10635 10646	glucose AUC
+T197	Chemical 10732 10743	insulin AUC
+T198	Measurement 10821 10828	HOMA-IR
+T199	Measurement 10888 10901	Matsuda index
+T200	Chemical 10966 10971	TNF-ɑ
+T201	Chemical 11044 11047	CRP
+T202	Chemical 11119 11123	IL-6
+T203	Physiology 11188 11216	Visceral abdominal adiposity
+T204	Physiology 11279 11311	Subcutaneous abdominal adiposity
+T207	Chemical 11439 11442	CRP
+T208	Chemical 11444 11462	C-reactive protein
+T209	Measurement 11464 11471	HOMA-IR
+T210	Measurement 11473 11523	homeostatic model assessment of insulin resistance
+T211	Chemical 11525 11529	IL-6
+T212	Chemical 11531 11544	interleukin-6
+T213	Chemical 11546 11551	TNF-ɑ
+T214	Chemical 11553 11576	tumer necrosis factor ɑ
+T215	Measurement 11667 11678	body weight
+T216	Food 11731 11738	avocado
+T217	Nutrient 11772 11777	MUFAs
+T218	Nutrient 11800 11823	insoluble dietary fiber
+T219	Nutrient 11825 11846	soluble dietary fiber
+T220	Nutrient 11852 11858	pectin
+T221	Nutrient 11779 11798	total dietary fiber
+T222	Nutrient 11860 11873	Saturated fat
+T223	Nutrient 11875 11894	polyunsaturated fat
+T224	Nutrient 11896 11914	total carbohydrate
+T225	Nutrient 11920 11933	total protein
+T226	Measurement 12008 12019	body weight
+T227	Food 12083 12090	avocado
+T229	DiversityMetric 12210 12221	β-diversity
+T231	DiversityMetric 12341 12352	α-diversity
+T232	AFFECTS 12354 12368	did not differ
+T233	Microorganism 12423 12432	Alistipes
+T234	Microorganism 12449 12461	Ruminococcus
+T235	INCREASES 12478 12485	greater
+T236	Microorganism 12490 12506	Faecalibacterium
+T237	Microorganism 12522 12533	Lachnospira
+T238	INCREASES 12547 12555	enriched
+T239	Food 12618 12625	avocado
+T240	Microorganism 12656 12671	Lachnobacterium
+T241	Metabolite 12732 12739	acetate
+T242	INCREASES 12771 12778	greater
+T243	Food 12786 12793	avocado
+T244	Metabolite 12883 12892	bile acid
+T245	Metabolite 13104 13120	deoxycholic acid
+T246	Metabolite 12997 13008	cholic acid
+T247	Metabolite 13133 13149	lithocholic acid
+T248	Metabolite 13169 13186	primary bile acid
+T249	Metabolite 13218 13233	total bile acid
+T250	Physiology 2332 2360	Visceral abdominal adiposity
+T251	Physiology 2415 2447	Subcutaneous abdominal adiposity
+T252	Microorganism 6732 6739	Blautia
+T253	Microorganism 6783 6794	Coprococcus
+T254	Microorganism 6833 6845	Ruminococcus
+T255	Microorganism 6889 6894	Dorea
+T256	Microorganism 6938 6951	Streptococcus
+T257	Microorganism 6990 7006	Faecalibacterium
+T258	Microorganism 7045 7054	Roseburia
+T259	Microorganism 7093 7104	Clostridium
+T260	Microorganism 7148 7160	Oscillospira
+T261	Microorganism 7204 7213	Dialister
+T262	Microorganism 7257 7270	Lactobacillus
+T263	Microorganism 7309 7320	Lachnospira
+T264	Microorganism 7359 7374	Lachnobacterium
+T265	Microorganism 7413 7434	Phascolarctobacterium
+T266	Microorganism 7478 7487	Alistipes
+T267	Microorganism 7530 7543	Bacteroidetes
+T268	Microorganism 7582 7593	Bacteroides
+T269	Microorganism 7632 7647	Parabacteroides
+T270	Microorganism 7685 7699	Actinobacteria
+T271	Microorganism 7743 7758	Bifidobacterium
+T272	Microorganism 7802 7813	Collinsella
+T273	Microorganism 7851 7866	Verrucomicrobia
+T274	Microorganism 7905 7916	Akkermansia
+T275	Microorganism 7954 7968	Proteobacteria
+T276	Microorganism 8007 8017	Sutterella
+T277	Microorganism 8061 8070	Bilophila
+T278	Microorganism 8114 8127	Desulfovibrio
+T283	ASSOCIATED_WITH 9487 9504	Inverse relations
+E4	ASSOCIATED_WITH:T283 Theme:T172 Theme2:T173
+E19	INCREASES:T117 Theme:T116 Agent:T118
+E20	INCREASES:T122 Agent:T123 Theme:T121
+E21	DECREASES:T126 Agent:T123 Theme:T125
+E22	INCREASES:T122 Agent:T123 Theme:T120
+E23	INCREASES:T122 Agent:T123 Theme:T119
+E24	DECREASES:T126 Agent:T123 Theme:T124
+E25	POS_ASSOCIATED_WITH:T128 Agent:T129 Theme:T127
+E26	INCREASES:T134 Agent:T135 Theme:T133
+E27	INCREASES:T134 Agent:T135 Theme:T131
+E28	NEG_ASSOCIATED_WITH:T176 Agent:T175 Theme:T177
+E29	AFFECTS:T232 Theme:T231 Agent:T227
+E30	INCREASES:T235 Agent:T239 Theme:T234
+E31	INCREASES:T238 Agent:T239 Theme:T237
+E32	INCREASES:T242 Agent:T243 Theme:T241
+E33	INCREASES:T235 Agent:T239 Theme:T233
+E34	INCREASES:T238 Agent:T239 Theme:T236
+E35	ASSOCIATED_WITH:T283 Theme:T172 Theme2:T180
+E1511	INCREASES:T114 Agent:T113 Theme:T112
+A1	Negated E29
+N29	NCIT:C94250 T58	Overweight
+N31	FOODON:00003600 T63	avocado (whole)
+N32	NCIT:C81328 T64	Body Weight
+N33	NCIT:C94250 T65	Overweight
+N35	FOODON:00003600 T70	avocado (whole)
+N36	FOODON:00003600 T71	avocado (whole)
+N37	FOODON:00003600 T72	avocado (whole)
+N38	FOODON:00003600 T73	avocado (whole)
+N39	NCIT:C94250 T75	Overweight
+N40	NCIT:C3283 T76	Obesity
+N41	NCIT:C16358 T80	Body Mass Index
+N42	NCIT:C3283 T81	Obesity
+N43	NCIT:C16358 T82	Body Mass Index
+N44	NCBITAXON:1239 T85	Firmicutes
+N45	NCIT:C81328 T86	Body Weight
+N46	FOODON:00003600 T87	avocado (whole)
+N47	CHEBI:25413 T88	monounsaturated fatty acid
+N48	NCIT:C3283 T89	Obesity
+N49	NCIT:C68492 T90	Dietary Fiber
+N50	FOODON:00003600 T91	avocado (whole)
+N51	CHEBI:26607 T92	saturated fatty acid
+N52	NCIT:C172472 T93	Dietary Polyunsaturated Fat Measurement
+N53	CHEBI:35366 T94	fatty acid
+N54	NCIT:C81328 T95	Body Weight
+N55	FOODON:00003600 T96	avocado (whole)
+N56	FOODON:00003600 T98	avocado (whole)
+N57	FOODON:00003600 T99	avocado (whole)
+N58	MESH:D004041 T100	Dietary Fats
+N59	CHEBI:26607 T101	saturated fatty acid
+N60	NCIT:C172471 T102	Dietary Monounsaturated Fat Measurement
+N61	NCIT:C172472 T103	Dietary Polyunsaturated Fat Measurement
+N62	CHEBI:16646 T104	carbohydrate
+N63	CHEBI:36080 T105	protein
+N64	NCIT:C68492 T106	Dietary Fiber
+N65	CHEBI:17309 T109	pectin
+N66	FOODON:00003600 T113	avocado (whole)
+N67	FOODON:00003600 T118	avocado (whole)
+N68	NCBITAXON:216851 T119	Faecalibacterium
+N69	NCBITAXON:28050 T120	Lachnospira
+N70	NCBITAXON:239759 T121	Alistipes
+N71	FOODON:00003600 T123	avocado (whole)
+N72	NCBITAXON:841 T124	Roseburia
+N73	NCBITAXON:1263 T125	Ruminococcus
+N74	CHEBI:30089 T127	acetate
+N75	FOODON:00003600 T129	avocado (whole)
+N76	CHEBI:16359 T130	cholic acid
+N77	CHEBI:26607 T131	saturated fatty acid
+N78	CHEBI:16755 T132	chenodeoxycholic acid
+N79	CHEBI:25413 T133	monounsaturated fatty acid
+N80	FOODON:00003600 T135	avocado (whole)
+N81	FOODON:00003600 T137	avocado (whole)
+N82	CHEBI:3098 T140	bile acid
+N83	CHEBI:3098 T141	bile acid
+N84	FOODON:00003600 T142	avocado (whole)
+N85	FOODON:00003600 T144	avocado (whole)
+N86	CHEBI:35366 T145	fatty acid
+N87	FOODON:00003600 T146	avocado (whole)
+N88	FOODON:00003600 T148	avocado (whole)
+N89	FOODON:00003600 T149	avocado (whole)
+N90	MESH:D005232 T152	Fatty Acids, Volatile
+N91	FOODON:00003600 T153	avocado (whole)
+N92	CHEBI:30089 T156	acetate
+N93	CHEBI:17272 T157	propionate
+N94	CHEBI:17968 T158	butyrate
+N95	CHEBI:26666 T159	short-chain fatty acid
+N96	CHEBI:48944 T160	isobutyrate
+N97	CHEBI:48942 T161	isovalerate
+N98	CHEBI:31011 T162	valerate
+N99	CHEBI:35819 T163	branched-chain fatty acid
+N100	CHEBI:35819 T164	short/branched chain fatty acids
+N101	MESH:D005232 T165	Fatty Acids, Volatile
+N102	CHEBI:35819 T168	branched-chain fatty acid
+N103	CHEBI:35819 T169	branched-chain fatty acid
+N104	FOODON:00003600 T171	avocado (whole)
+N105	NCBITAXON:28050 T172	Lachnospira
+N106	CHEBI:16359 T173	cholic acid
+N107	FOODON:00003600 T174	avocado (whole)
+N108	NCBITAXON:239759 T175	Alistipes
+N109	CHEBI:16359 T177	cholic acid
+N110	FOODON:00003600 T178	avocado (whole)
+N111	FOODON:00003600 T179	avocado (whole)
+N112	NCIT:C2271 T180	Insulin
+N113	NCBITAXON:841 T181	Roseburia
+N114	NCBITAXON:1263 T182	Ruminococcus
+N115	NCBITAXON:28050 T183	Lachnospira
+N116	NCBITAXON:239759 T184	Alistipes
+N117	NCBITAXON:216851 T185	Faecalibacterium
+N118	CHEBI:30089 T186	acetate
+N119	CHEBI:16359 T188	cholic acid
+N120	CHEBI:16755 T190	chenodeoxycholic acid
+N121	CHEBI:16325 T192	lithocholic acid
+N122	CHEBI:28834 T194	deoxycholic acid
+N123	NCIT:C2271 T197	Insulin
+N124	NCIT:C100447 T198	Homeostatic Model Assessment of Insulin Resistance
+N125	MESH:D014409 T200	Tumor Necrosis Factor-alpha
+N126	NCIT:C60651 T201	C-Reactive Protein
+N127	NCIT:C20451 T202	Interleukin-6
+N128	MESH:D050152 T203	Intra-Abdominal Fat
+N129	MESH:D050507 T204	Subcutaneous Fat, Abdominal
+N130	NCIT:C60651 T207	C-Reactive Protein
+N131	NCIT:C60651 T208	C-Reactive Protein
+N132	NCIT:C100447 T209	Homeostatic Model Assessment of Insulin Resistance
+N133	NCIT:C100447 T210	Homeostatic Model Assessment of Insulin Resistance
+N134	NCIT:C20451 T211	Interleukin-6
+N135	NCIT:C20451 T212	Interleukin-6
+N136	MESH:D014409 T213	Tumor Necrosis Factor-alpha
+N137	MESH:D014409 T214	Tumor Necrosis Factor-alpha
+N138	NCIT:C81328 T215	Body Weight
+N139	FOODON:00003600 T216	avocado (whole)
+N140	CHEBI:25413 T217	monounsaturated fatty acid
+N141	CHEBI:17309 T220	pectin
+N142	NCIT:C68492 T221	Dietary Fiber
+N143	CHEBI:26607 T222	saturated fatty acid
+N144	NCIT:C172472 T223	Dietary Polyunsaturated Fat Measurement
+N145	CHEBI:16646 T224	carbohydrate
+N146	CHEBI:36080 T225	protein
+N147	NCIT:C81328 T226	Body Weight
+N148	FOODON:00003600 T227	avocado (whole)
+N149	NCBITAXON:239759 T233	Alistipes
+N150	NCBITAXON:1263 T234	Ruminococcus
+N151	NCBITAXON:216851 T236	Faecalibacterium
+N152	NCBITAXON:28050 T237	Lachnospira
+N153	FOODON:00003600 T239	avocado (whole)
+N154	NCBITAXON:140625 T240	Lachnobacterium
+N155	CHEBI:30089 T241	acetate
+N156	FOODON:00003600 T243	avocado (whole)
+N157	CHEBI:3098 T244	bile acid
+N158	CHEBI:28834 T245	deoxycholic acid
+N159	CHEBI:16359 T246	cholic acid
+N160	CHEBI:16325 T247	lithocholic acid
+N161	CHEBI:3098 T248	bile acid
+N162	CHEBI:3098 T249	bile acid
+N163	MESH:D050152 T250	Intra-Abdominal Fat
+N164	MESH:D050507 T251	Subcutaneous Fat, Abdominal
+N165	NCBITAXON:572511 T252	Blautia
+N166	NCBITAXON:33042 T253	Coprococcus
+N167	NCBITAXON:1263 T254	Ruminococcus
+N168	NCBITAXON:189330 T255	Dorea
+N169	NCBITAXON:1301 T256	Streptococcus
+N170	NCBITAXON:216851 T257	Faecalibacterium
+N171	NCBITAXON:841 T258	Roseburia
+N172	NCBITAXON:1485 T259	Clostridium
+N173	NCBITAXON:119852 T260	Oscillospira
+N174	NCBITAXON:39948 T261	Dialister
+N175	NCBITAXON:1578 T262	Lactobacillus
+N176	NCBITAXON:28050 T263	Lachnospira
+N177	NCBITAXON:140625 T264	Lachnobacterium
+N178	NCBITAXON:33024 T265	Phascolarctobacterium
+N179	NCBITAXON:239759 T266	Alistipes
+N180	NCBITAXON:976 T267	Bacteroidetes
+N181	NCBITAXON:816 T268	Bacteroides
+N182	NCBITAXON:375288 T269	Parabacteroides
+N183	NCBITAXON:201174 T270	Actinobacteria
+N184	NCBITAXON:1678 T271	Bifidobacterium
+N185	NCBITAXON:102106 T272	Collinsella
+N186	NCBITAXON:74201 T273	Verrucomicrobia
+N187	NCBITAXON:239934 T274	Akkermansia
+N188	NCBITAXON:1224 T275	Proteobacteria
+N189	NCBITAXON:40544 T276	Sutterella
+N190	NCBITAXON:35832 T277	Bilophila
+N191	NCBITAXON:872 T278	Desulfovibrio
+A5	Factual E4
+A20	Factual E19
+A21	Factual E20
+A22	Factual E21
+A23	Factual E22
+A24	Factual E23
+A25	Factual E24
+A26	Factual E25
+A27	Factual E26
+A28	Factual E27
+A29	Factual E28
+A30	Factual E30
+A31	Factual E31
+A32	Factual E32
+A33	Factual E33
+A34	Factual E34
+A35	Factual E35
+A36	Factual E1511

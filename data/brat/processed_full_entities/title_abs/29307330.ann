@@ -1,0 +1,71 @@
+T1	Nutrient 9 22	dietary fibre
+T2	Methodology 104 186	randomised, double-blind, placebo-controlled, cross-over, human intervention study
+T3	Disease 189 198	Dysbiotic
+T4	Nutrient 71 100	inulin-type fructan prebiotic
+T5	DietPattern 579 596	low dietary fibre
+T6	DietPattern 598 601	LDF
+T7	DietPattern 606 624	high dietary fibre
+T8	DietPattern 626 629	HDF
+T9	Nutrient 679 708	inulin-type fructan prebiotic
+T10	Methodology 718 780	randomised, double-blind, placebo-controlled, cross-over study
+T11	DietPattern 834 837	LDF
+T12	DietPattern 841 844	HDF
+T13	Methodology 884 918	16S rRNA bacterial gene sequencing
+T14	DietPattern 1182 1185	LDF
+T15	DietPattern 1276 1279	HDF
+T16	INCREASES 1324 1332	increase
+T17	Microorganism 1336 1351	Bifidobacterium
+T18	Microorganism 1366 1382	Faecalibacterium
+T19	DECREASES 1397 1406	decreases
+T20	Microorganism 1410 1421	Coprococcus
+T21	Microorganism 1453 1465	Ruminococcus
+T22	DietPattern 1542 1545	HDF
+T23	POS_ASSOCIATED_WITH 1611 1633	more likely to benefit
+T24	Nutrient 1642 1671	inulin-type fructan prebiotic
+T25	DietPattern 1688 1691	LDF
+T26	Nutrient 1788 1817	inulin-type fructan prebiotic
+T27	Nutrient 1840 1853	dietary fibre
+T28	Metabolite 924 928	SCFA
+T29	Nutrient 985 994	prebiotic
+T30	Nutrient 1012 1027	Orafti® Synergy
+T31	Nutrient 1051 1060	Glucidex®
+T32	Population 794 814	healthy participants
+T33	Nutrient 1197 1206	prebiotic
+T34	INCREASES 1230 1238	increase
+T35	Microorganism 1242 1257	Bifidobacterium
+T36	Nutrient 1291 1300	prebiotic
+T37	Microorganism 1433 1438	Dorea
+E1	INCREASES:T16 Agent:T15 Theme:T17
+E2	DECREASES:T19 Agent:T15 Theme:T20
+E3	POS_ASSOCIATED_WITH:T23 Agent:T22 Theme:T24
+E4	INCREASES:T16 Agent:T15 Theme:T18
+E5	DECREASES:T19 Agent:T15 Theme:T21
+E6	INCREASES:T34 Theme:T35 Agent:T14
+E7	DECREASES:T19 Theme:T37 Agent:T15
+A1	Unknown E3
+N1	NCIT:C68492 T1	Dietary Fiber
+N2	MESH:D064806 T3	Dysbiosis
+N3	OCHV:C0344356 T5	low fiber diet
+N4	OCHV:C0301568 T7	high fiber diet
+N5	OCHV:C0301568 T8	high fiber diet
+N6	OCHV:C0301568 T12	high fiber diet
+N7	OCHV:C0301568 T15	high fiber diet
+N8	NCBITAXON:1678 T17	Bifidobacterium
+N9	NCBITAXON:216851 T18	Faecalibacterium
+N10	NCBITAXON:33042 T20	Coprococcus
+N11	NCBITAXON:1263 T21	Ruminococcus
+N12	OCHV:C0301568 T22	high fiber diet
+N13	NCIT:C68492 T27	Dietary Fiber
+N14	CHEBI:26666 T28	short-chain fatty acid
+N15	MESH:D056692 T29	Prebiotics
+N16	MESH:C425338 T31	Glucidex IT 38
+N17	MESH:D056692 T33	Prebiotics
+N18	NCBITAXON:1678 T35	Bifidobacterium
+N19	MESH:D056692 T36	Prebiotics
+N20	NCBITAXON:189330 T37	Dorea
+A2	Factual E1
+A3	Factual E2
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7

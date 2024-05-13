@@ -1,0 +1,1361 @@
+T1	Disease 27 32	NAFLD
+T2	DietPattern 46 68	high carbohydrate diet
+T3	Physiology 102 129	hepatic de novo lipogenesis
+T4	AFFECTS 12 18	effect
+T5	Disease 140 172	Nonalcoholic fatty liver disease
+T6	Disease 174 179	NAFLD
+T7	ASSOCIATED_WITH 184 194	associated
+T8	DietPattern 200 229	high carbohydrate (HC) intake
+T9	Disease 902 907	NAFLD
+T10	Nutrient 280 292	carbohydrate
+T11	Disease 304 309	NAFLD
+T12	Physiology 403 430	hepatic de novo lipogenesis
+T13	Physiology 432 435	DNL
+T14	ASSOCIATED_WITH 259 271	relationship
+T15	Measurement 699 723	percentage energy intake
+T16	Biospecimen 438 443	Stool
+T17	Disease 511 516	NAFLD
+T18	Population 476 516	Korean subjects with biopsy-proven NAFLD
+T19	Methodology 603 631	16S rRNA amplicon sequencing
+T20	Measurement 668 688	NAFLD activity score
+T21	ASSOCIATED_WITH 724 728	from
+T22	Measurement 690 693	NAS
+T23	Population 1226 1239	NAS subgroups
+T24	Nutrient 729 749	dietary carbohydrate
+T25	DietPattern 952 959	HC diet
+T26	DietPattern 974 995	low carbohydrate diet
+T27	Measurement 1070 1073	NAS
+T28	Microorganism 1148 1166	Enterobacteriaceae
+T29	Microorganism 1171 1186	Ruminococcaceae
+T30	Measurement 1226 1229	NAS
+T31	Disease 1243 1248	NAFLD
+T32	DietPattern 1274 1281	HC diet
+T33	Microorganism 1340 1355	Veillonellaceae
+T34	Measurement 1455 1470	body mass index
+T35	Physiology 1472 1475	age
+T36	Physiology 1481 1484	sex
+T37	Disease 1496 1524	nonalcoholic steatohepatitis
+T38	DietPattern 1532 1534	HC
+T39	DietPattern 1549 1551	HC
+T40	Measurement 1648 1651	NAS
+T41	Methodology 1678 1703	kernel causality analysis
+T42	Microorganism 1749 1767	Enterobacteriaceae
+T43	Physiology 1951 1979	impaired glucose homeostasis
+T44	DietPattern 1867 1869	HC
+T45	DietPattern 1890 1897	HC diet
+T46	INCREASES 1985 1997	upregulation
+T47	WORSENS 1951 1959	impaired
+T48	PREDISPOSES 2031 2043	contributing
+T49	Physiology 372 397	impaired insulin response
+T50	Physiology 346 370	gut microbial modulation
+T51	AFFECTS 1020 1027	altered
+T52	ASSOCIATED_WITH 11980 11986	marker
+T53	Disease 11967 11979	liver damage
+T54	Physiology 751 782	Hepatic DNL-related transcripts
+T55	Population 1648 1661	NAS subgroups
+T56	Physiology 1585 1588	DNL
+T57	Gene 1590 1595	SIRT1
+T58	Gene 1600 1606	SREBF2
+T59	CAUSES 1715 1728	causal effect
+T60	Disease 14679 14684	NAFLD
+T61	Measurement 1802 1841	surrogate markers of insulin resistance
+T62	INCREASES 1778 1790	upregulation
+T63	DiversityMetric 1028 1052	gut microbiome diversity
+T64	Population 1243 1257	NAFLD subjects
+T65	Gene 1771 1777	SREBF2
+T66	Measurement 1395 1430	performance of the predictive model
+T67	Gene 2001 2018	hepatic DNL genes
+T68	Disease 14975 14980	NAFLD
+T69	Disease 2047 2052	NAFLD
+T70	Disease 1845 1850	NAFLD
+T71	Disease 5267 5271	NASH
+T72	Population 476 491;531 544	Korean subjects without NAFLD
+T73	PREDISPOSES 1488 1495	predict
+T74	Nutrient 5152 5164	carbohydrate
+T75	Disease 5236 5241	NAFLD
+T76	Physiology 5479 5482	Age
+T77	Population 5586 5590	Male
+T78	Measurement 5663 5666	BMI
+T79	Enzyme 5766 5769	AST
+T80	Enzyme 5876 5879	ALT
+T81	Enzyme 5988 5991	GGT
+T82	Chemical 6099 6110	Cholesterol
+T83	Chemical 6217 6220	HDL
+T84	Chemical 6320 6323	LDL
+T85	Chemical 6431 6433	TG
+T86	Chemical 6543 6546	FFA
+T87	Metabolite 6659 6661	TB
+T88	Chemical 6762 6765	Alb
+T89	Physiology 6867 6875	Platelet
+T90	Chemical 6984 6993	C-peptide
+T91	Chemical 7100 7106	hs-CRP
+T92	Chemical 7212 7220	Ferritin
+T93	Measurement 7438 7443	HbA1c
+T94	Chemical 7541 7544	FBS
+T95	Chemical 7651 7658	Insulin
+T96	Measurement 7766 7774	Adipo-IR
+T97	Measurement 7869 7876	HOMA-IR
+T98	Measurement 7989 7992	BMI
+T99	Measurement 7994 8009	body mass index
+T100	Enzyme 8011 8014	AST
+T101	Enzyme 8016 8038	aspartate transaminase
+T102	Enzyme 8040 8043	ALT
+T103	Enzyme 8045 8065	alanine transaminase
+T104	Enzyme 8067 8070	GGT
+T105	Enzyme 8072 8098	gamma-glutamyl transferase
+T106	Chemical 8100 8103	HDL
+T107	Chemical 8105 8129	high-density lipoprotein
+T108	Chemical 8131 8134	LDL
+T109	Chemical 8136 8159	low-density lipoprotein
+T110	Chemical 8161 8163	TG
+T111	Chemical 8165 8178	triglycerides
+T112	Chemical 8180 8183	FFA
+T113	Chemical 8185 8201	free fatty acids
+T114	Metabolite 8203 8205	TB
+T115	Metabolite 8207 8222	total bilirubin
+T116	Chemical 8224 8227	Alb
+T117	Chemical 8229 8236	albumin
+T118	Chemical 8238 8244	hs-CRP
+T119	Chemical 8246 8281	high-sensitivity C-reactive protein
+T120	Chemical 8283 8285	HA
+T121	Chemical 8287 8302	hyaluronic acid
+T122	Chemical 8308 8324	triiodothyronine
+T123	Chemical 8304 8306	T3
+T124	Measurement 8326 8331	HbA1c
+T125	Chemical 8354 8357	FBG
+T126	Chemical 8359 8380	fasting blood glucose
+T127	Measurement 8382 8390	Adipo-IR
+T128	Measurement 8392 8425	adipose tissue insulin resistance
+T129	Measurement 8427 8434	HOMA-IR
+T130	Measurement 8436 8486	homeostasis model assessment of insulin resistance
+T131	Chemical 8333 8352	glycated hemoglobin
+T132	Methodology 8690 8709	Kruskal-Wallis test
+T133	Disease 8810 8815	NAFLD
+T134	Methodology 8772 8815	Korean individuals with biopsy-proven NAFLD
+T135	Nutrient 8957 8969	carbohydrate
+T136	DietPattern 8978 8995	high carbohydrate
+T137	DietPattern 8997 8999	HC
+T138	DietPattern 9047 9063	low carbohydrate
+T139	DietPattern 9065 9067	LC
+T140	DietPattern 9182 9184	HC
+T141	DietPattern 9189 9191	LC
+T142	Measurement 9287 9307	NAFLD activity score
+T143	Measurement 9309 9312	NAS
+T144	Disease 5280 5284	NASH
+T145	Disease 9375 9379	NASH
+T146	Disease 9399 9403	NASH
+T147	WORSENS 17630 17640	increasing
+T148	Disease 9487 9492	NAFLD
+T149	Nutrient 9534 9546	carbohydrate
+T150	INCREASES 17717 17725	enriched
+T151	DietPattern 9598 9615	high carbohydrate
+T152	DietPattern 9617 9619	HC
+T153	DietPattern 9625 9641	low carbohydrate
+T154	DietPattern 9643 9645	LC
+T155	Nutrient 9664 9676	carbohydrate
+T156	Nutrient 9800 9813	carbohydrates
+T157	Nutrient 9815 9819	fats
+T158	Nutrient 9825 9833	proteins
+T159	DietPattern 9841 9843	HC
+T160	DietPattern 9848 9850	LC
+T161	Nutrient 9939 9951	carbohydrate
+T162	Measurement 9971 9991	NAFLD activity score
+T163	Disease 9971 9976	NAFLD
+T164	Measurement 9993 9996	NAS
+T165	Disease 10048 10053	obese
+T166	Measurement 10091 10094	BMI
+T167	Measurement 10107 10110	BMI
+T168	Nutrient 10137 10149	carbohydrate
+T169	Measurement 10165 10168	NAS
+T170	Methodology 10174 10198	Linear regression models
+T171	Enzyme 10278 10298	alanine transaminase
+T172	Enzyme 10300 10303	ALT
+T173	Nutrient 10309 10321	carbohydrate
+T174	Measurement 10372 10375	BMI
+T175	Physiology 10377 10380	age
+T176	Physiology 10386 10389	sex
+T177	DietPattern 10391 10393	HC
+T178	DietPattern 10418 10420	LC
+T179	DietPattern 10670 10672	HC
+T180	DietPattern 10687 10689	LC
+T181	Methodology 10709 10733	Linear regression models
+T182	Nutrient 10834 10847	carbohydrates
+T183	Measurement 10879 10882	BMI
+T184	Physiology 10884 10887	age
+T185	Physiology 10893 10896	sex
+T186	DietPattern 10898 10900	HC
+T187	DietPattern 10925 10927	LC
+T188	DietPattern 10970 10972	HC
+T189	Nutrient 11022 11034	carbohydrate
+T190	Nutrient 11069 11076	protein
+T191	DietPattern 11088 11090	LC
+T192	Nutrient 11140 11152	carbohydrate
+T193	DietPattern 11271 11273	LC
+T194	POS_ASSOCIATED_WITH 11280 11295	consumed higher
+T195	Nutrient 11307 11310	fat
+T196	Food 11312 11322	animal fat
+T197	Nutrient 11324 11333	plant fat
+T198	Nutrient 11335 11342	protein
+T199	Nutrient 11344 11358	animal protein
+T200	Nutrient 11364 11377	plant protein
+T201	DietPattern 11387 11389	HC
+T202	Population 11271 11279	LC group
+T203	Population 11088 11096	LC group
+T204	Population 10970 10978	HC group
+T205	Measurement 11433 11436	BMI
+T206	AFFECTS 11437 11465	did not significantly differ
+T207	Population 11478 11480;11488 11494	HC groups
+T208	Population 11485 11494	LC groups
+T209	Nutrient 11048 11051	fat
+T210	Population 11524 11546	obese NASH individuals
+T211	Disease 11524 11534	obese NASH
+T212	DietPattern 11565 11567	LC
+T213	DietPattern 11485 11487	LC
+T214	DietPattern 11478 11480	HC
+T215	Population 11618 11626	HC group
+T216	DietPattern 11618 11620	HC
+T217	Population 11565 11573	LC group
+T218	POS_ASSOCIATED_WITH 11551 11557	higher
+T219	Disease 11524 11529	obese
+T220	Population 11682 11690	LC group
+T221	DietPattern 11682 11684	LC
+T222	Measurement 11692 11705	body fat mass
+T223	Physiology 11720 11732;11754 11768	subcutaneous adipose tissue
+T224	Physiology 11710 11718;11754 11768	visceral adipose tissue
+T225	Physiology 11744 11768	abdominal adipose tissue
+T226	INCREASES 11789 11798	increased
+T227	Disease 19370 19382	liver injury
+T228	WORSENS 11804 11813	worsening
+T229	Disease 11843 11848	NAFLD
+T230	Nutrient 11875 11887	Carbohydrate
+T231	POS_ASSOCIATED_WITH 11904 11925	positively correlated
+T232	Enzyme 11937 11957	alanine transaminase
+T233	Enzyme 11959 11962	ALT
+T234	DietPattern 11999 12001	HC
+T235	POS_ASSOCIATED_WITH 21099 21109	enrichment
+T236	Population 11999 12007	HC group
+T237	POS_ASSOCIATED_WITH 12064 12084	positive correlation
+T238	Enzyme 12117 12120	ALT
+T239	Nutrient 12093 12105	carbohydrate
+T240	Population 12128 12136	HC group
+T241	DietPattern 12128 12130	HC
+T242	POS_ASSOCIATED_WITH 12205 12226	positive correlations
+T243	Measurement 12239 12278	surrogate markers of insulin resistance
+T244	Measurement 12280 12330	homeostasis model assessment of insulin resistance
+T245	Measurement 12332 12339	HOMA-IR
+T246	Measurement 12345 12378	adipose tissue insulin resistance
+T247	Measurement 12380 12388	adipo-IR
+T248	Nutrient 12396 12408	carbohydrate
+T249	Population 12444 12452	HC group
+T250	DietPattern 12444 12446	HC
+T251	Disease 21424 21429	NAFLD
+T252	Physiology 12479 12495	lipid metabolism
+T253	Disease 12467 12474	obesity
+T254	Chemical 12525 12566	low density lipoprotein [LDL]-cholesterol
+T255	Chemical 12571 12573	TG
+T256	Physiology 22123 22126	DNL
+T257	POS_ASSOCIATED_WITH 12594 12604	correlated
+T258	Nutrient 12610 12622	carbohydrate
+T259	Population 12642 12650	LC group
+T260	DietPattern 12642 12644	LC
+T261	Methodology 12698 12721	linear regression model
+T262	Measurement 12735 12738	BMI
+T263	Physiology 12740 12743	age
+T264	Physiology 12749 12752	sex
+T265	Nutrient 12754 12766	Carbohydrate
+T266	Chemical 12798 12801	FFA
+T267	Measurement 12818 12825	HOMA-IR
+T268	Measurement 12827 12835	adipo-IR
+T269	Chemical 12841 12848	insulin
+T270	Population 12863 12871	HC group
+T271	DietPattern 12863 12865	HC
+T272	Nutrient 12881 12893	carbohydrate
+T273	Chemical 12925 12940	LDL-cholesterol
+T274	Measurement 12952 12955	BMI
+T275	Population 12963 12971	LC group
+T276	DietPattern 12963 12965	LC
+T277	Disease 12985 12990	NAFLD
+T278	Population 13073 13081	HC group
+T279	DietPattern 13073 13075	HC
+T280	POS_ASSOCIATED_WITH 12774 12797	significantly predicted
+T281	POS_ASSOCIATED_WITH 12901 12924	significantly predicted
+T282	Disease 13162 13167	NAFLD
+T283	DietPattern 13184 13201	high carbohydrate
+T284	DietPattern 13203 13205	HC
+T285	DietPattern 13211 13227	low carbohydrate
+T286	DietPattern 13229 13231	LC
+T287	Methodology 13252 13287	Non-metric multidimensional scaling
+T288	Methodology 13289 13293	NMDS
+T289	DiversityMetric 13313 13333	Bray-Curtis distance
+T290	DiversityMetric 13346 13360	beta diversity
+T291	Methodology 13509 13513	NMDS
+T292	Methodology 13640 13659	Kruskal-Wallis test
+T293	Methodology 13664 13696	Dunn’s multiple comparisons test
+T294	DiversityMetric 13737 13752	Alpha diversity
+T295	DiversityMetric 13780 13805	Simpson’s diversity index
+T296	DiversityMetric 13820 13843	Pielou’s evenness index
+T297	DiversityMetric 13857 13880	Shannon diversity index
+T298	DiversityMetric 13903 13911	richness
+T299	Measurement 14014 14034	NAFLD activity score
+T300	Disease 5311 5315	NASH
+T301	Population 13978 13980;13989 13995	HC groups
+T302	Population 13986 13995	LC groups
+T303	DietPattern 13978 13980	HC
+T304	DietPattern 13986 13988	LC
+T305	Population 14043 14051	HC group
+T306	DietPattern 14043 14045	HC
+T307	Measurement 14125 14128	NAS
+T308	Population 14183 14191	LC group
+T309	DietPattern 14183 14185	LC
+T310	Methodology 14239 14273	nonmetric multidimensional scaling
+T311	Methodology 14275 14279	NMDS
+T312	DiversityMetric 14384 14399	alpha diversity
+T313	DiversityMetric 14430 14455	Simpson’s diversity index
+T314	DiversityMetric 14457 14480	Pielou’s evenness index
+T315	DiversityMetric 14486 14509	Shannon diversity index
+T316	DiversityMetric 14523 14531	richness
+T317	INCREASES 24328 24334	higher
+T318	Population 14601 14603;14610 14615	HC group
+T319	Population 14607 14615	LC group
+T320	DietPattern 14607 14609	LC
+T321	DietPattern 14601 14603	HC
+T322	Measurement 14573 14576	NAS
+T323	Disease 5324 5328	NASH
+T324	Population 14719 14727	HC group
+T325	DietPattern 14719 14721	HC
+T326	Population 14737 14745	LC group
+T327	DietPattern 14737 14739	LC
+T328	Disease 14799 14804	NAFLD
+T329	Population 14893 14901	HC group
+T330	DietPattern 14893 14895	HC
+T332	DietPattern 14997 15014	high carbohydrate
+T333	DietPattern 15024 15040	low carbohydrate
+T334	DietPattern 15016 15018	HC
+T335	DietPattern 15042 15044	LC
+T336	Methodology 15183 15203	Kruskal-Wallis tests
+T337	Methodology 15208 15241	Dunn’s multiple comparisons tests
+T338	Measurement 15409 15429	NAFLD activity score
+T339	Disease 15409 15414	NAFLD
+T340	Methodology 15374 15393	random forest model
+T341	Methodology 15474 15493	random forest model
+T342	Methodology 15550 15569	Regression analysis
+T343	Microorganism 15613 15628	Ruminococcaceae
+T344	Microorganism 15630 15648	Enterobacteriaceae
+T345	Microorganism 15654 15669	Veillonellaceae
+T346	Measurement 15729 15732	BMI
+T347	Physiology 15734 15737	age
+T348	Physiology 15743 15746	sex
+T349	Methodology 15748 15781	Multivariate association analysis
+T350	Methodology 16115 16134	Univariate analysis
+T351	DECREASES 16158 16166	decrease
+T352	Microorganism 16187 16202	Ruminococcaceae
+T353	INCREASES 16239 16247	increase
+T354	Microorganism 16268 16286	Enterobacteriaceae
+T355	WORSENS 16310 16320	increasing
+T356	DECREASES 24357 24362	lower
+T357	Population 16355 16363	HC group
+T358	DietPattern 16355 16357	HC
+T359	INCREASES 16394 16402	increase
+T360	Microorganism 16423 16438	Veillonellaceae
+T361	Disease 16468 16472	NASH
+T362	Population 16442 16472	individuals with definite NASH
+T363	Population 16490 16510	non-NASH individuals
+T364	Disease 8831 8835	NASH
+T365	Disease 10100 10105	obese
+T366	Physiology 10080 10089	non-obese
+T367	Disease 16321 16326	NAFLD
+T368	Population 16607 16615	LC group
+T369	DietPattern 16607 16609	LC
+T370	Population 16684 16692	HC group
+T371	DietPattern 16684 16686	HC
+T372	Population 16720 16741	subjects without NASH
+T373	Population 16743 16756	NASH subjects
+T374	Disease 16743 16747	NASH
+T375	Population 24911 24914	N2)
+T376	Microorganism 16804 16820	Faecalibacterium
+T377	ASSOCIATED_WITH 25596 25606	predictive
+T378	Microorganism 16881 16912	unclassified Enterobacteriaceae
+T379	Microorganism 16929 16938	Dialister
+T380	Disease 16999 17004	NAFLD
+T381	Methodology 17024 17043	random forest model
+T382	Microorganism 17128 17143	Veillonellaceae
+T383	Microorganism 17145 17160	Ruminococcaceae
+T384	Microorganism 17166 17184	Enterobacteriaceae
+T385	Microorganism 17199 17214	Ruminococcaceae
+T386	Microorganism 17219 17237	Enterobacteriaceae
+T387	Population 17292 17300	HC group
+T388	DietPattern 17292 17294	HC
+T389	Disease 17353 17358	NAFLD
+T390	Population 17366 17374	LC group
+T391	DietPattern 17366 17368	LC
+T393	Disease 17409 17414	NAFLD
+T394	Methodology 17425 17446	Multivariate analysis
+T395	Measurement 17497 17500	BMI
+T396	Physiology 17502 17505	age
+T397	Physiology 17511 17514	sex
+T398	Population 17555 17563	HC group
+T399	DietPattern 17555 17557	HC
+T400	Microorganism 17582 17597	Ruminococcaceae
+T401	DECREASES 17602 17624	significantly depleted
+T402	Population 28991 28993;29001 29007	HC groups
+T403	Disease 17641 17646	NAFLD
+T404	Microorganism 17680 17698	Enterobacteriaceae
+T405	Population 17796 17804	LC group
+T406	DietPattern 17796 17798	LC
+T407	Population 17869 17871;17879 17885	HC groups
+T408	Population 17876 17885	LC groups
+T409	DietPattern 17876 17878	LC
+T410	DietPattern 17869 17871	HC
+T411	Disease 1123 1128	NAFLD
+T412	Disease 17899 17904	NAFLD
+T413	Methodology 17919 17949	functional prediction analysis
+T414	Methodology 17980 18020	linear discriminant analysis effect size
+T415	Methodology 18022 18027	LEfSe
+T416	Population 18235 18243	HC group
+T417	DietPattern 18235 18237	HC
+T418	Population 18437 18445	LC group
+T419	DietPattern 18437 18439	LC
+T420	Disease 18612 18616	NASH
+T421	Population 18637 18645	HC group
+T422	DietPattern 18637 18639	HC
+T423	Physiology 18662 18695	microbial carbohydrate metabolism
+T424	Physiology 18706 18735	phosphotransferase system PTS
+T425	Physiology 18739 18762	glycerolipid metabolism
+T426	Physiology 18769 18800	fructose and mannose metabolism
+T427	Nutrient 18813 18825	carbohydrate
+T428	Population 18879 18899	non-NAFLD population
+T429	Disease 18980 19012	nonalcoholic fatty liver disease
+T430	Disease 19014 19019	NAFLD
+T431	DietPattern 19029 19046	high carbohydrate
+T432	DietPattern 19048 19050	HC
+T433	DietPattern 19056 19072	low carbohydrate
+T434	DietPattern 19074 19076	LC
+T435	Methodology 19123 19146	hepatic steatosis index
+T436	Methodology 19148 19151	HSI
+T437	Disease 8869 8874	NAFLD
+T438	Disease 19203 19208	NAFLD
+T439	Population 19221 19223;19231 19237	HC groups
+T440	Population 19228 19237	LC groups
+T441	DietPattern 19221 19223	HC
+T442	DietPattern 19228 19230	LC
+T443	Disease 18197 18201	NASH
+T444	Disease 18349 18353	NASH
+T445	Population 18496 18504	HC group
+T446	DietPattern 18496 18498	HC
+T447	POS_ASSOCIATED_WITH 18596 18604	enriched
+T448	Methodology 19270 19274	NMDS
+T449	DiversityMetric 19292 19306	beta diversity
+T450	Methodology 19384 19388	NMDS
+T451	DiversityMetric 19418 19438	Bray-Curtis distance
+T452	Population 19440 19448	HC group
+T453	DietPattern 19440 19442	HC
+T454	DiversityMetric 19541 19556	Alpha diversity
+T455	DiversityMetric 19604 19629	Simpson’s diversity index
+T456	DiversityMetric 19648 19665	Shannon diversity
+T457	DiversityMetric 19679 19696	Pielou’s evenness
+T458	DiversityMetric 19725 19733	richness
+T459	Population 19851 19853;19861 19867	HC groups
+T460	Population 19858 19867	LC groups
+T461	DietPattern 19851 19853	HC
+T462	DietPattern 19858 19860	LC
+T463	Disease 19883 19895	liver injury
+T464	Methodology 19910 19929	Univariate analysis
+T465	Methodology 19982 20000	Mann-Whitney tests
+T466	Methodology 20005 20038	Dunn’s multiple comparisons tests
+T467	DietPattern 20107 20114	HC diet
+T468	Population 20295 20297;20305 20311	HC groups
+T469	Population 20144 20164	non-NAFLD population
+T470	Population 20302 20311	LC groups
+T471	DietPattern 20302 20304	LC
+T472	DietPattern 20295 20297	HC
+T473	Nutrient 20353 20366	carbohydrates
+T474	Population 20368 20376	HC group
+T475	Population 20387 20395	LC group
+T476	DietPattern 20368 20370	HC
+T477	DietPattern 20387 20389	LC
+T478	Measurement 20510 20533	hepatic steatosis index
+T479	Measurement 20535 20538	HSI
+T480	Population 20541 20549	HC group
+T481	DietPattern 20541 20543	HC
+T482	Population 20590 20598	LC group
+T483	DietPattern 20590 20592	LC
+T484	Population 20674 20676;20684 20690	HC groups
+T485	Population 20681 20690	LC groups
+T486	DietPattern 20674 20676	HC
+T487	DietPattern 20681 20683	LC
+T488	DiversityMetric 20831 20846	alpha diversity
+T489	ASSOCIATED_WITH 20869 20897	did not significantly differ
+T490	Measurement 20905 20908	HSI
+T491	Nutrient 20951 20963	carbohydrate
+T492	Microorganism 21036 21051	Ruminococcaceae
+T493	Microorganism 21053 21071	Enterobacteriaceae
+T494	Microorganism 21077 21092	Veillonellaceae
+T495	Microorganism 21130 21145	Veillonellaceae
+T496	Measurement 21171 21174	HSI
+T497	Population 21225 21227;21235 21241	HC groups
+T498	Population 21232 21241	LC groups
+T499	DietPattern 21232 21234	LC
+T500	DietPattern 21225 21227	HC
+T501	Population 21298 21306	HC group
+T502	DietPattern 21298 21300	HC
+T503	Methodology 21310 21329	univariate analysis
+T504	Population 21407 21409;21417 21423	HC groups
+T505	Population 21414 21423	LC groups
+T506	DietPattern 21414 21416	LC
+T507	DietPattern 21407 21409	HC
+T508	INCREASES 21099 21109	enrichment
+T509	Population 21149 21174	individuals with high HSI
+T510	Measurement 21816 21819	NAS
+T511	Population 21842 21844;21852 21858	HC groups
+T512	Population 21849 21858	LC groups
+T513	DietPattern 21842 21844	HC
+T514	DietPattern 21849 21851	LC
+T515	Population 21959 21961;21969 21975	HC groups
+T516	Population 21966 21975	LC groups
+T517	DietPattern 21966 21968	LC
+T518	DietPattern 21959 21961	HC
+T519	Population 22032 22034;22042 22048	HC groups
+T520	Population 22039 22048	LC groups
+T521	DietPattern 22032 22034	HC
+T522	DietPattern 22039 22041	LC
+T523	Gene 21931 21946	PNPLA3_rs738409
+T525	Physiology 22102 22121	de novo lipogenesis
+T527	DietPattern 22155 22172	high carbohydrate
+T528	DietPattern 22174 22176	HC
+T529	Population 22155 22172;22185 22190	high carbohydrate group
+T530	Gene 22239 22256	DNL-related genes
+T531	Measurement 22265 22285	NAFLD activity score
+T532	Disease 22265 22270	NAFLD
+T533	Measurement 22287 22290	NAS
+T534	Physiology 22239 22242	DNL
+T535	ASSOCIATED_WITH 22219 22230	correlation
+T536	DietPattern 22299 22301	HC
+T537	DietPattern 22306 22308	LC
+T538	Population 22299 22301;22309 22315	HC groups
+T539	Population 22306 22315	LC groups
+T540	Methodology 22383 22419	Spearman’s rank correlation analysis
+T541	DietPattern 22515 22517	HC
+T542	DietPattern 22522 22524	LC
+T543	Population 22515 22517;22522 22531	HC LC groups
+T544	Population 22522 22531	LC groups
+T546	Disease 22545 22550	NAFLD
+T547	Methodology 22569 22597	one-way analyses of variance
+T548	Methodology 22606 22645	FDR correction for multiple comparisons
+T549	Methodology 22705 22721	R package DEseq2
+T550	Methodology 22841 22868	The linear regression model
+T551	Gene 22902 22908	SREBF2
+T552	Microorganism 22913 22931	Enterobacteriaceae
+T553	Measurement 22953 22956	BMI
+T554	Physiology 22958 22961	age
+T555	Physiology 22967 22970	sex
+T556	ASSOCIATED_WITH 22881 22893	relationship
+T557	Physiology 23054 23065	hepatic DNL
+T558	Disease 23087 23092	NAFLD
+T560	Population 23087 23099	NAFLD cohort
+T561	DietPattern 23148 23155	HC diet
+T562	POS_ASSOCIATED_WITH 23160 23170	associated
+T563	Physiology 23192 23195	DNL
+T564	INCREASES 23203 23212	increased
+T565	Physiology 23213 23233	glucose availability
+T566	DietPattern 23331 23333	HC
+T567	DietPattern 23338 23340	LC
+T568	Population 23331 23333;23341 23347	HC groups
+T569	Population 23338 23347	LC groups
+T571	Disease 23361 23366	NAFLD
+T573	Methodology 23414 23450	Spearman’s rank correlation analysis
+T574	Measurement 23520 23523	NAS
+T575	DietPattern 23531 23533	HC
+T576	DietPattern 23538 23540	LC
+T577	Population 23538 23547	LC groups
+T578	Population 23531 23533;23541 23547	HC groups
+T579	Population 23556 23564	HC group
+T580	DietPattern 23556 23558	HC
+T581	Gene 23566 23570	G6PC
+T582	Gene 23575 23580	SIRT1
+T583	NEG_ASSOCIATED_WITH 23586 23607	negatively correlated
+T584	Measurement 23617 23620	NAS
+T586	Gene 23652 23657	HCFC1
+T587	Gene 23662 23668	SREBF2
+T588	POS_ASSOCIATED_WITH 23674 23695	positively correlated
+T589	Measurement 23705 23708	NAS
+T590	DietPattern 23741 23743	LC
+T591	Population 23741 23749	LC group
+T592	Gene 23751 23755	USF1
+T593	Gene 23757 23762	NR1H3
+T594	Gene 23768 23774	MLXIPL
+T595	NEG_ASSOCIATED_WITH 23780 23800	inversely correlated
+T596	Measurement 23810 23813	NAS
+T597	Gene 23858 23861	SCD
+T598	Gene 23866 23870	mTOR
+T599	POS_ASSOCIATED_WITH 23876 23897	positively correlated
+T600	Measurement 23907 23910	NAS
+T601	DietPattern 24087 24089	HC
+T602	Population 24087 24095	HC group
+T603	Gene 24097 24102	HCFC1
+T604	Gene 24129 24134	SIRT1
+T605	POS_ASSOCIATED_WITH 24103 24124	expression was higher
+T606	NEG_ASSOCIATED_WITH 24135 24155	expression was lower
+T607	Population 24159 24170	N2 subjects
+T608	Population 24179 24190	N0 subjects
+T609	Gene 24272 24278	SREBF2
+T610	Gene 24283 24287	G6PC
+T611	Gene 24335 24341	SREBF2
+T612	Gene 24363 24367	G6PC
+T614	Disease 24409 24414	NAFLD
+T615	Gene 24492 24496	USF1
+T616	Gene 24498 24503	NR1H3
+T617	Gene 24509 24515	MLXIPL
+T618	DECREASES 24520 24525	lower
+T619	Gene 24597 24600	SCD
+T620	Gene 24605 24609	mTOR
+T622	Disease 24637 24642	NAFLD
+T623	DietPattern 24659 24661	LC
+T624	Population 24659 24667	LC group
+T625	INCREASES 24614 24620	higher
+T626	DietPattern 24794 24796	HC
+T627	Population 24794 24802	HC group
+T628	Gene 24804 24810	SREBF2
+T629	Gene 24812 24817	SIRT1
+T630	Gene 24822 24827	HCFC1
+T631	Population 24863 24865;24873 24879	HC groups
+T632	Population 24870 24879	LC groups
+T633	DietPattern 24870 24872	LC
+T634	DietPattern 24863 24865	HC
+T635	Population 24887 24909	definite NASH subgroup
+T636	Disease 24896 24900	NASH
+T638	Gene 25049 25054	SIRT1
+T639	Gene 25056 25060	FASN
+T640	Gene 25062 25068	SREBF2
+T641	Gene 25074 25079	HCFC1
+T642	Population 25117 25125	HC group
+T643	DietPattern 25117 25119	HC
+T644	Gene 25207 25211	mTOR
+T645	Gene 25213 25216	SCD
+T646	Gene 25218 25223	GSK3B
+T647	Gene 25229 25235	MLXIPL
+T648	Population 25273 25281	LC group
+T649	DietPattern 25273 25275	LC
+T650	Gene 25412 25418	SREBF2
+T651	Microorganism 25440 25458	Enterobacteriaceae
+T652	ASSOCIATED_WITH 25392 25403	association
+T653	Methodology 25498 25521	linear regression model
+T654	Measurement 25535 25538	BMI
+T655	Physiology 25540 25543	age
+T656	Physiology 25549 25552	sex
+T657	Gene 25585 25591	SREBF2
+T658	Microorganism 25610 25628	Enterobacteriaceae
+T659	Population 25646 25654	HC group
+T660	DietPattern 25646 25648	HC
+T662	Disease 25710 25715	NAFLD
+T663	Physiology 25726 25729	DNL
+T664	DietPattern 25770 25777	HC diet
+T665	ASSOCIATED_WITH 25689 25701	relationship
+T666	Disease 25804 25808	NASH
+T667	Population 25851 25859	HC group
+T668	DietPattern 25851 25853	HC
+T669	Population 21816 21829	NAS subgroups
+T670	Population 18612 18625	NASH subgroup
+T672	Disease 8817 8821	NAFL
+T673	Disease 25903 25931	nonalcoholic steatohepatitis
+T674	Disease 25933 25937	NASH
+T675	DietPattern 26034 26051	high carbohydrate
+T676	DietPattern 26053 26055	HC
+T677	DietPattern 26062 26078	low carbohydrate
+T678	DietPattern 26080 26082	LC
+T679	Disease 26112 26116	NASH
+T680	Disease 26196 26200	NASH
+T681	Population 26213 26246	subjects with biopsy-proven NAFLD
+T682	Disease 26241 26246	NAFLD
+T683	Methodology 26248 26316	Area under receiver-operating characteristic curves (AUROC) analyses
+T685	Measurement 26347 26350	BMI
+T686	Physiology 26352 26355	age
+T687	Physiology 26361 26364	sex
+T688	Microorganism 26428 26446	Enterobacteriaceae
+T689	Microorganism 26448 26463	Ruminococcaceae
+T690	Microorganism 26469 26484	Veillonellaceae
+T691	Measurement 26521 26524	BMI
+T692	Physiology 26526 26529	age
+T693	Physiology 26535 26538	sex
+T694	Disease 26575 26579	NASH
+T695	DietPattern 26619 26621	HC
+T696	DietPattern 26631 26633	LC
+T697	Population 26631 26640	LC groups
+T698	Population 26619 26621;26634 26640	HC groups
+T699	Methodology 26707 26778	area under the receiver-operating characteristic curve (AUROC) analysis
+T701	Disease 26855 26859	NASH
+T702	Population 26866 26899	subjects with biopsy-proven NAFLD
+T703	Disease 26894 26899	NAFLD
+T704	Microorganism 26927 26945	Enterobacteriaceae
+T705	Microorganism 26947 26962	Ruminococcaceae
+T706	Microorganism 26968 26983	Veillonellaceae
+T708	Disease 27038 27043	NAFLD
+T709	Population 27060 27068	HC group
+T710	DietPattern 27060 27062	HC
+T713	Measurement 27221 27224	BMI
+T714	Physiology 27226 27229	age
+T715	Physiology 27235 27238	sex
+T716	Disease 27130 27134	NASH
+T717	Population 27270 27278	HC group
+T718	DietPattern 27270 27272	HC
+T719	Measurement 27382 27385	BMI
+T720	Physiology 27387 27390	age
+T721	Physiology 27396 27399	sex
+T723	Disease 27604 27608	NASH
+T724	Population 27616 27624	LC group
+T725	DietPattern 27616 27618	LC
+T726	Measurement 27648 27651	BMI
+T727	Physiology 27652 27655	age
+T728	Physiology 27656 27659	sex
+T729	Measurement 27675 27678	BMI
+T730	Physiology 27679 27682	age
+T731	Physiology 27683 27686	sex
+T732	Methodology 27722 27733	DeLong test
+T734	Disease 27822 27827	NAFLD
+T735	Disease 27872 27900	nonalcoholic steatohepatitis
+T736	Disease 27902 27906	NASH
+T737	DietPattern 27967 27984	high carbohydrate
+T738	DietPattern 27986 27988	HC
+T739	DietPattern 27994 28010	low carbohydrate
+T740	DietPattern 28012 28014	LC
+T741	Microorganism 28102 28117	Ruminococcaceae
+T742	Microorganism 28122 28140	Enterobacteriaceae
+T743	Gene 28156 28162	SREBF2
+T744	Gene 28164 28169	SIRT1
+T745	Gene 28175 28179	mTOR
+T746	Enzyme 28206 28209	ALT
+T747	Enzyme 28211 28214	AST
+T748	Measurement 28216 28224	adipo-IR
+T749	Measurement 28226 28233	HOMA-IR
+T750	Chemical 28235 28242	insulin
+T751	Chemical 28244 28247	FFA
+T752	Measurement 28253 28256	BMI
+T753	Methodology 28280 28305	kernel causality analysis
+T754	Methodology 28361 28370	Cytoscape
+T755	DietPattern 28406 28408	HC
+T756	DietPattern 28417 28419	LC
+T757	Methodology 28727 28752	kernel causality analysis
+T758	DietPattern 28991 28993	HC
+T759	DietPattern 28998 29000	LC
+T760	Population 28998 29007	LC groups
+T761	Population 29030 29038	HC group
+T762	DietPattern 29030 29032	HC
+T763	POS_ASSOCIATED_WITH 29054 29072	positive causation
+T764	Measurement 29125 29132	HOMA-IR
+T765	Measurement 29137 29145	adipo-IR
+T766	Enzyme 29181 29184	ALT
+T767	Enzyme 29186 29208	aspartate transaminase
+T768	Enzyme 29210 29213	AST
+T769	Enzyme 29220 29246	gamma-glutamyl transferase
+T770	Enzyme 29248 29251	GGT
+T771	POS_ASSOCIATED_WITH 29278 29296	positive causation
+T772	Microorganism 29322 29340	Enterobacteriaceae
+T773	Gene 29362 29368	SREBF2
+T774	Microorganism 29375 29393	Enterobacteriaceae
+T775	Gene 29398 29404	SREBF2
+T776	Gene 29431 29436	SIRT1
+T777	Methodology 26123 26168	receiver-operating characteristic (ROC) curve
+T779	Methodology 26677 26688	DeLong test
+T780	Methodology 27447 27458	DeLong test
+T782	Chemical 29347 29360	DNL regulator
+T783	DECREASES 29422 29430	reducing
+T785	Measurement 29151 29171	liver damage markers
+T786	Measurement 29081 29115	insulin resistance-related markers
+T6411	Measurement 5180 5200	NAFLD activity score
+E1	AFFECTS:T4 Theme:T1 Agent:T2
+E2	AFFECTS:T51 Agent:T25 Theme:T63
+E3	ASSOCIATED_WITH:T7 Theme:T5 Theme2:T8
+E4	ASSOCIATED_WITH:T14 Theme:T10 Theme2:T11
+E5	ASSOCIATED_WITH:T52 Theme:T232 Theme2:T53
+E6	WORSENS:T47 Agent:T45 Theme:T43
+E7	WORSENS:T147 Theme:T403 Agent:T399
+E8	INCREASES:T150 Theme:T404 Agent:T399
+E9	PREDISPOSES:T48 Agent:T45 Theme:T69
+E10	INCREASES:T62 Agent:T42 Theme:T65
+E11	INCREASES:T317 Theme:T611 Agent:T614
+E12	ASSOCIATED_WITH:T21 Theme:T15 Theme2:T24
+E13	DECREASES:T356 Theme:T612 Agent:T614
+E14	DECREASES:T618 Theme:T615 Agent:T622
+E15	DECREASES:T618 Theme:T616 Agent:T622
+E16	INCREASES:T625 Agent:T622 Theme:T619
+E17	CAUSES:T59 Theme:T70 Agent:T61
+E18	INCREASES:T46 Agent:T45 Theme:T67
+E19	ASSOCIATED_WITH:T377 Theme:T657 Theme2:T658
+E20	PREDISPOSES:T73 Theme:T37 Agent:T33
+E21	PREDISPOSES:T73 Theme:T37 Agent:T28
+E22	PREDISPOSES:T73 Theme:T37 Agent:T29
+E23	POS_ASSOCIATED_WITH:T194 Agent:T193 Theme:T197
+E24	POS_ASSOCIATED_WITH:T194 Agent:T193 Theme:T198
+E25	POS_ASSOCIATED_WITH:T194 Agent:T193 Theme:T199
+E26	POS_ASSOCIATED_WITH:T194 Agent:T193 Theme:T200
+E27	AFFECTS:T206 Theme:T205 Agent:T214
+E28	AFFECTS:T206 Theme:T205 Agent:T213
+E29	POS_ASSOCIATED_WITH:T218 Agent:T212 Theme:T211
+E30	INCREASES:T226 Agent:T221 Theme:T222
+E31	INCREASES:T226 Agent:T221 Theme:T223
+E32	INCREASES:T226 Agent:T221 Theme:T224
+E33	INCREASES:T226 Agent:T221 Theme:T225
+E34	WORSENS:T228 Agent:T221 Theme:T229
+E35	POS_ASSOCIATED_WITH:T231 Agent:T230 Theme:T232
+E37	POS_ASSOCIATED_WITH:T237 Agent:T239 Theme:T238
+E38	POS_ASSOCIATED_WITH:T257 Theme:T254 Agent:T258
+E39	POS_ASSOCIATED_WITH:T242 Theme:T246 Agent:T248
+E40	POS_ASSOCIATED_WITH:T242 Theme:T244 Agent:T248
+E41	POS_ASSOCIATED_WITH:T257 Theme:T255 Agent:T258
+E42	POS_ASSOCIATED_WITH:T280 Theme:T266 Agent:T265
+E43	POS_ASSOCIATED_WITH:T281 Theme:T273 Agent:T272
+E44	POS_ASSOCIATED_WITH:T280 Theme:T267 Agent:T265
+E45	POS_ASSOCIATED_WITH:T280 Theme:T268 Agent:T265
+E46	POS_ASSOCIATED_WITH:T280 Theme:T269 Agent:T265
+E47	POS_ASSOCIATED_WITH:T281 Theme:T274 Agent:T272
+E56	DECREASES:T351 Theme:T352 Agent:T358
+E57	INCREASES:T353 Theme:T354 Agent:T358
+E58	WORSENS:T355 Agent:T358 Theme:T367
+E59	INCREASES:T359 Theme:T360 Agent:T361
+E62	DECREASES:T401 Theme:T400 Agent:T399
+E63	POS_ASSOCIATED_WITH:T447 Agent:T422 Theme:T424
+E64	POS_ASSOCIATED_WITH:T447 Agent:T422 Theme:T425
+E65	POS_ASSOCIATED_WITH:T447 Agent:T422 Theme:T426
+E66	ASSOCIATED_WITH:T489 Theme:T488 Agent:T490
+E67	POS_ASSOCIATED_WITH:T235 Theme:T495 Agent:T496
+E68	INCREASES:T508 Agent:T499 Theme:T495
+E69	INCREASES:T508 Agent:T500 Theme:T495
+E72	ASSOCIATED_WITH:T535 Theme:T530 Theme2:T531
+E73	ASSOCIATED_WITH:T556 Theme:T551 Theme2:T552
+E75	POS_ASSOCIATED_WITH:T562 Agent:T561 Theme:T563
+E76	INCREASES:T564 Theme:T563 Agent:T565
+E77	NEG_ASSOCIATED_WITH:T583 Agent:T584 Theme:T581
+E80	NEG_ASSOCIATED_WITH:T583 Agent:T584 Theme:T582
+E81	POS_ASSOCIATED_WITH:T588 Agent:T589 Theme:T586
+E82	POS_ASSOCIATED_WITH:T588 Agent:T589 Theme:T587
+E83	NEG_ASSOCIATED_WITH:T595 Agent:T596 Theme:T592
+E84	POS_ASSOCIATED_WITH:T599 Agent:T600 Theme:T597
+E85	NEG_ASSOCIATED_WITH:T595 Agent:T596 Theme:T593
+E86	NEG_ASSOCIATED_WITH:T595 Agent:T596 Theme:T594
+E87	POS_ASSOCIATED_WITH:T599 Agent:T600 Theme:T598
+E88	POS_ASSOCIATED_WITH:T605 Theme:T603 Agent:T601
+E89	NEG_ASSOCIATED_WITH:T606 Theme:T604 Agent:T601
+E90	DECREASES:T618 Theme:T617 Agent:T622
+E91	INCREASES:T625 Agent:T622 Theme:T620
+E92	ASSOCIATED_WITH:T652 Theme:T650 Theme2:T651
+E93	ASSOCIATED_WITH:T665 Theme2:T663 Theme:T662
+E94	POS_ASSOCIATED_WITH:T763 Agent:T762 Theme:T764
+E95	POS_ASSOCIATED_WITH:T771 Agent:T762 Theme:T772
+E99	POS_ASSOCIATED_WITH:T763 Agent:T762 Theme:T765
+E100	POS_ASSOCIATED_WITH:T763 Agent:T762 Theme:T766
+E101	POS_ASSOCIATED_WITH:T763 Agent:T762 Theme:T767
+E102	POS_ASSOCIATED_WITH:T763 Agent:T762 Theme:T769
+E103	POS_ASSOCIATED_WITH:T771 Agent:T762 Theme:T773
+E104	DECREASES:T783 Agent:T774 Theme:T776
+E105	DECREASES:T783 Agent:T775 Theme:T776
+E2111	POS_ASSOCIATED_WITH:T194 Agent:T193 Theme:T195
+E2211	POS_ASSOCIATED_WITH:T194 Agent:T193 Theme:T196
+A1	Factuality E75 Unknown
+A2	Factuality E1 Unknown
+A3	Factuality E28 Negated
+A4	Factuality E92 Unknown
+A5	Factuality E43 Probable
+A9	Factuality E47 Probable
+A18	Factuality E66 Negated
+A211	Factuality E27 Negated
+N1	Reference T1 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N2	Reference T2 OCHV:C0259835	high carbohydrate diet
+N3	Reference T3 MESH:D050155	Lipogenesis
+N4	Reference T5 NCIT:C84444	Nonalcoholic Fatty Liver Disease
+N5	Reference T6 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N6	Reference T8 OCHV:C0259835	high carbohydrate diet
+N7	Reference T9 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N8	Reference T10 CHEBI:16646	carbohydrate
+N9	Reference T11 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N10	Reference T12 MESH:D050155	Lipogenesis
+N11	Reference T13 MESH:D050155	Lipogenesis
+N12	Reference T15 NCIT:C28135	Caloric Intake
+N13	Reference T17 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N14	Reference T20 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N15	Reference T22 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N16	Reference T24 NCIT:C68470	Dietary Carbohydrate
+N17	Reference T25 OCHV:C0259835	high carbohydrate diet
+N18	Reference T26 OCHV:C0259836	low-carbohydrate diet
+N19	Reference T27 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N20	Reference T28 NCBITAXON:543	Enterobacteriaceae
+N21	Reference T29 NCBITAXON:216572	Oscillospiraceae
+N22	Reference T30 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N23	Reference T31 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N24	Reference T32 OCHV:C0259835	high carbohydrate diet
+N25	Reference T33 NCBITAXON:31977	Veillonellaceae
+N26	Reference T34 NCIT:C16358	Body Mass Index
+N27	Reference T35 NCIT:C25150	Age
+N28	Reference T36 NCIT:C28421	Sex
+N29	Reference T37 NCIT:C84445	Nonalcoholic Steatohepatitis
+N30	Reference T38 OCHV:C0259835	high carbohydrate diet
+N31	Reference T39 OCHV:C0259835	high carbohydrate diet
+N32	Reference T40 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N33	Reference T42 NCBITAXON:543	Enterobacteriaceae
+N34	Reference T44 OCHV:C0259835	high carbohydrate diet
+N35	Reference T45 OCHV:C0259835	high carbohydrate diet
+N36	Reference T53 NCIT:C35241	Injury to Liver
+N37	Reference T56 MESH:D050155	Lipogenesis
+N38	Reference T57 GENE:23411	SIRT1
+N39	Reference T58 GENE:6721	SREBF2
+N40	Reference T60 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N41	Reference T65 GENE:6721	SREBF2
+N42	Reference T68 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N43	Reference T69 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N44	Reference T70 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N45	Reference T71 NCIT:C84445	Nonalcoholic Steatohepatitis
+N46	Reference T74 CHEBI:16646	carbohydrate
+N47	Reference T75 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N48	Reference T76 NCIT:C25150	Age
+N49	Reference T78 NCIT:C16358	Body Mass Index
+N50	Reference T79 NCIT:C25202	Aspartate Aminotransferase
+N51	Reference T80 NCIT:C25293	Alanine Aminotransferase
+N52	Reference T81 NCIT:C37959	Gamma-Glutamyl Transpeptidase
+N53	Reference T82 NCIT:C369	Cholesterol
+N54	Reference T83 CHEBI:39025	high-density lipoprotein
+N55	Reference T84 CHEBI:39026	low-density lipoprotein
+N56	Reference T85 CHEBI:17855	triglycerides
+N57	Reference T86 MESH:D005230	Fatty Acids, Nonesterified
+N58	Reference T87 NCIT:C38037	Total Bilirubin Measurement
+N59	Reference T88 NCIT:C214	Albumin
+N60	Reference T89 NCIT:C12520	Platelet
+N61	Reference T90 CHEBI:80332	C-peptide
+N62	Reference T91 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N63	Reference T92 NCIT:C16577	Ferritin
+N64	Reference T93 NCIT:C64849	Glycosylated Hemoglobin Measurement
+N65	Reference T94 NCIT:C94312	Blood Glucose
+N66	Reference T95 NCIT:C2271	Insulin
+N67	Reference T97 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N68	Reference T98 NCIT:C16358	Body Mass Index
+N69	Reference T99 NCIT:C16358	Body Mass Index
+N70	Reference T100 NCIT:C25202	Aspartate Aminotransferase
+N71	Reference T101 NCIT:C25202	Aspartate Aminotransferase
+N72	Reference T102 NCIT:C25293	Alanine Aminotransferase
+N73	Reference T103 MESH:D000410	Alanine Transaminase
+N74	Reference T104 NCIT:C37959	Gamma-Glutamyl Transpeptidase
+N75	Reference T105 NCIT:C37959	Gamma-Glutamyl Transpeptidase
+N76	Reference T106 CHEBI:39025	high-density lipoprotein
+N77	Reference T107 CHEBI:39025	high-density lipoprotein
+N78	Reference T108 CHEBI:39026	low-density lipoprotein
+N79	Reference T109 CHEBI:39026	low-density lipoprotein
+N80	Reference T110 CHEBI:17855	triglycerides
+N81	Reference T111 CHEBI:17855	triglyceride
+N82	Reference T112 MESH:D005230	Fatty Acids, Nonesterified
+N83	Reference T113 MESH:D005230	Fatty Acids, Nonesterified
+N84	Reference T114 NCIT:C38037	Total Bilirubin Measurement
+N85	Reference T115 NCIT:C38037	Total Bilirubin Measurement
+N86	Reference T116 NCIT:C214	Albumin
+N87	Reference T117 NCIT:C214	Albumin
+N88	Reference T118 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N89	Reference T119 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N90	Reference T120 CHEBI:16336	hyaluronic acid
+N91	Reference T121 CHEBI:16336	hyaluronic acid
+N92	Reference T122 NCIT:C2303	Triiodothyronine
+N93	Reference T123 NCIT:C2303	Triiodothyronine
+N94	Reference T124 NCIT:C64849	Glycosylated Hemoglobin Measurement
+N95	Reference T125 NCIT:C94312	Blood Glucose
+N96	Reference T126 NCIT:C94312	Blood Glucose
+N97	Reference T129 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N98	Reference T130 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N99	Reference T131 MESH:D006442	Glycated Hemoglobin
+N100	Reference T133 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N101	Reference T135 CHEBI:16646	carbohydrate
+N102	Reference T136 OCHV:C0259835	high carbohydrate diet
+N103	Reference T137 OCHV:C0259835	high carbohydrate diet
+N104	Reference T138 OCHV:C0259836	low carbohydrate diet
+N105	Reference T139 NCIT:C177426	Low Carbohydrate High Fat Diet
+N106	Reference T140 OCHV:C0259835	high carbohydrate diet
+N107	Reference T141 NCIT:C177426	Low Carbohydrate High Fat Diet
+N108	Reference T142 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N109	Reference T143 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N110	Reference T144 NCIT:C84445	Nonalcoholic Steatohepatitis
+N111	Reference T145 NCIT:C84445	Nonalcoholic Steatohepatitis
+N112	Reference T146 NCIT:C84445	Nonalcoholic Steatohepatitis
+N113	Reference T148 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N114	Reference T149 CHEBI:16646	carbohydrate
+N115	Reference T151 OCHV:C0259835	high carbohydrate diet
+N116	Reference T152 OCHV:C0259835	high carbohydrate diet
+N117	Reference T153 OCHV:C0259836	low carbohydrate diet
+N118	Reference T154 NCIT:C177426	Low Carbohydrate High Fat Diet
+N119	Reference T155 CHEBI:16646	carbohydrate
+N120	Reference T156 CHEBI:16646	carbohydrate
+N121	Reference T157 MESH:D004041	Dietary Fats
+N122	Reference T158 CHEBI:36080	protein
+N123	Reference T159 OCHV:C0259835	high carbohydrate diet
+N124	Reference T160 NCIT:C177426	Low Carbohydrate High Fat Diet
+N125	Reference T161 CHEBI:16646	carbohydrate
+N126	Reference T162 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N127	Reference T163 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N128	Reference T164 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N129	Reference T165 NCIT:C3283	Obesity
+N130	Reference T166 NCIT:C16358	Body Mass Index
+N131	Reference T167 NCIT:C16358	Body Mass Index
+N132	Reference T168 CHEBI:16646	carbohydrate
+N133	Reference T169 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N134	Reference T171 MESH:D000410	Alanine Transaminase
+N135	Reference T172 NCIT:C25293	Alanine Aminotransferase
+N136	Reference T173 CHEBI:16646	carbohydrate
+N137	Reference T174 NCIT:C16358	Body Mass Index
+N138	Reference T175 NCIT:C25150	Age
+N139	Reference T176 NCIT:C28421	Sex
+N140	Reference T177 OCHV:C0259835	high carbohydrate diet
+N141	Reference T178 NCIT:C177426	Low Carbohydrate High Fat Diet
+N142	Reference T179 OCHV:C0259835	high carbohydrate diet
+N143	Reference T180 NCIT:C177426	Low Carbohydrate High Fat Diet
+N144	Reference T182 CHEBI:16646	carbohydrate
+N145	Reference T183 NCIT:C16358	Body Mass Index
+N146	Reference T184 NCIT:C25150	Age
+N147	Reference T185 NCIT:C28421	Sex
+N148	Reference T186 OCHV:C0259835	high carbohydrate diet
+N149	Reference T187 NCIT:C177426	Low Carbohydrate High Fat Diet
+N150	Reference T188 OCHV:C0259835	high carbohydrate diet
+N151	Reference T189 CHEBI:16646	carbohydrate
+N152	Reference T190 CHEBI:36080	protein
+N153	Reference T191 NCIT:C177426	Low Carbohydrate High Fat Diet
+N154	Reference T192 CHEBI:16646	carbohydrate
+N155	Reference T193 NCIT:C177426	Low Carbohydrate High Fat Diet
+N156	Reference T195 MESH:D004041	Dietary Fats
+N157	Reference T196 FOODON:3315522	animal fat or oil
+N158	Reference T198 CHEBI:36080	protein
+N159	Reference T199 OCHV:C0440447	animal protein
+N160	Reference T200 MESH:D010940	Plant Proteins
+N161	Reference T201 OCHV:C0259835	high carbohydrate diet
+N162	Reference T205 NCIT:C16358	Body Mass Index
+N163	Reference T209 MESH:D004041	Dietary Fats
+N164	Reference T211 NCIT:C84445	Nonalcoholic Steatohepatitis
+N165	Reference T212 NCIT:C177426	Low Carbohydrate High Fat Diet
+N166	Reference T213 NCIT:C177426	Low Carbohydrate High Fat Diet
+N167	Reference T214 OCHV:C0259835	high carbohydrate diet
+N168	Reference T216 OCHV:C0259835	high carbohydrate diet
+N169	Reference T219 NCIT:C3283	Obesity
+N170	Reference T221 NCIT:C177426	Low Carbohydrate High Fat Diet
+N171	Reference T222 NCIT:C158256	Fat Mass
+N172	Reference T223 NCIT:C33645	Subcutis
+N173	Reference T224 MESH:D050152	Intra-Abdominal Fat
+N174	Reference T225 NCIT:C139218	Abdominal Fat
+N175	Reference T227 NCIT:C35241	Injury to Liver
+N176	Reference T229 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N177	Reference T230 CHEBI:16646	carbohydrate
+N178	Reference T232 MESH:D000410	Alanine Transaminase
+N179	Reference T233 NCIT:C25293	Alanine Aminotransferase
+N180	Reference T234 OCHV:C0259835	high carbohydrate diet
+N181	Reference T238 NCIT:C25293	Alanine Aminotransferase
+N182	Reference T239 CHEBI:16646	carbohydrate
+N183	Reference T241 OCHV:C0259835	high carbohydrate diet
+N184	Reference T244 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N185	Reference T245 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N186	Reference T248 CHEBI:16646	carbohydrate
+N187	Reference T250 OCHV:C0259835	high carbohydrate diet
+N188	Reference T251 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N189	Reference T252 NCIT:C19405	Lipid Metabolic Process
+N190	Reference T253 NCIT:C3283	Obesity
+N191	Reference T254 CHEBI:47774	low-density lipoprotein cholesterol
+N192	Reference T255 CHEBI:17855	triglycerides
+N193	Reference T256 MESH:D050155	Lipogenesis
+N194	Reference T258 CHEBI:16646	carbohydrate
+N195	Reference T260 NCIT:C177426	Low Carbohydrate High Fat Diet
+N196	Reference T262 NCIT:C16358	Body Mass Index
+N197	Reference T263 NCIT:C25150	Age
+N198	Reference T264 NCIT:C28421	Sex
+N199	Reference T265 CHEBI:16646	carbohydrate
+N200	Reference T266 MESH:D005230	Fatty Acids, Nonesterified
+N201	Reference T267 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N202	Reference T269 NCIT:C2271	Insulin
+N203	Reference T271 OCHV:C0259835	high carbohydrate diet
+N204	Reference T272 CHEBI:16646	carbohydrate
+N205	Reference T273 CHEBI:47774	low-density lipoprotein cholesterol
+N206	Reference T274 NCIT:C16358	Body Mass Index
+N207	Reference T276 NCIT:C177426	Low Carbohydrate High Fat Diet
+N208	Reference T277 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N209	Reference T279 OCHV:C0259835	high carbohydrate diet
+N210	Reference T282 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N211	Reference T283 OCHV:C0259835	high carbohydrate diet
+N212	Reference T284 OCHV:C0259835	high carbohydrate diet
+N213	Reference T285 OCHV:C0259836	low carbohydrate diet
+N214	Reference T286 NCIT:C177426	Low Carbohydrate High Fat Diet
+N215	Reference T299 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N216	Reference T300 NCIT:C84445	Nonalcoholic Steatohepatitis
+N217	Reference T303 OCHV:C0259835	high carbohydrate diet
+N218	Reference T304 NCIT:C177426	Low Carbohydrate High Fat Diet
+N219	Reference T306 OCHV:C0259835	high carbohydrate diet
+N220	Reference T307 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N221	Reference T309 NCIT:C177426	Low Carbohydrate High Fat Diet
+N222	Reference T320 NCIT:C177426	Low Carbohydrate High Fat Diet
+N223	Reference T321 OCHV:C0259835	high carbohydrate diet
+N224	Reference T322 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N225	Reference T323 NCIT:C84445	Nonalcoholic Steatohepatitis
+N226	Reference T325 OCHV:C0259835	high carbohydrate diet
+N227	Reference T327 NCIT:C177426	Low Carbohydrate High Fat Diet
+N228	Reference T328 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N229	Reference T330 OCHV:C0259835	high carbohydrate diet
+N230	Reference T332 OCHV:C0259835	high carbohydrate diet
+N231	Reference T333 OCHV:C0259836	low carbohydrate diet
+N232	Reference T334 OCHV:C0259835	high carbohydrate diet
+N233	Reference T335 NCIT:C177426	Low Carbohydrate High Fat Diet
+N234	Reference T338 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N235	Reference T339 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N236	Reference T343 NCBITAXON:216572	Oscillospiraceae
+N237	Reference T344 NCBITAXON:543	Enterobacteriaceae
+N238	Reference T345 NCBITAXON:31977	Veillonellaceae
+N239	Reference T346 NCIT:C16358	Body Mass Index
+N240	Reference T347 NCIT:C25150	Age
+N241	Reference T348 NCIT:C28421	Sex
+N242	Reference T352 NCBITAXON:216572	Oscillospiraceae
+N243	Reference T354 NCBITAXON:543	Enterobacteriaceae
+N244	Reference T358 OCHV:C0259835	high carbohydrate diet
+N245	Reference T360 NCBITAXON:31977	Veillonellaceae
+N246	Reference T361 NCIT:C84445	Nonalcoholic Steatohepatitis
+N247	Reference T364 NCIT:C84445	Nonalcoholic Steatohepatitis
+N248	Reference T365 NCIT:C3283	Obesity
+N249	Reference T366 OCHV:C0332541	normal weight
+N250	Reference T367 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N251	Reference T369 NCIT:C177426	Low Carbohydrate High Fat Diet
+N252	Reference T371 OCHV:C0259835	high carbohydrate diet
+N253	Reference T374 NCIT:C84445	Nonalcoholic Steatohepatitis
+N254	Reference T376 NCBITAXON:216851	Faecalibacterium
+N255	Reference T378 NCBITAXON:36866	unclassified Enterobacteriaceae
+N256	Reference T379 NCBITAXON:39948	Dialister
+N257	Reference T380 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N258	Reference T382 NCBITAXON:31977	Veillonellaceae
+N259	Reference T383 NCBITAXON:216572	Oscillospiraceae
+N260	Reference T384 NCBITAXON:543	Enterobacteriaceae
+N261	Reference T385 NCBITAXON:216572	Oscillospiraceae
+N262	Reference T386 NCBITAXON:543	Enterobacteriaceae
+N263	Reference T388 OCHV:C0259835	high carbohydrate diet
+N264	Reference T389 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N265	Reference T391 NCIT:C177426	Low Carbohydrate High Fat Diet
+N266	Reference T393 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N267	Reference T395 NCIT:C16358	Body Mass Index
+N268	Reference T396 NCIT:C25150	Age
+N269	Reference T397 NCIT:C28421	Sex
+N270	Reference T399 OCHV:C0259835	high carbohydrate diet
+N271	Reference T400 NCBITAXON:216572	Oscillospiraceae
+N272	Reference T403 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N273	Reference T404 NCBITAXON:543	Enterobacteriaceae
+N274	Reference T406 NCIT:C177426	Low Carbohydrate High Fat Diet
+N275	Reference T409 NCIT:C177426	Low Carbohydrate High Fat Diet
+N276	Reference T410 OCHV:C0259835	high carbohydrate diet
+N277	Reference T411 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N278	Reference T412 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N279	Reference T417 OCHV:C0259835	high carbohydrate diet
+N280	Reference T419 NCIT:C177426	Low Carbohydrate High Fat Diet
+N281	Reference T420 NCIT:C84445	Nonalcoholic Steatohepatitis
+N282	Reference T422 OCHV:C0259835	high carbohydrate diet
+N283	Reference T425 NCIT:C38816	Glycerolipid Metabolism Pathway
+N284	Reference T426 NCIT:C38810	Fructose and Mannose Metabolism Pathway
+N285	Reference T427 CHEBI:16646	carbohydrate
+N286	Reference T429 NCIT:C84444	Nonalcoholic Fatty Liver Disease
+N287	Reference T430 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N288	Reference T431 OCHV:C0259835	high carbohydrate diet
+N289	Reference T432 OCHV:C0259835	high carbohydrate diet
+N290	Reference T433 OCHV:C0259836	low carbohydrate diet
+N291	Reference T434 NCIT:C177426	Low Carbohydrate High Fat Diet
+N292	Reference T437 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N293	Reference T438 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N294	Reference T441 OCHV:C0259835	high carbohydrate diet
+N295	Reference T442 NCIT:C177426	Low Carbohydrate High Fat Diet
+N296	Reference T443 NCIT:C84445	Nonalcoholic Steatohepatitis
+N297	Reference T444 NCIT:C84445	Nonalcoholic Steatohepatitis
+N298	Reference T446 OCHV:C0259835	high carbohydrate diet
+N299	Reference T453 OCHV:C0259835	high carbohydrate diet
+N300	Reference T461 OCHV:C0259835	high carbohydrate diet
+N301	Reference T462 NCIT:C177426	Low Carbohydrate High Fat Diet
+N302	Reference T463 NCIT:C35241	Injury to Liver
+N303	Reference T467 OCHV:C0259835	high carbohydrate diet
+N304	Reference T471 NCIT:C177426	Low Carbohydrate High Fat Diet
+N305	Reference T472 OCHV:C0259835	high carbohydrate diet
+N306	Reference T473 CHEBI:16646	carbohydrate
+N307	Reference T476 OCHV:C0259835	high carbohydrate diet
+N308	Reference T477 NCIT:C177426	Low Carbohydrate High Fat Diet
+N309	Reference T478 NCIT:C150596	Hepatic Steatosis
+N310	Reference T479 NCIT:C150596	Hepatic Steatosis
+N311	Reference T481 OCHV:C0259835	high carbohydrate diet
+N312	Reference T483 NCIT:C177426	Low Carbohydrate High Fat Diet
+N313	Reference T486 OCHV:C0259835	high carbohydrate diet
+N314	Reference T487 NCIT:C177426	Low Carbohydrate High Fat Diet
+N315	Reference T490 NCIT:C150596	Hepatic Steatosis
+N316	Reference T491 CHEBI:16646	carbohydrate
+N317	Reference T492 NCBITAXON:216572	Oscillospiraceae
+N318	Reference T493 NCBITAXON:543	Enterobacteriaceae
+N319	Reference T494 NCBITAXON:31977	Veillonellaceae
+N320	Reference T495 NCBITAXON:31977	Veillonellaceae
+N321	Reference T496 NCIT:C150596	Hepatic Steatosis
+N322	Reference T499 NCIT:C177426	Low Carbohydrate High Fat Diet
+N323	Reference T500 OCHV:C0259835	high carbohydrate diet
+N324	Reference T502 OCHV:C0259835	high carbohydrate diet
+N325	Reference T506 NCIT:C177426	Low Carbohydrate High Fat Diet
+N326	Reference T507 OCHV:C0259835	high carbohydrate diet
+N327	Reference T510 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N328	Reference T513 OCHV:C0259835	high carbohydrate diet
+N329	Reference T514 NCIT:C177426	Low Carbohydrate High Fat Diet
+N330	Reference T517 NCIT:C177426	Low Carbohydrate High Fat Diet
+N331	Reference T518 OCHV:C0259835	high carbohydrate diet
+N332	Reference T521 OCHV:C0259835	high carbohydrate diet
+N333	Reference T522 NCIT:C177426	Low Carbohydrate High Fat Diet
+N334	Reference T523 GENE:80339	PNPLA3
+N335	Reference T525 NCIT:C20906	Adipogenesis
+N336	Reference T527 OCHV:C0259835	high carbohydrate diet
+N337	Reference T528 OCHV:C0259835	high carbohydrate diet
+N338	Reference T531 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N339	Reference T532 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N340	Reference T533 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N341	Reference T534 MESH:D050155	Lipogenesis
+N342	Reference T536 OCHV:C0259835	high carbohydrate diet
+N343	Reference T537 NCIT:C177426	Low Carbohydrate High Fat Diet
+N344	Reference T541 OCHV:C0259835	high carbohydrate diet
+N345	Reference T542 NCIT:C177426	Low Carbohydrate High Fat Diet
+N346	Reference T546 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N347	Reference T551 GENE:6721	SREBF2
+N348	Reference T552 NCBITAXON:543	Enterobacteriaceae
+N349	Reference T553 NCIT:C16358	Body Mass Index
+N350	Reference T554 NCIT:C25150	Age
+N351	Reference T555 NCIT:C28421	Sex
+N352	Reference T557 MESH:D050155	Lipogenesis
+N353	Reference T558 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N354	Reference T561 OCHV:C0259835	high carbohydrate diet
+N355	Reference T563 MESH:D050155	Lipogenesis
+N356	Reference T566 OCHV:C0259835	high carbohydrate diet
+N357	Reference T567 NCIT:C177426	Low Carbohydrate High Fat Diet
+N358	Reference T571 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N359	Reference T574 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N360	Reference T575 OCHV:C0259835	high carbohydrate diet
+N361	Reference T576 NCIT:C177426	Low Carbohydrate High Fat Diet
+N362	Reference T580 OCHV:C0259835	high carbohydrate diet
+N363	Reference T581 GENE:2538	G6PC1
+N364	Reference T582 GENE:23411	SIRT1
+N365	Reference T584 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N366	Reference T586 GENE:3054	HCFC1
+N367	Reference T587 GENE:6721	SREBF2
+N368	Reference T589 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N369	Reference T590 NCIT:C177426	Low Carbohydrate High Fat Diet
+N370	Reference T592 GENE:7391	USF1
+N371	Reference T593 GENE:10062	NR1H3
+N372	Reference T594 GENE:51085	MLXIPL
+N373	Reference T596 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N374	Reference T597 GENE:6319	SCD
+N375	Reference T598 GENE:2475	MTOR
+N376	Reference T600 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score
+N377	Reference T601 OCHV:C0259835	high carbohydrate diet
+N378	Reference T603 GENE:3054	HCFC1
+N379	Reference T604 GENE:23411	SIRT1
+N380	Reference T609 GENE:6721	SREBF2
+N381	Reference T610 GENE:2538	G6PC1
+N382	Reference T611 GENE:6721	SREBF2
+N383	Reference T612 GENE:2538	G6PC1
+N384	Reference T614 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N385	Reference T615 GENE:7391	USF1
+N386	Reference T616 GENE:10062	NR1H3
+N387	Reference T617 GENE:51085	MLXIPL
+N388	Reference T619 GENE:6319	SCD
+N389	Reference T620 GENE:2475	MTOR
+N390	Reference T622 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N391	Reference T623 NCIT:C177426	Low Carbohydrate High Fat Diet
+N392	Reference T626 OCHV:C0259835	high carbohydrate diet
+N393	Reference T628 GENE:6721	SREBF2
+N394	Reference T629 GENE:23411	SIRT1
+N395	Reference T630 GENE:3054	HCFC1
+N396	Reference T633 NCIT:C177426	Low Carbohydrate High Fat Diet
+N397	Reference T634 OCHV:C0259835	high carbohydrate diet
+N398	Reference T636 NCIT:C84445	Nonalcoholic Steatohepatitis
+N399	Reference T638 GENE:23411	SIRT1
+N400	Reference T639 GENE:2194	FASN
+N401	Reference T640 GENE:6721	SREBF2
+N402	Reference T641 GENE:3054	HCFC1
+N403	Reference T643 OCHV:C0259835	high carbohydrate diet
+N404	Reference T644 GENE:2475	MTOR
+N405	Reference T645 GENE:6319	SCD
+N406	Reference T646 GENE:2932	GSK3B
+N407	Reference T647 GENE:51085	MLXIPL
+N408	Reference T649 NCIT:C177426	Low Carbohydrate High Fat Diet
+N409	Reference T650 GENE:6721	SREBF2
+N410	Reference T651 NCBITAXON:543	Enterobacteriaceae
+N411	Reference T654 NCIT:C16358	Body Mass Index
+N412	Reference T655 NCIT:C25150	Age
+N413	Reference T656 NCIT:C28421	Sex
+N414	Reference T657 GENE:6721	SREBF2
+N415	Reference T658 NCBITAXON:543	Enterobacteriaceae
+N416	Reference T660 OCHV:C0259835	high carbohydrate diet
+N417	Reference T662 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N418	Reference T663 MESH:D050155	Lipogenesis
+N419	Reference T664 OCHV:C0259835	high carbohydrate diet
+N420	Reference T666 NCIT:C84445	Nonalcoholic Steatohepatitis
+N421	Reference T668 OCHV:C0259835	high carbohydrate diet
+N422	Reference T672 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N423	Reference T673 NCIT:C84445	Nonalcoholic Steatohepatitis
+N424	Reference T674 NCIT:C84445	Nonalcoholic Steatohepatitis
+N425	Reference T675 OCHV:C0259835	high carbohydrate diet
+N426	Reference T676 OCHV:C0259835	high carbohydrate diet
+N427	Reference T677 OCHV:C0259836	low carbohydrate diet
+N428	Reference T678 NCIT:C177426	Low Carbohydrate High Fat Diet
+N429	Reference T679 NCIT:C84445	Nonalcoholic Steatohepatitis
+N430	Reference T680 NCIT:C84445	Nonalcoholic Steatohepatitis
+N431	Reference T682 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N432	Reference T685 NCIT:C16358	Body Mass Index
+N433	Reference T686 NCIT:C25150	Age
+N434	Reference T687 NCIT:C28421	Sex
+N435	Reference T688 NCBITAXON:543	Enterobacteriaceae
+N436	Reference T689 NCBITAXON:216572	Oscillospiraceae
+N437	Reference T690 NCBITAXON:31977	Veillonellaceae
+N438	Reference T691 NCIT:C16358	Body Mass Index
+N439	Reference T692 NCIT:C25150	Age
+N440	Reference T693 NCIT:C28421	Sex
+N441	Reference T694 NCIT:C84445	Nonalcoholic Steatohepatitis
+N442	Reference T695 OCHV:C0259835	high carbohydrate diet
+N443	Reference T696 NCIT:C177426	Low Carbohydrate High Fat Diet
+N444	Reference T701 NCIT:C84445	Nonalcoholic Steatohepatitis
+N445	Reference T703 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N446	Reference T704 NCBITAXON:543	Enterobacteriaceae
+N447	Reference T705 NCBITAXON:216572	Oscillospiraceae
+N448	Reference T706 NCBITAXON:31977	Veillonellaceae
+N449	Reference T708 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N450	Reference T710 OCHV:C0259835	high carbohydrate diet
+N451	Reference T713 NCIT:C16358	Body Mass Index
+N452	Reference T714 NCIT:C25150	Age
+N453	Reference T715 NCIT:C28421	Sex
+N454	Reference T716 NCIT:C84445	Nonalcoholic Steatohepatitis
+N455	Reference T718 OCHV:C0259835	high carbohydrate diet
+N456	Reference T719 NCIT:C16358	Body Mass Index
+N457	Reference T720 NCIT:C25150	Age
+N458	Reference T721 NCIT:C28421	Sex
+N459	Reference T723 NCIT:C84445	Nonalcoholic Steatohepatitis
+N460	Reference T725 NCIT:C177426	Low Carbohydrate High Fat Diet
+N461	Reference T726 NCIT:C16358	Body Mass Index
+N462	Reference T727 NCIT:C25150	Age
+N463	Reference T728 NCIT:C28421	Sex
+N464	Reference T729 NCIT:C16358	Body Mass Index
+N465	Reference T730 NCIT:C25150	Age
+N466	Reference T731 NCIT:C28421	Sex
+N467	Reference T734 MESH:D065626	Non-alcoholic Fatty Liver Disease
+N468	Reference T735 NCIT:C84445	Nonalcoholic Steatohepatitis
+N469	Reference T736 NCIT:C84445	Nonalcoholic Steatohepatitis
+N470	Reference T737 OCHV:C0259835	high carbohydrate diet
+N471	Reference T738 OCHV:C0259835	high carbohydrate diet
+N472	Reference T739 OCHV:C0259836	low carbohydrate diet
+N473	Reference T740 NCIT:C177426	Low Carbohydrate High Fat Diet
+N474	Reference T741 NCBITAXON:216572	Oscillospiraceae
+N475	Reference T742 NCBITAXON:543	Enterobacteriaceae
+N476	Reference T743 GENE:6721	SREBF2
+N477	Reference T744 GENE:23411	SIRT1
+N478	Reference T745 GENE:2475	MTOR
+N479	Reference T746 NCIT:C25293	Alanine Aminotransferase
+N480	Reference T747 NCIT:C25202	Aspartate Aminotransferase
+N481	Reference T749 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N482	Reference T750 NCIT:C2271	Insulin
+N483	Reference T751 MESH:D005230	Fatty Acids, Nonesterified
+N484	Reference T752 NCIT:C16358	Body Mass Index
+N485	Reference T755 OCHV:C0259835	high carbohydrate diet
+N486	Reference T756 NCIT:C177426	Low Carbohydrate High Fat Diet
+N487	Reference T758 OCHV:C0259835	high carbohydrate diet
+N488	Reference T759 NCIT:C177426	Low Carbohydrate High Fat Diet
+N489	Reference T762 OCHV:C0259835	high carbohydrate diet
+N490	Reference T764 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N491	Reference T766 NCIT:C25293	Alanine Aminotransferase
+N492	Reference T767 NCIT:C25202	Aspartate Aminotransferase
+N493	Reference T768 NCIT:C25202	Aspartate Aminotransferase
+N494	Reference T769 NCIT:C37959	Gamma-Glutamyl Transpeptidase
+N495	Reference T770 NCIT:C37959	Gamma-Glutamyl Transpeptidase
+N496	Reference T772 NCBITAXON:543	Enterobacteriaceae
+N497	Reference T773 GENE:6721	SREBF2
+N498	Reference T774 NCBITAXON:543	Enterobacteriaceae
+N499	Reference T775 GENE:6721	SREBF2
+N500	Reference T776 GENE:23411	SIRT1
+N501	Reference T785 NCIT:C35241	Injury to Liver
+N502	Reference T6411 NCIT:C181472	Non-Alcoholic Fatty Liver Disease Activity Score

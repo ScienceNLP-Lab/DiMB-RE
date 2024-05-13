@@ -1,0 +1,98 @@
+T1	Food 37 41	oats
+T4	Microorganism 91 109	probiotic bacteria
+T6	Nutrient 185 201	flour components
+T7	Nutrient 752 757	WE-BG
+T9	Nutrient 766 776	extrudates
+T10	Physiology 0 16	Moisture content
+T12	Nutrient 481 491	Extrudates
+T13	Food 463 479	whole grain oats
+T14	Nutrient 611 621	extrudates
+T15	Nutrient 269 282	dietary fiber
+T20	Metabolite 1136 1146	total SCFA
+T21	Food 384 389	flour
+T22	Physiology 682 700	Extrusion moisture
+T23	Nutrient 1339 1349	extrudates
+T24	Metabolite 1122 1130	butyrate
+T25	Physiology 1053 1071	extrusion moisture
+T26	AFFECTS 1086 1094	affected
+T27	Physiology 384 406	flour moisture content
+T29	Metabolite 1113 1120	acetate
+T30	Metabolite 1301 1311	total SCFA
+T31	Metabolite 1400 1408	butyrate
+T32	Microorganism 1498 1513	Bifidobacterium
+T33	DECREASES 1492 1497	lower
+T34	INCREASES 1580 1587	highest
+T35	Microorganism 1588 1601	Lactobacillus
+T36	HAS_COMPONENT 759 761	in
+T38	Physiology 804 816	15% moisture
+T40	Physiology 269 297	dietary fiber fermentability
+T41	Microorganism 1797 1815	probiotic bacteria
+T45	Physiology 830 842	21% moisture
+T47	Physiology 998 1010	15% moisture
+T48	Physiology 1363 1366;1375 1383	15% moisture
+T49	AFFECTS 715 723	affected
+T50	Nutrient 724 750	water-extractable β-glucan
+T51	Nutrient 1222 1232	extrudates
+T52	Nutrient 937 942	WE-BG
+T53	Nutrient 889 894	WE-BG
+T55	Metabolite 1289 1296	acetate
+T58	INCREASES 1392 1399	highest
+T59	INCREASES 1267 1274	highest
+T62	Physiology 1371 1383	18% moisture
+T63	Physiology 1246 1258	18% moisture
+T64	Physiology 1616 1632	moisture content
+T68	INCREASES 864 871	highest
+T73	Physiology 1469 1481	15% moisture
+E1	INCREASES:T58 Agent:T62 Theme:T31
+E2	HAS_COMPONENT:T36 Agent:T9 Theme:T50
+E5	AFFECTS:T26 Agent:T25 Theme:T29
+E7	DECREASES:T33 Theme:T32 Agent:T73
+E8	INCREASES:T34 Theme:T35 Agent:T73
+E12	AFFECTS:T26 Agent:T25 Theme:T24
+E13	AFFECTS:T26 Agent:T25 Theme:T20
+E14	INCREASES:T58 Theme:T31 Agent:T48
+E16	INCREASES:T59 Theme:T55 Agent:T63
+E17	INCREASES:T59 Theme:T30 Agent:T63
+E21	INCREASES:T68 Theme:T53 Agent:T45
+E22	INCREASES:T68 Theme:T53 Agent:T38
+E24	AFFECTS:T49 Theme:T50 Agent:T22
+N1	OCHV:C0939905 T1	oats
+N2	NCIT:C93144 T4	Probiotic
+N3	NCIT:C2678 T7	Beta-Glucan
+N4	OCHV:50964 T10	moisture
+N5	FOODON:00003429 T13	whole oats
+N6	NCIT:C68492 T15	Dietary Fiber
+N7	CHEBI:26666 T20	short-chain fatty acid
+N8	MESH:D005433 T21	Flour
+N9	CHEBI:17968 T24	butyrate
+N10	CHEBI:30089 T29	acetate
+N11	CHEBI:26666 T30	short-chain fatty acid
+N12	CHEBI:17968 T31	butyrate
+N13	NCBITAXON:1678 T32	Bifidobacterium
+N14	NCBITAXON:1578 T35	Lactobacillus
+N15	OCHV:50964 T38	moisture
+N16	NCIT:C93144 T41	Probiotic
+N17	OCHV:50964 T45	moisture
+N18	OCHV:50964 T47	moisture
+N19	OCHV:50964 T48	moisture
+N20	NCIT:C2678 T50	Beta-Glucan
+N21	NCIT:C2678 T52	Beta-Glucan
+N22	NCIT:C2678 T53	Beta-Glucan
+N23	CHEBI:30089 T55	acetate
+N24	OCHV:50964 T62	moisture
+N25	OCHV:50964 T63	moisture
+N26	OCHV:50964 T64	moisture
+N27	OCHV:50964 T73	moisture
+A1	Factual E1
+A2	Factual E2
+A3	Factual E5
+A4	Factual E7
+A5	Factual E8
+A6	Factual E12
+A7	Factual E13
+A8	Factual E14
+A9	Factual E16
+A10	Factual E17
+A11	Factual E21
+A12	Factual E22
+A13	Factual E24

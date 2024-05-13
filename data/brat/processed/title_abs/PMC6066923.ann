@@ -1,0 +1,142 @@
+T1	Food 8 20	whole grains
+T2	Food 28 34	fruits
+T3	Food 39 49	vegetables
+T4	Disease 152 162	overweight
+T5	Disease 167 174	obesity
+T9	Food 218 230	Whole grains
+T10	Food 232 234	WG
+T11	Food 240 246	fruits
+T12	Food 251 261	vegetables
+T13	Food 263 265	FV
+T14	Chemical 2071 2074	LBP
+T15	Disease 305 322	metabolic disease
+T16	Food 456 458	WG
+T17	Food 462 464	FV
+T19	Disease 611 621	overweight
+T20	Disease 625 632	obesity
+T21	Food 652 654	FV
+T22	Food 659 661	WG
+T23	AFFECTS 1431 1452	no significant change
+T24	PREVENTS 286 292	reduce
+T25	IMPROVES 2159 2175	positive effects
+T27	Food 734 736	WG
+T28	Food 738 740	FV
+T30	Measurement 862 882	Inflammatory markers
+T40	Food 1526 1528	WG
+T41	Metabolite 1077 1109	short/branched chain fatty acids
+T42	Metabolite 1111 1117	S/BCFA
+T44	DECREASES 1179 1187	decrease
+T46	Measurement 2216 2239	markers of inflammation
+T47	DietPattern 1356 1363	FV diet
+T48	AFFECTS 1386 1392	change
+T50	DietPattern 1553 1560	WG diet
+T51	DECREASES 1587 1595	decrease
+T53	DiversityMetric 1929 1940	α-diversity
+T54	INCREASES 1917 1925	increase
+T55	Food 1948 1950	FV
+T56	Food 757 771	refined grains
+T57	Food 2133 2135	WG
+T58	Food 2140 2142	FV
+T59	ASSOCIATED_WITH 2028 2038	correlated
+T60	Microorganism 1977 1990	Clostridiales
+T62	AFFECTS 418 424	impact
+T63	Chemical 884 907	tumor necrosis factor-α
+T64	Chemical 909 914	TNF-α
+T65	Chemical 917 930	interleukin-6
+T66	Chemical 932 936	IL-6
+T67	Chemical 939 973	lipopolysaccharide binding protein
+T68	Chemical 975 978	LBP
+T69	Chemical 985 1020	high sensitivity C-reactive protein
+T70	Chemical 1022 1028	hs-CRP
+T71	Chemical 1191 1194	LBP
+T72	Chemical 1396 1400	IL-6
+T73	Chemical 1599 1604	TNF-α
+T74	Food 1734 1736	FV
+T75	Food 1219 1221	WG
+T76	Physiology 62 86	subclinical inflammation
+T77	DECREASES 53 61	reducing
+T78	Measurement 468 488	inflammatory markers
+T79	AFFECTS 1639 1661	no significant effects
+T80	DECREASES 2245 2252	reduced
+T81	Physiology 2179 2195	metabolic health
+E1	DECREASES:T44 Agent:T75 Theme:T71
+E2	AFFECTS:T48 Agent:T47 Theme:T72
+E3	PREVENTS:T24 Agent:T9 Theme:T15
+E4	PREVENTS:T24 Agent:T11 Theme:T15
+E5	DECREASES:T80 Agent:T57 Theme:T46
+E6	DECREASES:T80 Agent:T58 Theme:T46
+E7	DECREASES:T51 Agent:T50 Theme:T73
+E8	INCREASES:T54 Agent:T55 Theme:T53
+E9	IMPROVES:T25 Agent:T57 Theme:T81
+E10	IMPROVES:T25 Agent:T58 Theme:T81
+E11	ASSOCIATED_WITH:T59 Theme:T60 Theme2:T14
+E12	AFFECTS:T62 Agent:T16 Theme:T78
+E13	AFFECTS:T62 Agent:T17 Theme:T78
+E14	AFFECTS:T23 Agent:T40 Theme:T72
+E15	DECREASES:T77 Agent:T1 Theme:T76
+E16	DECREASES:T77 Agent:T2 Theme:T76
+E17	DECREASES:T77 Agent:T3 Theme:T76
+E18	PREVENTS:T24 Agent:T12 Theme:T15
+E19	AFFECTS:T79 Agent:T74 Theme:T73
+A1	Unknown E13
+A2	Unknown E12
+A3	Unknown E15
+A4	Unknown E16
+A5	Unknown E17
+A6	Negated E14
+A7	Negated E19
+N1	FOODON:00003950 T1	whole grain
+N2	NCIT:C71972 T2	Fruit
+N3	FOODON:03315308 T3	vegetable (whole or parts)
+N4	NCIT:C94250 T4	Overweight
+N5	NCIT:C3283 T5	Obesity
+N6	FOODON:00003950 T9	whole grain
+N7	FOODON:00003950 T10	whole grain
+N8	NCIT:C71972 T11	Fruit
+N9	FOODON:03315308 T12	vegetable (whole or parts)
+N10	NCIT:C1945 T13	Fruit or Vegetable
+N11	MESH:C061257 T14	lipopolysaccharide-binding protein
+N12	NCIT:C3235 T15	Metabolic Disorder
+N13	FOODON:00003950 T16	whole grain
+N14	NCIT:C1945 T17	Fruit or Vegetable
+N15	NCIT:C94250 T19	Overweight
+N16	NCIT:C3283 T20	Obesity
+N17	NCIT:C1945 T21	Fruit or Vegetable
+N18	FOODON:00003950 T22	whole grain
+N19	FOODON:00003950 T27	whole grain
+N20	NCIT:C1945 T28	Fruit or Vegetable
+N21	FOODON:00003950 T40	whole grain
+N22	CHEBI:35819 T41	short/branched chain fatty acids
+N23	CHEBI:35819 T42	short/branched chain fatty acids
+N24	NCIT:C1945 T47	Fruit or Vegetable
+N25	FOODON:00003950 T50	whole grain
+N26	NCIT:C1945 T55	Fruit or Vegetable
+N27	FOODON:00003950 T57	whole grain
+N28	NCIT:C1945 T58	Fruit or Vegetable
+N29	NCBITAXON:1898207 T60	Clostridiales bacterium
+N30	MESH:D014409 T63	Tumor Necrosis Factor-alpha
+N31	MESH:D014409 T64	Tumor Necrosis Factor-alpha
+N32	NCIT:C20451 T65	Interleukin-6
+N33	NCIT:C20451 T66	Interleukin-6
+N34	NCIT:C105867 T67	Lipopolysaccharide-Binding Protein
+N35	MESH:C061257 T68	lipopolysaccharide-binding protein
+N36	NCIT:C157114 T69	High Sensitivity C-Reactive Protein Measurement
+N37	NCIT:C157114 T70	High Sensitivity C-Reactive Protein Measurement
+N38	MESH:C061257 T71	lipopolysaccharide-binding protein
+N39	NCIT:C20451 T72	Interleukin-6
+N40	MESH:D014409 T73	Tumor Necrosis Factor-alpha
+N41	NCIT:C1945 T74	Fruit or Vegetable
+N42	FOODON:00003950 T75	whole grain
+N43	NCIT:C3137 T76	Inflammation
+A27	Factual E1
+A28	Factual E2
+A29	Factual E3
+A30	Factual E4
+A31	Factual E5
+A32	Factual E6
+A33	Factual E7
+A34	Factual E8
+A35	Factual E9
+A36	Factual E10
+A37	Factual E11
+A38	Factual E18

@@ -1,0 +1,189 @@
+T1	Population 248 260	Fe + E group
+T2	Nutrient 173 177	iron
+T3	Nutrient 0 4	Iron
+T4	Population 224 246	iron + vitamin E group
+T5	Nutrient 224 240	iron + vitamin E
+T6	Population 195 203	Fe group
+T7	Nutrient 248 254	Fe + E
+T8	Nutrient 195 197	Fe
+T9	Nutrient 374 378	iron
+T10	Physiology 532 535	age
+T11	Nutrient 1556 1585	vitamin E-alpha concentration
+T12	Nutrient 537 541	iron
+T13	Physiology 552 564	inflammation
+T14	Disease 639 653	iron deficient
+T15	Nutrient 717 721	iron
+T16	Nutrient 723 730	calcium
+T17	Nutrient 732 741	vitamin E
+T18	Nutrient 745 756	phytic acid
+T19	Nutrient 883 887	iron
+T20	Nutrient 908 923	iron +vitamin E
+T21	INCREASES 3977 3986	producing
+T22	AFFECTS 2480 2510	A similar pattern was observed
+T23	Nutrient 997 1001	iron
+T24	Disease 1153 1167	iron deficient
+T25	Physiology 1299 1320	Iron binding capacity
+T26	Chemical 1325 1353	soluble transferrin receptor
+T28	Population 1506 1512	Fe + E
+T29	Nutrient 1506 1512	Fe + E
+T30	Population 1135 1143	Fe group
+T31	Physiology 1470 1485	iron saturation
+T32	INCREASES 1493 1502	increased
+T33	Population 1675 1688	Fe + E groups
+T34	Nutrient 1675 1681	Fe + E
+T35	Population 1668 1670	Fe
+T37	Nutrient 1556 1565	vitamin E
+T38	Nutrient 1717 1746	vitamin E-alpha concentration
+T39	Nutrient 1717 1726	vitamin E
+T40	INCREASES 1806 1815	increased
+T41	AFFECTS 1747 1761	did not change
+T42	Population 1769 1777	Fe group
+T43	Nutrient 1769 1771	Fe
+T44	Population 1823 1835	Fe + E group
+T45	Nutrient 1823 1829	Fe + E
+T46	Nutrient 1668 1670	Fe
+T47	Nutrient 1980 1989	vitamin E
+T48	Chemical 1998 2016	Fecal calprotectin
+T49	Chemical 2141 2153	calprotectin
+T50	Chemical 2325 2329	IL-4
+T51	AFFECTS 2344 2358	did not change
+T52	Chemical 2521 2526	TNF-α
+T53	Population 2558 2566	Fe group
+T54	Population 2604 2616	Fe + E group
+T55	Nutrient 2604 2610	Fe + E
+T56	Nutrient 2376 2378	Fe
+T57	Nutrient 2558 2560	Fe
+T58	Biospecimen 2675 2680	stool
+T59	Methodology 2858 2888	broad-range 16S rRNA sequencin
+T60	DiversityMetric 3074 3089	alpha-diversity
+T61	INCREASES 3090 3099	increased
+T62	Population 3287 3289;3301 3307	Fe groups
+T63	Population 3294 3307	Fe + E groups
+T64	Microorganism 3452 3465	Bacteroidetes
+T65	Microorganism 3470 3480	Firmicutes
+T66	Nutrient 3498 3521	vitamin E added to iron
+T67	Microorganism 3565 3578	Bacteroidetes
+T68	DECREASES 3579 3588	decreased
+T69	Microorganism 3606 3616	Firmicutes
+T70	INCREASES 3617 3626	increased
+T71	Microorganism 3722 3736	Bacteroidaceae
+T72	Microorganism 3745 3758	Bacteroidetes
+T73	DECREASES 3767 3776	decreased
+T74	Microorganism 3795 3810	Lachnospiraceae
+T75	Microorganism 3819 3829	Firmicutes
+T76	INCREASES 3837 3846	increased
+T77	Population 3867 3878	Fe +E group
+T78	Population 3896 3904	Fe group
+T79	Microorganism 3955 3964	Roseburia
+T80	Metabolite 3968 3976	butyrate
+T81	Microorganism 4008 4018	Firmicutes
+T82	INCREASES 4020 4029	increased
+T83	Population 2376 2384	Fe group
+T84	Population 4037 4049	Fe + E group
+T85	Microorganism 4088 4099	Escherichia
+T86	Microorganism 4157 4173	Escherichia coli
+T87	Microorganism 4196 4209	Shigella spp.
+T88	DECREASES 4211 4220	decreased
+T89	Nutrient 4037 4043	Fe + E
+T90	Population 2427 2439	Fe + E group
+T91	Nutrient 3896 3898	Fe
+T92	Nutrient 3867 3872	Fe +E
+T94	Nutrient 3287 3289	Fe
+T95	Nutrient 3294 3300	Fe + E
+T96	Nutrient 2427 2433	Fe + E
+T97	Population 2203 2205;2217 2223	Fe groups
+T98	Population 2210 2223	Fe + E groups
+T99	Nutrient 2210 2216	Fe + E
+T100	Nutrient 2203 2205	Fe
+T101	AFFECTS 2296 2307	interaction
+T102	Population 2074 2082	Fe group
+T103	Nutrient 2074 2076	Fe
+T104	Nutrient 2098 2104	Fe + E
+T105	Population 2098 2104	Fe + E
+T106	Nutrient 1135 1137	Fe
+E1	INCREASES:T21 Theme:T80 Agent:T79
+E2	INCREASES:T32 Theme:T31 Agent:T29
+E3	AFFECTS:T22 Theme:T52 Agent:T57
+E4	INCREASES:T40 Agent:T45 Theme:T38
+E5	AFFECTS:T41 Theme:T38 Agent:T43
+E6	AFFECTS:T51 Theme:T50 Agent:T56
+E7	INCREASES:T61 Theme:T60 Agent:T95
+E8	DECREASES:T68 Theme:T67 Agent:T66
+E9	INCREASES:T70 Theme:T69 Agent:T66
+E10	DECREASES:T73 Theme:T71 Agent:T92
+E11	INCREASES:T76 Theme:T74 Agent:T92
+E12	INCREASES:T82 Agent:T89 Theme:T79
+E13	AFFECTS:T51 Theme:T50 Agent:T96
+E14	DECREASES:T88 Theme:T86 Agent:T89
+E15	INCREASES:T61 Theme:T60 Agent:T94
+E16	AFFECTS:T22 Theme:T52 Agent:T55
+E17	DECREASES:T88 Theme:T87 Agent:T89
+E18	AFFECTS:T101 Theme:T49 Agent:T100
+E19	AFFECTS:T101 Theme:T49 Agent:T99
+A1	Negated E5
+A2	Negated E6
+A3	Negated E13
+N1	NCIT:C598 T2	Iron
+N2	NCIT:C598 T3	Iron
+N3	NCIT:C598 T8	Iron
+N4	NCIT:C598 T9	Iron
+N5	NCIT:C25150 T10	Age
+N6	NCIT:C598 T12	Iron
+N7	NCIT:C3137 T13	Inflammation
+N8	NCIT:C158814 T14	Iron Deficiency
+N9	NCIT:C598 T15	Iron
+N10	NCIT:C331 T16	Calcium
+N11	CHEBI:33234 T17	vitamin E
+N12	CHEBI:17401 T18	myo-inositol hexakisphosphate
+N13	NCIT:C598 T19	Iron
+N14	NCIT:C598 T23	Iron
+N15	NCIT:C158814 T24	Iron Deficiency
+N16	NCIT:C25748 T25	Iron Binding Capacity
+N17	NCIT:C100438 T26	Soluble Transferrin Receptor Measurement
+N18	OCHV:31576 T31	iron saturation
+N19	CHEBI:33234 T37	vitamin E
+N20	CHEBI:33234 T39	vitamin E
+N21	NCIT:C598 T43	Iron
+N22	NCIT:C598 T46	Iron
+N23	CHEBI:33234 T47	vitamin E
+N24	NCIT:C105971 T48	Calprotectin
+N25	NCIT:C105971 T49	Calprotectin
+N26	NCIT:C20508 T50	Interleukin-4
+N27	MESH:D014409 T52	Tumor Necrosis Factor-alpha
+N28	NCIT:C598 T56	Iron
+N29	NCIT:C598 T57	Iron
+N30	NCBITAXON:976 T64	Bacteroidetes
+N31	NCBITAXON:1239 T65	Firmicutes
+N32	NCBITAXON:976 T67	Bacteroidetes
+N33	NCBITAXON:1239 T69	Firmicutes
+N34	NCBITAXON:815 T71	Bacteroidaceae
+N35	NCBITAXON:976 T72	Bacteroidetes
+N36	NCBITAXON:186803 T74	Lachnospiraceae
+N37	NCBITAXON:1239 T75	Firmicutes
+N38	NCBITAXON:841 T79	Roseburia
+N39	CHEBI:17968 T80	butyrate
+N40	NCBITAXON:1239 T81	Firmicutes
+N41	NCBITAXON:561 T85	Escherichia
+N42	NCBITAXON:562 T86	Escherichia coli
+N43	NCBITAXON:620 T87	Shigella
+N44	NCIT:C598 T91	Iron
+N45	NCIT:C598 T94	Iron
+N46	NCIT:C598 T100	Iron
+N47	NCIT:C598 T103	Iron
+N48	NCIT:C598 T106	Iron
+A14	Factual E1
+A15	Factual E2
+A16	Factual E3
+A17	Factual E4
+A18	Factual E7
+A19	Factual E8
+A20	Factual E9
+A21	Factual E10
+A22	Factual E11
+A23	Factual E12
+A24	Factual E14
+A25	Factual E15
+A26	Factual E16
+A27	Factual E17
+A28	Factual E18
+A29	Factual E19

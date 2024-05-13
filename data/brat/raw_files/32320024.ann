@@ -1,0 +1,78 @@
+T1	Methodology 124 150	randomized crossover trial
+T2	Food 10 59	chicory inulin-type fructan-containing snack bars
+T3	Nutrient 10 37	chicory inulin-type fructan
+T4	Nutrient 940 954	low-dose fiber
+T5	Population 91 118	low dietary fiber consumers
+T6	Nutrient 95 108	dietary fiber
+T7	Nutrient 183 196	dietary fiber
+T8	Nutrient 257 270	dietary fiber
+T9	Nutrient 292 297	fiber
+T10	Food 301 312	snack foods
+T11	Nutrient 620 633	dietary fiber
+T12	Population 1983 1997	healthy adults
+T15	Population 587 640	healthy adults with habitual low dietary fiber intake
+T16	Methodology 647 681	16S ribosomal RNA-based approaches
+T17	Methodology 712 762	placebo-controlled, double-blind, crossover trials
+T18	Population 767 811	healthy adults with low dietary fiber intake
+T19	Food 857 867	snack bars
+T20	INCREASES 1328 1337	increased
+T21	Microorganism 1364 1379	Bifidobacterium
+T22	INCREASES 1905 1914	increased
+T23	Microorganism 1478 1493	Bifidobacterium
+T24	Methodology 1586 1590	qPCR
+T25	Microorganism 1624 1639	Bifidobacterium
+T26	Metabolite 1770 1781	Fecal SCFAs
+T27	Physiology 1866 1877	GI symptoms
+T28	Nutrient 1892 1897	fiber
+T29	Nutrient 1439 1451	low-dose ITF
+T30	Microorganism 2043 2058	Bifidobacterium
+T31	Nutrient 2171 2184	dietary fiber
+T32	HAS_COMPONENT 507 517	comprising
+T33	Nutrient 525 558	chicory root inulin-type fructans
+T34	Nutrient 560 563	ITF
+T35	Nutrient 791 804	dietary fiber
+T37	Physiology 1100 1130	gastrointestinal (GI) symptoms
+T38	Nutrient 878 897	moderate-dose fiber
+T40	Metabolite 1080 1084	SCFA
+T41	Biospecimen 1074 1079	fecal
+T42	Food 1734 1743;1760 1768	moderate- dose bar
+T44	Food 1938 1947;1956 1965	moderate- dose bars
+T45	Food 1952 1965	low-dose bars
+T46	Nutrient 2015 2018	ITF
+T47	Food 2022 2032	snack bars
+T48	INCREASES 2033 2042	increased
+T49	Nutrient 2128 2131	ITF
+T50	Methodology 1641 1672	Predictive functional profiling
+T51	HAS_COMPONENT 871 877	either
+T52	INCREASES 1465 1474	increases
+T53	Food 1756 1768	low-dose bar
+T54	Food 478 505	fiber-containing snack bars
+T56	HAS_COMPONENT 2019 2021	to
+E1	HAS_COMPONENT:T32 Agent:T54 Theme:T33
+E2	INCREASES:T22 Theme:T28 Agent:T44
+E3	HAS_COMPONENT:T51 Agent:T19 Theme:T4
+E4	INCREASES:T20 Agent:T38 Theme:T21
+E5	INCREASES:T22 Theme:T28 Agent:T45
+E7	INCREASES:T48 Theme:T30 Agent:T46
+E8	HAS_COMPONENT:T51 Agent:T19 Theme:T38
+E10	INCREASES:T52 Theme:T23 Agent:T29
+E12	HAS_COMPONENT:T56 Theme:T46 Agent:T47
+N1	Reference T6 NCIT:C68492	Dietary Fiber
+N2	Reference T7 NCIT:C68492	Dietary Fiber
+N3	Reference T8 NCIT:C68492	Dietary Fiber
+N4	Reference T9 NCIT:C1502	Fiber
+N5	Reference T10 FOODON:03315013	snack food
+N6	Reference T11 NCIT:C68492	Dietary Fiber
+N7	Reference T19 FOODON:03315013	snack food
+N8	Reference T21 NCBITAXON:1678	Bifidobacterium
+N9	Reference T23 NCBITAXON:1678	Bifidobacterium
+N10	Reference T25 NCBITAXON:1678	Bifidobacterium
+N11	Reference T26 CHEBI:26666	short-chain fatty acid
+N12	Reference T27 OCHV:C0426576	gastrointestinal symptoms
+N13	Reference T28 NCIT:C1502	Fiber
+N14	Reference T30 NCBITAXON:1678	Bifidobacterium
+N15	Reference T31 NCIT:C68492	Dietary Fiber
+N16	Reference T35 NCIT:C68492	Dietary Fiber
+N17	Reference T37 OCHV:C0426576	gastrointestinal symptoms
+N18	Reference T40 CHEBI:26666	short-chain fatty acid
+N19	Reference T47 FOODON:03315013	snack food

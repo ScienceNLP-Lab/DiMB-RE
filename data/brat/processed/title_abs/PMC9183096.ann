@@ -1,0 +1,146 @@
+T1	Disease 140 149	Dysbiosis
+T2	Disease 91 112	Aorta Atherosclerosis
+T3	Physiology 73 85	Inflammation
+T4	Microorganism 0 20	Bacteroides fragilis
+T5	Disease 50 71	Metabolic Dysfunction
+T6	WORSENS 37 49	Deteriorated
+T7	Disease 300 327	inflammatory bowel diseases
+T8	Disease 329 336	obesity
+T9	Disease 338 352	hyperlipidemia
+T10	Disease 358 375	diabetes mellitus
+T11	Disease 414 429	atherosclerosis
+T12	CAUSES 116 124	Inducing
+T13	PREDISPOSES 1800 1808	promoted
+T14	Disease 490 517	atherosclerotic progression
+T16	Microorganism 693 713	Bacteroides fragilis
+T17	Microorganism 715 718	BFS
+T18	DietPattern 736 749	high-fat diet
+T23	Disease 1011 1026	atherosclerosis
+T25	Microorganism 1159 1162	BFS
+T26	INCREASES 1176 1185	increased
+T27	PREDISPOSES 397 409	risk factors
+T30	Physiology 1276 1306	aortic atherosclerotic lesions
+T31	Microorganism 1308 1311	BFS
+T32	DECREASES 1325 1332	reduced
+T33	Microorganism 1333 1349	Lactobacillaceae
+T34	Microorganism 1351 1354	LAC
+T35	INCREASES 1370 1379	increased
+T36	Microorganism 1380 1399	Desulfovibrionaceae
+T37	Microorganism 1401 1404	DSV
+T38	Microorganism 1623 1626	BFS
+T39	Disease 1598 1607	dysbiosis
+T40	CAUSES 1612 1619	induced
+T41	Microorganism 1660 1663	LAC
+T42	DECREASES 1652 1659	reduced
+T43	INCREASES 1668 1677	increased
+T44	Microorganism 1678 1681	DSV
+T45	WORSENS 1707 1720	deterioration
+T46	Disease 1724 1759	glucose/lipid metabolic dysfunction
+T47	Physiology 1764 1785	inflammatory response
+T49	Physiology 1809 1831	aorta plaque formation
+T50	Physiology 1186 1197	food intake
+T51	Disease 1855 1870	atherosclerosis
+T52	Microorganism 1505 1508	BFS
+T53	Physiology 897 919	atherosclerotic lesion
+T54	Gene 970 974	CD36
+T55	CAUSES 997 1010	implicated in
+T56	Physiology 1032 1037	F4/80
+T57	Gene 1447 1451	CD36
+T58	Physiology 1456 1461	F4/80
+T59	INCREASES 1534 1540	higher
+T60	Chemical 1199 1226	fasting blood glucose level
+T61	Measurement 1228 1239	body weight
+T62	Chemical 1241 1270	low-density lipoprotein level
+E1	WORSENS:T6 Agent:T4 Theme:T5
+E2	WORSENS:T6 Agent:T4 Theme:T3
+E3	WORSENS:T6 Agent:T4 Theme:T2
+E4	CAUSES:T12 Theme:T1 Agent:T4
+E5	INCREASES:T26 Theme:T50 Agent:T25
+E7	INCREASES:T26 Agent:T25 Theme:T60
+E8	INCREASES:T26 Agent:T25 Theme:T61
+E9	INCREASES:T26 Agent:T25 Theme:T62
+E10	INCREASES:T26 Agent:T25 Theme:T30
+E11	DECREASES:T32 Agent:T31 Theme:T33
+E12	CAUSES:T40 Theme:T39 Agent:T38
+E13	INCREASES:T35 Theme:T36 Agent:T31
+E14	DECREASES:T42 Theme:T41 Agent:T38
+E15	INCREASES:T43 Theme:T44 Agent:T38
+E18	WORSENS:T45 Theme:T46 Agent:T38
+E19	WORSENS:T45 Theme:T47 Agent:T38
+E20	PREDISPOSES:T13 Agent:T47 Theme:T51
+E21	PREDISPOSES:T13 Theme:T49 Agent:T47
+E22	PREDISPOSES:T13 Theme:T49 Agent:T46
+E23	PREDISPOSES:T13 Agent:T46 Theme:T51
+E24	CAUSES:T55 Agent:T54 Theme:T23
+E25	INCREASES:T59 Agent:T52 Theme:T57
+E26	INCREASES:T59 Agent:T52 Theme:T58
+E28	PREDISPOSES:T27 Theme:T11 Agent:T7
+E29	PREDISPOSES:T27 Theme:T11 Agent:T10
+E30	PREDISPOSES:T27 Theme:T11 Agent:T9
+E31	PREDISPOSES:T27 Theme:T11 Agent:T8
+A1	Unknown E21
+A2	Unknown E22
+A3	Unknown E20
+A4	Unknown E23
+N1	MESH:D064806 T1	Dysbiosis
+N2	NCIT:C197845 T2	Atherosclerosis of Aorta
+N3	NCIT:C3137 T3	Inflammation
+N4	NCBITAXON:817 T4	Bacteroides fragilis
+N5	NCIT:C3235 T5	Metabolic Disorder
+N6	NCIT:C3138 T7	Inflammatory Bowel Disease
+N7	NCIT:C3283 T8	Obesity
+N8	NCIT:C34707 T9	Hyperlipidemia
+N9	NCIT:C2985 T10	Diabetes Mellitus
+N10	NCIT:C35768 T11	Atherosclerosis
+N11	NCIT:C35768 T14	Atherosclerosis
+N12	NCBITAXON:817 T16	Bacteroides fragilis
+N13	NCBITAXON:817 T17	Bacteroides fragilis
+N14	MESH:D059305 T18	Diet, High-Fat
+N15	NCIT:C35768 T23	Atherosclerosis
+N16	NCBITAXON:817 T25	Bacteroides fragilis
+N17	NCIT:C78739 T30	Atherosclerotic Plaque
+N18	NCBITAXON:817 T31	Bacteroides fragilis
+N19	NCBITAXON:33958 T33	Lactobacillaceae
+N20	NCBITAXON:33958 T34	Lactobacillaceae
+N21	NCBITAXON:194924 T36	Desulfovibrionaceae
+N22	NCIT:C85931 T37	Desulfovibrionaceae
+N23	NCBITAXON:817 T38	Bacteroides fragilis
+N24	MESH:D064806 T39	Dysbiosis
+N25	NCBITAXON:33958 T41	Lactobacillaceae
+N26	NCIT:C85931 T44	Desulfovibrionaceae
+N27	NCIT:C20151 T47	Inflammatory Response
+N28	NCIT:C78739 T49	Atherosclerotic Plaque
+N29	NCIT:C35768 T51	Atherosclerosis
+N30	NCBITAXON:817 T52	Bacteroides fragilis
+N31	NCIT:C78739 T53	Atherosclerotic Plaque
+N32	GENE:948 T54	CD36
+N33	MESH:C036763 T56	monocyte-macrophage differentiation antigen
+N34	GENE:948 T57	CD36
+N35	MESH:C036763 T58	monocyte-macrophage differentiation antigen
+N36	NCIT:C94312 T60	Blood Glucose
+N37	NCIT:C81328 T61	Body Weight
+N38	CHEBI:39026 T62	low-density lipoprotein
+N115	MESH:D004435 T50	Eating
+A9	Factual E1
+A10	Factual E2
+A11	Factual E3
+A12	Factual E4
+A13	Factual E5
+A14	Factual E7
+A15	Factual E8
+A16	Factual E9
+A17	Factual E10
+A18	Factual E11
+A19	Factual E12
+A20	Factual E13
+A21	Factual E14
+A22	Factual E15
+A24	Factual E18
+A25	Factual E19
+A26	Factual E24
+A27	Factual E25
+A28	Factual E26
+A29	Factual E28
+A30	Factual E29
+A31	Factual E30
+A32	Factual E31

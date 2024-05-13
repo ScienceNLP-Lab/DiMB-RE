@@ -1,0 +1,109 @@
+T1	DietPattern 47 79	Short-Term Low-Carbohydrate Diet
+T2	DietPattern 81 84	LCD
+T3	Population 103 124	Patients with Obesity
+T4	Disease 117 124	Obesity
+T5	Disease 195 200	obese
+T6	Population 195 209	obese patients
+T7	DietPattern 213 234	low-carbohydrate diet
+T8	DietPattern 236 239	LCD
+T9	DietPattern 514 517	LCD
+T10	Population 544 565	patients with obesity
+T11	Population 569 597	patients who were overweight
+T12	Disease 558 565	obesity
+T13	Disease 587 597	overweight
+T14	DietPattern 626 637	normal diet
+T15	DietPattern 639 641	ND
+T16	Metabolite 816 824	butyrate
+T17	DietPattern 649 652	LCD
+T18	Methodology 709 725	matched sampling
+T19	Microorganism 855 889	Porphyromonadaceae Parabacteroides
+T20	Microorganism 894 922	Ruminococcaceae Oscillospira
+T21	INCREASES 937 946	increased
+T22	DietPattern 953 956	LCD
+T23	DietPattern 1005 1008	LCD
+T24	Methodology 2274 2345	prediction model based on the artificial neural network (ANN) algorithm
+T25	INCREASES 1036 1042	higher
+T26	Microorganism 1065 1091	Bacteroidaceae Bacteroides
+T27	DietPattern 1135 1138	LCD
+T28	IMPROVES 1165 1172	greater
+T29	Physiology 1173 1184	weight loss
+T30	Methodology 1228 1282	artificial neural network (ANN)-based prediction model
+T31	Physiology 1338 1349	weight loss
+T32	DietPattern 1365 1368	LCD
+T33	Physiology 1485 1496	weight loss
+T34	DietPattern 1512 1526	short-term LCD
+T35	DietPattern 1602 1616	short-term LCD
+T36	Physiology 1651 1662	weight loss
+T37	Disease 1793 1800	Obesity
+T38	DietPattern 1870 1902	Short-term low-carbohydrate diet
+T39	DietPattern 1904 1907	LCD
+T40	Microorganism 2055 2081	Bacteroidaceae Bacteroides
+T41	Physiology 2128 2139	weight loss
+T42	Physiology 1968 1979	weight loss
+T43	AFFECTS 1980 1986	effect
+T44	Population 1991 2014	overweight/obese people
+T45	Disease 1991 2001	overweight
+T46	Disease 2002 2007	obese
+T47	DietPattern 2146 2160	short-term LCD
+T48	POS_ASSOCIATED_WITH 2087 2113	positive outcome predictor
+T49	Physiology 2377 2388	weight loss
+T50	DietPattern 2522 2536	short-term LCD
+T51	Physiology 2561 2572	weight loss
+T52	IMPROVES 2553 2560	improve
+T53	Nutrient 62 74	Carbohydrate
+T54	Nutrient 217 229	carbohydrate
+T55	DietPattern 1930 1949	calorie restriction
+E1	INCREASES:T21 Agent:T22 Theme:T20
+E2	INCREASES:T21 Agent:T22 Theme:T19
+E3	INCREASES:T25 Agent:T23 Theme:T26
+E4	IMPROVES:T28 Agent:T27 Theme:T29
+E5	POS_ASSOCIATED_WITH:T48 Agent:T40 Theme:T41
+E6	AFFECTS:T43 Agent:T38 Theme:T42
+E7	IMPROVES:T52 Agent:T50 Theme:T51
+A1	Unknown E7
+N1	MESH:D050528 T1	Diet, Carbohydrate-Restricted
+N2	OCHV:C0259836 T2	low carbohydrate diet
+N3	NCIT:C3283 T4	Obesity
+N4	NCIT:C3283 T5	Obesity
+N5	OCHV:C0259836 T7	low-carbohydrate diet
+N6	OCHV:C0259836 T8	low carbohydrate diet
+N7	OCHV:C0259836 T9	low carbohydrate diet
+N8	NCIT:C3283 T12	Obesity
+N9	NCIT:C94250 T13	Overweight
+N10	OCHV:C0184625 T14	regular diet
+N11	CHEBI:17968 T16	butyrate
+N12	OCHV:C0259836 T17	low carbohydrate diet
+N13	NCBITAXON:171551 T19	Porphyromonadaceae
+N14	NCBITAXON:119852 T20	Oscillospira
+N15	OCHV:C0259836 T22	low carbohydrate diet
+N16	OCHV:C0259836 T23	low carbohydrate diet
+N17	NCBITAXON:815 T26	Bacteroidaceae
+N18	OCHV:C0259836 T27	low carbohydrate diet
+N19	NCIT:C3445 T29	Weight Loss
+N20	NCIT:C3445 T31	Weight Loss
+N21	OCHV:C0259836 T32	low carbohydrate diet
+N22	NCIT:C3445 T33	Weight Loss
+N23	MESH:D050528 T34	Diet, Carbohydrate-Restricted
+N24	MESH:D050528 T35	Diet, Carbohydrate-Restricted
+N25	NCIT:C3445 T36	Weight Loss
+N26	NCIT:C3283 T37	Obesity
+N27	MESH:D050528 T38	Diet, Carbohydrate-Restricted
+N28	OCHV:C0259836 T39	low carbohydrate diet
+N29	NCBITAXON:815 T40	Bacteroidaceae
+N30	NCIT:C3445 T41	Weight Loss
+N31	NCIT:C3445 T42	Weight Loss
+N32	NCIT:C94250 T45	Overweight
+N33	NCIT:C3283 T46	Obesity
+N34	MESH:D050528 T47	Diet, Carbohydrate-Restricted
+N35	NCIT:C3445 T49	Weight Loss
+N36	MESH:D050528 T50	Diet, Carbohydrate-Restricted
+N37	NCIT:C3445 T51	Weight Loss
+N38	CHEBI:16646 T53	carbohydrate
+N39	CHEBI:16646 T54	carbohydrate
+N40	MESH:D031204 T55	Caloric Restriction
+A2	Factual E1
+A3	Factual E2
+A4	Factual E3
+A5	Factual E4
+A6	Factual E5
+A7	Factual E6

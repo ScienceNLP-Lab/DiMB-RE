@@ -1,0 +1,102 @@
+T1	DietPattern 0 18	Mediterranean diet
+T2	Population 35 64	overweight and obese subjects
+T3	Disease 35 45	overweight
+T4	Disease 50 55	obese
+T5	DECREASES 65 71	lowers
+T6	Chemical 79 90	cholesterol
+T7	AFFECTS 222 229	effects
+T8	DietPattern 247 265	Mediterranean diet
+T9	DietPattern 267 269	MD
+T10	Physiology 287 303	metabolic health
+T11	Population 347 405	subjects with lifestyle risk factors for metabolic disease
+T12	Methodology 560 603	parallel 8-week randomised controlled trial
+T13	Disease 388 405	metabolic disease
+T14	Population 425 541	healthy overweight and obese subjects with a habitually low intake of fruit and vegetables and a sedentary lifestyle
+T15	Disease 433 443	overweight
+T16	Disease 448 453	obese
+T17	Food 495 500	fruit
+T18	Food 505 515	vegetables
+T19	DietPattern 642 686	MD tailored to their habitual energy intakes
+T20	Metabolite 1648 1657	bile acid
+T21	DietPattern 688 692	MedD
+T22	Measurement 760 780	metabolic parameters
+T23	DietPattern 877 879	MD
+T24	DietPattern 897 901	MedD
+T26	IMPROVES 908 933	successfully reprogrammed
+T27	Physiology 944 959	intake of fibre
+T28	Physiology 944 953;964 979	intake of animal proteins
+T29	Metabolite 1027 1046	carnitine in plasma
+T30	Metabolite 1027 1039;1051 1056	carnitine in urine
+T31	DECREASES 1058 1080	Significant reductions
+T32	Chemical 1091 1102	cholesterol
+T33	Metabolite 1125 1142	faecal bile acids
+T34	DietPattern 1159 1163	MedD
+T35	Methodology 1194 1214	Shotgun metagenomics
+T36	DietPattern 1271 1273	MD
+T39	DECREASES 1334 1341	reduced
+T40	Physiology 1342 1363	systemic inflammation
+T41	DietPattern 1391 1393	MD
+T42	INCREASES 1414 1423	increased
+T43	Microorganism 1454 1482	Faecalibacterium prausnitzii
+T45	ASSOCIATED_WITH 1535 1541	linked
+T47	Metabolite 1545 1553	butyrate
+T48	Physiology 1500 1534	microbial carbohydrate degradation
+T49	DietPattern 1593 1597	MedD
+T51	INCREASES 1611 1620	increased
+T52	Physiology 1641 1669	faecal bile acid degradation
+T53	Physiology 1674 1693	insulin sensitivity
+T54	Metabolite 1621 1639	urinary urolithins
+T55	DietPattern 1775 1777	MD
+T56	DECREASES 1816 1823	reduced
+T57	Chemical 1836 1847	cholesterol
+T58	IMPROVES 1958 1969	improvement
+T59	Physiology 1973 1989	metabolic health
+E1	DECREASES:T5 Agent:T1 Theme:T6
+E2	AFFECTS:T7 Agent:T8 Theme:T10
+E3	IMPROVES:T26 Agent:T23 Theme:T28
+E4	IMPROVES:T26 Agent:T23 Theme:T27
+E5	DECREASES:T31 Agent:T34 Theme:T32
+E6	DECREASES:T31 Agent:T34 Theme:T33
+E8	DECREASES:T39 Agent:T36 Theme:T40
+E9	INCREASES:T42 Agent:T41 Theme:T43
+E10	ASSOCIATED_WITH:T45 Theme:T48 Theme2:T47
+E11	INCREASES:T51 Agent:T49 Theme:T54
+E12	INCREASES:T51 Agent:T49 Theme:T52
+E13	INCREASES:T51 Agent:T49 Theme:T53
+E14	DECREASES:T56 Theme:T57 Agent:T55
+E15	IMPROVES:T58 Theme:T59 Agent:T55
+A1	Factuality E2 Unknown
+N1	Reference T1 MESH:D038441	Diet, Mediterranean
+N2	Reference T3 NCIT:C94250	Overweight
+N3	Reference T4 NCIT:C3283	Obesity
+N4	Reference T6 NCIT:C369	Cholesterol
+N5	Reference T8 MESH:D038441	Diet, Mediterranean
+N6	Reference T9 MESH:D038441	Diet, Mediterranean
+N7	Reference T13 NCIT:C3235	Metabolic Disorder
+N8	Reference T15 NCIT:C94250	Overweight
+N9	Reference T16 NCIT:C3283	Obesity
+N10	Reference T17 NCIT:C71972	Fruit
+N11	Reference T18 FOODON:03315308	vegetable (whole or parts)
+N12	Reference T19 MESH:D038441	Diet, Mediterranean
+N13	Reference T20 CHEBI:3098	bile acid
+N14	Reference T21 MESH:D038441	Diet, Mediterranean
+N15	Reference T23 MESH:D038441	Diet, Mediterranean
+N16	Reference T24 MESH:D038441	Diet, Mediterranean
+N17	Reference T27 NCIT:C68492	Dietary Fiber
+N18	Reference T28 OCHV:C0440447	animal protein
+N19	Reference T29 CHEBI:17126	carnitine
+N20	Reference T30 CHEBI:17126	carnitine
+N21	Reference T32 NCIT:C369	Cholesterol
+N22	Reference T33 CHEBI:3098	bile acid
+N23	Reference T34 MESH:D038441	Diet, Mediterranean
+N24	Reference T36 MESH:D038441	Diet, Mediterranean
+N25	Reference T40 MESH:D007249	Inflammation
+N26	Reference T41 MESH:D038441	Diet, Mediterranean
+N27	Reference T43 NCBITAXON:853	Faecalibacterium prausnitzii
+N28	Reference T47 CHEBI:17968	butyrate
+N29	Reference T49 MESH:D038441	Diet, Mediterranean
+N30	Reference T52 OCHV:C0678714	bile acid metabolism
+N31	Reference T53 OCHV:C0920563	insulin sensitivity
+N32	Reference T54 NCIT:C112042	Urolithin
+N33	Reference T55 MESH:D038441	Diet, Mediterranean
+N34	Reference T57 NCIT:C369	Cholesterol

@@ -1,0 +1,121 @@
+T1	Population 76 102	colorectal cancer patients
+T2	Disease 76 93	colorectal cancer
+T3	Population 259 290	patients with colorectal cancer
+T4	Disease 292 295	CRC
+T5	Disease 273 290	colorectal cancer
+T6	Population 461 473	CRC patients
+T7	Disease 461 464	CRC
+T8	Methodology 532 552	hospital-based study
+T9	Population 574 673	CRC patients who underwent CRC surgery in Department of Surgery, Seoul National University Hospital
+T10	Disease 601 604	CRC
+T11	Disease 574 577	CRC
+T12	Methodology 675 704	Spearman correlation analyses
+T13	DiversityMetric 780 810	Firmicutes/Bacteroidetes ratio
+T14	DiversityMetric 755 778	alpha-diversity indices
+T15	Methodology 935 964	principal coordinate analysis
+T16	DiversityMetric 978 995	β-diversity index
+T17	Methodology 1019 1036	linear regression
+T18	Methodology 1121 1161	linear discriminant analysis effect size
+T19	Methodology 1163 1168	LEfSe
+T20	DietPattern 1230 1233;1243 1259	low diet consumption
+T21	DietPattern 1238 1259	high diet consumption
+T22	Food 1413 1417	eggs
+T23	Food 1353 1360	pumpkin
+T24	Food 1361 1374	pumpkin juice
+T25	NEG_ASSOCIATED_WITH 1451 1472	negative correlations
+T26	Microorganism 1481 1501	Bacteroides fragilis
+T27	Food 1526 1530	pork
+T28	Food 1540 1565	beef soup with vegetables
+T29	Food 1567 1577	animal fat
+T30	Nutrient 1583 1594	fatty acids
+T31	Food 1960 1968	beverage
+T32	Nutrient 1716 1727	fatty acids
+T33	Nutrient 1729 1735	amines
+T34	Nutrient 1741 1752	amino acids
+T35	Food 1802 1809	seaweed
+T36	Microorganism 1901 1914	Rikenellaceae
+T37	Microorganism 1919 1928	Alistipes
+T38	Microorganism 2048 2061	Bacteroidetes
+T39	Microorganism 2063 2074	Bacteroidia
+T40	Microorganism 2080 2093	Bacteroidales
+T41	INCREASES 2028 2034	higher
+T42	Methodology 2137 2151	LEfSe analysis
+T43	DECREASES 1882 1887	lower
+T44	Microorganism 1665 1686	Clostridium symbiosum
+T45	Food 2224 2230	sugars
+T46	Food 2243 2250	legumes
+T47	Food 2252 2261	mushrooms
+T48	Food 2263 2267	eggs
+T49	Food 2269 2273	oils
+T50	Nutrient 2278 2282	fats
+T51	Nutrient 2284 2293	plant fat
+T52	Nutrient 2295 2308	carbohydrates
+T53	Nutrient 2314 2341	monounsaturated fatty acids
+T54	Population 2408 2420	CRC patients
+T55	Disease 2408 2411	CRC
+T57	Disease 2503 2506	CRC
+T58	NEG_ASSOCIATED_WITH 1619 1638	inverse correlation
+T59	Food 2235 2241	sweets
+T61	DietPattern 2119 2129	low intake
+T65	Methodology 482 517	nutrition-wide association approach
+T66	Methodology 0 32	Nutrition-wide association study
+E1	NEG_ASSOCIATED_WITH:T25 Theme:T26 Agent:T27
+E2	NEG_ASSOCIATED_WITH:T58 Theme:T44 Agent:T32
+E3	INCREASES:T41 Agent:T31 Theme:T38
+E4	DECREASES:T43 Theme:T36 Agent:T35
+E5	NEG_ASSOCIATED_WITH:T25 Theme:T26 Agent:T30
+E6	NEG_ASSOCIATED_WITH:T25 Theme:T26 Agent:T29
+E7	NEG_ASSOCIATED_WITH:T25 Theme:T26 Agent:T28
+E8	NEG_ASSOCIATED_WITH:T58 Theme:T44 Agent:T34
+E9	NEG_ASSOCIATED_WITH:T58 Theme:T44 Agent:T33
+E10	INCREASES:T41 Agent:T31 Theme:T39
+E11	DECREASES:T43 Theme:T37 Agent:T35
+E12	INCREASES:T41 Agent:T31 Theme:T40
+N1	NCIT:C2956 T2	Colorectal Neoplasm
+N2	NCIT:C2956 T4	Colorectal Neoplasm
+N3	NCIT:C2956 T5	Colorectal Neoplasm
+N4	NCIT:C2956 T7	Colorectal Neoplasm
+N5	NCIT:C2956 T10	Colorectal Neoplasm
+N6	NCIT:C2956 T11	Colorectal Neoplasm
+N7	NCIT:C189550 T13	Firmicutes to Bacteroidetes Ratio Measurement
+N8	NCIT:C72064 T22	Egg, Poultry
+N9	NCIT:C72016 T23	Pumpkin
+N10	NCBITAXON:817 T26	Bacteroides fragilis
+N11	NCIT:C71958 T27	Pork
+N12	FOODON:03305999 T28	vegetable beef soup
+N13	FOODON:3315522 T29	animal fat or oil
+N14	CHEBI:35366 T30	fatty acid
+N15	FOODON:00003202 T31	beverage
+N16	CHEBI:35366 T32	fatty acid
+N17	CHEBI:32952 T33	amine
+N18	CHEBI:33709 T34	amino acid
+N19	FOODON:03412266 T35	seaweed
+N20	NCBITAXON:171550 T36	Rikenellaceae
+N21	NCBITAXON:239759 T37	Alistipes
+N22	NCBITAXON:976 T38	Bacteroidetes
+N23	NCBITAXON:200643 T39	Bacteroidia
+N24	NCBITAXON:171549 T40	Bacteroidales
+N25	NCBITAXON:1512 T44	[Clostridium] symbiosum
+N26	NCIT:C71939 T45	Sugar
+N27	MESH:D007887 T46	Fabaceae
+N28	FOODON:00001287 T47	mushroom (whole organism)
+N29	NCIT:C72064 T48	Egg, Poultry
+N30	FOODON:03310387 T49	oil
+N31	MESH:D004041 T50	Dietary Fats
+N32	CHEBI:16646 T52	carbohydrate
+N33	CHEBI:25413 T53	monounsaturated fatty acid
+N34	NCIT:C2956 T55	Colorectal Neoplasm
+N35	NCIT:C2956 T57	Colorectal Neoplasm
+N36	FOODON:03316428 T59	sweets
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12

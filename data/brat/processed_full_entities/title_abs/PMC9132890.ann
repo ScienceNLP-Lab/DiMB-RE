@@ -1,0 +1,134 @@
+T1	Nutrient 0 13	Chitin-glucan
+T2	IMPROVES 30 38	improved
+T3	Physiology 39 62	postprandial metabolism
+T4	Population 93 125	subjects at cardiometabolic risk
+T5	Methodology 131 147	randomized trial
+T6	Nutrient 149 162	Chitin-glucan
+T7	Nutrient 164 166	CG
+T8	Nutrient 172 195	insoluble dietary fiber
+T9	IMPROVES 215 222	improve
+T10	Disease 223 248	cardiometabolic disorders
+T11	ASSOCIATED_WITH 249 259	associated
+T12	Disease 265 272	obesity
+T13	Population 276 280	mice
+T14	ASSOCIATED_WITH 1880 1891	determinant
+T15	Methodology 400 436	double-blind, randomized, cross-over
+T16	Nutrient 501 503	CG
+T17	Measurement 511 534	cardiometabolic profile
+T18	Population 586 618	subjects at cardiometabolic risk
+T19	AFFECTS 490 497	impacts
+T20	Nutrient 659 661	CG
+T21	Nutrient 671 683	maltodextrin
+T22	Measurement 728 735;753 773	fasting metabolic parameters
+T23	Measurement 740 773	postprandial metabolic parameters
+T24	Measurement 778 791	exhaled gases
+T25	Metabolite 793 801	hydrogen
+T26	Metabolite 803 805	H2
+T27	Metabolite 811 818	methane
+T28	Chemical 820 823	CH4
+T29	Methodology 870 903	16S rRNA gene sequencing analysis
+T31	Metabolite 942 946;958 975	long chain fatty acids
+T32	Metabolite 952 975	short-chain fatty acids
+T33	Metabolite 977 981	LCFA
+T34	Metabolite 983 987	SCFA
+T35	Chemical 990 997	zonulin
+T36	Chemical 999 1011	calprotectin
+T37	Chemical 1016 1050	lipopolysaccharide binding protein
+T38	Chemical 1052 1055	LBP
+T39	Nutrient 1093 1095	CG
+T40	INCREASES 1112 1121	increased
+T41	Metabolite 1122 1132	exhaled H2
+T42	Food 1146 1170	enriched-fiber breakfast
+T43	DECREASES 1185 1194	decreased
+T44	Chemical 1195 1216	postprandial glycemia
+T45	Physiology 1221 1236	triglyceridemia
+T46	Food 1251 1273	standardized test meal
+T47	Chemical 1326 1347	postprandial glycemia
+T48	Nutrient 2039 2052	dietary fiber
+T49	Metabolite 1390 1400	exhaled H2
+T50	Methodology 1416 1437	lactulose breath test
+T51	Nutrient 1462 1464	CG
+T52	DECREASES 1465 1474	decreased
+T53	Microorganism 1497 1511	Actinobacteria
+T54	INCREASES 1523 1532	increased
+T55	Microorganism 1551 1578	Erysipelotrichaceae UCG.003
+T56	Microorganism 1580 1603	Ruminococcaceae UCG.005
+T57	Microorganism 1608 1630	Eubacterium ventriosum
+T58	Metabolite 1638 1655	Fecal metabolites
+T59	Measurement 1657 1669;1698 1705	inflammatory markers
+T60	Measurement 1674 1705	intestinal permeability markers
+T61	Nutrient 1767 1769	CG
+T62	IMPROVES 1830 1838	improved
+T63	Physiology 1839 1869	postprandial glycemic response
+T64	Measurement 1895 1915	cardiometabolic risk
+T65	Metabolite 1942 1951	breath H2
+T66	Measurement 105 125	cardiometabolic risk
+T67	Measurement 598 618	cardiometabolic risk
+T68	NEG_ASSOCIATED_WITH 1314 1322	decrease
+T2511	Metabolite 906 911;930 940	fecal bile acids
+E1	IMPROVES:T2 Agent:T1 Theme:T3
+E2	IMPROVES:T9 Agent:T6 Theme:T10
+E3	ASSOCIATED_WITH:T11 Theme:T10 Theme2:T12
+E4	AFFECTS:T19 Agent:T16 Theme:T17
+E5	INCREASES:T40 Agent:T39 Theme:T41
+E6	DECREASES:T43 Agent:T39 Theme:T44
+E7	DECREASES:T43 Agent:T39 Theme:T45
+E8	DECREASES:T52 Agent:T51 Theme:T53
+E9	INCREASES:T54 Agent:T51 Theme:T55
+E10	INCREASES:T54 Agent:T51 Theme:T56
+E11	INCREASES:T54 Agent:T51 Theme:T57
+E12	IMPROVES:T62 Theme:T63 Agent:T61
+E13	ASSOCIATED_WITH:T14 Theme:T63 Theme2:T64
+E14	NEG_ASSOCIATED_WITH:T68 Theme:T47 Theme2:T49
+A1	Unknown E4
+N1	MESH:C091649 T1	carboxymethyl-chitin-glucan
+N2	MESH:C091649 T6	carboxymethyl-chitin-glucan
+N3	MESH:C091649 T7	carboxymethyl-chitin-glucan
+N4	NCIT:C3283 T12	Obesity
+N5	MESH:C091649 T16	carboxymethyl-chitin-glucan
+N6	MESH:C091649 T20	carboxymethyl-chitin-glucan
+N7	CHEBI:25140 T21	maltodextrin
+N8	NCIT:C18520 T22	Metabolic Marker
+N9	MESH:D006859 T25	Hydrogen
+N10	MESH:D006859 T26	Hydrogen
+N11	CHEBI:16183 T27	methane
+N12	CHEBI:16183 T28	methane
+N13	CHEBI:15904 T31	long-chain fatty acid
+N14	CHEBI:26666 T32	short-chain fatty acid
+N15	CHEBI:15904 T33	long-chain fatty acid
+N16	CHEBI:26666 T34	short-chain fatty acid
+N17	MESH:C408043 T35	zonulin
+N18	NCIT:C105971 T36	Calprotectin
+N19	NCIT:C105867 T37	Lipopolysaccharide-Binding Protein
+N20	MESH:C061257 T38	lipopolysaccharide-binding protein
+N21	MESH:C091649 T39	carboxymethyl-chitin-glucan
+N22	FOODON:03310642 T42	breakfast cereal (high fiber)
+N23	NCIT:C129778 T44	2-Hour Postprandial Glucose
+N24	NCIT:C64812 T45	Triglyceride Measurement
+N25	NCIT:C129778 T47	2-Hour Postprandial Glucose
+N26	NCIT:C68492 T48	Dietary Fiber
+N27	MESH:C091649 T51	carboxymethyl-chitin-glucan
+N28	NCBITAXON:201174 T53	Actinobacteria
+N29	NCBITAXON:128827 T55	Erysipelotrichaceae
+N30	NCBITAXON:216572 T56	Oscillospiraceae
+N31	NCBITAXON:39496 T57	Eubacterium ventriosum
+N32	MESH:C091649 T61	carboxymethyl-chitin-glucan
+N33	NCIT:C129778 T63	2-Hour Postprandial Glucose
+N34	MESH:D000083202 T64	Cardiometabolic Risk Factors
+N35	NCIT:C94552 T65	Breath
+N36	MESH:D000083202 T66	Cardiometabolic Risk Factors
+N37	MESH:D000083202 T67	Cardiometabolic Risk Factors
+N259	CHEBI:138366 T2511	bile acid
+A22	Factual E1
+A23	Factual E2
+A24	Factual E3
+A25	Factual E5
+A26	Factual E6
+A27	Factual E7
+A28	Factual E8
+A29	Factual E9
+A30	Factual E10
+A31	Factual E11
+A32	Factual E12
+A33	Factual E13
+A34	Factual E14

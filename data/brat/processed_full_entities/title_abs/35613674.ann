@@ -1,0 +1,150 @@
+T1	Population 48 71	rats exposed to alcohol
+T2	Population 536 555	Sprague-Dawley rats
+T3	Population 831 835	rats
+T4	Population 1494 1514	alcohol-treated rats
+T5	Population 1548 1570	AKO-administrated rats
+T6	Food 256 275	Antarctic Krill Oil
+T7	Nutrient 277 280	AKO
+T8	Nutrient 439 442	AKO
+T9	Food 0 19	Antarctic krill oil
+T10	IMPROVES 20 31	ameliorates
+T11	Disease 32 44	liver injury
+T12	Metabolite 86 96	bile acids
+T13	Metabolite 141 144	BAs
+T14	Metabolite 129 139	Bile acids
+T15	Physiology 86 107	bile acids metabolism
+T16	Physiology 129 156	Bile acids (BAs) metabolism
+T17	Disease 184 205	alcohol liver disease
+T18	AFFECTS 176 180	role
+T19	Nutrient 333 336	AKO
+T20	POS_ASSOCIATED_WITH 286 304	protective effects
+T21	Physiology 312 317	liver
+T22	Disease 357 369	liver injury
+T23	AFFECTS 428 435	effects
+T24	Physiology 446 460	BAs metabolism
+T25	Metabolite 446 449	BAs
+T26	Disease 505 534	alcohol-induced liver disease
+T27	Disease 815 827	liver injury
+T28	Nutrient 851 854	AKO
+T29	Nutrient 1080 1083	AKO
+T30	Physiology 1099 1113	BAs metabolism
+T31	Metabolite 1099 1102	BAs
+T32	Physiology 958 991	hepatic histopathological changes
+T33	PREVENTS 885 894	protected
+T34	Disease 913 935	alcohol-induced injury
+T35	DECREASES 1290 1297	reduced
+T36	Physiology 1298 1320	hepatic BAs production
+T37	Metabolite 1306 1309	BAs
+T38	DECREASES 1322 1331	decreased
+T39	Metabolite 1332 1341	serum BAs
+T40	INCREASES 1352 1361	increased
+T41	Metabolite 1338 1341	BAs
+T42	Physiology 1362 1384	fecal excretion of BAs
+T43	Metabolite 1381 1384	BAs
+T44	AFFECTS 75 85	regulating
+T45	AFFECTS 1090 1098	regulate
+T46	Population 492 534	rat model of alcohol-induced liver disease
+T47	Food 768 775	alcohol
+T48	Food 1494 1501	alcohol
+T49	Metabolite 1680 1692	BAs profiles
+T50	PREVENTS 341 348	protect
+T51	Physiology 1011 1065	alcohol-induced elevation of serum biochemical indices
+T52	Physiology 1132 1181	intestinal-hepatic FXR-FGF15-FGFR4 signaling axis
+T53	DECREASES 1200 1209	decreased
+T54	Enzyme 1210 1236	cholesterol 7α-hydroxylase
+T55	Enzyme 1250 1272	sterol 12α-hydroxylase
+T56	Enzyme 1238 1244	CYP7A1
+T57	Enzyme 1274 1280	CYP8B1
+T58	Methodology 1400 1419	16S rDNA sequencing
+T59	Biospecimen 1362 1367	fecal
+T60	Methodology 1572 1603	Spearman's correlation analysis
+T61	Nutrient 1755 1758	AKO
+T62	Disease 1803 1831	alcohol-induced liver injury
+T63	Physiology 1851 1865	BAs metabolism
+T64	Metabolite 1851 1854	BAs
+T65	AFFECTS 1840 1850	modulating
+T66	Biospecimen 1700 1705	serum
+T67	Biospecimen 1707 1712	liver
+T68	Biospecimen 1718 1723	feces
+T69	DiversityMetric 1438 1461	gut microbiome richness
+T70	PREVENTS 997 1006	inhibited
+T71	DECREASES 950 957	allayed
+T72	CAUSES 1117 1127	activating
+T73	PREVENTS 1783 1794	may protect
+T74	Nutrient 1548 1551	AKO
+T75	Physiology 218 254	gut microflora-bile acids-liver axis
+T76	CAUSES 370 376	caused
+T77	Food 380 387	alcohol
+T78	Metabolite 1680 1683	BAs
+T79	Nutrient 633 636	AKO
+T80	Nutrient 678 681	AKO
+T81	Nutrient 717 720	AKO
+E1	IMPROVES:T10 Agent:T9 Theme:T11
+E2	AFFECTS:T18 Agent:T16 Theme:T17
+E3	PREVENTS:T70 Agent:T28 Theme:T51
+E4	POS_ASSOCIATED_WITH:T20 Agent:T6 Theme:T21
+E5	AFFECTS:T23 Agent:T8 Theme:T24
+E6	PREVENTS:T33 Agent:T28 Theme:T34
+E7	DECREASES:T35 Agent:T52 Theme:T36
+E8	DECREASES:T38 Theme:T39 Agent:T52
+E9	INCREASES:T40 Theme:T42 Agent:T52
+E10	AFFECTS:T45 Agent:T29 Theme:T30
+E11	AFFECTS:T44 Agent:T9 Theme:T15
+E12	PREVENTS:T50 Agent:T19 Theme:T22
+E13	DECREASES:T53 Theme:T54 Agent:T52
+E14	DECREASES:T53 Theme:T55 Agent:T52
+E15	DECREASES:T71 Theme:T32 Agent:T28
+E16	CAUSES:T72 Theme:T52 Agent:T29
+E17	PREVENTS:T73 Agent:T61 Theme:T62
+E18	AFFECTS:T65 Agent:T61 Theme:T63
+E19	CAUSES:T76 Theme:T22 Agent:T77
+A1	Unknown E5
+A2	Unknown E12
+A3	Unknown E17
+A4	Unknown E10
+N1	NCIT:C35241 T11	Injury to Liver
+N2	CHEBI:3098 T12	bile acid
+N3	CHEBI:3098 T13	Bile acid
+N4	CHEBI:3098 T14	bile acid
+N5	OCHV:C0678714 T15	bile acid metabolism
+N6	OCHV:C0678714 T16	bile acid metabolism
+N7	OCHV:C0810031 T17	alcohol-related liver disease
+N8	NCIT:C12392 T21	Liver
+N9	NCIT:C35241 T22	Injury to Liver
+N10	OCHV:C0678714 T24	bile acid metabolism
+N11	CHEBI:3098 T25	Bile acid
+N12	OCHV:C0810031 T26	Alcohol-related liver disease
+N13	NCIT:C35241 T27	Injury to Liver
+N14	OCHV:C0678714 T30	bile acid metabolism
+N15	CHEBI:3098 T31	Bile acid
+N16	OCHV:C0810031 T34	alcohol-related liver disease
+N17	CHEBI:3098 T37	Bile acid
+N18	CHEBI:3098 T39	bile acid
+N19	CHEBI:3098 T41	Bile acid
+N20	CHEBI:3098 T43	Bile acid
+N21	CHEBI:30879 T47	alcohol
+N22	CHEBI:30879 T48	alcohol
+N23	MESH:D002790 T54	Cholesterol 7-alpha-Hydroxylase
+N24	NCIT:C40055 T55	7-Alpha-Hydroxycholest-4-En-3-One 12-Alpha-Hydroxylase
+N25	NCIT:C40053 T56	Cholesterol 7-Alpha-Monooxygenase
+N26	NCIT:C40055 T57	7-Alpha-Hydroxycholest-4-En-3-One 12-Alpha-Hydroxylase
+N27	OCHV:C0810031 T62	alcohol-related liver disease
+N28	OCHV:C0678714 T63	bile acid metabolism
+N29	CHEBI:3098 T64	Bile acid
+N30	CHEBI:30879 T77	alcohol
+N31	CHEBI:3098 T78	Bile acid
+A5	Factual E1
+A6	Factual E2
+A7	Factual E3
+A8	Factual E4
+A9	Factual E6
+A10	Factual E7
+A11	Factual E8
+A12	Factual E9
+A13	Factual E11
+A14	Factual E13
+A15	Factual E14
+A16	Factual E15
+A17	Factual E16
+A18	Factual E18
+A19	Factual E19

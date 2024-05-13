@@ -1,0 +1,129 @@
+T1	Metabolite 0 20	Ursodeoxycholic acid
+T2	IMPROVES 21 29	improves
+T3	Physiology 30 44	liver function
+T4	Physiology 84 106	microbiome remodelling
+T5	Disease 124 141	liver dysfunction
+T6	Population 110 141	patients with liver dysfunction
+T7	Metabolite 143 163	Ursodeoxycholic acid
+T8	Metabolite 165 169	UDCA
+T9	PREVENTS 396 406	protective
+T10	IMPROVES 1478 1485	reduced
+T11	Metabolite 418 422	UDCA
+T12	Nutrient 427 436	vitamin E
+T13	Disease 445 462	liver dysfunction
+T14	Methodology 469 481	metabolomics
+T15	Methodology 486 506	metagenomic analysis
+T16	Biospecimen 535 540	blood
+T17	Biospecimen 545 550	urine
+T18	Disease 578 585	obesity
+T19	Disease 590 607	liver dysfunction
+T20	Population 564 607	patients with obesity and liver dysfunction
+T22	Metabolite 657 661	UDCA
+T23	Nutrient 709 718	vitamin E
+T24	Metabolite 753 757	UDCA
+T25	IMPROVES 772 780	improved
+T26	Measurement 785 806	liver function scores
+T27	DECREASES 850 857	reduced
+T28	Metabolite 858 882	hepatic deoxycholic acid
+T29	Gene 893 905	microRNA-122
+T30	Metabolite 1022 1026	UDCA
+T31	Metabolite 1090 1116	indole-derived metabolites
+T32	Metabolite 1119 1131	antioxidants
+T33	Physiology 1186 1216	phenylalanine/tyrosine pathway
+T34	Metabolite 1133 1151	ascorbate sulphate
+T35	Metabolite 1156 1175	N-acetyl-L-cysteine
+T36	AFFECTS 1027 1036	regulated
+T37	Chemical 1037 1050	uremic toxins
+T38	Metabolite 1052 1065	hippuric acid
+T39	Metabolite 1067 1084	p-cresol sulphate
+T40	Microorganism 1271 1284	Lactobacillus
+T41	Microorganism 1289 1304	Bifidobacterium
+T42	Methodology 1331 1351	metagenomic analysis
+T43	Nutrient 1407 1416	vitamin E
+T44	AFFECTS 1427 1444	did not result in
+T45	DECREASES 1478 1485	reduced
+T46	Chemical 1486 1499	uremic toxins
+T47	Disease 1504 1521	liver dysfunction
+T48	IMPROVES 1585 1594	improving
+T49	Physiology 1595 1609	liver function
+T50	Physiology 49 79	phenylalanine/tyrosine pathway
+T51	AFFECTS 45 48	via
+E1	IMPROVES:T2 Agent:T1 Theme:T3
+E2	AFFECTS:T51 Theme:T3 Agent:T4
+E4	PREVENTS:T9 Theme:T13 Agent:T11
+E5	PREVENTS:T9 Theme:T13 Agent:T12
+E6	IMPROVES:T25 Agent:T24 Theme:T26
+E7	DECREASES:T27 Agent:T24 Theme:T28
+E8	DECREASES:T27 Agent:T24 Theme:T29
+E9	AFFECTS:T36 Agent:T30 Theme:T37
+E10	AFFECTS:T36 Agent:T30 Theme:T38
+E11	AFFECTS:T36 Agent:T30 Theme:T39
+E12	AFFECTS:T36 Agent:T30 Theme:T31
+E13	AFFECTS:T36 Agent:T30 Theme:T32
+E14	AFFECTS:T36 Agent:T30 Theme:T34
+E15	AFFECTS:T36 Agent:T30 Theme:T35
+E16	AFFECTS:T36 Agent:T30 Theme:T33
+E17	IMPROVES:T48 Theme:T49 Agent:T43
+E18	IMPROVES:T48 Theme:T49 Agent:T30
+E19	AFFECTS:T51 Agent:T50 Theme:T3
+E21	AFFECTS:T44 Agent:T43 Theme:T32
+E22	AFFECTS:T44 Agent:T43 Theme:T34
+E24	AFFECTS:T44 Agent:T43 Theme:T35
+E25	AFFECTS:T44 Agent:T43 Theme:T33
+E26	DECREASES:T45 Agent:T43 Theme:T46
+E27	IMPROVES:T10 Agent:T43 Theme:T47
+A5	Negated E21
+A6	Negated E22
+A8	Negated E24
+A9	Negated E25
+N1	CHEBI:9907 T1	ursodeoxycholic acid
+N2	OCHV:C0232741 T3	liver function
+N3	NCIT:C50634 T5	Liver Dysfunction
+N4	CHEBI:9907 T7	ursodeoxycholic acid
+N5	CHEBI:9907 T8	ursodeoxycholic acid
+N6	CHEBI:9907 T11	ursodeoxycholic acid
+N7	CHEBI:33234 T12	vitamin E
+N8	NCIT:C50634 T13	Liver Dysfunction
+N9	NCIT:C3283 T18	Obesity
+N10	NCIT:C50634 T19	Liver Dysfunction
+N11	CHEBI:9907 T22	ursodeoxycholic acid
+N12	CHEBI:33234 T23	vitamin E
+N13	CHEBI:9907 T24	ursodeoxycholic acid
+N14	MESH:D008111 T26	liver function
+N15	CHEBI:28834 T28	deoxycholic acid
+N16	GENE:406906 T29	MIR122
+N17	CHEBI:9907 T30	ursodeoxycholic acid
+N18	CHEBI:22586 T32	antioxidant
+N19	NCIT:C38849 T33	Phenylalanine, Tyrosine and Tryptophan Biosynthesis Pathway
+N20	CHEBI:22651 T34	ascorbate
+N21	CHEBI:28939 T35	N-acetyl-L-cysteine
+N22	MESH:D000087527 T37	Uremic Toxins
+N23	CHEBI:18089 T38	N-benzoylglycine
+N24	MESH:C408690 T39	4-cresol sulfate
+N25	NCBITAXON:1578 T40	Lactobacillus
+N26	NCBITAXON:1678 T41	Bifidobacterium
+N27	CHEBI:33234 T43	vitamin E
+N28	MESH:D000087527 T46	Uremic Toxins
+N29	NCIT:C50634 T47	Liver Dysfunction
+N30	OCHV:C0232741 T49	liver function
+N31	NCIT:C38849 T50	Phenylalanine, Tyrosine and Tryptophan Biosynthesis Pathway
+A10	Factual E1
+A11	Factual E2
+A12	Factual E4
+A13	Factual E5
+A14	Factual E6
+A15	Factual E7
+A16	Factual E8
+A17	Factual E9
+A18	Factual E10
+A19	Factual E11
+A20	Factual E12
+A21	Factual E13
+A22	Factual E14
+A23	Factual E15
+A24	Factual E16
+A25	Factual E17
+A26	Factual E18
+A27	Factual E19
+A28	Factual E26
+A29	Factual E27

@@ -1,0 +1,138 @@
+T1	Food 0 13	Red Raspberry
+T2	Nutrient 18 40	Fructo-Oligosaccharide
+T3	Measurement 58 78	Metabolic Biomarkers
+T4	Population 106 129	Adults with Prediabetes
+T5	Disease 118 129	Prediabetes
+T6	Methodology 133 168	Randomized Crossover Clinical Trial
+T7	Measurement 229 251	cardiometabolic status
+T8	Physiology 338 354	metabolic health
+T9	Food 432 447	red raspberries
+T10	Food 449 452	RRB
+T11	Nutrient 471 493	fructo-oligosaccharide
+T12	Nutrient 495 498	FOS
+T13	IMPROVES 517 524	improve
+T14	Measurement 525 559	biomarkers of cardiometabolic risk
+T15	Population 563 627	individuals with prediabetes (PreDM) and insulin resistance (IR)
+T16	Disease 593 598	PreDM
+T17	Disease 604 622	insulin resistance
+T18	Physiology 624 626	IR
+T19	Disease 580 591	prediabetes
+T20	Population 710 730	Adults with PreDM-IR
+T21	Disease 722 730	PreDM-IR
+T22	Chemical 770 785	fasting glucose
+T23	Measurement 805 812	HOMA-IR
+T24	Chemical 904 919	fasting glucose
+T25	Measurement 939 946	HOMA-IR
+T26	Methodology 977 1003	randomized crossover trial
+T27	Food 1075 1078	RRB
+T28	DietPattern 1114 1126	RRB + 8g FOS
+T29	Methodology 1256 1274	shotgun sequencing
+T30	Physiology 1375 1390	glucoregulation
+T31	Physiology 1392 1408	lipid metabolism
+T32	Measurement 1410 1434	anti-inflammatory status
+T33	Measurement 1440 1453	anthropometry
+T34	Nutrient 2562 2574	(poly)phenol
+T35	Disease 1527 1535	PreDM-IR
+T36	Food 1537 1540	RRB
+T37	DECREASES 1557 1564	reduced
+T38	Measurement 1565 1575	hepatic-IR
+T39	Physiology 1615 1627	plasma total
+T40	Chemical 1632 1647	LDL cholesterol
+T41	Nutrient 1739 1742	FOS
+T42	DietPattern 1744 1753	RRB + FOS
+T43	IMPROVES 1755 1763	improved
+T44	Physiology 1764 1779	β-cell function
+T45	Measurement 1781 1803	insulin secretion rate
+T46	Measurement 1832 1849	Disposition Index
+T47	AFFECTS 1887 1908	no significant effect
+T48	Chemical 1912 1930	plasma cholesterol
+T49	Food 1953 1956	RRB
+T50	INCREASES 1957 1966	increased
+T51	Microorganism 1967 1986	Eubacterium eligens
+T52	DECREASES 2000 2009	decreased
+T53	Microorganism 2010 2029	Ruminococcus gnavus
+T54	DietPattern 2052 2061	RRB + FOS
+T55	INCREASES 2062 2071	increased
+T56	Microorganism 2072 2091	Bifidobacterium spp
+T57	DECREASES 2106 2115	decreased
+T58	Microorganism 2116 2132	Blautia wexlerae
+T59	Microorganism 2183 2192	R. gnavus
+T60	POS_ASSOCIATED_WITH 2197 2218	positively correlated
+T61	Measurement 2224 2234	hepatic-IR
+T62	Microorganism 2240 2250	E. eligens
+T63	Microorganism 2255 2282	Bifidobacterium catenulatum
+T64	NEG_ASSOCIATED_WITH 2288 2309	negatively correlated
+T65	Chemical 2315 2341	cholesterol concentrations
+T66	Microorganism 2377 2396	Bifidobacterium spp
+T67	DECREASES 2417 2424	reduced
+T68	Microorganism 2425 2434	R. gnavus
+T69	ASSOCIATED_WITH 2440 2450	associated
+T70	Physiology 2456 2478	metabolic improvements
+T71	Population 2482 2502	adults with PreDM-IR
+T72	Disease 2494 2502	PreDM-IR
+T73	Nutrient 413 425	(poly)phenol
+T74	HAS_COMPONENT 426 431	dense
+T75	Nutrient 500 509	prebiotic
+T76	Nutrient 2575 2578	FOS
+E1	IMPROVES:T13 Theme:T14 Agent:T11
+E2	IMPROVES:T13 Theme:T14 Agent:T9
+E3	DECREASES:T37 Agent:T36 Theme:T38
+E4	DECREASES:T37 Agent:T36 Theme:T39
+E5	DECREASES:T37 Agent:T36 Theme:T40
+E6	IMPROVES:T43 Agent:T42 Theme:T44
+E7	AFFECTS:T47 Agent:T42 Theme:T48
+E8	INCREASES:T50 Agent:T49 Theme:T51
+E9	DECREASES:T52 Agent:T49 Theme:T53
+E10	INCREASES:T55 Agent:T54 Theme:T56
+E11	DECREASES:T57 Agent:T54 Theme:T58
+E12	POS_ASSOCIATED_WITH:T60 Agent:T59 Theme:T61
+E13	NEG_ASSOCIATED_WITH:T64 Agent:T63 Theme:T65
+E14	NEG_ASSOCIATED_WITH:T64 Agent:T62 Theme:T65
+E15	DECREASES:T67 Agent:T66 Theme:T68
+E16	ASSOCIATED_WITH:T69 Theme:T66 Theme2:T70
+E17	HAS_COMPONENT:T74 Agent:T9 Theme:T73
+A1	Factuality E1 Unknown
+A2	Factuality E2 Unknown
+A3	Factuality E7 Negated
+N1	Reference T1 FOODON:00003729	red raspberry (whole)
+N2	Reference T2 CHEBI:190523	fructooligosaccharide
+N3	Reference T3 NCIT:C18520	Metabolic Marker
+N4	Reference T5 NCIT:C122685	Prediabetes
+N5	Reference T9 FOODON:00003729	red raspberry (whole)
+N6	Reference T10 FOODON:00003729	red raspberry (whole)
+N7	Reference T11 CHEBI:190523	fructooligosaccharide
+N8	Reference T12 CHEBI:190523	fructooligosaccharide
+N9	Reference T14 MESH:D000083202	Cardiometabolic Risk Factors
+N10	Reference T16 NCIT:C122685	Prediabetes
+N11	Reference T17 NCIT:C113101	Insulin Resistance
+N12	Reference T18 NCIT:C113101	Insulin Resistance
+N13	Reference T19 NCIT:C122685	Prediabetes
+N14	Reference T22 NCIT:C94312	Blood Glucose
+N15	Reference T23 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N16	Reference T24 NCIT:C94312	Blood Glucose
+N17	Reference T25 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N18	Reference T27 FOODON:00003729	red raspberry (whole)
+N19	Reference T31 NCIT:C19405	Lipid Metabolic Process
+N20	Reference T33 MESH:D000886	Anthropometry
+N21	Reference T34 CHEBI:26195	Polyphenol
+N22	Reference T36 FOODON:00003729	red raspberry (whole)
+N23	Reference T39 NCIT:C13356	Plasma
+N24	Reference T40 CHEBI:47774	low-density lipoprotein cholesterol
+N25	Reference T41 CHEBI:190523	fructooligosaccharide
+N26	Reference T44 NCIT:C123455	Beta-Cell Function Measurement
+N27	Reference T45 MESH:D000078790	Insulin Secretion
+N28	Reference T48 OCHV:C0858034	plasma cholesterol
+N29	Reference T49 FOODON:00003729	red raspberry (whole)
+N30	Reference T51 NCBITAXON:39485	Lachnospira eligens
+N31	Reference T53 NCBITAXON:33038	[Ruminococcus] gnavus
+N32	Reference T56 NCBITAXON:1678	Bifidobacterium
+N33	Reference T58 NCBITAXON:418240	Blautia wexlerae
+N34	Reference T59 NCBITAXON:33038	[Ruminococcus] gnavus
+N35	Reference T62 NCBITAXON:39485	Lachnospira eligens
+N36	Reference T63 NCBITAXON:1686	Bifidobacterium catenulatum
+N37	Reference T65 NCIT:C369	Cholesterol
+N38	Reference T66 NCBITAXON:1678	Bifidobacterium
+N39	Reference T68 NCBITAXON:33038	[Ruminococcus] gnavus
+N40	Reference T73 CHEBI:26195	Polyphenol
+N41	Reference T75 MESH:D056692	Prebiotics
+N42	Reference T76 CHEBI:190523	fructooligosaccharide

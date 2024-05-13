@@ -1,0 +1,10 @@
+Infusion of donor feces affects the gut–brain axis in humans with metabolic syndrome
+
+Objective
+Increasing evidence indicates that intestinal microbiota play a role in diverse metabolic processes via intestinal butyrate production. Human bariatric surgery data suggest that the gut-brain axis is also involved in this process, but the underlying mechanisms remain unknown.
+Methods
+We compared the effect of fecal microbiota transfer (FMT) from post-Roux-en-Y gastric bypass (RYGB) donors vs oral butyrate supplementation on (123I-FP-CIT-determined) brain dopamine transporter (DAT) and serotonin transporter (SERT) binding as well as stable isotope-determined insulin sensitivity at baseline and after 4 weeks in 24 male and female treatment-naïve metabolic syndrome subjects. Plasma metabolites and fecal microbiota were also determined at these time points.
+Results
+We observed an increase in brain DAT after donor FMT compared to oral butyrate that reduced this binding. However, no effect on body weight and insulin sensitivity was demonstrated after post-RYGB donor feces transfer in humans with metabolic syndrome. Increases in fecal levels of Bacteroides uniformis were significantly associated with an increase in DAT, whereas increases in Prevotella spp. showed an inverse association. Changes in the plasma metabolites glycine, betaine, methionine, and lysine (associated with the S-adenosylmethionine cycle) were also associated with altered striatal DAT expression.
+Conclusions
+Although more and larger studies are needed, our data suggest a potential gut microbiota-driven modulation of brain dopamine and serotonin transporters in human subjects with obese metabolic syndrome. These data also suggest the presence of a gut-brain axis in humans that can be modulated.

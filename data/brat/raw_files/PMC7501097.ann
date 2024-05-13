@@ -1,0 +1,79 @@
+T1	Nutrient 0 9	Prebiotic
+T2	AFFECTS 10 16	effect
+T3	Nutrient 20 40	inulin-type fructans
+T4	Metabolite 66 89	short-chain fatty acids
+T5	Disease 93 108	type 2 diabetes
+T6	Methodology 112 139	randomised controlled trial
+T7	Disease 205 220	type 2 diabetes
+T8	Physiology 281 299	glucose regulation
+T9	AFFECTS 353 359	effect
+T10	Nutrient 363 383	inulin-type fructans
+T11	Metabolite 413 436	short-chain fatty acids
+T12	Metabolite 438 442	SCFA
+T13	Population 447 476	patients with type 2 diabetes
+T14	Disease 461 476	type 2 diabetes
+T15	Methodology 502 536	placebo controlled crossover study
+T17	Nutrient 599 619	inulin-type fructans
+T18	Nutrient 634 647	oligofructose
+T19	Nutrient 652 658	inulin
+T20	Nutrient 678 690	maltodextrin
+T21	Methodology 814 858	high-throughput 16S rRNA amplicon sequencing
+T22	Metabolite 863 867	SCFA
+T23	Biospecimen 871 877	faeces
+T24	Methodology 898 917	vacuum distillation
+T25	Methodology 930 948	gas chromatography
+T26	Nutrient 973 993	inulin-type fructans
+T27	Physiology 1077 1095	bifidogenic effect
+T28	Microorganism 1186 1214	Bifidobacterium adolescentis
+T29	Microorganism 1236 1247	Bacteroides
+T30	AFFECTS 1129 1144	positive effect
+T31	Metabolite 1295 1305	total SCFA
+T32	Metabolite 1307 1318	acetic acid
+T33	Metabolite 1323 1337	propionic acid
+T34	Nutrient 1358 1367	prebiotic
+T35	INCREASES 1263 1269	higher
+T36	Nutrient 1405 1420	prebiotic fibre
+T37	AFFECTS 1425 1435	no effects
+T38	Metabolite 1460 1472	butyric acid
+T39	Nutrient 1554 1574	inulin-type fructans
+T40	Physiology 1593 1611	bifidogenic effect
+T41	INCREASES 1624 1633	increased
+T42	Metabolite 1652 1663	faecal SCFA
+T43	Nutrient 1755 1775	inulin-type fructans
+T44	INCREASES 1821 1829	increase
+T45	Physiology 1830 1852	microbial fermentation
+T46	Disease 1856 1871	type 2 diabetes
+E1	AFFECTS:T2 Agent:T3 Theme:T4
+E2	AFFECTS:T9 Agent:T10 Theme:T11
+E3	AFFECTS:T30 Agent:T26 Theme:T28
+E4	AFFECTS:T30 Agent:T26 Theme:T29
+E5	INCREASES:T35 Agent:T34 Theme:T31
+E6	INCREASES:T35 Agent:T34 Theme:T32
+E7	INCREASES:T35 Agent:T34 Theme:T33
+E8	AFFECTS:T37 Agent:T36 Theme:T38
+E9	INCREASES:T41 Agent:T39 Theme:T42
+E10	INCREASES:T44 Agent:T43 Theme:T45
+A1	Factuality E1 Unknown
+A2	Factuality E2 Unknown
+A3	Factuality E8 Negated
+N1	Reference T1 MESH:D056692	Prebiotics
+N2	Reference T4 CHEBI:26666	short-chain fatty acid
+N3	Reference T5 NCIT:C26747	Type 2 Diabetes Mellitus
+N4	Reference T7 NCIT:C26747	Type 2 Diabetes Mellitus
+N5	Reference T11 CHEBI:26666	short-chain fatty acid
+N6	Reference T12 CHEBI:26666	short-chain fatty acid
+N7	Reference T14 NCIT:C26747	Type 2 Diabetes Mellitus
+N8	Reference T18 MESH:C120489	oligofructose
+N9	Reference T19 CHEBI:15443	inulin
+N10	Reference T20 CHEBI:25140	maltodextrin
+N11	Reference T22 CHEBI:26666	short-chain fatty acid
+N12	Reference T28 NCBITAXON:1680	Bifidobacterium adolescentis
+N13	Reference T29 NCBITAXON:816	Bacteroides
+N14	Reference T31 CHEBI:26666	short-chain fatty acid
+N15	Reference T32 CHEBI:15366	acetic acid
+N16	Reference T33 CHEBI:30768	propionic acid
+N17	Reference T34 MESH:D056692	Prebiotics
+N18	Reference T36 NCIT:C68492	Dietary Fiber
+N19	Reference T38 CHEBI:30772	butyric acid
+N20	Reference T42 CHEBI:26666	short-chain fatty acid
+N21	Reference T46 NCIT:C26747	Type 2 Diabetes Mellitus

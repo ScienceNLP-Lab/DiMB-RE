@@ -1,0 +1,565 @@
+T1	Nutrient 28 42	dietary fibers
+T2	Food 63 68	bread
+T3	Population 118 150	subjects at cardiometabolic risk
+T4	Physiology 166 194	cardiometabolic risk factors
+T5	Food 487 492	bread
+T6	Disease 203 215	dyslipidemia
+T7	Disease 220 238	insulin resistance
+T8	INCREASES 1481 1490	increased
+T9	DiversityMetric 275 298	gut microbiota richness
+T10	Nutrient 369 383	dietary fibers
+T11	Nutrient 385 387	DF
+T12	DiversityMetric 315 338	gut microbiota richness
+T13	ASSOCIATED_WITH 302 306	link
+T14	Nutrient 458 460	DF
+T15	Methodology 708 764	double-blind, randomized, cross-over, twice 8-week study
+T16	Population 656 688	subjects at cardiometabolic risk
+T17	Measurement 130 150	cardiometabolic risk
+T18	Measurement 668 688	cardiometabolic risk
+T19	Food 794 808	standard bread
+T20	Food 803 808;812 843	bread enriched with a 7-dietary fiber
+T21	Biospecimen 929 934	stool
+T22	Methodology 1048 1068	shotgun metagenomics
+T23	DECREASES 1156 1165	decreased
+T24	Microorganism 1166 1186	Bacteroides vulgatus
+T25	INCREASES 1199 1208	increased
+T26	Microorganism 1209 1235	Parabacteroides distasonis
+T27	Microorganism 1237 1268	Fusicatenibacter saccharivorans
+T28	Microorganism 1286 1304	Acutalibacteraceae
+T29	Microorganism 1325 1339	Eisenbergiella
+T30	Food 1112 1129	Multi-fiber bread
+T31	Enzyme 1440 1460	glycoside hydrolases
+T32	Enzyme 1462 1469	CAZymes
+T33	NEG_ASSOCIATED_WITH 255 265	associated
+T34	NEG_ASSOCIATED_WITH 1495 1516	negatively correlated
+T35	Food 1648 1665	multi-fiber bread
+T36	DECREASES 1666 1675	decreased
+T37	Food 1641 1646	bread
+T38	HAS_COMPONENT 43 45	in
+T39	Measurement 6526 6529	BMI
+T40	Measurement 1791 1795	HOMA
+T41	Nutrient 1858 1860	DF
+T42	AFFECTS 69 77	modifies
+T43	Measurement 97 114	metabolic profile
+T44	Measurement 508 528	cardiometabolic risk
+T45	Measurement 619 642	cardiometabolic profile
+T46	AFFECTS 546 553	impacts
+T47	Measurement 1074 1097	cardiometabolic profile
+T48	Chemical 1676 1693	total cholesterol
+T49	Chemical 1716 1731	LDL cholesterol
+T50	Chemical 1754 1761	insulin
+T51	IMPROVES 1982 1989	improve
+T52	Measurement 1990 2013	cardiometabolic profile
+T53	Chemical 6763 6768	HDL-C
+T54	Disease 1608 1619	insulinemia
+T55	Chemical 1582 1603	postprandial glycemia
+T56	Measurement 1532 1566	total/incremental area under curve
+T57	Measurement 1568 1577	tAUC/iAUC
+T58	Population 496 528	subjects at cardiometabolic risk
+T59	Chemical 6797 6802	LDL-C
+T60	Measurement 6661 6677	Blood biomarkers
+T61	Measurement 6612 6629	Hip circumference
+T62	Population 6386 6392	female
+T63	Population 6393 6397	male
+T64	Chemical 6831 6838	Glucose
+T65	Measurement 6562 6581	Waist circumference
+T66	Measurement 7229 7232	BMI
+T67	Measurement 7234 7249	body mass index
+T68	Chemical 7251 7253	TG
+T69	Chemical 7255 7267	triglyceride
+T70	Chemical 7269 7271	TC
+T71	Chemical 7273 7290	total cholesterol
+T72	Chemical 7292 7297	HDL-C
+T73	Chemical 7299 7335	high-density lipoprotein cholesterol
+T74	Chemical 7337 7342	LDL-C
+T75	Chemical 7344 7379	low-density lipoprotein cholesterol
+T76	Chemical 7381 7387	hs-CRP
+T77	Chemical 7389 7424	high sensitivity C reactive protein
+T78	Measurement 7426 7431	HbA1c
+T79	Chemical 7433 7452	glycated hemoglobin
+T80	Measurement 7479 7507	cardiometabolic risk profile
+T81	Population 7576 7579	men
+T82	Population 7584 7589	women
+T83	Disease 7645 7657	dyslipidemic
+T84	Chemical 7664 7677	triglycerides
+T85	Chemical 7679 7681	TG
+T86	Chemical 7694 7730	high-density lipoprotein cholesterol
+T87	Chemical 7732 7737	HDL-C
+T88	Chemical 7751 7786	low-density lipoprotein cholesterol
+T89	Chemical 7788 7793	LDL-C
+T90	Chemical 7807 7824	total cholesterol
+T91	Chemical 7826 7828	TC
+T92	Disease 7848 7869	fasting hyperglycemia
+T93	Disease 7874 7882	diabetes
+T94	Chemical 7896 7902	hs-CRP
+T95	Chemical 7904 7939	high-sensitivity C-Reactive Protein
+T96	Disease 7945 7957	hypertension
+T97	Food 8082 8104	multi-fiber (MF) bread
+T98	Food 8520 8530	vegetables
+T99	Food 8536 8542	fruits
+T100	Nutrient 8267 8280	dietary fiber
+T101	Nutrient 8467 8472	fiber
+T102	Food 8316 8321	bread
+T103	Nutrient 8377 8382	fiber
+T104	Food 8627 8644	multi-fiber bread
+T105	Chemical 15667 15679	Glucose tAUC
+T106	Food 8742 8759	multi-fiber bread
+T107	Physiology 17716 17735	glucose metabolisms
+T108	Physiology 17700 17711;17724 17735	cholesterol metabolisms
+T109	Measurement 6493 6499	Height
+T110	Microorganism 8712 8715	MSP
+T111	AFFECTS 8730 8738	impacted
+T112	Food 8797 8805	MF bread
+T113	Physiology 6456 6462	Weight
+T114	Microorganism 8912 8936	Bacteroides vulgatus msp
+T115	DECREASES 8956 8965	decreased
+T116	Microorganism 9023 9053	Parabacteroides distasonis msp
+T117	Microorganism 9078 9113	Fusicatenibacter saccharivorans msp
+T118	Microorganism 9142 9177	unclassified Acutalibacteraceae msp
+T119	Microorganism 9211 9242	unclassified Eisenbergiella msp
+T120	INCREASES 9281 9290	increased
+T121	DiversityMetric 9474 9505	Bray-Curtis dissimilarity index
+T122	Food 9528 9533	bread
+T123	DiversityMetric 9591 9622	Bray-Curtis dissimilarity index
+T124	INCREASES 9645 9651	larger
+T125	Food 9657 9674	multi-fiber bread
+T126	Microorganism 10517 10520	MSP
+T127	DiversityMetric 9806 9837	Bray-Curtis dissimilarity index
+T128	Food 9894 9902	MF bread
+T130	Food 10232 10249	multi-fiber bread
+T132	DiversityMetric 10357 10365	richness
+T134	DiversityMetric 10481 10489	richness
+T136	Microorganism 10522 10541	Metagenomic Species
+T137	Food 10703 10720	multi-fiber bread
+T139	Nutrient 10800 10814	dietary fibers
+T140	Enzyme 10842 10849	CAZymes
+T141	Enzyme 10923 10929	CAZyme
+T142	Microorganism 10956 10959	MSP
+T143	Enzyme 11004 11010	CAZyme
+T144	Enzyme 11050 11056	CAZyme
+T145	Food 11067 11075	MF bread
+T147	AFFECTS 11076 11084	impacted
+T148	Enzyme 11111 11118	CAZymes
+T149	Enzyme 11376 11383	CAZymes
+T150	Enzyme 11394 11413	glycoside hydrolase
+T151	Enzyme 11415 11417	GH
+T152	Enzyme 11477 11497	glycosyl-transferase
+T153	Enzyme 11499 11501	GT
+T154	Enzyme 11511 11515	GT17
+T155	Enzyme 11538 11545	CAZymes
+T156	DECREASES 11528 11537	decreased
+T157	INCREASES 11366 11375	increased
+T158	Enzyme 11556 11576	polysaccharide lyase
+T159	Enzyme 11578 11580	PL
+T160	Enzyme 11590 11594	PL26
+T161	Enzyme 11600 11607	GH13_29
+T162	Enzyme 11648 11651	GHs
+T163	Enzyme 11429 11435	GH30_2
+T164	Enzyme 11437 11443	GH43_8
+T165	Enzyme 11445 11452	GH43_28
+T166	Enzyme 11454 11461	GH43_33
+T167	Enzyme 11467 11471	GH76
+T168	Enzyme 11737 11751	β-D-xylosidase
+T169	Microorganism 11757 11772	rumen bacterium
+T170	Microorganism 11774 11782	ADO20355
+T171	ASSOCIATED_WITH 11752 11756	from
+T172	Enzyme 12109 12129	endo-α-1,6-mannanase
+T173	Enzyme 11854 11877	β-D-galactofuranosidase
+T174	Microorganism 11883 11905	Bacteroides salyersiae
+T175	Microorganism 11907 11915	EIY66405
+T176	ASSOCIATED_WITH 12130 12134	from
+T177	Enzyme 11971 11994	α-L-arabinofuranosidase
+T178	Microorganism 12000 12027	Halothermothrix orenii H168
+T179	Microorganism 12029 12037	ACL70803
+T180	ASSOCIATED_WITH 11878 11882	from
+T181	ASSOCIATED_WITH 11995 11999	from
+T182	Microorganism 12135 12153	Bacillus circulans
+T183	Microorganism 12155 12163	BAA75632
+T184	Enzyme 12261 12268	GH43_28
+T185	Enzyme 12326 12328	GH
+T186	Microorganism 12352 12374	P. distasonis msp_0012
+T187	ASSOCIATED_WITH 12343 12348	found
+T188	Microorganism 12407 12433	F. saccharivorans msp_0154
+T189	Enzyme 12435 12442	GH43_28
+T190	Microorganism 12468 12491	Eisenbergiella msp_0215
+T191	Enzyme 12493 12497	GH76
+T192	Microorganism 12641 12654	P. distasonis
+T193	Enzyme 12677 12684	CAZymes
+T194	Microorganism 12764 12777	P. distasonis
+T195	Enzyme 12590 12594	GH76
+T196	Enzyme 12577 12584	GH43_33
+T197	Enzyme 12568 12575	GH43_28
+T198	Enzyme 12560 12566	GH43_8
+T199	Enzyme 12552 12558	GH30_2
+T200	Enzyme 11657 11663	GH30_2
+T201	Enzyme 11812 11818	GH43_8
+T202	Enzyme 11923 11930	GH43_33
+T203	INCREASES 13005 13014	increased
+T204	Food 13020 13028	MF bread
+T206	Physiology 12876 12918	cysteine pathway of methionine degradation
+T207	Physiology 13100 13143	mercaptan pathway of methionine degradation
+T208	Metabolite 13294 13317	Short-chain fatty acids
+T209	AFFECTS 13335 13348	not modulated
+T210	Food 13434 13451	multi-fiber bread
+T212	IMPROVES 13452 13473	significantly improve
+T213	Measurement 13474 13487	lipid profile
+T214	Physiology 13492 13511	insulin sensitivity
+T215	Food 13523 13540	multi-fiber bread
+T217	Measurement 13570 13583	lipid profile
+T218	Physiology 13588 13607	insulin sensitivity
+T219	Measurement 13674 13694	metabolic parameters
+T220	Food 16361 16378	multi-fiber bread
+T222	Food 13627 13644	multi-fiber bread
+T224	Methodology 16399 16509	linear mixed model for repeated measures with heterogeneous Toeplitz or autoregressive as covariance structure
+T225	Food 16511 16513	MF
+T226	Food 16515 16532	multi-fiber bread
+T228	Measurement 16554 16557	BMI
+T229	Measurement 16559 16574	body mass index
+T230	Physiology 16576 16579	RMR
+T231	Physiology 16581 16603	resting metabolic rate
+T232	Measurement 16605 16612	HOMA IR
+T233	Measurement 16614 16664	homeostasic model assessment of insulin resistance
+T234	Chemical 16666 16668	TC
+T235	Chemical 16670 16687	total cholesterol
+T236	Chemical 16689 16704	HDL cholesterol
+T237	Chemical 16706 16742	high-density lipoprotein cholesterol
+T238	Chemical 16744 16749	LDL-C
+T239	Chemical 16751 16786	low-density lipoprotein cholesterol
+T240	Chemical 16788 16790	TG
+T241	Chemical 16792 16804	triglyceride
+T242	Chemical 16812 16837	non-esterified fatty acid
+T243	Chemical 16806 16810	NEFA
+T244	Chemical 16839 16845	hs-CRP
+T245	Chemical 16847 16882	high sensitivity C-reactive protein
+T246	Food 16975 16983	MF bread
+T248	DECREASES 16998 17007	decreased
+T249	Chemical 17008 17025	total cholesterol
+T250	Chemical 17027 17029	TC
+T251	Chemical 17042 17077	low-density lipoprotein cholesterol
+T252	Chemical 17079 17084	LDL-C
+T253	Chemical 17096 17103	insulin
+T254	Measurement 17122 17150	homeostasis model assessment
+T255	Measurement 17152 17156	HOMA
+T256	AFFECTS 17198 17219	no significant impact
+T257	Food 17223 17231	MF bread
+T259	Measurement 17235 17249;17267 17277	anthropometric parameters
+T260	Measurement 17254 17277	inflammatory parameters
+T261	Physiology 17296 17330	postprandial metabolism of glucose
+T262	Food 17591 17608	multi-fiber bread
+T264	Food 17798 17815	multi-fiber bread
+T266	Microorganism 17829 17842	P. distasonis
+T267	Microorganism 17847 17874	unclassified Eisenbergiella
+T268	Physiology 17876 17898	methionine degradation
+T269	Enzyme 17913 17916	GHs
+T270	Enzyme 17918 17924	GH30_2
+T271	Enzyme 17926 17932	GH43_8
+T272	Enzyme 17934 17941	GH43_28
+T273	Enzyme 17943 17950	GH43_33
+T274	Enzyme 17952 17956	GH76
+T275	NEG_ASSOCIATED_WITH 17963 17984	negatively correlated
+T277	Methodology 18106 18138	standardized test meal challenge
+T278	Measurement 17994 18087	peaks and total/incremental area under curve (tAUC/iAUC) of postprandial glycemia and insulin
+T279	Food 13751 13768	multi-fiber bread
+T281	Measurement 13989 13992	BMI
+T282	Measurement 14075 14083	Fat mass
+T283	Measurement 14163 14182	Waist circumference
+T284	Measurement 14267 14287	Height circumference
+T285	Measurement 14373 14401	Fasting metabolic parameters
+T286	Chemical 14521 14525	NEFA
+T287	Chemical 14616 14623	Insulin
+T288	Measurement 14710 14714	HOMA
+T289	Chemical 14789 14791	TG
+T290	Chemical 14869 14886	Total cholesterol
+T291	Chemical 14967 14982	HDL cholesterol
+T292	Chemical 15060 15075	LDL cholesterol
+T293	Chemical 15156 15161	CRPus
+T294	Physiology 15240 15243	RMR
+T295	Chemical 15423 15426	LBP
+T296	Gene 15339 15343	CD14
+T297	Measurement 15510 15524	Ratio LBP/CD14
+T298	Measurement 15599 15632	Postprandial metabolic parameters
+T299	Chemical 15778 15790	Glucose iAUC
+T300	Measurement 15889 15901	Glucose peak
+T301	Chemical 15978 15990	Insulin tAUC
+T302	Chemical 16095 16107	Insulin iAUC
+T303	Chemical 16213 16225	Insulin peak
+T304	Chemical 6871 6877	hs-CRP
+T305	Measurement 6908 6913	HbA1c
+T306	Physiology 6938 6952	Blood pressure
+T307	Physiology 6975 6992	Systolic pressure
+T308	Physiology 7022 7040	Diastolic pressure
+T309	Nutrient 7075 7088	dietary fiber
+T310	Food 8506 8518	starchy food
+T3811	Nutrient 6342 6355	dietary fiber
+E1	NEG_ASSOCIATED_WITH:T33 Theme:T7 Agent:T9
+E2	NEG_ASSOCIATED_WITH:T33 Theme:T6 Agent:T9
+E3	ASSOCIATED_WITH:T13 Theme:T10 Theme2:T12
+E4	DECREASES:T23 Agent:T30 Theme:T24
+E5	INCREASES:T25 Agent:T30 Theme:T26
+E6	INCREASES:T25 Agent:T30 Theme:T27
+E7	INCREASES:T25 Agent:T30 Theme:T28
+E8	INCREASES:T25 Agent:T30 Theme:T29
+E9	NEG_ASSOCIATED_WITH:T34 Agent:T31 Theme:T54
+E10	NEG_ASSOCIATED_WITH:T34 Agent:T31 Theme:T55
+E11	DECREASES:T36 Agent:T35 Theme:T48
+E12	AFFECTS:T42 Theme:T43 Agent:T1
+E13	AFFECTS:T46 Theme:T45 Agent:T14
+E14	DECREASES:T36 Agent:T35 Theme:T49
+E15	DECREASES:T36 Agent:T35 Theme:T50
+E16	DECREASES:T36 Agent:T35 Theme:T40
+E17	IMPROVES:T51 Agent:T41 Theme:T52
+E18	INCREASES:T8 Theme:T31 Agent:T30
+E19	HAS_COMPONENT:T38 Theme:T1 Agent:T2
+E20	INCREASES:T120 Agent:T106 Theme:T116
+E21	INCREASES:T120 Agent:T106 Theme:T117
+E22	INCREASES:T120 Agent:T106 Theme:T119
+E23	INCREASES:T120 Agent:T106 Theme:T118
+E24	INCREASES:T124 Agent:T125 Theme:T123
+E25	AFFECTS:T111 Agent:T106 Theme:T110
+E26	AFFECTS:T147 Agent:T145 Theme:T148
+E27	DECREASES:T156 Agent:T137 Theme:T160
+E28	INCREASES:T157 Agent:T137 Theme:T163
+E29	DECREASES:T156 Agent:T137 Theme:T161
+E30	INCREASES:T157 Agent:T137 Theme:T154
+E31	INCREASES:T157 Agent:T137 Theme:T164
+E32	INCREASES:T157 Agent:T137 Theme:T165
+E33	INCREASES:T157 Agent:T137 Theme:T166
+E34	INCREASES:T157 Agent:T137 Theme:T167
+E35	ASSOCIATED_WITH:T180 Theme:T173 Theme2:T174
+E36	ASSOCIATED_WITH:T181 Theme:T177 Theme2:T178
+E37	ASSOCIATED_WITH:T171 Theme:T168 Theme2:T169
+E38	ASSOCIATED_WITH:T176 Theme:T172 Theme2:T182
+E39	ASSOCIATED_WITH:T187 Theme:T185 Theme2:T186
+E40	INCREASES:T203 Agent:T204 Theme:T206
+E41	AFFECTS:T209 Theme:T208 Agent:T204
+E42	IMPROVES:T212 Agent:T210 Theme:T213
+E43	IMPROVES:T212 Agent:T210 Theme:T214
+E44	DECREASES:T248 Agent:T246 Theme:T249
+E45	DECREASES:T248 Agent:T246 Theme:T251
+E46	DECREASES:T248 Agent:T246 Theme:T253
+E47	DECREASES:T248 Agent:T246 Theme:T254
+E48	AFFECTS:T256 Agent:T257 Theme:T259
+E49	AFFECTS:T256 Agent:T257 Theme:T260
+E50	AFFECTS:T256 Theme:T261 Agent:T257
+E51	NEG_ASSOCIATED_WITH:T275 Theme:T278 Agent:T266
+E52	NEG_ASSOCIATED_WITH:T275 Theme:T278 Agent:T267
+E53	NEG_ASSOCIATED_WITH:T275 Theme:T278 Agent:T268
+E54	NEG_ASSOCIATED_WITH:T275 Theme:T278 Agent:T270
+E55	NEG_ASSOCIATED_WITH:T275 Theme:T278 Agent:T271
+E56	NEG_ASSOCIATED_WITH:T275 Theme:T278 Agent:T272
+E57	NEG_ASSOCIATED_WITH:T275 Theme:T278 Agent:T273
+E58	NEG_ASSOCIATED_WITH:T275 Theme:T278 Agent:T274
+E1911	DECREASES:T115 Theme:T114 Agent:T106
+A1	Factuality E13 Unknown
+A2	Factuality E17 Possible
+A3	Factuality E48 Negated
+A4	Factuality E49 Negated
+A5	Factuality E50 Negated
+A211	Factuality E41 Negated
+N1	Reference T1 NCIT:C68492	Dietary Fiber
+N2	Reference T2 NCIT:C178203	Bread
+N3	Reference T4 MESH:D000083202	Cardiometabolic Risk Factors
+N4	Reference T5 NCIT:C178203	Bread
+N5	Reference T6 NCIT:C80385	Dyslipidemia
+N6	Reference T7 NCIT:C113101	Insulin Resistance
+N7	Reference T10 NCIT:C68492	Dietary Fiber
+N8	Reference T11 NCIT:C68492	Dietary Fiber
+N9	Reference T14 NCIT:C68492	Dietary Fiber
+N10	Reference T17 MESH:D000083202	Cardiometabolic Risk Factors
+N11	Reference T18 MESH:D000083202	Cardiometabolic Risk Factors
+N12	Reference T19 NCIT:C178203	Bread
+N13	Reference T20 FOODON:03303712	bread (high fiber)
+N14	Reference T24 NCBITAXON:821	Phocaeicola vulgatus
+N15	Reference T26 NCBITAXON:823	Parabacteroides distasonis
+N16	Reference T27 NCBITAXON:1150298	Fusicatenibacter saccharivorans
+N17	Reference T29 NCBITAXON:1432051	Eisenbergiella
+N18	Reference T30 FOODON:03303712	bread (high fiber)
+N19	Reference T31 MESH:D006026	Glycoside Hydrolases
+N20	Reference T35 FOODON:03303712	bread (high fiber)
+N21	Reference T37 NCIT:C178203	Bread
+N22	Reference T39 NCIT:C16358	Body Mass Index
+N23	Reference T40 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N24	Reference T41 NCIT:C68492	Dietary Fiber
+N25	Reference T43 MESH:D055442	Metabolome
+N26	Reference T44 MESH:D000083202	Cardiometabolic Risk Factors
+N27	Reference T48 NCIT:C105586	Cholesterol Measurement
+N28	Reference T49 CHEBI:47774	low-density lipoprotein cholesterol
+N29	Reference T50 NCIT:C2271	Insulin
+N30	Reference T53 CHEBI:47775	high-density lipoprotein cholesterol
+N31	Reference T54 NCIT:C2271	Insulin
+N32	Reference T55 NCIT:C129778	2-Hour Postprandial Glucose
+N33	Reference T56 NCIT:C64774	Area Under Curve
+N34	Reference T57 NCIT:C64774	Area Under Curve
+N35	Reference T59 CHEBI:47774	low-density lipoprotein cholesterol
+N36	Reference T61 NCIT:C100947	Hip Circumference
+N37	Reference T64 CHEBI:17234	glucose
+N38	Reference T65 NCIT:C100948	Waist Circumference
+N39	Reference T66 NCIT:C16358	Body Mass Index
+N40	Reference T67 NCIT:C16358	Body Mass Index
+N41	Reference T68 CHEBI:17855	triglycerides
+N42	Reference T69 CHEBI:17855	triglyceride
+N43	Reference T70 NCIT:C105586	Cholesterol Measurement
+N44	Reference T71 NCIT:C105586	Cholesterol Measurement
+N45	Reference T72 CHEBI:47775	high-density lipoprotein cholesterol
+N46	Reference T73 CHEBI:47775	high-density lipoprotein cholesterol
+N47	Reference T74 CHEBI:47774	low-density lipoprotein cholesterol
+N48	Reference T75 CHEBI:47774	low-density lipoprotein cholesterol
+N49	Reference T76 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N50	Reference T77 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N51	Reference T78 NCIT:C64849	Glycosylated Hemoglobin Measurement
+N52	Reference T79 MESH:D006442	Glycated Hemoglobin
+N53	Reference T80 MESH:D000083202	Cardiometabolic Risk Factors
+N54	Reference T83 NCIT:C80385	Dyslipidemia
+N55	Reference T84 CHEBI:17855	triglyceride
+N56	Reference T85 CHEBI:17855	triglycerides
+N57	Reference T86 CHEBI:47775	high-density lipoprotein cholesterol
+N58	Reference T87 CHEBI:47775	high-density lipoprotein cholesterol
+N59	Reference T88 CHEBI:47774	low-density lipoprotein cholesterol
+N60	Reference T89 CHEBI:47774	low-density lipoprotein cholesterol
+N61	Reference T90 NCIT:C105586	Cholesterol Measurement
+N62	Reference T91 NCIT:C105586	Cholesterol Measurement
+N63	Reference T92 NCIT:C26797	Hyperglycemia
+N64	Reference T93 NCIT:C2985	Diabetes Mellitus
+N65	Reference T94 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N66	Reference T95 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N67	Reference T96 NCIT:C3117	Hypertension
+N68	Reference T97 FOODON:03303712	bread (high fiber)
+N69	Reference T98 FOODON:03315308	vegetable (whole or parts)
+N70	Reference T99 NCIT:C71972	Fruit
+N71	Reference T100 NCIT:C68492	Dietary Fiber
+N72	Reference T101 NCIT:C1502	Fiber
+N73	Reference T102 NCIT:C178203	Bread
+N74	Reference T103 NCIT:C1502	Fiber
+N75	Reference T104 FOODON:03303712	bread (high fiber)
+N76	Reference T106 FOODON:03303712	bread (high fiber)
+N77	Reference T107 OCHV:41587	glucose metabolism
+N78	Reference T108 OCHV:C1156530	cholesterol metabolism
+N79	Reference T109 NCIT:C25347	Height
+N80	Reference T112 FOODON:03303712	bread (high fiber)
+N81	Reference T113 NCIT:C25208	Weight
+N82	Reference T114 NCBITAXON:821	Phocaeicola vulgatus
+N83	Reference T116 NCBITAXON:823	Parabacteroides distasonis
+N84	Reference T117 NCBITAXON:1150298	Fusicatenibacter saccharivorans
+N85	Reference T119 NCBITAXON:2652273	unclassified Eisenbergiella
+N86	Reference T122 NCIT:C178203	Bread
+N87	Reference T125 FOODON:03303712	bread (high fiber)
+N88	Reference T128 FOODON:03303712	bread (high fiber)
+N89	Reference T130 FOODON:03303712	bread (high fiber)
+N90	Reference T137 FOODON:03303712	bread (high fiber)
+N91	Reference T139 NCIT:C68492	Dietary Fiber
+N92	Reference T145 FOODON:03303712	bread (high fiber)
+N93	Reference T150 MESH:D006026	Glycoside Hydrolases
+N94	Reference T151 MESH:D006026	Glycoside Hydrolases
+N95	Reference T152 NCIT:C17434	Glycosyltransferase
+N96	Reference T153 NCIT:C17434	Glycosyltransferase
+N97	Reference T154 NCIT:C17434	Glycosyltransferase
+N98	Reference T158 MESH:D011133	Polysaccharide-Lyases
+N99	Reference T159 MESH:D011133	Polysaccharide-Lyases
+N100	Reference T160 MESH:D011133	Polysaccharide-Lyases
+N101	Reference T161 MESH:D006026	Glycoside Hydrolases
+N102	Reference T162 MESH:D006026	Glycoside Hydrolases
+N103	Reference T163 MESH:D006026	Glycoside Hydrolases
+N104	Reference T164 MESH:D006026	Glycoside Hydrolases
+N105	Reference T165 MESH:D006026	Glycoside Hydrolases
+N106	Reference T166 MESH:D006026	Glycoside Hydrolases
+N107	Reference T167 MESH:D006026	Glycoside Hydrolases
+N108	Reference T168 MESH:C026579	exo-1,4-beta-D-xylosidase
+N109	Reference T169 NCBITAXON:2267272	rumen bacterium
+N110	Reference T172 MESH:C020106	endo-1-6-D-mannanase
+N111	Reference T173 MESH:C023112	exo-beta-D-galactofuranosidase
+N112	Reference T174 NCBITAXON:291644	Bacteroides salyersiae
+N113	Reference T177 MESH:C019713	alpha-N-arabinofuranosidase
+N114	Reference T178 NCBITAXON:31909	Halothermothrix orenii
+N115	Reference T182 NCBITAXON:1397	Niallia circulans
+N116	Reference T184 MESH:D006026	Glycoside Hydrolases
+N117	Reference T185 MESH:D006026	Glycoside Hydrolases
+N118	Reference T186 NCBITAXON:823	Parabacteroides distasonis
+N119	Reference T188 NCBITAXON:1150298	Fusicatenibacter saccharivorans
+N120	Reference T189 MESH:D006026	Glycoside Hydrolases
+N121	Reference T190 NCBITAXON:1432051	Eisenbergiella
+N122	Reference T191 MESH:D006026	Glycoside Hydrolases
+N123	Reference T192 NCBITAXON:823	Parabacteroides distasonis
+N124	Reference T194 NCBITAXON:823	Parabacteroides distasonis
+N125	Reference T195 MESH:D006026	Glycoside Hydrolases
+N126	Reference T196 MESH:D006026	Glycoside Hydrolases
+N127	Reference T197 MESH:D006026	Glycoside Hydrolases
+N128	Reference T198 MESH:D006026	Glycoside Hydrolases
+N129	Reference T199 MESH:D006026	Glycoside Hydrolases
+N130	Reference T200 MESH:D006026	Glycoside Hydrolases
+N131	Reference T201 MESH:D006026	Glycoside Hydrolases
+N132	Reference T202 MESH:D006026	Glycoside Hydrolases
+N133	Reference T204 FOODON:03303712	bread (high fiber)
+N134	Reference T208 CHEBI:26666	short-chain fatty acid
+N135	Reference T210 FOODON:03303712	bread (high fiber)
+N136	Reference T213 OCHV:C0200382	Lipid panel
+N137	Reference T214 OCHV:C0920563	insulin sensitivity
+N138	Reference T215 FOODON:03303712	bread (high fiber)
+N139	Reference T217 OCHV:C0200382	Lipid panel
+N140	Reference T218 OCHV:C0920563	insulin sensitivity
+N141	Reference T220 FOODON:03303712	bread (high fiber)
+N142	Reference T222 FOODON:03303712	bread (high fiber)
+N143	Reference T225 FOODON:03303712	bread (high fiber)
+N144	Reference T226 FOODON:03303712	bread (high fiber)
+N145	Reference T228 NCIT:C16358	Body Mass Index
+N146	Reference T229 NCIT:C16358	Body Mass Index
+N147	Reference T230 NCIT:C126083	Basal Metabolic Rate
+N148	Reference T231 NCIT:C126083	Basal Metabolic Rate
+N149	Reference T232 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N150	Reference T233 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N151	Reference T234 NCIT:C105586	Cholesterol Measurement
+N152	Reference T235 NCIT:C105586	Cholesterol Measurement
+N153	Reference T236 CHEBI:47775	high-density lipoprotein cholesterol
+N154	Reference T237 CHEBI:47775	high-density lipoprotein cholesterol
+N155	Reference T238 CHEBI:47774	low-density lipoprotein cholesterol
+N156	Reference T239 CHEBI:47774	low-density lipoprotein cholesterol
+N157	Reference T240 CHEBI:17855	triglycerides
+N158	Reference T241 CHEBI:17855	triglyceride
+N159	Reference T242 NCIT:C80200	Non-esterified Fatty Acids Measurement
+N160	Reference T243 NCIT:C80200	Non-esterified Fatty Acids Measurement
+N161	Reference T244 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N162	Reference T245 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N163	Reference T246 FOODON:03303712	bread (high fiber)
+N164	Reference T249 NCIT:C105586	Cholesterol Measurement
+N165	Reference T250 NCIT:C105586	Cholesterol Measurement
+N166	Reference T251 CHEBI:47774	low-density lipoprotein cholesterol
+N167	Reference T252 CHEBI:47774	low-density lipoprotein cholesterol
+N168	Reference T253 NCIT:C2271	Insulin
+N169	Reference T254 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N170	Reference T255 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N171	Reference T257 FOODON:03303712	bread (high fiber)
+N172	Reference T259 OCHV:C0815129	anthropometric measurement
+N173	Reference T261 NCIT:C129778	2-Hour Postprandial Glucose
+N174	Reference T262 FOODON:03303712	bread (high fiber)
+N175	Reference T264 FOODON:03303712	bread (high fiber)
+N176	Reference T266 NCBITAXON:823	Parabacteroides distasonis
+N177	Reference T267 NCBITAXON:2652273	unclassified Eisenbergiella
+N178	Reference T269 MESH:D006026	Glycoside Hydrolases
+N179	Reference T270 MESH:D006026	Glycoside Hydrolases
+N180	Reference T271 MESH:D006026	Glycoside Hydrolases
+N181	Reference T272 MESH:D006026	Glycoside Hydrolases
+N182	Reference T273 MESH:D006026	Glycoside Hydrolases
+N183	Reference T274 MESH:D006026	Glycoside Hydrolases
+N184	Reference T279 FOODON:03303712	bread (high fiber)
+N185	Reference T281 NCIT:C16358	Body Mass Index
+N186	Reference T282 NCIT:C158256	Fat Mass
+N187	Reference T283 NCIT:C100948	Waist Circumference
+N188	Reference T285 NCIT:C18520	Metabolic Marker
+N189	Reference T286 NCIT:C80200	Non-esterified Fatty Acids Measurement
+N190	Reference T287 NCIT:C2271	Insulin
+N191	Reference T288 NCIT:C100447	Homeostatic Model Assessment of Insulin Resistance
+N192	Reference T289 CHEBI:17855	triglycerides
+N193	Reference T290 NCIT:C105586	Cholesterol Measurement
+N194	Reference T291 CHEBI:47775	high-density lipoprotein cholesterol
+N195	Reference T292 CHEBI:47774	low-density lipoprotein cholesterol
+N196	Reference T293 NCIT:C60651	C-Reactive Protein
+N197	Reference T294 NCIT:C126083	Basal Metabolic Rate
+N198	Reference T295 MESH:C061257	lipopolysaccharide-binding protein
+N199	Reference T296 GENE:929	CD14
+N200	Reference T304 NCIT:C157114	High Sensitivity C-Reactive Protein Measurement
+N201	Reference T305 NCIT:C64849	Glycosylated Hemoglobin Measurement
+N202	Reference T306 NCIT:C54706	Blood Pressure
+N203	Reference T307 NCIT:C25298	Systolic Blood Pressure
+N204	Reference T308 NCIT:C25299	Diastolic Blood Pressure
+N205	Reference T309 NCIT:C68492	Dietary Fiber
+N206	Reference T310 CHEBI:28017	starch
+N207	Reference T3811 NCIT:C68492	Dietary Fiber

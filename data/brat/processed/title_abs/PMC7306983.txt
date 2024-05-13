@@ -1,0 +1,10 @@
+Mediterranean diet intervention in overweight and obese subjects lowers plasma cholesterol and causes changes in the gut microbiome and metabolome independently of energy intake
+
+Objectives
+This study aimed to explore the effects of an isocaloric Mediterranean diet (MD) intervention on metabolic health, gut microbiome and systemic metabolome in subjects with lifestyle risk factors for metabolic disease.
+Design
+Eighty-two healthy overweight and obese subjects with a habitually low intake of fruit and vegetables and a sedentary lifestyle participated in a parallel 8-week randomised controlled trial. Forty-three participants consumed an MD tailored to their habitual energy intakes (MedD), and 39 maintained their regular diets (ConD). Dietary adherence, metabolic parameters, gut microbiome and systemic metabolome were monitored over the study period.
+Results
+Increased MD adherence in the MedD group successfully reprogrammed subjects’ intake of fibre and animal proteins. Compliance was confirmed by lowered levels of carnitine in plasma and urine. Significant reductions in plasma cholesterol (primary outcome) and faecal bile acids occurred in the MedD compared with the ConD group. Shotgun metagenomics showed gut microbiome changes that reflected individual MD adherence and increase in gene richness in participants who reduced systemic inflammation over the intervention. The MD intervention led to increased levels of the fibre-degrading Faecalibacterium prausnitzii and of genes for microbial carbohydrate degradation linked to butyrate metabolism. The dietary changes in the MedD group led to increased urinary urolithins, faecal bile acid degradation and insulin sensitivity that co-varied with specific microbial taxa.
+Conclusion
+Switching subjects to an MD while maintaining their energy intake reduced their blood cholesterol and caused multiple changes in their microbiome and metabolome that are relevant in future strategies for the improvement of metabolic health.

@@ -1,0 +1,335 @@
+T6	Food 103 106	SRB
+T7	Food 110 113	NBP
+T8	DiversityMetric 146 154	richness
+T9	AFFECTS 71 78	effects
+T10	Microorganism 117 144	stool bacterial communities
+T11	DiversityMetric 188 197	diversity
+T12	DiversityMetric 267 291	Stool bacterial richness
+T13	DiversityMetric 296 305	diversity
+T18	Microorganism 960 975	stool community
+T19	Food 552 555	SRB
+T20	DiversityMetric 573 581	richness
+T21	DiversityMetric 586 595	diversity
+T22	INCREASES 642 662	significantly higher
+T24	INCREASES 754 763	increased
+T25	Food 794 797	NBP
+T26	DiversityMetric 703 711	richness
+T27	DiversityMetric 838 846	richness
+T28	DiversityMetric 850 859	diversity
+T33	Food 1398 1401	SRB
+T34	Food 1384 1387	SRB
+T35	AFFECTS 1359 1378	significant changes
+T36	Microorganism 1307 1334	Stool microbial composition
+T37	INCREASES 1418 1427	increased
+T38	Microorganism 1441 1454	Bacteroidetes
+T39	DECREASES 1459 1468	decreased
+T40	Microorganism 1486 1496	Firmicutes
+T41	DECREASES 1526 1531	lower
+T42	DiversityMetric 1532 1562	Firmicutes:Bacteroidetes ratio
+T43	DiversityMetric 1658 1682	Firmicutes:Bacteroidetes
+T44	Food 1712 1715	SRB
+T45	Food 1887 1890	NBP
+T46	AFFECTS 1801 1811	No changes
+T47	Microorganism 1815 1836	microbial composition
+T48	AFFECTS 1742 1767	no significant difference
+T50	Food 2141 2144	NBP
+T51	Microorganism 2272 2292	Bacteroides fragilis
+T52	DECREASES 2293 2302	decreased
+T53	Microorganism 2323 2338	Lachnobacterium
+T54	Food 2383 2386	NBP
+T55	INCREASES 2339 2348	increased
+T56	Microorganism 2452 2472	Bacteroides fragilis
+T57	Microorganism 2514 2525	Clostridium
+T58	Microorganism 2530 2542	Anaerostipes
+T59	Food 2578 2581	NBP
+T60	DECREASES 2421 2430	reduction
+T61	DECREASES 2552 2557	lower
+T62	Food 2650 2653	NBP
+T63	INCREASES 2609 2618	increased
+T64	Microorganism 2680 2691	Lachnospira
+T65	Microorganism 2696 2707	Coprococcus
+T66	Food 2716 2719	NBP
+T67	Food 2840 2843	SRB
+T68	Microorganism 2872 2884	Ruminococcus
+T69	Microorganism 2902 2916	Ethanoligenens
+T70	DECREASES 2922 2931	decreased
+T71	Food 2975 2978	SRB
+T72	Microorganism 3028 3039	Coprococcus
+T73	Microorganism 3044 3062	Bacteroides ovatus
+T74	INCREASES 3068 3077	increased
+T75	Microorganism 3108 3126	Bacteroides ovatus
+T76	INCREASES 3153 3161	increase
+T77	Food 3521 3524	SRB
+T78	Microorganism 3672 3687	Lachnobacterium
+T79	INCREASES 3598 3606	increase
+T87	Food 4818 4821	SRB
+T88	Food 4826 4829	NBP
+T91	INCREASES 4895 4903	enriched
+T92	Food 4919 4922	SRB
+T93	DECREASES 5222 5231	decreasec
+T94	Physiology 4993 5032	Biosynthesis of unsaturated fatty acids
+T95	Physiology 5036 5064	Phenylpropanoid biosynthesis
+T96	Physiology 5068 5092	Other glycan degradation
+T97	Physiology 5096 5125	Starch and sucrose metabolism
+T98	Physiology 5129 5154	Streptomycin biosynthesis
+T99	Physiology 5162 5185	Sphingolipid metabolism
+T101	Physiology 5266 5305	Biosynthesis of unsaturated fatty acids
+T102	Food 5349 5352	SRB
+T105	Food 5450 5453	SRB
+T106	Food 5497 5500	NBP
+T107	Food 5585 5588	SRB
+T108	Food 5593 5596	NBP
+T109	HAS_COMPONENT 5602 5609	contain
+T110	Nutrient 5610 5642	highly fermentable carbohydrates
+T111	Metabolite 5715 5720	SCFAs
+T112	Metabolite 5735 5742	acetate
+T113	Metabolite 5744 5754	propionate
+T114	Metabolite 5759 5767	butyrate
+T115	Physiology 5802 5831	Starch and sucrose metabolism
+T116	INCREASES 5838 5846	enriched
+T117	Food 5863 5866	SRB
+T118	Metabolite 5868 5873	SCFAs
+T120	Food 5968 5971	SRB
+T121	Food 5976 5979	NBP
+T122	Metabolite 6029 6034	SCFAs
+T123	AFFECTS 5997 6019	No significant changes
+T124	Food 6075 6078	NBP
+T125	Food 6263 6266	SRB
+T126	AFFECTS 6268 6290	no significant changes
+T128	Metabolite 6300 6312	butyric acid
+T129	Metabolite 6359 6365;6380 6385	acetic acids
+T130	Metabolite 6370 6385	propionic acids
+T131	INCREASES 6405 6414	increased
+T132	Food 6420 6423	SRB
+T133	Metabolite 6522 6528;6543 6548	Acetic acids
+T134	Metabolite 6533 6548	propionic acids
+T135	Physiology 6567 6572;6593 6605	sugar fermentation
+T136	Physiology 6574 6580;6593 6605	starch fermentation
+T137	Physiology 6586 6605	glycan fermentation
+T139	Food 6714 6717	SRB
+T141	Metabolite 6725 6735;6751 6756	isobutyric acids
+T142	Metabolite 6740 6756	isovaleric acids
+T143	INCREASES 6787 6796	increases
+T144	Food 6818 6821	SRB
+T145	INTERACTS_WITH 5655 5666	metabolized
+T146	Microorganism 5670 5682	gut bacteria
+T147	INCREASES 6553 6563	byproducts
+T148	Metabolite 6869 6873	BCFA
+T149	Metabolite 7019 7029	bile acids
+T150	Food 7051 7054	SRB
+T151	Metabolite 7077 7093	deoxycholic acid
+T152	Metabolite 7095 7111	lithocholic acid
+T153	Metabolite 7113 7133	ursodeoxycholic acid
+T154	Metabolite 7135 7146	cholic acid
+T155	Metabolite 7152 7173	chenodeoxycholic acid
+T156	Food 7220 7223	SRB
+T158	Food 7301 7304	SRB
+T159	Metabolite 7323 7341	primary bile acids
+T160	Metabolite 7342 7353	cholic acid
+T161	Metabolite 7358 7374	chenodeoxycholic
+T162	DECREASES 7384 7392	downward
+T163	Metabolite 7452 7464	benzoic acid
+T164	Metabolite 7429 7440	polyphenols
+T165	Metabolite 7466 7494	3,4-dihydrophenylacetic acid
+T166	Metabolite 7496 7513	phenylacetic acid
+T167	Metabolite 7515 7537	3-phenylpropionic acid
+T168	Metabolite 7539 7565	3-hydroxyphenylacetic acid
+T169	Metabolite 7571 7603	4-hydroxy-3-methoxycinnamic acid
+T170	Metabolite 7645 7655	polyphenol
+T181	Microorganism 1122 1139	stool communities
+T210	Microorganism 1217 1232	stool community
+E3	AFFECTS:T9 Theme:T11 Agent:T6
+E4	AFFECTS:T9 Theme:T11 Agent:T7
+E5	INCREASES:T22 Agent:T19 Theme:T20
+E6	INCREASES:T22 Agent:T19 Theme:T21
+E7	INCREASES:T24 Agent:T25 Theme:T26
+E8	INCREASES:T37 Agent:T33 Theme:T38
+E9	AFFECTS:T35 Agent:T34 Theme:T36
+E10	DECREASES:T39 Agent:T33 Theme:T40
+E11	DECREASES:T41 Agent:T33 Theme:T42
+E12	AFFECTS:T46 Agent:T45 Theme:T47
+E13	AFFECTS:T48 Agent:T44 Theme:T43
+E14	DECREASES:T52 Theme:T51 Agent:T54
+E15	INCREASES:T55 Theme:T53 Agent:T54
+E16	DECREASES:T60 Theme:T56 Agent:T59
+E17	DECREASES:T61 Agent:T59 Theme:T57
+E18	DECREASES:T61 Agent:T59 Theme:T58
+E19	INCREASES:T63 Agent:T62 Theme:T64
+E20	INCREASES:T63 Agent:T62 Theme:T65
+E21	DECREASES:T70 Agent:T67 Theme:T68
+E22	DECREASES:T70 Agent:T67 Theme:T69
+E23	INCREASES:T74 Agent:T71 Theme:T73
+E24	INCREASES:T74 Agent:T71 Theme:T72
+E25	INCREASES:T76 Theme:T75 Agent:T71
+E26	INCREASES:T79 Agent:T77 Theme:T78
+E27	INCREASES:T91 Agent:T92 Theme:T94
+E28	INCREASES:T91 Agent:T92 Theme:T95
+E29	INCREASES:T91 Agent:T92 Theme:T96
+E30	INCREASES:T91 Agent:T92 Theme:T97
+E31	INCREASES:T91 Agent:T92 Theme:T98
+E32	INCREASES:T91 Agent:T92 Theme:T99
+E33	DECREASES:T93 Theme:T101 Agent:T102
+E34	HAS_COMPONENT:T109 Theme:T110 Agent:T107
+E35	HAS_COMPONENT:T109 Theme:T110 Agent:T108
+E36	INCREASES:T116 Theme:T115 Agent:T117
+E37	AFFECTS:T123 Theme:T122 Agent:T124
+E38	AFFECTS:T126 Theme:T128 Agent:T125
+E39	INCREASES:T131 Agent:T132 Theme:T129
+E40	INCREASES:T131 Agent:T132 Theme:T130
+E41	INCREASES:T147 Theme:T133 Agent:T135
+E42	INCREASES:T143 Agent:T144 Theme:T141
+E43	INCREASES:T143 Agent:T144 Theme:T142
+E44	INTERACTS_WITH:T145 Theme:T110 Theme2:T146
+E45	DECREASES:T162 Agent:T158 Theme:T161
+E46	DECREASES:T162 Agent:T158 Theme:T160
+E47	INCREASES:T147 Theme:T133 Agent:T136
+E48	INCREASES:T147 Theme:T133 Agent:T137
+E49	INCREASES:T147 Theme:T134 Agent:T135
+E50	INCREASES:T147 Theme:T134 Agent:T136
+E51	INCREASES:T147 Theme:T134 Agent:T137
+E62	AFFECTS:T9 Agent:T6 Theme:T10
+E66	AFFECTS:T9 Theme:T8 Agent:T6
+E67	AFFECTS:T9 Theme:T8 Agent:T7
+E68	AFFECTS:T9 Theme:T10 Agent:T7
+A1	Unknown E3
+A2	Unknown E4
+A3	Negated E13
+A4	Negated E37
+A5	Negated E38
+A9	Negated E12
+A10	Unknown E62
+A11	Unknown E66
+A12	Unknown E67
+A13	Unknown E68
+N3	FOODON:03306185 T6	rice bran
+N4	FOODON:03303554 T7	navy bean flour
+N5	FOODON:03306185 T19	rice bran
+N6	FOODON:03303554 T25	navy bean flour
+N7	FOODON:03306185 T33	rice bran
+N8	FOODON:03306185 T34	rice bran
+N9	NCBITAXON:976 T38	Bacteroidetes
+N10	NCBITAXON:1239 T40	Firmicutes
+N11	NCIT:C189550 T42	Firmicutes to Bacteroidetes Ratio Measurement
+N12	NCIT:C189550 T43	Firmicutes to Bacteroidetes Ratio Measurement
+N13	FOODON:03306185 T44	rice bran
+N14	FOODON:03303554 T45	navy bean flour
+N15	MESH:D064307 T47	Microbiota
+N16	FOODON:03303554 T50	navy bean flour
+N17	NCBITAXON:817 T51	Bacteroides fragilis
+N18	NCBITAXON:140625 T53	Lachnobacterium
+N19	FOODON:03303554 T54	navy bean flour
+N20	NCBITAXON:817 T56	Bacteroides fragilis
+N21	NCBITAXON:1485 T57	Clostridium
+N22	NCBITAXON:207244 T58	Anaerostipes
+N23	FOODON:03303554 T59	navy bean flour
+N24	FOODON:03303554 T62	navy bean flour
+N25	NCBITAXON:28050 T64	Lachnospira
+N26	NCBITAXON:33042 T65	Coprococcus
+N27	FOODON:03303554 T66	navy bean flour
+N28	FOODON:03306185 T67	rice bran
+N29	NCBITAXON:1263 T68	Ruminococcus
+N30	NCBITAXON:253238 T69	Ethanoligenens
+N31	FOODON:03306185 T71	rice bran
+N32	NCBITAXON:33042 T72	Coprococcus
+N33	NCBITAXON:28116 T73	Bacteroides ovatus
+N34	NCBITAXON:28116 T75	Bacteroides ovatus
+N35	FOODON:03306185 T77	rice bran
+N36	NCBITAXON:140625 T78	Lachnobacterium
+N37	FOODON:03306185 T87	rice bran
+N38	FOODON:03303554 T88	navy bean flour
+N39	FOODON:03306185 T92	rice bran
+N40	NCIT:C91425 T94	Biosynthesis of Unsaturated Fatty Acids Pathway
+N41	NCIT:C38867 T97	Starch and Sucrose Metabolism Pathway
+N42	NCIT:C38865 T99	Sphingolipid Metabolism Pathway
+N43	NCIT:C91425 T101	Biosynthesis of Unsaturated Fatty Acids Pathway
+N44	FOODON:03306185 T102	rice bran
+N45	FOODON:03306185 T105	rice bran
+N46	FOODON:03303554 T106	navy bean flour
+N47	FOODON:03306185 T107	rice bran
+N48	FOODON:03303554 T108	navy bean flour
+N49	CHEBI:26666 T111	short-chain fatty acid
+N50	CHEBI:30089 T112	acetate
+N51	CHEBI:17272 T113	propionate
+N52	CHEBI:17968 T114	butyrate
+N53	NCIT:C38867 T115	Starch and Sucrose Metabolism Pathway
+N54	FOODON:03306185 T117	rice bran
+N55	CHEBI:26666 T118	short-chain fatty acid
+N56	FOODON:03306185 T120	rice bran
+N57	FOODON:03303554 T121	navy bean flour
+N58	CHEBI:26666 T122	short-chain fatty acid
+N59	FOODON:03303554 T124	navy bean flour
+N60	FOODON:03306185 T125	rice bran
+N61	CHEBI:30772 T128	butyric acid
+N62	CHEBI:15366 T129	acetic acid
+N63	CHEBI:30768 T130	propionic acid
+N64	FOODON:03306185 T132	rice bran
+N65	CHEBI:15366 T133	acetic acid
+N66	CHEBI:30768 T134	propionic acid
+N67	FOODON:03306185 T139	rice bran
+N68	CHEBI:16135 T141	isobutyric acid
+N69	CHEBI:28484 T142	isovaleric acid
+N70	FOODON:03306185 T144	rice bran
+N71	NCBITAXON:2 T146	Bacteria
+N72	CHEBI:35819 T148	branched-chain fatty acid
+N73	CHEBI:3098 T149	bile acid
+N74	FOODON:03306185 T150	rice bran
+N75	CHEBI:28834 T151	deoxycholic acid
+N76	CHEBI:16325 T152	lithocholic acid
+N77	CHEBI:9907 T153	ursodeoxycholic acid
+N78	CHEBI:16359 T154	cholic acid
+N79	CHEBI:16755 T155	chenodeoxycholic acid
+N80	FOODON:03306185 T156	rice bran
+N81	FOODON:03306185 T158	rice bran
+N82	CHEBI:3098 T159	bile acid
+N83	CHEBI:16359 T160	cholic acid
+N84	CHEBI:16755 T161	chenodeoxycholic acid
+N85	CHEBI:30746 T163	benzoic acid
+N86	CHEBI:26195 T164	polyphenol
+N87	CHEBI:30745 T166	phenylacetic acid
+N88	CHEBI:28631 T167	3-phenylpropionic acid
+N89	CHEBI:17445 T168	3-hydroxyphenylacetic acid
+N90	CHEBI:17620 T169	ferulic acid
+N91	CHEBI:26195 T170	polyphenol
+A16	Factual E5
+A17	Factual E6
+A18	Factual E7
+A19	Factual E8
+A20	Factual E9
+A21	Factual E10
+A22	Factual E11
+A23	Factual E14
+A24	Factual E15
+A25	Factual E16
+A26	Factual E17
+A27	Factual E18
+A28	Factual E19
+A29	Factual E20
+A30	Factual E21
+A31	Factual E22
+A32	Factual E23
+A33	Factual E24
+A34	Factual E25
+A35	Factual E26
+A36	Factual E27
+A37	Factual E28
+A38	Factual E29
+A39	Factual E30
+A40	Factual E31
+A41	Factual E32
+A42	Factual E33
+A43	Factual E34
+A44	Factual E35
+A45	Factual E36
+A46	Factual E39
+A47	Factual E40
+A48	Factual E41
+A49	Factual E42
+A50	Factual E43
+A51	Factual E44
+A52	Factual E45
+A53	Factual E46
+A54	Factual E47
+A55	Factual E48
+A56	Factual E49
+A57	Factual E50
+A58	Factual E51

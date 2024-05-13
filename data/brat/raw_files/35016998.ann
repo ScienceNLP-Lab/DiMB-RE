@@ -1,0 +1,62 @@
+T1	Food 0 9	Raspberry
+T2	Physiology 50 75	immune-metabolic response
+T3	Methodology 88 123	whole blood transcriptome profiling
+T4	DietPattern 162 194	diets rich in phenolic compounds
+T5	Physiology 213 236	immune-metabolic health
+T6	IMPROVES 199 209	beneficial
+T7	Physiology 382 407	immune-metabolic response
+T8	Food 411 420	raspberry
+T9	Methodology 434 457	whole-blood RNAseq data
+T10	Food 500 511	raspberries
+T11	Methodology 594 637	partial least squares-discriminant analysis
+T12	Methodology 639 644	PLSDA
+T13	Methodology 650 673	hierarchical clustering
+T14	Methodology 675 706	Transcriptomic-based clustering
+T15	Food 850 859	raspberry
+T16	DECREASES 887 895	decrease
+T17	Chemical 899 912	triglycerides
+T18	Chemical 914 925	cholesterol
+T19	Chemical 930 948	C-reactive protein
+T20	Methodology 1090 1102	sparse PLSDA
+T21	Chemical 1221 1229	cytokine
+T22	Physiology 1242 1262	leukocyte activation
+T23	Physiology 1267 1282	immune response
+T24	Measurement 1374 1398	plasma lipidomic profile
+T25	Chemical 1460 1473	triglycerides
+T26	DECREASES 1448 1456	decrease
+T27	Chemical 1493 1513	phosphatidylcholines
+T28	INCREASES 1481 1489	increase
+T29	Food 1524 1533	raspberry
+T30	Measurement 1585 1604	metagenomic profile
+T31	Methodology 1623 1628	PLSDA
+T32	DiversityMetric 1671 1703	Firmicutes-to-Bacteroidota ratio
+T33	Methodology 1803 1843	transcriptomic-based clustering approach
+T34	Food 1912 1921	raspberry
+T35	Physiology 2081 2104	immune-metabolic health
+T38	Nutrient 176 194	phenolic compounds
+E1	IMPROVES:T6 Theme:T5 Agent:T4
+E2	DECREASES:T16 Agent:T15 Theme:T17
+E3	DECREASES:T16 Agent:T15 Theme:T18
+E4	DECREASES:T16 Agent:T15 Theme:T19
+E5	DECREASES:T26 Agent:T29 Theme:T25
+E6	INCREASES:T28 Agent:T29 Theme:T27
+N1	Reference T1 FOODON:00003433	raspberry (whole)
+N2	Reference T2 NCIT:C123623	Metabolic Response
+N3	Reference T7 NCIT:C123623	Metabolic Response
+N4	Reference T8 FOODON:00003433	raspberry (whole)
+N5	Reference T10 FOODON:00003433	raspberry (whole)
+N6	Reference T15 FOODON:00003433	raspberry (whole)
+N7	Reference T17 CHEBI:17855	triglyceride
+N8	Reference T18 NCIT:C369	Cholesterol
+N9	Reference T19 NCIT:C60651	C-Reactive Protein
+N10	Reference T21 NCIT:C20464	Cytokine
+N11	Reference T22 NCIT:C26280	Immune Cell Activation Process
+N12	Reference T23 MESH:D007109	Immunity
+N13	Reference T24 OCHV:C1278073	plasma lipids
+N14	Reference T25 CHEBI:17855	triglyceride
+N15	Reference T27 MESH:D010713	Phosphatidylcholines
+N16	Reference T29 FOODON:00003433	raspberry (whole)
+N17	Reference T30 MESH:D055442	Metabolome
+N18	Reference T32 NCIT:C189550	Firmicutes to Bacteroidetes Ratio Measurement
+N19	Reference T34 FOODON:00003433	raspberry (whole)
+N20	Reference T38 CHEBI:33853	phenols

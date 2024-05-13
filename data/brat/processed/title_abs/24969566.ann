@@ -1,0 +1,139 @@
+T1	Nutrient 0 20	Inulin-type fructans
+T2	AFFECTS 21 29	modulate
+T3	Microorganism 41 64	Bifidobacterium species
+T4	DECREASES 81 89	decrease
+T5	Metabolite 96 119	short-chain fatty acids
+T7	Disease 123 128	obese
+T8	Nutrient 156 176	Inulin-type fructans
+T9	Nutrient 178 181	ITF
+T10	Metabolite 324 347	short chain fatty acids
+T11	Metabolite 349 353	SCFA
+T13	Disease 372 377	obese
+T14	Nutrient 397 400	ITF
+T15	ASSOCIATED_WITH 416 428	associations
+T16	Microorganism 437 460	Bifidobacterium species
+T17	Metabolite 462 466	SCFA
+T18	Measurement 476 508	biological markers of metabolism
+T21	Disease 616 621	obese
+T22	Nutrient 686 689	ITF
+T23	Nutrient 702 714	maltodextrin
+T24	Microorganism 783 802	Bifidobacterium spp
+T28	Metabolite 854 858	SCFA
+T30	Nutrient 1466 1475	prebiotic
+T32	Microorganism 1010 1032	Bifidobacterium longum
+T33	Microorganism 1034 1067	Bifidobacterium pseudocatenulatum
+T34	Microorganism 1072 1100	Bifidobacterium adolescentis
+T35	INCREASES 1106 1129	significantly increased
+T36	Microorganism 1203 1212	B. longum
+T37	NEG_ASSOCIATED_WITH 1213 1234	negatively correlated
+T38	Chemical 1271 1280	endotoxin
+T39	Chemical 1266 1269	LPS
+T40	Metabolite 1299 1303	SCFA
+T41	Metabolite 1305 1312	acetate
+T42	Metabolite 1317 1327	propionate
+T43	POS_ASSOCIATED_WITH 1334 1355	positively correlated
+T44	Measurement 1361 1364	BMI
+T45	Chemical 1366 1385	fasting insulinemia
+T46	Measurement 1390 1418	homeostasis model assessment
+T47	Measurement 1420 1424	HOMA
+T48	DECREASES 1443 1462	significantly lower
+T49	Nutrient 1539 1542	ITF
+T50	AFFECTS 1567 1576	modulates
+T51	Microorganism 1577 1596	Bifidobacterium spp
+T52	DECREASES 1602 1611	decreases
+T53	Metabolite 1618 1622	SCFA
+T55	Disease 1640 1645	obese
+T56	Nutrient 1653 1656	ITF
+T57	IMPROVES 1657 1669	could lessen
+T58	Physiology 1670 1692	metabolic risk factors
+T59	ASSOCIATED_WITH 1693 1703	associated
+T60	Metabolite 1722 1726	SCFA
+T61	Disease 1744 1749	obese
+T63	Nutrient 1165 1174	prebiotic
+T64	Nutrient 183 193	prebiotics
+T66	Chemical 1246 1264	lipopolysaccharide
+E1	AFFECTS:T2 Agent:T1 Theme:T3
+E2	DECREASES:T4 Agent:T1 Theme:T5
+E3	ASSOCIATED_WITH:T15 Theme2:T16 Theme:T18
+E4	ASSOCIATED_WITH:T15 Theme:T17 Theme2:T16
+E5	ASSOCIATED_WITH:T15 Theme2:T18 Theme:T17
+E6	INCREASES:T35 Agent:T22 Theme:T34
+E7	NEG_ASSOCIATED_WITH:T37 Theme:T36 Agent:T38
+E8	INCREASES:T35 Agent:T22 Theme:T33
+E9	INCREASES:T35 Agent:T22 Theme:T32
+E10	POS_ASSOCIATED_WITH:T43 Agent:T44 Theme:T40
+E11	DECREASES:T48 Theme:T44 Agent:T22
+E12	AFFECTS:T50 Theme:T51 Agent:T49
+E13	DECREASES:T52 Theme:T53 Agent:T49
+E14	IMPROVES:T57 Agent:T56 Theme:T58
+E15	ASSOCIATED_WITH:T59 Agent:T58 Theme:T60
+E16	POS_ASSOCIATED_WITH:T43 Agent:T44 Theme:T41
+E17	POS_ASSOCIATED_WITH:T43 Agent:T44 Theme:T42
+E18	POS_ASSOCIATED_WITH:T43 Agent:T45 Theme:T40
+E19	POS_ASSOCIATED_WITH:T43 Agent:T45 Theme:T41
+E20	POS_ASSOCIATED_WITH:T43 Agent:T45 Theme:T42
+E21	POS_ASSOCIATED_WITH:T43 Agent:T46 Theme:T40
+E23	POS_ASSOCIATED_WITH:T43 Theme:T41 Agent:T46
+E24	POS_ASSOCIATED_WITH:T43 Theme:T42 Agent:T46
+E25	DECREASES:T48 Theme:T45 Agent:T22
+E26	DECREASES:T48 Theme:T46 Agent:T22
+A1	Unknown E14
+N1	NCBITAXON:1678 T3	Bifidobacterium
+N2	CHEBI:26666 T5	short-chain fatty acid
+N3	NCIT:C3283 T7	Obesity
+N4	CHEBI:26666 T10	short-chain fatty acid
+N5	CHEBI:26666 T11	short-chain fatty acid
+N6	NCIT:C3283 T13	Obesity
+N7	NCBITAXON:1678 T16	Bifidobacterium
+N8	CHEBI:26666 T17	short-chain fatty acid
+N9	NCIT:C18520 T18	Metabolic Marker
+N10	NCIT:C3283 T21	Obesity
+N11	CHEBI:25140 T23	maltodextrin
+N12	NCBITAXON:1678 T24	Bifidobacterium
+N13	CHEBI:26666 T28	short-chain fatty acid
+N14	MESH:D056692 T30	Prebiotics
+N15	NCBITAXON:216816 T32	Bifidobacterium longum
+N16	NCBITAXON:28026 T33	Bifidobacterium pseudocatenulatum
+N17	NCBITAXON:1680 T34	Bifidobacterium adolescentis
+N18	NCBITAXON:216816 T36	Bifidobacterium longum
+N19	NCIT:C50918 T38	Endotoxin
+N20	CHEBI:16412 T39	lipopolysaccharide
+N21	CHEBI:26666 T40	short-chain fatty acid
+N22	CHEBI:30089 T41	acetate
+N23	CHEBI:17272 T42	propionate
+N24	NCIT:C16358 T44	Body Mass Index
+N25	NCIT:C2271 T45	Insulin
+N26	NCIT:C100447 T46	Homeostatic Model Assessment of Insulin Resistance
+N27	NCIT:C100447 T47	Homeostatic Model Assessment of Insulin Resistance
+N28	NCBITAXON:1678 T51	Bifidobacterium
+N29	CHEBI:26666 T53	short-chain fatty acid
+N30	NCIT:C3283 T55	Obesity
+N31	CHEBI:26666 T60	short-chain fatty acid
+N32	NCIT:C3283 T61	Obesity
+N33	MESH:D056692 T63	Prebiotics
+N34	MESH:D056692 T64	Prebiotics
+N35	CHEBI:16412 T66	lipopolysaccharide
+A2	Factual E1
+A3	Factual E2
+A4	Factual E3
+A5	Factual E4
+A6	Factual E5
+A7	Factual E6
+A8	Factual E7
+A9	Factual E8
+A10	Factual E9
+A11	Factual E10
+A12	Factual E11
+A13	Factual E12
+A14	Factual E13
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19
+A20	Factual E20
+A21	Factual E21
+A22	Factual E23
+A23	Factual E24
+A24	Factual E25
+A25	Factual E26

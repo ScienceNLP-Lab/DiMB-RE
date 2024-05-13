@@ -1,0 +1,196 @@
+T1	Methodology 127 154	Randomized Controlled Trial
+T2	Food 0 6	Almond
+T3	Population 96 123	Healthy Adult Men and Women
+T4	Food 168 174	Almond
+T5	Food 394 400	almond
+T6	Methodology 474 534	controlled-feeding, randomized, five-period, crossover study
+T7	Measurement 14029 14032	BMI
+T8	Population 587 601	healthy adults
+T9	Food 658 665	almonds
+T10	Food 708 721	whole almonds
+T11	Food 747 769	whole, roasted almonds
+T12	Food 795 819	roasted, chopped almonds
+T13	Food 849 862	almond butter
+T14	Biospecimen 864 869	Fecal
+T15	Methodology 14107 14121	demultiplexing
+T16	Food 945 951	Almond
+T17	INCREASES 964 973	increased
+T18	Microorganism 1001 1012	Lachnospira
+T19	Microorganism 1014 1023	Roseburia
+T20	Microorganism 1029 1038	Dialister
+T21	Microorganism 1150 1161	Lachnospira
+T22	Microorganism 1163 1172	Roseburia
+T23	Microorganism 1178 1190	Oscillospira
+T24	Microorganism 1253 1262	Dialister
+T25	INCREASES 1243 1252	increased
+T26	Food 1330 1343	almond butter
+T27	Food 1396 1402	almond
+T28	Food 1539 1545	almond
+T29	Methodology 168 185	Almond processing
+T30	Methodology 0 6;23 33	Almond Processing
+T31	Methodology 394 400;417 427	almond processing
+T32	Methodology 14126 14143	quality filtering
+T33	Food 1124 1139	chopped almonds
+T34	INCREASES 1140 1149	increased
+T35	Food 1229 1242	whole almonds
+T36	Methodology 1539 1556	almond processing
+T37	DiversityMetric 14190 14194	OTUs
+T38	Physiology 226 246	metabolizable energy
+T39	DiversityMetric 14229 14232	OTU
+T40	Microorganism 14473 14483	Firmicutes
+T41	Microorganism 14496 14509	Bacteroidetes
+T42	Microorganism 14547 14561	Actinobacteria
+T43	DietPattern 1092 1109	almond treatments
+T44	Microorganism 14570 14584	Proteobacteria
+T45	Microorganism 14596 14611	Verrucomicrobia
+T46	Microorganism 14686 14701	Ruminococcaceae
+T47	Microorganism 14711 14726	Lachnospiraceae
+T48	Microorganism 14736 14750	Bacteroidaceae
+T49	Microorganism 14787 14799	Clostridales
+T50	Microorganism 14814 14829	Veillonellacaea
+T51	Microorganism 14838 14856	Bifodobacteriaceae
+T52	Microorganism 14869 14888	Verrucomicrobiaceae
+T53	Microorganism 15081 15092	Bacteroides
+T54	Microorganism 15107 15122	Ruminococcaceae
+T55	Microorganism 15137 15150	Clostridiales
+T56	Microorganism 15168 15183	Lachnospiraceae
+T57	Microorganism 15185 15196	Coprococcus
+T58	Microorganism 15198 15214	Faecalibacterium
+T59	Microorganism 15216 15228	Ruminococcus
+T60	Microorganism 15230 15245	Bifidobacterium
+T61	Microorganism 15247 15254	Blautia
+T62	Microorganism 15290 15304	Rikenellacaeae
+T63	Methodology 15475 15489	demultiplexing
+T64	Methodology 15494 15511	quality filtering
+T65	DiversityMetric 15557 15561	OTUs
+T66	DiversityMetric 15596 15599	OTU
+T67	Microorganism 15394 15402	Archaeal
+T68	Microorganism 15763 15768	Fungi
+T69	DiversityMetric 15868 15872	OTUs
+T70	DiversityMetric 16016 16020	OTUs
+T71	Food 16040 16053	whole almonds
+T72	Food 16148 16155	almonds
+T73	Food 16244 16250	almond
+T74	Microorganism 16412 16426	Actinobacteria
+T75	Food 16353 16359	almond
+T76	DECREASES 16372 16381	decreased
+T77	Microorganism 16446 16461	Bifidobacterium
+T78	Microorganism 16466 16481	Parabacteroides
+T79	Microorganism 16520 16531	Lachnospira
+T80	Microorganism 16533 16542	Roseburia
+T81	Microorganism 16544 16555	Clostridium
+T82	Microorganism 16561 16570	Dialister
+T83	Food 16723 16729	almond
+T84	Microorganism 16977 16988	Lachnospira
+T85	Microorganism 16990 16999	Roseburia
+T86	Microorganism 17005 17017	Oscillospira
+T87	Food 17030 17051	whole roasted almonds
+T88	INCREASES 17052 17061	increased
+T89	Microorganism 17099 17110	Lachnospira
+T90	Food 17116 17133	whole raw almonds
+T91	INCREASES 17134 17143	increased
+T92	Microorganism 17182 17191	Dialister
+T93	Food 17249 17262	almond butter
+T94	Food 17264 17270	Almond
+T95	AFFECTS 17291 17297	affect
+T96	DiversityMetric 17308 17323	alpha diversity
+T97	DiversityMetric 17327 17341	beta diversity
+T98	AFFECTS 219 225	impact
+T99	Food 16601 16608	almonds
+T100	INCREASES 16582 16591	increased
+T101	INCREASES 16941 16950	increased
+T102	Food 16925 16940	chopped almonds
+E1	INCREASES:T17 Agent:T16 Theme:T18
+E2	INCREASES:T17 Agent:T16 Theme:T19
+E3	INCREASES:T17 Agent:T16 Theme:T20
+E4	INCREASES:T25 Agent:T35 Theme:T24
+E5	INCREASES:T34 Agent:T33 Theme:T21
+E6	INCREASES:T34 Agent:T33 Theme:T22
+E7	INCREASES:T34 Agent:T33 Theme:T23
+E8	DECREASES:T76 Agent:T75 Theme:T74
+E9	DECREASES:T76 Agent:T75 Theme:T78
+E10	DECREASES:T76 Agent:T75 Theme:T77
+E11	INCREASES:T88 Agent:T87 Theme:T89
+E12	INCREASES:T91 Agent:T90 Theme:T92
+E13	AFFECTS:T95 Agent:T94 Theme:T96
+E14	AFFECTS:T95 Agent:T94 Theme:T97
+E15	AFFECTS:T98 Theme:T38 Agent:T4
+E16	INCREASES:T100 Agent:T99 Theme:T79
+E17	INCREASES:T100 Agent:T99 Theme:T82
+E18	INCREASES:T100 Agent:T99 Theme:T81
+E19	INCREASES:T100 Agent:T99 Theme:T80
+E20	INCREASES:T101 Theme:T84 Agent:T102
+E21	INCREASES:T101 Theme:T86 Agent:T102
+E22	INCREASES:T101 Theme:T85 Agent:T102
+A1	Factuality E13 Negated
+A2	Factuality E14 Negated
+N1	Reference T2 NCIT:C74458	Almond
+N2	Reference T4 NCIT:C74458	Almond
+N3	Reference T5 NCIT:C74458	Almond
+N4	Reference T7 NCIT:C16358	Body Mass Index
+N5	Reference T9 NCIT:C74458	Almond
+N6	Reference T10 FOODON:00003523	almond (whole)
+N7	Reference T11 FOODON:03311210	almond (dry, roasted)
+N8	Reference T12 FOODON:03311210	almond (dry, roasted)
+N9	Reference T13 FOODON:03310875	almond butter
+N10	Reference T16 NCIT:C74458	Almond
+N11	Reference T18 NCBITAXON:28050	Lachnospira
+N12	Reference T19 NCBITAXON:841	Roseburia
+N13	Reference T20 NCBITAXON:39948	Dialister
+N14	Reference T21 NCBITAXON:28050	Lachnospira
+N15	Reference T22 NCBITAXON:841	Roseburia
+N16	Reference T23 NCBITAXON:119852	Oscillospira
+N17	Reference T24 NCBITAXON:39948	Dialister
+N18	Reference T26 FOODON:03310875	almond butter
+N19	Reference T27 NCIT:C74458	Almond
+N20	Reference T28 NCIT:C74458	Almond
+N21	Reference T33 NCIT:C74458	Almond
+N22	Reference T35 FOODON:00003523	almond (whole)
+N23	Reference T40 NCBITAXON:1239	Firmicutes
+N24	Reference T41 NCBITAXON:976	Bacteroidetes
+N25	Reference T42 NCBITAXON:201174	Actinobacteria
+N26	Reference T43 NCIT:C74458	Almond
+N27	Reference T44 NCBITAXON:1224	Proteobacteria
+N28	Reference T45 NCBITAXON:74201	Verrucomicrobia
+N29	Reference T46 NCBITAXON:216572	Oscillospiraceae
+N30	Reference T47 NCBITAXON:186803	Lachnospiraceae
+N31	Reference T48 NCBITAXON:815	Bacteroidaceae
+N32	Reference T49 NCBITAXON:1898207	Clostridiales bacterium
+N33	Reference T50 NCBITAXON:31977	Veillonellaceae
+N34	Reference T51 NCBITAXON:31953	Bifidobacteriaceae
+N35	Reference T52 NCBITAXON:203557	Verrucomicrobiaceae
+N36	Reference T53 NCBITAXON:816	Bacteroides
+N37	Reference T54 NCBITAXON:216572	Oscillospiraceae
+N38	Reference T55 NCBITAXON:1898207	Clostridiales bacterium
+N39	Reference T56 NCBITAXON:186803	Lachnospiraceae
+N40	Reference T57 NCBITAXON:33042	Coprococcus
+N41	Reference T58 NCBITAXON:216851	Faecalibacterium
+N42	Reference T59 NCBITAXON:1263	Ruminococcus
+N43	Reference T60 NCBITAXON:1678	Bifidobacterium
+N44	Reference T61 NCBITAXON:572511	Blautia
+N45	Reference T62 NCBITAXON:171550	Rikenellaceae
+N46	Reference T67 NCBITAXON:2157	Archaea
+N47	Reference T68 NCBITAXON:4751	Fungi
+N48	Reference T71 FOODON:00003523	almond (whole)
+N49	Reference T72 NCIT:C74458	Almond
+N50	Reference T73 NCIT:C74458	Almond
+N51	Reference T74 NCBITAXON:201174	Actinobacteria
+N52	Reference T75 NCIT:C74458	Almond
+N53	Reference T77 NCBITAXON:1678	Bifidobacterium
+N54	Reference T78 NCBITAXON:375288	Parabacteroides
+N55	Reference T79 NCBITAXON:28050	Lachnospira
+N56	Reference T80 NCBITAXON:841	Roseburia
+N57	Reference T81 NCBITAXON:1485	Clostridium
+N58	Reference T82 NCBITAXON:39948	Dialister
+N59	Reference T83 NCIT:C74458	Almond
+N60	Reference T84 NCBITAXON:28050	Lachnospira
+N61	Reference T85 NCBITAXON:841	Roseburia
+N62	Reference T86 NCBITAXON:119852	Oscillospira
+N63	Reference T87 FOODON:03311210	almond (dry, roasted)
+N64	Reference T89 NCBITAXON:28050	Lachnospira
+N65	Reference T90 FOODON:03301355	almond (whole, raw)
+N66	Reference T92 NCBITAXON:39948	Dialister
+N67	Reference T93 FOODON:03310875	almond butter
+N68	Reference T94 NCIT:C74458	Almond
+N69	Reference T99 NCIT:C74458	Almond
+N70	Reference T102 NCIT:C74458	Almond

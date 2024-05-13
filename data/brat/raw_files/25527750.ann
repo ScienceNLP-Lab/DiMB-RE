@@ -1,0 +1,102 @@
+T1	Nutrient 0 5	Fiber
+T2	Nutrient 1398 1403	fiber
+T3	Nutrient 605 610	Fiber
+T4	Methodology 1591 1613	Bivariate correlations
+T5	Food 298 335	bars containing no supplemental fiber
+T6	Nutrient 352 364	polydextrose
+T7	Nutrient 379 397	soluble corn fiber
+T8	Methodology 1743 1773	Principal coordinates analysis
+T9	Methodology 1777 1798	Bray-Curtis distances
+T10	Methodology 756 795	whole-genome shotgun 454 pyrosequencing
+T11	Nutrient 1536 1548	polydextrose
+T12	POS_ASSOCIATED_WITH 1623 1643	positive correlation
+T13	Nutrient 1989 2001	polydextrose
+T14	Food 346 349	NFC
+T15	Methodology 1203 1242	whole-genome shotgun 454 pyrosequencing
+T16	Nutrient 1076 1081	fiber
+T17	Nutrient 1553 1556	SCF
+T18	DECREASES 627 636	decreased
+T19	Nutrient 399 402	SCF
+T20	Nutrient 1705 1710	fiber
+T21	POS_ASSOCIATED_WITH 1623 1643	positive correlation
+T22	Nutrient 2231 2236	fiber
+T23	INCREASES 1460 1470	increasing
+T26	Gene 2035 2069;2093 2103	genes associated with carbohydrate metabolism
+T28	DiversityMetric 1428 1458	Bacteroidetes:Firmicutes ratio
+T30	Microorganism 1497 1510	Bacteroidetes
+T31	Nutrient 1884 1890	fibers
+T32	Physiology 637 655	fecal putrefaction
+T33	Chemical 2071 2081	amino acid
+T35	Population 2334 2348	healthy adults
+T36	Chemical 2130 2139	cofactors
+T37	Nutrient 2144 2152	vitamins
+T38	Gene 2035 2056;2087 2103	genes associated with lipid metabolism
+T39	Nutrient 2057 2069	carbohydrate
+T40	Nutrient 1909 1912	SCF
+T41	Biospecimen 808 823	fecal specimens
+T42	Biospecimen 1171 1184	Fecal samples
+T43	Food 1586 1589	NFC
+T44	Gene 2035 2056;2071 2081;2093 2103	genes associated with amino acid metabolism
+T45	Chemical 2087 2092	lipid
+T47	Gene 2035 2056;2116 2129;2144 2152	genes associated with metabolism of vitamins
+T48	Gene 2035 2056;2116 2139	genes associated with metabolism of cofactors
+T49	AFFECTS 1947 1953	Shifts
+T50	AFFECTS 1947 1953	Shifts
+T51	AFFECTS 1947 1953	Shifts
+T52	AFFECTS 1947 1953	Shifts
+T53	Food 1942 1945	NFC
+T54	AFFECTS 1947 1953	Shifts
+T55	AFFECTS 1416 1423	shifted
+T56	AFFECTS 1947 1953	Shifts
+T57	AFFECTS 1947 1953	Shifts
+T58	AFFECTS 1947 1953	Shifts
+T60	Methodology 1344 1375	Whole-genome shotgun sequencing
+T61	Population 87 92	human
+T64	Methodology 131 158	randomized controlled trial
+T66	Measurement 1726 1741	body mass index
+T67	Nutrient 2006 2009	SCF
+T71	DiversityMetric 1656 1686	Bacteroidetes:Firmicutes ratio
+T75	Nutrient 1892 1904	polydextrose
+E1	POS_ASSOCIATED_WITH:T21 Theme:T66 Theme2:T71
+E2	AFFECTS:T49 Agent:T13 Theme:T38
+E3	AFFECTS:T57 Agent:T13 Theme:T44
+E4	POS_ASSOCIATED_WITH:T12 Agent:T20 Theme:T71
+E5	AFFECTS:T58 Agent:T13 Theme:T26
+E6	INCREASES:T23 Theme:T30 Agent:T11
+E8	AFFECTS:T51 Agent:T13 Theme:T47
+E9	AFFECTS:T54 Agent:T13 Theme:T48
+E10	DECREASES:T18 Theme:T32 Agent:T3
+E11	AFFECTS:T55 Theme:T28 Agent:T11
+E12	INCREASES:T23 Theme:T30 Agent:T17
+E13	AFFECTS:T49 Agent:T67 Theme:T26
+E14	AFFECTS:T50 Agent:T67 Theme:T38
+E15	AFFECTS:T49 Agent:T67 Theme:T47
+E16	AFFECTS:T52 Agent:T67 Theme:T48
+E17	AFFECTS:T56 Agent:T67 Theme:T44
+E20	AFFECTS:T55 Theme:T28 Agent:T17
+A1	Factuality E1 Negated
+N1	Reference T1 NCIT:C1502	Fiber
+N2	Reference T2 NCIT:C1502	Fiber
+N3	Reference T3 NCIT:C1502	Fiber
+N4	Reference T6 FOODON:03413188	polydextrose
+N5	Reference T7 NCIT:C192019	Soluble Corn Fiber Prebiotic Supplement
+N6	Reference T11 FOODON:03413188	polydextrose
+N7	Reference T13 FOODON:03413188	polydextrose
+N8	Reference T16 NCIT:C1502	Fiber
+N9	Reference T17 NCIT:C192019	Soluble Corn Fiber Prebiotic Supplement
+N10	Reference T19 NCIT:C192019	Soluble Corn Fiber Prebiotic Supplement
+N11	Reference T20 NCIT:C1502	Fiber
+N12	Reference T22 NCIT:C1502	Fiber
+N13	Reference T28 NCIT:C189550	Firmicutes to Bacteroidetes Ratio Measurement
+N14	Reference T30 NCBITAXON:976	Bacteroidetes
+N15	Reference T31 NCIT:C1502	Fiber
+N16	Reference T33 CHEBI:33709	amino acid
+N17	Reference T36 CHEBI:23357	cofactor
+N18	Reference T37 NCIT:C944	Vitamin
+N19	Reference T39 CHEBI:16646	carbohydrate
+N20	Reference T40 NCIT:C192019	Soluble Corn Fiber Prebiotic Supplement
+N21	Reference T45 CHEBI:18059	lipid
+N22	Reference T66 NCIT:C16358	Body Mass Index
+N23	Reference T67 NCIT:C192019	Soluble Corn Fiber Prebiotic Supplement
+N24	Reference T71 NCIT:C189550	Firmicutes to Bacteroidetes Ratio Measurement
+N25	Reference T75 FOODON:03413188	polydextrose

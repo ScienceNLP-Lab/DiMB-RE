@@ -1,0 +1,112 @@
+T1	Food 0 6	Almond
+T2	AFFECTS 19 26	affects
+T3	Physiology 57 65	stool pH
+T4	Physiology 71 85	stool moisture
+T6	Disease 89 99	overweight
+T7	Disease 104 109	obese
+T9	Food 194 200	almond
+T10	IMPROVES 231 238	improve
+T11	Physiology 239 261	body weight management
+T12	Measurement 263 276	lipid profile
+T13	Physiology 281 302	blood glucose control
+T14	Food 325 331	almond
+T16	Disease 488 498	overweight
+T17	Disease 503 508	obese
+T18	Physiology 514 544	elevated fasting blood glucose
+T19	Physiology 122 152	elevated fasting blood glucose
+T21	Disease 576 586	overweight
+T22	Disease 590 595	obese
+T23	Physiology 604 627	elevated plasma glucose
+T24	Chemical 661 683	fasting plasma glucose
+T25	Measurement 646 649	BMI
+T26	Food 766 773	almonds
+T27	Food 806 837	high carbohydrate biscuit snack
+T28	Food 851 853	AS
+T29	Food 862 875	biscuit snack
+T30	INCREASES 1015 1024	Increases
+T31	Microorganism 1107 1122	Ruminococcaceae
+T32	Microorganism 1141 1158	Ruminiclostridium
+T33	Microorganism 1192 1215	Ruminococcaceae NK4A214
+T34	Microorganism 1231 1254	Ruminococcaceae UCG-003
+T35	Metabolite 1336 1364	fecal short chain fatty acid
+T36	Enzyme 1413 1448	butyryl-CoA:acetate CoA-transferase
+T37	Metabolite 1472 1480	butyrate
+T38	AFFECTS 1322 1332	No changes
+T39	Food 1502 1508	Almond
+T40	DECREASES 1525 1552	not associated with reduced
+T41	Physiology 1553 1569	gut permeability
+T42	Physiology 1575 1583	fecal pH
+T43	Physiology 1599 1615	moisture content
+T44	DECREASES 1627 1636	decreased
+T45	Food 1654 1656	AS
+T46	Food 1674 1676	BS
+T47	Food 1686 1692	almond
+T48	INCREASES 1705 1714	increased
+T49	Microorganism 1755 1766	ruminococci
+T51	Physiology 1811 1833	elevated blood glucose
+T52	Metabolite 1844 1872	fecal short-chain fatty acid
+T53	AFFECTS 1889 1898	unaltered
+E1	AFFECTS:T2 Agent:T1 Theme:T3
+E2	AFFECTS:T2 Agent:T1 Theme:T4
+E3	IMPROVES:T10 Agent:T9 Theme:T11
+E4	IMPROVES:T10 Agent:T9 Theme:T12
+E5	IMPROVES:T10 Agent:T9 Theme:T13
+E6	INCREASES:T30 Agent:T28 Theme:T34
+E7	INCREASES:T30 Agent:T28 Theme:T32
+E8	INCREASES:T30 Agent:T28 Theme:T33
+E9	AFFECTS:T38 Agent:T28 Theme:T35
+E10	AFFECTS:T38 Agent:T28 Theme:T36
+E11	DECREASES:T40 Agent:T39 Theme:T41
+E12	DECREASES:T44 Agent:T45 Theme:T43
+E13	DECREASES:T44 Agent:T45 Theme:T42
+E14	INCREASES:T48 Agent:T47 Theme:T49
+E15	AFFECTS:T53 Agent:T47 Theme:T52
+A1	Negated E9
+A2	Negated E10
+A3	Negated E11
+A4	Negated E15
+N1	NCIT:C74458 T1	Almond
+N2	NCIT:C94250 T6	Overweight
+N3	NCIT:C3283 T7	Obesity
+N4	NCIT:C74458 T9	Almond
+N5	OCHV:C0200382 T12	Lipid panel
+N6	MESH:D000085002 T13	Glycemic Control
+N7	NCIT:C74458 T14	Almond
+N8	NCIT:C94250 T16	Overweight
+N9	NCIT:C3283 T17	Obesity
+N10	OCHV:C0595877 T18	elevated blood glucose
+N11	OCHV:C0595877 T19	elevated blood glucose
+N12	NCIT:C94250 T21	Overweight
+N13	NCIT:C3283 T22	Obesity
+N14	OCHV:C0595877 T23	elevated blood glucose
+N15	NCIT:C94312 T24	Blood Glucose
+N16	NCIT:C16358 T25	Body Mass Index
+N17	NCIT:C74458 T26	Almond
+N18	NCIT:C74458 T28	Almond
+N19	FOODON:00002466 T29	biscuit (hard) food product
+N20	NCBITAXON:216572 T31	Oscillospiraceae
+N21	NCBITAXON:1508657 T32	Ruminiclostridium
+N22	NCBITAXON:877428 T33	rumen bacterium NK4A214
+N23	NCBITAXON:216572 T34	Oscillospiraceae
+N24	CHEBI:26666 T35	short-chain fatty acid
+N25	MESH:C019803 T36	butyryl-CoA acetoacetate CoA transferase
+N26	CHEBI:17968 T37	butyrate
+N27	NCIT:C74458 T39	Almond
+N28	OCHV:50964 T43	moisture
+N29	NCIT:C74458 T45	Almond
+N30	FOODON:00002466 T46	biscuit (hard) food product
+N31	NCIT:C74458 T47	Almond
+N32	NCBITAXON:1263 T49	Ruminococcus
+N33	OCHV:C0595877 T51	elevated blood glucose
+N34	CHEBI:26666 T52	short-chain fatty acid
+A5	Factual E1
+A6	Factual E2
+A7	Factual E3
+A8	Factual E4
+A9	Factual E5
+A10	Factual E6
+A11	Factual E7
+A12	Factual E8
+A13	Factual E12
+A14	Factual E13
+A15	Factual E14

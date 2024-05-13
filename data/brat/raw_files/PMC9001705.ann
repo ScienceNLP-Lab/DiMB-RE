@@ -1,0 +1,83 @@
+T1	Food 54 88	hypocholesterolemic vegetable oils
+T2	Disease 90 110	Hypercholesterolemia
+T3	Food 171 185	vegetable oils
+T4	IMPROVES 198 205	improve
+T5	Nutrient 240 254	phytonutrients
+T6	DECREASES 296 304	lowering
+T7	Chemical 284 295	cholesterol
+T8	Methodology 343 383	double-blinded randomized clinical trial
+T9	ASSOCIATED_WITH 787 798	association
+T10	Food 450 470	blended cooking oils
+T11	Nutrient 480 508	omega-3 alpha-linolenic acid
+T12	Nutrient 513 527	phytonutrients
+T13	HAS_COMPONENT 472 479	rich in
+T14	Food 532 549	refined olive oil
+T15	Population 586 633	volunteers with borderline hypercholesterolemia
+T16	Disease 602 633	borderline hypercholesterolemia
+T17	Methodology 635 656	Multi-factor analysis
+T18	Measurement 861 880	blood lipid profile
+T19	Microorganism 899 909	Clostridia
+T20	ASSOCIATED_WITH 1025 1035	associated
+T21	Chemical 1100 1113	Triglycerides
+T22	Chemical 1115 1131	Apolipoprotein B
+T23	Measurement 1136 1166	Total Cholesterol to HDL ratio
+T24	Measurement 1056 1083	markers of metabolic health
+T25	Microorganism 1231 1249	Clostridium leptum
+T26	Food 1334 1343	oil blend
+T27	Nutrient 1378 1390	omega-3 PUFA
+T28	HAS_COMPONENT 1344 1348	with
+T29	INCREASES 1483 1492	elevation
+T30	DiversityMetric 1496 1511	alpha-diversity
+T31	Metabolite 1513 1521	Butyrate
+T32	Measurement 1626 1646	plasma lipid profile
+T33	IMPROVES 1598 1618	beneficial influence
+T34	Methodology 1648 1673	Causal mediation analysis
+T35	Microorganism 1689 1700	Clostridium
+T36	Microorganism 1752 1762	Clostridia
+T37	AFFECTS 1769 1784	may be involved
+T38	Measurement 1825 1844	blood lipid profile
+T39	HAS_COMPONENT 228 239	presence of
+T40	IMPROVES 807 825	beneficial effects
+T41	INCREASES 1257 1266	increased
+E1	IMPROVES:T4 Agent:T3 Theme:T2
+E2	DECREASES:T6 Agent:T3 Theme:T7
+E3	HAS_COMPONENT:T13 Agent:T10 Theme:T12
+E4	HAS_COMPONENT:T13 Agent:T10 Theme:T11
+E5	ASSOCIATED_WITH:T9 Theme:T19 Theme2:T18
+E6	ASSOCIATED_WITH:T20 Theme:T21 Theme2:T19
+E7	ASSOCIATED_WITH:T20 Theme:T22 Theme2:T19
+E8	ASSOCIATED_WITH:T20 Theme:T23 Theme2:T19
+E9	HAS_COMPONENT:T28 Agent:T26 Theme:T27
+E10	INCREASES:T29 Theme:T30 Agent:T27
+E11	IMPROVES:T33 Agent:T31 Theme:T32
+E12	AFFECTS:T37 Theme:T38 Agent:T35
+E13	HAS_COMPONENT:T39 Theme:T5 Agent:T3
+E14	IMPROVES:T40 Agent:T10 Theme:T18
+E15	INCREASES:T41 Agent:T10 Theme:T25
+A1	Factuality E1 Possible
+A2	Factuality E2 Possible
+A3	Factuality E11 Probable
+A4	Factuality E12 Possible
+N1	Reference T2 NCIT:C37967	Hypercholesterolemia
+N2	Reference T3 FOODON:03305263	vegetable oil
+N3	Reference T5 NCIT:C28269	Phytochemical
+N4	Reference T7 NCIT:C369	Cholesterol
+N5	Reference T10 FOODON:03306658	cooking oil (blended)
+N6	Reference T11 CHEBI:27432	alpha-linolenic acid
+N7	Reference T12 NCIT:C28269	Phytochemical
+N8	Reference T14 FOODON:03543096	olive oil, refined
+N9	Reference T16 NCIT:C37967	Hypercholesterolemia
+N10	Reference T18 OCHV:41502	blood lipid
+N11	Reference T19 NCBITAXON:186801	Clostridia
+N12	Reference T21 CHEBI:17855	triglyceride
+N13	Reference T22 MESH:D001055	Apolipoproteins B
+N14	Reference T23 NCIT:C147362	HDL Cholesterol to Total Cholesterol Ratio Measurement
+N15	Reference T24 NCIT:C18520	Metabolic Marker
+N16	Reference T25 NCBITAXON:1535	[Clostridium] leptum
+N17	Reference T26 FOODON:03310387	oil
+N18	Reference T27 CHEBI:25681	omega-3 fatty acid
+N19	Reference T31 CHEBI:17968	butyrate
+N20	Reference T32 OCHV:C1278073	plasma lipids
+N21	Reference T35 NCBITAXON:1485	Clostridium
+N22	Reference T36 NCBITAXON:186801	Clostridia
+N23	Reference T38 OCHV:41502	blood lipid

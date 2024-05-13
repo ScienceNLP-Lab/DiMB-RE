@@ -1,0 +1,79 @@
+T1	Food 0 8	Broccoli
+T2	Food 262 270	broccoli
+T4	Nutrient 292 305	dietary fiber
+T5	Nutrient 310 324	phytonutrients
+T6	Metabolite 336 350	glucosinolates
+T7	HAS_COMPONENT 282 288	source
+T9	Food 451 459	broccoli
+T12	Food 786 801	cooked broccoli
+T13	Food 814 831	raw daikon radish
+T16	DiversityMetric 946 960	Beta diversity
+T17	Food 1044 1052	Broccoli
+T18	DECREASES 1065 1074	decreased
+T19	Microorganism 1101 1111	Firmicutes
+T20	INCREASES 1149 1158	increased
+T21	Microorganism 1185 1198	Bacteroidetes
+T22	INCREASES 1241 1250	increased
+T23	Microorganism 1251 1262	Bacteroides
+T24	Metabolite 1467 1480	glucosinolate
+T25	Food 1530 1538	broccoli
+T27	Measurement 1364 1367	BMI
+T28	Physiology 1590 1623	functions of the endocrine system
+T31	Food 231 253	Cruciferous vegetables
+T32	Food 1727 1735	broccoli
+T33	HAS_COMPONENT 767 776	including
+T34	DietPattern 742 766	intervention period diet
+T35	POS_ASSOCIATED_WITH 1551 1560	increased
+T37	AFFECTS 1012 1020	impacted
+T39	Physiology 1634 1643	transport
+T40	Physiology 1648 1658	catabolism
+T41	Physiology 1673 1690	energy metabolism
+E1	HAS_COMPONENT:T7 Theme:T4 Agent:T2
+E2	HAS_COMPONENT:T7 Theme:T5 Agent:T2
+E3	HAS_COMPONENT:T7 Theme:T6 Agent:T2
+E4	DECREASES:T18 Agent:T17 Theme:T19
+E5	INCREASES:T20 Agent:T17 Theme:T21
+E6	INCREASES:T22 Agent:T17 Theme:T23
+E7	POS_ASSOCIATED_WITH:T35 Theme:T28 Agent:T25
+E8	POS_ASSOCIATED_WITH:T35 Agent:T25 Theme:T41
+E9	POS_ASSOCIATED_WITH:T35 Agent:T25 Theme:T39
+E10	POS_ASSOCIATED_WITH:T35 Agent:T25 Theme:T40
+E11	HAS_COMPONENT:T33 Agent:T34 Theme:T12
+E12	HAS_COMPONENT:T33 Agent:T34 Theme:T13
+E14	AFFECTS:T37 Theme:T16 Agent:T12
+E15	AFFECTS:T37 Agent:T13 Theme:T16
+N1	NCIT:C71997 T1	Broccoli
+N2	NCIT:C71997 T2	Broccoli
+N3	NCIT:C68492 T4	Dietary Fiber
+N4	NCIT:C28269 T5	Phytochemical
+N5	CHEBI:24279 T6	glucosinolate
+N6	NCIT:C71997 T9	Broccoli
+N7	FOODON:03311420 T12	broccoli (cooked)
+N8	FOODON:00003076 T13	daikon (whole, raw)
+N9	NCIT:C71997 T17	Broccoli
+N10	NCBITAXON:1239 T19	Firmicutes
+N11	NCBITAXON:976 T21	Bacteroidetes
+N12	NCBITAXON:816 T23	Bacteroides
+N13	CHEBI:24279 T24	glucosinolate
+N14	NCIT:C71997 T25	Broccoli
+N16	NCIT:C16358 T27	Body Mass Index
+N17	OCHV:C0678896 T28	endocrine function
+N20	NCIT:C1747 T31	Cruciferous Vegetable
+N21	NCIT:C71997 T32	Broccoli
+N22	NCIT:C21079 T39	Transport Process
+N23	NCIT:C61559 T40	Degradation
+N24	NCIT:C16547 T41	Energy Metabolism Process
+A2	Factual E1
+A3	Factual E2
+A4	Factual E3
+A5	Factual E4
+A6	Factual E5
+A7	Factual E6
+A8	Factual E7
+A9	Factual E8
+A10	Factual E9
+A11	Factual E10
+A12	Factual E11
+A13	Factual E12
+A14	Factual E14
+A15	Factual E15

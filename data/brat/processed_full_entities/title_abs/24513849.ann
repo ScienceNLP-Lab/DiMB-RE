@@ -1,0 +1,94 @@
+T1	Microorganism 30 44	bifidobacteria
+T2	Microorganism 53 65	lactobacilli
+T3	Nutrient 0 19	Xylooligosaccharide
+T4	INCREASES 20 29	increases
+T5	Nutrient 163 192	prebiotic xylooligosaccharide
+T6	Nutrient 194 197	XOS
+T7	Physiology 227 234;247 249	colonic pH
+T8	Metabolite 254 277	short chain fatty acids
+T9	Metabolite 279 283	SCFA
+T10	AFFECTS 148 155	effects
+T11	Population 395 417	Healthy adult subjects
+T12	Methodology 447 497	double-blind, randomized, placebo-controlled study
+T13	Nutrient 523 526	XOS
+T14	Nutrient 534 537	XOS
+T15	Biospecimen 657 662	Stool
+T16	Methodology 806 813	culture
+T17	Methodology 815 846	pyrosequencing of community DNA
+T18	Methodology 855 868	SCFA analyses
+T19	Physiology 848 850	pH
+T20	Physiology 870 879	Tolerance
+T21	Methodology 897 917	daily symptom charts
+T22	Nutrient 919 922	XOS
+T23	INCREASES 1247 1253	higher
+T24	Microorganism 988 1003	Bifidobacterium
+T25	INCREASES 1011 1020	increased
+T26	Nutrient 1029 1032	XOS
+T27	Microorganism 1194 1214	Bacteroides fragilis
+T28	Microorganism 1341 1354	Lactobacillus
+T29	Microorganism 1356 1374	Enterobacteriaceae
+T30	Microorganism 1379 1390	Clostridium
+T31	Nutrient 1417 1420	XOS
+T32	AFFECTS 1441 1459	significant effect
+T33	Physiology 1463 1471	stool pH
+T34	Metabolite 1473 1477	SCFA
+T35	Metabolite 1481 1492	lactic acid
+T36	Methodology 1494 1508	Pyrosequencing
+T37	Nutrient 1558 1561	XOS
+T38	Nutrient 1768 1771	XOS
+T39	Physiology 134 143	tolerance
+T41	Physiology 927 936	tolerated
+T42	Nutrient 1275 1278	XOS
+T43	Biospecimen 1463 1468	stool
+T44	ASSOCIATED_WITH 1297 1323	no significant differences
+T45	INCREASES 49 52	not
+E1	INCREASES:T4 Agent:T3 Theme:T1
+E2	INCREASES:T45 Agent:T3 Theme:T2
+E3	AFFECTS:T10 Agent:T5 Theme:T7
+E4	AFFECTS:T10 Agent:T5 Theme:T8
+E5	INCREASES:T25 Theme:T24 Agent:T26
+E6	AFFECTS:T32 Agent:T31 Theme:T33
+E7	AFFECTS:T32 Agent:T31 Theme:T34
+E8	AFFECTS:T32 Agent:T31 Theme:T35
+E9	INCREASES:T23 Agent:T42 Theme:T27
+E10	ASSOCIATED_WITH:T44 Theme:T30 Theme2:T42
+E11	ASSOCIATED_WITH:T44 Theme:T29 Theme2:T42
+E12	ASSOCIATED_WITH:T44 Theme:T28 Theme2:T42
+A1	Negated E2
+A2	Unknown E3
+A3	Unknown E4
+A4	Negated E6
+A5	Negated E7
+A6	Negated E8
+A7	Negated E10
+A8	Negated E11
+A9	Negated E12
+N1	NCBITAXON:1678 T1	Bifidobacterium
+N2	NCBITAXON:1578 T2	Lactobacillus
+N3	CHEBI:62864 T3	xylooligosaccharide
+N4	CHEBI:62864 T5	xylooligosaccharide
+N5	CHEBI:62864 T6	xylooligosaccharide
+N6	CHEBI:26666 T8	short-chain fatty acid
+N7	CHEBI:26666 T9	short-chain fatty acid
+N8	CHEBI:62864 T13	xylooligosaccharide
+N9	CHEBI:62864 T14	xylooligosaccharide
+N10	NCIT:C45997 T19	pH
+N11	NCIT:C43414 T20	Tolerance
+N12	CHEBI:62864 T22	xylooligosaccharide
+N13	NCBITAXON:1678 T24	Bifidobacterium
+N14	CHEBI:62864 T26	xylooligosaccharide
+N15	NCBITAXON:817 T27	Bacteroides fragilis
+N16	NCBITAXON:1578 T28	Lactobacillus
+N17	NCBITAXON:543 T29	Enterobacteriaceae
+N18	NCBITAXON:1485 T30	Clostridium
+N19	CHEBI:62864 T31	xylooligosaccharide
+N20	CHEBI:26666 T34	short-chain fatty acid
+N21	MESH:D019344 T35	Lactic Acid
+N22	CHEBI:62864 T37	xylooligosaccharide
+N23	CHEBI:62864 T38	xylooligosaccharide
+N24	NCIT:C43414 T39	Tolerance
+N26	NCIT:C43414 T41	Tolerance
+N27	CHEBI:62864 T42	xylooligosaccharide
+A10	Factual E1
+A11	Factual E5
+A12	Factual E9

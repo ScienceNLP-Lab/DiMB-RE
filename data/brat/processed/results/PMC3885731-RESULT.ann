@@ -1,0 +1,91 @@
+T1	Measurement 35 46	body weight
+T3	Measurement 105 116	body weight
+T4	INCREASES 121 130	increased
+T8	Nutrient 180 183	PRE
+T9	Measurement 203 206	FER
+T10	INCREASES 195 202	highest
+T13	Nutrient 243 246	PRE
+T15	Microorganism 361 373	lactobacilli
+T18	Microorganism 446 454	coliform
+T20	Microorganism 476 488	lactobacilli
+T21	Nutrient 541 547	Inulin
+T22	DECREASES 562 571	decreased
+T23	Microorganism 576 584	coliform
+T24	INCREASES 646 655	increased
+T25	Microorganism 660 672	lactobacilli
+T28	Enzyme 755 772	glycolytic enzyme
+T31	Enzyme 854 869	β-glucuronidase
+T32	Enzyme 874 887	α-glucosidase
+T34	Enzyme 932 947	α-galactosidase
+T35	Nutrient 960 966	Inulin
+T36	DECREASES 991 1000	decreased
+T37	Enzyme 1001 1009	β-GLUCUR
+T38	INCREASES 1034 1043	increased
+T39	Enzyme 1052 1057	α-GAL
+T40	Metabolite 1070 1077	Butyric
+T41	Metabolite 1082 1091	propionic
+T45	Nutrient 1156 1162	inulin
+T46	INCREASES 1163 1172	increased
+T47	Nutrient 1248 1254	inulin
+T48	DECREASES 1269 1278	decreased
+T49	Chemical 1327 1331	IL-2
+T50	Chemical 1336 1341	TNF-α
+T51	INCREASES 1347 1357	stimulated
+T52	Chemical 1387 1392	IL-10
+T53	Physiology 1400 1414	jejunal mucosa
+T54	Chemical 1487 1492	IL-10
+T55	Chemical 1446 1471	proinflammatory cytokines
+T56	Enzyme 1545 1550	COX-2
+T57	Chemical 1556 1560	NFκB
+T58	Physiology 1583 1597	tunica mucosae
+T59	Physiology 1602 1630	tela submucosae of the colon
+T60	Chemical 1301 1326	proinflammatory cytokines
+E2	INCREASES:T4 Theme:T3 Agent:T8
+E3	INCREASES:T10 Theme:T9 Agent:T13
+E6	DECREASES:T22 Agent:T21 Theme:T23
+E7	INCREASES:T24 Theme:T25 Agent:T21
+E11	DECREASES:T36 Agent:T35 Theme:T37
+E12	INCREASES:T38 Theme:T39 Agent:T35
+E14	INCREASES:T46 Agent:T45 Theme:T41
+E15	DECREASES:T48 Agent:T47 Theme:T49
+E16	INCREASES:T51 Agent:T47 Theme:T52
+E17	DECREASES:T48 Agent:T47 Theme:T50
+E18	INCREASES:T46 Agent:T45 Theme:T40
+N1	NCIT:C81328 T1	Body Weight
+N2	NCIT:C81328 T3	Body Weight
+N3	MESH:D056692 T8	Prebiotics
+N4	MESH:D056692 T13	Prebiotics
+N5	NCBITAXON:1578 T15	Lactobacillus
+N8	NCIT:C122046 T18	Coliform Bacteria
+N10	NCBITAXON:1578 T20	Lactobacillus
+N11	CHEBI:15443 T21	inulin
+N12	NCIT:C122046 T23	Coliform Bacteria
+N13	NCBITAXON:1578 T25	Lactobacillus
+N15	NCIT:C148006 T31	Beta-Glucuronidase
+N16	MESH:D000520 T32	Alpha-Glucosidases
+N17	MESH:D000519 T34	alpha-Galactosidase
+N18	CHEBI:15443 T35	inulin
+N19	MESH:D005966 T37	Glucuronidase
+N20	MESH:D000519 T39	alpha-Galactosidase
+N21	CHEBI:30772 T40	butyric acid
+N22	CHEBI:30768 T41	propionic acid
+N25	CHEBI:15443 T45	inulin
+N26	CHEBI:15443 T47	inulin
+N27	NCIT:C20507 T49	Interleukin-2
+N28	MESH:D014409 T50	Tumor Necrosis Factor-alpha
+N29	NCIT:C20512 T52	Interleukin-10
+N30	OCHV:22107 T53	jejunal mucosa
+N31	NCIT:C20512 T54	Interleukin-10
+N32	MESH:D051546 T56	Cyclooxygenase 2
+N33	NCIT:C17380 T57	NF-kB
+A10	Factual E2
+A11	Factual E3
+A13	Factual E6
+A14	Factual E7
+A15	Factual E11
+A16	Factual E12
+A17	Factual E14
+A18	Factual E15
+A19	Factual E16
+A20	Factual E17
+A21	Factual E18

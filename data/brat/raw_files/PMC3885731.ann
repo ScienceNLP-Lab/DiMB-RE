@@ -1,0 +1,206 @@
+T1	Measurement 9806 9817	body weight
+T2	Population 9825 9829	rats
+T3	Measurement 9876 9887	body weight
+T4	INCREASES 9892 9901	increased
+T5	Population 9919 9928	DMH group
+T6	Population 9947 9960	DMH+PRE group
+T7	AFFECTS 30 37	effects
+T8	Nutrient 9951 9954	PRE
+T9	Measurement 9974 9977	FER
+T10	INCREASES 9966 9973	highest
+T11	Population 10010 10023	DMH+PRE group
+T12	Population 10047 10057	DMH groups
+T13	Nutrient 10014 10017	PRE
+T14	PREDISPOSES 1460 1467	promote
+T15	Microorganism 10132 10144	lactobacilli
+T16	Nutrient 41 47	inulin
+T17	Physiology 1416 1437	preneoplastic changes
+T18	Microorganism 10217 10225	coliform
+T19	Disease 51 63	colon cancer
+T20	Microorganism 10247 10259	lactobacilli
+T21	Nutrient 10312 10318	Inulin
+T22	DECREASES 10333 10342	decreased
+T23	Microorganism 10347 10355	coliform
+T24	INCREASES 10417 10426	increased
+T25	Microorganism 10431 10443	lactobacilli
+T26	Population 10504 10513	DMH group
+T27	Nutrient 77 87	Prebiotics
+T28	Enzyme 10526 10543	glycolytic enzyme
+T29	IMPROVES 123 139	ensure a healthy
+T30	PREVENTS 184 191	prevent
+T31	Enzyme 10625 10640	β-glucuronidase
+T32	Enzyme 10645 10658	α-glucosidase
+T34	Enzyme 10703 10718	α-galactosidase
+T35	Nutrient 10731 10737	Inulin
+T36	DECREASES 10762 10771	decreased
+T37	Enzyme 10772 10780	β-GLUCUR
+T38	INCREASES 10805 10814	increased
+T39	Enzyme 10823 10828	α-GAL
+T40	Metabolite 10841 10848	Butyric
+T41	Metabolite 10853 10862	propionic
+T42	Disease 192 204	colon cancer
+T43	Population 10900 10909	DMH group
+T44	Physiology 140 162	gastrointestinal tract
+T45	Nutrient 10927 10933	inulin
+T46	INCREASES 10934 10943	increased
+T47	Nutrient 11019 11025	inulin
+T48	DECREASES 11040 11049	decreased
+T49	Chemical 11098 11102	IL-2
+T50	Chemical 11107 11112	TNF-α
+T51	INCREASES 11118 11128	stimulated
+T52	Chemical 11158 11163	IL-10
+T53	Physiology 11171 11185	jejunal mucosa
+T54	Chemical 11258 11263	IL-10
+T55	Chemical 11217 11242	proinflammatory cytokines
+T56	Enzyme 11316 11321	COX-2
+T57	Chemical 11327 11331	NFκB
+T58	Physiology 11354 11368	tunica mucosae
+T59	Physiology 11373 11401	tela submucosae of the colon
+T60	Chemical 11072 11097	proinflammatory cytokines
+T62	Population 305 324	Sprague-Dawley rats
+T64	Disease 415 427	colon cancer
+T65	Nutrient 584 590	inulin
+T66	Nutrient 594 603	prebiotic
+T67	Nutrient 609 612	PRE
+T68	Nutrient 630 636	inulin
+T69	AFFECTS 619 626	effects
+T70	Enzyme 658 686	bacterial glycolytic enzymes
+T71	Metabolite 688 711	short-chain fatty acids
+T72	Microorganism 713 721	coliform
+T73	Microorganism 726 738	lactobacilli
+T74	Chemical 747 755	cytokine
+T75	Enzyme 768 784	cyclooxygenase-2
+T76	Enzyme 786 791	COX-2
+T77	Chemical 797 836	transcription nuclear factor kappa beta
+T78	Chemical 838 842	NFκB
+T80	Nutrient 876 882	Inulin
+T81	DECREASES 897 906	decreased
+T82	Microorganism 907 915	coliform
+T83	INCREASES 935 944	increased
+T84	Microorganism 945 957	lactobacilli
+T85	DECREASES 982 991	decreased
+T86	Enzyme 1008 1023	β-glucuronidase
+T88	Metabolite 1036 1043	Butyric
+T89	Metabolite 1048 1057	propionic
+T90	Population 445 449	rats
+T91	Nutrient 1106 1112	Inulin
+T92	INCREASES 1113 1122	increased
+T93	Nutrient 1171 1177	Inulin
+T94	DECREASES 1178 1187	decreased
+T95	Enzyme 1203 1208	COX-2
+T96	Chemical 1214 1218	NFκB
+T97	Physiology 1241 1255;1276 1288	tunica mucosae of the colon
+T98	Physiology 1260 1288	tela submucosae of the colon
+T99	Chemical 1308 1312	IL-2
+T100	Chemical 1314 1318	TNFα
+T101	Chemical 1324 1329	IL-10
+T102	DECREASES 1339 1349	diminished
+T103	Nutrient 1400 1406	inulin
+T104	PREVENTS 1407 1415	prevents
+T106	Physiology 1442 1454	inflammation
+T107	Disease 1468 1480	colon cancer
+E1	IMPROVES:T29 Agent:T27 Theme:T44
+E2	INCREASES:T4 Theme:T3 Agent:T8
+E3	INCREASES:T10 Theme:T9 Agent:T13
+E4	PREVENTS:T30 Agent:T27 Theme:T42
+E5	AFFECTS:T69 Agent:T68 Theme:T70
+E6	DECREASES:T22 Agent:T21 Theme:T23
+E7	INCREASES:T24 Theme:T25 Agent:T21
+E8	AFFECTS:T69 Agent:T68 Theme:T71
+E9	AFFECTS:T69 Agent:T68 Theme:T72
+E10	AFFECTS:T69 Agent:T68 Theme:T73
+E11	DECREASES:T36 Agent:T35 Theme:T37
+E12	INCREASES:T38 Theme:T39 Agent:T35
+E13	AFFECTS:T69 Agent:T68 Theme:T74
+E14	INCREASES:T46 Agent:T45 Theme:T41
+E15	DECREASES:T48 Agent:T47 Theme:T49
+E16	INCREASES:T51 Agent:T47 Theme:T52
+E17	DECREASES:T48 Agent:T47 Theme:T50
+E18	INCREASES:T46 Agent:T45 Theme:T40
+E19	AFFECTS:T69 Agent:T68 Theme:T75
+E20	AFFECTS:T69 Agent:T68 Theme:T77
+E21	PREDISPOSES:T14 Theme:T107 Agent:T106
+E22	DECREASES:T81 Theme:T82 Agent:T80
+E23	INCREASES:T83 Theme:T84 Agent:T80
+E24	DECREASES:T85 Agent:T80 Theme:T86
+E25	DECREASES:T94 Agent:T93 Theme:T95
+E26	INCREASES:T92 Agent:T91 Theme:T88
+E27	DECREASES:T94 Agent:T93 Theme:T96
+E28	DECREASES:T102 Agent:T93 Theme:T101
+E29	DECREASES:T102 Agent:T93 Theme:T100
+E30	DECREASES:T102 Agent:T93 Theme:T99
+E31	PREVENTS:T104 Agent:T103 Theme:T106
+E32	AFFECTS:T7 Agent:T16 Theme:T19
+E33	PREVENTS:T104 Theme:T17 Agent:T103
+E34	PREDISPOSES:T14 Agent:T17 Theme:T107
+E35	INCREASES:T92 Agent:T91 Theme:T89
+A1	Factuality E32 Unknown
+A2	Factuality E20 Unknown
+A3	Factuality E19 Unknown
+A4	Factuality E13 Unknown
+A5	Factuality E10 Unknown
+A6	Factuality E9 Unknown
+A7	Factuality E8 Unknown
+A8	Factuality E5 Unknown
+N1	Reference T1 NCIT:C81328	Body Weight
+N2	Reference T3 NCIT:C81328	Body Weight
+N3	Reference T8 MESH:D056692	Prebiotics
+N4	Reference T13 MESH:D056692	Prebiotics
+N5	Reference T15 NCBITAXON:1578	Lactobacillus
+N6	Reference T16 CHEBI:15443	inulin
+N7	Reference T17 NCIT:C20204	preneoplastic changes
+N8	Reference T18 NCIT:C122046	Coliform Bacteria
+N9	Reference T19 NCIT:C4910	Colon Carcinoma
+N10	Reference T20 NCBITAXON:1578	Lactobacillus
+N11	Reference T21 CHEBI:15443	inulin
+N12	Reference T23 NCIT:C122046	Coliform Bacteria
+N13	Reference T25 NCBITAXON:1578	Lactobacillus
+N14	Reference T27 MESH:D056692	Prebiotics
+N15	Reference T31 NCIT:C148006	Beta-Glucuronidase
+N16	Reference T32 MESH:D000520	Alpha-Glucosidases
+N17	Reference T34 MESH:D000519	alpha-Galactosidase
+N18	Reference T35 CHEBI:15443	inulin
+N19	Reference T37 MESH:D005966	Glucuronidase
+N20	Reference T39 MESH:D000519	alpha-Galactosidase
+N21	Reference T40 CHEBI:30772	butyric acid
+N22	Reference T41 CHEBI:30768	propionic acid
+N23	Reference T42 NCIT:C4910	Colon Carcinoma
+N24	Reference T44 NCIT:C34082	Gastrointestinal Tract
+N25	Reference T45 CHEBI:15443	inulin
+N26	Reference T47 CHEBI:15443	inulin
+N27	Reference T49 NCIT:C20507	Interleukin-2
+N28	Reference T50 MESH:D014409	Tumor Necrosis Factor-alpha
+N29	Reference T52 NCIT:C20512	Interleukin-10
+N30	Reference T53 OCHV:22107	jejunal mucosa
+N31	Reference T54 NCIT:C20512	Interleukin-10
+N32	Reference T56 MESH:D051546	Cyclooxygenase 2
+N33	Reference T57 NCIT:C17380	NF-kB
+N34	Reference T64 NCIT:C4910	Colon Carcinoma
+N35	Reference T65 CHEBI:15443	inulin
+N36	Reference T66 MESH:D056692	Prebiotics
+N37	Reference T67 MESH:D056692	Prebiotics
+N38	Reference T68 CHEBI:15443	inulin
+N39	Reference T71 CHEBI:26666	short-chain fatty acid
+N40	Reference T72 NCIT:C122046	Coliform Bacteria
+N41	Reference T73 NCBITAXON:1578	Lactobacillus
+N42	Reference T74 NCIT:C20464	Cytokine
+N43	Reference T75 MESH:D051546	Cyclooxygenase 2
+N44	Reference T76 MESH:D051546	Cyclooxygenase 2
+N45	Reference T77 NCIT:C17380	NF-kB
+N46	Reference T78 NCIT:C17380	NF-kB
+N47	Reference T80 CHEBI:15443	inulin
+N48	Reference T82 NCIT:C122046	Coliform Bacteria
+N49	Reference T84 NCBITAXON:1578	Lactobacillus
+N50	Reference T86 NCIT:C148006	Beta-Glucuronidase
+N51	Reference T88 CHEBI:30772	butyric acid
+N52	Reference T89 CHEBI:30768	propionic acid
+N53	Reference T91 CHEBI:15443	inulin
+N54	Reference T93 CHEBI:15443	inulin
+N55	Reference T95 MESH:D051546	Cyclooxygenase 2
+N56	Reference T96 NCIT:C17380	NF-kB
+N57	Reference T99 NCIT:C20507	Interleukin-2
+N58	Reference T100 MESH:D014409	Tumor Necrosis Factor-alpha
+N59	Reference T101 NCIT:C20512	Interleukin-10
+N60	Reference T103 CHEBI:15443	inulin
+N61	Reference T106 NCIT:C3137	Inflammation
+N62	Reference T107 NCIT:C4910	Colon Carcinoma

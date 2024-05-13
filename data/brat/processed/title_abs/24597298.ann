@@ -1,0 +1,108 @@
+T1	Metabolite 0 5;18 35	Short chain fatty acids
+T2	Nutrient 11 35	medium-chain fatty acids
+T4	Metabolite 160 183	short-chain fatty acids
+T5	Metabolite 186 190	SCFA
+T6	Metabolite 209 215	formic
+T7	Metabolite 192 204	propionic C3
+T8	Nutrient 231 255	medium-chain fatty acids
+T9	Nutrient 259 263	MCFA
+T10	Nutrient 265 276	caprylic C8
+T11	Nutrient 281 291	capric C10
+T12	Physiology 296 307	performance
+T13	Physiology 309 340	nutrient apparent digestibility
+T15	Physiology 901 915	jejunum mucosa
+T16	Chemical 134 144	acidifiers
+T18	Physiology 368 393	small intestine structure
+T20	DietPattern 551 605	diet supplemented with 0.5% propionic and formic acids
+T21	Metabolite 579 588;600 605	propionic acids
+T22	Metabolite 593 605	formic acids
+T23	Nutrient 759 767;782 787	caprylic acids
+T24	Nutrient 775 787	capric acids
+T25	Physiology 812 838	digestibility of nutrients
+T27	Metabolite 1114 1118	SCFA
+T28	Physiology 999 1016	body weight gains
+T29	Nutrient 1036 1040	MCFA
+T30	Nutrient 1062 1067	fiber
+T32	Microorganism 1193 1216	Clostridium perfringens
+T33	DietPattern 607 620	Group II - PF
+T34	DietPattern 623 632	Group III
+T35	DietPattern 634 641	PF + C8
+T36	DietPattern 644 652	group IV
+T37	DietPattern 654 662	PF + C10
+T38	DietPattern 668 675	group V
+T39	DietPattern 677 690	PF + C8 + C10
+T41	DietPattern 966 975	groups IV
+T42	DietPattern 966 972;980 981	groups V
+T43	INCREASES 991 998	highest
+T46	Nutrient 1050 1057	protein
+T47	DietPattern 1263 1271	group II
+T48	DECREASES 1246 1253	reduced
+T49	Metabolite 1257 1261	SCFA
+T50	Physiology 1274 1305	Villi of the mucosal epithelium
+T51	POS_ASSOCIATED_WITH 1315 1322	highest
+T53	DietPattern 1383 1391	group IV
+T54	Metabolite 1360 1364	SCFA
+T55	Nutrient 1370 1381	capric acid
+T56	Metabolite 1442 1446	SCFA
+T57	Metabolite 1448 1457	propionic
+T58	Metabolite 1462 1468	formic
+T59	Nutrient 1475 1486	capric acid
+T60	IMPROVES 1501 1509	improves
+T61	Physiology 1510 1521	performance
+T65	AFFECTS 92 98	effect
+T66	Nutrient 953 964	capric acid
+T67	DietPattern 721 729	group II
+E1	IMPROVES:T60 Agent:T59 Theme:T61
+E2	AFFECTS:T65 Agent:T8 Theme:T18
+E3	DECREASES:T48 Agent:T49 Theme:T32
+E4	INCREASES:T43 Theme:T28 Agent:T66
+E5	POS_ASSOCIATED_WITH:T51 Theme:T50 Agent:T55
+E6	IMPROVES:T60 Theme:T61 Agent:T56
+E7	AFFECTS:T65 Agent:T8 Theme:T13
+E8	AFFECTS:T65 Agent:T4 Theme:T18
+E9	AFFECTS:T65 Agent:T4 Theme:T13
+E10	AFFECTS:T65 Theme:T12 Agent:T4
+E11	AFFECTS:T65 Theme:T12 Agent:T8
+A1	Unknown E10
+A2	Unknown E11
+A3	Unknown E9
+A4	Unknown E8
+A5	Unknown E7
+A6	Unknown E2
+N1	CHEBI:26666 T1	short-chain fatty acid
+N2	CHEBI:59554 T2	medium-chain fatty acid
+N3	CHEBI:26666 T4	short-chain fatty acid
+N4	CHEBI:26666 T5	short-chain fatty acid
+N5	CHEBI:30751 T6	formic acid
+N6	CHEBI:30768 T7	propionic acid
+N7	CHEBI:59554 T8	medium-chain fatty acid
+N8	CHEBI:59554 T9	medium-chain fatty acid
+N9	CHEBI:28837 T10	octanoid acid
+N10	CHEBI:30813 T11	decanoic acid
+N11	NCIT:C25361 T12	Performance
+N12	OCHV:C0227308 T15	jejunal mucosa
+N13	NCIT:C12386 T18	Small Intestine
+N14	CHEBI:30768 T21	propionic acid
+N15	CHEBI:30751 T22	formic acid
+N16	CHEBI:28837 T23	octanoid acid
+N17	CHEBI:30813 T24	decanoic acid
+N18	CHEBI:26666 T27	short-chain fatty acid
+N19	MESH:D015430 T28	Weight gain
+N20	CHEBI:59554 T29	medium-chain fatty acid
+N21	NCIT:C1502 T30	Fiber
+N22	NCBITAXON:1502 T32	Clostridium perfringens
+N23	CHEBI:36080 T46	protein
+N24	CHEBI:26666 T49	short-chain fatty acid
+N25	CHEBI:26666 T54	short-chain fatty acid
+N26	CHEBI:30813 T55	decanoic acid
+N27	CHEBI:26666 T56	short-chain fatty acid
+N28	CHEBI:30768 T57	propionic acid
+N29	CHEBI:30751 T58	formic acid
+N30	CHEBI:30813 T59	decanoic acid
+N31	NCIT:C25361 T61	Performance
+N32	CHEBI:30813 T66	decanoic acid
+A7	Factual E1
+A8	Factual E3
+A9	Factual E4
+A10	Factual E5
+A11	Factual E6

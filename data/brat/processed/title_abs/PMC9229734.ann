@@ -1,0 +1,66 @@
+T3	Measurement 103 127	Markers of Immune System
+T4	Nutrient 64 74	Probiotics
+T7	Microorganism 443 456	Lactobacillus
+T8	Microorganism 466 478	L. plantarum
+T9	Microorganism 483 497	L. acidophilus
+T10	Microorganism 507 522	Bifidobacterium
+T11	Microorganism 531 556	B. animalis subsp. lactis
+T12	Nutrient 575 583	fructans
+T13	Nutrient 585 608	fructo-oligosaccharides
+T14	Nutrient 706 715	synbiotic
+T15	Nutrient 652 672	inulin-type fructans
+T16	Nutrient 862 871	synbiotic
+T18	Nutrient 11 34	Inulin-Based Prebiotics
+T19	DiversityMetric 965 973	richness
+T20	Nutrient 1009 1019	prebiotics
+T21	INCREASES 897 903	higher
+T22	POS_ASSOCIATED_WITH 1053 1068	positive effect
+T23	Metabolite 1161 1184	short-chain fatty acids
+T24	Chemical 1443 1455	calprotectin
+T26	Chemical 1421 1438	fecal β-defensin2
+T28	Chemical 1543 1555	salivary IgA
+T29	Measurement 1573 1604	antioxidant capacity biomarkers
+T31	Nutrient 405 426	synbiotic formulation
+T32	HAS_COMPONENT 427 435	composed
+T34	AFFECTS 0 7	Effects
+T35	IMPROVES 1210 1222	amelioration
+E2	AFFECTS:T34 Agent:T18 Theme:T3
+E3	INCREASES:T21 Agent:T16 Theme:T19
+E4	POS_ASSOCIATED_WITH:T22 Theme:T23 Agent:T16
+E5	HAS_COMPONENT:T32 Agent:T31 Theme:T8
+E6	HAS_COMPONENT:T32 Agent:T31 Theme:T9
+E7	HAS_COMPONENT:T32 Agent:T31 Theme:T11
+E9	HAS_COMPONENT:T32 Agent:T31 Theme:T13
+E10	HAS_COMPONENT:T32 Agent:T31 Theme:T15
+E11	IMPROVES:T35 Theme:T26 Agent:T16
+E12	IMPROVES:T35 Theme:T24 Agent:T16
+E13	IMPROVES:T35 Theme:T28 Agent:T16
+E14	IMPROVES:T35 Theme:T29 Agent:T16
+A2	Unknown E2
+N1	NCIT:C93144 T4	Probiotic
+N3	NCBITAXON:1578 T7	Lactobacillus
+N4	NCBITAXON:1590 T8	Lactiplantibacillus plantarum
+N5	NCBITAXON:1579 T9	Lactobacillus acidophilus
+N6	NCBITAXON:1678 T10	Bifidobacterium
+N7	NCIT:C174516 T11	Bifidobacterium animalis ssp. lactis Probiotic Supplement
+N8	CHEBI:28796 T12	fructan
+N9	CHEBI:190523 T13	fructooligosaccharide
+N10	MESH:D058616 T14	Synbiotics
+N11	MESH:D058616 T16	Synbiotics
+N12	MESH:D056692 T20	Prebiotics
+N13	CHEBI:26666 T23	short-chain fatty acid
+N14	NCIT:C105971 T24	Calprotectin
+N16	CHEBI:80282 T26	Defensin beta-2
+N17	OCHV:C0443735 T28	salivary immunoglobulin a
+N19	MESH:D058616 T31	Synbiotics
+A5	Factual E3
+A6	Factual E4
+A7	Factual E5
+A8	Factual E6
+A9	Factual E7
+A10	Factual E9
+A11	Factual E10
+A12	Factual E11
+A13	Factual E12
+A14	Factual E13
+A15	Factual E14

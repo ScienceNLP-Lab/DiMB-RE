@@ -1,0 +1,105 @@
+T2	Disease 160 178	ulcerative colitis
+T4	Chemical 407 432	proinflammatory cytokines
+T5	Measurement 45 58	plasma levels
+T6	Physiology 63 107	peripheral blood mononuclear cell expression
+T7	Microorganism 507 538	Lactobacillus Paracasei B 20160
+T9	Chemical 694 702	TNFalpha
+T10	Chemical 704 708	IL-8
+T11	Chemical 713 721	IL-1beta
+T13	Disease 739 757	ulcerative colitis
+T14	Disease 861 879	ulcerative colitis
+T15	Chemical 995 999	IL-6
+T16	Chemical 1001 1009	TNFalpha
+T17	Chemical 1011 1015	IL-8
+T18	Chemical 1017 1025	IL-1beta
+T19	Chemical 1030 1035	IL-10
+T21	Chemical 1256 1264	TNFalpha
+T22	Chemical 1266 1270	IL-6
+T23	Chemical 1276 1280	IL-8
+T24	DECREASES 1311 1334	significantly decreased
+T25	Chemical 1375 1379	IL-6
+T26	Chemical 1384 1388	IL-8
+T27	Physiology 1394 1405	lymphocytes
+T28	DECREASES 1440 1467	don't significantly reduced
+T29	Chemical 1491 1499	TNFalpha
+T30	Chemical 1504 1512	IL-1beta
+T31	Chemical 1528 1532	IL-8
+T32	DECREASES 1550 1573	significantly decreased
+T33	Microorganism 1659 1682	Lactobacillus paracasei
+T34	Nutrient 1626 1647	symbiotic formulation
+T35	HAS_COMPONENT 1648 1658	containing
+T36	IMPROVES 1683 1705	significantly improves
+T37	Chemical 574 592	interleukin (IL)-6
+T38	Chemical 628 632	IL-8
+T39	Chemical 594 626	tumor necrosis factor (TNF)alpha
+T40	Chemical 634 642	IL-1beta
+T41	Chemical 647 652	IL-10
+T42	Chemical 116 142	pro-inflammatory cytokines
+T43	Chemical 1748 1773	proinflammatory cytokines
+T44	Nutrient 1301 1310	symbiotic
+T45	Nutrient 1430 1439	symbiotic
+T46	Nutrient 474 495	symbiotic formulation
+T47	HAS_COMPONENT 496 506	containing
+T48	Nutrient 20 41	symbiotic formulation
+T49	AFFECTS 4 10	effect
+T50	Physiology 378 402	production of chemokines
+T51	Nutrient 948 957	symbiotic
+T52	Physiology 239 256	white blood cells
+T53	Physiology 1158 1184	peripheral lymphomonocytes
+T56	INCREASES 1228 1236	increase
+E1	INCREASES:T56 Agent:T44 Theme:T21
+E2	DECREASES:T24 Theme:T25 Agent:T44
+E3	DECREASES:T24 Theme:T26 Agent:T44
+E4	DECREASES:T28 Theme:T29 Agent:T45
+E5	DECREASES:T32 Theme:T31 Agent:T45
+E6	DECREASES:T28 Theme:T30 Agent:T45
+E7	HAS_COMPONENT:T35 Agent:T34 Theme:T33
+E9	IMPROVES:T36 Theme:T43 Agent:T33
+E10	HAS_COMPONENT:T47 Agent:T46 Theme:T7
+E11	AFFECTS:T49 Agent:T48 Theme:T5
+E12	AFFECTS:T49 Agent:T48 Theme:T6
+E13	INCREASES:T56 Agent:T44 Theme:T22
+E14	INCREASES:T56 Agent:T44 Theme:T23
+A1	Negated E4
+A2	Negated E6
+A3	Unknown E11
+A4	Unknown E12
+N1	NCIT:C2952 T2	Ulcerative Colitis
+N2	NCIT:C13356 T5	Plasma
+N3	NCIT:C12954 T6	Peripheral Blood Mononuclear Cell
+N4	NCBITAXON:1597 T7	Lacticaseibacillus paracasei
+N5	MESH:D014409 T9	Tumor Necrosis Factor-alpha
+N6	NCIT:C20473 T10	Interleukin-8
+N7	MESH:D053583 T11	Interleukin-1beta
+N8	NCIT:C2952 T13	Ulcerative Colitis
+N9	NCIT:C2952 T14	Ulcerative Colitis
+N10	NCIT:C20451 T15	Interleukin-6
+N11	MESH:D014409 T16	Tumor Necrosis Factor-alpha
+N12	NCIT:C20473 T17	Interleukin-8
+N13	MESH:D053583 T18	Interleukin-1beta
+N14	NCIT:C20512 T19	Interleukin-10
+N15	MESH:D014409 T21	Tumor Necrosis Factor-alpha
+N16	NCIT:C20451 T22	Interleukin-6
+N17	NCIT:C20473 T23	Interleukin-8
+N18	NCIT:C20451 T25	Interleukin-6
+N19	NCIT:C20473 T26	Interleukin-8
+N20	NCIT:C12535 T27	Lymphocyte
+N21	MESH:D014409 T29	Tumor Necrosis Factor-alpha
+N22	MESH:D053583 T30	Interleukin-1beta
+N23	NCIT:C20473 T31	Interleukin-8
+N24	NCBITAXON:1597 T33	Lacticaseibacillus paracasei
+N25	NCIT:C20451 T37	Interleukin-6
+N26	NCIT:C20473 T38	Interleukin-8
+N27	MESH:D014409 T39	Tumor Necrosis Factor-alpha
+N28	MESH:D053583 T40	Interleukin-1beta
+N29	NCIT:C20512 T41	Interleukin-10
+N30	NCIT:C12529 T52	Leukocyte
+A5	Factual E1
+A6	Factual E2
+A7	Factual E3
+A8	Factual E5
+A9	Factual E7
+A10	Factual E9
+A11	Factual E10
+A12	Factual E13
+A13	Factual E14

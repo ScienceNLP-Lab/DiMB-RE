@@ -1,0 +1,97 @@
+T42	Physiology 573 591	glycemic variables
+T43	Measurement 1556 1564	VS Ratio
+T64	Measurement 1098 1111	Matsuda index
+T70	Disease 1216 1226	overweight
+T72	Disease 1271 1278	obesity
+T75	Physiology 1390 1399	adiposity
+T78	Physiology 1464 1468	SAAT
+T81	Physiology 1654 1657	VAT
+T87	Physiology 2605 2622	central adiposity
+T88	Measurement 4769 4777	VS Ratio
+T89	Measurement 1983 2006	physical activity score
+T91	Physiology 2651 2660	adiposity
+T92	Disease 2745 2763	insulin resistance
+T93	Physiology 2745 2752;2768 2779	insulin sensitivity
+T94	Physiology 2860 2869	adiposity
+T95	Physiology 2874 2891	glycemic outcomes
+T98	Physiology 2972 2975	VAT
+T99	Physiology 3035 3039	SAAT
+T101	Measurement 3104 3112	VS Ratio
+T104	Physiology 3243 3246	VAT
+T105	Physiology 3248 3252	SAAT
+T106	Measurement 3258 3266	VS Ratio
+T108	Physiology 3365 3368	VAT
+T109	Physiology 3370 3374	SAAT
+T110	Measurement 3380 3388	VS Ratio
+T111	Measurement 3451 3459	VS Ratio
+T113	Measurement 3538 3546	VS Ratio
+T114	Physiology 3551 3555	SAAT
+T116	Disease 3635 3653	insulin resistance
+T117	Physiology 3635 3642;3658 3669	insulin sensitivity
+T118	Chemical 3698 3705	glucose
+T119	Chemical 3711 3718	insulin
+T121	Measurement 3889 3896	HOMA-IR
+T122	Measurement 3910 3923	Matsuda index
+T123	Chemical 3945 3948	IGI
+T126	Physiology 4067 4084	central adiposity
+T127	Physiology 4118 4127	adiposity
+T133	Physiology 4389 4392	VAT
+T134	Physiology 4463 4467	SAAT
+T135	Measurement 4531 4539	VS Ratio
+T139	Physiology 4683 4686	VAT
+T141	Physiology 4747 4751	SAAT
+T144	Physiology 4888 4891	VAT
+T145	Physiology 4905 4909	SAAT
+T146	Measurement 4927 4935	VS Ratio
+T148	Measurement 5022 5030	VS Ratio
+T149	Physiology 5035 5039	SAAT
+T151	Disease 5089 5107	insulin resistance
+T152	Physiology 5089 5096;5112 5123	insulin sensitivity
+T153	Measurement 5188 5195	HOMA-IR
+T155	Measurement 5283 5296	Matsuda index
+T156	Chemical 5317 5320	IGI
+T160	Physiology 5498 5515	glycemic outcomes
+T2411	Physiology 559 568	adiposity
+T2511	Physiology 774 783	adiposity
+T5811	Physiology 923 932	adiposity
+T6311	Measurement 1089 1096	HOMA-IR
+T6611	Chemical 1117 1120	IGI
+N39	NCIT:C94250 T70	Overweight
+N40	NCIT:C3283 T72	Obesity
+N41	MESH:D050154 T75	Adiposity
+N42	MESH:D050507 T78	Subcutaneous Fat, Abdominal
+N43	MESH:D050152 T81	Intra-Abdominal Fat
+N44	NCIT:C120381 T87	Central Obesity
+N45	NCIT:C17708 T89	Physical Activity
+N46	MESH:D050154 T91	Adiposity
+N47	NCIT:C113101 T92	Insulin Resistance
+N48	OCHV:C0920563 T93	insulin sensitivity
+N49	MESH:D050154 T94	Adiposity
+N50	MESH:D050152 T98	Intra-Abdominal Fat
+N51	MESH:D050507 T99	Subcutaneous Fat, Abdominal
+N52	MESH:D050152 T104	Intra-Abdominal Fat
+N53	MESH:D050507 T105	Subcutaneous Fat, Abdominal
+N54	MESH:D050152 T108	Intra-Abdominal Fat
+N55	MESH:D050507 T109	Subcutaneous Fat, Abdominal
+N56	MESH:D050507 T114	Subcutaneous Fat, Abdominal
+N57	NCIT:C113101 T116	Insulin Resistance
+N58	OCHV:C0920563 T117	insulin sensitivity
+N59	CHEBI:17234 T118	glucose
+N60	NCIT:C2271 T119	Insulin
+N61	NCIT:C100447 T121	Homeostatic Model Assessment of Insulin Resistance
+N62	NCIT:C120381 T126	Central Obesity
+N63	MESH:D050154 T127	Adiposity
+N64	MESH:D050152 T133	Intra-Abdominal Fat
+N65	MESH:D050507 T134	Subcutaneous Fat, Abdominal
+N66	MESH:D050152 T139	Intra-Abdominal Fat
+N67	MESH:D050507 T141	Subcutaneous Fat, Abdominal
+N68	MESH:D050152 T144	Intra-Abdominal Fat
+N69	MESH:D050507 T145	Subcutaneous Fat, Abdominal
+N70	MESH:D050507 T149	Subcutaneous Fat, Abdominal
+N71	NCIT:C113101 T151	Insulin Resistance
+N72	OCHV:C0920563 T152	insulin sensitivity
+N73	NCIT:C100447 T153	Homeostatic Model Assessment of Insulin Resistance
+N74	MESH:D050154 T2411	Adiposity
+N75	MESH:D050154 T2511	Adiposity
+N76	MESH:D050154 T5811	Adiposity
+N77	NCIT:C100447 T6311	Homeostatic Model Assessment of Insulin Resistance

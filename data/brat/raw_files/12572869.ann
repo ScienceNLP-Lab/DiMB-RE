@@ -1,0 +1,68 @@
+T1	Disease 13 31	ulcerative colitis
+T2	Food 48 75	germinated barley foodstuff
+T3	Methodology 95 125	multicenter open control trial
+T4	Food 140 167	Germinated barley foodstuff
+T5	Food 169 172	GBF
+T6	INCREASES 216 225	increases
+T7	Metabolite 234 242	butyrate
+T8	Food 330 333	GBF
+T9	Disease 410 428	ulcerative colitis
+T10	Disease 430 432	UC
+T11	Physiology 386 406	mucosal inflammation
+T12	Food 492 495	GBF
+T13	Disease 516 518	UC
+T14	Methodology 524 554	multicenter open control trial
+T15	Population 565 618	Eighteen patients with mildly to moderately active UC
+T16	Disease 616 618	UC
+T17	Methodology 656 682	random allocation protocol
+T18	Food 778 781	GBF
+T19	Population 778 795	GBF-treated group
+T20	Food 832 835	GBF
+T21	Food 1050 1053	GBF
+T22	DECREASES 1077 1097	significant decrease
+T23	Measurement 1101 1131	clinical activity index scores
+T24	Nutrient 179 188	prebiotic
+T25	Food 1222 1225	GBF
+T26	Microorganism 1268 1283	Bifidobacterium
+T27	Microorganism 1288 1307	Eubacterium limosum
+T28	INCREASES 1234 1243	increased
+T29	Food 1327 1330	GBF
+T30	Disease 1391 1393	UC
+T31	Disease 1492 1494	UC
+T32	Food 1444 1447	GBF
+T33	INCREASES 257 268	stimulating
+T34	Microorganism 283 302	protective bacteria
+T35	IMPROVES 352 358	reduce
+T36	IMPROVES 480 488	efficacy
+T37	Biospecimen 970 975	Fecal
+T38	Population 1050 1067	GBF-treated group
+T39	Biospecimen 1244 1249	fecal
+T40	IMPROVES 1339 1369	may have the potency to reduce
+T41	ASSOCIATED_WITH 407 409	in
+T42	IMPROVES 1480 1487	therapy
+T43	Food 1203 1206	GBF
+E1	INCREASES:T6 Theme:T7 Agent:T4
+E2	DECREASES:T22 Agent:T21 Theme:T23
+E3	IMPROVES:T36 Agent:T12 Theme:T13
+E4	INCREASES:T28 Agent:T25 Theme:T26
+E5	INCREASES:T28 Agent:T25 Theme:T27
+E6	INCREASES:T33 Theme:T34 Agent:T4
+E7	IMPROVES:T35 Agent:T8 Theme:T11
+E8	IMPROVES:T40 Agent:T29 Theme:T30
+E9	ASSOCIATED_WITH:T41 Theme:T9 Theme2:T11
+E10	IMPROVES:T42 Theme:T31 Agent:T32
+A1	Factuality E3 Unknown
+A2	Factuality E8 Possible
+A3	Factuality E10 Probable
+N1	Reference T1 NCIT:C2952	Ulcerative Colitis
+N2	Reference T7 CHEBI:17968	butyrate
+N3	Reference T9 NCIT:C2952	Ulcerative Colitis
+N4	Reference T10 NCIT:C2952	Ulcerative Colitis
+N5	Reference T11 NCIT:C115965	Mucositis
+N6	Reference T13 NCIT:C2952	Ulcerative Colitis
+N7	Reference T16 NCIT:C2952	Ulcerative Colitis
+N8	Reference T24 MESH:D056692	Prebiotics
+N9	Reference T26 NCBITAXON:1678	Bifidobacterium
+N10	Reference T27 NCBITAXON:1736	Eubacterium limosum
+N11	Reference T30 NCIT:C2952	Ulcerative Colitis
+N12	Reference T31 NCIT:C2952	Ulcerative Colitis

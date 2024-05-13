@@ -1,0 +1,108 @@
+T1	DietPattern 76 108	Soybean Meal-Based Protein Diets
+T2	Enzyme 56 72	Dietary Protease
+T3	Nutrient 111 130	Plant-based protein
+T4	Food 147 159	soybean meal
+T5	INCREASES 360 369	producing
+T6	Chemical 226 245	undigested proteins
+T8	Chemical 339 358	undigested proteins
+T11	Physiology 472 480	diarrhea
+T12	Enzyme 512 529	dietary proteases
+T13	Physiology 601 617	immune responses
+T14	WORSENS 583 600	negatively affect
+T15	Enzyme 684 701	dietary proteases
+T16	Enzyme 703 706	PRO
+T17	DietPattern 713 751	low-crude protein (CP) commercial diet
+T20	Physiology 759 775	immune responses
+T21	AFFECTS 673 680	effects
+T22	Enzyme 1473 1476	PRO
+T23	DietPattern 1482 1511	low CP commercial weaned diet
+T24	DECREASES 1512 1522	attenuated
+T25	Physiology 1523 1545	inflammatory responses
+T27	Microorganism 1357 1370	Lactobacillus
+T28	Microorganism 1401 1414	Streptococcus
+T35	Enzyme 1217 1220	PRO
+T39	Enzyme 1065 1068	PRO
+T40	DietPattern 960 981	lower CP diet than PC
+T41	Physiology 35 51	Immune Responses
+T42	AFFECTS 52 55	via
+T44	Physiology 165 182	low digestibility
+T45	INTERACTS_WITH 331 338	ferment
+T46	Microorganism 310 330	intestinal pathogens
+T47	Physiology 441 467	overactive immune response
+T48	INTERACTS_WITH 530 539	hydrolyze
+T49	Chemical 540 575	soybean-based antinutritive factors
+T50	Enzyme 1084 1087	PRO
+T51	DECREASES 1098 1106	decrease
+T52	Physiology 1124 1132	diarrhea
+T53	DECREASES 1228 1237	decreased
+T54	Chemical 1238 1243	TNF-α
+T55	Chemical 1248 1254	TGF-β1
+T57	Enzyme 1301 1304	PRO
+T58	INCREASES 1317 1323	higher
+T59	DECREASES 1375 1380	lower
+T60	DietPattern 876 891	commercial diet
+T61	INCREASES 210 222	accumulation
+T62	Metabolite 398 405	ammonia
+T63	Metabolite 407 413	amines
+T64	Metabolite 418 425	phenols
+T65	CAUSES 427 434	leading
+E2	INCREASES:T5 Agent:T8 Theme:T62
+E3	WORSENS:T14 Agent:T49 Theme:T13
+E4	AFFECTS:T21 Theme:T20 Agent:T15
+E5	CAUSES:T65 Agent:T62 Theme:T47
+E7	AFFECTS:T42 Theme:T41 Agent:T2
+E9	INCREASES:T61 Agent:T4 Theme:T6
+E10	INTERACTS_WITH:T45 Theme:T46 Theme2:T8
+E11	INCREASES:T5 Agent:T8 Theme:T64
+E12	INTERACTS_WITH:T48 Theme:T12 Theme2:T49
+E13	CAUSES:T65 Agent:T64 Theme:T47
+E14	DECREASES:T51 Agent:T50 Theme:T52
+E15	DECREASES:T53 Agent:T35 Theme:T54
+E16	DECREASES:T53 Agent:T35 Theme:T55
+E17	INCREASES:T58 Agent:T57 Theme:T27
+E18	DECREASES:T59 Agent:T57 Theme:T28
+E19	DECREASES:T24 Theme:T25 Agent:T22
+E20	CAUSES:T65 Agent:T64 Theme:T11
+E21	CAUSES:T65 Agent:T63 Theme:T47
+E22	CAUSES:T65 Agent:T63 Theme:T11
+E23	CAUSES:T65 Agent:T62 Theme:T11
+E24	INCREASES:T5 Agent:T8 Theme:T63
+A1	Unknown E4
+N1	MESH:D010447 T2	Peptide Hydrolases
+N2	MESH:D010940 T3	Plant Proteins
+N3	FOODON:03302757 T4	soybean meal
+N4	NCIT:C2987 T11	Diarrhea
+N5	MESH:D010447 T12	Peptide Hydrolases
+N6	MESH:D007109 T13	Immunity
+N7	MESH:D010447 T15	Peptide Hydrolases
+N8	MESH:D007109 T20	Immunity
+N9	NCIT:C20151 T25	Inflammatory Response
+N10	NCBITAXON:1578 T27	Lactobacillus
+N11	NCBITAXON:1301 T28	Streptococcus
+N12	MESH:D007109 T41	Immunity
+N13	NCIT:C2987 T52	Diarrhea
+N14	MESH:D014409 T54	Tumor Necrosis Factor-alpha
+N15	MESH:D053773 T55	Transforming Growth Factor beta1
+N16	CHEBI:16134 T62	ammonia
+N17	CHEBI:32952 T63	amine
+N18	CHEBI:33853 T64	phenols
+A2	Factual E2
+A3	Factual E3
+A4	Factual E5
+A5	Factual E7
+A6	Factual E9
+A7	Factual E10
+A8	Factual E11
+A9	Factual E12
+A10	Factual E13
+A11	Factual E14
+A12	Factual E15
+A13	Factual E16
+A14	Factual E17
+A15	Factual E18
+A16	Factual E19
+A17	Factual E20
+A18	Factual E21
+A19	Factual E22
+A20	Factual E23
+A21	Factual E24

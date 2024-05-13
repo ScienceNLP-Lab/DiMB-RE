@@ -1,0 +1,224 @@
+T1	Food 49 87	whole plant of Andrographis paniculata
+T2	Food 38 44;61 87	leaves of Andrographis paniculata
+T3	Physiology 91 109	rumen fermentation
+T4	Chemical 111 133	fatty acid composition
+T5	Population 152 157	goats
+T6	AFFECTS 0 7	Effects
+T7	Physiology 243 261	rumen fermentation
+T8	Physiology 266 288	nutrient digestibility
+T9	Population 292 301	ruminants
+T10	Physiology 327 349	nutrient digestibility
+T11	Physiology 354 370	rumen metabolism
+T12	Food 394 417	Andrographis paniculata
+T13	Nutrient 419 421	AP
+T14	Population 426 431	goats
+T15	Food 507 513;524 535	leaves plant of AP
+T16	Food 518 535	whole plant of AP
+T17	Physiology 539 561	nutrient digestibility
+T18	Physiology 563 581	rumen fermentation
+T19	Chemical 583 594	fatty acids
+T20	Population 629 634	goats
+T21	AFFECTS 469 476	effects
+T22	DietPattern 840 850	Basal diet
+T23	Population 648 668	Boer crossbred bucks
+T24	Measurement 692 703	body weight
+T25	Population 780 785	goats
+T26	Chemical 1583 1588	C18:0
+T27	Nutrient 1357 1370	crude protein
+T29	Food 893 928	Andrographis paniculata leaf powder
+T30	Food 1372 1382	dry matter
+T31	Food 962 1004	Andrographis paniculata whole plant powder
+T32	Food 1006 1009	APW
+T33	Nutrient 1389 1404	detergent fibre
+T34	Nutrient 1409 1432	neutral detergent fibre
+T35	AFFECTS 1821 1842	no significant effect
+T36	Chemical 1656 1664	C18:3n-3
+T55	Microorganism 599 625	rumen microbial population
+T58	AFFECTS 316 323	changes
+T59	Physiology 1077 1085	rumen pH
+T60	Metabolite 1107 1117	propionate
+T61	INCREASES 1123 1130	greater
+T63	Food 1159 1162	APL
+T64	Food 1167 1170	APW
+T65	Chemical 1728 1742	C18:1 trans-11
+T66	Metabolite 1253 1260	acetate
+T67	Food 1315 1318	APL
+T68	Food 1323 1326	APW
+T70	INCREASES 1438 1445	greater
+T71	Food 1464 1467	APL
+T72	Food 1472 1475	APW
+T74	Population 1476 1481	goats
+T75	Food 1521 1524	APL
+T76	Food 1529 1532	APW
+T77	DECREASES 1533 1542	decreased
+T78	INCREASES 1593 1602	increased
+T79	Population 1674 1679	goats
+T80	Food 1670 1673	APL
+T81	INCREASES 1684 1691	greater
+T83	Chemical 1643 1651	C18:2n-6
+T85	Metabolite 1747 1765	CLA cis-9 trans-11
+T86	Food 1775 1778	APW
+T87	Population 1791 1796	goats
+T88	Microorganism 1864 1872	protozoa
+T90	Microorganism 1877 1888	methanogens
+T91	Microorganism 1939 1957	Ruminococcus albus
+T92	Microorganism 1959 1984	Ruminococcus flavefaciens
+T93	Microorganism 1989 2013	Fibrobacter succinogenes
+T94	INCREASES 2019 2026	greater
+T95	Food 2045 2048	APL
+T97	Food 2053 2056	APW
+T98	Population 2057 2062	goats
+T99	Food 2125 2131;2148 2174	leaves of Andrographis paniculata
+T100	Food 2136 2174	whole plant of Andrographis paniculata
+T101	IMPROVES 2222 2230	improved
+T102	Physiology 2231 2253	nutrient digestibility
+T103	Population 2257 2262	goats
+T104	Physiology 2201 2217	rumen metabolism
+T105	AFFECTS 2190 2200	manipulate
+T107	Population 1327 1332	goats
+T108	Physiology 1338 1356;1384 1404	digestibilities of acid detergent fibre
+T109	Physiology 1338 1356;1409 1432	digestibilities of neutral detergent fibre
+T110	Physiology 1338 1356;1372 1382	digestibilities of dry matter
+T111	Physiology 1338 1370	digestibilities of crude protein
+T154	Metabolite 1232 1248	ammonia nitrogen
+T265	Food 930 933	APL
+T266	DietPattern 870 880	basal diet
+T267	DietPattern 939 949	basal diet
+E1	AFFECTS:T6 Theme:T4 Agent:T2
+E2	AFFECTS:T6 Theme:T4 Agent:T1
+E3	AFFECTS:T21 Agent:T15 Theme:T17
+E4	AFFECTS:T21 Agent:T16 Theme:T17
+E5	INCREASES:T61 Agent:T64 Theme:T59
+E6	INCREASES:T61 Agent:T63 Theme:T59
+E7	AFFECTS:T21 Agent:T16 Theme:T18
+E8	AFFECTS:T21 Agent:T16 Theme:T19
+E9	AFFECTS:T21 Agent:T16 Theme:T55
+E10	AFFECTS:T21 Agent:T15 Theme:T18
+E11	AFFECTS:T21 Agent:T15 Theme:T19
+E12	AFFECTS:T21 Agent:T15 Theme:T55
+E13	AFFECTS:T58 Theme:T10 Agent:T12
+E14	AFFECTS:T58 Theme:T11 Agent:T12
+E15	INCREASES:T70 Agent:T72 Theme:T111
+E16	INCREASES:T61 Theme:T60 Agent:T63
+E17	INCREASES:T61 Theme:T60 Agent:T64
+E18	INCREASES:T70 Agent:T72 Theme:T110
+E19	DECREASES:T77 Agent:T75 Theme:T26
+E20	INCREASES:T78 Agent:T75 Theme:T36
+E21	INCREASES:T81 Agent:T80 Theme:T65
+E22	DECREASES:T77 Agent:T76 Theme:T26
+E23	INCREASES:T78 Agent:T76 Theme:T83
+E24	AFFECTS:T35 Agent:T86 Theme:T90
+E25	AFFECTS:T35 Agent:T86 Theme:T88
+E26	INCREASES:T94 Theme:T93 Agent:T95
+E27	INCREASES:T94 Theme:T93 Agent:T97
+E28	IMPROVES:T101 Theme:T102 Agent:T99
+E29	AFFECTS:T105 Theme:T104 Agent:T99
+E30	IMPROVES:T101 Theme:T102 Agent:T100
+E31	AFFECTS:T105 Theme:T104 Agent:T100
+E32	INCREASES:T70 Agent:T72 Theme:T108
+E33	INCREASES:T70 Agent:T72 Theme:T109
+E34	INCREASES:T78 Theme:T36 Agent:T76
+E35	AFFECTS:T35 Agent:T80 Theme:T90
+E36	AFFECTS:T35 Agent:T80 Theme:T88
+E37	INCREASES:T70 Agent:T71 Theme:T111
+E38	INCREASES:T70 Agent:T71 Theme:T110
+E39	INCREASES:T70 Agent:T71 Theme:T108
+E40	INCREASES:T70 Agent:T71 Theme:T109
+E41	INCREASES:T78 Agent:T75 Theme:T83
+E42	INCREASES:T94 Agent:T97 Theme:T92
+E43	INCREASES:T94 Agent:T95 Theme:T92
+E44	INCREASES:T94 Agent:T95 Theme:T91
+E45	INCREASES:T94 Agent:T97 Theme:T91
+E46	INCREASES:T81 Theme:T85 Agent:T80
+E81	AFFECTS:T6 Agent:T1 Theme:T3
+E82	AFFECTS:T6 Agent:T2 Theme:T3
+A1	Unknown E1
+A2	Unknown E2
+A3	Unknown E3
+A4	Unknown E4
+A5	Unknown E7
+A6	Unknown E8
+A7	Unknown E9
+A8	Unknown E10
+A9	Unknown E11
+A10	Unknown E12
+A11	Negated E35
+A12	Negated E36
+A13	Negated E24
+A14	Unknown E13
+A15	Unknown E14
+A16	Negated E25
+A29	Unknown E81
+A30	Unknown E82
+N1	MESH:D000089002 T1	Andrographis paniculata
+N2	MESH:D000089002 T2	Andrographis paniculata
+N3	CHEBI:35366 T4	fatty acid
+N4	MESH:D000089002 T12	Andrographis paniculata
+N5	MESH:D000089002 T13	Andrographis paniculata
+N6	MESH:D000089002 T15	Andrographis paniculata
+N7	MESH:D000089002 T16	Andrographis paniculata
+N8	CHEBI:35366 T19	fatty acid
+N9	NCIT:C90364 T22	Basal Diet
+N10	NCIT:C81328 T24	Body Weight
+N11	CHEBI:28842 T26	octadecanoic acid
+N12	MESH:D000089002 T29	Andrographis paniculata
+N13	MESH:D000089002 T31	Andrographis paniculata
+N14	MESH:D000089002 T32	Andrographis paniculata
+N15	CHEBI:25048 T36	linolenic acid
+N21	NCBITAXON:2267272 T55	rumen bacterium
+N24	CHEBI:17272 T60	propionate
+N25	MESH:D000089002 T63	Andrographis paniculata
+N26	MESH:D000089002 T64	Andrographis paniculata
+N27	CHEBI:28727 T65	trans-vaccenic acid
+N28	CHEBI:30089 T66	acetate
+N29	MESH:D000089002 T67	Andrographis paniculata
+N30	MESH:D000089002 T68	Andrographis paniculata
+N31	MESH:D000089002 T71	Andrographis paniculata
+N32	MESH:D000089002 T72	Andrographis paniculata
+N33	MESH:D000089002 T75	Andrographis paniculata
+N34	MESH:D000089002 T76	Andrographis paniculata
+N35	MESH:D000089002 T80	Andrographis paniculata
+N36	CHEBI:36331 T83	octadeca-10,12-dienoic acid
+N37	CHEBI:32798 T85	9-cis,11-trans-octadecadienoic acid
+N38	MESH:D000089002 T86	Andrographis paniculata
+N39	NCIT:C77916 T88	Protozoa
+N40	NCBITAXON:1264 T91	Ruminococcus albus
+N41	NCBITAXON:1265 T92	Ruminococcus flavefaciens
+N42	NCBITAXON:833 T93	Fibrobacter succinogenes
+N43	MESH:D000089002 T95	Andrographis paniculata
+N45	MESH:D000089002 T97	Andrographis paniculata
+N46	MESH:D000089002 T99	Andrographis paniculata
+N47	MESH:D000089002 T100	Andrographis paniculata
+N160	MESH:D000089002 T265	Andrographis paniculata
+N161	NCIT:C90364 T266	Basal Diet
+N162	NCIT:C90364 T267	Basal Diet
+A31	Factual E5
+A32	Factual E6
+A33	Factual E15
+A34	Factual E16
+A35	Factual E17
+A36	Factual E18
+A37	Factual E19
+A38	Factual E20
+A39	Factual E21
+A40	Factual E22
+A41	Factual E23
+A42	Factual E26
+A43	Factual E27
+A44	Factual E28
+A45	Factual E29
+A46	Factual E30
+A47	Factual E31
+A48	Factual E32
+A49	Factual E33
+A50	Factual E34
+A51	Factual E37
+A52	Factual E38
+A53	Factual E39
+A54	Factual E40
+A55	Factual E41
+A56	Factual E42
+A57	Factual E43
+A58	Factual E44
+A59	Factual E45
+A60	Factual E46

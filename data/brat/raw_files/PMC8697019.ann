@@ -1,0 +1,193 @@
+T1	Nutrient 4 13	Prebiotic
+T2	Food 25 29	Oats
+T3	Chemical 33 45	Blood Lipids
+T4	Metabolite 67 90	Short-Chain Fatty Acids
+T5	Population 94 130	Mildly Hypercholesterolemic Subjects
+T6	Food 145 149	Rice
+T7	Methodology 153 181	Randomized, Controlled Trial
+T8	AFFECTS 14 21	Effects
+T9	Nutrient 183 197	Phytochemicals
+T10	Food 211 215	oats
+T11	IMPROVES 242 259	beneficial effect
+T12	Disease 274 286	dyslipidemia
+T13	Chemical 313 318;327 338	total cholesterol
+T14	Chemical 323 338	LDL cholesterol
+T15	Methodology 408 435	randomized controlled study
+T16	Population 453 489	mildly hypercholesterolemic subjects
+T17	Disease 101 121	Hypercholesterolemic
+T18	Disease 460 480	hypercholesterolemic
+T19	Food 580 584	oats
+T20	Food 588 592	rice
+T21	Measurement 612 633	Plasma lipid profiles
+T22	Metabolite 635 658	short chain fatty acids
+T23	Metabolite 660 665	SCFAs
+T24	Chemical 728 745	total cholesterol
+T25	Chemical 747 749	TC
+T26	Chemical 755 795	non-high-density lipoprotein cholesterol
+T27	DECREASES 808 817	decreased
+T28	Food 842 846	oats
+T29	Food 851 855	rice
+T30	Chemical 797 806	non-HDL-C
+T31	Chemical 902 904	TC
+T32	Chemical 909 918	non-HDL-C
+T33	DECREASES 889 898	reduction
+T34	Food 961 965	oats
+T35	Food 980 984	rice
+T36	Food 1032 1035	Oat
+T37	INCREASES 1062 1071	increased
+T38	Microorganism 1089 1112	Akkermansia muciniphila
+T39	Microorganism 1117 1126	Roseburia
+T40	Microorganism 1158 1167	Dialister
+T41	Microorganism 1169 1181	Butyrivibrio
+T42	Microorganism 1187 1201	Paraprevotella
+T43	DECREASES 1207 1216	decreased
+T44	Microorganism 1230 1246	f-Sutterellaceae
+T45	Food 1255 1258	oat
+T46	DECREASES 2235 2243	lowering
+T47	Microorganism 1266 1281	Bifidobacterium
+T48	NEG_ASSOCIATED_WITH 1296 1317	negatively correlated
+T49	Chemical 1323 1328	LDL-C
+T50	Chemical 1356 1358	TC
+T51	Chemical 1363 1368	LDL-C
+T52	NEG_ASSOCIATED_WITH 1374 1395	negatively correlated
+T53	Microorganism 1399 1427	Faecalibacterium prausnitzii
+T54	Microorganism 1486 1504	Enterobacteriaceae
+T55	Microorganism 1506 1515	Roseburia
+T56	Microorganism 1521 1549	Faecalibacterium prausnitzii
+T57	POS_ASSOCIATED_WITH 1555 1576	positively correlated
+T58	Metabolite 1589 1601	butyric acid
+T59	Metabolite 1606 1618	valeric acid
+T60	NEG_ASSOCIATED_WITH 1638 1659	negatively correlated
+T61	Metabolite 1663 1678	isobutyric acid
+T62	Chemical 1680 1685	HDL-C
+T63	NEG_ASSOCIATED_WITH 1690 1711	negatively correlated
+T64	Metabolite 1717 1729	valeric acid
+T65	Chemical 1756 1774	total triglyceride
+T66	Chemical 1776 1778	TG
+T67	POS_ASSOCIATED_WITH 1784 1805	positively correlated
+T68	Metabolite 1809 1824	isovaleric acid
+T69	Food 1863 1867	oats
+T70	DECREASES 1894 1901	reduced
+T71	Chemical 1902 1904	TC
+T72	Chemical 1909 1914	LDL-C
+T73	Nutrient 1936 1945	prebiotic
+T74	Microorganism 1972 1995	Akkermansia muciniphila
+T75	Microorganism 1997 2006	Roseburia
+T76	Microorganism 2008 2023	Bifidobacterium
+T77	Microorganism 2029 2057	Faecalibacterium prausnitzii
+T78	Metabolite 2070 2074	SCFA
+T79	ASSOCIATED_WITH 2075 2085	correlated
+T80	Food 2091 2094	oat
+T81	Chemical 2114 2127	plasma lipids
+T82	Food 2162 2166	oats
+T83	Nutrient 2140 2149	prebiotic
+T84	Chemical 2223 2234	cholesterol
+T85	HAS_COMPONENT 198 210	derived from
+T86	AFFECTS 2095 2110	induced changes
+E1	AFFECTS:T8 Agent:T2 Theme:T3
+E2	AFFECTS:T8 Agent:T2 Theme:T4
+E3	IMPROVES:T11 Theme:T12 Agent:T9
+E4	DECREASES:T27 Agent:T28 Theme:T26
+E5	DECREASES:T27 Agent:T29 Theme:T26
+E6	DECREASES:T27 Agent:T29 Theme:T24
+E7	DECREASES:T27 Agent:T28 Theme:T24
+E8	DECREASES:T33 Agent:T34 Theme:T31
+E9	DECREASES:T33 Agent:T34 Theme:T32
+E10	INCREASES:T37 Agent:T36 Theme:T38
+E11	DECREASES:T43 Agent:T36 Theme:T44
+E12	INCREASES:T37 Agent:T36 Theme:T39
+E13	INCREASES:T37 Agent:T36 Theme:T40
+E14	INCREASES:T37 Agent:T36 Theme:T41
+E15	INCREASES:T37 Agent:T36 Theme:T42
+E16	NEG_ASSOCIATED_WITH:T48 Agent:T47 Theme:T49
+E17	NEG_ASSOCIATED_WITH:T52 Agent:T53 Theme:T51
+E18	NEG_ASSOCIATED_WITH:T52 Agent:T53 Theme:T50
+E19	POS_ASSOCIATED_WITH:T57 Agent:T56 Theme:T58
+E20	NEG_ASSOCIATED_WITH:T60 Theme:T61 Agent:T56
+E21	POS_ASSOCIATED_WITH:T57 Agent:T55 Theme:T58
+E22	POS_ASSOCIATED_WITH:T57 Agent:T54 Theme:T58
+E23	POS_ASSOCIATED_WITH:T57 Agent:T54 Theme:T59
+E24	POS_ASSOCIATED_WITH:T57 Agent:T55 Theme:T59
+E25	POS_ASSOCIATED_WITH:T57 Agent:T56 Theme:T59
+E26	NEG_ASSOCIATED_WITH:T63 Agent:T62 Theme:T64
+E27	POS_ASSOCIATED_WITH:T67 Agent:T62 Theme:T68
+E28	NEG_ASSOCIATED_WITH:T63 Agent:T62 Theme:T65
+E29	DECREASES:T70 Agent:T69 Theme:T71
+E30	DECREASES:T70 Agent:T69 Theme:T72
+E31	ASSOCIATED_WITH:T79 Theme:T78 Theme2:T81
+E32	ASSOCIATED_WITH:T79 Theme:T74 Theme2:T81
+E33	ASSOCIATED_WITH:T79 Theme:T75 Theme2:T81
+E34	ASSOCIATED_WITH:T79 Theme:T76 Theme2:T81
+E35	ASSOCIATED_WITH:T79 Theme:T77 Theme2:T81
+E36	HAS_COMPONENT:T85 Theme:T9 Agent:T10
+E37	NEG_ASSOCIATED_WITH:T60 Agent:T55 Theme:T61
+E38	NEG_ASSOCIATED_WITH:T60 Agent:T54 Theme:T61
+E39	DECREASES:T46 Theme:T84 Agent:T82
+E40	AFFECTS:T86 Theme:T81 Agent:T80
+A1	Factuality E1 Unknown
+A2	Factuality E2 Unknown
+N1	Reference T1 MESH:D056692	Prebiotics
+N2	Reference T2 OCHV:C0939905	oats
+N3	Reference T3 OCHV:41502	blood lipid
+N4	Reference T4 CHEBI:26666	short-chain fatty acid
+N5	Reference T6 FOODON:00004327	rice
+N6	Reference T9 NCIT:C28269	Phytochemical
+N7	Reference T10 OCHV:C0939905	oats
+N8	Reference T12 NCIT:C80385	Dyslipidemia
+N9	Reference T13 NCIT:C105586	Cholesterol Measurement
+N10	Reference T14 CHEBI:47774	low-density lipoprotein cholesterol
+N11	Reference T17 NCIT:C37967	Hypercholesterolemia
+N12	Reference T18 NCIT:C37967	Hypercholesterolemia
+N13	Reference T19 OCHV:C0939905	oats
+N14	Reference T20 FOODON:00004327	rice
+N15	Reference T21 OCHV:C1278073	plasma lipids
+N16	Reference T22 CHEBI:26666	short-chain fatty acid
+N17	Reference T23 CHEBI:26666	short-chain fatty acid
+N18	Reference T24 NCIT:C105586	Cholesterol Measurement
+N19	Reference T25 NCIT:C105586	Cholesterol Measurement
+N20	Reference T26 NCIT:C116204	Non-High Density Lipoprotein Cholesterol Measurement
+N21	Reference T28 OCHV:C0939905	oats
+N22	Reference T29 FOODON:00004327	rice
+N23	Reference T30 NCIT:C116204	Non-High Density Lipoprotein Cholesterol Measurement
+N24	Reference T31 NCIT:C105586	Cholesterol Measurement
+N25	Reference T32 NCIT:C116204	Non-High Density Lipoprotein Cholesterol Measurement
+N26	Reference T34 OCHV:C0939905	oats
+N27	Reference T35 FOODON:00004327	rice
+N28	Reference T36 OCHV:C0939905	oats
+N29	Reference T38 NCBITAXON:239935	Akkermansia muciniphila
+N30	Reference T39 NCBITAXON:841	Roseburia
+N31	Reference T40 NCBITAXON:39948	Dialister
+N32	Reference T41 NCBITAXON:830	Butyrivibrio
+N33	Reference T42 NCBITAXON:577309	Paraprevotella
+N34	Reference T44 NCBITAXON:995019	Sutterellaceae
+N35	Reference T45 OCHV:C0939905	oats
+N36	Reference T47 NCBITAXON:1678	Bifidobacterium
+N37	Reference T49 CHEBI:47774	low-density lipoprotein cholesterol
+N38	Reference T50 NCIT:C105586	Cholesterol Measurement
+N39	Reference T51 CHEBI:47774	low-density lipoprotein cholesterol
+N40	Reference T53 NCBITAXON:853	Faecalibacterium prausnitzii
+N41	Reference T54 NCBITAXON:543	Enterobacteriaceae
+N42	Reference T55 NCBITAXON:841	Roseburia
+N43	Reference T56 NCBITAXON:853	Faecalibacterium prausnitzii
+N44	Reference T58 CHEBI:30772	butyric acid
+N45	Reference T59 CHEBI:17418	valeric acid
+N46	Reference T61 CHEBI:16135	isobutyric acid
+N47	Reference T62 CHEBI:47775	high-density lipoprotein cholesterol
+N48	Reference T64 CHEBI:17418	valeric acid
+N49	Reference T65 CHEBI:17855	triglycerides
+N50	Reference T66 CHEBI:17855	triglycerides
+N51	Reference T68 CHEBI:28484	isovaleric acid
+N52	Reference T69 OCHV:C0939905	oats
+N53	Reference T71 NCIT:C105586	Cholesterol Measurement
+N54	Reference T72 CHEBI:47774	low-density lipoprotein cholesterol
+N55	Reference T73 MESH:D056692	Prebiotics
+N56	Reference T74 NCBITAXON:239935	Akkermansia muciniphila
+N57	Reference T75 NCBITAXON:841	Roseburia
+N58	Reference T76 NCBITAXON:1678	Bifidobacterium
+N59	Reference T77 NCBITAXON:853	Faecalibacterium prausnitzii
+N60	Reference T78 CHEBI:26666	short-chain fatty acid
+N61	Reference T80 OCHV:C0939905	oats
+N62	Reference T81 OCHV:C1278073	plasma lipids
+N63	Reference T82 OCHV:C0939905	oats
+N64	Reference T83 MESH:D056692	Prebiotics
+N65	Reference T84 NCIT:C369	Cholesterol

@@ -1,0 +1,100 @@
+T1	Metabolite 45 68	short chain fatty acids
+T2	Food 95 116	fruit juice beverages
+T3	HAS_COMPONENT 117 127	containing
+T4	Nutrient 128 139	fruit fiber
+T5	Nutrient 141 158	fruit polyphenols
+T6	Population 72 78	humans
+T7	Food 220 240	Boysenberry beverage
+T8	Nutrient 249 260	polyphenols
+T9	Food 266 286	apple fiber beverage
+T10	Nutrient 294 307	dietary fiber
+T11	Food 316 353	Boysenberry plus apple fiber beverage
+T12	Nutrient 362 373	polyphenols
+T13	Nutrient 385 398	dietary fiber
+T14	AFFECTS 0 13	No difference
+T15	Methodology 476 510	placebo-controlled crossover study
+T16	AFFECTS 947 961	no differences
+T17	Microorganism 997 1039	Bacteroides-Prevotella-Porphyromonas group
+T18	Nutrient 820 825	fiber
+T19	Nutrient 901 906	fiber
+T20	Nutrient 910 921	polyphenols
+T22	Nutrient 804 815	polyphenols
+T23	Microorganism 1041 1063	Bifidobacteriumspecies
+T24	Microorganism 1065 1088	Clostridium perfringens
+T25	Microorganism 1093 1106	Lactobacillus
+T26	Metabolite 1156 1178	short chain fatty acid
+T27	AFFECTS 1194 1206	did not vary
+T28	Food 1309 1335	Boysenberry juice beverage
+T29	Food 1426 1452	Boysenberry juice beverage
+T30	Food 1458 1478	apple fiber beverage
+T31	Food 1484 1527	Boysenberry juice plus apple fiber beverage
+T32	AFFECTS 1337 1363	No significant differences
+T33	Physiology 1403 1413	gut health
+T34	Chemical 1240 1256	prostaglandin E2
+T36	INCREASES 1277 1283	higher
+E1	HAS_COMPONENT:T3 Agent:T2 Theme:T4
+E2	HAS_COMPONENT:T3 Agent:T2 Theme:T5
+E3	AFFECTS:T14 Theme:T1 Agent:T2
+E4	AFFECTS:T16 Agent:T7 Theme:T17
+E5	AFFECTS:T16 Agent:T9 Theme:T17
+E6	AFFECTS:T16 Agent:T11 Theme:T17
+E7	AFFECTS:T27 Theme:T26 Agent:T7
+E8	AFFECTS:T32 Theme:T33 Agent:T29
+E9	AFFECTS:T32 Theme:T33 Agent:T30
+E10	AFFECTS:T32 Theme:T33 Agent:T31
+E11	AFFECTS:T27 Theme:T26 Agent:T9
+E12	AFFECTS:T27 Theme:T26 Agent:T11
+E13	INCREASES:T36 Theme:T34 Agent:T28
+E14	AFFECTS:T16 Theme:T23 Agent:T7
+E15	AFFECTS:T16 Theme:T23 Agent:T9
+E16	AFFECTS:T16 Theme:T23 Agent:T11
+E17	AFFECTS:T16 Theme:T24 Agent:T7
+E18	AFFECTS:T16 Theme:T24 Agent:T9
+E19	AFFECTS:T16 Theme:T24 Agent:T11
+E20	AFFECTS:T16 Theme:T25 Agent:T11
+E21	AFFECTS:T16 Theme:T25 Agent:T7
+E22	AFFECTS:T16 Theme:T25 Agent:T9
+A1	Negated E3
+A2	Negated E4
+A3	Negated E5
+A4	Negated E6
+A5	Negated E7
+A6	Negated E8
+A7	Negated E9
+A8	Negated E10
+A9	Negated E11
+A10	Negated E12
+A11	Negated E14
+A12	Negated E15
+A13	Negated E16
+A14	Negated E17
+A15	Negated E18
+A16	Negated E19
+A17	Negated E20
+A18	Negated E21
+A19	Negated E22
+N1	CHEBI:26666 T1	short-chain fatty acid
+N2	FOODON:03302186 T2	fruit juice drink
+N3	NCIT:C1502 T4	Fiber
+N4	CHEBI:26195 T5	Polyphenol
+N5	FOODON:00001662 T7	boysenberry food product
+N6	CHEBI:26195 T8	polyphenol
+N7	FOODON:00001099 T9	apple beverage
+N8	NCIT:C68492 T10	Dietary Fiber
+N9	CHEBI:26195 T12	polyphenol
+N10	NCIT:C68492 T13	Dietary Fiber
+N11	NCIT:C1502 T18	Fiber
+N12	NCIT:C1502 T19	Fiber
+N13	CHEBI:26195 T20	polyphenol
+N14	CHEBI:26195 T22	polyphenol
+N15	NCBITAXON:1678 T23	Bifidobacterium
+N16	NCBITAXON:1502 T24	Clostridium perfringens
+N17	NCBITAXON:1578 T25	Lactobacillus
+N18	CHEBI:26666 T26	short-chain fatty acid
+N19	FOODON:00001662 T28	boysenberry food product
+N20	FOODON:00001662 T29	boysenberry food product
+N21	FOODON:00001099 T30	apple beverage
+N22	CHEBI:15551 T34	prostaglandin E2
+A20	Factual E1
+A21	Factual E2
+A22	Factual E13

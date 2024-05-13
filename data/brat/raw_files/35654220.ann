@@ -1,0 +1,56 @@
+T1	Metabolite 458 481	short chain fatty acids
+T2	Microorganism 549 560	Bacteroides
+T3	INCREASES 526 535	increased
+T4	INCREASES 430 439	increased
+T5	Nutrient 149 164	polysaccharides
+T6	Nutrient 29 44	polysaccharides
+T7	Microorganism 50 74	Gracilaria lemaneiformis
+T8	Physiology 1434 1455	microbial degradation
+T9	Nutrient 266 281	polysaccharides
+T10	ASSOCIATED_WITH 1404 1414	associated
+T11	Microorganism 287 311	Gracilaria lemaneiformis
+T12	Nutrient 313 317	GLPs
+T13	Microorganism 611 622	Bacteroides
+T14	Population 654 659	human
+T15	Biospecimen 660 665	feces
+T16	Methodology 684 696	MALDI-TOF/MS
+T17	Microorganism 713 724	Bacteroides
+T18	Microorganism 849 860	Bacteroides
+T19	Nutrient 864 868	GLPs
+T20	Nutrient 920 934	GLPs fragments
+T21	Microorganism 967 978	Bacteroides
+T22	Microorganism 1007 1018	Bacteroides
+T23	Nutrient 1052 1056	GLPs
+T24	Nutrient 1069 1091	GLPs-derived fragments
+T25	Nutrient 1103 1107	GLPs
+T26	Nutrient 1169 1183	GLPs fragments
+T27	Nutrient 1316 1331	polysaccharides
+T28	Nutrient 1459 1463	GLPs
+T29	INCREASES 957 963	growth
+T31	INTERACTS_WITH 1061 1065	live
+E1	INCREASES:T3 Theme:T2 Agent:T9
+E2	INCREASES:T4 Theme:T1 Agent:T9
+E3	ASSOCIATED_WITH:T10 Theme:T27 Theme2:T8
+E5	INCREASES:T29 Agent:T20 Theme:T21
+E6	INTERACTS_WITH:T31 Theme:T22 Theme2:T24
+N1	Reference T1 CHEBI:26666	short-chain fatty acid
+N2	Reference T2 NCBITAXON:816	Bacteroides
+N3	Reference T5 CHEBI:18154	polysaccharide
+N4	Reference T6 CHEBI:18154	polysaccharide
+N5	Reference T7 NCBITAXON:2782	Gracilariopsis lemaneiformis
+N6	Reference T9 CHEBI:18154	polysaccharide
+N7	Reference T11 NCBITAXON:2782	Gracilariopsis lemaneiformis
+N8	Reference T12 NCBITAXON:2782	Gracilariopsis lemaneiformis
+N9	Reference T13 NCBITAXON:816	Bacteroides
+N10	Reference T17 NCBITAXON:816	Bacteroides
+N11	Reference T18 NCBITAXON:816	Bacteroides
+N12	Reference T19 NCBITAXON:2782	Gracilariopsis lemaneiformis
+N13	Reference T20 NCBITAXON:2782	Gracilariopsis lemaneiformis
+N14	Reference T21 NCBITAXON:816	Bacteroides
+N15	Reference T22 NCBITAXON:816	Bacteroides
+N16	Reference T23 NCBITAXON:2782	Gracilariopsis lemaneiformis
+N17	Reference T24 NCBITAXON:2782	Gracilariopsis lemaneiformis
+N18	Reference T25 NCBITAXON:2782	Gracilariopsis lemaneiformis
+N19	Reference T26 NCBITAXON:2782	Gracilariopsis lemaneiformis
+N20	Reference T27 CHEBI:18154	polysaccharide
+N21	Reference T28 NCBITAXON:2782	Gracilariopsis lemaneiformis

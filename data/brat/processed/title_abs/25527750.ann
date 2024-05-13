@@ -1,0 +1,99 @@
+T1	Nutrient 0 5	Fiber
+T2	Nutrient 1398 1403	fiber
+T3	Nutrient 605 610	Fiber
+T5	Food 298 335	bars containing no supplemental fiber
+T6	Nutrient 352 364	polydextrose
+T7	Nutrient 379 397	soluble corn fiber
+T11	Nutrient 1536 1548	polydextrose
+T12	POS_ASSOCIATED_WITH 1623 1643	positive correlation
+T13	Nutrient 1989 2001	polydextrose
+T14	Food 346 349	NFC
+T16	Nutrient 1076 1081	fiber
+T17	Nutrient 1553 1556	SCF
+T18	DECREASES 627 636	decreased
+T19	Nutrient 399 402	SCF
+T20	Nutrient 1705 1710	fiber
+T22	Nutrient 2231 2236	fiber
+T23	INCREASES 1460 1470	increasing
+T26	Gene 2035 2069;2093 2103	genes associated with carbohydrate metabolism
+T28	DiversityMetric 1428 1458	Bacteroidetes:Firmicutes ratio
+T30	Microorganism 1497 1510	Bacteroidetes
+T31	Nutrient 1884 1890	fibers
+T32	Physiology 637 655	fecal putrefaction
+T33	Chemical 2071 2081	amino acid
+T36	Chemical 2130 2139	cofactors
+T37	Nutrient 2144 2152	vitamins
+T38	Gene 2035 2056;2087 2103	genes associated with lipid metabolism
+T39	Nutrient 2057 2069	carbohydrate
+T40	Nutrient 1909 1912	SCF
+T43	Food 1586 1589	NFC
+T44	Gene 2035 2056;2071 2081;2093 2103	genes associated with amino acid metabolism
+T45	Chemical 2087 2092	lipid
+T47	Gene 2035 2056;2116 2129;2144 2152	genes associated with metabolism of vitamins
+T48	Gene 2035 2056;2116 2139	genes associated with metabolism of cofactors
+T49	AFFECTS 1947 1953	Shifts
+T53	Food 1942 1945	NFC
+T55	AFFECTS 1416 1423	shifted
+T66	Measurement 1726 1741	body mass index
+T67	Nutrient 2006 2009	SCF
+T71	DiversityMetric 1656 1686	Bacteroidetes:Firmicutes ratio
+T75	Nutrient 1892 1904	polydextrose
+E1	POS_ASSOCIATED_WITH:T12 Theme:T66 Theme2:T71
+E2	AFFECTS:T49 Agent:T13 Theme:T38
+E3	AFFECTS:T49 Agent:T13 Theme:T44
+E4	POS_ASSOCIATED_WITH:T12 Agent:T20 Theme:T71
+E5	AFFECTS:T49 Agent:T13 Theme:T26
+E6	INCREASES:T23 Theme:T30 Agent:T11
+E8	AFFECTS:T49 Agent:T13 Theme:T47
+E9	AFFECTS:T49 Agent:T13 Theme:T48
+E10	DECREASES:T18 Theme:T32 Agent:T3
+E11	AFFECTS:T55 Theme:T28 Agent:T11
+E12	INCREASES:T23 Theme:T30 Agent:T17
+E13	AFFECTS:T49 Agent:T67 Theme:T26
+E14	AFFECTS:T49 Agent:T67 Theme:T38
+E15	AFFECTS:T49 Agent:T67 Theme:T47
+E16	AFFECTS:T49 Agent:T67 Theme:T48
+E17	AFFECTS:T49 Agent:T67 Theme:T44
+E20	AFFECTS:T55 Theme:T28 Agent:T17
+A1	Negated E1
+N1	NCIT:C1502 T1	Fiber
+N2	NCIT:C1502 T2	Fiber
+N3	NCIT:C1502 T3	Fiber
+N4	FOODON:03413188 T6	polydextrose
+N5	NCIT:C192019 T7	Soluble Corn Fiber Prebiotic Supplement
+N6	FOODON:03413188 T11	polydextrose
+N7	FOODON:03413188 T13	polydextrose
+N8	NCIT:C1502 T16	Fiber
+N9	NCIT:C192019 T17	Soluble Corn Fiber Prebiotic Supplement
+N10	NCIT:C192019 T19	Soluble Corn Fiber Prebiotic Supplement
+N11	NCIT:C1502 T20	Fiber
+N12	NCIT:C1502 T22	Fiber
+N13	NCIT:C189550 T28	Firmicutes to Bacteroidetes Ratio Measurement
+N14	NCBITAXON:976 T30	Bacteroidetes
+N15	NCIT:C1502 T31	Fiber
+N16	CHEBI:33709 T33	amino acid
+N17	CHEBI:23357 T36	cofactor
+N18	NCIT:C944 T37	Vitamin
+N19	CHEBI:16646 T39	carbohydrate
+N20	NCIT:C192019 T40	Soluble Corn Fiber Prebiotic Supplement
+N21	CHEBI:18059 T45	lipid
+N22	NCIT:C16358 T66	Body Mass Index
+N23	NCIT:C192019 T67	Soluble Corn Fiber Prebiotic Supplement
+N24	NCIT:C189550 T71	Firmicutes to Bacteroidetes Ratio Measurement
+N25	FOODON:03413188 T75	polydextrose
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E8
+A8	Factual E9
+A9	Factual E10
+A10	Factual E11
+A11	Factual E12
+A12	Factual E13
+A13	Factual E14
+A14	Factual E15
+A15	Factual E16
+A16	Factual E17
+A17	Factual E20

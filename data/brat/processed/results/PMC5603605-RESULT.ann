@@ -1,0 +1,626 @@
+T12	DiversityMetric 5247 5280	phylogenetic diversity whole tree
+T13	Nutrient 7772 7782	prebiotics
+T14	Nutrient 217 220	FOS
+T17	Nutrient 227 230	GOS
+T18	Physiology 331 337	Weight
+T19	Measurement 392 395	BMI
+T20	Measurement 449 457	Fat mass
+T21	Physiology 507 510	BMR
+T22	Measurement 562 579	Visceral Fat Area
+T23	Physiology 622 637	Skeletal Muscle
+T24	Chemical 687 701	Fating glucose
+T25	Chemical 760 773	glucose level
+T27	Chemical 832 845	glucose level
+T29	Chemical 904 917	glucose level
+T31	Chemical 977 990	glucose level
+T33	Measurement 1042 1046	OGTT
+T34	Physiology 1103 1117	Calorie intake
+T35	Nutrient 7845 7855	prebiotics
+T37	Nutrient 7902 7912	prebiotics
+T39	Physiology 1216 1219	BMR
+T40	Physiology 1221 1242	basic metabolism rate
+T43	Nutrient 1434 1437	GOS
+T44	Nutrient 1474 1477	FOS
+T45	Nutrient 1520 1523	FOS
+T46	Nutrient 9447 9456	prebiotic
+T47	Nutrient 9563 9572	prebiotic
+T48	Nutrient 1693 1696	FOS
+T49	Nutrient 1701 1704	GOS
+T54	Measurement 10573 10577	OGTT
+T55	Physiology 2008 2026	glucose metabolism
+T56	Nutrient 2033 2036	FOS
+T57	Nutrient 2041 2044	GOS
+T58	Chemical 2076 2083	glucose
+T59	Measurement 2098 2102	OGTT
+T60	Nutrient 2130 2133	FOS
+T61	Nutrient 2143 2146	FOS
+T62	Nutrient 2166 2169	GOS
+T63	Nutrient 2179 2182	GOS
+T64	Metabolite 2208 2220	butyric acid
+T66	Nutrient 2235 2238	FOS
+T67	Nutrient 2259 2262	GOS
+T68	Nutrient 2364 2367	FOS
+T69	Nutrient 2371 2374	GOS
+T70	AFFECTS 2356 2363;2375 2397	neither had significant impact
+T71	Measurement 2401 2412	body weight
+T72	Measurement 2414 2429	Body Mass Index
+T73	Measurement 2431 2434	BMI
+T74	Measurement 2437 2445	Body Fat
+T75	Physiology 2447 2467	Basal Metabolic Rate
+T76	Physiology 2469 2472	BMR
+T77	Measurement 2475 2493	Visceral Fat Index
+T78	Physiology 2495 2510	Skeletal Muscle
+T79	Physiology 2515 2529	calorie intake
+T80	Chemical 2557 2570	blood glucose
+T81	Physiology 2629 2645	glucose response
+T82	INCREASES 2646 2669	significantly increased
+T83	Nutrient 2737 2740	FOS
+T85	INCREASES 2791 2800	increased
+T86	Chemical 2812 2825	blood glucose
+T87	Nutrient 2869 2872	FOS
+T88	Nutrient 2915 2918	GOS
+T89	Chemical 2964 2979	fasting glucose
+T90	INCREASES 2993 3002	increased
+T91	Nutrient 3050 3053	GOS
+T92	Metabolite 3100 3123	short-chain fatty acids
+T93	Metabolite 3125 3130	SCFAs
+T94	Nutrient 3138 3141	FOS
+T95	Nutrient 3146 3149	GOS
+T96	AFFECTS 3089 3096	Changes
+T98	Metabolite 3188 3193	SCFAs
+T99	Nutrient 3217 3220	FOS
+T100	Nutrient 3225 3228	GOS
+T101	Nutrient 3250 3253	FOS
+T102	Nutrient 3269 3272	GOS
+T103	Metabolite 3364 3378	Propionic acid
+T104	Metabolite 3434 3446	Butyric acid
+T105	Metabolite 3290 3301	Acetic acid
+T106	Metabolite 3508 3523	Isobutyric acid
+T107	Metabolite 3578 3590	Valeric acid
+T108	Metabolite 3645 3660	Isovaleric acid
+T109	Metabolite 3721 3726	SCFAs
+T111	Metabolite 3906 3911	SCFAs
+T112	Metabolite 3923 3934	acetic acid
+T113	Metabolite 3936 3950	propionic acid
+T114	Metabolite 3952 3964	butyric acid
+T115	Metabolite 3966 3981	isobutyric acid
+T116	Metabolite 3983 3995	valeric acid
+T117	Metabolite 4000 4015	isovaleric acid
+T120	Nutrient 4102 4105	FOS
+T121	DECREASES 4120 4127	reduced
+T123	Metabolite 4155 4167	butyric acid
+T124	Metabolite 4220 4232	butyric acid
+T125	Nutrient 4251 4254	GOS
+T126	DECREASES 4200 4216	reduced tendency
+T127	Metabolite 4324 4335	acetic acid
+T128	Metabolite 4346 4351	SCFAs
+T129	DECREASES 4357 4366	decreased
+T130	Nutrient 4373 4376	FOS
+T131	Nutrient 4381 4384	GOS
+T132	Nutrient 4496 4499	FOS
+T133	Nutrient 4504 4507	GOS
+T134	DiversityMetric 4541 4552	α-diversity
+T135	Nutrient 4583 4586	FOS
+T136	Nutrient 4596 4599	FOS
+T137	Nutrient 4607 4610	GOS
+T138	Nutrient 4620 4623	GOS
+T139	DiversityMetric 4671 4682	α-diversity
+T140	DiversityMetric 4696 4701	Chao1
+T141	DiversityMetric 4707 4723	observed species
+T142	DiversityMetric 4729 4742	Shannon index
+T143	DiversityMetric 4752 4765	PD whole tree
+T144	DiversityMetric 4780 4802	phylogenetic diversity
+T145	DiversityMetric 4767 4769	PD
+T147	Nutrient 4940 4943	FOS
+T148	Nutrient 4962 4965	GOS
+T149	DiversityMetric 5126 5137	α-diversity
+T150	DiversityMetric 5149 5165	species richness
+T151	DiversityMetric 5182 5187	Chao1
+T152	DiversityMetric 5189 5205	observed species
+T153	DiversityMetric 5208 5230	phylogenetic diversity
+T154	Microorganism 12851 12878	butyrate-producing bacteria
+T155	DiversityMetric 5286 5294	richness
+T156	DiversityMetric 5299 5307	evenness
+T157	DiversityMetric 5324 5337	Shannon index
+T158	Nutrient 5385 5388	GOS
+T159	DiversityMetric 5407 5418	α-diversity
+T160	DiversityMetric 5474 5507	Phylogenetic diversity whole tree
+T161	DiversityMetric 5509 5522	Shannon index
+T162	DiversityMetric 5527 5543	observed species
+T164	Nutrient 5621 5624	GOS
+T167	Nutrient 5859 5862	GOS
+T170	Nutrient 6159 6162	GOS
+T171	Nutrient 6247 6250	FOS
+T172	AFFECTS 6268 6277	no effect
+T173	DiversityMetric 6281 6292	α-diversity
+T175	Nutrient 6485 6488	FOS
+T176	Nutrient 6498 6501	FOS
+T177	Nutrient 6509 6512	GOS
+T178	Nutrient 6522 6525	GOS
+T179	Nutrient 6619 6622	FOS
+T180	Nutrient 6632 6635	FOS
+T181	Nutrient 6647 6650	GOS
+T184	Nutrient 6660 6663	GOS
+T186	Nutrient 6925 6928	FOS
+T187	Nutrient 6933 6936	GOS
+T188	Microorganism 6962 6975	Bacteroidetes
+T189	Microorganism 6977 6987	Firmicutes
+T190	Microorganism 6993 7007	Proteobacteria
+T191	Microorganism 7098 7109	Bacteroides
+T192	Microorganism 7111 7121	Prevotella
+T193	Microorganism 7123 7139	Faecalibacterium
+T194	Microorganism 7141 7152	Megasphaera
+T195	Microorganism 7157 7172	Bifidobacterium
+T197	Nutrient 7272 7275	FOS
+T198	Microorganism 7314 7329	Bifidobacterium
+T199	Microorganism 7355 7376	Phascolarctobacterium
+T200	Microorganism 7378 7390	Enterobacter
+T201	Microorganism 7392 7404	Turicibacter
+T202	Microorganism 7406 7417	Coprococcus
+T203	Microorganism 7422 7432	Salmonella
+T204	DECREASES 7334 7341	reduced
+T205	INCREASES 7295 7304	increased
+T206	Microorganism 7468 7483	Bifidobacterium
+T207	INCREASES 7488 7497	increased
+T208	Microorganism 7515 7527	Ruminococcus
+T209	Microorganism 7529 7544	Dehalobacterium
+T210	Microorganism 7546 7557	Synergistes
+T211	Microorganism 7562 7572	Holdemania
+T212	DECREASES 7577 7586	decreased
+T213	Nutrient 7593 7596	GOS
+T214	Nutrient 7656 7659	FOS
+T215	Nutrient 7664 7667	GOS
+T216	Physiology 7716 7744	glucose metabolism responses
+T217	Measurement 7760 7764	OGTT
+T218	Measurement 7820 7824	OGTT
+T219	Measurement 7878 7882	OGTT
+T220	Measurement 7936 7940	OGTT
+T221	Nutrient 7955 7958	FOS
+T222	Nutrient 7992 7995	GOS
+T223	DECREASES 7941 7948	reduced
+T224	INCREASES 7977 7985	elevated
+T225	Measurement 8030 8034	OGTT
+T226	DECREASES 8035 8042	reduced
+T227	Nutrient 8049 8052	GOS
+T228	INCREASES 8071 8079	elevated
+T229	Nutrient 8086 8089	FOS
+T230	Nutrient 8441 8444	FOS
+T231	Nutrient 8451 8454	FOS
+T232	Nutrient 8462 8465	GOS
+T233	Nutrient 8475 8478	GOS
+T236	Measurement 8788 8792	OGTT
+T237	Nutrient 8829 8832	FOS
+T238	DECREASES 8838 8845	reduced
+T239	Nutrient 8852 8855	GOS
+T240	INCREASES 8814 8822	elevated
+T241	Measurement 8936 8940	OGTT
+T242	DECREASES 8945 8952	reduced
+T243	Nutrient 8959 8962	FOS
+T244	INCREASES 8968 8976	elevated
+T245	Nutrient 8983 8986	GOS
+T246	Physiology 9030 9046	glucose response
+T247	WORSENS 9057 9069	became worse
+T248	Nutrient 9076 9079	FOS
+T249	IMPROVES 9097 9105	improved
+T250	Nutrient 9112 9115	GOS
+T251	Physiology 9164 9180	glucose response
+T252	IMPROVES 9185 9193	improved
+T253	Nutrient 9197 9200	FOS
+T254	WORSENS 9219 9231	deteriorated
+T255	Nutrient 9235 9238	GOS
+T256	Microorganism 9307 9322	Bifidobacterium
+T257	INCREASES 9295 9303	increase
+T259	Measurement 9919 9922	BMI
+T260	Measurement 9955 9967	initial OGTT
+T261	Measurement 10023 10036	OGTT outcomes
+T263	Measurement 10163 10167	OGTT
+T266	Microorganism 10392 10405	Bacteroidetes
+T267	Microorganism 10415 10425	Firmicutes
+T268	Microorganism 10435 10449	Actinobacteria
+T269	Microorganism 10461 10475	Proteobacteria
+T270	Measurement 10521 10535	OGTT responses
+T271	Measurement 10638 10642	OGTT
+T272	Measurement 10717 10729	initial OGTT
+T273	Measurement 10741 10753	initial OGTT
+T275	Nutrient 9936 9946	prebiotics
+T277	Nutrient 10051 10060	prebiotic
+T278	Nutrient 10542 10552	prebiotics
+T279	Nutrient 10658 10667	prebiotic
+T280	Measurement 10906 10910	OGTT
+T281	Measurement 10967 10980	OGTT outcomes
+T282	Measurement 11184 11196	initial OGTT
+T283	Measurement 11198 11201	BMI
+T284	Measurement 11203 11211	body fat
+T285	Physiology 11213 11216	BMR
+T286	Measurement 11218 11236	visceral fat index
+T287	Physiology 11238 11253	skeletal muscle
+T288	Measurement 11296 11309	OGTT outcomes
+T289	Nutrient 11316 11325	prebiotic
+T290	Measurement 11389 11400	OGTT values
+T291	Measurement 11419 11430	OGTT values
+T292	Measurement 11601 11605	OGTT
+T294	Measurement 11851 11864	OGTT outcomes
+T295	Disease 11898 11917	glucose intolerance
+T296	Measurement 12031 12042	OGTT values
+T297	Measurement 12061 12072	OGTT values
+T298	Measurement 12235 12247	initial OGTT
+T299	Chemical 12249 12264	fasting glucose
+T300	Measurement 12270 12273	BMI
+T301	Measurement 12316 12330	predicted OGTT
+T304	Microorganism 12566 12577	Bacteroides
+T305	Microorganism 12579 12595	Faecalibacterium
+T306	Microorganism 12597 12608	Clostridium
+T307	Microorganism 12610 12620	Prevotella
+T308	Microorganism 12622 12634	Ruminococcus
+T309	Microorganism 12636 12652	Veilllonellaceae
+T310	Microorganism 12654 12675	Phascolarctobacterium
+T311	Microorganism 12680 12695	Bifidobacterium
+T312	ASSOCIATED_WITH 12705 12715	correlated
+T313	Measurement 12725 12738	OGTT outcomes
+T314	Microorganism 12771 12782	Bacteroides
+T316	Metabolite 12851 12859	butyrate
+T318	Microorganism 12888 12904	Faecalibacterium
+T319	Microorganism 12906 12918	Ruminococcus
+T320	Microorganism 12923 12944	Phascolarctobacterium
+T322	Measurement 12967 12980	OGTT outcomes
+T323	Microorganism 13015 13026	Clostridium
+T324	Disease 13076 13080	T2DM
+T325	ASSOCIATED_WITH 13092 13102	correlated
+T326	POS_ASSOCIATED_WITH 13052 13071	highly discriminant
+T327	Measurement 13112 13125	OGTT outcomes
+T328	Measurement 13225 13238	OGTT outcomes
+T329	Nutrient 13264 13273	prebiotic
+T330	ASSOCIATED_WITH 12951 12961	correlated
+T331	ASSOCIATED_WITH 12296 12306	correlated
+E5	AFFECTS:T70 Theme:T79 Agent:T68
+E6	AFFECTS:T70 Theme:T79 Agent:T69
+E7	INCREASES:T82 Theme:T81 Agent:T83
+E8	INCREASES:T85 Theme:T86 Agent:T87
+E9	INCREASES:T90 Theme:T89 Agent:T91
+E10	AFFECTS:T96 Theme:T92 Agent:T94
+E11	AFFECTS:T96 Theme:T92 Agent:T95
+E12	DECREASES:T121 Agent:T120 Theme:T123
+E13	DECREASES:T126 Theme:T124 Agent:T125
+E14	DECREASES:T129 Theme:T127 Agent:T130
+E15	DECREASES:T129 Theme:T127 Agent:T131
+E16	AFFECTS:T172 Agent:T171 Theme:T173
+E17	AFFECTS:T70 Theme:T78 Agent:T69
+E18	DECREASES:T204 Agent:T197 Theme:T199
+E19	INCREASES:T205 Agent:T197 Theme:T198
+E20	DECREASES:T204 Agent:T197 Theme:T200
+E21	DECREASES:T204 Agent:T197 Theme:T201
+E22	DECREASES:T204 Agent:T197 Theme:T202
+E23	DECREASES:T204 Agent:T197 Theme:T203
+E24	INCREASES:T207 Theme:T206 Agent:T213
+E25	DECREASES:T212 Agent:T213 Theme:T211
+E26	DECREASES:T212 Agent:T213 Theme:T210
+E27	DECREASES:T212 Agent:T213 Theme:T209
+E28	DECREASES:T212 Agent:T213 Theme:T208
+E29	DECREASES:T223 Theme:T220 Agent:T221
+E30	INCREASES:T224 Agent:T222 Theme:T220
+E31	DECREASES:T226 Theme:T225 Agent:T227
+E32	INCREASES:T228 Agent:T229 Theme:T225
+E33	DECREASES:T238 Theme:T236 Agent:T239
+E34	INCREASES:T240 Agent:T237 Theme:T236
+E35	DECREASES:T242 Theme:T241 Agent:T243
+E36	INCREASES:T244 Agent:T245 Theme:T241
+E37	WORSENS:T247 Theme:T246 Agent:T248
+E38	IMPROVES:T249 Theme:T246 Agent:T250
+E39	IMPROVES:T252 Agent:T253 Theme:T251
+E40	WORSENS:T254 Agent:T255 Theme:T251
+E41	INCREASES:T257 Theme:T256 Agent:T255
+E42	INCREASES:T257 Theme:T256 Agent:T253
+E43	AFFECTS:T70 Theme:T78 Agent:T68
+E44	ASSOCIATED_WITH:T331 Theme:T301 Theme2:T299
+E45	ASSOCIATED_WITH:T331 Theme:T301 Theme2:T300
+E46	ASSOCIATED_WITH:T312 Theme:T304 Theme2:T313
+E47	ASSOCIATED_WITH:T325 Theme2:T327 Theme:T323
+E48	POS_ASSOCIATED_WITH:T326 Theme:T323 Agent:T324
+E49	ASSOCIATED_WITH:T330 Theme:T318 Theme2:T322
+E50	ASSOCIATED_WITH:T312 Theme:T305 Theme2:T313
+E51	ASSOCIATED_WITH:T312 Theme:T306 Theme2:T313
+E52	ASSOCIATED_WITH:T312 Theme:T307 Theme2:T313
+E53	ASSOCIATED_WITH:T312 Theme:T308 Theme2:T313
+E54	ASSOCIATED_WITH:T312 Theme:T309 Theme2:T313
+E55	ASSOCIATED_WITH:T312 Theme:T310 Theme2:T313
+E56	ASSOCIATED_WITH:T312 Theme:T311 Theme2:T313
+E57	ASSOCIATED_WITH:T330 Theme:T319 Theme2:T322
+E58	ASSOCIATED_WITH:T330 Theme:T320 Theme2:T322
+E63	ASSOCIATED_WITH:T331 Theme:T301 Theme2:T298
+E65	AFFECTS:T70 Theme:T77 Agent:T69
+E77	AFFECTS:T70 Theme:T77 Agent:T68
+E78	AFFECTS:T70 Theme:T75 Agent:T69
+E79	AFFECTS:T70 Theme:T75 Agent:T68
+E80	AFFECTS:T70 Theme:T74 Agent:T69
+E81	AFFECTS:T70 Theme:T74 Agent:T68
+E82	AFFECTS:T70 Theme:T72 Agent:T69
+E83	AFFECTS:T70 Theme:T72 Agent:T68
+E84	AFFECTS:T70 Theme:T71 Agent:T69
+E85	AFFECTS:T70 Theme:T71 Agent:T68
+E86	DECREASES:T129 Theme:T128 Agent:T131
+E87	DECREASES:T129 Theme:T128 Agent:T130
+A1	Negated E5
+A2	Negated E6
+A3	Negated E16
+A4	Negated E17
+A7	Negated E43
+A8	Negated E65
+A9	Negated E77
+A10	Negated E78
+A11	Negated E79
+A12	Negated E80
+A13	Negated E81
+A14	Negated E82
+A15	Negated E83
+A16	Negated E84
+A17	Negated E85
+N8	MESH:D056692 T13	Prebiotics
+N9	CHEBI:190523 T14	fructooligosaccharide
+N10	CHEBI:24151 T17	galactooligosaccharide
+N11	NCIT:C25208 T18	Weight
+N12	NCIT:C16358 T19	Body Mass Index
+N13	NCIT:C158256 T20	Fat Mass
+N14	NCIT:C126083 T21	Basal Metabolic Rate
+N15	MESH:D050152 T22	Intra-Abdominal Fat
+N16	NCIT:C13050 T23	Skeletal Muscle Tissue
+N17	CHEBI:17234 T24	glucose
+N18	CHEBI:17234 T25	glucose
+N19	CHEBI:17234 T27	glucose
+N20	CHEBI:17234 T29	glucose
+N21	CHEBI:17234 T31	glucose
+N22	MESH:D005951 T33	Glucose Tolerance Test
+N23	NCIT:C28135 T34	Caloric Intake
+N24	MESH:D056692 T35	Prebiotics
+N25	MESH:D056692 T37	Prebiotics
+N26	NCIT:C126083 T39	Basal Metabolic Rate
+N27	NCIT:C126083 T40	Basal Metabolic Rate
+N28	CHEBI:24151 T43	galactooligosaccharide
+N29	CHEBI:190523 T44	fructooligosaccharide
+N30	CHEBI:190523 T45	fructooligosaccharide
+N31	MESH:D056692 T46	Prebiotics
+N32	MESH:D056692 T47	Prebiotics
+N33	CHEBI:190523 T48	fructooligosaccharide
+N34	CHEBI:24151 T49	galactooligosaccharide
+N35	MESH:D005951 T54	Glucose Tolerance Test
+N36	OCHV:41587 T55	glucose metabolism
+N37	CHEBI:190523 T56	fructooligosaccharide
+N38	CHEBI:24151 T57	galactooligosaccharide
+N39	CHEBI:17234 T58	glucose
+N40	MESH:D005951 T59	Glucose Tolerance Test
+N41	CHEBI:190523 T60	fructooligosaccharide
+N42	CHEBI:190523 T61	fructooligosaccharide
+N43	CHEBI:24151 T62	galactooligosaccharide
+N44	CHEBI:24151 T63	galactooligosaccharide
+N45	CHEBI:30772 T64	butyric acid
+N46	CHEBI:190523 T66	fructooligosaccharide
+N47	CHEBI:24151 T67	galactooligosaccharide
+N48	CHEBI:190523 T68	fructooligosaccharide
+N49	CHEBI:24151 T69	galactooligosaccharide
+N50	NCIT:C81328 T71	Body Weight
+N51	NCIT:C16358 T72	Body Mass Index
+N52	NCIT:C16358 T73	Body Mass Index
+N53	MESH:D000273 T74	Adipose Tissue
+N54	NCIT:C126083 T75	Basal Metabolic Rate
+N55	NCIT:C126083 T76	Basal Metabolic Rate
+N56	MESH:D050152 T77	Intra-Abdominal Fat
+N57	NCIT:C13050 T78	Skeletal Muscle Tissue
+N58	NCIT:C28135 T79	Caloric Intake
+N59	NCIT:C94312 T80	Blood Glucose
+N60	CHEBI:190523 T83	fructooligosaccharide
+N61	NCIT:C94312 T86	Blood Glucose
+N62	CHEBI:190523 T87	fructooligosaccharide
+N63	CHEBI:24151 T88	galactooligosaccharide
+N64	NCIT:C94312 T89	Blood Glucose
+N65	CHEBI:24151 T91	galactooligosaccharide
+N66	CHEBI:26666 T92	short-chain fatty acid
+N67	CHEBI:26666 T93	short-chain fatty acid
+N68	CHEBI:190523 T94	fructooligosaccharide
+N69	CHEBI:24151 T95	galactooligosaccharide
+N70	CHEBI:26666 T98	short-chain fatty acid
+N71	CHEBI:190523 T99	fructooligosaccharide
+N72	CHEBI:24151 T100	galactooligosaccharide
+N73	CHEBI:190523 T101	fructooligosaccharide
+N74	CHEBI:24151 T102	galactooligosaccharide
+N75	CHEBI:30768 T103	propionic acid
+N76	CHEBI:30772 T104	butyric acid
+N77	CHEBI:15366 T105	acetic acid
+N78	CHEBI:16135 T106	isobutyric acid
+N79	CHEBI:17418 T107	valeric acid
+N80	CHEBI:28484 T108	isovaleric acid
+N81	CHEBI:26666 T109	short-chain fatty acid
+N82	CHEBI:26666 T111	short-chain fatty acid
+N83	CHEBI:15366 T112	acetic acid
+N84	CHEBI:30768 T113	propionic acid
+N85	CHEBI:30772 T114	butyric acid
+N86	CHEBI:16135 T115	isobutyric acid
+N87	CHEBI:17418 T116	valeric acid
+N88	CHEBI:28484 T117	isovaleric acid
+N89	CHEBI:190523 T120	fructooligosaccharide
+N90	CHEBI:30772 T123	butyric acid
+N91	CHEBI:30772 T124	butyric acid
+N92	CHEBI:24151 T125	galactooligosaccharide
+N93	CHEBI:15366 T127	acetic acid
+N94	CHEBI:26666 T128	short-chain fatty acid
+N95	CHEBI:190523 T130	fructooligosaccharide
+N96	CHEBI:24151 T131	galactooligosaccharide
+N97	CHEBI:190523 T132	fructooligosaccharide
+N98	CHEBI:24151 T133	galactooligosaccharide
+N99	CHEBI:190523 T135	fructooligosaccharide
+N100	CHEBI:190523 T136	fructooligosaccharide
+N101	CHEBI:24151 T137	galactooligosaccharide
+N102	CHEBI:24151 T138	galactooligosaccharide
+N103	CHEBI:190523 T147	fructooligosaccharide
+N104	CHEBI:24151 T148	galactooligosaccharide
+N105	NCBITAXON:2811711 T154	butyrate-producing bacterium
+N106	CHEBI:24151 T158	galactooligosaccharide
+N107	CHEBI:24151 T164	galactooligosaccharide
+N108	CHEBI:24151 T167	galactooligosaccharide
+N109	CHEBI:24151 T170	galactooligosaccharide
+N110	CHEBI:190523 T171	fructooligosaccharide
+N111	CHEBI:190523 T175	fructooligosaccharide
+N112	CHEBI:190523 T176	fructooligosaccharide
+N113	CHEBI:24151 T177	galactooligosaccharide
+N114	CHEBI:24151 T178	galactooligosaccharide
+N115	CHEBI:190523 T179	fructooligosaccharide
+N116	CHEBI:190523 T180	fructooligosaccharide
+N117	CHEBI:24151 T181	galactooligosaccharide
+N118	CHEBI:24151 T184	galactooligosaccharide
+N119	CHEBI:190523 T186	fructooligosaccharide
+N120	CHEBI:24151 T187	galactooligosaccharide
+N121	NCBITAXON:976 T188	Bacteroidetes
+N122	NCBITAXON:1239 T189	Firmicutes
+N123	NCBITAXON:1224 T190	Proteobacteria
+N124	NCBITAXON:816 T191	Bacteroides
+N125	NCBITAXON:838 T192	Prevotella
+N126	NCBITAXON:216851 T193	Faecalibacterium
+N127	NCBITAXON:906 T194	Megasphaera
+N128	NCBITAXON:1678 T195	Bifidobacterium
+N129	CHEBI:190523 T197	fructooligosaccharide
+N130	NCBITAXON:1678 T198	Bifidobacterium
+N131	NCBITAXON:33024 T199	Phascolarctobacterium
+N132	NCBITAXON:547 T200	Enterobacter
+N133	NCBITAXON:191303 T201	Turicibacter
+N134	NCBITAXON:33042 T202	Coprococcus
+N135	NCBITAXON:590 T203	Salmonella
+N136	NCBITAXON:1678 T206	Bifidobacterium
+N137	NCBITAXON:1263 T208	Ruminococcus
+N138	NCBITAXON:51514 T209	Dehalobacterium
+N139	NCBITAXON:2753 T210	Synergistes
+N140	NCBITAXON:61170 T211	Holdemania
+N141	CHEBI:24151 T213	galactooligosaccharide
+N142	CHEBI:190523 T214	fructooligosaccharide
+N143	CHEBI:24151 T215	galactooligosaccharide
+N144	OCHV:41587 T216	glucose metabolism
+N145	MESH:D005951 T217	Glucose Tolerance Test
+N146	MESH:D005951 T218	Glucose Tolerance Test
+N147	MESH:D005951 T219	Glucose Tolerance Test
+N148	MESH:D005951 T220	Glucose Tolerance Test
+N149	CHEBI:190523 T221	fructooligosaccharide
+N150	CHEBI:24151 T222	galactooligosaccharide
+N151	MESH:D005951 T225	Glucose Tolerance Test
+N152	CHEBI:24151 T227	galactooligosaccharide
+N153	CHEBI:190523 T229	fructooligosaccharide
+N154	CHEBI:190523 T230	fructooligosaccharide
+N155	CHEBI:190523 T231	fructooligosaccharide
+N156	CHEBI:24151 T232	galactooligosaccharide
+N157	CHEBI:24151 T233	galactooligosaccharide
+N158	MESH:D005951 T236	Glucose Tolerance Test
+N159	CHEBI:190523 T237	fructooligosaccharide
+N160	CHEBI:24151 T239	galactooligosaccharide
+N161	MESH:D005951 T241	Glucose Tolerance Test
+N162	CHEBI:190523 T243	fructooligosaccharide
+N163	CHEBI:24151 T245	galactooligosaccharide
+N164	CHEBI:190523 T248	fructooligosaccharide
+N165	CHEBI:24151 T250	galactooligosaccharide
+N166	CHEBI:190523 T253	fructooligosaccharide
+N167	CHEBI:24151 T255	galactooligosaccharide
+N168	NCBITAXON:1678 T256	Bifidobacterium
+N169	NCIT:C16358 T259	Body Mass Index
+N170	MESH:D005951 T260	Glucose Tolerance Test
+N171	MESH:D005951 T261	Glucose Tolerance Test
+N172	MESH:D005951 T263	Glucose Tolerance Test
+N173	NCBITAXON:976 T266	Bacteroidetes
+N174	NCBITAXON:1239 T267	Firmicutes
+N175	NCBITAXON:201174 T268	Actinobacteria
+N176	NCBITAXON:1224 T269	Proteobacteria
+N177	MESH:D005951 T270	Glucose Tolerance Test
+N178	MESH:D005951 T271	Glucose Tolerance Test
+N179	MESH:D005951 T272	Glucose Tolerance Test
+N180	MESH:D005951 T273	Glucose Tolerance Test
+N181	MESH:D056692 T275	Prebiotics
+N182	MESH:D056692 T277	Prebiotics
+N183	MESH:D056692 T278	Prebiotics
+N184	MESH:D056692 T279	Prebiotics
+N185	MESH:D005951 T280	Glucose Tolerance Test
+N186	MESH:D005951 T281	Glucose Tolerance Test
+N187	MESH:D005951 T282	Glucose Tolerance Test
+N188	NCIT:C16358 T283	Body Mass Index
+N189	MESH:D000273 T284	Adipose Tissue
+N190	NCIT:C126083 T285	Basal Metabolic Rate
+N191	MESH:D050152 T286	Intra-Abdominal Fat
+N192	NCIT:C13050 T287	Skeletal Muscle Tissue
+N193	MESH:D005951 T288	Glucose Tolerance Test
+N194	MESH:D056692 T289	Prebiotics
+N195	MESH:D005951 T290	Glucose Tolerance Test
+N196	MESH:D005951 T291	Glucose Tolerance Test
+N197	MESH:D005951 T292	Glucose Tolerance Test
+N198	MESH:D005951 T294	Glucose Tolerance Test
+N199	NCIT:C34646 T295	Glucose Intolerance
+N200	MESH:D005951 T296	Glucose Tolerance Test
+N201	MESH:D005951 T297	Glucose Tolerance Test
+N202	MESH:D005951 T298	Glucose Tolerance Test
+N203	NCIT:C94312 T299	Blood Glucose
+N204	NCIT:C16358 T300	Body Mass Index
+N205	MESH:D005951 T301	Glucose Tolerance Test
+N207	NCBITAXON:816 T304	Bacteroides
+N208	NCBITAXON:216851 T305	Faecalibacterium
+N209	NCBITAXON:1485 T306	Clostridium
+N210	NCBITAXON:838 T307	Prevotella
+N211	NCBITAXON:1263 T308	Ruminococcus
+N212	NCBITAXON:31977 T309	Veillonellaceae
+N213	NCBITAXON:33024 T310	Phascolarctobacterium
+N214	NCBITAXON:1678 T311	Bifidobacterium
+N215	MESH:D005951 T313	Glucose Tolerance Test
+N216	NCBITAXON:816 T314	Bacteroides
+N217	CHEBI:17968 T316	butyrate
+N218	NCBITAXON:216851 T318	Faecalibacterium
+N219	NCBITAXON:1263 T319	Ruminococcus
+N220	NCBITAXON:33024 T320	Phascolarctobacterium
+N221	MESH:D005951 T322	Glucose Tolerance Test
+N222	NCBITAXON:1485 T323	Clostridium
+N223	NCIT:C26747 T324	Type 2 Diabetes Mellitus
+N224	MESH:D005951 T327	Glucose Tolerance Test
+N225	MESH:D005951 T328	Glucose Tolerance Test
+N226	MESH:D056692 T329	Prebiotics
+A22	Factual E7
+A23	Factual E8
+A24	Factual E9
+A25	Factual E10
+A26	Factual E11
+A27	Factual E12
+A28	Factual E13
+A29	Factual E14
+A30	Factual E15
+A31	Factual E18
+A32	Factual E19
+A33	Factual E20
+A34	Factual E21
+A35	Factual E22
+A36	Factual E23
+A37	Factual E24
+A38	Factual E25
+A39	Factual E26
+A40	Factual E27
+A41	Factual E28
+A42	Factual E29
+A43	Factual E30
+A44	Factual E31
+A45	Factual E32
+A46	Factual E33
+A47	Factual E34
+A48	Factual E35
+A49	Factual E36
+A50	Factual E37
+A51	Factual E38
+A52	Factual E39
+A53	Factual E40
+A54	Factual E41
+A55	Factual E42
+A56	Factual E44
+A57	Factual E45
+A58	Factual E46
+A59	Factual E47
+A60	Factual E48
+A61	Factual E49
+A62	Factual E50
+A63	Factual E51
+A64	Factual E52
+A65	Factual E53
+A66	Factual E54
+A67	Factual E55
+A68	Factual E56
+A69	Factual E57
+A70	Factual E58
+A74	Factual E63
+A86	Factual E86
+A87	Factual E87

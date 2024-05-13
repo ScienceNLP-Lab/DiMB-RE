@@ -1,0 +1,140 @@
+T1	Food 0 6	Walnut
+T2	Metabolite 79 99	Secondary Bile Acids
+T5	INCREASES 1989 1999	increasing
+T6	Food 236 240	nuts
+T7	DECREASES 2148 2156	reducing
+T8	PREVENTS 283 291	reducing
+T9	Disease 332 338	cancer
+T10	Disease 343 356	heart disease
+T11	Food 415 422	walnuts
+T12	Food 602 608	walnut
+T15	DietPattern 880 896	isocaloric diets
+T16	HAS_COMPONENT 897 907	containing
+T17	Food 918 925	walnuts
+T18	AFFECTS 19 25	Alters
+T21	Food 1137 1143	walnut
+T22	AFFECTS 1126 1133	effects
+T23	Metabolite 1180 1190	bile acids
+T24	Food 1272 1278	walnut
+T25	Metabolite 1533 1549	deoxycholic acid
+T26	Microorganism 1342 1358	Faecalibacterium
+T27	Microorganism 1360 1371	Clostridium
+T28	Microorganism 1373 1382	Dialister
+T29	Microorganism 1388 1397	Roseburia
+T30	INCREASES 1313 1319	higher
+T31	DECREASES 1409 1414	lower
+T32	Microorganism 1438 1450	Ruminococcus
+T33	Microorganism 1452 1457	Dorea
+T34	Microorganism 1459 1471	Oscillospira
+T35	Microorganism 1477 1492	Bifidobacterium
+T37	Metabolite 1554 1570	lithocholic acid
+T38	DECREASES 1589 1594	lower
+T39	Food 1620 1626	walnut
+T40	Metabolite 1505 1531	Fecal secondary bile acids
+T41	DECREASES 1779 1784	lower
+T42	Food 1806 1812	walnut
+T43	Food 1890 1896	Walnut
+T44	Microorganism 2112 2128	Faecalibacterium
+T45	Microorganism 2133 2142	Roseburia
+T46	Metabolite 2194 2214	secondary bile acids
+T49	Chemical 1715 1736	noncholesterol sterol
+T50	Food 2375 2381	walnut
+T52	Measurement 1195 1222	metabolic markers of health
+T53	Metabolite 2049 2057	butyrate
+T54	Measurement 666 693	metabolic markers of health
+T55	Microorganism 2027 2037	Firmicutes
+T56	Chemical 1691 1706	LDL cholesterol
+T57	Chemical 1737 1748	campesterol
+T58	Chemical 2219 2234	LDL cholesterol
+T59	Physiology 487 503	metabolic health
+T60	IMPROVES 423 442	beneficially affect
+T61	AFFECTS 592 598	impact
+T261	Microorganism 2068 2093	Clostridium clusters XIVa
+T262	Microorganism 2068 2088;2098 2100	Clostridium clusters IV
+E2	PREVENTS:T8 Agent:T6 Theme:T9
+E3	PREVENTS:T8 Agent:T6 Theme:T10
+E4	HAS_COMPONENT:T16 Agent:T15 Theme:T17
+E5	AFFECTS:T22 Agent:T21 Theme:T23
+E6	INCREASES:T30 Agent:T24 Theme:T27
+E7	INCREASES:T30 Agent:T24 Theme:T26
+E8	DECREASES:T31 Agent:T24 Theme:T32
+E9	INCREASES:T5 Agent:T43 Theme:T44
+E10	INCREASES:T30 Agent:T24 Theme:T28
+E11	INCREASES:T30 Agent:T24 Theme:T29
+E12	DECREASES:T31 Agent:T24 Theme:T33
+E13	DECREASES:T31 Agent:T24 Theme:T34
+E14	DECREASES:T31 Agent:T24 Theme:T35
+E15	DECREASES:T38 Agent:T39 Theme:T25
+E16	DECREASES:T41 Agent:T42 Theme:T56
+E17	DECREASES:T41 Agent:T42 Theme:T57
+E18	INCREASES:T5 Agent:T43 Theme:T45
+E19	DECREASES:T7 Agent:T43 Theme:T46
+E20	DECREASES:T7 Agent:T43 Theme:T58
+E21	AFFECTS:T18 Agent:T1 Theme:T2
+E22	AFFECTS:T22 Agent:T21 Theme:T52
+E23	DECREASES:T38 Agent:T39 Theme:T37
+E24	IMPROVES:T60 Agent:T11 Theme:T59
+E25	AFFECTS:T61 Agent:T12 Theme:T54
+A1	Unknown E5
+A3	Unknown E22
+A4	Unknown E25
+A10	Unknown E2
+A11	Unknown E3
+A12	Unknown E24
+N1	FOODON:03316466 T1	walnut (whole or parts)
+N2	CHEBI:3098 T2	bile acid
+N3	MESH:D009754 T6	Nuts
+N4	NCIT:C9035 T9	Malignant Neoplasm
+N5	NCIT:C3079 T10	Heart Disorder
+N6	FOODON:03316466 T11	walnut (whole or parts)
+N7	FOODON:03316466 T12	walnut (whole or parts)
+N8	FOODON:03316466 T17	walnut (whole or parts)
+N9	FOODON:03316466 T21	walnut (whole or parts)
+N10	CHEBI:3098 T23	bile acid
+N11	FOODON:03316466 T24	walnut (whole or parts)
+N12	CHEBI:28834 T25	deoxycholic acid
+N13	NCBITAXON:216851 T26	Faecalibacterium
+N14	NCBITAXON:1485 T27	Clostridium
+N15	NCBITAXON:39948 T28	Dialister
+N16	NCBITAXON:841 T29	Roseburia
+N17	NCBITAXON:1263 T32	Ruminococcus
+N18	NCBITAXON:189330 T33	Dorea
+N19	NCBITAXON:119852 T34	Oscillospira
+N20	NCBITAXON:1678 T35	Bifidobacterium
+N21	CHEBI:16325 T37	lithocholic acid
+N22	FOODON:03316466 T39	walnut (whole or parts)
+N23	CHEBI:3098 T40	bile acid
+N24	FOODON:03316466 T42	walnut (whole or parts)
+N25	FOODON:03316466 T43	walnut (whole or parts)
+N26	NCBITAXON:216851 T44	Faecalibacterium
+N27	NCBITAXON:841 T45	Roseburia
+N28	CHEBI:3098 T46	bile acid
+N29	CHEBI:15889 T49	sterol
+N30	FOODON:03316466 T50	walnut (whole or parts)
+N31	NCIT:C18520 T52	Metabolic Marker
+N32	CHEBI:17968 T53	butyrate
+N33	NCIT:C18520 T54	Metabolic Marker
+N34	NCBITAXON:1239 T55	Firmicutes
+N35	CHEBI:47774 T56	low-density lipoprotein cholesterol
+N36	CHEBI:28623 T57	campesterol
+N37	CHEBI:47774 T58	low-density lipoprotein cholesterol
+N200	NCIT:C129411 T261	Clostridium Cluster
+N201	NCIT:C129412 T262	Clostridium Cluster IV
+A16	Factual E4
+A17	Factual E6
+A18	Factual E7
+A19	Factual E8
+A20	Factual E9
+A21	Factual E10
+A22	Factual E11
+A23	Factual E12
+A24	Factual E13
+A25	Factual E14
+A26	Factual E15
+A27	Factual E16
+A28	Factual E17
+A29	Factual E18
+A30	Factual E19
+A31	Factual E20
+A32	Factual E21
+A33	Factual E23

@@ -1,0 +1,177 @@
+T1	Nutrient 29 53	Galacto-oligosaccharides
+T2	INCREASES 54 63	Increases
+T3	Microorganism 64 78	Bifidobacteria
+T4	INCREASES 84 87	Not
+T5	Physiology 88 107	Insulin Sensitivity
+T6	Population 112 141	Obese Prediabetic Individuals
+T7	Disease 112 117	Obese
+T8	Physiology 195 200;213 223	lipid metabolism
+T9	Physiology 205 223	glucose metabolism
+T10	Physiology 225 232	satiety
+T11	Physiology 238 268	chronic low-grade inflammation
+T12	Disease 286 293	obesity
+T13	Disease 298 313	type 2 diabetes
+T14	PREDISPOSES 272 282	contribute
+T15	Metabolite 360 382	short-chain fatty acid
+T16	Metabolite 384 388	SCFA
+T17	Metabolite 390 397	acetate
+T18	Nutrient 509 533	galacto-oligosaccharides
+T19	Nutrient 535 538	GOS
+T21	Nutrient 544 560	acetogenic fiber
+T22	Methodology 655 718	double-blinded, placebo-controlled, parallel intervention study
+T23	Disease 725 735	overweight
+T24	Disease 739 744	obese
+T25	Measurement 746 761	body mass index
+T26	Population 725 817	overweight or obese (body mass index, 28-40 kg/m2) prediabetic men and women (ages, 45-70 y)
+T27	Disease 776 787	prediabetic
+T28	Physiology 1277 1299	inflammatory responses
+T29	Nutrient 957 960	GOS
+T30	Nutrient 984 996	maltodextrin
+T31	Physiology 1094 1104;1117 1143	peripheral tissue insulin sensitivity
+T32	Physiology 1109 1143	adipose tissue insulin sensitivity
+T33	Metabolite 1175 1181;1192 1196	plasma SCFA
+T34	Metabolite 1186 1196	fecal SCFA
+T35	Physiology 1198 1216	energy expenditure
+T36	Physiology 1221 1240	substrate oxidation
+T37	Measurement 1242 1258	body composition
+T38	Physiology 1264 1272;1290 1299	hormonal responses
+T39	Nutrient 1339 1342	GOS
+T40	Physiology 1346 1376	peripheral insulin sensitivity
+T41	Methodology 1394 1434	hyperinsulinemic-euglycemic clamp method
+T42	AFFECTS 1329 1335	effect
+T43	Nutrient 1475 1478	GOS
+T44	INCREASES 1497 1506	increased
+T45	Microorganism 1524 1539	Bifidobacterium
+T46	Biospecimen 1551 1556	feces
+T47	Biospecimen 1625 1638	fecal samples
+T48	Metabolite 1696 1701;1720 1724	fecal SCFA
+T49	Metabolite 1705 1724	fasting plasma SCFA
+T50	Physiology 1773 1793	gut-derived hormones
+T51	Chemical 1795 1804	incretins
+T52	Chemical 1806 1840	lipopolysaccharide-binding protein
+T53	Measurement 1851 1874	markers of inflammation
+T54	AFFECTS 1661 1692	did not observe any differences
+T55	AFFECTS 1889 1915	no significant alterations
+T56	Physiology 1919 1929;1942 1968	peripheral tissue insulin sensitivity
+T57	Physiology 1934 1968	adipose tissue insulin sensitivity
+T58	Measurement 1970 1986	body composition
+T59	Physiology 1992 1998;2013 2023	energy metabolism
+T60	Physiology 2003 2023	substrate metabolism
+T61	Nutrient 2080 2083	GOS
+T62	INCREASES 2096 2105	increased
+T63	Microorganism 2112 2127	Bifidobacterium
+T64	AFFECTS 2156 2191	did not produce significant changes
+T65	Physiology 2195 2214	insulin sensitivity
+T66	Physiology 2240 2257	energy metabolism
+T67	Population 2261 2306	overweight or obese prediabetic men and women
+T68	Disease 2261 2271	overweight
+T69	Disease 2275 2280	obese
+T70	Disease 2281 2292	prediabetic
+T71	Disease 118 129	Prediabetic
+T72	DiversityMetric 1600 1608	richness
+T73	AFFECTS 1644 1656	not affected
+T74	Physiology 2226 2235;2247 2257	substrate metabolism
+T75	DiversityMetric 1612 1621	diversity
+E1	INCREASES:T2 Agent:T1 Theme:T3
+E2	INCREASES:T4 Agent:T1 Theme:T5
+E3	PREDISPOSES:T14 Agent:T11 Theme:T12
+E4	PREDISPOSES:T14 Agent:T10 Theme:T12
+E5	PREDISPOSES:T14 Agent:T9 Theme:T12
+E6	PREDISPOSES:T14 Agent:T8 Theme:T12
+E7	PREDISPOSES:T14 Agent:T8 Theme:T13
+E8	PREDISPOSES:T14 Agent:T9 Theme:T13
+E9	PREDISPOSES:T14 Agent:T11 Theme:T13
+E10	PREDISPOSES:T14 Agent:T10 Theme:T13
+E11	AFFECTS:T42 Agent:T39 Theme:T40
+E12	INCREASES:T44 Agent:T43 Theme:T45
+E13	AFFECTS:T54 Agent:T43 Theme:T48
+E14	AFFECTS:T54 Agent:T43 Theme:T49
+E15	AFFECTS:T54 Agent:T43 Theme:T50
+E16	AFFECTS:T54 Agent:T43 Theme:T51
+E17	AFFECTS:T54 Agent:T43 Theme:T52
+E18	AFFECTS:T54 Agent:T43 Theme:T53
+E19	AFFECTS:T55 Agent:T43 Theme:T56
+E20	AFFECTS:T55 Agent:T43 Theme:T57
+E21	AFFECTS:T55 Agent:T43 Theme:T58
+E22	AFFECTS:T55 Agent:T43 Theme:T59
+E23	AFFECTS:T55 Agent:T43 Theme:T60
+E24	INCREASES:T62 Agent:T61 Theme:T63
+E25	AFFECTS:T64 Agent:T61 Theme:T65
+E26	AFFECTS:T64 Agent:T61 Theme:T66
+E27	AFFECTS:T73 Theme:T72 Agent:T43
+E28	AFFECTS:T73 Theme:T75 Agent:T43
+A1	Negated E2
+A2	Negated E13
+A3	Negated E14
+A4	Negated E15
+A5	Negated E16
+A6	Negated E17
+A7	Negated E18
+A8	Negated E19
+A9	Negated E20
+A10	Negated E21
+A11	Negated E22
+A12	Negated E23
+A13	Negated E25
+A14	Negated E26
+A15	Negated E27
+A16	Negated E28
+N1	CHEBI:24151 T1	galactooligosaccharide
+N2	NCBITAXON:1678 T3	Bifidobacterium
+N3	OCHV:C0920563 T5	insulin sensitivity
+N4	NCIT:C3283 T7	Obesity
+N5	NCIT:C19405 T8	Lipid Metabolic Process
+N6	OCHV:41587 T9	glucose metabolism
+N7	MESH:D012527 T10	Satiation
+N8	NCIT:C174450 T11	Chronic Inflammation
+N9	NCIT:C3283 T12	Obesity
+N10	NCIT:C26747 T13	Type 2 Diabetes Mellitus
+N11	CHEBI:26666 T15	short-chain fatty acid
+N12	CHEBI:26666 T16	short-chain fatty acid
+N13	CHEBI:30089 T17	acetate
+N14	CHEBI:24151 T18	galactooligosaccharide
+N15	CHEBI:24151 T19	galactooligosaccharide
+N16	NCIT:C94250 T23	Overweight
+N17	NCIT:C3283 T24	Obesity
+N18	NCIT:C16358 T25	Body Mass Index
+N19	NCIT:C122685 T27	Prediabetes
+N20	NCIT:C20151 T28	Inflammatory Response
+N21	CHEBI:24151 T29	galactooligosaccharide
+N22	CHEBI:25140 T30	maltodextrin
+N23	MESH:D007333 T31	Insulin Resistance
+N24	CHEBI:26666 T33	short-chain fatty acid
+N25	CHEBI:26666 T34	short-chain fatty acid
+N26	NCIT:C147491 T35	Energy Expenditure
+N27	MESH:D001823 T37	Body Composition
+N28	CHEBI:24151 T39	galactooligosaccharide
+N29	MESH:D007333 T40	Insulin Resistance
+N30	CHEBI:24151 T43	galactooligosaccharide
+N31	NCBITAXON:1678 T45	Bifidobacterium
+N32	CHEBI:26666 T48	short-chain fatty acid
+N33	CHEBI:26666 T49	short-chain fatty acid
+N34	OCHV:C0684155 T50	gut hormone
+N35	MESH:D054795 T51	Incretins
+N36	NCIT:C105867 T52	Lipopolysaccharide-Binding Protein
+N37	MESH:D007333 T56	Insulin Resistance
+N38	MESH:D001823 T58	Body Composition
+N39	NCIT:C16547 T59	Energy Metabolism Process
+N40	CHEBI:24151 T61	galactooligosaccharide
+N41	NCBITAXON:1678 T63	Bifidobacterium
+N42	OCHV:C0920563 T65	insulin sensitivity
+N43	NCIT:C16547 T66	Energy Metabolism Process
+N44	NCIT:C94250 T68	Overweight
+N45	NCIT:C3283 T69	Obesity
+N46	NCIT:C122685 T70	Prediabetes
+N47	NCIT:C122685 T71	Prediabetes
+A17	Factual E1
+A18	Factual E3
+A19	Factual E4
+A20	Factual E5
+A21	Factual E6
+A22	Factual E7
+A23	Factual E8
+A24	Factual E9
+A25	Factual E10
+A26	Factual E11
+A27	Factual E12
+A28	Factual E24

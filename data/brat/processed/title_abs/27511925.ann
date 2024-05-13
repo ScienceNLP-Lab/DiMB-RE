@@ -1,0 +1,130 @@
+T1	Physiology 10 28	Rumen Fermentation
+T2	ASSOCIATED_WITH 48 58	Associated
+T3	Metabolite 64 90	Dissolved Ruminal Hydrogen
+T5	Nutrient 153 166	Carbohydrates
+T6	Nutrient 191 204	carbohydrates
+T7	AFFECTS 214 231	greatly influence
+T8	Physiology 232 250	rumen fermentation
+T9	Metabolite 278 285	methane
+T10	Metabolite 297 329	Dissolved hydrogen concentration
+T11	ASSOCIATED_WITH 333 340	related
+T12	Physiology 344 362	rumen fermentation
+T13	Metabolite 367 374	methane
+T14	Nutrient 429 442	carbohydrates
+T15	AFFECTS 460 465	alter
+T17	Metabolite 512 544	dissolved hydrogen concentration
+T18	ASSOCIATED_WITH 548 558	associated
+T19	Physiology 581 599	rumen fermentation
+T20	Physiology 470 475	rumen
+T22	Measurement 689 700	body weight
+T24	Food 872 882	rice straw
+T25	Food 899 936	mixture of rice straw and corn silage
+T26	Physiology 941 952	feed intake
+T27	Physiology 954 972	rumen fermentation
+T28	Physiology 1010 1021	Feed intake
+T29	Physiology 1043 1060	fiber degradation
+T30	Metabolite 1184 1191	methane
+T31	Metabolite 1240 1258	dissolved hydrogen
+T32	Metabolite 1280 1307	rumen fermentation products
+T33	Metabolite 1325 1351	Ruminal dissolved hydrogen
+T34	NEG_ASSOCIATED_WITH 1356 1377	negatively correlated
+T35	Metabolite 1425 1432	acetate
+T36	Microorganism 1445 1450	fungi
+T37	Microorganism 1465 1489	Fibrobacter succinogenes
+T38	Measurement 1495 1508	methane yield
+T39	POS_ASSOCIATED_WITH 1514 1535	positively correlated
+T40	Metabolite 1583 1593	propionate
+T41	Metabolite 1598 1608	n-butyrate
+T42	Microorganism 1621 1632	methanogens
+T43	Microorganism 1651 1674	Selenomonas ruminantium
+T44	Microorganism 1679 1694	Prevotella spp.
+T45	Metabolite 1695 1721	Ruminal dissolved hydrogen
+T46	POS_ASSOCIATED_WITH 1726 1747	positively correlated
+T47	Metabolite 1832 1839	acetate
+T48	Metabolite 1844 1852	hydrogen
+T49	ASSOCIATED_WITH 1854 1872	but not correlated
+T50	Metabolite 1989 1996	acetate
+T51	Metabolite 2004 2014	propionate
+T52	Metabolite 1909 1919	propionate
+T54	Metabolite 2115 2141	ruminal dissolved hydrogen
+T56	POS_ASSOCIATED_WITH 2099 2114	associated with
+T57	Microorganism 2067 2085	amylolytic species
+T58	Metabolite 2206 2224	dissolved hydrogen
+T59	POS_ASSOCIATED_WITH 2229 2260	associated with greater numbers
+T60	Microorganism 2264 2275	methanogens
+T61	NEG_ASSOCIATED_WITH 2285 2290	lower
+T62	Metabolite 2299 2306	methane
+E1	ASSOCIATED_WITH:T2 Theme:T1 Theme2:T3
+E2	AFFECTS:T7 Agent:T6 Theme:T8
+E3	AFFECTS:T7 Agent:T6 Theme:T9
+E4	ASSOCIATED_WITH:T11 Theme:T10 Theme2:T12
+E5	ASSOCIATED_WITH:T11 Theme:T10 Theme2:T13
+E6	AFFECTS:T15 Agent:T14 Theme:T20
+E7	ASSOCIATED_WITH:T18 Theme:T17 Theme2:T19
+E8	NEG_ASSOCIATED_WITH:T34 Agent:T33 Theme:T35
+E9	POS_ASSOCIATED_WITH:T39 Agent:T33 Theme:T40
+E10	NEG_ASSOCIATED_WITH:T34 Agent:T33 Theme:T36
+E11	NEG_ASSOCIATED_WITH:T34 Agent:T33 Theme:T37
+E12	NEG_ASSOCIATED_WITH:T34 Agent:T33 Theme:T38
+E13	POS_ASSOCIATED_WITH:T39 Agent:T33 Theme:T41
+E14	POS_ASSOCIATED_WITH:T39 Agent:T33 Theme:T42
+E15	POS_ASSOCIATED_WITH:T39 Agent:T33 Theme:T43
+E16	POS_ASSOCIATED_WITH:T39 Agent:T33 Theme:T44
+E17	POS_ASSOCIATED_WITH:T46 Agent:T45 Theme:T47
+E18	ASSOCIATED_WITH:T49 Theme:T52 Theme2:T45
+E19	POS_ASSOCIATED_WITH:T46 Agent:T45 Theme:T48
+E20	POS_ASSOCIATED_WITH:T56 Theme2:T54 Theme:T51
+E21	POS_ASSOCIATED_WITH:T56 Theme:T57 Theme2:T54
+E22	POS_ASSOCIATED_WITH:T59 Agent:T58 Theme:T60
+E23	NEG_ASSOCIATED_WITH:T61 Theme:T62 Agent:T58
+A1	Negated E18
+N1	CHEBI:16646 T5	carbohydrate
+N2	CHEBI:16646 T6	carbohydrate
+N3	CHEBI:16183 T9	methane
+N4	MESH:D006863 T10	Hydrogen-Ion Concentration
+N5	CHEBI:16183 T13	methane
+N6	CHEBI:16646 T14	carbohydrate
+N7	MESH:D006863 T17	Hydrogen-Ion Concentration
+N8	NCIT:C98778 T20	Rumen
+N9	NCIT:C81328 T22	Body Weight
+N10	MESH:D004435 T26	Eating
+N11	MESH:D004435 T28	Eating
+N12	CHEBI:16183 T30	methane
+N13	MESH:D006859 T31	Hydrogen
+N14	CHEBI:30089 T35	acetate
+N15	NCBITAXON:4751 T36	Fungi
+N16	NCBITAXON:833 T37	Fibrobacter succinogenes
+N17	CHEBI:16183 T38	methane
+N18	CHEBI:17272 T40	propionate
+N19	CHEBI:17968 T41	butyrate
+N20	NCBITAXON:971 T43	Selenomonas ruminantium
+N21	NCBITAXON:838 T44	Prevotella
+N22	CHEBI:30089 T47	acetate
+N23	MESH:D006859 T48	Hydrogen
+N24	CHEBI:30089 T50	acetate
+N25	CHEBI:17272 T51	propionate
+N26	CHEBI:17272 T52	propionate
+N27	MESH:D006859 T58	Hydrogen
+N28	CHEBI:16183 T62	methane
+A2	Factual E1
+A3	Factual E2
+A4	Factual E3
+A5	Factual E4
+A6	Factual E5
+A7	Factual E6
+A8	Factual E7
+A9	Factual E8
+A10	Factual E9
+A11	Factual E10
+A12	Factual E11
+A13	Factual E12
+A14	Factual E13
+A15	Factual E14
+A16	Factual E15
+A17	Factual E16
+A18	Factual E17
+A19	Factual E19
+A20	Factual E20
+A21	Factual E21
+A22	Factual E22
+A23	Factual E23
