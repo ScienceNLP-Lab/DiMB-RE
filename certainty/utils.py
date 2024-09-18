@@ -13,7 +13,14 @@ def decode_sample_id(sample_id):
     obj = (int(pair[1][1:-1].split(',')[0]), int(pair[1][1:-1].split(',')[1]))
     return doc_sent, sub, obj
 
-def generate_certainty_data(relation_data, ref_data=None, training=True, use_gold=False, use_trigger=True, context_window=0):
+def generate_certainty_data(
+        relation_data, 
+        ref_data=None, 
+        training=True, 
+        use_gold=False, 
+        use_trigger=True, 
+        context_window=0
+):
     """
     Prepare data for the negation detection model
     If training: set use_gold = True
@@ -135,9 +142,9 @@ def generate_certainty_data(relation_data, ref_data=None, training=True, use_gol
 
     nrel_invalid = nrel - nrel_sent_level
     if not nrel_invalid:
-        print(f"All Relations are within Sent-level!")
+        logger.info(f"All Relations are within Sent-level!")
     else: 
-        print(f"# of Invalid Relations within Sent-level: {nrel_invalid}({round(nrel_invalid/nrel*100, 4)}%)")
+        logger.info(f"# of Invalid Relations within Sent-level: {nrel_invalid}({round(nrel_invalid/nrel*100, 4)}%)")
 
     return data, samples, nrel, label_cnt_dict
 

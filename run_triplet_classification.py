@@ -37,6 +37,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Set the CuBLAS workspace configuration for deterministic behavior
+os.environ['CUBLAS_WORKSPACE_CONFIG'] = ':4096:8'
+
 def get_args():
     parser = argparse.ArgumentParser()
 
@@ -62,6 +65,8 @@ def get_args():
     parser.add_argument("--binary_classification", action='store_true',
                         help="Whether to run Triplet entailment w/Typed trigger \
                             or Multi-class Triplet classification w/Untyped trigger")
+    parser.add_argument("--load_saved_model", action='store_true',
+                        help="Whether to use saved model already trained")
     
     # directory and file arguments
     parser.add_argument('--output_dir', type=str, default=None, required=True,
@@ -127,7 +132,7 @@ def get_args():
     
     # model arguments:
     parser.add_argument("--model", default=None, type=str, required=True)
-    parser.add_argument("--finetuned_model", default=None, type=str)
+    # parser.add_argument("--finetuned_model", default=None, type=str)
     parser.add_argument("--negative_label", default="no_relation", type=str)
     parser.add_argument("--do_lower_case", default=True, 
                         help="Set this flag if you are using an uncased model.")
@@ -160,10 +165,6 @@ def add_marker_tokens(tokenizer, ner_labels):
         new_tokens.append('<OBJ_END=%s>'%label)
         new_tokens.append('<TRG_START=%s>'%label)
         new_tokens.append('<TRG_END=%s>'%label)
-    # for label in ner_labels:
-    #     new_tokens.append('<SUBJ=%s>'%label)
-    #     new_tokens.append('<OBJ=%s>'%label)
-    #     new_tokens.append('<TRG=%s>'%label)
     tokenizer.add_tokens(new_tokens)
     logger.info('# vocab after adding markers: %d'%len(tokenizer))
 
@@ -330,10 +331,12 @@ def convert_examples_to_features(examples, label2id, tokenizer, special_tokens, 
                 trg_idx=trg_idx
             )
         )
+        
     logger.info("Average #tokens: %.2f" % (num_tokens * 1.0 / len(examples)))
     logger.info("Max #tokens: %d"%max_tokens)
     logger.info("%d (%.2f %%) examples can fit max_seq_length = %d" % (num_fit_examples,
                 num_fit_examples * 100.0 / len(examples), args.max_seq_length))
+    
     return features
 
 def save_div(a, b):
@@ -501,7 +504,9 @@ def main() -> None:
     n_gpu = torch.cuda.device_count()
 
     # Generate specific version of output folder
-    if args.triplet_output_dir is None:
+    if args.triplet_output_dir is None or args.load_saved_model:
+        if args.load_saved_model:
+            args.saved_model_dir = args.triplet_output_dir
         args.triplet_output_dir = make_output_dir(
             args.output_dir, task='triplet', pipeline_task=args.pipeline_task
         )
@@ -736,8 +741,9 @@ def main() -> None:
     logger.info(special_tokens)
 
     if args.do_predict_dev:
+        model_dir = args.triplet_output_dir if not args.load_saved_model else args.saved_model_dir
         model = RelationModel.from_pretrained(
-            args.triplet_output_dir, num_rel_labels=num_labels, use_trigger=True
+            model_dir, num_rel_labels=num_labels, use_trigger=True
         )
         model.to(device)
         # dev dataloader has been already made
@@ -784,8 +790,9 @@ def main() -> None:
         test_label_ids = all_label_ids
 
         # Load the fine-tuned model (TRAIN+DEV)
+        model_dir = args.triplet_output_dir if not args.load_saved_model else args.saved_model_dir
         model = RelationModel.from_pretrained(
-            args.triplet_output_dir, num_rel_labels=num_labels, use_trigger=True
+            model_dir, num_rel_labels=num_labels, use_trigger=True
         )
         model.to(device)
 

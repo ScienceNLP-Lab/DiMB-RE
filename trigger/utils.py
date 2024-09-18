@@ -14,7 +14,13 @@ def decode_sample_id(sample_id):
     trg = (int(pair[2][1:-1].split(',')[0]), int(pair[2][1:-1].split(',')[1]))
     return doc_sent, sub, obj, trg
 
-def generate_trigger_data(entity_data, ref_data=None, use_gold=False, context_window=0, binary_classification=False):
+def generate_trigger_data(
+        entity_data, 
+        ref_data=None, 
+        use_gold=False, 
+        context_window=100, 
+        binary_classification=True
+):
     """
     Prepare data for the trigger-entity pairs model
     If training: set use_gold = True
@@ -94,10 +100,12 @@ def generate_trigger_data(entity_data, ref_data=None, use_gold=False, context_wi
 
                         sample = {}
                         sample['docid'] = doc._doc_key
-                        sample['id'] = '%s@%d::(%d,%d)-(%d,%d)-(%d,%d)'%(doc._doc_key, sent.sentence_ix, \
-                                                                 sub.span.start_doc, sub.span.end_doc, \
-                                                                    obj.span.start_doc, obj.span.end_doc, \
-                                                                        trg.span.start_doc, trg.span.end_doc)
+                        sample['id'] = '%s@%d::(%d,%d)-(%d,%d)-(%d,%d)'%(
+                            doc._doc_key, sent.sentence_ix, 
+                            sub.span.start_doc, sub.span.end_doc,
+                            obj.span.start_doc, obj.span.end_doc,
+                            trg.span.start_doc, trg.span.end_doc
+                        )
                         sample['relation'] = label
                         sample['subj_start'] = sub.span.start_sent + sent_start
                         sample['subj_end'] = sub.span.end_sent + sent_start

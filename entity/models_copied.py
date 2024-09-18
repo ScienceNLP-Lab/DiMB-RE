@@ -191,8 +191,9 @@ class BertForEntity(BertPreTrainedModel):
         
 
 class EntityModel():
-
-    def __init__(self, args, num_entity_labels, num_trigger_labels, evaluation=False):
+    def __init__(
+            self, args, num_entity_labels, num_trigger_labels, evaluation=False
+    ):
         super().__init__()
 
         bert_model_name = args.model
@@ -207,11 +208,13 @@ class EntityModel():
         self.tokenizer = AutoTokenizer.from_pretrained(vocab_name)
         # self.bert_model = BertForEntity.from_pretrained(bert_model_name, num_ner_labels=num_ner_labels,
         #                                                 max_span_length=args.max_span_length)
-        self.bert_model = BertForEntity.from_pretrained(bert_model_name, 
-                                                        num_entity_labels=num_entity_labels,
-                                                        num_trigger_labels=num_trigger_labels,
-                                                        max_span_length=max(args.max_span_length_entity, args.max_span_length_trigger),
-                                                        dual_classifier=args.dual_classifier)
+        self.bert_model = BertForEntity.from_pretrained(
+            bert_model_name, 
+            num_entity_labels=num_entity_labels,
+            num_trigger_labels=num_trigger_labels,
+            max_span_length=max(args.max_span_length_entity, args.max_span_length_trigger),
+            dual_classifier=args.dual_classifier            
+        )
         
         # if args.finetuned_model_dir and not evaluation:
         #     # Load the previously fine-tuned weights
@@ -229,7 +232,6 @@ class EntityModel():
         if not torch.cuda.is_available():
             logger.error('No CUDA found!')
             return
-            # exit(-1)
         logger.info('Moving to CUDA...')
         self._model_device = 'cuda'
         self.bert_model.cuda()

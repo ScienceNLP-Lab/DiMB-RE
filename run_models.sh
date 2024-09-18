@@ -9,10 +9,9 @@ echo "Activated pure"
 task=pn_reduced_trg
 # task=pn_reduced_trg_dummy
 
-data_dir=./data/pernut/
-dataset="ner_reduced_v6.1_trg_abs"
-# dataset="ner_reduced_v6.1_trg_abs_result"
-output_dir=../tmp_ondemand_ocean_cis230030p_symlink/ghong1/PN/output/${dataset}
+data_dir=./data/DiMB-RE/
+# dataset="ner_reduced_v6.1_trg_abs"
+dataset="ner_reduced_v6.1_trg_abs_result"
 
 # FIXED NER Hyperparameters
 # n_epochs=200
@@ -30,43 +29,164 @@ output_dir=../tmp_ondemand_ocean_cis230030p_symlink/ghong1/PN/output/${dataset}
 # re_max_len=300
 # re_lr=3e-5
 # sampling_p=0.0  # FIXED
-re_patience=4
+# re_patience=4
 
-# #### TASK 5: Certainty Detection with Trigger provided ####
-cer_cw=0
-cer_max_len=200
-cer_lr=2e-5
-n_epochs=20
+# #### TASK 4: RE with Trigger (Typed and Untyped) ####
+# pipeline_task='triplet'
+# MODEL="microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext"
+
+# output_dir=../ocean_cis230030p/ghong1/PN/output/${dataset}
+# entity_output_dir="${output_dir}/EXP_2/entity"
+# triplet_output_dir="${output_dir}/EXP_4/triplet"
+
+# re_lr=2e-5
+# re_cw=0
+# re_max_len=200
+# sampling_p=0.0
+# n_epochs=12
+# python run_triplet_classification.py \
+#     --task $task --pipeline_task $pipeline_task \
+#     --do_predict_dev \
+#     --output_dir $output_dir --entity_output_dir $entity_output_dir \
+#     --triplet_output_dir $triplet_output_dir \
+#     --train_file "${data_dir}${dataset}"/train.json \
+#     --dev_file "${data_dir}${dataset}"/dev.json \
+#     --test_file "${data_dir}${dataset}"/test.json \
+#     --context_window $re_cw --max_seq_length $re_max_len \
+#     --train_batch_size 128 --eval_batch_size 32 --learning_rate $re_lr \
+#     --num_epoch $n_epochs \
+#     --model $MODEL \
+#     --binary_classification --sampling_method trigger_position \
+#     --load_saved_model
+
+
+#### TASK 5: Certainty Detection with Trigger provided ####
+output_dir=../ocean_cis230030p/ghong1/PN/output/${dataset}
+
+cer_cw=0 # FIXED
+cer_max_len=200 # FIXED
+
+cer_lr=3e-5
+n_epochs=7
+
 MODEL="microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext"
-# make model-specific output folder and put everything in there
-output_dir=../tmp_ondemand_ocean_cis230030p_symlink/ghong1/PN/output/${dataset}
+pipeline_task=certainty
 
-task=pn_reduced_trg
-pipeline_task="certainty"
-relation_output_dir="${output_dir}/EXP_153/triplet"
+relation_output_dir="${output_dir}/EXP_13/triplet"
+# # For Test set
+# relation_output_test_dir="${output_dir}/EXP_2/relation"
+# To use fine-tuned model
+certainty_output_dir="${output_dir}/EXP_14/certainty"
 
-# For Test set
-relation_output_test_dir="${output_dir}/EXP_190/triplet"
-certainty_output_dir="${output_dir}/EXP_183/certainty"
-
-sampling_p=0.0
-n_epochs=3
 python run_certainty_detection.py \
     --task $task --pipeline_task $pipeline_task \
     --do_predict_dev \
-    --output_dir $output_dir --relation_output_dir $relation_output_dir \
+    --output_dir $output_dir \
+    --relation_output_dir $relation_output_dir \
     --train_file "${data_dir}${dataset}"/train.json \
     --dev_file "${data_dir}${dataset}"/dev.json \
     --test_file "${data_dir}${dataset}"/test.json \
     --context_window $cer_cw --max_seq_length $cer_max_len \
-    --train_batch_size 64 --eval_batch_size 64 --learning_rate $cer_lr \
-    --num_epoch $n_epochs  --max_patience $re_patience \
-    --sampling_proportion $sampling_p \
+    --train_batch_size 64 --eval_batch_size 32 \
+    --learning_rate $cer_lr \
+    --num_epoch $n_epochs \
     --model $MODEL --do_lower_case --add_new_tokens \
-    --relation_output_test_dir $relation_output_test_dir \
     --certainty_output_dir $certainty_output_dir \
-    --load_saved_model \
-    --use_trigger
+    --use_trigger \
+    # --eval_with_gold \
+    # --load_saved_model \
+
+# seeds=(1 2 3 4)
+# for SEED in "${seeds[@]}"; do
+
+#     #### TASK 5: Certainty Detection with Trigger provided ####
+#     dataset=ner_reduced_v6.1_trg_abs
+#     output_dir=../ocean_cis230030p/ghong1/PN/output/${dataset}_SEED${SEED}
+
+#     cer_cw=0 # FIXED
+#     cer_max_len=200 # FIXED
+
+#     cer_lr=2e-5
+#     n_epochs=11
+
+#     MODEL="microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext"
+#     pipeline_task=certainty
+    
+#     relation_output_dir="${output_dir}/EXP_2/relation"
+#     # For Test set
+#     relation_output_test_dir="${output_dir}/EXP_2/relation"
+#     # To use fine-tuned model
+#     certainty_output_dir="${output_dir}/EXP_6/certainty"
+
+#     python run_certainty_detection.py \
+#     --task $task --pipeline_task $pipeline_task \
+#     --do_predict_test \
+#     --output_dir $output_dir --relation_output_dir $relation_output_dir \
+#     --train_file "${data_dir}${dataset}"/train.json \
+#     --dev_file "${data_dir}${dataset}"/dev.json \
+#     --test_file "${data_dir}${dataset}"/test.json \
+#     --context_window $cer_cw --max_seq_length $cer_max_len \
+#     --train_batch_size 64 --eval_batch_size 64 --learning_rate $cer_lr \
+#     --num_epoch $n_epochs \
+#     --model $MODEL --do_lower_case --add_new_tokens \
+#     --relation_output_test_dir $relation_output_test_dir \
+#     --seed $SEED \
+#     --certainty_output_dir $certainty_output_dir \
+#     --eval_with_gold \
+#     # --load_saved_model \
+#     # --use_trigger \
+
+#     relation_output_dir="${output_dir}/EXP_4/triplet"
+#     relation_output_test_dir="${output_dir}/EXP_4/triplet"
+#     certainty_output_dir="${output_dir}/EXP_7/certainty"
+
+#     cer_lr=3e-5
+#     n_epochs=7
+#     python run_certainty_detection.py \
+#     --task $task --pipeline_task $pipeline_task \
+#     --do_predict_test \
+#     --output_dir $output_dir --relation_output_dir $relation_output_dir \
+#     --train_file "${data_dir}${dataset}"/train.json \
+#     --dev_file "${data_dir}${dataset}"/dev.json \
+#     --test_file "${data_dir}${dataset}"/test.json \
+#     --context_window $cer_cw --max_seq_length $cer_max_len \
+#     --train_batch_size 64 --eval_batch_size 64 --learning_rate $cer_lr \
+#     --num_epoch $n_epochs \
+#     --model $MODEL --do_lower_case --add_new_tokens \
+#     --use_trigger \
+#     --relation_output_test_dir $relation_output_test_dir \
+#     --seed $SEED \
+#     --certainty_output_dir $certainty_output_dir \
+#     --eval_with_gold \
+#     # --load_saved_model \
+
+
+#     dataset="ner_reduced_v6.1_trg_abs_result"
+#     output_dir=../ocean_cis230030p/ghong1/PN/output/${dataset}_SEED${SEED}
+
+#     relation_output_dir="${output_dir}/EXP_1/triplet"
+#     relation_output_test_dir="${output_dir}/EXP_1/triplet"
+#     certainty_output_dir="${output_dir}/EXP_3/certainty"
+#     cer_lr=3e-5
+#     n_epochs=5
+#     python run_certainty_detection.py \
+#     --task $task --pipeline_task $pipeline_task \
+#     --do_predict_test \
+#     --output_dir $output_dir --relation_output_dir $relation_output_dir \
+#     --train_file "${data_dir}${dataset}"/train.json \
+#     --dev_file "${data_dir}${dataset}"/dev.json \
+#     --test_file "${data_dir}${dataset}"/test.json \
+#     --context_window $cer_cw --max_seq_length $cer_max_len \
+#     --train_batch_size 64 --eval_batch_size 64 --learning_rate $cer_lr \
+#     --num_epoch $n_epochs \
+#     --model $MODEL --do_lower_case --add_new_tokens \
+#     --relation_output_test_dir $relation_output_test_dir \
+#     --use_trigger \
+#     --seed $SEED \
+#     --certainty_output_dir $certainty_output_dir \
+#     --eval_with_gold \
+#     # --load_saved_model \
+# done
 
 
 ################## PRESET TASKS ######################

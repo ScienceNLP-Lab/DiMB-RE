@@ -1,6 +1,7 @@
 import os
 import random
 import torch
+import pandas as pd
 from transformers.file_utils import WEIGHTS_NAME, CONFIG_NAME
 from typing import Optional
 from shared.checks import ConfigurationError
@@ -148,11 +149,38 @@ def make_output_dir(output_dir, task, pipeline_task):
     # print(f"## {model_output_dir} is created for Experiment outputs ##")
     # return model_output_dir
 
+def generate_analysis_csv(pred_data, output_csv):
+    csv_results = [] 
+    for doc in pred_data.documents:
+        for sid, sent in enumerate(doc.sentences):
+            entry = {}
+            entry['pmid'] = doc._doc_key
+            entry['sent_id'] = sid
+            entry['sent'] = ' '.join(sent.text)
+            entry['gold_entities'] = " | ".join([f"{' '.join(ent.span.text)}: {ent.label}" for ent in sent.ner])
+            entry['predicted_entities'] = " | ".join([f"{' '.join(ent.span.text)}: {ent.label}" for ent in sent.predicted_ner])
+            entry['gold_triggers'] = " | ".join([f"{' '.join(trg.span.text)}: {trg.label}" for trg in sent.triggers])
+            entry['predicted_triggers'] = " | ".join([f"{' '.join(trg.span.text)}: {trg.label}" for trg in sent.predicted_triggers])
+            # entry['gold_relations'] = [(rel.pair[0].text, rel.pair[1].text, rel.label) for rel in doc['relations'][sid]]
+            entry['gold_relations'] = " | ".join([f"{' '.join(rel.pair[0].text)}-{rel.label}-{' '.join(rel.pair[1].text)}-{rel.certainty}" for rel in sent.relations])
+            entry['predicted_relations'] = " | ".join([f"{' '.join(rel.pair[0].text)}-{rel.label}-{' '.join(rel.pair[1].text)}-{rel.certainty}" for rel in sent.predicted_relations])
+
+            csv_results.append(entry)
+    
+    pd.DataFrame(csv_results).to_csv(output_csv)
+
 def set_seed(seed):
     random.seed(seed)
+    # np.random.seed(seed)
     torch.manual_seed(seed)
-    if torch.cuda.is_available():
-        torch.cuda.manual_seed_all(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)  # if you are using multi-GPU.
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+
+    # Set deterministic algorithms in PyTorch
+    torch.use_deterministic_algorithms(True)
 
 def save_model(model, step, task, args):
     """

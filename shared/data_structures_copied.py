@@ -35,7 +35,6 @@ def find_overlapped_spans(span1, span2):
 
 class Dataset:
     def __init__(self, json_file, pred_file=None, doc_range=None):
-        # print(json_file)
         self.js = self._read(json_file, pred_file)
         if doc_range is not None:
             self.js = self.js[doc_range[0]:doc_range[1]]
@@ -73,7 +72,9 @@ class Dataset:
 class Document:
     def __init__(self, js):
         self._doc_key = js["doc_key"]
-        entries = fields_to_batches(js, ["doc_key", "clusters", "predicted_clusters", "section_starts"])
+        entries = fields_to_batches(
+            js, ["doc_key", "clusters", "predicted_clusters", "section_starts"]
+        )
         sentence_lengths = [len(entry["sentences"]) for entry in entries]
         sentence_starts = np.cumsum(sentence_lengths)
         sentence_starts = np.roll(sentence_starts, 1)
@@ -82,12 +83,6 @@ class Document:
         self.sentences = [Sentence(entry, sentence_start, sentence_ix)
                           for sentence_ix, (entry, sentence_start)
                           in enumerate(zip(entries, sentence_starts))]
-        if "clusters" in js:
-            self.clusters = [Cluster(entry, i, self)
-                             for i, entry in enumerate(js["clusters"])]
-        if "predicted_clusters" in js:
-            self.predicted_clusters = [Cluster(entry, i, self)
-                                       for i, entry in enumerate(js["predicted_clusters"])]
 
     def __repr__(self):
         return "\n".join([str(i) + ": " + " ".join(sent.text) for i, sent in enumerate(self.sentences)])
@@ -101,7 +96,6 @@ class Document:
     def print_plaintext(self):
         for sent in self:
             print(" ".join(sent.text))
-
 
     def find_cluster(self, entity, predicted=True):
         """
@@ -126,6 +120,7 @@ class Sentence:
         self.sentence_start = sentence_start
         self.text = entry["sentences"]
         self.sentence_ix = sentence_ix
+
         # Gold
         if "ner_flavor" in entry:
             self.ner = [NER(this_ner, self.text, sentence_start, flavor=this_flavor)
@@ -142,8 +137,6 @@ class Sentence:
         if "triplets" in entry:
             self.triplets = [Triplet(this_triplet, self.text, sentence_start) for 
                                           this_triplet in entry["triplets"]]
-        # if "events" in entry:
-            # self.events = Events(entry["events"], self.text, sentence_start)
 
         # Predicted
         if "predicted_ner" in entry:
@@ -158,13 +151,7 @@ class Sentence:
         if "predicted_triplets" in entry:
             self.predicted_triplets = [Triplet(this_pair, self.text, sentence_start) for 
                                           this_pair in entry["predicted_triplets"]]
-        # if "predicted_events" in entry:
-            # self.predicted_events = Events(entry["predicted_events"], self.text, sentence_start)
 
-        # Top spans
-        if "top_spans" in entry:
-            self.top_spans = [NER(this_ner, self.text, sentence_start, flavor=None) for
-                                this_ner in entry["top_spans"]]
 
     def __repr__(self):
         the_text = " ".join(self.text)
@@ -199,7 +186,10 @@ class Span:
         self.start_sent = start - sentence_start
         self.end_sent = end - sentence_start
         self.span_sent = (self.start_sent, self.end_sent)
-        self.text = text[self.start_sent:self.end_sent + 1]
+        if self.start_sent >= 0 and self.end_sent >= 0:
+            self.text = text[self.start_sent:self.end_sent + 1]
+        else:
+            self.text = "Out-of-sentence"
 
     def __repr__(self):
         return str((self.start_sent, self.end_sent, self.text))
@@ -339,235 +329,77 @@ def compute_f1(predicted, gold, matched):
     )
     return result
 
-# def evaluate_sent(sent, counts, ner_result_by_class, rel_result_by_class, dataset_name):
-
-#     correct_ner = set()
-#     correct_ner_partial = set()
-
-#     # Entities and Triggers
-#     for ner in sent.ner:
-#         ner_result_by_class[ner.label]['gold'] += 1.0
-#     for ner in sent.predicted_ner:
-#         ner_result_by_class[ner.label]['pred'] += 1.0
-#         ner_result_by_class[ner.label]['pred_relaxed'] += 1.0
-#     for ner in sent.triggers:
-#         if dataset_name.endswith('dummy'):
-#             ner.label = "TRIGGER"
-#         ner_result_by_class[ner.label]['gold'] += 1.0
-#     for ner in sent.predicted_triggers:
-#         ner_result_by_class[ner.label]['pred'] += 1.0
-#         ner_result_by_class[ner.label]['pred_relaxed'] += 1.0
-
-#     counts["ner_gold"] += len(sent.ner)
-#     counts["ner_predicted"] += len(sent.predicted_ner)
-#     counts["ner_relaxed_predicted"] += len(sent.predicted_ner)
-#     counts["trigger_gold"] += len(sent.triggers)
-#     counts["trigger_predicted"] += len(sent.predicted_triggers)
-#     counts["trigger_relaxed_predicted"] += len(sent.predicted_triggers)
-
-#     # NER score for Entities
-#     partial_match_ner = []
-#     for prediction in sent.predicted_ner:
-#         # Strict Matching
-#         if any([prediction == actual for actual in sent.ner]):
-#             counts["ner_matched"] += 1
-#             ner_result_by_class[prediction.label]['correct'] += 1.0
-#             correct_ner.add(prediction.span)
-#         # Partial Matching
-#         # Remove duplicated prediction -> 1:1 mapping for every gold standard
-#         # But consider nested gold cases whose concepts are same
-#         is_duplicated = False
-#         for actual in sent.ner:
-#             if (actual.label == prediction.label) and \
-#             find_overlapped_spans(actual.span.span_sent, prediction.span.span_sent):
-#                 if actual not in partial_match_ner:
-#                     partial_match_ner.append(actual)
-#                     counts["ner_partial_matched"] += 1
-#                     ner_result_by_class[prediction.label]['correct_relaxed'] += 1.0
-#                     correct_ner_partial.add(prediction.span)  # Add span of prediction for RE evaluation
-#                     is_duplicated = False
-#                     break
-#                 else:
-#                     is_duplicated = True
-#                     correct_ner_partial.add(prediction.span)
-#         if is_duplicated:
-#             counts["ner_relaxed_predicted"] -= 1
-#             ner_result_by_class[actual.label]['pred_relaxed'] -= 1.0
-                
-
-#     # NER score for Triggers
-#     partial_match_trg = []
-#     for actual in sent.triggers:
-#         # Strict Matching
-#         if actual.label == "TRIGGER":
-#             if any([prediction.span.span_sent == actual.span.span_sent for prediction in sent.predicted_triggers]):
-#                 counts["trigger_matched"] += 1
-#                 ner_result_by_class[actual.label]['correct'] += 1.0
-#             # Partial Matching: Find overlapped spans
-#             for prediction in sent.predicted_triggers:
-#                 if find_overlapped_spans(actual.span.span_sent, prediction.span.span_sent):
-#                     if actual not in partial_match_trg:
-#                         partial_match_trg.append(actual)
-#                         counts["trigger_partial_matched"] += 1
-#                         ner_result_by_class[actual.label]['correct_relaxed'] += 1.0
-#                     else:
-#                         counts["trigger_relaxed_predicted"] -= 1
-#                         ner_result_by_class[actual.label]['pred_relaxed'] -= 1.0                        
-#                     break
-#         else:
-#             if any([prediction == actual for prediction in sent.predicted_triggers]):
-#                 counts["trigger_matched"] += 1
-#                 ner_result_by_class[actual.label]['correct'] += 1.0
-#             # Partial Matching: Find overlapped spans
-#             for prediction in sent.predicted_triggers:
-#                 if find_overlapped_spans(actual.span.span_sent, prediction.span.span_sent) and actual.label == prediction.label:
-#                     if actual not in partial_match_trg:
-#                         partial_match_trg.append(actual)
-#                         counts["trigger_partial_matched"] += 1
-#                         ner_result_by_class[actual.label]['correct_relaxed'] += 1.0
-#                     else:
-#                         counts["trigger_relaxed_predicted"] -= 1
-#                         ner_result_by_class[actual.label]['pred_relaxed'] -= 1.0                        
-#                     break
-
-#     # if sent.predicted_relations or sent.relations:
-#     #     print()
-#     #     print(f"PREDS: {sent.predicted_relations}")
-#     #     print(f"GOLDS: {sent.relations}")
-
-#     # Evaluate RE
-#     for rel in sent.relations:
-#         rel_result_by_class[rel.label]['gold'] += 1.0
-#         counts["relations_gold"] += 1
-#     for rel in sent.predicted_relations:
-#         rel_result_by_class[rel.label]['pred'] += 1.0
-#         rel_result_by_class[rel.label]['pred_relaxed'] += 1.0
-#         counts["relations_predicted"] += 1
-#         counts["relations_relaxed_predicted"] += 1
-
-#     relaxed_match_actuals = []
-#     true_positives_bidi_strict = []
-#     true_positives_bidi_relaxed = []
-#     for prediction in sent.predicted_relations:
-
-#         relaxed_match_actual = ""
-#         strict_match_actual = ""
-
-#         # if pred is bidirectional and already counted,
-#         # we don't count it to avoid duplicated cases
-#         flag_relaxed_match = True
-#         for tp in true_positives_bidi_relaxed:
-#             if prediction.flipped_match(tp):
-#                 flag_relaxed_match = False
-#                 # print(f"Already counted as TP-bidi-relaxed >> PRED:{prediction}, TP:{tp}")
-#                 counts["relations_relaxed_predicted"] -= 1
-#                 rel_result_by_class[prediction.label]['pred_relaxed'] -= 1.0
-#                 break
-#         flag_strict_match = True
-#         for tp in true_positives_bidi_strict:
-#             if prediction.flipped_match(tp):
-#                 flag_strict_match = False
-#                 # print(f"Already counted as TP-bidi-strict >> PRED:{prediction}, TP:{tp}")
-#                 counts["relations_predicted"] -= 1
-#                 rel_result_by_class[prediction.label]['pred'] -= 1.0
-#                 break
-
-#         if flag_relaxed_match:
-#             is_duplicated = False
-#             for actual in sent.relations:
-#                 # First, do Relaxed Match
-#                 # 1) Relation Label Match
-#                 # 2) Relaxed boundary match of entity spans
-#                 # 3) Entity Label Match
-#                 if actual.label == prediction.label and \
-#                     actual.find_overlap(prediction) and \
-#                     (prediction.pair[0] in correct_ner_partial) \
-#                     and (prediction.pair[1] in correct_ner_partial):
-#                     if actual not in relaxed_match_actuals:
-#                         # print(f"soft match >>> PRED:{prediction}, GOLD:{actual}")
-#                         relaxed_match_actuals.append(actual)
-#                         relaxed_match_actual = actual
-#                         counts["relaxed_relations_matched"] += 1
-#                         rel_result_by_class[prediction.label]['correct_relaxed'] += 1.0
-#                         is_duplicated = False
-#                         break
-#                     else:
-#                         is_duplicated = True
-#             # After looping all gold standards,
-#             # we should remove a duplicated pred
-#             # if it is not matched with other gold standard
-#             if is_duplicated:
-#                 # print(f"duplicated soft match >> PRED:{prediction}, GOLD:{actual}, duplicated:{relaxed_match_actuals}")
-#                 counts["relaxed_relations_predicted"] -= 1
-#                 rel_result_by_class[prediction.label]['pred_relaxed'] -= 1.0  
-
-#             # Store TP if it finds bidirectional match in the ground-truth
-#             # for actual1 in relaxed_match_actuals:
-#             if relaxed_match_actual:
-#                 for actual2 in sent.relations:
-#                     if relaxed_match_actual.flipped_match(actual2, mode='relaxed'):
-#                         # print(f"bidi-tp-relaxed >> PRED_Matched:{relaxed_match_actual}, GOLD:{actual2}")
-#                         true_positives_bidi_relaxed.append(relaxed_match_actual)
-#                         break
-
-#         # Strict boundary match
-#         if flag_strict_match:
-#             for actual in sent.relations:    
-#                 if actual.label == prediction.label and \
-#                 (prediction.pair[0] in correct_ner) \
-#                 and (prediction.pair[1] in correct_ner) and \
-#                 actual.pair == prediction.pair:
-#                     # print(f"strict match >> PRED:{prediction}, GOLD:{actual}")
-#                     counts["strict_relations_matched"] += 1
-#                     rel_result_by_class[prediction.label]['correct'] += 1.0
-#                     strict_match_actual = actual
-#                     break
-#             if strict_match_actual:
-#                 for actual2 in sent.relations:
-#                     if strict_match_actual.flipped_match(actual2):
-#                         # print(f"bidi-tp-strict >> PRED_Matched:{strict_match_actual}, GOLD:{actual2}")
-#                         true_positives_bidi_strict.append(strict_match_actual)
-#                         break
-
-#             # if relaxed_match_actuals:
-#             #     # print("Relaxed Match")
-#             #     # print(f"Pred:{prediction}", f"|| Gold:{relaxed_match_actuals}", "\n")
-#             #     counts["relaxed_relations_matched"] += 1
-#             #     rel_result_by_class[prediction.label]['correct_relaxed'] += 1.0
-#             #     if strict_match_actuals:
-#             #         counts["strict_relations_matched"] += 1
-#             #         rel_result_by_class[prediction.label]['correct'] += 1.0
-
-#     # Count the number of gold relations
-#     # considering the bidi-relations as the same one
-#     counted_bidi = []
-#     for actual1 in sent.relations:
-#         if actual1 in counted_bidi:
-#             continue
-#         for actual2 in sent.relations:
-#             if actual1 == actual2:
-#                 continue
-#             if actual1.flipped_match(actual2):
-#                 counted_bidi.append(actual2)
-#                 # print("duplicated_bidi_gold >>>", actual1, actual2)
-#                 counts["relations_gold"] -= 1
-#                 rel_result_by_class[actual2.label]['gold'] -= 1.0
-#                 break
-
-#     return counts, ner_result_by_class, rel_result_by_class
     
+def remove_nested_same_type(sent):
+    '''Choose longer mention if nested mention has the same label'''
 
-def evaluate_sent(sent, counts, ner_result_by_class, rel_result_by_class, dataset_name, errors):
+    predicted_ner_sorted = sorted(
+        [ner for ner in sent.predicted_ner],
+        key=lambda x: x.span.span_sent[1] - x.span.span_sent[0],
+        reverse=True
+    )
+    predicted_trg_sorted = sorted(
+        [trg for trg in sent.predicted_triggers],
+        key=lambda x: x.span.span_sent[1] - x.span.span_sent[0],
+        reverse=True
+    )
+
+    checker = [[] for _ in range(len(sent.text))]
+
+    predicted_ner_processed = []
+    for ner in predicted_ner_sorted:
+        dup_flag = False
+        for lst in checker[ner.span.span_sent[0]:ner.span.span_sent[1] + 1]:
+            if ner.label in lst:
+                dup_flag = True
+                break
+        if not dup_flag:
+            predicted_ner_processed.append(ner)
+            for lst in checker[ner.span.span_sent[0]:ner.span.span_sent[1] + 1]:
+                lst.append(ner.label)
+
+    predicted_trg_processed = []
+    for trg in predicted_trg_sorted:
+        dup_flag = False
+        for lst in checker[trg.span.span_sent[0]:trg.span.span_sent[1] + 1]:
+            if trg.label in lst:
+                dup_flag = True
+                break
+        if not dup_flag:
+            predicted_trg_processed.append(trg)
+            for lst in checker[trg.span.span_sent[0]:trg.span.span_sent[1] + 1]:
+                lst.append(trg.label)
+
+    return predicted_ner_processed, predicted_trg_processed
+
+
+def evaluate_sent(
+        sent, 
+        counts, 
+        ner_result_by_class, 
+        rel_result_by_class, 
+        dataset_name, 
+        errors
+):
+
+    ##################################################
+    ####### Evaluate NER & Trigger Extraction ########
+    ##################################################
 
     correct_ner = set()
     correct_ner_partial = set()
 
+    # TODO: keep it or not?
+    # If activated, predictions exclude the nested mentions with same entity type
+    # sent.predicted_ner, sent.predicted_triggers = remove_nested_same_type(sent=sent)
+    
     # Entities and Triggers
     for ner in sent.ner:
         ner_result_by_class[ner.label]['gold'] += 1.0
     for ner in sent.predicted_ner:
         ner_result_by_class[ner.label]['pred'] += 1.0
         ner_result_by_class[ner.label]['pred_relaxed'] += 1.0
+
     for ner in sent.triggers:
         if dataset_name.endswith('dummy'):
             ner.label = "TRIGGER"
@@ -579,11 +411,19 @@ def evaluate_sent(sent, counts, ner_result_by_class, rel_result_by_class, datase
     counts["ner_gold"] += len(sent.ner)
     counts["ner_predicted"] += len(sent.predicted_ner)
     counts["ner_relaxed_predicted"] += len(sent.predicted_ner)
+
     counts["trigger_gold"] += len(sent.triggers)
     counts["trigger_predicted"] += len(sent.predicted_triggers)
     counts["trigger_relaxed_predicted"] += len(sent.predicted_triggers)
 
     # NER score for Entities
+    tp_ner_relaxed = []
+    fp_ner_relaxed = []
+    fn_ner_relaxed = []
+    tp_ner_em = []
+    fp_ner_em = []
+    fn_ner_em = []
+
     partial_match_ner = []
     for prediction in sent.predicted_ner:
 
@@ -596,8 +436,10 @@ def evaluate_sent(sent, counts, ner_result_by_class, rel_result_by_class, datase
                 ner_result_by_class[prediction.label]['correct'] += 1.0
                 correct_ner.add(prediction.span)
                 flag_ner_em = True
-                errors['tp-ner-em'].append((
-                    prediction.span.start_doc, prediction.span.end_doc, prediction.label
+                tp_ner_em.append((
+                    prediction.span.start_doc, 
+                    prediction.span.end_doc, 
+                    prediction.label
                 ))
                 break
 
@@ -616,43 +458,62 @@ def evaluate_sent(sent, counts, ner_result_by_class, rel_result_by_class, datase
                     is_duplicated = False
                     flag_ner_pm = True
                     if not flag_ner_em:
-                        errors['tp-ner-relaxed'].append((
-                            actual.span.start_doc, actual.span.end_doc, actual.label
+                        tp_ner_relaxed.append((
+                            actual.span.start_doc, 
+                            actual.span.end_doc, 
+                            actual.label
                         ))
                     break
                 else:
+                    # This can happen even though we remove nested prediction with same type
+                    # e.g. PRED >> [120, 120, "Physiology"], [123, 124, "Physiology"]
+                    # GOLD >> [120, 124, "Physiology"]
                     is_duplicated = True
                     correct_ner_partial.add(prediction.span)
+
         if is_duplicated:
             counts["ner_relaxed_predicted"] -= 1
             ner_result_by_class[prediction.label]['pred_relaxed'] -= 1.0
 
+        # Below codes are for error analysis text file    
         if not flag_ner_em:
             if not flag_ner_pm:
-                errors['fp-ner-relaxed'].append((
-                    prediction.span.start_doc, prediction.span.end_doc, prediction.label
+                fp_ner_relaxed.append((
+                    prediction.span.start_doc, 
+                    prediction.span.end_doc, 
+                    prediction.label
                 ))
             else:
-                errors['fp-ner-em'].append((
-                    prediction.span.start_doc, prediction.span.end_doc, prediction.label
+                fp_ner_em.append((
+                    prediction.span.start_doc, 
+                    prediction.span.end_doc, 
+                    prediction.label
                 ))
 
     for actual in sent.ner:
         decomposed = (
-            actual.span.start_doc, actual.span.end_doc, actual.label
+            actual.span.start_doc, 
+            actual.span.end_doc, 
+            actual.label
         )
-        if decomposed not in errors['tp-ner-em']:
-            if decomposed not in errors['tp-ner-relaxed']:
-                errors['fn-ner-relaxed'].append(decomposed)
+        if decomposed not in tp_ner_em:
+            if decomposed not in tp_ner_relaxed:
+                fn_ner_relaxed.append(decomposed)
             else:
-                errors['fn-ner-em'].append(decomposed)
-                
+                fn_ner_em.append(decomposed)
 
+    errors['tp-ner-relaxed'].append(tp_ner_relaxed)
+    errors['fp-ner-relaxed'].append(fp_ner_relaxed)
+    errors['fn-ner-relaxed'].append(fn_ner_relaxed)
+    errors['tp-ner-em'].append(tp_ner_em)
+    errors['fp-ner-em'].append(fp_ner_em)
+    errors['fn-ner-em'].append(fn_ner_em)
+                
     # NER score for Triggers
     partial_match_trg = []
     for actual in sent.triggers:
-        # Strict Matching
         if actual.label == "TRIGGER":
+            # Strict Matching
             if any([prediction.span.span_sent == actual.span.span_sent for prediction in sent.predicted_triggers]):
                 counts["trigger_matched"] += 1
                 ner_result_by_class[actual.label]['correct'] += 1.0
@@ -673,22 +534,36 @@ def evaluate_sent(sent, counts, ner_result_by_class, rel_result_by_class, datase
                 ner_result_by_class[actual.label]['correct'] += 1.0
             # Partial Matching: Find overlapped spans
             for prediction in sent.predicted_triggers:
-                if find_overlapped_spans(actual.span.span_sent, prediction.span.span_sent) and actual.label == prediction.label:
+                if find_overlapped_spans(actual.span.span_sent, prediction.span.span_sent) \
+                    and actual.label == prediction.label:
                     if actual not in partial_match_trg:
                         partial_match_trg.append(actual)
                         counts["trigger_partial_matched"] += 1
                         ner_result_by_class[actual.label]['correct_relaxed'] += 1.0
                     else:
+                        # This can happen even though we remove nested prediction with same type
                         counts["trigger_relaxed_predicted"] -= 1
                         ner_result_by_class[actual.label]['pred_relaxed'] -= 1.0                        
                     break
+
+
+    ##################################################
+    ################## Evaluate RE ###################
+    ##################################################
 
     # if sent.predicted_relations or sent.relations:
     #     print()
     #     print(f"PREDS: {sent.predicted_relations}")
     #     print(f"GOLDS: {sent.relations}")
 
-    # Evaluate RE
+    gold_ner = {}
+    pred_ner = {}
+
+    for ner in sent.ner:
+        gold_ner[(ner.span.start_sent, ner.span.end_sent)] = ner.label
+    for ner in sent.predicted_ner:
+        pred_ner[(ner.span.start_sent, ner.span.end_sent)] = ner.label
+
     for rel in sent.relations:
         rel_result_by_class[rel.label]['gold'] += 1.0
         counts["relations_gold"] += 1
@@ -698,6 +573,13 @@ def evaluate_sent(sent, counts, ner_result_by_class, rel_result_by_class, datase
         counts["relations_predicted"] += 1
         counts["relations_relaxed_predicted"] += 1
 
+    tp_re_relaxed = []
+    fp_re_relaxed = []
+    fn_re_relaxed = []
+    tp_re_em = []
+    fp_re_em = []
+    fn_re_em = []
+
     relaxed_match_actuals = []
     true_positives_bidi_strict = []
     true_positives_bidi_relaxed = []
@@ -705,6 +587,9 @@ def evaluate_sent(sent, counts, ner_result_by_class, rel_result_by_class, datase
 
         relaxed_match_actual = ""
         strict_match_actual = ""
+
+        pred_sub = prediction.pair[0]
+        pred_obj = prediction.pair[1]
 
         # if pred is bidirectional and already counted,
         # we don't count it to avoid duplicated cases
@@ -728,16 +613,30 @@ def evaluate_sent(sent, counts, ner_result_by_class, rel_result_by_class, datase
         if flag_relaxed_match:
             is_duplicated = False
             for actual in sent.relations:
+                gold_sub = actual.pair[0]
+                gold_obj = actual.pair[1]
                 # First, do Relaxed Match
                 # 1) Relation Label Match
                 # 2) Relaxed boundary match of entity spans
-                # 3) Entity Label Match
+                # 3) Evaluate whether it's correct entity
+                # 4) Entity Label Match
                 if actual.label == prediction.label and \
                     actual.find_overlap(prediction) and \
-                    (prediction.pair[0] in correct_ner_partial) \
-                    and (prediction.pair[1] in correct_ner_partial):
+                    (pred_sub in correct_ner_partial) \
+                    and (pred_obj in correct_ner_partial) \
+                    and (pred_ner[
+                        (pred_sub.start_sent, pred_sub.end_sent)
+                    ] == gold_ner[
+                        (gold_sub.start_sent, gold_sub.end_sent)
+                    ]) \
+                    and (pred_ner[
+                        (pred_obj.start_sent, pred_obj.end_sent)
+                    ] == gold_ner[
+                        (gold_obj.start_sent, gold_obj.end_sent)
+                    ]):
+
                     if actual not in relaxed_match_actuals:
-                        # print(f"soft match >>> PRED:{prediction}, GOLD:{actual}")
+                        # print(f"## Soft match >>> PRED:{prediction}, GOLD:{actual}")
                         relaxed_match_actuals.append(actual)
                         relaxed_match_actual = actual
                         counts["relaxed_relations_matched"] += 1
@@ -749,16 +648,15 @@ def evaluate_sent(sent, counts, ner_result_by_class, rel_result_by_class, datase
                         break
                     else:
                         is_duplicated = True
-            # After looping all gold standards,
-            # we should remove a duplicated pred
-            # if it is not matched with other gold standard
+
+            # After looping all gold standards, we should remove a duplicated pred
+            # if it is not matched with other gold standards.
             if is_duplicated:
-                # print(f"duplicated soft match >> PRED:{prediction}, GOLD:{actual}, duplicated:{relaxed_match_actuals}")
+                # print(f"## Duplicated soft match >> PRED:{prediction} | GOLD:{actual} | Duplicated:{relaxed_match_actuals}")
                 counts["relaxed_relations_predicted"] -= 1
                 rel_result_by_class[prediction.label]['pred_relaxed'] -= 1.0  
 
-            # Store TP if it finds bidirectional match in the ground-truth
-            # for actual1 in relaxed_match_actuals:
+            # Store TP if it finds bidirectional match in the gold standards.
             if relaxed_match_actual:
                 for actual2 in sent.relations:
                     if relaxed_match_actual.flipped_match(actual2, mode='relaxed'):
@@ -768,12 +666,27 @@ def evaluate_sent(sent, counts, ner_result_by_class, rel_result_by_class, datase
 
         # Strict boundary match
         if flag_strict_match:
-            for actual in sent.relations:    
-                if actual.label == prediction.label and \
-                (prediction.pair[0] in correct_ner) \
-                and (prediction.pair[1] in correct_ner) and \
-                actual.pair == prediction.pair:
-                    # print(f"strict match >> PRED:{prediction}, GOLD:{actual}")
+            for actual in sent.relations:
+                gold_sub = actual.pair[0]
+                gold_obj = actual.pair[1] 
+                if actual == prediction and \
+                    (pred_sub in correct_ner) \
+                    and (pred_obj in correct_ner) \
+                    and (
+                        pred_ner[
+                            (pred_sub.start_sent, pred_sub.end_sent)
+                        ] == gold_ner[
+                            (gold_sub.start_sent, gold_sub.end_sent)
+                        ]
+                    ) \
+                    and (
+                        pred_ner[
+                            (pred_obj.start_sent, pred_obj.end_sent)
+                        ] == gold_ner[
+                            (gold_obj.start_sent, gold_obj.end_sent)
+                        ]
+                    ):
+                    # print(f"## Strict match >> PRED:{prediction}, GOLD:{actual}")
                     counts["strict_relations_matched"] += 1
                     rel_result_by_class[prediction.label]['correct'] += 1.0
                     if actual.certainty == prediction.certainty:
@@ -784,7 +697,7 @@ def evaluate_sent(sent, counts, ner_result_by_class, rel_result_by_class, datase
             if strict_match_actual:
                 for actual2 in sent.relations:
                     if strict_match_actual.flipped_match(actual2):
-                        # print(f"bidi-tp-strict >> PRED_Matched:{strict_match_actual}, GOLD:{actual2}")
+                        # print(f"## bidi-tp-strict >> PRED_Matched:{strict_match_actual}, GOLD:{actual2}")
                         true_positives_bidi_strict.append(strict_match_actual)
                         break
 
@@ -808,7 +721,7 @@ def evaluate_sent(sent, counts, ner_result_by_class, rel_result_by_class, datase
                 continue
             if actual1.flipped_match(actual2):
                 counted_bidi.append(actual2)
-                # print("duplicated_bidi_gold >>>", actual1, actual2)
+                # print("## Duplicated_bidi_gold >>>", actual1, actual2)
                 counts["relations_gold"] -= 1
                 rel_result_by_class[actual2.label]['gold'] -= 1.0
                 break
@@ -818,7 +731,6 @@ def evaluate_sent(sent, counts, ner_result_by_class, rel_result_by_class, datase
 
 def evaluate_predictions(dataset, output_dir, task, dataset_name):
 
-    
     counts = Counter()
     ner_labels = task_ner_labels[dataset_name]
     rel_labels = task_rel_labels[dataset_name]
@@ -905,7 +817,7 @@ def evaluate_predictions(dataset, output_dir, task, dataset_name):
         result=errors_doc,
         ner_label_result=ner_result_by_class,
         gold_file=dataset,
-        output_file=f'{output_dir}/ner_predictions.txt'
+        output_file=f'{output_dir}/ner_predictions_sorted.txt'
     )
 
     result = dict(
@@ -922,15 +834,6 @@ def evaluate_predictions(dataset, output_dir, task, dataset_name):
 
 
 def print_predictions_entity(result, ner_label_result, gold_file, output_file):
-    
-    # label2ref = {
-    #     'GeneOrGeneProduct': 'NCBIGene',
-    #     'DiseaseOrPhenotypicFeature': 'MeSH',
-    #     'OrganismTaxon': 'NCBITaxon',
-    #     'CellLine': 'Cellosaurus',
-    #     'ChemicalEntity': 'MeSH',
-    #     'SequenceVariant': 'dbSNP'
-    # }
     
     with open(output_file, "w") as f:     
         
@@ -952,17 +855,6 @@ def print_predictions_entity(result, ner_label_result, gold_file, output_file):
             f.write("\t".join([str(r) for r in record]) + "\n")      
         f.write('\n\n')
         
-        # header = ["NEL-ENTITY_TYPE", "Prec", "Rec", "F1", "Gold", "Pred", "Correct"]
-        # f.write("\t".join(header) + "\n")
-        # f.write("="*89 + "\n")
-        
-        # # Record scores of NEL by label
-        # for k, v in nel_label_result.items():
-        #     record = [k, v['precision'], v['recall'], v['f1'], \
-        #               int(v['gold']), int(v['pred']), int(v['correct'])]
-        #     f.write("\t".join([str(r) for r in record]) + "\n")        
-        # f.write('\n\n')
-        
         for doc in gold_file:
             text = []
             abstract = []
@@ -981,43 +873,41 @@ def print_predictions_entity(result, ner_label_result, gold_file, output_file):
 
             errors = result[doc._doc_key]
         
-            ner_keys = ['fp-ner-em', 'fp-ner-relaxed', \
-                        'fn-ner-em', 'fn-ner-relaxed', \
-                        'tp-ner-em', 'tp-ner-relaxed']               
-            # nel_keys = ['fp-nel', 'fn-nel', 'tp-nel']
+            # ner_keys = ['fp-ner-em', 'fp-ner-relaxed', \
+            #             'fn-ner-em', 'fn-ner-relaxed', \
+            #             'tp-ner-em', 'tp-ner-relaxed']
                 
-            for idx, k in enumerate(ner_keys):
-                for t in errors[k]:
-                    t = [
-                        str(t[0]), str(t[1]), ' '.join(text[t[0]:t[1]+1]), t[2]
-                    ]
-                    f.write("\t".join([k.upper(), doc._doc_key] + t))
-                    f.write("\n")
-                if idx % 2 == 1:
-                    f.write("\n")
+            # for idx, k in enumerate(ner_keys):
+            #     for t in errors[k]:
+            #         t = [
+            #             str(t[0]), str(t[1]), ' '.join(text[t[0]:t[1]+1]), t[2]
+            #         ]
+            #         f.write("\t".join([k.upper(), doc._doc_key] + t))
+            #         f.write("\n")
+            #     if idx % 2 == 1:
+            #         f.write("\n")
+            # f.write("\n")
+                    
+            errors_full = []
+            for error_type, error_list in errors.items():
+                for sample in error_list:
+                    errors_full.append(
+                        [error_type] + list(sample)
+                    )
+            errors_full = sorted(errors_full, key=lambda x: x[1])
+            for idx, t in enumerate(errors_full):
+                t = [
+                    t[0].upper(),
+                    doc._doc_key,
+                    str(t[1]), 
+                    str(t[2]), 
+                    ' '.join(text[t[1]:t[2]+1]), t[3]
+                ]
+                f.write("\t".join(t))    
+                f.write("\n")       
+
             f.write("\n")
                     
-#                 for k in ner_keys_relaxed:
-#                     for t in doc_result[k]:
-#                         t = [str(t[0]), str(t[1]), row.text[t[0]:t[1]], t[2]]
-#                         f.write("\t".join([k.upper(), row.pmid]+t))
-#                         f.write("\n")
-#                     f.write("\n")
-
-                # for k in nel_keys:
-                #     for t in doc_result[k]:
-                #         if t[3]:
-                #             cui = ';'.join([label2ref[t[2]], t[3]])
-                #         else:
-                #             cui = ''
-                #         t = [str(t[0]), str(t[1]), row.text[t[0]:t[1]], t[2], cui]
-                #         f.write("\t".join([k.upper(), row.pmid]+t))
-                #         f.write("\n")
-                #     f.write("\n")
-                    
-            
-                
-
 
 def analyze_relation_coverage(dataset):
     

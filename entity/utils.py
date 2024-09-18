@@ -257,7 +257,9 @@ def convert_dataset_to_samples(args, dataset, ner_label2id=None):
 
             for i in range(len(sent.text)):
                 for j in range(i, min(len(sent.text), i+max(args.max_span_length_entity, args.max_span_length_trigger))):
-                    sample['spans'].append((i+sent_start, j+sent_start, j-i+1))
+                    sample['spans'].append(
+                        (i+sent_start, j+sent_start, j-i+1)
+                    )
                     span2id[(i, j)] = len(sample['spans'])-1
 
                     if (i, j) in sent_ner and (j-i+1) <= args.max_span_length_entity:

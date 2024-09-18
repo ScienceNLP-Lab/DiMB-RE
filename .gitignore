@@ -1,6 +1,12 @@
 # Mac-related
 .DS_Store
 
+# External data
+data/pilot
+
+# Output-related
+output/
+
 # Slurm-related
 *.out
 

@@ -35,6 +35,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Set the CuBLAS workspace configuration for deterministic behavior
+os.environ['CUBLAS_WORKSPACE_CONFIG'] = ':4096:8'
+
 def get_args():
     parser = argparse.ArgumentParser()
 
@@ -120,7 +123,7 @@ def get_args():
 
     # model arguments:
     parser.add_argument("--model", default=None, type=str, required=True)
-    parser.add_argument("--finetuned_model", default=None, type=str)
+    # parser.add_argument("--finetuned_model", default=None, type=str)
     parser.add_argument("--negative_label", default="no_certainty", type=str)
     parser.add_argument("--do_lower_case", action='store_true', 
                         help="Set this flag if you are using an uncased model.")
@@ -316,6 +319,7 @@ def compute_f1(preds, labels, e2e_ngold, label_cnt_dict, id2label):
         # Exclude 'no-certainty' label for calculation
         if not label:
             continue
+
         if pred != 0:
             n_pred += 1
             result_by_class[id2label[pred]]["pred"] += 1
@@ -400,7 +404,7 @@ def evaluate(model, device, eval_dataloader, eval_label_ids, id2label, label_cnt
             logger.info("  %s = %s", key, str(result[key]))
     return preds, result, logits, result_by_class
 
-def print_pred_json(eval_data, eval_examples, preds, id2label, output_file):
+def print_pred_json(eval_data, eval_examples, preds, id2label, output_file, args):
     rels = dict()
     for ex, pred in zip(eval_examples, preds):
         doc_sent, sub, obj = decode_sample_id(ex['id'])
@@ -408,7 +412,9 @@ def print_pred_json(eval_data, eval_examples, preds, id2label, output_file):
         if doc_sent not in rels:
             rels[doc_sent] = []
         # if pred != 0:
-        rels[doc_sent].append([sub[0], sub[1], obj[0], obj[1], rel_type, id2label[pred]])
+        rels[doc_sent].append(
+            [sub[0], sub[1], obj[0], obj[1], rel_type, id2label[pred]]
+        )
 
     js = eval_data.js
     for doc in js:
@@ -416,6 +422,11 @@ def print_pred_json(eval_data, eval_examples, preds, id2label, output_file):
         for sid in range(len(doc['sentences'])):
             k = '%s@%d'%(doc['doc_key'], sid)
             doc['predicted_relations'].append(rels.get(k, []))
+
+        if args.eval_with_gold:
+            doc['predicted_ner'] = doc['ner']
+            doc['predicted_triggers'] = doc['triggers']
+            doc['predicted_triplets'] = doc['triplets']
     
     logger.info('Output predictions to %s..'%(output_file))
     with open(output_file, 'w') as f:
@@ -466,7 +477,12 @@ def main() -> None:
     if args.do_train:
         # train set
         train_dataset, train_examples, *_  = generate_certainty_data(
-            args.train_file, args.train_file, training=True, use_gold=True, use_trigger=args.use_trigger, context_window=args.context_window
+            args.train_file, 
+            args.train_file, 
+            training=True, 
+            use_gold=True, 
+            use_trigger=args.use_trigger, 
+            context_window=args.context_window
         )
         if args.do_eval:
             # dev set
@@ -499,9 +515,13 @@ def main() -> None:
         raise ValueError("At least one of `do_train` or `do_predict` must be True.")
 
     if args.do_train:
-        logger.addHandler(logging.FileHandler(os.path.join(args.certainty_output_dir, f"train.log"), 'w'))
+        logger.addHandler(
+            logging.FileHandler(os.path.join(args.certainty_output_dir, f"train.log"), 'w')
+        )
     else:
-        logger.addHandler(logging.FileHandler(os.path.join(args.certainty_output_dir, f"predict.log"), 'w'))
+        logger.addHandler(
+            logging.FileHandler(os.path.join(args.certainty_output_dir, f"predict.log"), 'w')
+        )
 
     logger.info(f"args: {json.dumps(args.__dict__, indent=2, sort_keys=True)}")
     logger.info("device: {}, n_gpu: {}".format(device, n_gpu))
@@ -548,7 +568,9 @@ def main() -> None:
         all_sub_idx = torch.tensor([f.sub_idx for f in eval_features], dtype=torch.long)
         all_obj_idx = torch.tensor([f.obj_idx for f in eval_features], dtype=torch.long)
         all_trg_idx = torch.tensor([f.trg_idx for f in eval_features], dtype=torch.long)
-        eval_data = TensorDataset(all_input_ids, all_input_mask, all_segment_ids, all_label_ids, all_sub_idx, all_obj_idx, all_trg_idx)
+        eval_data = TensorDataset(
+            all_input_ids, all_input_mask, all_segment_ids, all_label_ids, all_sub_idx, all_obj_idx, all_trg_idx
+        )
         eval_dataloader = DataLoader(eval_data, batch_size=args.eval_batch_size)
         eval_label_ids = all_label_ids
 
@@ -570,7 +592,9 @@ def main() -> None:
         all_sub_idx = torch.tensor([f.sub_idx for f in train_features], dtype=torch.long)
         all_obj_idx = torch.tensor([f.obj_idx for f in train_features], dtype=torch.long)
         all_trg_idx = torch.tensor([f.trg_idx for f in train_features], dtype=torch.long)
-        train_data = TensorDataset(all_input_ids, all_input_mask, all_segment_ids, all_label_ids, all_sub_idx, all_obj_idx, all_trg_idx)
+        train_data = TensorDataset(
+            all_input_ids, all_input_mask, all_segment_ids, all_label_ids, all_sub_idx, all_obj_idx, all_trg_idx
+        )
         train_dataloader = DataLoader(train_data, batch_size=args.train_batch_size)
         train_batches = [batch for batch in train_dataloader]
 
@@ -587,7 +611,10 @@ def main() -> None:
         
         lr = args.learning_rate
         model = RelationModel.from_pretrained(
-            args.model, cache_dir=str(PYTORCH_PRETRAINED_BERT_CACHE), num_certainty_labels=num_labels, use_trigger=args.use_trigger
+            args.model, 
+            cache_dir=str(PYTORCH_PRETRAINED_BERT_CACHE), 
+            num_certainty_labels=num_labels, 
+            use_trigger=args.use_trigger
         )
         if hasattr(model, 'bert'):
             model.bert.resize_token_embeddings(len(tokenizer))
@@ -608,8 +635,16 @@ def main() -> None:
             {'params': [p for n, p in param_optimizer
                         if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
         ]
-        optimizer = AdamW(optimizer_grouped_parameters, lr=lr, correct_bias=not(args.bertadam))
-        scheduler = get_linear_schedule_with_warmup(optimizer, int(num_train_optimization_steps * args.warmup_proportion), num_train_optimization_steps)
+        optimizer = AdamW(
+            optimizer_grouped_parameters, 
+            lr=lr, 
+            correct_bias=not(args.bertadam)
+        )
+        scheduler = get_linear_schedule_with_warmup(
+            optimizer, 
+            int(num_train_optimization_steps * args.warmup_proportion), 
+            num_train_optimization_steps
+        )
 
         start_time = time.time()
         global_step = 0
@@ -630,14 +665,18 @@ def main() -> None:
             if args.train_mode == 'random' or args.train_mode == 'random_sorted':
                 random.shuffle(train_batches)
 
-            progress = tqdm.tqdm(total=len(train_batches), ncols=150, desc="Epoch: " + str(epoch))
+            progress = tqdm.tqdm(
+                total=len(train_batches), ncols=150, desc="Epoch: " + str(epoch)
+            )
         
             for step, batch in enumerate(train_batches):
 
                 batch = tuple(t.to(device) for t in batch)
                 input_ids, input_mask, segment_ids, label_ids, sub_idx, obj_idx, trg_idx = batch
 
-                loss = model(input_ids, segment_ids, input_mask, label_ids, sub_idx, obj_idx, trg_idx)
+                loss = model(
+                    input_ids, segment_ids, input_mask, label_ids, sub_idx, obj_idx, trg_idx
+                )
                 if n_gpu > 1:
                     loss = loss.mean()
 
@@ -653,7 +692,9 @@ def main() -> None:
                 global_step += 1
 
                 if global_step % args.print_loss_step == 0:
-                    logger.info('Epoch=%d, step=%d, loss=%.5f'%(epoch, step, tr_loss / nb_tr_examples))
+                    logger.info(
+                        'Epoch=%d, step=%d, loss=%.5f'%(epoch, step, tr_loss / nb_tr_examples)
+                    )
                     tr_loss = 0
                     nb_tr_examples = 0
 
@@ -726,14 +767,24 @@ def main() -> None:
             logger.info("  %s = %s", key, str(result[key]))
 
         rel_pred_file_path = os.path.join(args.certainty_output_dir, args.dev_pred_filename)
-        print_pred_json(eval_dataset, eval_examples, preds, id2label, rel_pred_file_path)
+        print_pred_json(eval_dataset, eval_examples, preds, id2label, rel_pred_file_path, args)
 
     if args.do_predict_test:
         test_dataset, test_examples, test_nrel, test_label_dict = generate_certainty_data(
-            relation_test_path, args.test_file, training=False, use_gold=args.eval_with_gold, use_trigger=args.use_trigger, context_window=args.context_window
+            relation_test_path, 
+            args.test_file, 
+            training=False, 
+            use_gold=args.eval_with_gold, 
+            use_trigger=args.use_trigger, 
+            context_window=args.context_window
         )
         test_features = convert_examples_to_features(
-            test_examples, label2id, args.max_seq_length, tokenizer, special_tokens, unused_tokens=not(args.add_new_tokens)
+            test_examples, 
+            label2id, 
+            args.max_seq_length, 
+            tokenizer, 
+            special_tokens, 
+            unused_tokens=not(args.add_new_tokens)
         )
 
         logger.info("***** Test *****")
@@ -758,7 +809,14 @@ def main() -> None:
         model.to(device)
         
         preds, result, logits, result_by_class = evaluate(
-            model, device, test_dataloader, test_label_ids, id2label=id2label, label_cnt_dict=test_label_dict, e2e_ngold=test_nrel, verbose=False
+            model, 
+            device, 
+            test_dataloader, 
+            test_label_ids, 
+            id2label=id2label, 
+            label_cnt_dict=test_label_dict, 
+            e2e_ngold=test_nrel, 
+            verbose=False
         )
         with open(os.path.join(args.certainty_output_dir, "test_result_by_class.json"), 'w', encoding='utf-8') as f_out:
             f_out.write(json.dumps(result_by_class, indent=4))
@@ -768,7 +826,9 @@ def main() -> None:
             logger.info("  %s = %s", key, str(result[key]))
 
         rel_test_file_path = os.path.join(args.certainty_output_dir, args.test_pred_filename)
-        print_pred_json(test_dataset, test_examples, preds, id2label, rel_test_file_path)
+        print_pred_json(
+            test_dataset, test_examples, preds, id2label, rel_test_file_path, args
+        )
 
 
 if __name__ == "__main__":

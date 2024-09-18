@@ -10,3 +10,5 @@ torch
 transformers
 overrides
 requests
+pandas
+pytz

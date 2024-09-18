@@ -36,6 +36,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Set the CuBLAS workspace configuration for deterministic behavior
+os.environ['CUBLAS_WORKSPACE_CONFIG'] = ':4096:8'
+
 def get_args():
     parser = argparse.ArgumentParser()
 
@@ -60,6 +63,8 @@ def get_args():
                         help="Whether not to use CUDA when available")
     parser.add_argument("--use_trigger", action='store_true', 
                         help="Whether to train and eval with triggers.")
+    parser.add_argument("--load_saved_model", action='store_true',
+                        help="Whether to use saved model already trained")
     
     # directory and file arguments
     parser.add_argument('--output_dir', type=str, default=None, required=True,
@@ -96,6 +101,10 @@ def get_args():
                         help="The path of the training data.")
     parser.add_argument("--train_mode", type=str, default='random_sorted', 
                         choices=['random', 'sorted', 'random_sorted'])
+    parser.add_argument("--dev_file", default=None, type=str, 
+                        help="The path of the dev data.")
+    parser.add_argument("--test_file", default=None, type=str, 
+                        help="The path of the test data.")
 
     # training-specific arguments:
     parser.add_argument("--eval_per_epoch", default=1.0, type=float,
@@ -268,13 +277,15 @@ def convert_examples_to_features(examples, label2id, max_seq_length, tokenizer, 
                 logger.info("sub_idx, obj_idx: %d, %d" % (sub_idx, obj_idx))
 
         features.append(
-                InputFeatures(input_ids=input_ids,
-                            input_mask=input_mask,
-                            segment_ids=segment_ids,
-                            label_id=label_id,
-                            sub_idx=sub_idx,
-                            obj_idx=obj_idx
-                            )) 
+            InputFeatures(
+                input_ids=input_ids,
+                input_mask=input_mask,
+                segment_ids=segment_ids,
+                label_id=label_id,
+                sub_idx=sub_idx,
+                obj_idx=obj_idx
+            )
+        ) 
                        
     logger.info("Average #tokens: %.2f" % (num_tokens * 1.0 / len(examples)))
     logger.info("Max #tokens: %d"%max_tokens)
@@ -414,7 +425,9 @@ def main() -> None:
     n_gpu = torch.cuda.device_count()
 
     # Generate specific version of output folder
-    if args.relation_output_dir is None:
+    if args.relation_output_dir is None or args.load_saved_model:
+        if args.load_saved_model:
+            args.saved_model_dir = args.relation_output_dir
         args.relation_output_dir = make_output_dir(
             args.output_dir, task='relation', pipeline_task=args.pipeline_task
         )
@@ -431,29 +444,45 @@ def main() -> None:
         args.triplet_output_dir = os.path.sep.join(path_components)
 
     if not args.use_trigger:  # 2-step without trigger
-        entity_dev_path = os.path.join(args.entity_output_dir, args.entity_predictions_dev)
+        if args.eval_with_gold:
+            entity_dev_path = args.dev_file
+        else:
+            entity_dev_path = os.path.join(args.entity_output_dir, args.entity_predictions_dev)
         if args.do_predict_test:
             entity_test_path = os.path.join(args.entity_output_test_dir, args.entity_predictions_test)
-        # entity_test_path = os.path.join(args.entity_output_dir, args.entity_predictions_test)
     else:  # 3-step with trigger
-        entity_dev_path = os.path.join(args.triplet_output_dir, args.triplet_predictions_dev)
+        if args.eval_with_gold:
+            entity_dev_path = args.dev_file
+        else:
+            entity_dev_path = os.path.join(args.triplet_output_dir, args.triplet_predictions_dev)
         if args.do_predict_test:
             entity_test_path = os.path.join(args.triplet_output_test_dir, args.entity_predictions_test)
-        # entity_test_path = os.path.join(args.triplet_output_dir, args.triplet_predictions_test)
 
     if args.do_train:
         # train set
         train_dataset, train_examples, *_  = generate_relation_data(
-            args.train_file, training=True, use_gold=True, use_trigger=args.use_trigger, context_window=args.context_window
+            args.train_file, 
+            training=True, 
+            use_gold=True, 
+            use_trigger=args.use_trigger, 
+            context_window=args.context_window
         )
         # dev set
         if args.do_eval:
             eval_dataset, eval_examples, eval_nrel, eval_label_dict = generate_relation_data(
-                entity_dev_path, training=False, use_gold=args.eval_with_gold, use_trigger=args.use_trigger, context_window=args.context_window
+                entity_dev_path, 
+                training=False, 
+                use_gold=args.eval_with_gold, 
+                use_trigger=args.use_trigger, 
+                context_window=args.context_window
             )
         elif args.do_predict_test:
             eval_dataset, eval_examples, eval_nrel, eval_label_dict = generate_relation_data(
-                entity_dev_path, training=False, use_gold=True, use_trigger=args.use_trigger, context_window=args.context_window
+                entity_dev_path, 
+                training=False, 
+                use_gold=True, 
+                use_trigger=args.use_trigger, 
+                context_window=args.context_window
             )
             # incorporate train set with dev set
             logger.info("## Now moving Dev data to Train data... ##")
@@ -655,8 +684,9 @@ def main() -> None:
     # logger.info(special_tokens)
 
     if args.do_predict_dev:
+        model_dir = args.relation_output_dir if not args.load_saved_model else args.saved_model_dir
         model = RelationModel.from_pretrained(
-            args.relation_output_dir, num_rel_labels=num_labels, use_trigger=args.use_trigger
+            model_dir, num_rel_labels=num_labels, use_trigger=args.use_trigger
         )
         model.to(device)
         preds, result, logits, result_by_class = evaluate(
@@ -674,16 +704,24 @@ def main() -> None:
 
     if args.do_predict_test:
         test_dataset, test_examples, test_nrel, test_label_dict = generate_relation_data(
-            entity_test_path, training=False, use_gold=args.eval_with_gold, use_trigger=args.use_trigger, context_window=args.context_window
+            entity_test_path, 
+            training=False, 
+            use_gold=args.eval_with_gold, 
+            use_trigger=args.use_trigger, 
+            context_window=args.context_window
         )
         test_features = convert_examples_to_features(
-            test_examples, label2id, args.max_seq_length, tokenizer, special_tokens, unused_tokens=not(args.add_new_tokens)
+            test_examples, 
+            label2id, 
+            args.max_seq_length, 
+            tokenizer, 
+            special_tokens, 
+            unused_tokens=not(args.add_new_tokens)
         )
 
         logger.info("***** Test *****")
         logger.info("  Num examples = %d", len(test_examples))
         logger.info("  Batch size = %d", args.eval_batch_size)
-
         all_input_ids = torch.tensor([f.input_ids for f in test_features], dtype=torch.long)
         all_input_mask = torch.tensor([f.input_mask for f in test_features], dtype=torch.long)
         all_segment_ids = torch.tensor([f.segment_ids for f in test_features], dtype=torch.long)
@@ -694,12 +732,23 @@ def main() -> None:
         test_dataloader = DataLoader(test_data, batch_size=args.eval_batch_size)
         test_label_ids = all_label_ids
 
+        # Load the fine-tuned model (TRAIN+DEV)
+        model_dir = args.relation_output_dir if not args.load_saved_model else args.saved_model_dir
         model = RelationModel.from_pretrained(
-            args.relation_output_dir, num_rel_labels=num_labels, use_trigger=args.use_trigger
+            model_dir, 
+            num_rel_labels=num_labels, 
+            use_trigger=args.use_trigger
         )
         model.to(device)
         preds, result, logits, result_by_class = evaluate(
-            model, device, test_dataloader, test_label_ids, id2label=id2label, label_cnt_dict=test_label_dict, e2e_ngold=test_nrel, verbose=False
+            model, 
+            device, 
+            test_dataloader, 
+            test_label_ids, 
+            id2label=id2label, 
+            label_cnt_dict=test_label_dict, 
+            e2e_ngold=test_nrel, 
+            verbose=False
         )
         with open(os.path.join(args.relation_output_dir, "test_result_by_class.json"), 'w', encoding='utf-8') as f_out:
             f_out.write(json.dumps(result_by_class, indent=4))

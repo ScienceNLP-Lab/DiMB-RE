@@ -22,6 +22,9 @@ logging.basicConfig(
     )
 logger = logging.getLogger(__name__)
 
+# Set the CuBLAS workspace configuration for deterministic behavior
+os.environ['CUBLAS_WORKSPACE_CONFIG'] = ':4096:8'
+
 def get_args():
     parser = argparse.ArgumentParser()
 
@@ -75,7 +78,7 @@ def get_args():
                         help="Batch size during inference")
     parser.add_argument('--learning_rate', type=float, default=1e-5, 
                         help="Learning rate for the BERT encoder")
-    parser.add_argument('--task_learning_rate', type=float, default=5e-4, 
+    parser.add_argument('--task_learning_rate', type=float, default=1e-3, 
                         help="Learning rate for task-specific parameters, i.e., classification head")
     parser.add_argument('--warmup_proportion', type=float, default=0.1, 
                         help="The ratio of the warmup steps to the total steps")
@@ -83,7 +86,7 @@ def get_args():
                         help="Number of the training epochs")
     parser.add_argument('--print_loss_step', type=int, default=30, 
                         help="How often logging the loss value during training")
-    parser.add_argument('--eval_per_epoch', type=float, default=0.5, 
+    parser.add_argument('--eval_per_epoch', type=float, default=0.33, 
                         help="How often evaluating the trained model on dev set during training")
     parser.add_argument('--eval_start_epoch', type=int, default=0, 
                         help="Set the start epoch for eval")
@@ -211,36 +214,11 @@ def evaluate(model, batches, ent_gold, trg_gold, label_cnt_dict, vocab):
                         else:
                             trigger_correct_num += 1
 
-            # for gold, pred_ent, pred_trg in zip(sample['spans_label'], pred_entity, pred_trigger):
-            #     # if gold != 0:
-            #     #     total_gold_num += 1
-            #     #     result[inv_vocab[gold]]["gold"] += 1
-            #     if pred_ent != 0:
-            #         total_pred_num += 1
-            #         if not inv_vocab[pred].isupper():
-            #             entity_result[inv_vocab[pred]]["pred"] += 1
-            #             entity_pred_num += 1
-            #         else:
-            #             trigger_result[inv_vocab[pred]]["pred"] += 1
-            #             trigger_pred_num += 1
-            #         if pred == gold:
-            #             total_correct_num += 1
-            #             if not inv_vocab[pred].isupper():
-            #                 entity_result[inv_vocab[pred]]["correct"] += 1
-            #                 entity_correct_num += 1
-            #             else:
-            #                 trigger_result[inv_vocab[pred]]["correct"] += 1
-            #                 trigger_correct_num += 1
-
-    # print("total_gold_num >>>", total_gold_num)
-
     for label in ner_result:
         counts = ner_result[label]
         counts["precision"] = save_div(counts["correct"], counts["pred"])
         counts["recall"] = save_div(counts["correct"], counts["gold"])
         counts["f1"] = save_div(2*counts["precision"]*counts["recall"], counts["precision"]+counts["recall"])
-
-    # result = {**entity_result, **trigger_result}  # unpacking operator
 
     prec_ent = save_div(entity_correct_num, entity_pred_num)
     rec_ent = save_div(entity_correct_num, entity_gold_num)
@@ -259,6 +237,7 @@ def evaluate(model, batches, ent_gold, trg_gold, label_cnt_dict, vocab):
     logger.info('Entity NER >>> Prec: %.5f, Rec: %.5f, F1: %.5f'%(prec_ent, rec_ent, f1_ent))
     logger.info('Trigger NER >>> Prec: %.5f, Rec: %.5f, F1: %.5f'%(prec_trg, rec_trg, f1_trg))
     logger.info('Total NER >>> Prec: %.5f, Rec: %.5f, F1: %.5f'%(prec, rec, f1))
+
     return prec, rec, f1, ner_result
 
 
