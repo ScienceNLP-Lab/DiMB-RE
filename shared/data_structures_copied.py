@@ -284,7 +284,13 @@ class Relation:
         return self.pair[0].__repr__() + ", " + self.pair[1].__repr__() + ": " + self.label
 
     def __eq__(self, other):
-        return (self.pair == other.pair) and (self.label == other.label)
+        if isinstance(other, Relation):
+            return (self.pair == other.pair) and (self.label == other.label)
+        return False
+    
+    def __hash__(self):
+        # Return a hash value based on a tuple of the attributes
+        return hash((self.pair[0], self.pair[1]))
     
     def flipped_match(self, other, mode='strict'):
         if mode == 'strict':
@@ -378,9 +384,23 @@ def evaluate_sent(
         counts, 
         ner_result_by_class, 
         rel_result_by_class, 
-        dataset_name, 
-        errors
+        dataset_name
 ):
+    
+    errors = {
+        'tp-ner-em':[],
+        'fp-ner-em':[],
+        'fn-ner-em':[],
+        'tp-ner-relaxed':[],
+        'fp-ner-relaxed':[],
+        'fn-ner-relaxed':[],
+        'tp-rel-em':[],
+        'fp-rel-em':[],
+        'fn-rel-em':[],
+        'tp-rel-relaxed':[],
+        'fp-rel-relaxed':[],
+        'fn-rel-relaxed':[]
+    }
 
     ##################################################
     ####### Evaluate NER & Trigger Extraction ########
@@ -437,9 +457,15 @@ def evaluate_sent(
                 correct_ner.add(prediction.span)
                 flag_ner_em = True
                 tp_ner_em.append((
-                    prediction.span.start_doc, 
-                    prediction.span.end_doc, 
+                    prediction.span.start_sent, 
+                    prediction.span.end_sent, 
                     prediction.label
+                ))
+                # In case if you want to print relaxed-only analysis
+                tp_ner_relaxed.append((
+                    actual.span.start_sent, 
+                    actual.span.end_sent, 
+                    actual.label
                 ))
                 break
 
@@ -459,8 +485,8 @@ def evaluate_sent(
                     flag_ner_pm = True
                     if not flag_ner_em:
                         tp_ner_relaxed.append((
-                            actual.span.start_doc, 
-                            actual.span.end_doc, 
+                            actual.span.start_sent, 
+                            actual.span.end_sent, 
                             actual.label
                         ))
                     break
@@ -479,21 +505,21 @@ def evaluate_sent(
         if not flag_ner_em:
             if not flag_ner_pm:
                 fp_ner_relaxed.append((
-                    prediction.span.start_doc, 
-                    prediction.span.end_doc, 
+                    prediction.span.start_sent, 
+                    prediction.span.end_sent, 
                     prediction.label
                 ))
             else:
                 fp_ner_em.append((
-                    prediction.span.start_doc, 
-                    prediction.span.end_doc, 
+                    prediction.span.start_sent, 
+                    prediction.span.end_sent, 
                     prediction.label
                 ))
 
     for actual in sent.ner:
         decomposed = (
-            actual.span.start_doc, 
-            actual.span.end_doc, 
+            actual.span.start_sent, 
+            actual.span.end_sent, 
             actual.label
         )
         if decomposed not in tp_ner_em:
@@ -502,12 +528,13 @@ def evaluate_sent(
             else:
                 fn_ner_em.append(decomposed)
 
-    errors['tp-ner-relaxed'].append(tp_ner_relaxed)
-    errors['fp-ner-relaxed'].append(fp_ner_relaxed)
-    errors['fn-ner-relaxed'].append(fn_ner_relaxed)
-    errors['tp-ner-em'].append(tp_ner_em)
-    errors['fp-ner-em'].append(fp_ner_em)
-    errors['fn-ner-em'].append(fn_ner_em)
+    errors['tp-ner-relaxed'].extend(tp_ner_relaxed)
+    errors['fp-ner-relaxed'].extend(fp_ner_relaxed)
+    errors['fn-ner-relaxed'].extend(fn_ner_relaxed)
+    errors['tp-ner-em'].extend(tp_ner_em)
+    errors['fp-ner-em'].extend(fp_ner_em)
+    errors['fn-ner-em'].extend(fn_ner_em)
+
                 
     # NER score for Triggers
     partial_match_trg = []
@@ -559,6 +586,11 @@ def evaluate_sent(
     gold_ner = {}
     pred_ner = {}
 
+    gold_rel_em = {}
+    pred_rel_em = {}
+    gold_rel_relaxed = {}
+    pred_rel_relaxed = {}
+
     for ner in sent.ner:
         gold_ner[(ner.span.start_sent, ner.span.end_sent)] = ner.label
     for ner in sent.predicted_ner:
@@ -567,18 +599,15 @@ def evaluate_sent(
     for rel in sent.relations:
         rel_result_by_class[rel.label]['gold'] += 1.0
         counts["relations_gold"] += 1
+        gold_rel_em[rel] = "FN"
+        gold_rel_relaxed[rel] = "FN"
     for rel in sent.predicted_relations:
         rel_result_by_class[rel.label]['pred'] += 1.0
         rel_result_by_class[rel.label]['pred_relaxed'] += 1.0
         counts["relations_predicted"] += 1
         counts["relations_relaxed_predicted"] += 1
-
-    tp_re_relaxed = []
-    fp_re_relaxed = []
-    fn_re_relaxed = []
-    tp_re_em = []
-    fp_re_em = []
-    fn_re_em = []
+        pred_rel_em[rel] = "FP"
+        pred_rel_relaxed[rel] = "FP"
 
     relaxed_match_actuals = []
     true_positives_bidi_strict = []
@@ -600,7 +629,9 @@ def evaluate_sent(
                 # print(f"Already counted as TP-bidi-relaxed >> PRED:{prediction}, TP:{tp}")
                 counts["relations_relaxed_predicted"] -= 1
                 rel_result_by_class[prediction.label]['pred_relaxed'] -= 1.0
+                del pred_rel_relaxed[prediction]
                 break
+
         flag_strict_match = True
         for tp in true_positives_bidi_strict:
             if prediction.flipped_match(tp):
@@ -608,18 +639,22 @@ def evaluate_sent(
                 # print(f"Already counted as TP-bidi-strict >> PRED:{prediction}, TP:{tp}")
                 counts["relations_predicted"] -= 1
                 rel_result_by_class[prediction.label]['pred'] -= 1.0
+                del pred_rel_em[prediction]
                 break
 
         if flag_relaxed_match:
             is_duplicated = False
             for actual in sent.relations:
+
                 gold_sub = actual.pair[0]
                 gold_obj = actual.pair[1]
+
                 # First, do Relaxed Match
                 # 1) Relation Label Match
                 # 2) Relaxed boundary match of entity spans
                 # 3) Evaluate whether it's correct entity
                 # 4) Entity Label Match
+
                 if actual.label == prediction.label and \
                     actual.find_overlap(prediction) and \
                     (pred_sub in correct_ner_partial) \
@@ -641,9 +676,13 @@ def evaluate_sent(
                         relaxed_match_actual = actual
                         counts["relaxed_relations_matched"] += 1
                         rel_result_by_class[prediction.label]['correct_relaxed'] += 1.0
+                        
+                        # Factuality matching
                         if actual.certainty == prediction.certainty:
                             counts["relaxed_relations_matched_fact"] += 1
                             rel_result_by_class[prediction.label]['correct_relaxed_fact'] += 1.0
+                            gold_rel_relaxed[actual] = "TP"
+                            pred_rel_relaxed[prediction] = "TP"
                         is_duplicated = False
                         break
                     else:
@@ -654,7 +693,8 @@ def evaluate_sent(
             if is_duplicated:
                 # print(f"## Duplicated soft match >> PRED:{prediction} | GOLD:{actual} | Duplicated:{relaxed_match_actuals}")
                 counts["relaxed_relations_predicted"] -= 1
-                rel_result_by_class[prediction.label]['pred_relaxed'] -= 1.0  
+                rel_result_by_class[prediction.label]['pred_relaxed'] -= 1.0
+                del pred_rel_relaxed[prediction]
 
             # Store TP if it finds bidirectional match in the gold standards.
             if relaxed_match_actual:
@@ -689,11 +729,19 @@ def evaluate_sent(
                     # print(f"## Strict match >> PRED:{prediction}, GOLD:{actual}")
                     counts["strict_relations_matched"] += 1
                     rel_result_by_class[prediction.label]['correct'] += 1.0
+
                     if actual.certainty == prediction.certainty:
                         counts["strict_relations_matched_fact"] += 1
                         rel_result_by_class[prediction.label]['correct_fact'] += 1.0
+                        gold_rel_em[actual] = "TP"
+                        pred_rel_em[prediction] = "TP"
+                        # In case if you want to print relaxed-only analysis
+                        gold_rel_relaxed[actual] = "TP"
+                        pred_rel_relaxed[prediction] = "TP"    
+                                        
                     strict_match_actual = actual
                     break
+
             if strict_match_actual:
                 for actual2 in sent.relations:
                     if strict_match_actual.flipped_match(actual2):
@@ -701,21 +749,12 @@ def evaluate_sent(
                         true_positives_bidi_strict.append(strict_match_actual)
                         break
 
-            # if relaxed_match_actuals:
-            #     # print("Relaxed Match")
-            #     # print(f"Pred:{prediction}", f"|| Gold:{relaxed_match_actuals}", "\n")
-            #     counts["relaxed_relations_matched"] += 1
-            #     rel_result_by_class[prediction.label]['correct_relaxed'] += 1.0
-            #     if strict_match_actuals:
-            #         counts["strict_relations_matched"] += 1
-            #         rel_result_by_class[prediction.label]['correct'] += 1.0
-
     # Count the number of gold relations
-    # considering the bidi-relations as the same one
+    # to consider the bidi-relations as the same one
     counted_bidi = []
     for actual1 in sent.relations:
         if actual1 in counted_bidi:
-            continue
+            continue     
         for actual2 in sent.relations:
             if actual1 == actual2:
                 continue
@@ -724,7 +763,53 @@ def evaluate_sent(
                 # print("## Duplicated_bidi_gold >>>", actual1, actual2)
                 counts["relations_gold"] -= 1
                 rel_result_by_class[actual2.label]['gold'] -= 1.0
+                del gold_rel_relaxed[actual2]
+                del gold_rel_em[actual2]
                 break
+
+    tp_rel_relaxed = [(
+        rel.label,
+        rel.pair[0].text,
+        rel.pair[1].text,
+        rel.certainty
+    ) for rel, tag in gold_rel_relaxed.items() if tag == "TP"] 
+    fp_rel_relaxed = [(
+        rel.label,
+        rel.pair[0].text,
+        rel.pair[1].text,
+        rel.certainty
+    ) for rel, tag in pred_rel_relaxed.items() if tag == "FP"] 
+    fn_rel_relaxed = [(
+        rel.label,
+        rel.pair[0].text,
+        rel.pair[1].text,
+        rel.certainty
+    ) for rel, tag in gold_rel_relaxed.items() if tag == "FN"] 
+    tp_rel_em = [(
+        rel.label,
+        rel.pair[0].text,
+        rel.pair[1].text,
+        rel.certainty
+    ) for rel, tag in gold_rel_em.items() if tag == "TP"] 
+    fp_rel_em = [(
+        rel.label,
+        rel.pair[0].text,
+        rel.pair[1].text,
+        rel.certainty
+    ) for rel, tag in pred_rel_em.items() if tag == "FP"] 
+    fn_rel_em = [(
+        rel.label,
+        rel.pair[0].text,
+        rel.pair[1].text,
+        rel.certainty
+    ) for rel, tag in gold_rel_em.items() if tag == "FN"]
+
+    errors['tp-rel-relaxed'].extend(tp_rel_relaxed)
+    errors['fp-rel-relaxed'].extend(fp_rel_relaxed)
+    errors['fn-rel-relaxed'].extend(fn_rel_relaxed)
+    errors['tp-rel-em'].extend(tp_rel_em)
+    errors['fp-rel-em'].extend(fp_rel_em)
+    errors['fn-rel-em'].extend(fn_rel_em)  
 
     return counts, ner_result_by_class, rel_result_by_class, errors
     
@@ -748,21 +833,15 @@ def evaluate_predictions(dataset, output_dir, task, dataset_name):
     errors_doc = {}
     for doc in dataset:
 
-        errors = {
-            'tp-ner-em':[],
-            'fp-ner-em':[],
-            'fn-ner-em':[],
-            'tp-ner-relaxed':[],
-            'fp-ner-relaxed':[],
-            'fn-ner-relaxed':[]
-        }
+        errors_sent = []
 
         for sent in doc:
             counts, ner_result_by_class, rel_result_by_class, errors = evaluate_sent(
-                sent, counts, ner_result_by_class, rel_result_by_class, dataset_name, errors
+                sent, counts, ner_result_by_class, rel_result_by_class, dataset_name
             )
-        
-        errors_doc[doc._doc_key] = errors
+            errors_sent.append(errors)
+
+        errors_doc[doc._doc_key] = errors_sent
 
     scores_ner = compute_f1(
         counts["ner_predicted"], counts["ner_gold"], counts["ner_matched"])
@@ -813,11 +892,12 @@ def evaluate_predictions(dataset, output_dir, task, dataset_name):
         f_out.write(json.dumps(rel_result_by_class, indent=4))
     print("RE Result by class is saved!!!")
 
-    print_predictions_entity(
+    print_predictions(
         result=errors_doc,
         ner_label_result=ner_result_by_class,
+        rel_label_result=rel_result_by_class,
         gold_file=dataset,
-        output_file=f'{output_dir}/ner_predictions_sorted.txt'
+        output_file=f'{output_dir}/analysis_sorted.txt'
     )
 
     result = dict(
@@ -833,19 +913,43 @@ def evaluate_predictions(dataset, output_dir, task, dataset_name):
     return result
 
 
-def print_predictions_entity(result, ner_label_result, gold_file, output_file):
+def print_predictions(
+        result, 
+        ner_label_result, 
+        rel_label_result,
+        gold_file, 
+        output_file
+):
     
     with open(output_file, "w") as f:     
         
-        header = ["NER-ENTITY_TYPE", \
+        ner_header = ["NER-ENTITY_TYPE", \
                   "Prec", "Rec", "F1", \
                   "Prec-relaxed", "Rec-relaxed", "F1-relaxed", \
                   "Gold", "Pred", "Correct", "Pred-relaxed", 'Correct-relaxed']
-        f.write("\t".join(header) + "\n")
+        f.write("\t".join(ner_header) + "\n")
         f.write("="*89 + "\n")
         
-        # Record scores of NER by label
+        # Record scores of NER/TRG by label
         for k, v in ner_label_result.items():
+            record = [
+                k, v['precision'], v['recall'], v['f1'], 
+                v['precision_relaxed'], v['recall_relaxed'], v['f1_relaxed'], 
+                int(v['gold']), int(v['pred']), int(v['correct']), 
+                int(v['pred_relaxed']), int(v['correct_relaxed'])
+            ]
+            f.write("\t".join([str(r) for r in record]) + "\n")      
+        f.write('\n')
+
+        rel_header = ["REL_TYPE", \
+                  "Prec", "Rec", "F1", \
+                  "Prec-relaxed", "Rec-relaxed", "F1-relaxed", \
+                  "Gold", "Pred", "Correct", "Pred-relaxed", 'Correct-relaxed']
+        f.write("\t".join(rel_header) + "\n")
+        f.write("="*89 + "\n")
+        
+        # Record scores of REL by label
+        for k, v in rel_label_result.items():
             record = [
                 k, v['precision'], v['recall'], v['f1'], 
                 v['precision_relaxed'], v['recall_relaxed'], v['f1_relaxed'], 
@@ -872,40 +976,58 @@ def print_predictions_entity(result, ner_label_result, gold_file, output_file):
             f.write('\n\n')
 
             errors = result[doc._doc_key]
-        
-            # ner_keys = ['fp-ner-em', 'fp-ner-relaxed', \
-            #             'fn-ner-em', 'fn-ner-relaxed', \
-            #             'tp-ner-em', 'tp-ner-relaxed']
-                
-            # for idx, k in enumerate(ner_keys):
-            #     for t in errors[k]:
-            #         t = [
-            #             str(t[0]), str(t[1]), ' '.join(text[t[0]:t[1]+1]), t[2]
-            #         ]
-            #         f.write("\t".join([k.upper(), doc._doc_key] + t))
-            #         f.write("\n")
-            #     if idx % 2 == 1:
-            #         f.write("\n")
-            # f.write("\n")
-                    
-            errors_full = []
-            for error_type, error_list in errors.items():
-                for sample in error_list:
-                    errors_full.append(
-                        [error_type] + list(sample)
-                    )
-            errors_full = sorted(errors_full, key=lambda x: x[1])
-            for idx, t in enumerate(errors_full):
-                t = [
-                    t[0].upper(),
-                    doc._doc_key,
-                    str(t[1]), 
-                    str(t[2]), 
-                    ' '.join(text[t[1]:t[2]+1]), t[3]
-                ]
-                f.write("\t".join(t))    
-                f.write("\n")       
 
+            assert len(doc) == len(errors)
+
+            for idx, (sent, sent_errors) in enumerate(zip(doc, errors)):
+                
+                f.write('|'.join([doc._doc_key, f'S#{idx}', " ".join(sent.text)]))
+                f.write("\n")
+                    
+                errors_ner = []
+                errors_rel = []
+                for error_type, error_list in sent_errors.items():
+                    # Just to print relaxed-only
+                    if error_type.split('-')[-1] == 'em':
+                        continue
+
+                    if error_type.split('-')[1] == 'ner':
+                        for sample in error_list:
+                            errors_ner.append(
+                                [error_type] + list(sample)
+                            )
+                    elif error_type.split('-')[1] == 'rel':
+                        for sample in error_list:
+                            errors_rel.append(
+                                [error_type] + list(sample)
+                            )
+
+                errors_ner = sorted(errors_ner, key=lambda x: (x[1], x[0]))
+                for idx, t in enumerate(errors_ner):
+                    t = [
+                        t[0].upper(),
+                        # doc._doc_key,
+                        str(t[1]), 
+                        str(t[2]), 
+                        ' '.join(sent.text[t[1]:t[2]+1]), t[3]
+                    ]
+                    f.write("\t".join(t))    
+                    f.write("\n")       
+                f.write("\n")
+
+                errors_rel = sorted(errors_rel, key=lambda x: (x[1], x[0]))
+                for idx, t in enumerate(errors_rel):
+                    t = [
+                        t[0].upper(),
+                        # doc._doc_key,
+                        t[1], 
+                        " ".join(t[2]), 
+                        " ".join(t[3]), 
+                        t[4]
+                    ]
+                    f.write("\t".join(t))    
+                    f.write("\n")       
+                f.write("\n")
             f.write("\n")
                     
 
