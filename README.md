@@ -269,7 +269,7 @@ python run_relation_approx.py \
 *Note*: the current code does not support approximation models based on ALBERT. -->
 
 ## 5. Fine-tuned Models
-We released our best fine-tuned [NER model](`https://huggingface.co/gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_NER`), [Relation Extraction model](`https://huggingface.co/gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_RE`), and [Factuality Detection model](`https://huggingface.co/gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_FD`) trained for our DiMB-RE dataset in HuggingFace.
+We released our best fine-tuned [NER model](https://huggingface.co/gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_NER), [Relation Extraction model](https://huggingface.co/gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_RE), and [Factuality Detection model](https://huggingface.co/gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_FD) trained for our DiMB-RE dataset in HuggingFace.
 
 <!-- ## Bugs or Questions?
 If you have any questions related to the code or the paper, feel free to email Zexuan Zhong `(zzhong@cs.princeton.edu)`. If you encounter any problems when using the code, or want to report a bug, you can open an issue. Please try to specify the problem with details so we can help you better and quicker! -->
