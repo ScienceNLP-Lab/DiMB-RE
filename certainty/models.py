@@ -8,9 +8,10 @@ from transformers import AlbertModel, AlbertPreTrainedModel
 from shared.utils import batched_index_select
 
 BertLayerNorm = torch.nn.LayerNorm
-class BertForRelation(BertPreTrainedModel):
+
+class BertForFactuality(BertPreTrainedModel):
     def __init__(self, config, num_certainty_labels, use_trigger=True):
-        super(BertForRelation, self).__init__(config)
+        super(BertForFactuality, self).__init__(config)
         self.num_labels = num_certainty_labels
         self.use_trigger = use_trigger
         self.hidden_size = config.hidden_size

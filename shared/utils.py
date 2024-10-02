@@ -6,7 +6,7 @@ from transformers.file_utils import WEIGHTS_NAME, CONFIG_NAME
 from typing import Optional
 from shared.checks import ConfigurationError
 
-# create directory
+# Create directory
 def make_output_dir(output_dir, task, pipeline_task):
 
     assert task in ["ner", "triplet", "relation", "certainty"]
@@ -65,13 +65,7 @@ def make_output_dir(output_dir, task, pipeline_task):
         else:
             model_output_dir = os.path.join(output_dir, str(existing_folders[0]))
             assert os.path.exists(model_output_dir)
-            # # Create directories based on the order of task
-            # if pipeline_task.startswith("triplet"):
-            #     triplet_output_dir = os.path.join(model_output_dir, "triplet")
-            # elif pipeline_task.startswith("entity"):
-            #     entity_output_dir = os.path.join(model_output_dir, "entity")
-            #     if "triplet" in pipeline_task:
-            #         triplet_output_dir = os.path.join(model_output_dir, "triplet")
+
         relation_output_dir = os.path.join(model_output_dir, "relation")
         print(f"## {relation_output_dir} is created for {task.upper()} task ##")
         return relation_output_dir
@@ -85,69 +79,11 @@ def make_output_dir(output_dir, task, pipeline_task):
         else:
             model_output_dir = os.path.join(output_dir, str(existing_folders[0]))
             assert os.path.exists(model_output_dir)
-            # # Create directories based on the order of task
-            # if pipeline_task.startswith("triplet"):
-            #     triplet_output_dir = os.path.join(model_output_dir, "triplet")
-            # elif pipeline_task.startswith("entity"):
-            #     entity_output_dir = os.path.join(model_output_dir, "entity")
-            #     if "triplet" in pipeline_task:
-            #         triplet_output_dir = os.path.join(model_output_dir, "triplet")
+
         certainty_output_dir = os.path.join(model_output_dir, "certainty")
         print(f"## {certainty_output_dir} is created for {task.upper()} task ##")
         return certainty_output_dir
 
-    #     # In case of trigger or relation task, use the existing prediction result
-    #     assert existing_folders, print("!!! You SHOULD have at least one entity outputs to run TRIPLET or RELATION !!!")
-
-    #     for folder_num in existing_folders:
-    #         pipeline_folder = {"curr": "", "entity": "", "triplet": ""}
-    #         curr_folder = os.path.join(output_dir, f"EXP_{folder_num}")
-    #         for d in os.listdir(curr_folder):
-    #             if d == "entity" and not pipeline_folder["entity"]:
-    #                 pipeline_folder["entity"] = d
-    #             elif d == "triplet" and not pipeline_folder["triplet"]:
-    #                 pipeline_folder["triplet"] = d
-    #             if pipeline_folder["entity"] and pipeline_folder["triplet"]:
-    #                 break
-        
-    #     if mode == "triplet":
-    #         print(f"Entity predictions in the {pipeline_folder['entity']}")
-    #         # entity_output_dir = os.path.join(curr_folder, "entity")
-    #         if len(existing_tasks) == 1 and not model_output_dir:
-    #             model_output_dir = curr_folder
-    #             triplet_output_dir = os.path.join(model_output_dir, "triplet")
-    #         else:
-    #             if model_output_dir:
-    #                 continue
-    #             # Make a new version
-    #             model_output_dir = os.path.join(output_dir, f"EXP_{num_version}")
-    #             triplet_output_dir = os.path.join(model_output_dir, "triplet")
-    #             if not os.path.exists(model_output_dir):
-    #                 os.mkdir(model_output_dir)        
-    #             print(f"## {model_output_dir} is created for {mode.upper()} task ##")
-    #         if entity_output_dir and triplet_output_dir:
-    #             return triplet_output_dir, entity_output_dir
-                
-    #         elif mode == "relation":
-    #             if "relation" in existing_tasks:
-
-    # latest_model_output_dir = os.path.join(output_dir, f"EXP_{str(max(existing_folders))}")
-    # if mode == "triplet":
-    #     if 'entity' in os.listdir(latest_model_output_dir):
-
-    #         print(f'## This {mode.upper()} task would be stored in {latest_model_output_dir}')
-    #         return latest_model_output_dir
-    # if mode == "relation":
-    #     if 'entity' in os.listdir(latest_model_output_dir) and 'triplet' in os.listdir(latest_model_output_dir):
-    #         print(f'## This {mode.upper()} task would be stored in {latest_model_output_dir}')
-    #         return latest_model_output_dir            
-
-    # # Need to make a new folder to start a new version of task
-    # model_output_dir = os.path.join(output_dir, f"EXP_{num_version}") 
-    # if not os.path.exists(model_output_dir):
-    #     os.mkdir(model_output_dir)        
-    # print(f"## {model_output_dir} is created for Experiment outputs ##")
-    # return model_output_dir
 
 def generate_analysis_csv(pred_data, output_csv):
     csv_results = [] 
@@ -169,6 +105,7 @@ def generate_analysis_csv(pred_data, output_csv):
     
     pd.DataFrame(csv_results).to_csv(output_csv)
 
+
 def set_seed(seed):
     random.seed(seed)
     # np.random.seed(seed)
@@ -182,21 +119,29 @@ def set_seed(seed):
     # Set deterministic algorithms in PyTorch
     torch.use_deterministic_algorithms(True)
 
+
 def save_model(model, step, task, args):
     """
     Save the model to the output directory
     """
     if task == "ner":
         model_to_save = model.bert_model.module if hasattr(model.bert_model, 'module') else model.bert_model
-        # model_to_save.save_pretrained(os.path.join(args.output_dir, new_dir))
-        # model.tokenizer.save_pretrained(os.path.join(args.output_dir, new_dir))
         model_to_save.save_pretrained(args.entity_output_dir)
         model.tokenizer.save_pretrained(args.entity_output_dir)
-    # elif task == "re":
-    #     model_to_save = model.module if hasattr(model, 'module') else model
-    #     torch.save(model_to_save.state_dict(), os.path.join(args.output_dir, new_dir))
-    #     model_to_save.config.to_json_file(os.path.join(args.output_dir, new_dir))
-    #     args.tokenizer.save_vocabulary(os.path.join(args.output_dir, new_dir))
+
+
+def decode_sample_id(sample_id, use_trigger=True):
+    doc_sent = sample_id.split('::')[0]
+    pair = sample_id.split('::')[1]
+    pair = pair.split('-')
+    sub = (int(pair[0][1:-1].split(',')[0]), int(pair[0][1:-1].split(',')[1]))
+    obj = (int(pair[1][1:-1].split(',')[0]), int(pair[1][1:-1].split(',')[1]))
+    if use_trigger:
+        trg = (int(pair[2][1:-1].split(',')[0]), int(pair[2][1:-1].split(',')[1]))
+        return doc_sent, sub, obj, trg        
+    else:
+        return doc_sent, sub, obj
+    
 
 def get_range_vector(size: int, device: int) -> torch.Tensor:
     """
@@ -207,6 +152,7 @@ def get_range_vector(size: int, device: int) -> torch.Tensor:
         return torch.cuda.LongTensor(size, device=device).fill_(1).cumsum(0) - 1
     else:
         return torch.arange(0, size, dtype=torch.long)
+
 
 def flatten_and_batch_shift_indices(indices: torch.Tensor, sequence_length: int) -> torch.Tensor:
     """

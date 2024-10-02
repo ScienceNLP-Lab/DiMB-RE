@@ -2,6 +2,8 @@
 
 This repository contains (PyTorch) code, dataset, and fine-tuned models for DiMB-RE (**Di**et-**M**icro**B**iome dataset for **R**elation **E**xtraction).
 
+**Note**: (On Oct 1st, 2024) Some functions in the repository are still under construction and will be updated soon. Stay tuned for further improvements and updates.
+
 ## Quick links
 - [DiMB-RE: Mining the Scientific Literature for Diet-Microbiome Associations](#dimb-re-mining-the-scientific-literature-for-diet-microbiome-associations)
   - [Quick links](#quick-links)
@@ -11,31 +13,32 @@ This repository contains (PyTorch) code, dataset, and fine-tuned models for DiMB
   - [2. Reproduce the Training and Inference for Pipeline RE system](#2-reproduce-the-training-and-inference-for-pipeline-re-system)
   - [3. Data Preprocessing](#3-data-preprocessing)
   - [4. Details for Pipeline Model](#4-details-for-pipeline-model)
-  <!-- - [4. Details for Entity and Trigger Extraction Model](#4-details-for-entity-and-trigger-extraction-model)
-  - [5. Details for RE Model (Under construction)](#5-details-for-re-model)
-  - [6. Details for Factuality Detection Model (Under construction)](#6-details-for-factuality-detection-model) -->
   - [5. Fine-tuned Models](#5-fine-tuned-models)
 
 ## Overview
 ![](./figs/annotation-example-new-wb.png)
-In this work, we annotate new benchmark corpus for entity and relation extraction, as well as factuality detection with diet-microbiome related entities. Our contributions are as follow:
+DiMB-RE is a corpus of 165 nutrition and microbiome-related publications, and we validate its usefulness with state-of-the-art pretrained language models. Specifically, we make the following contributions:
 
-1. We present the first diverse, multi-layered, publicly available corpus that focuses on diet and microbiome interactions in the scientific literature.
-2. We present comprehensive NLP experiments based on state-of-the-art pretrained language models to establish baselines on this corpus.
-3. We present a detailed error analysis of NLP results to identify challenges and improvement areas.
+1. We annotated titles and abstracts of 165 publications with 15 entity types and 13 relation types that hold between them. To our knowledge, DiMB-RE is the largest and most diverse corpus focusing on this domain in terms of the number of entities and relations it contains.
+2. In addition to titles and abstracts, we annotated Results sections of 30 articles (out of 165) to assess the impact of the information from full text.
+3. To ground and contextualize relations, we annotated relation triggers and certainty information, which were previously included only in the biological event extraction corpora.
+4. We normalized entity mentions to standard database identifiers (e.g., MeSH, CheBI, FoodOn) to allow aggregation for further study.
+5. We trained and evaluated NER and RE models based on the state-of-the-art pretrained language models to establish robust baselines for this corpus. 
 
-<!-- Please find more details of this work in our [paper](https://arxiv.org/pdf/2010.12812.pdf). -->
+Further details regarding this study are available in our [paper](https://arxiv.org/pdf/2409.19581.pdf).
 
 ## 1. Setup
 
 ### Install dependencies
-Please install all the dependency packages using the following command lines:
-```bash
+Please install all the dependency packages using the following command lines to replicate training process, or just use the fine-tuned model:
+
+<!-- ```bash
 conda create -n DiMB-RE python=3.8
 conda activate DiMB-RE
 conda install --file requirements.txt
 ```
-or
+or -->
+
 ```bash
 conda create -n DiMB-RE python=3.8
 conda activate DiMB-RE
@@ -46,30 +49,42 @@ pip install -r requirements.txt
 *Note*: We employed and modified the existing codes from [PURE](https://github.com/princeton-nlp/PURE) as a baseline, while employing the preprocessing scripts from [DeepEventMine](https://github.com/aistairc/DeepEventMine/tree/master/scripts).
 
 
-## 2. Reproduce the Training and Inference for Pipeline RE system
-<!-- ## Quick Start -->
+## 2. Replicate the Training process for End-to-end RE system
 
-<!-- For simple reproducibility check, you can run this [Colab Notebook](https://colab.research.google.com/drive/1abCEYlFOCmu7yO7TQQeHOwVPCDX8H4Rs?usp=sharing) which is to train end-to-end system from NER-RE-Factuality Detection. -->
-
-The final end-to-end result would approximate to the following scores, which are the best performance of PURE-based RE models from our paper.
-
-```plaintext
-NER - P: 0.773, R: 0.745, F1: 0.760
-NER Relaxed - P: 0.848, R: 0.795, F1: 0.820
-TRG - P: 0.708, R: 0.628, F1: 0.666
-TRG Relaxed - P: 0.757, R: 0.671, F1: 0.711
-REL Relaxed - P: 0.460, R: 0.377, F1: 0.414
-REL Strict - P: 0.417, R: 0.341, F1: 0.375
-REL Relaxed+Factuality - P: 0.446, R: 0.365, F1: 0.401
-REL Strict+Factuality - P: 0.402, R: 0.329, F1: 0.362
-
-```
-
-If you want to run check reproducibility in your own environment, first you need to follow the instructions in [1. Setup](#1-setup). And then, all you need to do is to run the bash command below. In the shell script, you can check all the arguments for training and making inference for each different model.
+### Training pipeline
+To train our end-to-end pipeline (NER-RE-FD), you can simply run the shell script like below:
 
 ```bash
-bash check_reproducibility_train.sh
+bash train.sh
+```
 
+We currently use optimal hyperparameter set specific to our dataset, DiMB-RE. If you plan to train on a different dataset, please adjust the hyperparameters accordingly. You may also modify the scripts if you’re training only part of the pipeline. Also, before running the model we strongly recommend to assign your own specific directories to save models and prediction files in the shell script.
+
+The final end-to-end results for DiMB-RE test set would approximate to the following scores, which are reported as our main result in the paper. Confidence intervals for each P/R/F1 in our original paper are not included for brevity.
+
+```plaintext
+NER Strict - P: 0.777, R: 0.745, F1: 0.760
+NER Relaxed - P: 0.852, R: 0.788, F1: 0.819
+TRG Strict - P: 0.691, R: 0.631, F1: 0.660
+TRG Relaxed - P: 0.742, R: 0.678, F1: 0.708
+REL Strict - P: 0.416, R: 0.336, F1: 0.371
+REL Relaxed - P: 0.448, R: 0.370, F1: 0.409
+REL Strict+Factuality - P: 0.399, R: 0.322, F1: 0.356
+REL Relaxed+Factuality - P: 0.440, R: 0.355, F1: 0.393
+```
+
+### Using fine-tuned models (for reproducibility)
+If you want to check whether our result for test set is reproducible for our main model, just run the command line below and check the final result:
+
+```bash
+bash check_reproducibility.sh
+```
+
+### End-to-end prediction with unlabeled dataset
+If you want to predict relation with our main model, please run the command line below:
+
+```bash
+bash predict.sh
 ```
 
 ## 3. Data Preprocessing
@@ -254,30 +269,21 @@ python run_relation_approx.py \
 *Note*: the current code does not support approximation models based on ALBERT. -->
 
 ## 5. Fine-tuned Models
-We released our best fine-tuned relation model, and factuality detection model for our DiMB-RE dataset in HuggingFace: `gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE` for relation extraction model with typed triggers and `gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_FD` for factuality detection model with triggers.
-
-<!-- ## Citation
-
-**Authors:** Gibong Hong, Veronica Hindle, Nadine M. Veasley, Hannah D. Holscher, and Halil Kilicoglu
-
-**Year:** 2024
-
-**Title:** DiMB-RE: Mining the Scientific Literature for Diet-Microbiome Associations
-
-**Journal (Under Review):** Bioinformatics
-
-**Status:** Manuscript under review -->
+We released our best fine-tuned [NER model](`gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_NER`), [Relation Extraction model](`gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_RE`), and [Factuality Detection model](`gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_FD`) trained for our DiMB-RE dataset in HuggingFace.
 
 <!-- ## Bugs or Questions?
 If you have any questions related to the code or the paper, feel free to email Zexuan Zhong `(zzhong@cs.princeton.edu)`. If you encounter any problems when using the code, or want to report a bug, you can open an issue. Please try to specify the problem with details so we can help you better and quicker! -->
 
-<!-- ## Citation
-If you use our code in your research, please cite our work:
+## Citation
+If you utilize our code in your research, please reference our work:
 ```bibtex
-@inproceedings{zhong2021frustratingly,
-   title={A Frustratingly Easy Approach for Entity and Relation Extraction},
-   author={Zhong, Zexuan and Chen, Danqi},
-   booktitle={North American Association for Computational Linguistics (NAACL)},
-   year={2021}
-} -->
+@misc{hong2024dimbreminingscientificliterature,
+      title={DiMB-RE: Mining the Scientific Literature for Diet-Microbiome Associations}, 
+      author={Gibong Hong and Veronica Hindle and Nadine M. Veasley and Hannah D. Holscher and Halil Kilicoglu},
+      year={2024},
+      eprint={2409.19581},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2409.19581}, 
+}
 ```

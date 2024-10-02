@@ -5,12 +5,12 @@ import random
 import logging
 import tqdm
 
-from shared.data_structures_copied import Dataset
+from shared.data_structures import Dataset
 from shared.const import task_ner_labels, get_labelmap
 from shared.utils import set_seed, save_model, make_output_dir
 
 from entity.utils import convert_dataset_to_samples, batchify, NpEncoder
-from entity.models_copied import EntityModel
+from entity.models import EntityModel
 
 import torch
 from transformers import AdamW, get_linear_schedule_with_warmup

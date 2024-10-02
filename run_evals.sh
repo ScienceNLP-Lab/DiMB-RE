@@ -12,12 +12,14 @@ dataset_name="pn_reduced_trg"
 # # If Untyped Trigger
 # dataset_name="pn_reduced_trg_dummy" 
 
-indices=(14)
+# indices=(8 9)
+indices=(4)
 # for i in {183..183}; do
 for i in "${indices[@]}"; do
     echo EXP${i}
-    output_dir=../ocean_cis230030p/ghong1/PN/output/${dataset}/EXP_${i}
-    task=dev
+    # output_dir=../ocean_cis230030p/ghong1/PN/output/${dataset}/EXP_${i}
+    output_dir=../ocean_cis230030p/ghong1/PN/output/${dataset}_SEED4/EXP_${i}
+    task=test
     pred_file=certainty/certainty_pred_$task.json
     # pred_file=relation/rel_pred_$task.json
     # pred_file=triplet/trg_pred_$task.json

@@ -1,3 +1,6 @@
+# Files for experiments
+run_models.sh
+
 # Mac-related
 .DS_Store
 

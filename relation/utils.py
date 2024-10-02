@@ -1,7 +1,7 @@
 from collections import Counter
 import logging
 
-from shared.data_structures_copied import Dataset
+from shared.data_structures import Dataset
 
 logger = logging.getLogger('root')
 

@@ -18,7 +18,7 @@ from torch.utils.data import DataLoader, TensorDataset
 from torch.nn import CrossEntropyLoss
 
 from transformers.file_utils import PYTORCH_PRETRAINED_BERT_CACHE, WEIGHTS_NAME, CONFIG_NAME
-from relation.models_copied import BertForRelation
+from relation.models import BertForRelation
 from transformers import AutoTokenizer
 from transformers import AdamW, get_linear_schedule_with_warmup
 

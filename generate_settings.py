@@ -2,8 +2,6 @@ import argparse
 import sys
 import os
 
-# def generate_configs():
-#     pass
 
 # create directory
 def make_output_dir(output_dir):

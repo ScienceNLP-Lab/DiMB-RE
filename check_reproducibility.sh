@@ -1,24 +1,67 @@
 #!/bin/bash
 
-task=pn_reduced_trg
-data_dir=./data/pernut/
+ROOT=$PWD
+
+# Assign your venv directory after setting up your virtual environment
+venv_path=""
+
+source $venv_path
+echo "Activated virtual environment for DiMB-RE"
+
+# Set the data directory and the version of dataset
+data_dir=./data/DiMB-RE/
 dataset=ner_reduced_v6.1_trg_abs_result
-pipeline_task=triplet
-MODEL=microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
 
+# Assign dirs for pipeline outputs
 output_dir=./output
-entity_output_test_dir="${output_dir}/pred_ent_trg_result"
-triplet_output_dir="${entity_output_test_dir}/triplet"
+entity_output_dir="${output_dir}/entity"
+entity_output_test_dir="${output_dir}/entity"
+triplet_output_dir="${output_dir}/triplet"
+triplet_output_test_dir="${output_dir}/triplet"
+certainty_output_dir="${output_dir}/certainty"
 
-# Step 1. Reproducibility check for RE
+# Step 1. Reproducibility check for NER
+task=pn_reduced_trg
+pipeline_task=entity
+
+ner_cw=300
+max_seq_length=512
+max_span_len_ent=8
+max_span_len_trg=4
+ner_bs=128
+MODEL=gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_NER
+
+python run_entity_trigger.py \
+  --task $task --pipeline_task $pipeline_task \
+  --do_predict_test \
+  --output_dir $output_dir \
+  --entity_output_dir $entity_output_dir \
+  --data_dir "${data_dir}${dataset}" \
+  --context_window $ner_cw --max_seq_length $max_seq_length \
+  --eval_batch_size $ner_bs \
+  --model $MODEL \
+  --max_span_length_entity $max_span_len_ent --max_span_length_trigger $max_span_len_trg \
+  --extract_trigger --dual_classifier \
+  --seed $SEED \
+
+# Evaluation
+dataset_name=pn_reduced_trg
+task=test
+pred_file=ent_pred_${task}.json
+
+python run_eval.py \
+  --prediction_file "${entity_output_dir}/${pred_file}" \
+  --output_dir ${entity_output_dir} \
+  --task $task \
+  --dataset_name $dataset_name
+
+
+# Step 2. Reproducibility check for RE
 # Optimal hyperparams for RE w/ Typed Trigger
-re_lr=2e-5
 re_cw=100
 re_max_len=300
-re_patience=4
-sampling_p=0.0
-n_epochs=12
 batch_size=32
+MODEL=gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_RE
 
 python run_triplet_classification.py \
   --task $task --pipeline_task $pipeline_task \
@@ -30,10 +73,8 @@ python run_triplet_classification.py \
   --dev_file "${data_dir}${dataset}"/dev.json \
   --test_file "${data_dir}${dataset}"/test.json \
   --context_window $re_cw --max_seq_length $re_max_len \
-  --train_batch_size 32 --eval_batch_size 32 --learning_rate $re_lr \
-  --num_epoch $n_epochs  --max_patience $re_patience --sampling_proportion $sampling_p \
+  --eval_batch_size $batch_size \
   --model $MODEL \
-  --finetuned_model gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE \
   --binary_classification
   
 # RE evaluation
@@ -48,21 +89,14 @@ python run_eval.py \
   --dataset_name $dataset_name
 
 
-# Step 2. Reproducibility check for FD (end-to-end)
-
+# Step 3. Reproducibility check for FD (end-to-end)
 task=pn_reduced_trg
 pipeline_task=certainty
 
-relation_output_test_dir="${output_dir}/pred_ent_trg_result/triplet"
-certainty_output_dir="${output_dir}/pred_ent_trg_result/certainty"
-
-fd_lr=3e-5
 fd_cw=0
 fd_max_len=200
-fd_patience=4
-sampling_p=0.0
-n_epochs=7
 batch_size=32
+MODEL=gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_FD
 
 python run_certainty_detection.py \
   --task $task --pipeline_task $pipeline_task \
@@ -74,10 +108,8 @@ python run_certainty_detection.py \
   --dev_file "${data_dir}${dataset}"/dev.json \
   --test_file "${data_dir}${dataset}"/test.json \
   --context_window $fd_cw --max_seq_length $fd_max_len \
-  --train_batch_size 32 --eval_batch_size 32 --learning_rate $fd_lr \
-  --num_epoch $n_epochs  --max_patience $fd_patience --sampling_proportion $sampling_p \
+  --eval_batch_size $batch_size \
   --model $MODEL \
-  --finetuned_model gbhong/BiomedBERT-fulltext_finetuned_DiMB-RE_FD \
   --use_trigger
   
 # End-to-end evaluation

@@ -2,11 +2,11 @@
 
 ROOT=$PWD
 
-# Designate your own path for virtual environment
+# Assign your venv directory after setting up your virtual environment
 venv_path=""
 
 source $venv_path
-echo "Activated DiMB-RE environment"
+echo "Activated virtual environment for DiMB-RE"
 
 # Set the data directory and the version of dataset
 data_dir=./data/DiMB-RE/
@@ -15,7 +15,9 @@ dataset=ner_reduced_v6.1_trg_abs_result
 # Set LLM for huggingface archive
 MODEL=microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
 
-# Pipeline directory
+# Assign dirs for pipeline outputs
+# We'd recommend you to set directories on large storage
+# if you want to run training multiple times
 output_dir=./output
 entity_output_dir="${output_dir}/entity"
 entity_output_test_dir="${output_dir}/entity"
@@ -24,7 +26,7 @@ triplet_output_test_dir="${output_dir}/triplet"
 certainty_output_dir="${output_dir}/certainty"
 
 # Set different seed number at here
-SEED=2025
+SEED=2024
 
 # Step 1. Train and Inference for Entity & Trigger Extraction model
 task=pn_reduced_trg
