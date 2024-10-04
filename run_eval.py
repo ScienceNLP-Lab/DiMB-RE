@@ -1,6 +1,6 @@
 import argparse
 import os
-from shared.data_structures_copied import Dataset, evaluate_predictions
+from shared.data_structures import Dataset, evaluate_predictions
 from shared.utils import generate_analysis_csv
 
 if __name__ == "__main__":
