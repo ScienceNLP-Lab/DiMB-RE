@@ -18,6 +18,8 @@ class OpenAIAPI:
             self.settings['model'] = 'gpt-4-0125-preview'
         elif args.gpt_model == 'chatgpt':
             self.settings['model'] = 'gpt-3.5-turbo-0125'
+        elif args.gpt_model == 'gpt4o-mini':
+            self.settings['model'] = 'gpt-4o-mini'            
 
     def chatgpt_response(self, message):
         try:

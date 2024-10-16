@@ -2,7 +2,7 @@ import logging
 import re
 import random
 from collections import defaultdict
-from shared.data_structures_copied import Dataset
+from shared.data_structures import Dataset
 
 logger = logging.getLogger('root')
 
@@ -104,6 +104,61 @@ def generate_data(entity_data, sent_level=True):
     logger.info('Proportion of NULL examples: %.4f'%(num_null/tot))
 
     return data, samples
+
+
+def generate_subset(prompts, samples, method, subset_ratio, null_ratio):
+    total_len = len(samples)
+    null_list = []
+    valid_list = []
+    for idx, (prompt, sample) in enumerate(zip(prompts, samples)):
+        if sample['relation'] == 'no_relation':
+            null_list.append((idx, prompt, sample))
+        else:
+            valid_list.append((idx, prompt, sample))
+
+    if method == 'random':
+        random.shuffle(null_list)
+        random.shuffle(valid_list)
+
+    null_subset = null_list[:int(total_len*subset_ratio*null_ratio)]
+    valid_subset = valid_list[:int(total_len*subset_ratio*(1-null_ratio))]
+
+    logger.info(f'# Null subset: {len(null_subset)}')
+    logger.info(f'# Valid subset: {len(valid_subset)}')
+
+    prompt_subset = []
+    sample_subset = []
+    subset_indices = []
+    for subset in null_subset:
+        subset_indices.append(subset[0])
+        prompt_subset.append(subset[1])
+        sample_subset.append(subset[2])
+    for subset in valid_subset:
+        subset_indices.append(subset[0])
+        prompt_subset.append(subset[1])
+        sample_subset.append(subset[2])
+
+    logger.info(subset_indices[:10])   
+
+    # # Just for check
+    # i = 0
+    # for sample, prompt, idx in zip(sample_subset, prompt_subset, subset_indices):
+    #     if i >= 5:
+    #         break
+    #     logger.info(f"Sample-idx >>> {idx}")
+    #     logger.info(f"Sample >>> {sample}")
+    #     logger.info(f"Prompt >>> {prompt}")
+    #     i += 1
+    # # Check in reverse
+    # for sample, prompt, idx in zip(sample_subset[::-1], prompt_subset, subset_indices):
+    #     if i >= 10:
+    #         break
+    #     logger.info(f"Sample-idx >>> {idx}")
+    #     logger.info(f"Sample >>> {sample}")
+    #     logger.info(f"Prompt >>> {prompt}")
+    #     i += 1 
+
+    return prompt_subset, sample_subset, subset_indices
 
 
 def generate_prompt(demo_samples, query_samples, structure, verbalizer, prompt_dir, nli, few_shot, ranks):
@@ -232,7 +287,7 @@ def build_demos(sample, prompt, structure, verbalizer, nli, is_test_input):
 
         prompt += '\n\n'
         desc1 = "Please make sure that you should respond to Question 2 and 3 if you answer '1. There is a relation between the entity pair' for Question 1. If you answer A1: 2. No relation, then you should not answer Question 2 and 3."
-        desc2 = "When answering the questions, you should follow this format: 'A1: 1. Relation exists | A2: 1. RELATION-TYPE | A3: 2. FACTUALITY-LEVEL', or 'A1: 2. No relation'. Please use the bar sign to separate answers for each question." 
+        desc2 = "When answering the questions, you should follow this format: 'A1: 1. Relation exists | A2: 1. RELATION-TYPE | A3: 2. Factuality-level', or 'A1: 2. No relation'. Please use the bar sign to separate answers for each question." 
         desc3 = "Note that when there are no choice options in Question 2, you should only reply 2. No relation for Question 1."
         prompt += '\n'.join([desc1, desc2, desc3])
 

@@ -1,5 +1,6 @@
 # Files for experiments
 run_models.sh
+run_gpt-re.sh
 
 # Mac-related
 .DS_Store
