@@ -1,0 +1,45 @@
+T1	Disease 12 21	dysbiosis
+T3	Disease 93 115	primary hyperlipidemia
+T4	Food 150 158	hazelnut
+T5	Disease 168 182	Hyperlipidemia
+T6	Disease 258 280	cardiovascular disease
+T7	Chemical 367 372	lipid
+T9	Disease 456 478	primary hyperlipidemia
+T13	Metabolite 551 573	short chain fatty acid
+T14	Metabolite 575 579	SCFA
+T15	Food 751 759	hazelnut
+T16	Food 792 811	hazelnuts with skin
+T17	Measurement 822 833	body weight
+T19	Disease 882 896	hyperlipidemia
+T20	Metabolite 1003 1007	SCFA
+T22	Metabolite 1065 1072	acetate
+T23	Metabolite 1074 1082	butyrate
+T24	Metabolite 1087 1097	propionate
+T25	Disease 1101 1115	hyperlipidemic
+T27	Food 1170 1178	hazelnut
+T28	Metabolite 1325 1330	SCFAs
+T29	AFFECTS 1259 1281	significantly modulate
+T31	Microorganism 1520 1535	Lachnospiraceae
+T32	Measurement 1405 1425	lipidemic parameters
+T33	ASSOCIATED_WITH 1430 1436	linked
+T34	Microorganism 1540 1555	Ruminococcaceae
+T35	Microorganism 1571 1582	Akkermansia
+T36	Microorganism 1584 1595	Bacteroides
+T37	Microorganism 1597 1606	Roseburia
+T38	Microorganism 1612 1628	Faecalibacterium
+T40	Disease 1685 1707	primary hyperlipidemia
+T41	Disease 1861 1875	hyperlipidemic
+E1	AFFECTS:T29 Agent:T27 Theme:T28
+E2	ASSOCIATED_WITH:T33 Theme:T32 Theme2:T31
+E3	ASSOCIATED_WITH:T33 Theme:T38 Theme2:T32
+E4	ASSOCIATED_WITH:T33 Theme:T37 Theme2:T32
+E5	ASSOCIATED_WITH:T33 Theme:T36 Theme2:T32
+E6	ASSOCIATED_WITH:T33 Theme:T35 Theme2:T32
+E7	ASSOCIATED_WITH:T33 Theme:T34 Theme2:T32
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7

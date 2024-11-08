@@ -1,0 +1,410 @@
+T1	DietPattern 173 200	plant-based dietary pattern
+T2	Physiology 86 108	cardiometabolic health
+T3	Methodology 112 136	prospective cohort study
+T4	DietPattern 29 38;54 81	long-term plant-based dietary pattern
+T5	DietPattern 43 81	short-term plant-based dietary pattern
+T6	ASSOCIATED_WITH 153 162	interplay
+T7	Physiology 222 244	cardiometabolic health
+T8	Physiology 1847 1878	microbial taxonomic composition
+T9	DietPattern 355 364;380 408	long-term plant-based dietary patterns
+T10	DietPattern 369 408	short-term plant-based dietary patterns
+T11	Measurement 513 539	cardiometabolic biomarkers
+T12	ASSOCIATED_WITH 1831 1841	associated
+T13	Disease 19893 19908	Type 2 diabetes
+T14	Measurement 20059 20064	HbA1c
+T15	Measurement 23402 23405	PDI
+T16	Food 26543 26552	beverages
+T17	Methodology 896 932	repeat food frequency questionnaires
+T18	DietPattern 1002 1028	Short-term dietary pattern
+T19	Methodology 1049 1075	3-day 24-h dietary recalls
+T20	ASSOCIATED_WITH 26829 26869	no statistically significant association
+T21	DietPattern 975 1000	long-term dietary pattern
+T22	Biospecimen 1095 1100	Fecal
+T23	Methodology 1151 1170	16S rRNA sequencing
+T24	DietPattern 1207 1216;1232 1260	long-term plant-based dietary patterns
+T25	DietPattern 1221 1260	short-term plant-based dietary patterns
+T26	Methodology 1333 1352	linear mixed models
+T27	Methodology 1513 1530	linear regression
+T28	Measurement 1461 1487	cardiometabolic biomarkers
+T29	DiversityMetric 1609 1624	alpha-diversity
+T30	ASSOCIATED_WITH 1563 1574	association
+T31	POS_ASSOCIATED_WITH 26719 26729	associated
+T32	Measurement 28010 28024	long-term PDIs
+T33	Population 656 710	participants from 15 provinces/megacities across China
+T34	Methodology 557 598	population-based prospective cohort study
+T35	DietPattern 1631 1640;1656 1672	long-term plant-based diet
+T36	DietPattern 1645 1672	short-term plant-based diet
+T37	POS_ASSOCIATED_WITH 31586 31596	associated
+T38	ASSOCIATED_WITH 1936 1947	association
+T39	Microorganism 2061 2079	Peptostreptococcus
+T40	NEG_ASSOCIATED_WITH 2013 2057	associated with the lower relative abundance
+T41	POS_ASSOCIATED_WITH 2104 2125	positively correlated
+T42	POS_ASSOCIATED_WITH 31977 31989	associations
+T44	NEG_ASSOCIATED_WITH 2175 2195	inversely associated
+T45	DietPattern 2308 2317;2333 2361	long-term plant-based dietary patterns
+T46	DietPattern 2322 2361	short-term plant-based dietary patterns
+T47	DietPattern 2444 2481	long-term plant-based dietary pattern
+T48	Physiology 2486 2508	cardiometabolic health
+T49	IMPROVES 2425 2440	protective role
+T53	Measurement 1960 1986	cardiometabolic biomarkers
+T56	Chemical 2135 2170	high-sensitivity C-reactive protein
+T57	Chemical 2201 2237	high-density lipoprotein cholesterol
+T58	Measurement 734 756	plant-based diet index
+T59	Measurement 758 761	PDI
+T60	Measurement 766 798	healthful plant-based diet index
+T61	Measurement 800 804	hPDI
+T62	Measurement 814 848	unhealthful plant-based diet index
+T63	Measurement 850 854	uPDI
+T64	Measurement 869 873	PDIs
+T65	Measurement 1578 1593	short-term hPDI
+T67	Measurement 1809 1813	PDIs
+T68	Measurement 1995 2008	long-term PDI
+T69	DiversityMetric 1266 1289	gut microbial diversity
+T70	Food 20600 20603	tea
+T71	Food 20684 20690	coffee
+T72	Food 20901 20913	Whole grains
+T73	Food 20990 20996	Fruits
+T74	Food 21073 21083	Vegetables
+T75	Food 21160 21164	Nuts
+T76	Food 21244 21251	Legumes
+T77	Food 21328 21336	Potatoes
+T78	Food 21413 21427	Vegetable oils
+T79	Food 21504 21518	Refined grains
+T80	Food 21595 21604	Beverages
+T81	Food 21609 21621	fruit juices
+T82	Food 21698 21717	Sweets and desserts
+T83	Food 21794 21799	Dairy
+T84	Food 21876 21880	Eggs
+T85	Food 21957 21972	Fish or seafood
+T86	Food 22049 22053	Meat
+T87	Food 22130 22141	Animal oils
+T88	Measurement 22234 22237	BMI
+T89	Measurement 22238 22253	Body mass index
+T90	Chemical 22255 22258	CRP
+T91	Chemical 22259 22294	High-sensitivity C-reactive protein
+T92	Chemical 22296 22301	HDL-C
+T93	Chemical 22302 22338	High-density lipoprotein cholesterol
+T94	Measurement 22340 22344	hPDI
+T95	Measurement 22345 22375	Healthy plant-based diet index
+T96	Chemical 22377 22382	LDL-C
+T97	Chemical 22383 22418	Low-density lipoprotein cholesterol
+T98	Measurement 22420 22423	PDI
+T99	Measurement 22424 22446	Plant-based diet index
+T100	Chemical 22460 22462	TC
+T101	Chemical 22463 22480	Total cholesterol
+T102	Chemical 22482 22484	TG
+T103	Chemical 22485 22504	Total triglycerides
+T104	Measurement 22529 22533	uPDI
+T105	Measurement 22534 22566	unhealthy plant-based diet index
+T106	Measurement 22661 22686	Plant-based dietary index
+T107	Methodology 22760 22764	FFQs
+T108	Methodology 22770 22796	3-day 24-h dietary recalls
+T109	Physiology 22708 22720	total energy
+T110	Physiology 22688 22703	dietary intakes
+T111	Physiology 22851 22865	Dietary intake
+T112	Physiology 22903 22922	total energy intake
+T113	Measurement 22950 22968	Urbanization index
+T114	Food 23170 23173	tea
+T115	Food 23178 23184	coffee
+T116	Methodology 23229 23232	FFQ
+T117	Measurement 23501 23517	plant diet index
+T118	Methodology 23582 23614	Spearman correlation coefficient
+T119	Chemical 23671 23692	fasting blood glucose
+T120	Measurement 23694 23699	Hb1Ac
+T121	Chemical 23710 23715	HDL-C
+T122	Chemical 23701 23708	insulin
+T123	Chemical 23717 23722	LDL-C
+T124	Chemical 23724 23726	TC
+T125	Chemical 23728 23730	TG
+T126	Chemical 23736 23739	CRP
+T127	Chemical 23964 23969	LDL-C
+T128	Chemical 23974 23976	TC
+T129	DietPattern 24069 24108	short-term plant-based dietary patterns
+T130	DietPattern 24055 24064;24080 24108	long-term plant-based dietary patterns
+T131	DietPattern 24154 24191	Long-term plant-based dietary pattern
+T132	Methodology 24358 24378	Spearman correlation
+T133	DietPattern 24549 24558;24574 24602	long-term plant-based dietary patterns
+T134	DietPattern 24563 24602	short-term plant-based dietary patterns
+T135	DiversityMetric 24608 24626	bacterial richness
+T136	Methodology 24678 24720	multivariable-adjusted linear mixed models
+T137	Measurement 24802 24805	BMI
+T138	Physiology 24807 24826	total energy intake
+T139	Food 24904 24907	tea
+T140	Food 24912 24918	coffee
+T141	Measurement 24932 24950	urbanization index
+T142	DiversityMetric 25052 25067	alpha-diversity
+T143	Food 25159 25176	plant-based foods
+T144	Food 25181 25199	animal-based foods
+T145	DiversityMetric 25395 25410	alpha-diversity
+T146	DietPattern 25636 25645;25661 25689	long-term plant-based dietary patterns
+T147	DietPattern 25650 25689	short-term plant-based dietary patterns
+T148	Methodology 25711 25746	permutational multivariate analysis
+T149	Methodology 25769 25794	Bray–Curtis dissimilarity
+T150	DiversityMetric 25885 25915	Faith’s phylogenetic diversity
+T151	DiversityMetric 25873 25883	Faith’s PD
+T152	Measurement 25917 25921	hPDI
+T153	Measurement 25923 25955	healthful plant-based diet index
+T154	Measurement 25957 25960	PDI
+T155	Measurement 25962 25984	plant-based diet index
+T156	DiversityMetric 25986 26003	Pielou’s evenness
+T157	DiversityMetric 26005 26041	Pielou’s measure of species evenness
+T158	DiversityMetric 26056 26063	Shannon
+T159	DiversityMetric 26065 26090	Shannon’s diversity index
+T160	Measurement 26092 26096	uPDI
+T161	Measurement 26098 26132	unhealthful plant-based diet index
+T162	Measurement 26348 26351	PDI
+T163	Measurement 26353 26357	hPDI
+T164	Measurement 26363 26367	uPDI
+T165	Food 26415 26426	animal oils
+T166	Food 26439 26443	meat
+T167	Food 26456 26460	eggs
+T168	Food 26477 26492	fish or seafood
+T169	Food 26557 26569	fruit juices
+T170	Food 26582 26586	nuts
+T171	Food 26603 26610	legumes
+T172	DietPattern 26656 26672	Plant-based diet
+T173	Measurement 26148 26162	Long-term PDIs
+T174	Measurement 26699 26714	short-term hPDI
+T175	DiversityMetric 26742 26767	Shannon’s diversity index
+T176	DiversityMetric 26772 26808	Pielou’s measure of species evenness
+T177	Measurement 26891 26905	long-term PDIs
+T178	Measurement 24020 24023	PDI
+T179	Measurement 23950 23953	PDI
+T180	DietPattern 23301 23315	long-term diet
+T181	DietPattern 23320 23335	short-term diet
+T182	Measurement 23270 23273	PDI
+T183	DietPattern 22801 22815	long-term diet
+T184	DietPattern 22820 22835	short-term diet
+T186	DiversityMetric 26920 26935	alpha-diversity
+T187	POS_ASSOCIATED_WITH 26984 27004	positive association
+T188	Food 27029 27043	vegetable oils
+T189	DiversityMetric 27049 27085	Pielou’s measure of species evenness
+T190	DiversityMetric 27090 27115	Shannon’s diversity index
+T191	Food 27221 27233	whole grains
+T192	ASSOCIATED_WITH 27238 27248	associated
+T193	DiversityMetric 27263 27278	alpha-diversity
+T194	Food 27352 27357	dairy
+T195	NEG_ASSOCIATED_WITH 27374 27394	inversely associated
+T196	DiversityMetric 27400 27436	Pielou’s measure of species evenness
+T197	DiversityMetric 27441 27466	Shannon’s diversity index
+T198	Food 27486 27491	dairy
+T199	POS_ASSOCIATED_WITH 27505 27525	positive association
+T200	DiversityMetric 27553 27583	Faith’s phylogenetic diversity
+T201	Disease 27703 27715	hypertension
+T202	Disease 27717 27732	type 2 diabetes
+T203	DietPattern 27888 27904	plant-based diet
+T204	DiversityMetric 27942 27956	beta-diversity
+T205	ASSOCIATED_WITH 27872 27877	links
+T207	ASSOCIATED_WITH 27990 28001	association
+T208	DiversityMetric 28039 28053	beta-diversity
+T209	Measurement 28087 28102	short-term PDIs
+T210	Measurement 28158 28171	long-term PDI
+T211	DiversityMetric 28186 28200	beta-diversity
+T212	ASSOCIATED_WITH 28128 28139	association
+T213	DietPattern 28328 28337;28353 28381	long-term plant-based dietary patterns
+T214	DietPattern 28342 28381	short-term plant-based dietary patterns
+T215	ASSOCIATED_WITH 28385 28396	Association
+T218	Microorganism 28434 28444	Firmicutes
+T219	Methodology 28533 28552	linear mixed models
+T220	Measurement 28649 28652	BMI
+T221	Physiology 28654 28673	total energy intake
+T222	Food 28751 28754	tea
+T223	Food 28759 28765	coffee
+T224	Measurement 28894 28916	plant-based diet index
+T225	Methodology 28985 29025	rank-based inverse normal transformation
+T226	DietPattern 29155 29194	short-term plant-based dietary patterns
+T227	DietPattern 29141 29150;29166 29194	long-term plant-based dietary patterns
+T228	DietPattern 29314 29323;29339 29367	long-term plant-based dietary patterns
+T229	DietPattern 29328 29367	short-term plant-based dietary patterns
+T230	Methodology 29712 29752	rank-based inverse normal transformation
+T231	Methodology 29527 29569	multivariable-adjusted linear mixed models
+T232	Measurement 29970 29974	hPDI
+T233	Measurement 29976 30008	healthful plant-based diet index
+T234	Measurement 30010 30013	PDI
+T235	Measurement 30015 30037	plant-based diet index
+T236	Measurement 30052 30056	uPDI
+T237	Measurement 30058 30092	unhealthful plant-based diet index
+T238	Measurement 30243 30256	long-term PDI
+T239	NEG_ASSOCIATED_WITH 30261 30271	associated
+T240	Microorganism 30305 30315	Firmicutes
+T241	Microorganism 30453 30463	Firmicutes
+T242	Measurement 30498 30512	short-term PDI
+T243	DietPattern 30551 30565	long-term diet
+T244	DietPattern 30570 30585	short-term diet
+T245	Measurement 30879 30893	Short-term PDI
+T246	Measurement 30960 30975	short-term hPDI
+T247	Measurement 30985 31000	short-term uPDI
+T248	Measurement 31010 31023	long-term PDI
+T249	Measurement 31039 31053	long-term uPDI
+T250	Measurement 31189 31203	long-term PDIs
+T251	Measurement 31245 31260	short-term PDIs
+T252	NEG_ASSOCIATED_WITH 31287 31306	inverse association
+T253	Measurement 31315 31329	short-term PDI
+T254	Microorganism 31340 31353	Catenisphaera
+T255	Measurement 31373 31386	long-term PDI
+T256	Microorganism 31397 31415	Peptostreptococcus
+T257	Measurement 31417 31432	Short-term hPDI
+T258	POS_ASSOCIATED_WITH 31437 31458	positively associated
+T259	Microorganism 31464 31471	Blautia
+T260	Microorganism 31473 31489	Polynucleobacter
+T261	Microorganism 31495 31518	Ruminococcaceae UCG-009
+T262	NEG_ASSOCIATED_WITH 31526 31546	inversely associated
+T263	Microorganism 31552 31557	Dorea
+T264	Measurement 31566 31581	short-term uPDI
+T265	NEG_ASSOCIATED_WITH 31586 31596	associated
+T266	Microorganism 31633 31640	ZOR0006
+T267	Microorganism 31676 31692	Polynucleobacter
+T268	Measurement 31694 31708	Long-term uPDI
+T269	POS_ASSOCIATED_WITH 31713 31734	positively associated
+T270	Microorganism 31740 31755	Exiguobacterium
+T271	Microorganism 31760 31765	F0332
+T272	NEG_ASSOCIATED_WITH 31771 31791	inversely associated
+T273	Microorganism 31798 31809	Eubacterium
+T274	Measurement 31918 31932	long-term PDIs
+T276	Measurement 32046 32050	hPDI
+T277	Microorganism 32051 32067	Polynucleobacter
+T278	Measurement 32069 32073	uPDI
+T279	Microorganism 32075 32082	ZOR0006
+T280	Measurement 32087 32091	hPDI
+T281	Microorganism 32093 32100	Blautia
+T282	DietPattern 32326 32350	long-term dietary intake
+T283	NEG_ASSOCIATED_WITH 32367 32386	inverse association
+T284	Food 32405 32408	nut
+T285	Microorganism 32420 32439	Enterococcaceae spp
+T286	Food 32460 32466	legume
+T287	Microorganism 32478 32493	Exiguobacterium
+T288	Food 32513 32523	animal oil
+T289	Microorganism 32541 32552	Eubacterium
+T290	Microorganism 32576 32591	Paraeggerthella
+T291	POS_ASSOCIATED_WITH 32604 32624	positive association
+T292	Food 32643 32657	refined grains
+T293	Microorganism 32669 32685	Terrisporobacter
+T294	Methodology 32729 32736	PICRUST
+T295	Measurement 32777 32786;32799 32803	long-term PDIs
+T296	Measurement 32788 32803	short-term PDIs
+T297	Physiology 32963 32991	cardiometabolic risk factors
+T298	DietPattern 33047 33075	plant-based dietary patterns
+T299	ASSOCIATED_WITH 32992 33003	Association
+T300	Measurement 33081 33107	cardiometabolic biomarkers
+T301	DietPattern 33184 33193;33209 33236	long-term plant-based dietary pattern
+T302	DietPattern 33198 33236	short-term plant-based dietary pattern
+T303	Measurement 33361 33387	cardiometabolic biomarkers
+T304	Measurement 33527 33553	cardiometabolic biomarkers
+T305	Methodology 33452 33475	linear regression model
+T306	Measurement 33606 33632	cardiometabolic biomarkers
+T307	Chemical 33714 33717	CRP
+T308	Chemical 33719 33754	high-sensitivity C-reactive protein
+T309	Chemical 33783 33788	HDL-C
+T310	Chemical 33790 33826	high-density lipoprotein cholesterol
+T311	Measurement 33828 33832	hPDI
+T312	Measurement 33834 33866	healthful plant-based diet index
+T313	Chemical 33868 33873	LDL-C
+T314	Chemical 33875 33910	low-density lipoprotein cholesterol
+T315	Measurement 33912 33915	PDI
+T316	Measurement 33917 33939	plant-based diet index
+T317	Chemical 33954 33956	TC
+T318	Chemical 33958 33975	total cholesterol
+T319	Chemical 33977 33979	TG
+T320	Chemical 33981 34000	total triglycerides
+T321	Measurement 34002 34006	uPDI
+T322	Measurement 34008 34042	unhealthful plant-based diet index
+T323	DiversityMetric 34150 34165	alpha-diversity
+T324	DiversityMetric 34167 34203	Pielou’s measure of species evenness
+T325	NEG_ASSOCIATED_WITH 34210 34220	associated
+T326	Chemical 34232 34234	TG
+T327	DietPattern 34375 34395	long-term plant diet
+T328	Measurement 34446 34477	cardiometabolic risk biomarkers
+T329	ASSOCIATED_WITH 34415 34425	associated
+T330	Chemical 34497 34504	insulin
+T331	Chemical 34506 34511	HDL-C
+T332	Chemical 34513 34518	LDL-C
+T333	Chemical 34520 34522	TG
+T334	Chemical 34528 34531	CRP
+T335	Measurement 34559 34572	long-term PDI
+T336	Microorganism 34625 34643	Peptostreptococcus
+T337	NEG_ASSOCIATED_WITH 34577 34587	associated
+T338	POS_ASSOCIATED_WITH 34668 34689	positively correlated
+T339	Chemical 34720 34723	CRP
+T340	NEG_ASSOCIATED_WITH 34729 34749	inversely associated
+T341	Chemical 34755 34760	HDL-C
+T342	Microorganism 34762 34781	Enterococcaceae spp
+T343	NEG_ASSOCIATED_WITH 34797 34816	inverse association
+T344	Food 34832 34835	nut
+T345	POS_ASSOCIATED_WITH 34857 34878	positively associated
+T346	Chemical 34884 34899	fasting insulin
+T347	Microorganism 34930 34935	F0332
+T348	POS_ASSOCIATED_WITH 34954 34964	associated
+T349	Chemical 34977 34980	CRP
+T352	Measurement 35125 35156	cardiometabolic risk biomarkers
+T5311	Biospecimen 18331 18336	stool
+T5511	Measurement 18371 18393	plant-based diet index
+T5611	Measurement 18396 18409	Long-term PDI
+T5711	Measurement 18421 18435	Short-term PDI
+T5811	Population 18624 18629	women
+T5911	Measurement 18692 18695	BMI
+T6011	Physiology 19328 19347	Total energy intake
+T6111	Disease 19661 19673	hypertension
+T6211	Disease 19821 19836	type 2 diabetes
+T6311	Chemical 19972 19987	Fasting glucose
+T6411	Chemical 20131 20146	Fasting insulin
+T6511	Chemical 20217 20222	HDL-C
+T6611	Chemical 20294 20299	LDL-C
+T6711	Chemical 20371 20373	TC
+T6811	Chemical 20445 20447	TG
+T6911	Chemical 20519 20522	CRP
+E1	ASSOCIATED_WITH:T6 Theme:T1 Theme2:T7
+E2	ASSOCIATED_WITH:T30 Theme2:T29 Theme:T65
+E3	ASSOCIATED_WITH:T38 Theme2:T53 Theme:T35
+E4	NEG_ASSOCIATED_WITH:T40 Theme:T39 Agent:T68
+E5	POS_ASSOCIATED_WITH:T41 Agent:T39 Theme:T56
+E6	NEG_ASSOCIATED_WITH:T44 Agent:T39 Theme:T57
+E7	IMPROVES:T49 Agent:T47 Theme:T48
+E8	ASSOCIATED_WITH:T12 Theme:T8 Theme2:T67
+E9	POS_ASSOCIATED_WITH:T31 Theme:T174 Theme2:T175
+E10	NEG_ASSOCIATED_WITH:T195 Theme:T197 Agent:T194
+E11	POS_ASSOCIATED_WITH:T199 Theme:T200 Agent:T198
+E12	ASSOCIATED_WITH:T205 Theme:T203 Theme2:T204
+E13	POS_ASSOCIATED_WITH:T31 Theme:T176 Theme2:T174
+E14	ASSOCIATED_WITH:T212 Theme:T210 Theme2:T211
+E15	ASSOCIATED_WITH:T20 Theme:T177 Theme2:T186
+E16	ASSOCIATED_WITH:T207 Theme:T32 Theme2:T208
+E17	NEG_ASSOCIATED_WITH:T239 Theme:T238 Theme2:T240
+E18	NEG_ASSOCIATED_WITH:T252 Agent:T253 Theme:T254
+E19	NEG_ASSOCIATED_WITH:T252 Agent:T255 Theme:T256
+E20	POS_ASSOCIATED_WITH:T258 Agent:T257 Theme:T259
+E21	NEG_ASSOCIATED_WITH:T262 Agent:T257 Theme:T263
+E22	POS_ASSOCIATED_WITH:T258 Agent:T257 Theme:T260
+E23	POS_ASSOCIATED_WITH:T258 Agent:T257 Theme:T261
+E24	POS_ASSOCIATED_WITH:T37 Theme:T266 Agent:T264
+E25	NEG_ASSOCIATED_WITH:T265 Theme:T267 Agent:T264
+E26	POS_ASSOCIATED_WITH:T269 Agent:T268 Theme:T270
+E27	NEG_ASSOCIATED_WITH:T272 Agent:T268 Theme:T273
+E28	POS_ASSOCIATED_WITH:T269 Agent:T268 Theme:T271
+E29	NEG_ASSOCIATED_WITH:T283 Theme:T285 Agent:T284
+E30	NEG_ASSOCIATED_WITH:T283 Theme:T287 Agent:T286
+E31	NEG_ASSOCIATED_WITH:T283 Agent:T288 Theme:T289
+E32	NEG_ASSOCIATED_WITH:T283 Agent:T288 Theme:T290
+E33	POS_ASSOCIATED_WITH:T291 Agent:T292 Theme:T293
+E34	ASSOCIATED_WITH:T299 Theme:T298 Theme2:T300
+E35	NEG_ASSOCIATED_WITH:T325 Theme:T324 Theme2:T326
+E36	ASSOCIATED_WITH:T329 Theme:T330 Theme2:T327
+E37	ASSOCIATED_WITH:T329 Theme:T331 Theme2:T327
+E38	ASSOCIATED_WITH:T329 Theme:T332 Theme2:T327
+E39	ASSOCIATED_WITH:T329 Theme:T334 Theme2:T327
+E40	ASSOCIATED_WITH:T329 Theme:T333 Theme2:T327
+E41	NEG_ASSOCIATED_WITH:T337 Agent:T335 Theme:T336
+E42	POS_ASSOCIATED_WITH:T338 Theme:T339 Agent:T336
+E43	NEG_ASSOCIATED_WITH:T340 Theme:T341 Agent:T336
+E44	NEG_ASSOCIATED_WITH:T343 Agent:T344 Theme:T342
+E45	POS_ASSOCIATED_WITH:T345 Theme:T346 Theme2:T342
+E46	POS_ASSOCIATED_WITH:T348 Theme:T347 Theme2:T349
+E48	POS_ASSOCIATED_WITH:T42 Agent:T276 Theme:T277
+E49	POS_ASSOCIATED_WITH:T42 Agent:T278 Theme:T279
+E50	POS_ASSOCIATED_WITH:T42 Agent:T280 Theme:T281
+E611	POS_ASSOCIATED_WITH:T187 Agent:T188 Theme:T190
+E711	POS_ASSOCIATED_WITH:T187 Agent:T188 Theme:T189
+E811	ASSOCIATED_WITH:T192 Theme:T191 Theme2:T193
+E911	NEG_ASSOCIATED_WITH:T195 Theme:T196 Agent:T194
+A1	Factuality E1 Unknown
+A2	Factuality E7 Possible
+A4	Factuality E15 Negated

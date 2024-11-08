@@ -1,0 +1,51 @@
+T1	Food 14 54	Enriched Resistant Starch Type-2 Cookies
+T4	Nutrient 23 46	Resistant Starch Type-2
+T5	Nutrient 149 172	Resistant starch type-2
+T6	Nutrient 174 177	RS2
+T7	Physiology 192 204	inflammation
+T8	Measurement 209 225	oxidative stress
+T10	Nutrient 322 325	RS2
+T11	Food 426 446	enriched RS2 cookies
+T12	Nutrient 435 438	RS2
+T14	Nutrient 632 635	RS2
+T15	INCREASES 1175 1184	producers
+T16	Food 651 671	enriched RS2 cookies
+T17	Nutrient 660 663	RS2
+T18	Measurement 593 596	BMI
+T19	Food 756 786	cookies made with manioc flour
+T20	Food 774 786	manioc flour
+T22	DiversityMetric 901 918	Pielou's evenness
+T23	DECREASES 936 945	decreased
+T24	Nutrient 952 955	RS2
+T25	Nutrient 1002 1005	RS2
+T26	INCREASES 1019 1030	upregulates
+T29	Microorganism 1095 1104	Roseburia
+T30	Microorganism 1109 1132	Ruminococcus gauvreauii
+T31	Metabolite 1144 1167	short-chain fatty acids
+T32	Metabolite 1169 1173	SCFA
+T33	DECREASES 1225 1239	downregulation
+T34	Microorganism 1281 1290	Dialister
+T36	Nutrient 1305 1308	RS2
+T38	Microorganism 1368 1382	SCFA producers
+T39	AFFECTS 1361 1367	alters
+T41	Disease 1504 1507	CKD
+T42	Disease 1480 1502	chronic kidney disease
+T43	IMPROVES 183 191	mitigate
+E1	DECREASES:T23 Agent:T24 Theme:T22
+E2	INCREASES:T26 Agent:T25 Theme:T29
+E3	INCREASES:T26 Agent:T25 Theme:T30
+E4	DECREASES:T33 Agent:T25 Theme:T34
+E5	AFFECTS:T39 Agent:T36 Theme:T38
+E6	IMPROVES:T43 Agent:T5 Theme:T7
+E7	IMPROVES:T43 Theme:T8 Agent:T5
+E8	INCREASES:T15 Agent:T30 Theme:T31
+E9	INCREASES:T15 Theme:T31 Agent:T29
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9

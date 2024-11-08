@@ -1,0 +1,147 @@
+T1	Gene 0 51	Genes Involved in Galactooligosaccharide Metabolism
+T2	Nutrient 18 40	Galactooligosaccharide
+T3	Microorganism 55 76	Lactobacillus reuteri
+T4	Nutrient 328 331	GOS
+T5	Microorganism 146 167	Lactobacillus reuteri
+T6	Physiology 932 938	growth
+T7	Microorganism 266 276	L. reuteri
+T8	Microorganism 573 583	L. reuteri
+T9	Nutrient 304 326	galactooligosaccharide
+T10	AFFECTS 636 642	relies
+T11	Physiology 622 635	GOS transport
+T12	Nutrient 554 557	GOS
+T13	HAS_COMPONENT 181 185	used
+T14	Gene 668 672	lacS
+T15	Enzyme 648 656	permease
+T16	Nutrient 380 390	synbiotics
+T17	Food 189 199	probiotics
+T18	INTERACTS_WITH 657 664	encoded
+T19	Gene 786 790	lacA
+T20	Enzyme 757 773	β-galactosidases
+T21	Nutrient 823 843	GOS oligosaccharides
+T22	Nutrient 848 865	GOS disaccharides
+T23	Nutrient 958 961	GOS
+T24	Nutrient 966 973	lactose
+T25	Gene 1488 1493	ΔlacS
+T26	Nutrient 1138 1141	GOS
+T27	INTERACTS_WITH 1972 1985	necessary for
+T28	Chemical 1150 1157	glucose
+T29	POS_ASSOCIATED_WITH 1435 1445	sufficient
+T30	Nutrient 1326 1329	GOS
+T31	Nutrient 1369 1372	GOS
+T32	Nutrient 1426 1429	GOS
+T33	Nutrient 1401 1414	carbohydrates
+T34	Physiology 1457 1463	growth
+T35	Enzyme 1790 1804	α-galactosides
+T36	Physiology 2553 2577	metabolism of L. reuteri
+T37	Microorganism 1906 1927	Lactobacillus reuteri
+T38	POS_ASSOCIATED_WITH 911 922	resulted in
+T39	DietPattern 1263 1288	purified, no sucrose diet
+T40	Enzyme 1935 1945	hydrolases
+T41	Chemical 1950 1962	transporters
+T42	Nutrient 2004 2007	GOS
+T43	Population 2299 2312	germfree mice
+T44	Nutrient 2201 2204	GOS
+T45	Population 1343 1372	mice that did not receive GOS
+T46	Microorganism 2343 2353	L. reuteri
+T47	Enzyme 2425 2439	α-galactosides
+T48	Chemical 2020 2044	α-galactoside substrates
+T49	Microorganism 2567 2577	L. reuteri
+T51	Nutrient 2657 2666	synbiotic
+T52	Gene 2100 2110	gos mutant
+T53	Nutrient 2217 2229	carbohydrate
+T54	Nutrient 2400 2413	carbohydrates
+T55	Gene 795 800	lacLM
+T56	PREVENTS 1706 1714	impaired
+T57	Population 1326 1338	GOS-fed mice
+T58	Population 1550 1566	gnotobiotic mice
+T59	Gene 897 901	lacL
+T60	INTERACTS_WITH 282 289	utilize
+T62	DECREASES 815 822	degrade
+T63	INTERACTS_WITH 558 569	utilization
+T64	ASSOCIATED_WITH 1114 1123	advantage
+T65	Methodology 2046 2110	Coculture experiments with the wild-type strain and a gos mutant
+T66	Nutrient 1718 1727	raffinose
+T67	Nutrient 1732 1741	stachyose
+T68	ASSOCIATED_WITH 1435 1445	sufficient
+T70	Physiology 1680 1686	growth
+T73	Physiology 2163 2169	growth
+T74	Gene 2330 2339	GOS genes
+T75	INTERACTS_WITH 2379 2390	utilization
+T76	Nutrient 622 625	GOS
+T77	Gene 906 910	lacM
+T78	Gene 1072 1091	GOS-utilizing genes
+T79	Population 1232 1248	gnotobiotic mice
+T81	Gene 1584 1588	lacL
+T82	Gene 1593 1597	lacM
+T83	INTERACTS_WITH 1618 1629	utilization
+T84	Chemical 1820 1859	alternate substrates of the GOS pathway
+T85	Physiology 410 416	growth
+T86	Methodology 472 497	in-frame deletion mutants
+T87	Gene 1893 1902	lac genes
+T88	Nutrient 2137 2140	GOS
+T91	Gene 1034 1039	ΔlacS
+T92	Gene 1040 1045	ΔlacM
+T93	Gene 1494 1499	ΔlacM
+T94	INTERACTS_WITH 775 782	encoded
+T95	Nutrient 1633 1666	alternative dietary carbohydrates
+T97	INTERACTS_WITH 1809 1819	constitute
+T98	INTERACTS_WITH 1928 1934	encode
+T99	Chemical 728 751	galactoside transporter
+T100	Nutrient 1159 1162	GOS
+T102	POS_ASSOCIATED_WITH 1114 1123	advantage
+T104	Methodology 975 995	In vitro competition
+E1	AFFECTS:T10 Theme:T11 Agent:T15
+E2	HAS_COMPONENT:T13 Theme:T5 Agent:T17
+E3	INTERACTS_WITH:T60 Theme:T7 Theme2:T9
+E4	POS_ASSOCIATED_WITH:T38 Agent:T59 Theme:T6
+E5	INTERACTS_WITH:T63 Theme:T12 Theme2:T8
+E6	DECREASES:T62 Agent:T20 Theme:T21
+E7	DECREASES:T62 Agent:T20 Theme:T22
+E8	POS_ASSOCIATED_WITH:T102 Theme:T26 Agent:T78
+E9	ASSOCIATED_WITH:T68 Theme:T32 Theme2:T34
+E10	POS_ASSOCIATED_WITH:T29 Theme:T34 Agent:T33
+E11	PREVENTS:T56 Theme:T70 Agent:T66
+E12	PREVENTS:T56 Theme:T70 Agent:T67
+E13	POS_ASSOCIATED_WITH:T38 Agent:T77 Theme:T6
+E14	INTERACTS_WITH:T98 Theme:T40 Theme2:T87
+E15	INTERACTS_WITH:T98 Theme:T41 Theme2:T87
+E16	INTERACTS_WITH:T75 Theme2:T47 Theme:T74
+E17	INTERACTS_WITH:T27 Theme:T42 Theme2:T41
+E18	INTERACTS_WITH:T18 Theme:T14 Theme2:T15
+E19	INTERACTS_WITH:T94 Theme:T20 Theme2:T19
+E20	INTERACTS_WITH:T83 Theme:T81 Theme2:T95
+E21	INTERACTS_WITH:T83 Theme:T82 Theme2:T95
+E22	INTERACTS_WITH:T27 Theme:T42 Theme2:T40
+E23	INTERACTS_WITH:T94 Theme:T20 Theme2:T55
+E24	INTERACTS_WITH:T27 Theme:T48 Theme2:T41
+E25	INTERACTS_WITH:T27 Theme:T48 Theme2:T40
+E26	INTERACTS_WITH:T97 Theme:T84 Theme2:T35
+E31	ASSOCIATED_WITH:T64 Theme:T28 Theme2:T78
+A1	Unknown E26
+A2	Negated E9
+A3	Negated E31
+A4	Factual E1
+A5	Factual E2
+A6	Factual E3
+A7	Factual E4
+A8	Factual E5
+A9	Factual E6
+A10	Factual E7
+A11	Factual E8
+A12	Factual E10
+A13	Factual E11
+A14	Factual E12
+A15	Factual E13
+A16	Factual E14
+A17	Factual E15
+A18	Factual E16
+A19	Factual E17
+A20	Factual E18
+A21	Factual E19
+A22	Factual E20
+A23	Factual E21
+A24	Factual E22
+A25	Factual E23
+A26	Factual E24
+A27	Factual E25

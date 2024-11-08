@@ -1,0 +1,40 @@
+T1	Microorganism 57 72	Bifidobacterium
+T2	ASSOCIATED_WITH 81 91	Associated
+T3	Physiology 19 42	Carbohydrate Metabolism
+T4	Physiology 97 126	Intestinal Barrier Maturation
+T5	Population 130 151	Early Preterm Infants
+T6	Physiology 178 214	high intestinal barrier permeability
+T8	Population 229 245	preterm newborns
+T9	Methodology 397 408	metagenomes
+T10	Methodology 340 392	short- and long-read sequencing of the 16S rRNA gene
+T11	Methodology 559 588	enhanced taxonomic resolution
+T12	INCREASES 620 629	increased
+T13	Microorganism 643 664	Bifidobacterium breve
+T14	ASSOCIATED_WITH 709 719	associated
+T15	Microorganism 909 924	Bifidobacterium
+T16	Nutrient 947 974	human milk oligosaccharides
+T17	Disease 1283 1308	necrotizing enterocolitis
+T18	Disease 1310 1313	NEC
+T19	Physiology 725 754	intestinal barrier maturation
+T20	Food 684 703	mother’s breastmilk
+T21	Methodology 818 846	genome-resolved metagenomics
+T22	Disease 163 172	Leaky gut
+T23	Chemical 979 1005	host-derived glycoproteins
+T24	Physiology 1117 1146	intestinal barrier maturation
+T25	Population 1107 1116	postnatal
+T26	Food 1047 1057	breastmilk
+T27	Population 483 546	preterm infants born between 240/7 and 326/7 weeks of gestation
+T28	AFFECTS 1038 1043	roles
+T29	INTERACTS_WITH 936 946	assimilate
+E3	INCREASES:T12 Theme:T13 Agent:T19
+E4	ASSOCIATED_WITH:T14 Theme:T20 Theme2:T19
+E5	ASSOCIATED_WITH:T2 Theme:T1 Theme2:T4
+E6	AFFECTS:T28 Agent:T26 Theme:T24
+E7	INTERACTS_WITH:T29 Theme2:T16 Theme:T15
+E8	INTERACTS_WITH:T29 Theme2:T23 Theme:T15
+A1	Unknown E5
+A2	Factual E3
+A3	Factual E4
+A4	Factual E6
+A5	Factual E7
+A6	Factual E8

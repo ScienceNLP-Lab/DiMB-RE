@@ -1,0 +1,8 @@
+Dietary Supplementation with Rice Bran or Navy Bean Alters Gut Bacterial Metabolism in Colorectal Cancer Survivors
+
+Scope
+Heat-stabilized rice bran and cooked navy bean powder contain a variety of phytochemicals that are fermented by colonic microbiota and may influence intestinal health. Dietary interventions with these foods should be explored for modulating colorectal cancer risk.
+Methods and results
+A randomized-controlled pilot clinical trial investigated the effects of eating heat-stabilized rice bran (30g/day) or cooked navy bean powder (35g/day) on gut microbiota and metabolites (NCT01929122). Twenty-nine overweight/obese volunteers with a prior history of colorectal cancer consumed a study-provided meal and snack daily for 28 days. Volunteers receiving rice bran or bean powder showed increased gut bacterial diversity and altered gut microbial composition at 28 days compared to baseline. Supplementation with rice bran or bean powder increased total dietary fiber intake similarly, yet only rice bran intake led to a decreased Firmicutes:Bacteroidetes ratio and increased short chain fatty acids (propionate and acetate) in stool after 14 days but not at 28 days.
+Conclusion
+These findings support modulation of gut microbiota and fermentation by-products by heat-stabilized rice bran and suggest that foods with similar ability to increase dietary fiber intake may not have equal effects on gut microbiota and microbial metabolism.

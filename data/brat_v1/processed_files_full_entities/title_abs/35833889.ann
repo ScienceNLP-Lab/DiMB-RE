@@ -1,0 +1,111 @@
+T1	Food 0 33	Whole grain germinated brown rice
+T2	Physiology 44 73	intestinal immune homeostasis
+T3	Chemical 78 103	gastrointestinal hormones
+T4	Population 107 131	type 2 diabetic patients
+T5	Disease 107 122	type 2 diabetic
+T6	Methodology 134 158	randomized control trial
+T7	Food 173 185	Whole grains
+T8	IMPROVES 208 216	benefits
+T9	Disease 233 252	metabolic syndromes
+T10	Disease 254 258	MetS
+T11	Food 296 317	germinated brown rice
+T12	Food 319 322	GBR
+T13	Food 339 349	brown rice
+T14	Population 354 383	patients with type 2 diabetes
+T15	Disease 368 383	type 2 diabetes
+T16	Disease 385 389	T2DM
+T17	PREVENTS 274 292	preventive effects
+T18	Food 463 481	refined white rice
+T19	Food 483 486	RWR
+T20	Food 499 502	GBR
+T21	Disease 527 531	T2DM
+T22	Population 594 607	T2DM patients
+T23	Disease 594 598	T2DM
+T25	Food 689 692	GBR
+T26	Food 710 713	GBR
+T27	Methodology 771 800	Food frequency questionnaires
+T28	Biospecimen 812 817	stool
+T29	Biospecimen 822 827	serum
+T30	Chemical 929 950	Fasting blood glucose
+T31	DECREASES 965 974	decreased
+T32	Food 981 984	GBR
+T33	Chemical 1029 1048	Glycated hemoglobin
+T34	Measurement 1050 1055	HbA1c
+T35	DECREASES 1069 1078	decreased
+T37	Food 1086 1089	GBR
+T39	Food 1125 1128	GBR
+T40	Biospecimen 1176 1181	feces
+T41	Microorganism 1254 1265	Bacteroides
+T42	INCREASES 1286 1295	increased
+T43	Metabolite 1325 1348	short-chain fatty acids
+T44	Metabolite 1350 1355	SCFAs
+T45	Metabolite 1367 1378	acetic acid
+T46	Metabolite 1380 1394	propanoic acid
+T47	Metabolite 1400 1412	butyric acid
+T48	INCREASES 1418 1427	increased
+T49	Food 1445 1448	GBR
+T50	Chemical 1478 1481	GLP
+T51	Chemical 1486 1489	PYY
+T52	Biospecimen 1493 1498	serum
+T53	Chemical 1513 1538	gastrointestinal hormones
+T54	Metabolite 1553 1558	SCFAs
+T55	INCREASES 1564 1574	stimulated
+T56	Food 1578 1581	GBR
+T57	Food 1605 1608	GBR
+T58	Measurement 1640 1671	ratio of Treg/Th17 immune cells
+T59	Physiology 1675 1680	PBMCs
+T60	DECREASES 1685 1691	reduce
+T61	IMPROVES 1628 1635	balance
+T62	Chemical 1737 1741	IL-6
+T63	Chemical 1743 1747	IL-8
+T64	Chemical 1753 1756	LPS
+T65	Physiology 1706 1726	inflammatory factors
+T66	Biospecimen 1760 1765	serum
+T67	IMPROVES 1773 1781	improved
+T68	Physiology 1786 1819	permeability of intestinal mucosa
+T69	Food 1834 1837	GBR
+T70	IMPROVES 1876 1887	improvement
+T71	Chemical 1895 1916	fasting blood glucose
+T72	Population 1921 1934	T2DM patients
+T73	Disease 1921 1925	T2DM
+T74	Physiology 1972 1994	intestinal homeostasis
+T75	IMPROVES 1942 1968	attributed to the recovery
+T76	IMPROVES 34 43	regulates
+E1	IMPROVES:T8 Agent:T7 Theme:T9
+E2	PREVENTS:T17 Agent:T11 Theme:T15
+E3	DECREASES:T31 Agent:T32 Theme:T30
+E4	DECREASES:T35 Theme:T33 Agent:T37
+E5	INCREASES:T42 Theme:T41 Agent:T39
+E6	INCREASES:T48 Agent:T49 Theme:T47
+E7	INCREASES:T48 Agent:T49 Theme:T46
+E8	INCREASES:T48 Agent:T49 Theme:T45
+E9	INCREASES:T55 Agent:T56 Theme:T51
+E10	INCREASES:T55 Agent:T56 Theme:T50
+E11	DECREASES:T60 Agent:T57 Theme:T62
+E12	IMPROVES:T61 Agent:T57 Theme:T58
+E13	IMPROVES:T67 Agent:T57 Theme:T68
+E14	DECREASES:T60 Agent:T57 Theme:T63
+E15	DECREASES:T60 Agent:T57 Theme:T64
+E16	IMPROVES:T70 Agent:T69 Theme:T71
+E17	IMPROVES:T75 Agent:T69 Theme:T74
+E18	IMPROVES:T76 Theme:T2 Agent:T1
+E19	IMPROVES:T76 Agent:T1 Theme:T3
+A1	Unknown E2
+A2	Factual E1
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19

@@ -1,0 +1,98 @@
+T1	DietPattern 0 52	High-protein, reduced-carbohydrate weight-loss diets
+T2	Physiology 109 123	colonic health
+T3	WORSENS 81 105	likely to be detrimental
+T4	Nutrient 184 196	carbohydrate
+T5	DietPattern 138 196	Diets that are high in protein but reduced in carbohydrate
+T6	Population 261 273	obese humans
+T7	Physiology 246 257	weight loss
+T8	Physiology 569 583	colonic health
+T9	Nutrient 161 168	protein
+T10	Population 654 663	obese men
+T11	Nutrient 709 716	protein
+T12	Nutrient 724 727	fat
+T13	Nutrient 739 751	carbohydrate
+T14	DietPattern 790 828	high-protein and moderate-carbohydrate
+T15	Nutrient 842 849	protein
+T16	Nutrient 856 859	fat
+T17	Nutrient 871 883	carbohydrate
+T18	DietPattern 898 931	high-protein and low-carbohydrate
+T19	Nutrient 945 952	protein
+T20	Nutrient 960 963	fat
+T21	Nutrient 974 986	carbohydrate
+T22	Methodology 1000 1016	crossover design
+T23	Biospecimen 1018 1023	Fecal
+T24	Metabolite 1099 1122	short-chain fatty acids
+T25	DietPattern 1232 1236	HPMC
+T26	DietPattern 1241 1245	HPLC
+T27	INCREASES 1264 1273	increased
+T28	Metabolite 1289 1315	branched-chain fatty acids
+T29	Metabolite 1338 1355	phenylacetic acid
+T30	Metabolite 1360 1369	N-nitroso
+T31	DietPattern 1385 1389	HPLC
+T32	DECREASES 1400 1409	decreased
+T33	Metabolite 1428 1436	butyrate
+T34	Metabolite 1446 1468	short-chain fatty acid
+T35	DECREASES 1514 1523	reduction
+T36	Microorganism 1531 1540	Roseburia
+T37	Microorganism 1541 1552	Eubacterium
+T38	Disease 1996 2011	colonic disease
+T39	Nutrient 468 488	reduced carbohydrate
+T40	Nutrient 493 510	increased protein
+T41	AFFECTS 549 558	influence
+T42	Disease 611 629	colorectal disease
+T43	Disease 654 659	obese
+T44	Metabolite 1077 1097	phenolic metabolites
+T45	DECREASES 1584 1599	greatly reduced
+T46	Nutrient 1668 1676	ferulate
+T48	DietPattern 1723 1811	weight-loss diets that were high in protein but reduced in total carbohydrates and fiber
+T49	Physiology 358 372	colonic health
+T50	Nutrient 1788 1801	carbohydrates
+T51	DECREASES 1826 1846	significant decrease
+T52	Metabolite 1850 1885	fecal cancer-protective metabolites
+T53	INCREASES 1890 1899	increased
+T54	Metabolite 1918 1939	hazardous metabolites
+T55	CAUSES 236 245	achieving
+T56	DietPattern 679 702	weight-maintenance diet
+T57	DietPattern 933 937	HPLC
+T58	DietPattern 830 834	HPMC
+T59	Metabolite 1645 1659	phenolic acids
+T60	Nutrient 1618 1623	fiber
+T61	Nutrient 1759 1766	protein
+T62	Nutrient 1806 1811	fiber
+T63	PREDISPOSES 1975 1992	may increase risk
+E1	WORSENS:T3 Agent:T1 Theme:T2
+E2	INCREASES:T27 Agent:T26 Theme:T30
+E3	CAUSES:T55 Agent:T5 Theme:T7
+E4	INCREASES:T27 Agent:T25 Theme:T28
+E5	DECREASES:T32 Agent:T31 Theme:T33
+E6	DECREASES:T35 Agent:T31 Theme:T36
+E7	PREDISPOSES:T63 Theme:T38 Agent:T48
+E8	AFFECTS:T41 Agent:T40 Theme:T42
+E9	AFFECTS:T41 Agent:T39 Theme:T42
+E10	INCREASES:T27 Agent:T26 Theme:T28
+E11	DECREASES:T35 Agent:T31 Theme:T37
+E12	DECREASES:T45 Agent:T31 Theme:T46
+E14	DECREASES:T32 Agent:T31 Theme:T34
+E15	DECREASES:T51 Theme:T52 Agent:T48
+E16	INCREASES:T27 Agent:T25 Theme:T30
+E17	INCREASES:T53 Theme:T54 Agent:T48
+E18	INCREASES:T27 Agent:T26 Theme:T29
+E19	INCREASES:T27 Agent:T25 Theme:T29
+A1	Unknown E1
+A2	Unknown E7
+A4	Unknown E8
+A5	Unknown E9
+A6	Factual E2
+A7	Factual E3
+A8	Factual E4
+A9	Factual E5
+A10	Factual E6
+A11	Factual E10
+A12	Factual E11
+A13	Factual E12
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19

@@ -1,0 +1,96 @@
+T1	Nutrient 0 24	Galacto-oligosaccharides
+T2	Microorganism 95 109	bifidobacteria
+T3	INCREASES 78 87	increased
+T4	Population 44 77	prefrail older and healthy adults
+T5	AFFECTS 119 129	not impact
+T6	Physiology 130 145	immune function
+T7	Measurement 150 166	oxidative stress
+T8	Physiology 188 194	Ageing
+T9	ASSOCIATED_WITH 198 208	associated
+T10	Physiology 281 297	immunosenescence
+T11	Measurement 302 318	oxidative stress
+T12	Physiology 235 242	frailty
+T13	Nutrient 339 363	galacto-oligosaccharides
+T14	Nutrient 365 368	GOS
+T15	Measurement 497 503;525 532	immune markers
+T16	Measurement 508 532	oxidative stress markers
+T17	Population 536 571	prefrail elderly and younger adults
+T18	Nutrient 604 607	GOS
+T19	Methodology 654 692	randomised controlled cross-over study
+T20	Population 697 713	prefrail elderly
+T21	Methodology 721 735	healthy adults
+T22	Nutrient 756 767	Biotis™ GOS
+T23	Nutrient 791 794	GOS
+T24	Metabolite 850 873	short-chain fatty acids
+T25	Chemical 1012 1015	CRP
+T26	Methodology 815 845	16S rRNA gene-based microbiota
+T27	Metabolite 924 950	Volatile organic compounds
+T28	Metabolite 968 974	breath
+T29	Physiology 980 1010	stimulated cytokine production
+T30	Chemical 1084 1093	uric acid
+T31	Chemical 1095 1097	UA
+T32	Measurement 1034 1072	trolox equivalent antioxidant capacity
+T33	Measurement 1074 1078	TEAC
+T34	Chemical 1017 1032	malondialdehyde
+T35	Methodology 1135 1164	Principle coordinate analysis
+T36	Population 1217 1235	elderly and adults
+T37	Population 1251 1258	elderly
+T38	Microorganism 1272 1286	bifidobacteria
+T39	Nutrient 1326 1329	GOS
+T40	INCREASES 1387 1396	increases
+T41	Microorganism 1400 1414	bifidobacteria
+T42	Metabolite 1470 1476;1488 1499	Faecal metabolites
+T43	Measurement 1501 1507;1529 1536	immune markers
+T44	Measurement 1512 1536	oxidative stress markers
+T45	Nutrient 1602 1605	GOS
+T46	AFFECTS 1590 1598	affected
+T47	Measurement 1619 1623	TEAC
+T48	Chemical 1645 1647	UA
+T49	Population 1663 1670	elderly
+T50	Population 1678 1684	adults
+T51	Population 1762 1769	Elderly
+T52	Nutrient 1862 1865	GOS
+T53	Metabolite 1481 1499	breath metabolites
+T54	Metabolite 1889 1895;1907 1918	Faecal metabolites
+T55	Metabolite 1900 1918	breath metabolites
+T56	Physiology 1934 1949	immune function
+T57	Nutrient 2023 2026	GOS
+T58	Microorganism 1790 1805	bifidobacterial
+T59	INCREASES 1846 1855	increased
+T60	Measurement 1954 1970	oxidative stress
+T61	AFFECTS 2011 2019	impacted
+T62	IMPROVES 374 384	ameliorate
+T63	Biospecimen 1102 1107	blood
+T64	Population 1832 1838	adults
+E1	INCREASES:T3 Agent:T1 Theme:T2
+E2	AFFECTS:T5 Agent:T1 Theme:T6
+E3	AFFECTS:T5 Agent:T1 Theme:T7
+E4	ASSOCIATED_WITH:T9 Theme:T8 Theme2:T12
+E5	ASSOCIATED_WITH:T9 Theme:T8 Theme2:T10
+E6	ASSOCIATED_WITH:T9 Theme:T8 Theme2:T11
+E7	INCREASES:T40 Theme:T41 Agent:T39
+E8	AFFECTS:T46 Agent:T45 Theme:T43
+E9	AFFECTS:T46 Agent:T45 Theme:T44
+E10	INCREASES:T59 Theme:T58 Agent:T52
+E11	AFFECTS:T61 Theme:T56 Agent:T57
+E12	AFFECTS:T61 Agent:T57 Theme:T60
+E13	AFFECTS:T61 Theme:T55 Agent:T57
+E14	AFFECTS:T61 Theme:T54 Agent:T57
+E15	IMPROVES:T62 Agent:T13 Theme:T12
+E16	IMPROVES:T62 Theme:T10 Agent:T13
+E17	IMPROVES:T62 Agent:T13 Theme:T11
+E18	AFFECTS:T46 Theme:T42 Agent:T45
+E19	AFFECTS:T46 Theme:T53 Agent:T45
+A1	Factuality E2 Negated
+A2	Factuality E3 Negated
+A3	Factuality E8 Negated
+A4	Factuality E9 Negated
+A5	Factuality E11 Negated
+A6	Factuality E12 Negated
+A7	Factuality E13 Negated
+A8	Factuality E14 Negated
+A9	Factuality E15 Possible
+A10	Factuality E16 Possible
+A11	Factuality E17 Possible
+A12	Factuality E18 Negated
+A13	Factuality E19 Negated

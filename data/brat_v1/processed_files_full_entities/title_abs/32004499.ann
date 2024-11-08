@@ -1,0 +1,29 @@
+T1	Nutrient 46 59	Dietary Fiber
+T2	Metabolite 79 101	Short-Chain Fatty Acid
+T3	Nutrient 115 129	Dietary fibers
+T4	AFFECTS 71 78	Directs
+T5	Methodology 396 415	dose-response trial
+T6	Nutrient 427 453	type-IV resistant starches
+T7	Nutrient 455 459	RS4s
+T8	Nutrient 903 907	RS4s
+T9	Nutrient 718 721	RS4
+T10	Nutrient 349 352	DFs
+T11	Population 464 478	healthy humans
+T12	AFFECTS 588 595	effects
+T13	Metabolite 681 691	propionate
+T14	Metabolite 695 703	butyrate
+T15	Nutrient 954 960	starch
+T17	Nutrient 494 505;520 550	crystalline cross-linked starch structures
+T18	Nutrient 510 550	phosphate cross-linked starch structures
+T27	Nutrient 1037 1039	DF
+T29	Nutrient 131 134	DFs
+E1	AFFECTS:T12 Agent:T18 Theme:T14
+E2	AFFECTS:T12 Agent:T17 Theme:T13
+E3	AFFECTS:T12 Agent:T18 Theme:T13
+E4	AFFECTS:T12 Agent:T17 Theme:T14
+E9	AFFECTS:T4 Agent:T1 Theme:T2
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E9

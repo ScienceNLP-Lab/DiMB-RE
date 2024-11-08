@@ -1,0 +1,115 @@
+T1	Food 0 17	Whole-grain wheat
+T2	IMPROVES 30 37	reduces
+T3	Physiology 38 50	inflammation
+T4	Methodology 56 83	randomized controlled trial
+T5	Population 87 163	overweight and obese subjects with unhealthy dietary and lifestyle behaviors
+T6	Disease 87 97	overweight
+T7	Disease 102 107	obese
+T8	Nutrient 173 214	polyphenols bound to cereal dietary fiber
+T9	Food 194 200	cereal
+T10	Physiology 1120 1132	inflammation
+T11	Food 253 264	whole-grain
+T12	Food 266 268	WG
+T13	Nutrient 344 364	WG wheat polyphenols
+T14	Metabolite 1828 1832	DHFA
+T15	INCREASES 1801 1807	higher
+T16	Nutrient 524 544	WG wheat polyphenols
+T17	NEG_ASSOCIATED_WITH 2079 2089	correlated
+T18	Population 548 604	subjects with suboptimal dietary and lifestyle behaviors
+T19	Methodology 616 667	placebo-controlled, parallel-group randomized trial
+T20	Population 676 773	healthy overweight/obese subjects with low intake of fruit and vegetables and sedentary lifestyle
+T21	Disease 684 694	overweight
+T22	Disease 695 700	obese
+T23	Food 729 734	fruit
+T24	Food 739 749	vegetables
+T25	Food 831 844	refined wheat
+T26	Food 846 848	RW
+T27	Food 882 890	WG wheat
+T28	Food 894 905	RW products
+T29	Biospecimen 944 949	blood
+T30	Biospecimen 951 956	urine
+T31	Biospecimen 958 963	feces
+T32	Measurement 969 983	anthropometric
+T33	Measurement 988 1004	body composition
+T35	Disease 1098 1115	metabolic disease
+T37	Metabolite 1042 1056	phenolic acids
+T38	Food 1191 1193	WG
+T39	INCREASES 1237 1245	increase
+T40	Metabolite 1255 1274	dihydroferulic acid
+T41	Metabolite 1276 1280	DHFA
+T42	INCREASES 1295 1303	increase
+T43	Metabolite 1313 1325	ferulic acid
+T44	Metabolite 1327 1329	FA
+T45	Food 1345 1347	RW
+T46	AFFECTS 1361 1371	no changes
+T47	INCREASES 1404 1411	doubled
+T48	Food 1447 1449	WG
+T49	Metabolite 1393 1395	FA
+T50	DECREASES 1472 1481	reduction
+T51	INCREASES 1539 1548	increased
+T52	Food 1590 1592	WG
+T53	Food 1607 1609	RW
+T54	Measurement 1668 1693	metabolic disease markers
+T55	Disease 1668 1685	metabolic disease
+T56	AFFECTS 1636 1657	No significant change
+T57	Metabolite 1821 1823	FA
+T58	ASSOCIATED_WITH 1873 1883	associated
+T59	Food 1840 1842	WG
+T60	Metabolite 1866 1868	FA
+T61	Food 1964 1966	WG
+T62	INCREASES 1999 2008	increased
+T63	Microorganism 2009 2022	Bacteroidetes
+T64	Microorganism 2027 2037	Firmicutes
+T65	DECREASES 2042 2049	reduced
+T66	Microorganism 2050 2061	Clostridium
+T67	Microorganism 1924 1937	Bacteroidetes
+T68	Microorganism 1902 1919	Bifidobacteriales
+T69	AFFECTS 2136 2145	No effect
+T70	Chemical 2063 2068	TNF-α
+T71	Microorganism 2105 2116	Bacteroides
+T72	Microorganism 2121 2134	Lactobacillus
+T73	Measurement 2174 2201	anthropometric measurements
+T74	Measurement 2206 2222	body composition
+T75	Food 2247 2255	WG wheat
+T76	INCREASES 2282 2291	increased
+T77	Food 2389 2397	WG wheat
+T78	Chemical 1492 1515	tumor necrosis factor-α
+T79	Chemical 1517 1522	TNF-α
+T80	Chemical 1549 1568	interleukin (IL)-10
+T83	Physiology 1755 1795	plasma plasminogen activator inhibitor 1
+T84	DECREASES 1736 1754	trend toward lower
+T85	Metabolite 2301 2303	FA
+T86	Metabolite 2320 2324	DHFA
+T87	Metabolite 2365 2367	FA
+E1	IMPROVES:T2 Agent:T1 Theme:T3
+E2	INCREASES:T15 Theme:T57 Agent:T59
+E3	INCREASES:T39 Agent:T38 Theme:T40
+E4	INCREASES:T42 Agent:T38 Theme:T43
+E5	AFFECTS:T46 Agent:T45 Theme:T43
+E6	AFFECTS:T46 Agent:T45 Theme:T40
+E7	INCREASES:T47 Theme:T49 Agent:T48
+E8	DECREASES:T50 Theme:T78 Agent:T52
+E9	INCREASES:T51 Theme:T80 Agent:T52
+E10	AFFECTS:T56 Theme:T54 Agent:T59
+E11	INCREASES:T62 Agent:T61 Theme:T63
+E12	DECREASES:T65 Agent:T61 Theme:T66
+E13	ASSOCIATED_WITH:T58 Theme:T60 Theme2:T67
+E14	INCREASES:T76 Agent:T75 Theme:T85
+E15	NEG_ASSOCIATED_WITH:T17 Theme:T70 Theme2:T72
+E16	NEG_ASSOCIATED_WITH:T17 Theme:T70 Theme2:T71
+E17	DECREASES:T84 Theme:T83 Agent:T59
+E18	ASSOCIATED_WITH:T58 Theme:T60 Theme2:T68
+E19	INCREASES:T62 Agent:T61 Theme:T64
+E20	AFFECTS:T69 Agent:T61 Theme:T73
+E21	AFFECTS:T69 Agent:T53 Theme:T73
+E22	AFFECTS:T69 Agent:T53 Theme:T74
+E23	AFFECTS:T69 Agent:T61 Theme:T74
+E24	INCREASES:T76 Agent:T75 Theme:T86
+E25	INCREASES:T15 Theme:T14 Agent:T59
+A1	Factuality E5 Negated
+A2	Factuality E6 Negated
+A3	Factuality E10 Negated
+A4	Factuality E20 Negated
+A5	Factuality E21 Negated
+A6	Factuality E22 Negated
+A7	Factuality E23 Negated

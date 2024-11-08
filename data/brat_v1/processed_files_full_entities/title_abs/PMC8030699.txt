@@ -1,0 +1,13 @@
+Avocado Consumption Alters Gastrointestinal Bacteria Abundance and Microbial Metabolite Concentrations among Adults with Overweight or Obesity: A Randomized Controlled Trial
+
+ABSTRACT
+Background
+Avocados are rich in dietary fiber and monounsaturated fatty acids (MUFAs), nutrients that have been independently connected to metabolic health benefits and the gastrointestinal microbiota.
+Objectives
+We aimed to evaluate the impact of avocado consumption on the gastrointestinal microbiota and microbial metabolites, secondary outcomes of the Persea americana for Total Health (PATH) study, and conduct exploratory analyses to assess relations between the fecal microbiota, fecal metabolites, and health markers.
+Methods
+Adults [n = 163, 25–45 y, BMI (kg/m2) ≥ 25.0] were enrolled in the PATH study, a 12-wk investigator-blinded trial where participants were batch randomized to match the 2 groups by age, sex, visceral adiposity, and fasting glucose concentrations. Participants consumed isocaloric meals with or without avocado (175 g, men; 140 g, women) once daily for 12 wk. The fecal microbiota was assessed with 16S ribosomal RNA gene (V4 region) sequencing and analysis using DADA2 and QIIME2. Fecal fatty acid and bile acid concentrations were quantified using GC and LC-MS. Per-protocol (≥80% meal consumption) and intent-to-treat analyses were conducted using univariate ANOVA and Mann-Whitney U tests. Bivariate correlations were conducted between fecal microbiota, fecal metabolites, and health measures.
+Results
+The avocado treatment increased ɑ diversity and enriched Faecalibacterium, Lachnospira, and Alistipes between 26% and 65% compared with the control group. The avocado group had 18% greater fecal acetate, 70% greater stearic acid, and 98% greater palmitic acid concentrations than the control group, while the concentrations of the bile acids cholic and chenodeoxycholic acid were 91% and 57% lower, respectively.
+Conclusions
+Daily avocado consumption resulted in lower fecal bile acid concentrations, greater fecal fatty acid and SCFAs, and greater relative abundances of bacteria capable of fiber fermentation, providing evidence that this nutrient-dense food affects digestive physiology, as well as the composition and metabolic functions of the intestinal microbiota. This trial was registered at www.clinicaltrials.gov as NCT02740439.

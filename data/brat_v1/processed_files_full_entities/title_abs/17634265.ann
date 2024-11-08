@@ -1,0 +1,84 @@
+T1	Nutrient 0 7	Fructan
+T2	Population 119 135	weanling puppies
+T3	Nutrient 182 189	fructan
+T4	AFFECTS 171 178	effects
+T5	Population 232 248	weanling puppies
+T6	Physiology 213 228	immune response
+T7	Nutrient 367 374	fructan
+T8	Physiology 58 63	fever
+T9	Physiology 69 89	epithelial sloughing
+T10	Microorganism 95 105	Salmonella
+T11	Methodology 465 497	randomized complete block design
+T12	Population 399 418	hound-cross puppies
+T13	Nutrient 651 657	inulin
+T14	Nutrient 634 639	scFOS
+T15	Nutrient 598 632	short-chain fructooligosaccharides
+T16	Microorganism 725 753	Salmonella typhimurium DT104
+T17	Measurement 846 862	body temperature
+T18	Measurement 864 875	body weight
+T19	Measurement 1033 1049	body temperature
+T20	Nutrient 1205 1213	fructans
+T21	IMPROVES 1223 1252	decreased (P = 0.05) severity
+T22	AFFECTS 1432 1442	no changes
+T23	Nutrient 1455 1462	fructan
+T24	Nutrient 1671 1677	inulin
+T25	INCREASES 1685 1693	increase
+T26	Nutrient 1778 1785	fructan
+T27	Microorganism 1708 1721	Lactobacillus
+T28	Microorganism 1871 1881	Salmonella
+T29	Population 1178 1213	Infected puppies consuming fructans
+T30	Biospecimen 819 824	fecal
+T31	Measurement 829 844	activity scores
+T32	Physiology 894 923	intestinal nutrient transport
+T33	Physiology 925 960	intestinal morphology and pathology
+T34	Measurement 877 892	blood chemistry
+T35	Population 1074 1090	infected puppies
+T36	Physiology 1256 1276	enterocyte sloughing
+T37	Physiology 1310 1347	Ileal Na+-dependent glucose transport
+T38	Population 1376 1384;1401 1408	infected puppies
+T39	Population 1389 1408	noninfected puppies
+T40	Nutrient 1168 1176	fructans
+T41	Population 1485 1509	Puppies consuming inulin
+T42	Nutrient 1503 1509	inulin
+T43	INCREASES 1519 1528	increased
+T44	Metabolite 1535 1542	acetate
+T45	Metabolite 1558 1586	total short-chain fatty acid
+T46	Population 1618 1635	scFOS-fed puppies
+T47	Nutrient 1618 1623	scFOS
+T48	Population 1659 1677	puppies fed inulin
+T49	Nutrient 1751 1756	scFOS
+T50	Population 1940 1956	weanling puppies
+T51	AFFECTS 38 44	affect
+T52	INCREASES 1050 1059	increased
+T53	Physiology 45 56	food intake
+T54	Physiology 996 1007	Food intake
+T55	DECREASES 1008 1017	decreased
+T56	Biospecimen 1529 1534	fecal
+T57	Physiology 1117 1128	food intake
+T58	IMPROVES 1814 1823	attenuate
+T59	Nutrient 581 590	prebiotic
+T60	Physiology 806 817	Food intake
+E1	AFFECTS:T4 Agent:T3 Theme:T6
+E2	IMPROVES:T21 Agent:T20 Theme:T36
+E3	AFFECTS:T22 Agent:T23 Theme:T37
+E4	INCREASES:T25 Agent:T24 Theme:T27
+E5	INCREASES:T43 Agent:T42 Theme:T44
+E6	INCREASES:T43 Agent:T42 Theme:T45
+E7	AFFECTS:T51 Agent:T1 Theme:T8
+E8	AFFECTS:T51 Agent:T1 Theme:T9
+E9	INCREASES:T52 Theme:T19 Agent:T16
+E10	AFFECTS:T51 Theme:T53 Agent:T1
+E11	DECREASES:T55 Theme:T54 Agent:T16
+E12	IMPROVES:T58 Agent:T26 Theme:T28
+A1	Negated E1
+A2	Negated E3
+A3	Factual E2
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12

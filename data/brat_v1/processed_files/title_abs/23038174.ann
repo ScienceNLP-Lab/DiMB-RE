@@ -1,0 +1,80 @@
+T1	Food 616 626	brown rice
+T2	Food 628 630	BR
+T4	Physiology 1314 1343	insulin postprandial response
+T5	Microorganism 910 917	Blautia
+T6	Microorganism 977 986	Roseburia
+T7	Microorganism 822 841	microbial diversity
+T10	Food 40 51	whole grain
+T11	Food 170 182	whole grains
+T12	Food 388 400	whole grains
+T13	Food 590 608	whole-grain barley
+T14	Food 1570 1582	whole grains
+T15	Food 665 671	BR+WGB
+T17	Food 953 956	WGB
+T18	Chemical 1182 1186	IL-6
+T19	Chemical 1302 1309	glucose
+T20	DECREASES 1152 1159	reduced
+T21	Microorganism 1455 1464	Dialister
+T22	Food 271 283	whole grains
+T24	POS_ASSOCIATED_WITH 1433 1439	higher
+T26	Food 1101 1113	Whole grains
+T37	Microorganism 1035 1054	Eubacterium rectale
+T38	INCREASES 812 821	increased
+T43	INCREASES 887 896	abundance
+T46	Microorganism 988 1003	Bifidobacterium
+T47	Microorganism 1008 1017	Dialister
+T48	INCREASES 957 965	enriched
+T50	Food 1134 1140	BR+WGB
+T54	Microorganism 1246 1265	Eubacterium rectale
+T55	NEG_ASSOCIATED_WITH 1469 1474	lower
+T56	Microorganism 1488 1505	Coriobacteriaceae
+T61	Microorganism 1056 1072	Roseburia faecis
+T62	Microorganism 1077 1099	Roseburia intestinalis
+T65	ASSOCIATED_WITH 1271 1281	associated
+T71	DiversityMetric 847 877	Firmicutes/Bacteroidetes ratio
+T72	Chemical 1398 1402	IL-6
+T73	Chemical 1160 1180	plasma interleukin-6
+T74	Chemical 1192 1217	peak postprandial glucose
+T75	Food 610 613	WGB
+E1	INCREASES:T48 Agent:T17 Theme:T37
+E2	INCREASES:T48 Agent:T17 Theme:T61
+E3	DECREASES:T20 Agent:T50 Theme:T73
+E4	POS_ASSOCIATED_WITH:T24 Theme:T72 Agent:T21
+E5	INCREASES:T48 Agent:T17 Theme:T62
+E6	INCREASES:T38 Theme:T7 Agent:T13
+E7	INCREASES:T43 Theme:T5 Agent:T1
+E8	INCREASES:T38 Agent:T15 Theme:T7
+E9	INCREASES:T43 Theme:T5 Agent:T15
+E10	INCREASES:T38 Theme:T7 Agent:T1
+E11	INCREASES:T48 Agent:T17 Theme:T6
+E12	NEG_ASSOCIATED_WITH:T55 Theme:T72 Agent:T56
+E13	INCREASES:T38 Theme:T71 Agent:T13
+E14	INCREASES:T38 Theme:T71 Agent:T15
+E15	ASSOCIATED_WITH:T65 Theme:T54 Theme2:T19
+E16	INCREASES:T43 Theme:T5 Agent:T13
+E17	INCREASES:T38 Theme:T71 Agent:T1
+E18	INCREASES:T48 Agent:T17 Theme:T46
+E19	INCREASES:T48 Agent:T17 Theme:T47
+E20	DECREASES:T20 Agent:T50 Theme:T74
+E22	ASSOCIATED_WITH:T65 Theme:T54 Theme2:T4
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19
+A20	Factual E20
+A21	Factual E22

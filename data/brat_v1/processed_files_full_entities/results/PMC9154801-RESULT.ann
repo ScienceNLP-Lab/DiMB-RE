@@ -1,0 +1,844 @@
+T52	ASSOCIATED_WITH 6922 6928	marker
+T53	Disease 6909 6921	liver damage
+T60	Disease 9621 9626	NAFLD
+T68	Disease 9917 9922	NAFLD
+T71	Disease 209 213	NASH
+T74	Nutrient 94 106	carbohydrate
+T75	Disease 178 183	NAFLD
+T76	Physiology 421 424	Age
+T77	Population 528 532	Male
+T78	Measurement 605 608	BMI
+T79	Enzyme 708 711	AST
+T80	Enzyme 818 821	ALT
+T81	Enzyme 930 933	GGT
+T82	Chemical 1041 1052	Cholesterol
+T83	Chemical 1159 1162	HDL
+T84	Chemical 1262 1265	LDL
+T85	Chemical 1373 1375	TG
+T86	Chemical 1485 1488	FFA
+T87	Metabolite 1601 1603	TB
+T88	Chemical 1704 1707	Alb
+T89	Physiology 1809 1817	Platelet
+T90	Chemical 1926 1935	C-peptide
+T91	Chemical 2042 2048	hs-CRP
+T92	Chemical 2154 2162	Ferritin
+T93	Measurement 2380 2385	HbA1c
+T94	Chemical 2483 2486	FBS
+T95	Chemical 2593 2600	Insulin
+T96	Measurement 2708 2716	Adipo-IR
+T97	Measurement 2811 2818	HOMA-IR
+T98	Measurement 2931 2934	BMI
+T99	Measurement 2936 2951	body mass index
+T100	Enzyme 2953 2956	AST
+T101	Enzyme 2958 2980	aspartate transaminase
+T102	Enzyme 2982 2985	ALT
+T103	Enzyme 2987 3007	alanine transaminase
+T104	Enzyme 3009 3012	GGT
+T105	Enzyme 3014 3040	gamma-glutamyl transferase
+T106	Chemical 3042 3045	HDL
+T107	Chemical 3047 3071	high-density lipoprotein
+T108	Chemical 3073 3076	LDL
+T109	Chemical 3078 3101	low-density lipoprotein
+T110	Chemical 3103 3105	TG
+T111	Chemical 3107 3120	triglycerides
+T112	Chemical 3122 3125	FFA
+T113	Chemical 3127 3143	free fatty acids
+T114	Metabolite 3145 3147	TB
+T115	Metabolite 3149 3164	total bilirubin
+T116	Chemical 3166 3169	Alb
+T117	Chemical 3171 3178	albumin
+T118	Chemical 3180 3186	hs-CRP
+T119	Chemical 3188 3223	high-sensitivity C-reactive protein
+T120	Chemical 3225 3227	HA
+T121	Chemical 3229 3244	hyaluronic acid
+T122	Chemical 3250 3266	triiodothyronine
+T123	Chemical 3246 3248	T3
+T124	Measurement 3268 3273	HbA1c
+T125	Chemical 3296 3299	FBG
+T126	Chemical 3301 3322	fasting blood glucose
+T127	Measurement 3324 3332	Adipo-IR
+T128	Measurement 3334 3367	adipose tissue insulin resistance
+T129	Measurement 3369 3376	HOMA-IR
+T130	Measurement 3378 3428	homeostasis model assessment of insulin resistance
+T131	Chemical 3275 3294	glycated hemoglobin
+T132	Methodology 3632 3651	Kruskal-Wallis test
+T133	Disease 3752 3757	NAFLD
+T134	Methodology 3714 3757	Korean individuals with biopsy-proven NAFLD
+T135	Nutrient 3899 3911	carbohydrate
+T136	DietPattern 3920 3937	high carbohydrate
+T137	DietPattern 3939 3941	HC
+T138	DietPattern 3989 4005	low carbohydrate
+T139	DietPattern 4007 4009	LC
+T140	DietPattern 4124 4126	HC
+T141	DietPattern 4131 4133	LC
+T142	Measurement 4229 4249	NAFLD activity score
+T143	Measurement 4251 4254	NAS
+T144	Disease 222 226	NASH
+T145	Disease 4317 4321	NASH
+T146	Disease 4341 4345	NASH
+T147	WORSENS 12572 12582	increasing
+T148	Disease 4429 4434	NAFLD
+T149	Nutrient 4476 4488	carbohydrate
+T150	INCREASES 12659 12667	enriched
+T151	DietPattern 4540 4557	high carbohydrate
+T152	DietPattern 4559 4561	HC
+T153	DietPattern 4567 4583	low carbohydrate
+T154	DietPattern 4585 4587	LC
+T155	Nutrient 4606 4618	carbohydrate
+T156	Nutrient 4742 4755	carbohydrates
+T157	Nutrient 4757 4761	fats
+T158	Nutrient 4767 4775	proteins
+T159	DietPattern 4783 4785	HC
+T160	DietPattern 4790 4792	LC
+T161	Nutrient 4881 4893	carbohydrate
+T162	Measurement 4913 4933	NAFLD activity score
+T163	Disease 4913 4918	NAFLD
+T164	Measurement 4935 4938	NAS
+T165	Disease 4990 4995	obese
+T166	Measurement 5033 5036	BMI
+T167	Measurement 5049 5052	BMI
+T168	Nutrient 5079 5091	carbohydrate
+T169	Measurement 5107 5110	NAS
+T170	Methodology 5116 5140	Linear regression models
+T171	Enzyme 5220 5240	alanine transaminase
+T172	Enzyme 5242 5245	ALT
+T173	Nutrient 5251 5263	carbohydrate
+T174	Measurement 5314 5317	BMI
+T175	Physiology 5319 5322	age
+T176	Physiology 5328 5331	sex
+T177	DietPattern 5333 5335	HC
+T178	DietPattern 5360 5362	LC
+T179	DietPattern 5612 5614	HC
+T180	DietPattern 5629 5631	LC
+T181	Methodology 5651 5675	Linear regression models
+T182	Nutrient 5776 5789	carbohydrates
+T183	Measurement 5821 5824	BMI
+T184	Physiology 5826 5829	age
+T185	Physiology 5835 5838	sex
+T186	DietPattern 5840 5842	HC
+T187	DietPattern 5867 5869	LC
+T188	DietPattern 5912 5914	HC
+T189	Nutrient 5964 5976	carbohydrate
+T190	Nutrient 6011 6018	protein
+T191	DietPattern 6030 6032	LC
+T192	Nutrient 6082 6094	carbohydrate
+T193	DietPattern 6213 6215	LC
+T194	POS_ASSOCIATED_WITH 6222 6237	consumed higher
+T195	Nutrient 6249 6252	fat
+T196	Food 6254 6264	animal fat
+T197	Nutrient 6266 6275	plant fat
+T198	Nutrient 6277 6284	protein
+T199	Nutrient 6286 6300	animal protein
+T200	Nutrient 6306 6319	plant protein
+T201	DietPattern 6329 6331	HC
+T202	Population 6213 6221	LC group
+T203	Population 6030 6038	LC group
+T204	Population 5912 5920	HC group
+T205	Measurement 6375 6378	BMI
+T206	AFFECTS 6379 6407	did not significantly differ
+T207	Population 6420 6422;6430 6436	HC groups
+T208	Population 6427 6436	LC groups
+T209	Nutrient 5990 5993	fat
+T210	Population 6466 6488	obese NASH individuals
+T211	Disease 6466 6476	obese NASH
+T212	DietPattern 6507 6509	LC
+T213	DietPattern 6427 6429	LC
+T214	DietPattern 6420 6422	HC
+T215	Population 6560 6568	HC group
+T216	DietPattern 6560 6562	HC
+T217	Population 6507 6515	LC group
+T218	POS_ASSOCIATED_WITH 6493 6499	higher
+T219	Disease 6466 6471	obese
+T220	Population 6624 6632	LC group
+T221	DietPattern 6624 6626	LC
+T222	Measurement 6634 6647	body fat mass
+T223	Physiology 6662 6674;6696 6710	subcutaneous adipose tissue
+T224	Physiology 6652 6660;6696 6710	visceral adipose tissue
+T225	Physiology 6686 6710	abdominal adipose tissue
+T226	INCREASES 6731 6740	increased
+T227	Disease 14312 14324	liver injury
+T228	WORSENS 6746 6755	worsening
+T229	Disease 6785 6790	NAFLD
+T230	Nutrient 6817 6829	Carbohydrate
+T231	POS_ASSOCIATED_WITH 6846 6867	positively correlated
+T232	Enzyme 6879 6899	alanine transaminase
+T233	Enzyme 6901 6904	ALT
+T234	DietPattern 6941 6943	HC
+T235	POS_ASSOCIATED_WITH 16041 16051	enrichment
+T236	Population 6941 6949	HC group
+T237	POS_ASSOCIATED_WITH 7006 7026	positive correlation
+T238	Enzyme 7059 7062	ALT
+T239	Nutrient 7035 7047	carbohydrate
+T240	Population 7070 7078	HC group
+T241	DietPattern 7070 7072	HC
+T242	POS_ASSOCIATED_WITH 7147 7168	positive correlations
+T243	Measurement 7181 7220	surrogate markers of insulin resistance
+T244	Measurement 7222 7272	homeostasis model assessment of insulin resistance
+T245	Measurement 7274 7281	HOMA-IR
+T246	Measurement 7287 7320	adipose tissue insulin resistance
+T247	Measurement 7322 7330	adipo-IR
+T248	Nutrient 7338 7350	carbohydrate
+T249	Population 7386 7394	HC group
+T250	DietPattern 7386 7388	HC
+T251	Disease 16366 16371	NAFLD
+T252	Physiology 7421 7437	lipid metabolism
+T253	Disease 7409 7416	obesity
+T254	Chemical 7467 7508	low density lipoprotein [LDL]-cholesterol
+T255	Chemical 7513 7515	TG
+T256	Physiology 17065 17068	DNL
+T257	POS_ASSOCIATED_WITH 7536 7546	correlated
+T258	Nutrient 7552 7564	carbohydrate
+T259	Population 7584 7592	LC group
+T260	DietPattern 7584 7586	LC
+T261	Methodology 7640 7663	linear regression model
+T262	Measurement 7677 7680	BMI
+T263	Physiology 7682 7685	age
+T264	Physiology 7691 7694	sex
+T265	Nutrient 7696 7708	Carbohydrate
+T266	Chemical 7740 7743	FFA
+T267	Measurement 7760 7767	HOMA-IR
+T268	Measurement 7769 7777	adipo-IR
+T269	Chemical 7783 7790	insulin
+T270	Population 7805 7813	HC group
+T271	DietPattern 7805 7807	HC
+T272	Nutrient 7823 7835	carbohydrate
+T273	Chemical 7867 7882	LDL-cholesterol
+T274	Measurement 7894 7897	BMI
+T275	Population 7905 7913	LC group
+T276	DietPattern 7905 7907	LC
+T277	Disease 7927 7932	NAFLD
+T278	Population 8015 8023	HC group
+T279	DietPattern 8015 8017	HC
+T280	POS_ASSOCIATED_WITH 7716 7739	significantly predicted
+T281	POS_ASSOCIATED_WITH 7843 7866	significantly predicted
+T282	Disease 8104 8109	NAFLD
+T283	DietPattern 8126 8143	high carbohydrate
+T284	DietPattern 8145 8147	HC
+T285	DietPattern 8153 8169	low carbohydrate
+T286	DietPattern 8171 8173	LC
+T287	Methodology 8194 8229	Non-metric multidimensional scaling
+T288	Methodology 8231 8235	NMDS
+T289	DiversityMetric 8255 8275	Bray-Curtis distance
+T290	DiversityMetric 8288 8302	beta diversity
+T291	Methodology 8451 8455	NMDS
+T292	Methodology 8582 8601	Kruskal-Wallis test
+T293	Methodology 8606 8638	Dunn’s multiple comparisons test
+T294	DiversityMetric 8679 8694	Alpha diversity
+T295	DiversityMetric 8722 8747	Simpson’s diversity index
+T296	DiversityMetric 8762 8785	Pielou’s evenness index
+T297	DiversityMetric 8799 8822	Shannon diversity index
+T298	DiversityMetric 8845 8853	richness
+T299	Measurement 8956 8976	NAFLD activity score
+T300	Disease 253 257	NASH
+T301	Population 8920 8922;8931 8937	HC groups
+T302	Population 8928 8937	LC groups
+T303	DietPattern 8920 8922	HC
+T304	DietPattern 8928 8930	LC
+T305	Population 8985 8993	HC group
+T306	DietPattern 8985 8987	HC
+T307	Measurement 9067 9070	NAS
+T308	Population 9125 9133	LC group
+T309	DietPattern 9125 9127	LC
+T310	Methodology 9181 9215	nonmetric multidimensional scaling
+T311	Methodology 9217 9221	NMDS
+T312	DiversityMetric 9326 9341	alpha diversity
+T313	DiversityMetric 9372 9397	Simpson’s diversity index
+T314	DiversityMetric 9399 9422	Pielou’s evenness index
+T315	DiversityMetric 9428 9451	Shannon diversity index
+T316	DiversityMetric 9465 9473	richness
+T317	INCREASES 19270 19276	higher
+T318	Population 9543 9545;9552 9557	HC group
+T319	Population 9549 9557	LC group
+T320	DietPattern 9549 9551	LC
+T321	DietPattern 9543 9545	HC
+T322	Measurement 9515 9518	NAS
+T323	Disease 266 270	NASH
+T324	Population 9661 9669	HC group
+T325	DietPattern 9661 9663	HC
+T326	Population 9679 9687	LC group
+T327	DietPattern 9679 9681	LC
+T328	Disease 9741 9746	NAFLD
+T329	Population 9835 9843	HC group
+T330	DietPattern 9835 9837	HC
+T332	DietPattern 9939 9956	high carbohydrate
+T333	DietPattern 9966 9982	low carbohydrate
+T334	DietPattern 9958 9960	HC
+T335	DietPattern 9984 9986	LC
+T336	Methodology 10125 10145	Kruskal-Wallis tests
+T337	Methodology 10150 10183	Dunn’s multiple comparisons tests
+T338	Measurement 10351 10371	NAFLD activity score
+T339	Disease 10351 10356	NAFLD
+T340	Methodology 10316 10335	random forest model
+T341	Methodology 10416 10435	random forest model
+T342	Methodology 10492 10511	Regression analysis
+T343	Microorganism 10555 10570	Ruminococcaceae
+T344	Microorganism 10572 10590	Enterobacteriaceae
+T345	Microorganism 10596 10611	Veillonellaceae
+T346	Measurement 10671 10674	BMI
+T347	Physiology 10676 10679	age
+T348	Physiology 10685 10688	sex
+T349	Methodology 10690 10723	Multivariate association analysis
+T350	Methodology 11057 11076	Univariate analysis
+T351	DECREASES 11100 11108	decrease
+T352	Microorganism 11129 11144	Ruminococcaceae
+T353	INCREASES 11181 11189	increase
+T354	Microorganism 11210 11228	Enterobacteriaceae
+T355	WORSENS 11252 11262	increasing
+T356	DECREASES 19299 19304	lower
+T357	Population 11297 11305	HC group
+T358	DietPattern 11297 11299	HC
+T359	INCREASES 11336 11344	increase
+T360	Microorganism 11365 11380	Veillonellaceae
+T361	Disease 11410 11414	NASH
+T362	Population 11384 11414	individuals with definite NASH
+T363	Population 11432 11452	non-NASH individuals
+T364	Disease 3773 3777	NASH
+T365	Disease 5042 5047	obese
+T366	Physiology 5022 5031	non-obese
+T367	Disease 11263 11268	NAFLD
+T368	Population 11549 11557	LC group
+T369	DietPattern 11549 11551	LC
+T370	Population 11626 11634	HC group
+T371	DietPattern 11626 11628	HC
+T372	Population 11662 11683	subjects without NASH
+T373	Population 11685 11698	NASH subjects
+T374	Disease 11685 11689	NASH
+T375	Population 19853 19856	N2)
+T376	Microorganism 11746 11762	Faecalibacterium
+T377	ASSOCIATED_WITH 20538 20548	predictive
+T378	Microorganism 11823 11854	unclassified Enterobacteriaceae
+T379	Microorganism 11871 11880	Dialister
+T380	Disease 11941 11946	NAFLD
+T381	Methodology 11966 11985	random forest model
+T382	Microorganism 12070 12085	Veillonellaceae
+T383	Microorganism 12087 12102	Ruminococcaceae
+T384	Microorganism 12108 12126	Enterobacteriaceae
+T385	Microorganism 12141 12156	Ruminococcaceae
+T386	Microorganism 12161 12179	Enterobacteriaceae
+T387	Population 12234 12242	HC group
+T388	DietPattern 12234 12236	HC
+T389	Disease 12295 12300	NAFLD
+T390	Population 12308 12316	LC group
+T391	DietPattern 12308 12310	LC
+T393	Disease 12351 12356	NAFLD
+T394	Methodology 12367 12388	Multivariate analysis
+T395	Measurement 12439 12442	BMI
+T396	Physiology 12444 12447	age
+T397	Physiology 12453 12456	sex
+T398	Population 12497 12505	HC group
+T399	DietPattern 12497 12499	HC
+T400	Microorganism 12524 12539	Ruminococcaceae
+T401	DECREASES 12544 12566	significantly depleted
+T402	Population 23933 23935;23943 23949	HC groups
+T403	Disease 12583 12588	NAFLD
+T404	Microorganism 12622 12640	Enterobacteriaceae
+T405	Population 12738 12746	LC group
+T406	DietPattern 12738 12740	LC
+T407	Population 12811 12813;12821 12827	HC groups
+T408	Population 12818 12827	LC groups
+T409	DietPattern 12818 12820	LC
+T410	DietPattern 12811 12813	HC
+T412	Disease 12841 12846	NAFLD
+T413	Methodology 12861 12891	functional prediction analysis
+T414	Methodology 12922 12962	linear discriminant analysis effect size
+T415	Methodology 12964 12969	LEfSe
+T416	Population 13177 13185	HC group
+T417	DietPattern 13177 13179	HC
+T418	Population 13379 13387	LC group
+T419	DietPattern 13379 13381	LC
+T420	Disease 13554 13558	NASH
+T421	Population 13579 13587	HC group
+T422	DietPattern 13579 13581	HC
+T423	Physiology 13604 13637	microbial carbohydrate metabolism
+T424	Physiology 13648 13677	phosphotransferase system PTS
+T425	Physiology 13681 13704	glycerolipid metabolism
+T426	Physiology 13711 13742	fructose and mannose metabolism
+T427	Nutrient 13755 13767	carbohydrate
+T428	Population 13821 13841	non-NAFLD population
+T429	Disease 13922 13954	nonalcoholic fatty liver disease
+T430	Disease 13956 13961	NAFLD
+T431	DietPattern 13971 13988	high carbohydrate
+T432	DietPattern 13990 13992	HC
+T433	DietPattern 13998 14014	low carbohydrate
+T434	DietPattern 14016 14018	LC
+T435	Methodology 14065 14088	hepatic steatosis index
+T436	Methodology 14090 14093	HSI
+T437	Disease 3811 3816	NAFLD
+T438	Disease 14145 14150	NAFLD
+T439	Population 14163 14165;14173 14179	HC groups
+T440	Population 14170 14179	LC groups
+T441	DietPattern 14163 14165	HC
+T442	DietPattern 14170 14172	LC
+T443	Disease 13139 13143	NASH
+T444	Disease 13291 13295	NASH
+T445	Population 13438 13446	HC group
+T446	DietPattern 13438 13440	HC
+T447	POS_ASSOCIATED_WITH 13538 13546	enriched
+T448	Methodology 14212 14216	NMDS
+T449	DiversityMetric 14234 14248	beta diversity
+T450	Methodology 14326 14330	NMDS
+T451	DiversityMetric 14360 14380	Bray-Curtis distance
+T452	Population 14382 14390	HC group
+T453	DietPattern 14382 14384	HC
+T454	DiversityMetric 14483 14498	Alpha diversity
+T455	DiversityMetric 14546 14571	Simpson’s diversity index
+T456	DiversityMetric 14590 14607	Shannon diversity
+T457	DiversityMetric 14621 14638	Pielou’s evenness
+T458	DiversityMetric 14667 14675	richness
+T459	Population 14793 14795;14803 14809	HC groups
+T460	Population 14800 14809	LC groups
+T461	DietPattern 14793 14795	HC
+T462	DietPattern 14800 14802	LC
+T463	Disease 14825 14837	liver injury
+T464	Methodology 14852 14871	Univariate analysis
+T465	Methodology 14924 14942	Mann-Whitney tests
+T466	Methodology 14947 14980	Dunn’s multiple comparisons tests
+T467	DietPattern 15049 15056	HC diet
+T468	Population 15237 15239;15247 15253	HC groups
+T469	Population 15086 15106	non-NAFLD population
+T470	Population 15244 15253	LC groups
+T471	DietPattern 15244 15246	LC
+T472	DietPattern 15237 15239	HC
+T473	Nutrient 15295 15308	carbohydrates
+T474	Population 15310 15318	HC group
+T475	Population 15329 15337	LC group
+T476	DietPattern 15310 15312	HC
+T477	DietPattern 15329 15331	LC
+T478	Measurement 15452 15475	hepatic steatosis index
+T479	Measurement 15477 15480	HSI
+T480	Population 15483 15491	HC group
+T481	DietPattern 15483 15485	HC
+T482	Population 15532 15540	LC group
+T483	DietPattern 15532 15534	LC
+T484	Population 15616 15618;15626 15632	HC groups
+T485	Population 15623 15632	LC groups
+T486	DietPattern 15616 15618	HC
+T487	DietPattern 15623 15625	LC
+T488	DiversityMetric 15773 15788	alpha diversity
+T489	ASSOCIATED_WITH 15811 15839	did not significantly differ
+T490	Measurement 15847 15850	HSI
+T491	Nutrient 15893 15905	carbohydrate
+T492	Microorganism 15978 15993	Ruminococcaceae
+T493	Microorganism 15995 16013	Enterobacteriaceae
+T494	Microorganism 16019 16034	Veillonellaceae
+T495	Microorganism 16072 16087	Veillonellaceae
+T496	Measurement 16113 16116	HSI
+T497	Population 16167 16169;16177 16183	HC groups
+T498	Population 16174 16183	LC groups
+T499	DietPattern 16174 16176	LC
+T500	DietPattern 16167 16169	HC
+T501	Population 16240 16248	HC group
+T502	DietPattern 16240 16242	HC
+T503	Methodology 16252 16271	univariate analysis
+T504	Population 16349 16351;16359 16365	HC groups
+T505	Population 16356 16365	LC groups
+T506	DietPattern 16356 16358	LC
+T507	DietPattern 16349 16351	HC
+T508	INCREASES 16041 16051	enrichment
+T509	Population 16091 16116	individuals with high HSI
+T510	Measurement 16758 16761	NAS
+T511	Population 16784 16786;16794 16800	HC groups
+T512	Population 16791 16800	LC groups
+T513	DietPattern 16784 16786	HC
+T514	DietPattern 16791 16793	LC
+T515	Population 16901 16903;16911 16917	HC groups
+T516	Population 16908 16917	LC groups
+T517	DietPattern 16908 16910	LC
+T518	DietPattern 16901 16903	HC
+T519	Population 16974 16976;16984 16990	HC groups
+T520	Population 16981 16990	LC groups
+T521	DietPattern 16974 16976	HC
+T522	DietPattern 16981 16983	LC
+T523	Gene 16873 16888	PNPLA3_rs738409
+T525	Physiology 17044 17063	de novo lipogenesis
+T527	DietPattern 17097 17114	high carbohydrate
+T528	DietPattern 17116 17118	HC
+T529	Population 17097 17114;17127 17132	high carbohydrate group
+T530	Gene 17181 17198	DNL-related genes
+T531	Measurement 17207 17227	NAFLD activity score
+T532	Disease 17207 17212	NAFLD
+T533	Measurement 17229 17232	NAS
+T534	Physiology 17181 17184	DNL
+T535	ASSOCIATED_WITH 17161 17172	correlation
+T536	DietPattern 17241 17243	HC
+T537	DietPattern 17248 17250	LC
+T538	Population 17241 17243;17251 17257	HC groups
+T539	Population 17248 17257	LC groups
+T540	Methodology 17325 17361	Spearman’s rank correlation analysis
+T541	DietPattern 17457 17459	HC
+T542	DietPattern 17464 17466	LC
+T543	Population 17457 17459;17464 17473	HC LC groups
+T544	Population 17464 17473	LC groups
+T546	Disease 17487 17492	NAFLD
+T547	Methodology 17511 17539	one-way analyses of variance
+T548	Methodology 17548 17587	FDR correction for multiple comparisons
+T549	Methodology 17647 17663	R package DEseq2
+T550	Methodology 17783 17810	The linear regression model
+T551	Gene 17844 17850	SREBF2
+T552	Microorganism 17855 17873	Enterobacteriaceae
+T553	Measurement 17895 17898	BMI
+T554	Physiology 17900 17903	age
+T555	Physiology 17909 17912	sex
+T556	ASSOCIATED_WITH 17823 17835	relationship
+T557	Physiology 17996 18007	hepatic DNL
+T558	Disease 18029 18034	NAFLD
+T560	Population 18029 18041	NAFLD cohort
+T561	DietPattern 18090 18097	HC diet
+T562	POS_ASSOCIATED_WITH 18102 18112	associated
+T563	Physiology 18134 18137	DNL
+T564	INCREASES 18145 18154	increased
+T565	Physiology 18155 18175	glucose availability
+T566	DietPattern 18273 18275	HC
+T567	DietPattern 18280 18282	LC
+T568	Population 18273 18275;18283 18289	HC groups
+T569	Population 18280 18289	LC groups
+T571	Disease 18303 18308	NAFLD
+T573	Methodology 18356 18392	Spearman’s rank correlation analysis
+T574	Measurement 18462 18465	NAS
+T575	DietPattern 18473 18475	HC
+T576	DietPattern 18480 18482	LC
+T577	Population 18480 18489	LC groups
+T578	Population 18473 18475;18483 18489	HC groups
+T579	Population 18498 18506	HC group
+T580	DietPattern 18498 18500	HC
+T581	Gene 18508 18512	G6PC
+T582	Gene 18517 18522	SIRT1
+T583	NEG_ASSOCIATED_WITH 18528 18549	negatively correlated
+T584	Measurement 18559 18562	NAS
+T586	Gene 18594 18599	HCFC1
+T587	Gene 18604 18610	SREBF2
+T588	POS_ASSOCIATED_WITH 18616 18637	positively correlated
+T589	Measurement 18647 18650	NAS
+T590	DietPattern 18683 18685	LC
+T591	Population 18683 18691	LC group
+T592	Gene 18693 18697	USF1
+T593	Gene 18699 18704	NR1H3
+T594	Gene 18710 18716	MLXIPL
+T595	NEG_ASSOCIATED_WITH 18722 18742	inversely correlated
+T596	Measurement 18752 18755	NAS
+T597	Gene 18800 18803	SCD
+T598	Gene 18808 18812	mTOR
+T599	POS_ASSOCIATED_WITH 18818 18839	positively correlated
+T600	Measurement 18849 18852	NAS
+T601	DietPattern 19029 19031	HC
+T602	Population 19029 19037	HC group
+T603	Gene 19039 19044	HCFC1
+T604	Gene 19071 19076	SIRT1
+T605	POS_ASSOCIATED_WITH 19045 19066	expression was higher
+T606	NEG_ASSOCIATED_WITH 19077 19097	expression was lower
+T607	Population 19101 19112	N2 subjects
+T608	Population 19121 19132	N0 subjects
+T609	Gene 19214 19220	SREBF2
+T610	Gene 19225 19229	G6PC
+T611	Gene 19277 19283	SREBF2
+T612	Gene 19305 19309	G6PC
+T614	Disease 19351 19356	NAFLD
+T615	Gene 19434 19438	USF1
+T616	Gene 19440 19445	NR1H3
+T617	Gene 19451 19457	MLXIPL
+T618	DECREASES 19462 19467	lower
+T619	Gene 19539 19542	SCD
+T620	Gene 19547 19551	mTOR
+T622	Disease 19579 19584	NAFLD
+T623	DietPattern 19601 19603	LC
+T624	Population 19601 19609	LC group
+T625	INCREASES 19556 19562	higher
+T626	DietPattern 19736 19738	HC
+T627	Population 19736 19744	HC group
+T628	Gene 19746 19752	SREBF2
+T629	Gene 19754 19759	SIRT1
+T630	Gene 19764 19769	HCFC1
+T631	Population 19805 19807;19815 19821	HC groups
+T632	Population 19812 19821	LC groups
+T633	DietPattern 19812 19814	LC
+T634	DietPattern 19805 19807	HC
+T635	Population 19829 19851	definite NASH subgroup
+T636	Disease 19838 19842	NASH
+T638	Gene 19991 19996	SIRT1
+T639	Gene 19998 20002	FASN
+T640	Gene 20004 20010	SREBF2
+T641	Gene 20016 20021	HCFC1
+T642	Population 20059 20067	HC group
+T643	DietPattern 20059 20061	HC
+T644	Gene 20149 20153	mTOR
+T645	Gene 20155 20158	SCD
+T646	Gene 20160 20165	GSK3B
+T647	Gene 20171 20177	MLXIPL
+T648	Population 20215 20223	LC group
+T649	DietPattern 20215 20217	LC
+T650	Gene 20354 20360	SREBF2
+T651	Microorganism 20382 20400	Enterobacteriaceae
+T652	ASSOCIATED_WITH 20334 20345	association
+T653	Methodology 20440 20463	linear regression model
+T654	Measurement 20477 20480	BMI
+T655	Physiology 20482 20485	age
+T656	Physiology 20491 20494	sex
+T657	Gene 20527 20533	SREBF2
+T658	Microorganism 20552 20570	Enterobacteriaceae
+T659	Population 20588 20596	HC group
+T660	DietPattern 20588 20590	HC
+T662	Disease 20652 20657	NAFLD
+T663	Physiology 20668 20671	DNL
+T664	DietPattern 20712 20719	HC diet
+T665	ASSOCIATED_WITH 20631 20643	relationship
+T666	Disease 20746 20750	NASH
+T667	Population 20793 20801	HC group
+T668	DietPattern 20793 20795	HC
+T669	Population 16758 16771	NAS subgroups
+T670	Population 13554 13567	NASH subgroup
+T672	Disease 3759 3763	NAFL
+T673	Disease 20845 20873	nonalcoholic steatohepatitis
+T674	Disease 20875 20879	NASH
+T675	DietPattern 20976 20993	high carbohydrate
+T676	DietPattern 20995 20997	HC
+T677	DietPattern 21004 21020	low carbohydrate
+T678	DietPattern 21022 21024	LC
+T679	Disease 21054 21058	NASH
+T680	Disease 21138 21142	NASH
+T681	Population 21155 21188	subjects with biopsy-proven NAFLD
+T682	Disease 21183 21188	NAFLD
+T683	Methodology 21190 21258	Area under receiver-operating characteristic curves (AUROC) analyses
+T685	Measurement 21289 21292	BMI
+T686	Physiology 21294 21297	age
+T687	Physiology 21303 21306	sex
+T688	Microorganism 21370 21388	Enterobacteriaceae
+T689	Microorganism 21390 21405	Ruminococcaceae
+T690	Microorganism 21411 21426	Veillonellaceae
+T691	Measurement 21463 21466	BMI
+T692	Physiology 21468 21471	age
+T693	Physiology 21477 21480	sex
+T694	Disease 21517 21521	NASH
+T695	DietPattern 21561 21563	HC
+T696	DietPattern 21573 21575	LC
+T697	Population 21573 21582	LC groups
+T698	Population 21561 21563;21576 21582	HC groups
+T699	Methodology 21649 21720	area under the receiver-operating characteristic curve (AUROC) analysis
+T701	Disease 21797 21801	NASH
+T702	Population 21808 21841	subjects with biopsy-proven NAFLD
+T703	Disease 21836 21841	NAFLD
+T704	Microorganism 21869 21887	Enterobacteriaceae
+T705	Microorganism 21889 21904	Ruminococcaceae
+T706	Microorganism 21910 21925	Veillonellaceae
+T708	Disease 21980 21985	NAFLD
+T709	Population 22002 22010	HC group
+T710	DietPattern 22002 22004	HC
+T713	Measurement 22163 22166	BMI
+T714	Physiology 22168 22171	age
+T715	Physiology 22177 22180	sex
+T716	Disease 22072 22076	NASH
+T717	Population 22212 22220	HC group
+T718	DietPattern 22212 22214	HC
+T719	Measurement 22324 22327	BMI
+T720	Physiology 22329 22332	age
+T721	Physiology 22338 22341	sex
+T723	Disease 22546 22550	NASH
+T724	Population 22558 22566	LC group
+T725	DietPattern 22558 22560	LC
+T726	Measurement 22590 22593	BMI
+T727	Physiology 22594 22597	age
+T728	Physiology 22598 22601	sex
+T729	Measurement 22617 22620	BMI
+T730	Physiology 22621 22624	age
+T731	Physiology 22625 22628	sex
+T732	Methodology 22664 22675	DeLong test
+T734	Disease 22764 22769	NAFLD
+T735	Disease 22814 22842	nonalcoholic steatohepatitis
+T736	Disease 22844 22848	NASH
+T737	DietPattern 22909 22926	high carbohydrate
+T738	DietPattern 22928 22930	HC
+T739	DietPattern 22936 22952	low carbohydrate
+T740	DietPattern 22954 22956	LC
+T741	Microorganism 23044 23059	Ruminococcaceae
+T742	Microorganism 23064 23082	Enterobacteriaceae
+T743	Gene 23098 23104	SREBF2
+T744	Gene 23106 23111	SIRT1
+T745	Gene 23117 23121	mTOR
+T746	Enzyme 23148 23151	ALT
+T747	Enzyme 23153 23156	AST
+T748	Measurement 23158 23166	adipo-IR
+T749	Measurement 23168 23175	HOMA-IR
+T750	Chemical 23177 23184	insulin
+T751	Chemical 23186 23189	FFA
+T752	Measurement 23195 23198	BMI
+T753	Methodology 23222 23247	kernel causality analysis
+T754	Methodology 23303 23312	Cytoscape
+T755	DietPattern 23348 23350	HC
+T756	DietPattern 23359 23361	LC
+T757	Methodology 23669 23694	kernel causality analysis
+T758	DietPattern 23933 23935	HC
+T759	DietPattern 23940 23942	LC
+T760	Population 23940 23949	LC groups
+T761	Population 23972 23980	HC group
+T762	DietPattern 23972 23974	HC
+T763	POS_ASSOCIATED_WITH 23996 24014	positive causation
+T764	Measurement 24067 24074	HOMA-IR
+T765	Measurement 24079 24087	adipo-IR
+T766	Enzyme 24123 24126	ALT
+T767	Enzyme 24128 24150	aspartate transaminase
+T768	Enzyme 24152 24155	AST
+T769	Enzyme 24162 24188	gamma-glutamyl transferase
+T770	Enzyme 24190 24193	GGT
+T771	POS_ASSOCIATED_WITH 24220 24238	positive causation
+T772	Microorganism 24264 24282	Enterobacteriaceae
+T773	Gene 24304 24310	SREBF2
+T774	Microorganism 24317 24335	Enterobacteriaceae
+T775	Gene 24340 24346	SREBF2
+T776	Gene 24373 24378	SIRT1
+T777	Methodology 21065 21110	receiver-operating characteristic (ROC) curve
+T779	Methodology 21619 21630	DeLong test
+T780	Methodology 22389 22400	DeLong test
+T782	Chemical 24289 24302	DNL regulator
+T783	DECREASES 24364 24372	reducing
+T785	Measurement 24093 24113	liver damage markers
+T786	Measurement 24023 24057	insulin resistance-related markers
+T6411	Measurement 122 142	NAFLD activity score
+E5	ASSOCIATED_WITH:T52 Theme:T232 Theme2:T53
+E7	WORSENS:T147 Theme:T403 Agent:T399
+E8	INCREASES:T150 Theme:T404 Agent:T399
+E11	INCREASES:T317 Theme:T611 Agent:T614
+E13	DECREASES:T356 Theme:T612 Agent:T614
+E14	DECREASES:T618 Theme:T615 Agent:T622
+E15	DECREASES:T618 Theme:T616 Agent:T622
+E16	INCREASES:T625 Agent:T622 Theme:T619
+E19	ASSOCIATED_WITH:T377 Theme:T657 Theme2:T658
+E23	POS_ASSOCIATED_WITH:T194 Agent:T193 Theme:T197
+E24	POS_ASSOCIATED_WITH:T194 Agent:T193 Theme:T198
+E25	POS_ASSOCIATED_WITH:T194 Agent:T193 Theme:T199
+E26	POS_ASSOCIATED_WITH:T194 Agent:T193 Theme:T200
+E27	AFFECTS:T206 Theme:T205 Agent:T214
+E28	AFFECTS:T206 Theme:T205 Agent:T213
+E29	POS_ASSOCIATED_WITH:T218 Agent:T212 Theme:T211
+E30	INCREASES:T226 Agent:T221 Theme:T222
+E31	INCREASES:T226 Agent:T221 Theme:T223
+E32	INCREASES:T226 Agent:T221 Theme:T224
+E33	INCREASES:T226 Agent:T221 Theme:T225
+E34	WORSENS:T228 Agent:T221 Theme:T229
+E35	POS_ASSOCIATED_WITH:T231 Agent:T230 Theme:T232
+E37	POS_ASSOCIATED_WITH:T237 Agent:T239 Theme:T238
+E38	POS_ASSOCIATED_WITH:T257 Theme:T254 Agent:T258
+E39	POS_ASSOCIATED_WITH:T242 Theme:T246 Agent:T248
+E40	POS_ASSOCIATED_WITH:T242 Theme:T244 Agent:T248
+E41	POS_ASSOCIATED_WITH:T257 Theme:T255 Agent:T258
+E42	POS_ASSOCIATED_WITH:T280 Theme:T266 Agent:T265
+E43	POS_ASSOCIATED_WITH:T281 Theme:T273 Agent:T272
+E44	POS_ASSOCIATED_WITH:T280 Theme:T267 Agent:T265
+E45	POS_ASSOCIATED_WITH:T280 Theme:T268 Agent:T265
+E46	POS_ASSOCIATED_WITH:T280 Theme:T269 Agent:T265
+E47	POS_ASSOCIATED_WITH:T281 Theme:T274 Agent:T272
+E56	DECREASES:T351 Theme:T352 Agent:T358
+E57	INCREASES:T353 Theme:T354 Agent:T358
+E58	WORSENS:T355 Agent:T358 Theme:T367
+E59	INCREASES:T359 Theme:T360 Agent:T361
+E62	DECREASES:T401 Theme:T400 Agent:T399
+E63	POS_ASSOCIATED_WITH:T447 Agent:T422 Theme:T424
+E64	POS_ASSOCIATED_WITH:T447 Agent:T422 Theme:T425
+E65	POS_ASSOCIATED_WITH:T447 Agent:T422 Theme:T426
+E66	ASSOCIATED_WITH:T489 Theme:T488 Agent:T490
+E67	POS_ASSOCIATED_WITH:T235 Theme:T495 Agent:T496
+E68	INCREASES:T508 Agent:T499 Theme:T495
+E69	INCREASES:T508 Agent:T500 Theme:T495
+E72	ASSOCIATED_WITH:T535 Theme:T530 Theme2:T531
+E73	ASSOCIATED_WITH:T556 Theme:T551 Theme2:T552
+E75	POS_ASSOCIATED_WITH:T562 Agent:T561 Theme:T563
+E76	INCREASES:T564 Theme:T563 Agent:T565
+E77	NEG_ASSOCIATED_WITH:T583 Agent:T584 Theme:T581
+E80	NEG_ASSOCIATED_WITH:T583 Agent:T584 Theme:T582
+E81	POS_ASSOCIATED_WITH:T588 Agent:T589 Theme:T586
+E82	POS_ASSOCIATED_WITH:T588 Agent:T589 Theme:T587
+E83	NEG_ASSOCIATED_WITH:T595 Agent:T596 Theme:T592
+E84	POS_ASSOCIATED_WITH:T599 Agent:T600 Theme:T597
+E85	NEG_ASSOCIATED_WITH:T595 Agent:T596 Theme:T593
+E86	NEG_ASSOCIATED_WITH:T595 Agent:T596 Theme:T594
+E87	POS_ASSOCIATED_WITH:T599 Agent:T600 Theme:T598
+E88	POS_ASSOCIATED_WITH:T605 Theme:T603 Agent:T601
+E89	NEG_ASSOCIATED_WITH:T606 Theme:T604 Agent:T601
+E90	DECREASES:T618 Theme:T617 Agent:T622
+E91	INCREASES:T625 Agent:T622 Theme:T620
+E92	ASSOCIATED_WITH:T652 Theme:T650 Theme2:T651
+E93	ASSOCIATED_WITH:T665 Theme2:T663 Theme:T662
+E94	POS_ASSOCIATED_WITH:T763 Agent:T762 Theme:T764
+E95	POS_ASSOCIATED_WITH:T771 Agent:T762 Theme:T772
+E99	POS_ASSOCIATED_WITH:T763 Agent:T762 Theme:T765
+E100	POS_ASSOCIATED_WITH:T763 Agent:T762 Theme:T766
+E101	POS_ASSOCIATED_WITH:T763 Agent:T762 Theme:T767
+E102	POS_ASSOCIATED_WITH:T763 Agent:T762 Theme:T769
+E103	POS_ASSOCIATED_WITH:T771 Agent:T762 Theme:T773
+E104	DECREASES:T783 Agent:T774 Theme:T776
+E105	DECREASES:T783 Agent:T775 Theme:T776
+E2111	POS_ASSOCIATED_WITH:T194 Agent:T193 Theme:T195
+E2211	POS_ASSOCIATED_WITH:T194 Agent:T193 Theme:T196
+A1	Unknown E75
+A3	Negated E28
+A4	Unknown E92
+A5	Unknown E43
+A9	Unknown E47
+A18	Negated E66
+A211	Negated E27
+A215	Factual E5
+A217	Factual E7
+A218	Factual E8
+A221	Factual E11
+A223	Factual E13
+A224	Factual E14
+A225	Factual E15
+A226	Factual E16
+A229	Factual E19
+A233	Factual E23
+A234	Factual E24
+A235	Factual E25
+A236	Factual E26
+A237	Factual E29
+A238	Factual E30
+A239	Factual E31
+A240	Factual E32
+A241	Factual E33
+A242	Factual E34
+A243	Factual E35
+A244	Factual E37
+A245	Factual E38
+A246	Factual E39
+A247	Factual E40
+A248	Factual E41
+A249	Factual E42
+A250	Factual E44
+A251	Factual E45
+A252	Factual E46
+A253	Factual E56
+A254	Factual E57
+A255	Factual E58
+A256	Factual E59
+A257	Factual E62
+A258	Factual E63
+A259	Factual E64
+A260	Factual E65
+A261	Factual E67
+A262	Factual E68
+A263	Factual E69
+A264	Factual E72
+A265	Factual E73
+A266	Factual E76
+A267	Factual E77
+A268	Factual E80
+A269	Factual E81
+A270	Factual E82
+A271	Factual E83
+A272	Factual E84
+A273	Factual E85
+A274	Factual E86
+A275	Factual E87
+A276	Factual E88
+A277	Factual E89
+A278	Factual E90
+A279	Factual E91
+A280	Factual E93
+A281	Factual E94
+A282	Factual E95
+A283	Factual E99
+A284	Factual E100
+A285	Factual E101
+A286	Factual E102
+A287	Factual E103
+A288	Factual E104
+A289	Factual E105
+A290	Factual E2111
+A291	Factual E2211

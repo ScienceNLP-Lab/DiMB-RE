@@ -1,0 +1,82 @@
+T1	Nutrient 10 24	dietary inulin
+T2	Physiology 44 72	inflammation of pouch mucosa
+T4	Biospecimen 273 278	fecal
+T5	Population 76 121	patients with an ileal pouch-anal anastomosis
+T6	Physiology 133 145	Inflammation
+T7	Population 194 239	patients with an ileal pouch-anal anastomosis
+T8	Methodology 93 121	ileal pouch-anal anastomosis
+T9	IMPROVES 1347 1356	reduction
+T10	Metabolite 410 430	secondary bile acids
+T11	Physiology 344 352	fecal pH
+T12	ASSOCIATED_WITH 247 262	associated with
+T13	Metabolite 301 323	short chain fatty acid
+T14	Metabolite 324 332	butyrate
+T16	Nutrient 453 459	inulin
+T17	Nutrient 463 476	dietary fiber
+T18	Metabolite 494 517	short chain fatty acids
+T19	Physiology 539 541	pH
+T20	INTERACTS_WITH 481 490	fermented
+T21	AFFECTS 645 651	effect
+T22	Nutrient 682 688	inulin
+T23	Physiology 692 727	inflammation of the ileal reservoir
+T24	Nutrient 771 777	inulin
+T25	Methodology 819 861	randomized, double-blind, crossover design
+T26	DECREASES 533 538	lower
+T27	Biospecimen 863 869	Stools
+T28	Biospecimen 344 349	fecal
+T29	Biospecimen 365 370	fecal
+T30	Physiology 911 913	pH
+T31	Metabolite 915 938	short chain fatty acids
+T32	Metabolite 956 966	bile acids
+T33	Physiology 968 980	Inflammation
+T34	Nutrient 1126 1132	inulin
+T35	INCREASES 1133 1142	increased
+T36	Metabolite 1143 1151	butyrate
+T37	DECREASES 1168 1175	lowered
+T38	Physiology 1176 1178	pH
+T39	DECREASES 1180 1189	decreased
+T40	Microorganism 1201 1221	Bacteroides fragilis
+T41	DECREASES 1227 1237	diminished
+T42	Metabolite 1256 1276	secondary bile acids
+T43	Biospecimen 1280 1285	feces
+T44	Physiology 1360 1409	inflammation of the mucosa of the ileal reservoir
+T45	Methodology 994 1008	endoscopically
+T46	Nutrient 1431 1437	inulin
+T47	IMPROVES 1465 1473	decrease
+T49	Physiology 1477 1489	inflammation
+T50	IMPROVES 1518 1527	reduction
+T51	Physiology 1531 1559	inflammation of pouch mucosa
+T52	Methodology 1010 1024	histologically
+T53	Methodology 1030 1040	clinically
+T54	Methodology 1296 1310	endoscopically
+T55	Methodology 1315 1329	histologically
+T57	Methodology 211 239	ileal pouch-anal anastomosis
+T58	AFFECTS 0 6	Effect
+E2	ASSOCIATED_WITH:T12 Theme:T14 Theme2:T6
+E3	ASSOCIATED_WITH:T12 Theme:T11 Theme2:T6
+E4	ASSOCIATED_WITH:T12 Theme:T10 Theme2:T6
+E5	INTERACTS_WITH:T20 Theme:T16 Theme2:T18
+E6	AFFECTS:T21 Agent:T22 Theme:T23
+E7	DECREASES:T26 Agent:T16 Theme:T19
+E8	INCREASES:T35 Agent:T34 Theme:T36
+E9	DECREASES:T37 Theme:T38 Agent:T34
+E10	DECREASES:T39 Theme:T40 Agent:T34
+E11	DECREASES:T41 Theme:T42 Agent:T34
+E12	IMPROVES:T47 Agent:T46 Theme:T49
+E13	IMPROVES:T50 Theme:T51 Agent:T46
+E15	AFFECTS:T58 Agent:T1 Theme:T2
+E16	IMPROVES:T9 Agent:T34 Theme:T44
+A1	Unknown E6
+A2	Unknown E15
+A3	Factual E2
+A4	Factual E3
+A5	Factual E4
+A6	Factual E5
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E16

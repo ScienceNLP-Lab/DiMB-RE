@@ -1,0 +1,13 @@
+Walnuts and Vegetable Oils Containing Oleic Acid Differentially Affect the Gut Microbiota and Associations with Cardiovascular Risk Factors: Follow-up of a Randomized, Controlled, Feeding Trial in Adults at Risk for Cardiovascular Disease
+
+ABSTRACT
+Background
+It is unclear whether the favorable effects of walnuts on the gut microbiota are attributable to the fatty acids, including α-linolenic acid (ALA), and/or the bioactive compounds and fiber.
+Objective
+This study examined between-diet gut bacterial differences in individuals at increased cardiovascular risk following diets that replace SFAs with walnuts or vegetable oils.
+Methods
+Forty-two adults at cardiovascular risk were included in a randomized, crossover, controlled-feeding trial that provided a 2-wk standard Western diet (SWD) run-in and three 6-wk isocaloric study diets: a diet containing whole walnuts (WD; 57–99 g/d walnuts; 2.7% ALA), a fatty acid–matched diet devoid of walnuts (walnut fatty acid–matched diet; WFMD; 2.6% ALA), and a diet replacing ALA with oleic acid without walnuts (oleic acid replaces ALA diet; ORAD; 0.4% ALA). Fecal samples were collected following the run-in and study diets to assess gut microbiota with 16S rRNA sequencing and Qiime2 for amplicon sequence variant picking.
+Results
+Subjects had elevated BMI (30 ± 1 kg/m2), blood pressure (121 ± 2/77 ± 1 mmHg), and LDL cholesterol (120 ± 5 mg/dL). Following the WD, Roseburia [relative abundance (RA) = 4.2%, linear discriminant analysis (LDA) = 4], Eubacterium eligensgroup (RA = 1.4%, LDA = 4), LachnospiraceaeUCG001 (RA = 1.2%, LDA = 3.2), Lachnospiraceae UCG004 (RA = 1.0%, LDA = 3), and Leuconostocaceae (RA = 0.03%, LDA = 2.8) were most abundant relative to taxa in the SWD (P ≤ 0.05 for all). The WD was also enriched in Gordonibacter relative to the WFMD. Roseburia (3.6%, LDA = 4) and Eubacterium eligensgroup (RA = 1.5%, LDA = 3.4) were abundant following the WFMD, and Clostridialesvadin BB60group (RA = 0.3%, LDA = 2) and gutmetagenome (RA = 0.2%, LDA = 2) were most abundant following the ORAD relative to the SWD (P ≤ 0.05 for all). Lachnospiraceae were inversely correlated with blood pressure and lipid/lipoprotein measurements following the WD.
+Conclusions
+The results indicate similar enrichment of Roseburia following the WD and WFMD, which could be explained by the fatty acid composition. Gordonibacter enrichment and the inverse association between Lachnospiraceae and cardiovascular risk factors following the WD suggest that the gut microbiota may contribute to the health benefits of walnut consumption in adults at cardiovascular risk. This trial was registered at clinicaltrials.gov as NCT02210767.

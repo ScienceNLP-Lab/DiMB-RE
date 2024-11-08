@@ -1,0 +1,46 @@
+T1	Microorganism 1182 1196	Actinobacteria
+T2	Nutrient 1625 1630	fiber
+T3	Methodology 763 834	randomized, double-blind, placebo-controlled, 3-period, crossover trial
+T4	Nutrient 309 321	Agave inulin
+T5	Nutrient 627 639	agave inulin
+T6	Methodology 1142 1165	16S Illumina sequencing
+T7	Nutrient 917 929	agave inulin
+T8	Microorganism 1201 1216	Bifidobacterium
+T9	Nutrient 1367 1379	agave inulin
+T10	Nutrient 1403 1415	Agave inulin
+T11	DECREASES 1437 1443	reduce
+T12	Methodology 1472 1494	Bivariate correlations
+T13	POS_ASSOCIATED_WITH 1506 1526	positive association
+T14	Nutrient 1546 1558	agave inulin
+T15	Microorganism 1572 1587	Bifidobacterium
+T16	Nutrient 1948 1960	Agave inulin
+T17	POS_ASSOCIATED_WITH 1709 1730	positively associated
+T18	Metabolite 1736 1750	fecal butyrate
+T19	POS_ASSOCIATED_WITH 1787 1808	positively associated
+T20	Microorganism 1814 1829	Bifidobacterium
+T21	Nutrient 0 12	Agave Inulin
+T22	Population 61 75	Healthy Adults
+T23	Methodology 95 156	Randomized, Double-Blind, Placebo-Controlled, Crossover Trial
+T24	Food 171 181	Prebiotics
+T25	Population 587 601	healthy adults
+T26	Metabolite 1444 1463	fecal 4-methyphenol
+T29	Nutrient 1673 1685	agave inulin
+T30	Population 2045 2059	healthy adults
+T36	INCREASES 1222 1230	enriched
+T37	DECREASES 1349 1357	depleted
+T38	Microorganism 1330 1343	Desulfovibrio
+T39	Physiology 1444 1449;1468 1470	fecal pH
+T40	NEG_ASSOCIATED_WITH 1860 1881	negatively correlated
+T41	Microorganism 1887 1900	Desulfovibrio
+T44	Nutrient 1277 1289	agave inulin
+T45	Population 853 867	healthy adults
+T52	Biospecimen 1020 1033	fecal samples
+E1	INCREASES:T36 Theme:T1 Agent:T44
+E2	DECREASES:T11 Agent:T10 Theme:T26
+E4	POS_ASSOCIATED_WITH:T17 Theme:T18 Agent:T29
+E5	POS_ASSOCIATED_WITH:T19 Theme:T20 Agent:T29
+E11	INCREASES:T36 Theme:T8 Agent:T44
+E13	DECREASES:T37 Agent:T9 Theme:T38
+E14	DECREASES:T11 Agent:T10 Theme:T39
+E15	NEG_ASSOCIATED_WITH:T40 Theme:T41 Agent:T29
+E19	POS_ASSOCIATED_WITH:T13 Theme:T15 Agent:T14

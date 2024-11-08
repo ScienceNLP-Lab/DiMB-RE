@@ -1,0 +1,261 @@
+T1	Methodology 131 181	Randomized, Double-Blind, Placebo-Controlled Study
+T2	Population 185 201	Healthy Subjects
+T3	Measurement 103 127	Markers of Immune System
+T4	Nutrient 64 74	Probiotics
+T5	Methodology 312 371	randomized, double-blind, placebo-controlled clinical study
+T6	Nutrient 30744 30753	synbiotic
+T7	Microorganism 443 456	Lactobacillus
+T8	Microorganism 466 478	L. plantarum
+T9	Microorganism 483 497	L. acidophilus
+T10	Microorganism 507 522	Bifidobacterium
+T11	Microorganism 531 556	B. animalis subsp. lactis
+T12	Nutrient 575 583	fructans
+T13	Nutrient 585 608	fructo-oligosaccharides
+T14	Nutrient 706 715	synbiotic
+T15	Nutrient 652 672	inulin-type fructans
+T16	Nutrient 862 871	synbiotic
+T17	Population 734 750	healthy subjects
+T18	Nutrient 11 34	Inulin-Based Prebiotics
+T19	DiversityMetric 965 973	richness
+T20	Nutrient 1009 1019	prebiotics
+T21	INCREASES 897 903	higher
+T22	POS_ASSOCIATED_WITH 1053 1068	positive effect
+T23	Metabolite 1161 1184	short-chain fatty acids
+T24	Chemical 1443 1455	calprotectin
+T25	Nutrient 32868 32877	synbiotic
+T26	Chemical 1421 1438	fecal β-defensin2
+T27	AFFECTS 32898 32908	influenced
+T28	Chemical 1543 1555	salivary IgA
+T29	Measurement 1573 1604	antioxidant capacity biomarkers
+T30	Nutrient 33902 33911	synbiotic
+T31	Nutrient 405 426	synbiotic formulation
+T32	HAS_COMPONENT 427 435	composed
+T33	Microorganism 36567 36582	Bifidobacterium
+T34	AFFECTS 0 7	Effects
+T35	IMPROVES 1210 1222	amelioration
+T36	Microorganism 36786 36799	Lactobacillus
+T37	Microorganism 36804 36819	Bifidobacterium
+T38	Methodology 27223 27238	DADA2 filtering
+T39	Microorganism 27572 27582	Firmicutes
+T40	Microorganism 27584 27597	Bacteroidetes
+T41	Microorganism 27599 27613	Proteobacteria
+T42	Microorganism 27615 27630	Verrucomicrobia
+T43	Microorganism 27632 27646	Actinobacteria
+T44	Microorganism 27890 27901	Bacteroides
+T45	Microorganism 27903 27919	Faecalibacterium
+T46	Microorganism 27921 27931	Prevotella
+T47	Microorganism 27933 27942	Alistipes
+T48	Microorganism 27944 27959	Subdoligranulum
+T49	Microorganism 27961 27972	Akkermansia
+T50	Microorganism 27974 27983	Roseburia
+T51	Microorganism 27985 27992	Blautia
+T52	Microorganism 27994 28005	Lachnospira
+T53	Microorganism 28011 28032	Phascolarctobacterium
+T54	Microorganism 28130 28142	Ruminococcus
+T55	Microorganism 28144 28155	Eubacterium
+T56	Microorganism 28157 28166	Veionella
+T57	Microorganism 28168 28173	Dorea
+T58	Microorganism 28175 28189	Butyricicoccus
+T59	Microorganism 28191 28204	Lactobacillus
+T60	Microorganism 28210 28225	Bifidobacterium
+T61	Population 28790 28806	Elderly Subjects
+T62	DiversityMetric 28848 28863	alpha diversity
+T63	Methodology 29065 29094	Mann-Whitney signed-rank test
+T64	Methodology 29290 29304	Faith PD value
+T65	Nutrient 29377 29386	synbiotic
+T66	Nutrient 29401 29410	prebiotic
+T67	Methodology 29861 29878	Mann-Whitney test
+T68	Methodology 29927 29944	Mann-Whitney test
+T69	Methodology 30117 30131	Faith PD value
+T70	Methodology 30348 30362	Faith PD value
+T71	Measurement 31041 31050	MAZ score
+T72	Measurement 31123 31132	MAZ score
+T73	Nutrient 31338 31347	prebiotic
+T74	Nutrient 31366 31375	synbiotic
+T75	Measurement 31477 31487	MAZ scores
+T76	Measurement 31669 31678	MAZ score
+T77	Nutrient 31707 31716	synbiotic
+T78	Population 31707 31722	synbiotic group
+T79	Population 31739 31754	prebiotic group
+T80	Nutrient 31739 31748	prebiotic
+T81	Nutrient 31815 31824	synbiotic
+T82	Microorganism 32250 32261	Bacteroides
+T83	Microorganism 32263 32272	Alistipes
+T84	Microorganism 32274 32281	Blautia
+T85	Microorganism 32283 32294	Lachnospira
+T86	Microorganism 32296 32305	Roseburia
+T87	Microorganism 32307 32323	Faecalibacterium
+T88	Microorganism 32329 32344	Subdoligranulum
+T89	Microorganism 32521 32532	Bacteroides
+T90	Microorganism 32558 32578	Subdoligranulum_5538
+T91	Microorganism 32651 32663	Blautia_2926
+T92	Microorganism 32665 32681	Lachnospira_1103
+T93	Microorganism 32683 32703	Lachnospiraceae_4093
+T94	Microorganism 32709 32723	Roseburia_6213
+T95	Microorganism 32783 32799	Faecalibacterium
+T96	Microorganism 32909 32925	Faecalibacterium
+T97	Microorganism 33105 33119	Alistipes_4404
+T98	Microorganism 33121 33137	Bacteroides_2258
+T99	Microorganism 33143 33163	Subdoligranulum_5538
+T100	Methodology 34046 34063	Mann-Whitney test
+T101	Microorganism 34197 34208	Akkermansia
+T102	Microorganism 34210 34225	Bifidobacterium
+T103	Microorganism 34227 34234	Blautia
+T104	Microorganism 34236 34252	Faecalibacterium
+T105	Microorganism 34254 34264	Prevotella
+T106	Microorganism 34266 34275	Roseburia
+T107	Microorganism 34281 34293	Ruminococcus
+T108	Nutrient 34775 34784	synbiotic
+T109	Population 33902 33917	synbiotic group
+T110	Nutrient 33683 33692	synbiotic
+T111	Nutrient 33389 33398	Synbiotic
+T112	Microorganism 35163 35175	Blautia_0075
+T113	Microorganism 35177 35198	Faecalibacterium_1240
+T114	Microorganism 35200 35221	Faecalibacterium_7448
+T115	Microorganism 35223 35242	Ruminococcus 1_2436
+T116	Microorganism 35244 35263	Ruminococcus 2_1431
+T117	Microorganism 35269 35288	Ruminococcus 2_3960
+T118	Nutrient 35369 35378	synbiotic
+T119	INCREASES 35404 35412	increase
+T120	Microorganism 35435 35455	Bifidobacterium_3652
+T121	Microorganism 35457 35474	Prevotella 9_2238
+T122	Microorganism 35457 35469;35480 35485	Prevotella 9 _4937
+T123	Nutrient 35499 35508	prebiotic
+T124	Nutrient 35610 35619	prebiotic
+T125	Nutrient 35891 35900	prebiotic
+T126	Nutrient 35946 35955	prebiotic
+T127	Nutrient 36218 36227	synbiotic
+T128	Metabolite 36420 36424	SCFA
+T129	Nutrient 36455 36464	Synbiotic
+T130	Microorganism 36468 36485	Lactobacillus spp
+T131	Microorganism 36491 36510	Bifidobacterium spp
+T132	AFFECTS 36441 36447	Effect
+T133	Microorganism 36549 36562	Lactobacillus
+T134	Microorganism 36864 36879	Bifidobacterium
+T135	Nutrient 36905 36914	synbiotic
+T136	INCREASES 36885 36894	increased
+T137	Nutrient 36971 36980	prebiotic
+T138	Microorganism 37004 37017	Lactobacillus
+T139	Microorganism 37022 37037	Bifidobacterium
+T140	INCREASES 36935 36949	similar effect
+T141	Nutrient 37298 37308	probiotics
+T142	Nutrient 37333 37342	synbiotic
+T143	Microorganism 37349 37378	Lactiplantibacillus plantarum
+T144	Microorganism 37380 37405	Lactobacillus acidophilus
+T145	Microorganism 37411 37449	Bifidobacterium animalis subsp. lactis
+T146	Methodology 37537 37550	qPCR analysis
+T147	Methodology 37642 37655	qPCR analysis
+T148	Microorganism 37765 37777	L. plantarum
+T149	Microorganism 37779 37793	L. acidophilus
+T150	Microorganism 37799 37808	B. lactis
+T151	Nutrient 38004 38013	synbiotic
+T152	Microorganism 38085 38097	L. plantarum
+T153	Microorganism 38119 38128	B. lactis
+T154	INCREASES 38068 38074	higher
+T155	Microorganism 38233 38245	L. plantarum
+T156	Microorganism 38250 38259	B. lactis
+T157	Microorganism 38349 38361	L. plantarum
+T158	Microorganism 38375 38384	B. lactis
+T159	Microorganism 38424 38436	L. plantarum
+T160	Microorganism 38449 38458	B. lactis
+T161	Microorganism 38522 38536	L. acidophilus
+T162	Microorganism 38728 38740	L. plantarum
+T163	Microorganism 38873 38887	L. acidophilus
+T164	Microorganism 38892 38901	B. lactis
+T165	Microorganism 38953 38962	B. lactis
+T166	Nutrient 39043 39052	synbiotic
+T167	Microorganism 39080 39093	Lactobacillus
+T168	Microorganism 39098 39113	Bifidobacterium
+T169	INCREASES 39068 39075	enhance
+T170	Nutrient 39226 39235	synbiotic
+T171	Nutrient 40665 40674	synbiotic
+T172	Disease 39345 39370	Common Infectious Disease
+T173	Disease 39398 39423	common infectious disease
+T174	Disease 39425 39428	CID
+T175	Disease 39680 39683	CID
+T176	Disease 39788 39791	CID
+T177	Disease 39951 39954	CID
+T178	Disease 40154 40157	CID
+T179	Disease 40371 40374	CID
+T180	Nutrient 40400 40409	synbiotic
+T181	Nutrient 40456 40465	prebiotic
+T182	Disease 40561 40564	CID
+T183	Disease 40718 40721	CID
+T184	IMPROVES 40692 40714	reducing the incidence
+T185	Disease 40781 40784	CID
+T186	Nutrient 40959 40968	prebiotic
+T187	Nutrient 41233 41242	synbiotic
+T188	Chemical 41419 41437	fecal calprotectin
+T189	Chemical 41443 41460	fecal β-defensin2
+T190	Chemical 41466 41478	salivary IgA
+T191	Measurement 41488 41500	salivary TAC
+T192	Chemical 41589 41607	fecal calprotectin
+T193	Nutrient 41797 41806	synbiotic
+T194	Chemical 41889 41901	calprotectin
+T195	Chemical 41962 41974	calprotectin
+T196	Nutrient 41985 41994	prebiotic
+T197	Chemical 42112 42124	calprotectin
+T198	Chemical 42172 42189	fecal β-defensin2
+T199	Nutrient 42282 42291	synbiotic
+T200	Chemical 42336 42347	β-defensin2
+T201	Nutrient 42768 42777	synbiotic
+T202	Nutrient 42794 42803	prebiotic
+T203	Chemical 43076 43079	IgA
+T204	Chemical 43100 43123	reactive oxygen species
+T205	Physiology 43151 43161	senescence
+T206	Chemical 43179 43191	salivary IgA
+T207	Nutrient 43246 43255	synbiotic
+T208	INCREASES 43223 43232	increased
+T209	Nutrient 43502 43511	prebiotic
+T210	DECREASES 43518 43527	decreased
+T211	Measurement 43575 43578	TAC
+T212	Nutrient 43679 43688	synbiotic
+T213	INCREASES 43727 43735	increase
+T214	Measurement 43739 43742	TAC
+T2311	Population 25381 25431	Caucasian healthy elderly male and female subjects
+T2411	Nutrient 25507 25528	prebiotic formulation
+T2511	Nutrient 25542 25563	synbiotic formulation
+T2611	Population 25873 25888	synbiotic group
+T2711	Population 25916 25931	prebiotic group
+T2811	Population 26048 26063	synbiotic group
+T2911	Population 26091 26106	prebiotic group
+T3011	Nutrient 25873 25882	synbiotic
+T3111	Nutrient 26048 26057	synbiotic
+T3211	Nutrient 25916 25925	prebiotic
+T3311	Nutrient 26091 26100	prebiotic
+T3411	Measurement 25996 26011	Body Mass Index
+T3511	Measurement 26013 26016	BMI
+T3611	Biospecimen 27032 27037	fecal
+T3711	Methodology 27137 27156	16S rDNA sequencing
+E1	AFFECTS:T27 Agent:T25 Theme:T96
+E2	AFFECTS:T34 Agent:T18 Theme:T3
+E3	INCREASES:T21 Agent:T16 Theme:T19
+E4	POS_ASSOCIATED_WITH:T22 Theme:T23 Agent:T16
+E5	HAS_COMPONENT:T32 Agent:T31 Theme:T8
+E6	HAS_COMPONENT:T32 Agent:T31 Theme:T9
+E7	HAS_COMPONENT:T32 Agent:T31 Theme:T11
+E8	AFFECTS:T132 Agent:T129 Theme:T131
+E9	HAS_COMPONENT:T32 Agent:T31 Theme:T13
+E10	HAS_COMPONENT:T32 Agent:T31 Theme:T15
+E11	IMPROVES:T35 Theme:T26 Agent:T16
+E12	IMPROVES:T35 Theme:T24 Agent:T16
+E13	IMPROVES:T35 Theme:T28 Agent:T16
+E14	IMPROVES:T35 Theme:T29 Agent:T16
+E15	INCREASES:T136 Agent:T135 Theme:T134
+E16	INCREASES:T140 Agent:T137 Theme:T139
+E17	INCREASES:T140 Agent:T137 Theme:T138
+E18	INCREASES:T154 Theme:T152 Agent:T151
+E19	INCREASES:T154 Theme:T153 Agent:T151
+E20	INCREASES:T169 Theme:T168 Agent:T166
+E21	INCREASES:T169 Agent:T166 Theme:T167
+E22	IMPROVES:T184 Agent:T171 Theme:T183
+E23	INCREASES:T208 Agent:T207 Theme:T206
+E24	DECREASES:T210 Agent:T209 Theme:T206
+E25	INCREASES:T213 Theme:T214 Agent:T212
+E611	INCREASES:T119 Agent:T118 Theme:T120
+E711	INCREASES:T119 Agent:T118 Theme:T121
+E811	INCREASES:T119 Agent:T118 Theme:T122
+E911	AFFECTS:T132 Agent:T129 Theme:T130
+A1	Factuality E8 Unknown
+A2	Factuality E2 Unknown
+A3	Factuality E911 Unknown

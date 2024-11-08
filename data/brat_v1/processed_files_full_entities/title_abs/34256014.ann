@@ -1,0 +1,34 @@
+T1	Measurement 39 58	human immune status
+T2	Physiology 1216 1228	inflammation
+T3	Physiology 125 138	immune system
+T4	Nutrient 211 228	plant-based fiber
+T5	Food 233 248	fermented foods
+T6	Population 302 316	healthy adults
+T7	Methodology 334 363	randomized, prospective study
+T8	Physiology 285 298	immune system
+T9	DietPattern 509 524	high-fiber diet
+T10	INCREASES 525 534	increased
+T11	DietPattern 766 776	high-fiber
+T12	DietPattern 853 877	high-fermented-food diet
+T13	IMPROVES 1156 1166	countering
+T14	AFFECTS 250 259	influence
+T15	Methodology 455 471	immune profiling
+T16	Enzyme 571 598	carbohydrate active enzymes
+T17	Methodology 391 410	-omics measurements
+T18	Enzyme 600 607	CAZymes
+T19	Measurement 932 952	inflammatory markers
+T20	DECREASES 922 931	decreased
+T21	Nutrient 554 560	glycan
+T22	Measurement 664 687	cytokine response score
+T23	Physiology 664 681	cytokine response
+T30	Food 1121 1136	Fermented foods
+E1	INCREASES:T10 Agent:T9 Theme:T16
+E2	DECREASES:T20 Theme:T19 Agent:T12
+E3	IMPROVES:T13 Agent:T30 Theme:T2
+E4	AFFECTS:T14 Agent:T4 Theme:T8
+E5	AFFECTS:T14 Agent:T5 Theme:T8
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5

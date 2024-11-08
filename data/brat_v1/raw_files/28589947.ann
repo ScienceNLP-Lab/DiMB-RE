@@ -1,0 +1,59 @@
+T1	Physiology 46 64	metabolic response
+T2	Nutrient 85 95	polyphenol
+T3	Population 115 139	overweight men and women
+T4	Disease 115 125	overweight
+T5	Nutrient 264 275	polyphenols
+T6	AFFECTS 276 282	affect
+T7	Physiology 283 304	substrate utilization
+T8	Physiology 526 544	metabolic response
+T9	Nutrient 360 370	polyphenol
+T10	Nutrient 548 558	polyphenol
+T11	Methodology 602 658	randomized, double-blind, placebo (PLA)-controlled trial
+T12	Disease 663 673	overweight
+T13	Disease 678 683	obese
+T14	Population 663 697	overweight and obese men and women
+T15	Measurement 736 751	body mass index
+T16	Nutrient 785 811	epigallocatechin-3-gallate
+T17	Nutrient 816 827	resveratrol
+T18	Nutrient 829 837	EGCG+RES
+T19	Biospecimen 924 929	feces
+T20	Physiology 990 1003	Fat oxidation
+T21	Methodology 1020 1040	indirect calorimetry
+T22	Methodology 1050 1074	high-fat mixed meal test
+T23	Physiology 1104 1152	skeletal muscle mitochondrial oxidative capacity
+T24	Methodology 1165 1220	ex vivo respirometry on isolated skeletal muscle fibers
+T25	Measurement 1222 1238	Body composition
+T26	Methodology 1255 1287	dual-energy X-ray absorptiometry
+T27	Microorganism 1317 1330	Bacteroidetes
+T28	Nutrient 1428 1436	EGCG+RES
+T29	DECREASES 1467 1476	decreased
+T30	Microorganism 1477 1490	Bacteroidetes
+T31	DECREASES 1505 1511	reduce
+T32	Microorganism 1512 1540	Faecalibacterium prausnitzii
+T33	Microorganism 1655 1668	Bacteroidetes
+T34	Nutrient 1702 1710	EGCG+RES
+T35	Population 702 707	males
+T36	Physiology 1731 1744	fat oxidation
+T37	POS_ASSOCIATED_WITH 1683 1693	predictive
+T38	Population 711 718	females
+T39	Population 1345 1348	men
+T40	Population 1366 1371	women
+T41	Population 1544 1547	men
+T42	Population 1593 1598	women
+T43	Population 1748 1751	men
+T44	Population 1763 1768	women
+T45	Nutrient 1826 1834	EGCG+RES
+T46	Nutrient 1894 1902	EGCG+RES
+T47	Population 1962 1965	men
+T48	Population 1977 1982	women
+T49	INCREASES 2031 2039	increase
+T50	Physiology 2043 2056	fat oxidation
+T51	Nutrient 2063 2071	EGCG+RES
+T52	Population 2091 2094	men
+T53	INCREASES 1711 1727	induced increase
+E1	AFFECTS:T6 Agent:T5 Theme:T7
+E2	DECREASES:T29 Agent:T28 Theme:T30
+E3	DECREASES:T31 Agent:T28 Theme:T32
+E4	INCREASES:T49 Theme:T50 Agent:T51
+E5	POS_ASSOCIATED_WITH:T37 Agent:T33 Theme:T36
+E6	INCREASES:T53 Theme:T36 Agent:T34

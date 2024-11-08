@@ -1,0 +1,37 @@
+T1	Metabolite 458 481	short chain fatty acids
+T2	Microorganism 549 560	Bacteroides
+T3	INCREASES 526 535	increased
+T4	INCREASES 430 439	increased
+T5	Nutrient 149 164	polysaccharides
+T6	Nutrient 29 44	polysaccharides
+T7	Microorganism 50 74	Gracilaria lemaneiformis
+T8	Physiology 1434 1455	microbial degradation
+T9	Nutrient 266 281	polysaccharides
+T10	ASSOCIATED_WITH 1404 1414	associated
+T11	Microorganism 287 311	Gracilaria lemaneiformis
+T12	Nutrient 313 317	GLPs
+T13	Microorganism 611 622	Bacteroides
+T17	Microorganism 713 724	Bacteroides
+T18	Microorganism 849 860	Bacteroides
+T19	Nutrient 864 868	GLPs
+T20	Nutrient 920 934	GLPs fragments
+T21	Microorganism 967 978	Bacteroides
+T22	Microorganism 1007 1018	Bacteroides
+T23	Nutrient 1052 1056	GLPs
+T24	Nutrient 1069 1091	GLPs-derived fragments
+T25	Nutrient 1103 1107	GLPs
+T26	Nutrient 1169 1183	GLPs fragments
+T27	Nutrient 1316 1331	polysaccharides
+T28	Nutrient 1459 1463	GLPs
+T29	INCREASES 957 963	growth
+T31	INTERACTS_WITH 1061 1065	live
+E1	INCREASES:T3 Theme:T2 Agent:T9
+E2	INCREASES:T4 Theme:T1 Agent:T9
+E3	ASSOCIATED_WITH:T10 Theme:T27 Theme2:T8
+E5	INCREASES:T29 Agent:T20 Theme:T21
+E6	INTERACTS_WITH:T31 Theme:T22 Theme2:T24
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E5
+A5	Factual E6

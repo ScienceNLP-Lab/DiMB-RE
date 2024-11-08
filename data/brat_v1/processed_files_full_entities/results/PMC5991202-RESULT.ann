@@ -1,0 +1,257 @@
+T48	ASSOCIATED_WITH 5924 5939	no associations
+T62	Food 275 281	walnut
+T63	Chemical 403 424	Serum LDL cholesterol
+T64	Chemical 453 474	Serum HDL cholesterol
+T65	Chemical 505 514	Serum TGs
+T66	Chemical 544 557	Serum glucose
+T67	Physiology 587 610	Systolic blood pressure
+T68	Physiology 637 661	Diastolic blood pressure
+T69	DiversityMetric 809 812	OTU
+T70	Microorganism 971 981	Firmicutes
+T71	Microorganism 983 996	Bacteroidetes
+T72	Microorganism 1002 1016	Actinobacteria
+T73	Microorganism 1108 1123	Lachnospiraceae
+T74	Microorganism 1125 1140	Ruminococcaceae
+T75	Microorganism 1169 1181	Clostridales
+T76	Microorganism 1189 1203	Bacteroidaceae
+T77	Microorganism 1205 1223	Bifodobacteriaceae
+T78	Microorganism 1229 1248	Verrucomicrobiaceae
+T79	Microorganism 1382 1393	Bacteroides
+T80	Microorganism 1395 1402	Blautia
+T81	Microorganism 1404 1415	Coprococcus
+T82	Microorganism 1417 1429	Ruminococcus
+T83	Microorganism 1444 1459	Ruminococcaceae
+T84	Microorganism 1474 1487	Clostridiales
+T85	Microorganism 1506 1521	Lachnospiraceae
+T86	DiversityMetric 1566 1578	archaeal OTU
+T87	Microorganism 1692 1699	archaea
+T88	DiversityMetric 1712 1723	Fungal OTUs
+T89	Microorganism 1901 1907	fungal
+T90	Food 1920 1926	Walnut
+T91	AFFECTS 1947 1953	affect
+T92	DiversityMetric 1964 1984	α diversity measures
+T93	DiversityMetric 1996 2018	phylogenetic diversity
+T94	DiversityMetric 2029 2033	OTUs
+T95	DiversityMetric 2038 2046	richness
+T96	DiversityMetric 2051 2059	evenness
+T97	DiversityMetric 2065 2076	β diversity
+T98	Methodology 2087 2138	principal coordinates analysis of UniFrac distances
+T99	Food 3281 3287	Walnut
+T100	Methodology 2174 2204	OTU composition and abundances
+T101	Food 2256 2262	walnut
+T102	Food 2353 2359	walnut
+T103	INCREASES 2372 2381	increased
+T104	Microorganism 2419 2429	Firmicutes
+T105	DECREASES 2434 2443	decreased
+T106	Microorganism 2481 2495	Actinobacteria
+T107	Microorganism 2531 2547	Faecalibacterium
+T108	Microorganism 2549 2560	Clostridium
+T109	Microorganism 2562 2571	Roseburia
+T110	Microorganism 2577 2586	Dialister
+T111	INCREASES 2592 2601	increased
+T112	Food 2631 2637	walnut
+T113	Microorganism 2738 2750	Ruminococcus
+T114	Microorganism 2752 2757	Dorea
+T115	Microorganism 2759 2771	Oscillospira
+T116	Microorganism 2777 2792	Bifidobacterium
+T117	DECREASES 2798 2803	lower
+T118	Food 2876 2882	walnut
+T119	Gene 2940 2966	butanoate metabolism genes
+T120	Food 3003 3009	walnut
+T121	AFFECTS 2971 2984	not different
+T122	Food 3176 3182	walnut
+T123	Microorganism 3296 3306	Firmicutes
+T124	Microorganism 3330 3337	Blautia
+T125	Microorganism 3361 3372	Coprococcus
+T126	Microorganism 3396 3408	Ruminococcus
+T127	Microorganism 3433 3438	Dorea
+T128	Microorganism 3463 3476	Streptococcus
+T129	Microorganism 3500 3516	Faecalibacterium
+T130	Microorganism 3540 3549	Roseburia
+T131	Microorganism 3574 3585	Clostridium
+T132	Microorganism 3609 3621	Oscillospira
+T133	Microorganism 3646 3655	Dialister
+T134	Microorganism 3679 3692	Lactobacillus
+T135	Microorganism 3716 3727	Lachnospira
+T136	Microorganism 3751 3763	Anaerostipes
+T137	Microorganism 3786 3799	Bacteroidetes
+T138	Microorganism 3823 3834	Bacteroides
+T139	Microorganism 3858 3873	Parabacteroides
+T140	Microorganism 3896 3910	Actinobacteria
+T141	Microorganism 3934 3949	Bifidobacterium
+T142	Microorganism 3973 3984	Collinsella
+T143	Microorganism 4008 4023	Verrucomicrobia
+T144	Microorganism 4048 4059	Akkermansia
+T145	Microorganism 4082 4096	Proteobacteria
+T146	Microorganism 4119 4129	Firmicutes
+T147	Microorganism 4130 4144	Bacteroidetes3
+T148	Methodology 4294 4311	mixed-model ANOVA
+T149	DiversityMetric 4431 4464	Firmicutes-to-Bacteroidetes ratio
+T150	Metabolite 4466 4484	Primary bile acids
+T151	Metabolite 4537 4557	secondary bile acids
+T152	Metabolite 4559 4575	deoxycholic acid
+T153	Metabolite 4580 4596	lithocholic acid
+T154	Food 4648 4654	walnut
+T155	Metabolite 4759 4779	secondary bile acids
+T156	Food 4834 4840	walnut
+T157	Metabolite 4923 4938	Fecal bile acid
+T158	Biospecimen 4956 4974	freeze-dried feces
+T159	Food 5022 5028	walnut
+T160	Metabolite 5075 5086	Cholic acid
+T161	Metabolite 5116 5137	Chenodeoxycholic acid
+T162	Metabolite 5167 5183	Deoxycholic acid
+T163	Metabolite 5214 5230	Lithocholic acid
+T164	Methodology 5403 5420	mixed-model ANOVA
+T165	Chemical 5422 5445	Serum total cholesterol
+T166	Chemical 5513 5528	LDL-cholesterol
+T167	DECREASES 5466 5471	lower
+T168	DECREASES 5549 5554	lower
+T169	Food 5598 5604	walnut
+T170	Food 5699 5705	walnut
+T171	Chemical 5719 5736	Serum campesterol
+T172	DECREASES 5741 5746	lower
+T173	Chemical 5794 5805	lathosterol
+T174	DECREASES 5834 5839	lower
+T175	Food 5862 5868	walnut
+T176	Metabolite 6054 6070	Lithocholic acid
+T177	Chemical 5962 5979	total cholesterol
+T178	Chemical 5983 5998	LDL cholesterol
+T179	Food 6024 6030	walnut
+T180	POS_ASSOCIATED_WITH 6091 6112	positively associated
+T181	Microorganism 6145 6150	Dorea
+T182	Food 6202 6208	walnut
+T183	NEG_ASSOCIATED_WITH 6243 6264	negatively associated
+T184	Microorganism 6270 6279	Roseburia
+T185	Metabolite 6350 6366	deoxycholic acid
+T186	Food 6407 6413	walnut
+T187	Food 6505 6511	walnut
+T188	Microorganism 6592 6597	Dorea
+T189	Microorganism 6606 6615	Roseburia
+T190	Metabolite 6644 6660	lithocholic acid
+T191	Food 6694 6700	walnut
+T192	Methodology 6719 6733	Serum analytes
+T193	Food 6769 6775	walnut
+T194	Chemical 6822 6833	Cholesterol
+T195	Chemical 6860 6875	LDL cholesterol
+T196	Chemical 6903 6918	HDL cholesterol
+T197	Chemical 6947 6950	TGs
+T198	Chemical 6979 6986	Glucose
+T199	Chemical 7015 7019	IL-6
+T200	Chemical 7049 7052	CRP
+T201	Chemical 7082 7085	SAA
+T202	Chemical 7115 7120	sICAM
+T203	Chemical 7148 7153	sVCAM
+T204	Methodology 7323 7340	mixed-model ANOVA
+T205	Chemical 7342 7345	CRP
+T206	Chemical 7347 7365	C-reactive protein
+T207	Chemical 7367 7370	SAA
+T208	Chemical 7372 7387	serum amyloid A
+T209	Chemical 7389 7394	sICAM
+T210	Chemical 7396 7435	soluble intercellular adhesion molecule
+T211	Chemical 7437 7442	sVCAM
+T212	Chemical 7444 7483	soluble vascular cell adhesion molecule
+T213	Chemical 7485 7512	Serum noncholesterol sterol
+T214	Food 7562 7568	walnut
+T215	Chemical 8264 8279	LDL cholesterol
+T216	Chemical 7673 7684	Desmosterol
+T217	Food 5060 5066	Walnut
+T218	Chemical 7733 7744	Lathosterol
+T219	Food 6807 6813	Walnut
+T220	Metabolite 7792 7803	Cholestanol
+T221	Food 7600 7606	Walnut
+T222	Chemical 7851 7862	Campesterol
+T223	Physiology 7615 7623	Squalene
+T224	Chemical 7910 7922	β-Sitosterol
+T226	Methodology 8045 8061	crossover design
+T227	Methodology 8114 8131	mixed-model ANOVA
+T228	Methodology 7254 7270	crossover design
+T229	Methodology 5334 5350	crossover design
+T230	Chemical 8175 8192	serum cholesterol
+T231	Chemical 8197 8212	LDL cholesterol
+T232	Food 8220 8226	walnut
+T233	Chemical 8245 8256	Cholesterol
+T235	Microorganism 8322 8334	Ruminococcus
+T236	Microorganism 8359 8364	Dorea
+T237	Microorganism 8389 8405	Faecalibacterium
+T238	Microorganism 8428 8437	Roseburia
+T239	Microorganism 8460 8471	Clostridium
+T240	Microorganism 8495 8507	Oscillospira
+T241	Microorganism 8532 8541	Dialister
+T242	Microorganism 8566 8581	Bifidobacterium
+T243	Food 8718 8724	walnut
+T244	Chemical 8741 8764	serum total cholesterol
+T245	Chemical 8769 8784	LDL cholesterol
+T246	Food 8821 8827	walnut
+T247	Methodology 8893 8905	Spearman's ρ
+T248	Metabolite 8979 8998	secondary bile acid
+T249	Food 9032 9038	walnut
+T250	Population 9071 9076	adult
+T251	Metabolite 9091 9107	Deoxycholic acid
+T252	Metabolite 9115 9131	Lithocholic acid
+T253	Microorganism 9174 9186	Ruminococcus
+T254	Microorganism 9209 9214	Dorea
+T255	Microorganism 9237 9253	Faecalibacterium
+T256	Microorganism 9278 9287	Roseburia
+T257	Microorganism 9312 9323	Clostridium
+T258	Microorganism 9348 9360	Oscillospira
+T259	Microorganism 9384 9393	Dialister
+T260	Microorganism 9418 9433	Bifidobacterium
+T263	DECREASES 4603 4610	reduced
+T264	DECREASES 4810 4815	lower
+T266	ASSOCIATED_WITH 6326 6341	no associations
+E1	AFFECTS:T91 Agent:T90 Theme:T92
+E26	AFFECTS:T91 Agent:T90 Theme:T93
+E27	AFFECTS:T91 Agent:T90 Theme:T94
+E28	AFFECTS:T91 Agent:T90 Theme:T95
+E29	AFFECTS:T91 Agent:T90 Theme:T96
+E30	INCREASES:T103 Agent:T102 Theme:T104
+E31	DECREASES:T105 Agent:T102 Theme:T106
+E32	INCREASES:T111 Agent:T112 Theme:T110
+E33	INCREASES:T111 Agent:T112 Theme:T109
+E34	INCREASES:T111 Agent:T112 Theme:T108
+E35	INCREASES:T111 Agent:T112 Theme:T107
+E36	DECREASES:T117 Agent:T118 Theme:T116
+E37	DECREASES:T117 Agent:T118 Theme:T115
+E38	DECREASES:T117 Agent:T118 Theme:T114
+E39	DECREASES:T117 Agent:T118 Theme:T113
+E40	AFFECTS:T121 Theme:T119 Agent:T120
+E41	DECREASES:T167 Agent:T169 Theme:T165
+E42	DECREASES:T168 Agent:T169 Theme:T166
+E43	DECREASES:T172 Agent:T175 Theme:T171
+E44	DECREASES:T174 Agent:T175 Theme:T173
+E45	POS_ASSOCIATED_WITH:T180 Agent:T176 Theme:T181
+E46	NEG_ASSOCIATED_WITH:T183 Agent:T176 Theme:T184
+E47	DECREASES:T263 Agent:T154 Theme:T153
+E48	DECREASES:T263 Agent:T154 Theme:T152
+E49	DECREASES:T264 Agent:T156 Theme:T155
+E50	ASSOCIATED_WITH:T48 Theme:T179 Theme2:T177
+E51	ASSOCIATED_WITH:T48 Theme:T179 Theme2:T178
+E52	ASSOCIATED_WITH:T266 Theme:T185 Theme2:T186
+A2	Negated E1
+A5	Negated E26
+A6	Negated E27
+A7	Negated E28
+A8	Negated E29
+A9	Negated E40
+A13	Negated E50
+A14	Negated E51
+A15	Negated E52
+A34	Factual E30
+A35	Factual E31
+A36	Factual E32
+A37	Factual E33
+A38	Factual E34
+A39	Factual E35
+A40	Factual E36
+A41	Factual E37
+A42	Factual E38
+A43	Factual E39
+A44	Factual E41
+A45	Factual E42
+A46	Factual E43
+A47	Factual E44
+A48	Factual E45
+A49	Factual E46
+A50	Factual E47
+A51	Factual E48
+A52	Factual E49

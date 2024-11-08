@@ -1,0 +1,67 @@
+T1	Nutrient 15 25	prebiotics
+T2	Disease 39 48	dysbiosis
+T3	AFFECTS 4 11	effects
+T4	Metabolite 50 58	butyrate
+T5	Population 86 107	HIV-infected subjects
+T6	Physiology 74 82	immunity
+T7	Disease 174 177	HIV
+T8	Disease 86 89	HIV
+T9	Physiology 210 236	chronic immune dysfunction
+T10	Physiology 143 153	gut mucosa
+T11	Disease 315 324	dysbiosis
+T12	Population 370 406	HIV+ viremic untreated (VU) patients
+T13	Disease 370 373	HIV
+T14	Population 411 476	antiretroviral therapy-treated (ART+) virally suppressed patients
+T15	Disease 534 537	HIV
+T16	Disease 549 552	HIV
+T17	Nutrient 598 608	prebiotics
+T18	Nutrient 610 615	scGOS
+T19	Nutrient 616 621	lcFOS
+T20	Nutrient 622 631	glutamine
+T21	Methodology 738 762	16S rRNA gene sequencing
+T22	POS_ASSOCIATED_WITH 1343 1358	correlated with
+T24	Disease 821 843	HIV immunopathogenesis
+T25	Disease 890 914	HIV-associated dysbiosis
+T26	Population 943 957	VU individuals
+T27	Population 973 986	ART+ subjects
+T28	Physiology 1172 1189	T-cell activation
+T29	Physiology 1206 1219	thymic output
+T30	Metabolite 1236 1244	butyrate
+T31	Microorganism 1301 1317	Faecalibacterium
+T32	Microorganism 1322 1333	Lachnospira
+T33	Metabolite 1561 1569	butyrate
+T35	Metabolite 1397 1405	butyrate
+T36	IMPROVES 1421 1433	amelioration
+T37	Chemical 1465 1477	soluble CD14
+T38	Chemical 1482 1517	high-sensitivity C-reactive protein
+T39	Population 1536 1538	VU
+T40	IMPROVES 879 889	attenuated
+T41	POS_ASSOCIATED_WITH 1225 1232	changes
+T42	DECREASES 1112 1120	declines
+T43	POS_ASSOCIATED_WITH 1191 1202	improvement
+E1	AFFECTS:T3 Agent:T1 Theme:T2
+E2	AFFECTS:T3 Agent:T1 Theme:T4
+E3	AFFECTS:T3 Agent:T1 Theme:T6
+E4	POS_ASSOCIATED_WITH:T22 Theme:T35 Agent:T31
+E5	POS_ASSOCIATED_WITH:T22 Theme:T35 Agent:T32
+E6	IMPROVES:T36 Agent:T32 Theme:T37
+E7	IMPROVES:T36 Agent:T31 Theme:T37
+E8	IMPROVES:T36 Agent:T31 Theme:T38
+E9	IMPROVES:T36 Agent:T32 Theme:T38
+E10	IMPROVES:T40 Theme:T25 Agent:T17
+E11	POS_ASSOCIATED_WITH:T41 Theme:T30 Agent:T17
+E12	DECREASES:T42 Theme:T28 Agent:T17
+E13	POS_ASSOCIATED_WITH:T43 Theme:T29 Agent:T17
+A1	Unknown E1
+A2	Unknown E2
+A3	Unknown E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13

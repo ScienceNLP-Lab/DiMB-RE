@@ -1,0 +1,103 @@
+T1	Food 0 13	Red Raspberry
+T2	Nutrient 18 40	Fructo-Oligosaccharide
+T3	Measurement 58 78	Metabolic Biomarkers
+T5	Disease 118 129	Prediabetes
+T7	Measurement 229 251	cardiometabolic status
+T8	Physiology 338 354	metabolic health
+T9	Food 432 447	red raspberries
+T10	Food 449 452	RRB
+T11	Nutrient 471 493	fructo-oligosaccharide
+T12	Nutrient 495 498	FOS
+T13	IMPROVES 517 524	improve
+T14	Measurement 525 559	biomarkers of cardiometabolic risk
+T16	Disease 593 598	PreDM
+T17	Disease 604 622	insulin resistance
+T18	Physiology 624 626	IR
+T19	Disease 580 591	prediabetes
+T21	Disease 722 730	PreDM-IR
+T22	Chemical 770 785	fasting glucose
+T23	Measurement 805 812	HOMA-IR
+T24	Chemical 904 919	fasting glucose
+T25	Measurement 939 946	HOMA-IR
+T27	Food 1075 1078	RRB
+T28	DietPattern 1114 1126	RRB + 8g FOS
+T30	Physiology 1375 1390	glucoregulation
+T31	Physiology 1392 1408	lipid metabolism
+T32	Measurement 1410 1434	anti-inflammatory status
+T33	Measurement 1440 1453	anthropometry
+T34	Nutrient 2562 2574	(poly)phenol
+T35	Disease 1527 1535	PreDM-IR
+T36	Food 1537 1540	RRB
+T37	DECREASES 1557 1564	reduced
+T38	Measurement 1565 1575	hepatic-IR
+T39	Physiology 1615 1627	plasma total
+T40	Chemical 1632 1647	LDL cholesterol
+T41	Nutrient 1739 1742	FOS
+T42	DietPattern 1744 1753	RRB + FOS
+T43	IMPROVES 1755 1763	improved
+T44	Physiology 1764 1779	β-cell function
+T45	Measurement 1781 1803	insulin secretion rate
+T46	Measurement 1832 1849	Disposition Index
+T47	AFFECTS 1887 1908	no significant effect
+T48	Chemical 1912 1930	plasma cholesterol
+T49	Food 1953 1956	RRB
+T50	INCREASES 1957 1966	increased
+T51	Microorganism 1967 1986	Eubacterium eligens
+T52	DECREASES 2000 2009	decreased
+T53	Microorganism 2010 2029	Ruminococcus gnavus
+T54	DietPattern 2052 2061	RRB + FOS
+T55	INCREASES 2062 2071	increased
+T56	Microorganism 2072 2091	Bifidobacterium spp
+T57	DECREASES 2106 2115	decreased
+T58	Microorganism 2116 2132	Blautia wexlerae
+T59	Microorganism 2183 2192	R. gnavus
+T60	POS_ASSOCIATED_WITH 2197 2218	positively correlated
+T61	Measurement 2224 2234	hepatic-IR
+T62	Microorganism 2240 2250	E. eligens
+T63	Microorganism 2255 2282	Bifidobacterium catenulatum
+T64	NEG_ASSOCIATED_WITH 2288 2309	negatively correlated
+T65	Chemical 2315 2341	cholesterol concentrations
+T66	Microorganism 2377 2396	Bifidobacterium spp
+T67	DECREASES 2417 2424	reduced
+T68	Microorganism 2425 2434	R. gnavus
+T69	ASSOCIATED_WITH 2440 2450	associated
+T70	Physiology 2456 2478	metabolic improvements
+T72	Disease 2494 2502	PreDM-IR
+T73	Nutrient 413 425	(poly)phenol
+T74	HAS_COMPONENT 426 431	dense
+T75	Nutrient 500 509	prebiotic
+T76	Nutrient 2575 2578	FOS
+E1	IMPROVES:T13 Theme:T14 Agent:T11
+E2	IMPROVES:T13 Theme:T14 Agent:T9
+E3	DECREASES:T37 Agent:T36 Theme:T38
+E4	DECREASES:T37 Agent:T36 Theme:T39
+E5	DECREASES:T37 Agent:T36 Theme:T40
+E6	IMPROVES:T43 Agent:T42 Theme:T44
+E7	AFFECTS:T47 Agent:T42 Theme:T48
+E8	INCREASES:T50 Agent:T49 Theme:T51
+E9	DECREASES:T52 Agent:T49 Theme:T53
+E10	INCREASES:T55 Agent:T54 Theme:T56
+E11	DECREASES:T57 Agent:T54 Theme:T58
+E12	POS_ASSOCIATED_WITH:T60 Agent:T59 Theme:T61
+E13	NEG_ASSOCIATED_WITH:T64 Agent:T63 Theme:T65
+E14	NEG_ASSOCIATED_WITH:T64 Agent:T62 Theme:T65
+E15	DECREASES:T67 Agent:T66 Theme:T68
+E16	ASSOCIATED_WITH:T69 Theme:T66 Theme2:T70
+E17	HAS_COMPONENT:T74 Agent:T9 Theme:T73
+A1	Unknown E1
+A2	Unknown E2
+A3	Negated E7
+A4	Factual E3
+A5	Factual E4
+A6	Factual E5
+A7	Factual E6
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17

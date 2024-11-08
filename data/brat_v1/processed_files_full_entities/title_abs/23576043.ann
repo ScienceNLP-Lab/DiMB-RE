@@ -1,0 +1,127 @@
+T1	Food 20 48	chronic red wine consumption
+T2	Chemical 52 70	lipopolysaccharide
+T3	AFFECTS 0 6	Effect
+T4	Food 10 15;28 48	acute red wine consumption
+T5	Food 100 133	Chronic red wine (RW) consumption
+T6	NEG_ASSOCIATED_WITH 143 168	associated with decreased
+T8	Disease 169 191	cardiovascular disease
+T10	IMPROVES 222 233	improvement
+T11	Measurement 237 250	lipid profile
+T12	Food 252 254	RW
+T13	DietPattern 320 335	High fat intake
+T14	CAUSES 366 374	increase
+T15	Disease 375 396	metabolic endotoxemia
+T16	Chemical 466 485	lipopolysaccharides
+T17	Chemical 487 491	LPSs
+T18	Disease 496 517	metabolic endotoxemia
+T19	AFFECTS 546 552	effect
+T20	Chemical 556 559	LPS
+T21	Food 578 600	chronic RW consumption
+T22	Food 605 620	acute RW intake
+T23	DietPattern 636 651	high fat intake
+T24	Population 655 670	middle-aged men
+T25	Population 706 722	middle-aged male
+T26	Methodology 739 777	randomly assigned in a crossover trial
+T27	Food 829 831	RW
+T28	Food 833 855	dealcoholized red wine
+T29	Food 857 860	DRW
+T30	Food 866 869	gin
+T31	Chemical 900 919	LPS-binding protein
+T32	Chemical 921 924	LBP
+T33	Chemical 880 895	Serum endotoxin
+T34	Population 1088 1097	adult men
+T35	Food 1174 1176	RW
+T36	Food 1178 1181	DRW
+T37	Food 1186 1189	gin
+T41	Metabolite 1267 1282	chylomicron LPS
+T42	Chemical 1231 1234	LBP
+T43	Chemical 1223 1226	LPS
+T44	AFFECTS 1333 1359	no significant differences
+T45	Chemical 1377 1380	LPS
+T46	Chemical 1384 1387	LBP
+T47	Food 1411 1421	chronic RW
+T48	Food 1423 1426	DRW
+T49	Food 1432 1435	gin
+T50	Microorganism 1449 1464	Bifidobacterium
+T51	Microorganism 1469 1479	Prevotella
+T52	INCREASES 1493 1516	significantly increased
+T53	Food 1520 1522	RW
+T54	NEG_ASSOCIATED_WITH 1527 1548	correlated negatively
+T55	Chemical 1554 1557	LPS
+T56	AFFECTS 1585 1599	no differences
+T57	Chemical 1622 1625	LPS
+T58	Chemical 1627 1630	LBP
+T59	Metabolite 1635 1650	chylomicron LPS
+T60	Food 1674 1682	acute RW
+T61	Food 1684 1687	DRW
+T62	Food 1692 1695	gin
+T64	DietPattern 1719 1729	fatty meal
+T65	Food 1743 1765	Chronic RW consumption
+T66	INCREASES 1766 1775	increases
+T67	Microorganism 1776 1791	Bifidobacterium
+T68	Microorganism 1796 1806	Prevotella
+T69	Chemical 1870 1873	LPS
+T70	DECREASES 1864 1869	lower
+T71	Biospecimen 1031 1036	fecal
+E1	AFFECTS:T3 Theme:T2 Agent:T4
+E2	AFFECTS:T3 Theme:T2 Agent:T1
+E3	NEG_ASSOCIATED_WITH:T6 Agent:T5 Theme:T8
+E4	IMPROVES:T10 Theme:T11 Agent:T5
+E5	CAUSES:T14 Agent:T13 Theme:T15
+E6	AFFECTS:T19 Theme:T20 Agent:T21
+E7	AFFECTS:T19 Theme:T20 Agent:T22
+E8	AFFECTS:T19 Theme:T20 Agent:T23
+E9	AFFECTS:T44 Agent:T47 Theme:T45
+E10	AFFECTS:T44 Agent:T47 Theme:T46
+E11	AFFECTS:T44 Agent:T48 Theme:T45
+E12	AFFECTS:T44 Agent:T48 Theme:T46
+E13	AFFECTS:T44 Agent:T49 Theme:T46
+E14	AFFECTS:T44 Agent:T49 Theme:T45
+E15	INCREASES:T52 Agent:T53 Theme:T50
+E16	INCREASES:T52 Agent:T53 Theme:T51
+E17	NEG_ASSOCIATED_WITH:T54 Agent:T55 Theme:T50
+E18	NEG_ASSOCIATED_WITH:T54 Agent:T55 Theme:T51
+E19	AFFECTS:T56 Agent:T60 Theme:T59
+E20	AFFECTS:T56 Theme:T57 Agent:T60
+E21	INCREASES:T66 Agent:T65 Theme:T67
+E22	DECREASES:T70 Theme:T69 Agent:T68
+E23	INCREASES:T66 Agent:T65 Theme:T68
+E24	AFFECTS:T56 Theme:T57 Agent:T61
+E25	AFFECTS:T56 Theme:T57 Agent:T62
+E26	AFFECTS:T56 Agent:T61 Theme:T59
+E27	AFFECTS:T56 Agent:T62 Theme:T59
+E28	DECREASES:T70 Theme:T69 Agent:T67
+E29	AFFECTS:T56 Theme:T58 Agent:T60
+E30	AFFECTS:T56 Theme:T58 Agent:T62
+E31	AFFECTS:T56 Theme:T58 Agent:T61
+A1	Negated E9
+A2	Negated E10
+A3	Negated E11
+A4	Negated E12
+A5	Negated E13
+A6	Negated E14
+A7	Negated E19
+A8	Negated E26
+A9	Negated E27
+A10	Unknown E2
+A11	Unknown E1
+A12	Unknown E6
+A13	Unknown E7
+A14	Unknown E8
+A15	Negated E20
+A16	Negated E24
+A17	Negated E25
+A18	Negated E29
+A19	Negated E30
+A20	Negated E31
+A21	Factual E3
+A22	Factual E4
+A23	Factual E5
+A24	Factual E15
+A25	Factual E16
+A26	Factual E17
+A27	Factual E18
+A28	Factual E21
+A29	Factual E22
+A30	Factual E23
+A31	Factual E28

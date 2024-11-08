@@ -1,0 +1,93 @@
+T1	Microorganism 9 35	Anaerobutyricum soehngenii
+T2	INCREASES 2042 2052	stimulates
+T3	Chemical 56 61	GLP-1
+T4	IMPROVES 74 85	ameliorates
+T5	Physiology 86 103	glycaemic control
+T6	Physiology 132 154	duodenal transcriptome
+T9	Disease 269 282	gut dysbiosis
+T10	Disease 347 365	metabolic syndrome
+T11	Disease 367 371	MetS
+T12	PREDISPOSES 315 343	pathophysiological component
+T13	Microorganism 515 541	Anaerobutyricum soehngenii
+T14	IMPROVES 548 572	associated with improved
+T15	Physiology 573 592	insulin sensitivity
+T17	Disease 610 614	MetS
+T18	Microorganism 701 719	A. soehngenii L2-7
+T19	INCREASES 45 55	stimulates
+T20	Physiology 723 751	systemic metabolic responses
+T21	Measurement 756 787	duodenal transcriptome profiles
+T23	Disease 808 812	MetS
+T26	Disease 912 916	MetS
+T27	Microorganism 948 961	A. soehngenii
+T31	Microorganism 1096 1109	A. soehngenii
+T32	INCREASES 1140 1149	increased
+T33	Chemical 1203 1226	glucagon-like peptide 1
+T34	Chemical 1228 1233	GLP-1
+T35	INCREASES 1242 1251	elevation
+T36	Metabolite 1262 1282	secondary bile acids
+T37	POS_ASSOCIATED_WITH 1295 1316	positively associated
+T38	Chemical 1322 1327	GLP-1
+T39	Microorganism 1346 1359	A. soehngenii
+T40	AFFECTS 1379 1385	shaped
+T41	Gene 1476 1527	regenerating islet-protein 1B (REG1B)-encoding gene
+T43	Gene 1550 1555	REG1B
+T44	POS_ASSOCIATED_WITH 1567 1588	positively correlated
+T45	Chemical 1594 1599	GLP-1
+T46	NEG_ASSOCIATED_WITH 1611 1632	negatively correlated
+T47	Physiology 1638 1668	peripheral glucose variability
+T48	DECREASES 1694 1704	diminished
+T49	Microorganism 1731 1744	A. soehngenii
+T50	Gene 1770 1775	Reg1B
+T51	INCREASES 1790 1797	induced
+T52	Metabolite 1811 1819	butyrate
+T53	Metabolite 1823 1846	bacterial peptidoglycan
+T54	Microorganism 1861 1874	A. soehngenii
+T55	Microorganism 1957 1970	A. soehngenii
+T56	IMPROVES 1971 1979	improves
+T57	Physiology 1980 2008	peripheral glycaemic control
+T59	Chemical 2064 2069	GLP-1
+T60	Gene 2085 2090	REG1B
+T61	Gene 2177 2182	REG1B
+T62	Physiology 2209 2228	insulin sensitivity
+T63	IMPROVES 108 127	beneficially shapes
+T64	Disease 158 176	metabolic syndrome
+T65	Physiology 430 446	metabolic health
+T66	IMPROVES 678 697	therapeutic effects
+E1	INCREASES:T19 Agent:T1 Theme:T3
+E2	IMPROVES:T4 Agent:T1 Theme:T5
+E4	PREDISPOSES:T12 Agent:T9 Theme:T10
+E5	IMPROVES:T14 Agent:T13 Theme:T15
+E6	IMPROVES:T66 Agent:T18 Theme:T21
+E7	IMPROVES:T66 Agent:T18 Theme:T20
+E8	INCREASES:T32 Agent:T31 Theme:T33
+E9	INCREASES:T35 Agent:T31 Theme:T36
+E10	POS_ASSOCIATED_WITH:T37 Agent:T36 Theme:T38
+E11	AFFECTS:T40 Agent:T39 Theme:T41
+E12	POS_ASSOCIATED_WITH:T44 Agent:T43 Theme:T45
+E13	NEG_ASSOCIATED_WITH:T46 Agent:T43 Theme:T47
+E14	DECREASES:T48 Agent:T49 Theme:T47
+E15	INCREASES:T51 Theme:T50 Agent:T52
+E16	INCREASES:T51 Theme:T50 Agent:T53
+E17	IMPROVES:T56 Agent:T55 Theme:T57
+E18	INCREASES:T2 Agent:T55 Theme:T59
+E19	INCREASES:T2 Agent:T55 Theme:T60
+E20	IMPROVES:T63 Theme:T6 Agent:T1
+A1	Unknown E6
+A2	Unknown E7
+A3	Factual E1
+A4	Factual E2
+A5	Factual E4
+A6	Factual E5
+A7	Factual E8
+A8	Factual E9
+A9	Factual E10
+A10	Factual E11
+A11	Factual E12
+A12	Factual E13
+A13	Factual E14
+A14	Factual E15
+A15	Factual E16
+A16	Factual E17
+A17	Factual E18
+A18	Factual E19
+A19	Factual E20

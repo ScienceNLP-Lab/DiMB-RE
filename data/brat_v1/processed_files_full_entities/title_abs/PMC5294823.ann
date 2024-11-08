@@ -1,0 +1,54 @@
+T1	Nutrient 0 16	Resistant starch
+T2	Physiology 29 48	insulin sensitivity
+T3	Disease 133 148	type 2 diabetes
+T4	Disease 153 175	cardiovascular disease
+T6	Nutrient 310 328	Resistant starches
+T7	Nutrient 330 332	RS
+T8	IMPROVES 334 341	improve
+T9	Physiology 342 361	insulin sensitivity
+T10	Nutrient 466 468	RS
+T11	Physiology 466 481	RS fermentation
+T12	Nutrient 673 675	RS
+T13	Nutrient 728 730	RS
+T14	DietPattern 747 759	Western diet
+T15	Chemical 1070 1077	insulin
+T16	Nutrient 826 828	RS
+T17	Population 840 861	conventionalized mice
+T18	DietPattern 917 929	Western diet
+T19	Nutrient 1042 1044	RS
+T20	Nutrient 1131 1133	RS
+T21	DECREASES 1134 1141	reduced
+T22	Metabolite 1207 1212;1239 1249	cecal bile acids
+T23	Nutrient 1458 1460	RS
+T24	Nutrient 1546 1548	RS
+T25	Chemical 1577 1584	insulin
+T26	AFFECTS 1649 1660	alterations
+T27	IMPROVES 862 870	improved
+T28	Physiology 871 890	insulin sensitivity
+T30	Population 1006 1027	germ-free littermates
+T32	Population 1258 1293	germ-free and conventionalized mice
+T33	Physiology 1668 1683	bile acid cycle
+T34	AFFECTS 1199 1206	altered
+T35	Chemical 1161 1194	adipose tissue macrophage markers
+T37	IMPROVES 1561 1573	improvements
+T38	IMPROVES 21 28	improve
+T40	IMPROVES 1054 1066	improvements
+T42	Physiology 1688 1720	adipose tissue immune modulation
+E1	IMPROVES:T8 Agent:T6 Theme:T9
+E2	DECREASES:T21 Agent:T20 Theme:T35
+E3	IMPROVES:T27 Agent:T16 Theme:T28
+E5	AFFECTS:T34 Agent:T20 Theme:T22
+E9	IMPROVES:T40 Agent:T19 Theme:T15
+E10	AFFECTS:T26 Agent:T24 Theme:T33
+E11	AFFECTS:T26 Agent:T24 Theme:T42
+E12	IMPROVES:T38 Agent:T1 Theme:T2
+E13	IMPROVES:T37 Agent:T24 Theme:T25
+A2	Unknown E10
+A3	Unknown E11
+A28	Factual E1
+A29	Factual E2
+A30	Factual E3
+A32	Factual E5
+A36	Factual E9
+A37	Factual E12
+A38	Factual E13

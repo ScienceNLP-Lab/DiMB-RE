@@ -1,0 +1,503 @@
+T60	Measurement 279 282	BMI
+T61	Physiology 351 353	FM
+T62	Physiology 419 422	FFM
+T63	Measurement 487 490	TBW
+T64	Measurement 556 570	Fat percentage
+T65	Measurement 635 637	WC
+T66	Physiology 703 705	HC
+T67	Metabolite 831 834	VFA
+T68	Nutrient 909 912	SFA
+T69	Enzyme 990 993	ALT
+T70	Enzyme 1060 1063	AST
+T71	Enzyme 1130 1133	GGT
+T72	Chemical 1200 1202	TC
+T73	Chemical 1269 1271	TG
+T74	Chemical 1337 1342	HDL-C
+T75	Chemical 1408 1413	LDL-C
+T76	Metabolite 1481 1484	BUN
+T77	Chemical 1552 1554	Cr
+T78	Measurement 771 774	WHR
+T79	Chemical 1624 1626	UA
+T80	Physiology 1740 1742	FM
+T81	Measurement 1744 1752	fat mass
+T82	Physiology 1754 1757	FFM
+T83	Physiology 1759 1772	fat-free mass
+T84	Measurement 1774 1777	TBW
+T85	Measurement 1779 1795	total body water
+T86	Measurement 1797 1799	WC
+T87	Measurement 1801 1820	waist circumference
+T88	Physiology 1822 1824	HC
+T89	Measurement 1826 1843	hip circumference
+T90	Measurement 1845 1848	WHR
+T91	Measurement 1850 1865	Waist hip ratio
+T92	Metabolite 1867 1870	VFA
+T93	Measurement 1872 1889	Visceral fat area
+T94	Nutrient 1891 1894	SFA
+T95	Measurement 1896 1917	Subcutaneous fat area
+T96	Chemical 1919 1921	TG
+T97	Chemical 1923 1941	triglyceride level
+T98	Chemical 1943 1948	HDL-C
+T99	Chemical 1950 1986	high-density lipoprotein cholesterol
+T100	Nutrient 2047 2049	RS
+T102	Nutrient 3603 3605	CS
+T103	Nutrient 2157 2163	starch
+T104	Nutrient 2175 2181	starch
+T105	Nutrient 2216 2218	RS
+T106	Physiology 2459 2465	nausea
+T107	Physiology 2467 2475	vomiting
+T108	Physiology 2477 2485	bloating
+T109	Physiology 2490 2502	constipation
+T110	Nutrient 2681 2683	RS
+T113	Nutrient 2804 2806	RS
+T114	Nutrient 2864 2866	RS
+T115	Enzyme 2931 2957	aspartate aminotransferase
+T116	Enzyme 2959 2962	AST
+T117	Enzyme 2965 2989	alanine aminotransferase
+T118	Enzyme 2991 2994	ALT
+T119	Enzyme 3001 3023	γ-glutamyl transferase
+T120	Enzyme 3025 3028	GGT
+T121	Chemical 3078 3091	urea nitrogen
+T122	Chemical 3096 3106	creatinine
+T123	Physiology 3183 3203	bile acid metabolism
+T124	Physiology 3168 3178;3193 3203	Amino acid metabolism
+T125	Nutrient 3314 3316	RS
+T126	AFFECTS 3143 3149	normal
+T127	AFFECTS 3234 3240	normal
+T128	Nutrient 3334 3336	RS
+T129	DECREASES 3353 3360	reduced
+T130	Physiology 3361 3382;3403 3406	visceral subcutaneous fat
+T131	Physiology 3387 3406	intra-abdominal fat
+T132	Measurement 3407 3423	Body composition
+T133	Nutrient 3452 3454	RS
+T136	Nutrient 3597 3599	RS
+T139	Nutrient 3705 3707	RS
+T141	Nutrient 3820 3823	SFA
+T142	Metabolite 3847 3850	VFA
+T143	Nutrient 3860 3863	SFA
+T144	Metabolite 3868 3871	VFA
+T145	Nutrient 3954 3956	RS
+T146	Measurement 4030 4038	fat area
+T147	Nutrient 4044 4047	SFA
+T148	Metabolite 4052 4055	VFA
+T150	Nutrient 4109 4111	RS
+T151	Nutrient 4278 4280	RS
+T152	DECREASES 4302 4309	reduced
+T153	Physiology 4310 4329	abdominal adiposity
+T154	Measurement 4331 4348	visceral fat area
+T155	Metabolite 4350 4353	VFA
+T156	Measurement 4359 4380	subcutaneous fat area
+T157	Nutrient 4382 4385	SFA
+T158	Metabolite 4403 4406	VFA
+T159	DECREASES 4428 4437	reduction
+T160	Nutrient 4444 4446	RS
+T161	Nutrient 4628 4634	starch
+T162	Nutrient 4697 4700	SFA
+T163	Nutrient 4716 4719	SFA
+T164	Metabolite 4724 4727	VFA
+T165	Measurement 4858 4869	body weight
+T166	AFFECTS 4833 4854	no significant change
+T167	Nutrient 4889 4891	RS
+T168	DECREASES 4940 4949	decreases
+T169	Chemical 4957 4992	low-density lipoprotein cholesterol
+T170	Chemical 4994 4999	LDL-C
+T171	Metabolite 5052 5071	blood urea nitrogen
+T172	Metabolite 5073 5076	BUN
+T173	Nutrient 5146 5148	RS
+T174	Chemical 5192 5201	Uric acid
+T175	Chemical 5203 5205	UA
+T176	DECREASES 5230 5237	reduced
+T177	Nutrient 5244 5246	RS
+T178	Enzyme 5307 5310	ALT
+T179	Enzyme 5312 5315	AST
+T180	AFFECTS 5266 5288	No significant changes
+T181	Enzyme 5321 5324	GGT
+T182	Measurement 5388 5403	body mass index
+T183	Measurement 5405 5408	BMI
+T184	Measurement 5411 5430	whole body fat mass
+T185	Measurement 5411 5425;5435 5445	whole body fat percentage
+T186	Measurement 5447 5466	waist circumference
+T187	Measurement 5468 5485	hip circumference
+T188	Measurement 5491 5509	waist-to-hip ratio
+T189	AFFECTS 5516 5541	not significantly changed
+T190	Nutrient 5548 5550	RS
+T191	Nutrient 104 106	CS
+T192	Nutrient 2033 2035	CS
+T193	Nutrient 2231 2233	CS
+T194	Nutrient 2811 2825	control starch
+T195	Nutrient 2827 2829	CS
+T196	Nutrient 3458 3460	CS
+T197	Nutrient 3960 3962	CS
+T198	Nutrient 4103 4105	CS
+T200	Nutrient 4477 4479	CS
+T201	Nutrient 5182 5184	CS
+T202	Nutrient 5554 5556	CS
+T203	DECREASES 4662 4671	reduction
+T204	ASSOCIATED_WITH 5613 5620	related
+T205	Physiology 5624 5661	β-oxidation of long-chain fatty acids
+T206	DECREASES 5667 5674	reduced
+T208	Nutrient 5698 5700	RS
+T209	Metabolite 5722 5736	carnitine C2:0
+T210	Metabolite 5738 5752	carnitine C8:0
+T211	Metabolite 5758 5772	carnitine C8:1
+T212	Nutrient 5798 5800	RS
+T213	INCREASES 5817 5825	promotes
+T214	Chemical 5839 5858	early-phase insulin
+T215	Metabolite 5877 5882	SCFAs
+T216	Physiology 5860 5872	gut hormones
+T217	Physiology 5883 5895	Gut hormones
+T218	Metabolite 5900 5905	SCFAs
+T219	Nutrient 5923 5925	RS
+T220	Nutrient 5929 5931	CS
+T222	Chemical 5979 5992	Blood glucose
+T223	Chemical 6055 6070	blood C-peptide
+T224	Chemical 6017 6030	blood insulin
+T225	Chemical 6099 6111	blood aGLP-1
+T226	Nutrient 6190 6192	RS
+T227	Nutrient 6196 6198	CS
+T228	Metabolite 6226 6230	SCFA
+T229	Nutrient 6275 6277	RS
+T230	Nutrient 6281 6283	CS
+T231	Chemical 6343 6349	aGLP-1
+T232	Metabolite 6354 6358	SCFA
+T235	Metabolite 6547 6554	acetate
+T236	Chemical 6574 6580	aGLP-1
+T237	Nutrient 6597 6603	starch
+T238	Nutrient 6635 6637	RS
+T239	Physiology 6648 6666	glucose metabolism
+T243	Chemical 6802 6809;6827 6834	fasting glucose
+T244	Chemical 6814 6834	postprandial glucose
+T245	AFFECTS 6847 6858	not altered
+T246	Nutrient 6862 6864	RS
+T247	Chemical 6948 6955	insulin
+T248	Chemical 7014 7023	C-peptide
+T249	Nutrient 7098 7100	RS
+T250	INCREASES 6932 6940	increase
+T251	Nutrient 7131 7133	CS
+T252	Chemical 7186 7195	C-peptide
+T253	Nutrient 7227 7229	RS
+T254	Nutrient 7248 7250	CS
+T255	Nutrient 7355 7361	starch
+T257	AFFECTS 7449 7470	no significant impact
+T258	Nutrient 7474 7476	RS
+T259	Physiology 7497 7518	glucose infusion rate
+T260	Physiology 7578 7601	early insulin secretion
+T261	INCREASES 7605 7613	enhanced
+T262	Nutrient 7617 7619	RS
+T263	Physiology 7669 7692	early insulin secretion
+T265	Physiology 7726 7738	gut hormones
+T266	Chemical 7740 7763	glucagon-like peptide-1
+T267	Chemical 7765 7770	GLP-1
+T268	Chemical 7776 7786	peptide YY
+T269	Chemical 7788 7791	PYY
+T270	Metabolite 7798 7821	short-chain fatty acids
+T271	Metabolite 7823 7828	SCFAs
+T272	INCREASES 7845 7853	increase
+T273	Chemical 7870 7882	active GLP-1
+T274	Chemical 7884 7890	aGLP-1
+T276	Nutrient 7946 7948	RS
+T277	Nutrient 7979 7981	CS
+T278	Chemical 8020 8025	GLP-1
+T280	Nutrient 8101 8103	RS
+T281	AFFECTS 8116 8144	did not significantly affect
+T282	Chemical 8149 8152	PYY
+T283	Metabolite 8207 8229	short-chain fatty acid
+T284	Metabolite 8230 8237	acetate
+T285	INCREASES 8256 8265	increased
+T286	Nutrient 8272 8274	RS
+T287	Nutrient 8305 8307	CS
+T288	Metabolite 8416 8421	SCFAs
+T289	Metabolite 8423 8433	propionate
+T290	Metabolite 8435 8443	butyrate
+T291	Metabolite 8445 8456	isobutyrate
+T292	Metabolite 8458 8466	valerate
+T293	Metabolite 8468 8479	isovalerate
+T294	Metabolite 8484 8493	hexanoate
+T295	AFFECTS 8495 8509	did not change
+T296	Nutrient 8516 8518	RS
+T297	Metabolite 8588 8595	acetate
+T298	Nutrient 8602 8608	starch
+T299	POS_ASSOCIATED_WITH 8625 8646	positively correlated
+T300	Chemical 8679 8685	aGLP-1
+T301	Nutrient 8729 8731	RS
+T303	Nutrient 8859 8861	RS
+T304	Nutrient 8998 9000	RS
+T305	Nutrient 9004 9006	CS
+T310	DiversityMetric 9456 9470	beta diversity
+T312	Chemical 9637 9642	GLP-1
+T313	Chemical 9647 9650	PPY
+T314	Nutrient 9670 9672	RS
+T315	DiversityMetric 9859 9874	alpha diversity
+T316	DiversityMetric 9893 9898	Chao1
+T317	DiversityMetric 9884 9891	Shannon
+T318	DiversityMetric 9903 9916	PD_whole_tree
+T319	Nutrient 9970 9972	RS
+T320	Nutrient 9977 9979	CS
+T321	Microorganism 10088 10101	Bacteroidetes
+T322	Microorganism 10158 10168	Firmicutes
+T323	Microorganism 10173 10187	Proteobacteria
+T324	Nutrient 10249 10251	RS
+T325	Nutrient 10426 10428	RS
+T326	Microorganism 10493 10505	Anaerostipes
+T327	DECREASES 10397 10406	decreased
+T328	Microorganism 10507 10518	Bacteroides
+T329	Microorganism 10520 10527	Blautia
+T330	Microorganism 10529 10541	Holdemanella
+T331	Microorganism 10543 10556	Coprococcus_1
+T332	Microorganism 10558 10571	Coprococcus_3
+T333	Microorganism 10573 10590	Lachnoclostridium
+T334	Microorganism 10592 10615	Lachnospiraceae_UCG-004
+T335	Microorganism 10617 10644	Erysipelotrichaceae_UCG-003
+T336	Microorganism 10646 10660	Paraprevotella
+T337	Microorganism 10662 10683	Phascolarctobacterium
+T338	Microorganism 10685 10704	Ruminiclostridium_6
+T339	Microorganism 10706 10729	Ruminococcaceae_UCG-002
+T340	Microorganism 10735 10760	Eubacterium_eligens_group
+T341	Nutrient 10775 10777	RS
+T342	INCREASES 10799 10808	increased
+T343	Microorganism 10832 10855	Ruminococcaceae_UCG-005
+T344	Microorganism 10878 10901	Lachnospiraceae_UCG-010
+T345	Microorganism 10903 10908	Doera
+T346	Microorganism 10913 10941	Lachnospiraceae_ND3007_group
+T347	DECREASES 10947 10956	decreased
+T348	Nutrient 10969 10971	RS
+T349	Nutrient 10976 10978	CS
+T352	Microorganism 11251 11261	Akkermania
+T353	Microorganism 11266 11277	Victivallis
+T354	Nutrient 11297 11299	RS
+T355	INCREASES 11218 11228	increasing
+T356	Nutrient 11377 11379	RS
+T357	Metabolite 11537 11559	N-acetyl-DL-tryptophan
+T358	Metabolite 11564 11582	indole lactic acid
+T359	INCREASES 11603 11612	increased
+T361	Nutrient 11632 11634	RS
+T362	Metabolite 11755 11760	SCFAs
+T366	Metabolite 11903 11908	SCFAs
+T367	Nutrient 11915 11917	RS
+T368	Chemical 12032 12051	postprandial aGLP-1
+T369	Chemical 12071 12091	postprandial insulin
+T370	Chemical 12110 12132	postprandial C-peptide
+T372	Chemical 12322 12341	postprandial aGLP-1
+T373	Chemical 12343 12350	insulin
+T374	Chemical 12355 12364	C-peptide
+T375	Metabolite 12376 12383	acetate
+T376	Nutrient 12393 12396	SFA
+T377	Metabolite 12401 12404	VFA
+T378	Nutrient 12411 12413	RS
+T380	Nutrient 12480 12482	RS
+T381	ASSOCIATED_WITH 12496 12506	correlated
+T382	Microorganism 12541 12554	Streptococcus
+T383	INCREASES 12468 12476	elevated
+T384	Metabolite 12584 12591	acetate
+T385	Nutrient 12598 12600	RS
+T386	POS_ASSOCIATED_WITH 12612 12633	positively correlated
+T387	Microorganism 12639 12650	Barmesiella
+T388	Microorganism 12655 12686	unclassified_f_Lanchnospiraceae
+T389	NEG_ASSOCIATED_WITH 12691 12712	negatively correlated
+T390	Microorganism 12718 12731	Fusobacterium
+T391	Microorganism 12736 12750	Alloprevotella
+T392	Nutrient 12786 12789	SFA
+T393	Metabolite 12794 12797	VFA
+T394	Nutrient 12804 12806	RS
+T395	ASSOCIATED_WITH 12833 12843	correlated
+T396	Microorganism 12877 12903	Ruminococcus_torques_group
+T397	Microorganism 12905 12929	Eubacterium_hallii_group
+T398	Microorganism 12935 12960	Eubacterium_eligens_group
+T5611	Nutrient 10 12	RS
+T5711	Nutrient 98 100	RS
+T5911	Physiology 207 213	Weight
+E16	DECREASES:T206 Agent:T208 Theme:T210
+E17	AFFECTS:T126 Agent:T114 Theme:T122
+E19	AFFECTS:T126 Agent:T114 Theme:T121
+E21	AFFECTS:T126 Agent:T114 Theme:T117
+E27	DECREASES:T152 Agent:T151 Theme:T156
+E28	DECREASES:T159 Agent:T160 Theme:T158
+E30	AFFECTS:T166 Agent:T167 Theme:T165
+E31	DECREASES:T168 Agent:T173 Theme:T169
+E32	DECREASES:T168 Agent:T173 Theme:T171
+E33	DECREASES:T176 Agent:T177 Theme:T174
+E34	AFFECTS:T180 Agent:T177 Theme:T179
+E35	AFFECTS:T180 Agent:T177 Theme:T178
+E36	AFFECTS:T180 Agent:T177 Theme:T181
+E37	AFFECTS:T189 Agent:T190 Theme:T188
+E38	AFFECTS:T189 Agent:T202 Theme:T188
+E39	AFFECTS:T189 Agent:T202 Theme:T187
+E40	AFFECTS:T189 Agent:T202 Theme:T186
+E41	AFFECTS:T189 Agent:T202 Theme:T185
+E42	AFFECTS:T189 Agent:T202 Theme:T184
+E43	AFFECTS:T189 Agent:T202 Theme:T182
+E44	AFFECTS:T189 Agent:T190 Theme:T187
+E45	AFFECTS:T189 Agent:T190 Theme:T186
+E46	AFFECTS:T189 Agent:T190 Theme:T185
+E47	AFFECTS:T189 Agent:T190 Theme:T184
+E48	AFFECTS:T189 Agent:T190 Theme:T182
+E49	ASSOCIATED_WITH:T204 Theme2:T205 Theme:T209
+E50	DECREASES:T206 Agent:T208 Theme:T209
+E51	INCREASES:T213 Agent:T212 Theme:T214
+E52	INCREASES:T213 Agent:T212 Theme:T216
+E53	INCREASES:T213 Agent:T212 Theme:T215
+E54	AFFECTS:T245 Agent:T246 Theme:T243
+E55	AFFECTS:T245 Agent:T246 Theme:T244
+E56	INCREASES:T250 Agent:T249 Theme:T247
+E57	INCREASES:T250 Agent:T249 Theme:T248
+E58	AFFECTS:T257 Agent:T258 Theme:T259
+E59	INCREASES:T261 Agent:T262 Theme:T260
+E60	INCREASES:T272 Agent:T276 Theme:T273
+E61	AFFECTS:T281 Agent:T280 Theme:T282
+E62	INCREASES:T285 Theme:T284 Agent:T286
+E63	AFFECTS:T295 Agent:T296 Theme:T294
+E64	AFFECTS:T295 Agent:T296 Theme:T293
+E65	AFFECTS:T295 Agent:T296 Theme:T292
+E66	AFFECTS:T295 Agent:T296 Theme:T291
+E67	AFFECTS:T295 Agent:T296 Theme:T290
+E68	AFFECTS:T295 Agent:T296 Theme:T289
+E69	POS_ASSOCIATED_WITH:T299 Theme:T297 Theme2:T300
+E70	DECREASES:T327 Agent:T325 Theme:T326
+E71	DECREASES:T327 Agent:T325 Theme:T340
+E72	DECREASES:T327 Agent:T325 Theme:T328
+E73	DECREASES:T327 Agent:T325 Theme:T329
+E74	DECREASES:T327 Agent:T325 Theme:T330
+E75	DECREASES:T327 Agent:T325 Theme:T331
+E76	DECREASES:T327 Agent:T325 Theme:T332
+E77	DECREASES:T327 Agent:T325 Theme:T333
+E78	DECREASES:T327 Agent:T325 Theme:T334
+E79	DECREASES:T327 Agent:T325 Theme:T335
+E80	DECREASES:T327 Agent:T325 Theme:T336
+E81	DECREASES:T327 Agent:T325 Theme:T337
+E82	DECREASES:T327 Agent:T325 Theme:T338
+E83	DECREASES:T327 Agent:T325 Theme:T339
+E84	INCREASES:T342 Agent:T341 Theme:T343
+E85	DECREASES:T347 Theme:T346 Agent:T348
+E86	DECREASES:T347 Theme:T345 Agent:T348
+E87	DECREASES:T347 Theme:T344 Agent:T348
+E88	DECREASES:T347 Theme:T344 Agent:T349
+E89	DECREASES:T347 Theme:T345 Agent:T349
+E90	DECREASES:T347 Theme:T346 Agent:T349
+E91	INCREASES:T355 Agent:T354 Theme:T352
+E92	INCREASES:T359 Agent:T361 Theme:T358
+E93	INCREASES:T355 Agent:T354 Theme:T353
+E94	INCREASES:T359 Agent:T361 Theme:T357
+E95	ASSOCIATED_WITH:T381 Theme2:T382 Theme:T372
+E96	INCREASES:T383 Agent:T380 Theme:T372
+E97	POS_ASSOCIATED_WITH:T386 Theme:T384 Theme2:T387
+E98	NEG_ASSOCIATED_WITH:T389 Theme:T384 Theme2:T390
+E99	POS_ASSOCIATED_WITH:T386 Theme:T384 Theme2:T388
+E100	NEG_ASSOCIATED_WITH:T389 Theme:T384 Theme2:T391
+E101	ASSOCIATED_WITH:T395 Theme:T393 Theme2:T398
+E102	ASSOCIATED_WITH:T395 Theme:T393 Theme2:T397
+E103	ASSOCIATED_WITH:T395 Theme:T393 Theme2:T396
+E104	ASSOCIATED_WITH:T395 Theme:T392 Theme2:T396
+E105	ASSOCIATED_WITH:T395 Theme:T392 Theme2:T397
+E106	ASSOCIATED_WITH:T395 Theme:T392 Theme2:T398
+E107	DECREASES:T206 Agent:T208 Theme:T211
+E108	ASSOCIATED_WITH:T204 Theme:T205 Theme2:T211
+E109	ASSOCIATED_WITH:T204 Theme:T205 Theme2:T210
+E110	INCREASES:T383 Agent:T380 Theme:T374
+E111	INCREASES:T383 Agent:T380 Theme:T373
+E112	ASSOCIATED_WITH:T381 Theme:T382 Theme2:T373
+E113	ASSOCIATED_WITH:T381 Theme:T382 Theme2:T374
+E114	DECREASES:T203 Theme:T162 Agent:T160
+E1811	AFFECTS:T127 Agent:T125 Theme:T124
+E2011	AFFECTS:T126 Agent:T114 Theme:T119
+E2211	AFFECTS:T126 Agent:T114 Theme:T115
+E2311	AFFECTS:T127 Agent:T125 Theme:T123
+E2411	DECREASES:T129 Agent:T128 Theme:T131
+E2511	DECREASES:T129 Agent:T128 Theme:T130
+E2611	DECREASES:T152 Agent:T151 Theme:T154
+A5	Negated E21
+A6	Negated E2211
+A8	Negated E30
+A9	Negated E34
+A10	Negated E35
+A11	Negated E36
+A12	Negated E37
+A13	Negated E38
+A14	Negated E39
+A15	Negated E40
+A16	Negated E41
+A17	Negated E42
+A18	Negated E43
+A19	Negated E44
+A20	Negated E45
+A21	Negated E46
+A22	Negated E47
+A23	Negated E48
+A24	Negated E54
+A25	Negated E55
+A26	Negated E58
+A27	Negated E61
+A28	Negated E63
+A29	Negated E64
+A30	Negated E65
+A31	Negated E66
+A32	Negated E67
+A33	Negated E68
+A34	Negated E2311
+A111	Negated E17
+A211	Negated E1811
+A311	Negated E19
+A411	Negated E2011
+A423	Factual E16
+A430	Factual E27
+A431	Factual E28
+A432	Factual E31
+A433	Factual E32
+A434	Factual E33
+A435	Factual E49
+A436	Factual E50
+A437	Factual E51
+A438	Factual E52
+A439	Factual E53
+A440	Factual E56
+A441	Factual E57
+A442	Factual E59
+A443	Factual E60
+A444	Factual E62
+A445	Factual E69
+A446	Factual E70
+A447	Factual E71
+A448	Factual E72
+A449	Factual E73
+A450	Factual E74
+A451	Factual E75
+A452	Factual E76
+A453	Factual E77
+A454	Factual E78
+A455	Factual E79
+A456	Factual E80
+A457	Factual E81
+A458	Factual E82
+A459	Factual E83
+A460	Factual E84
+A461	Factual E85
+A462	Factual E86
+A463	Factual E87
+A464	Factual E88
+A465	Factual E89
+A466	Factual E90
+A467	Factual E91
+A468	Factual E92
+A469	Factual E93
+A470	Factual E94
+A471	Factual E95
+A472	Factual E96
+A473	Factual E97
+A474	Factual E98
+A475	Factual E99
+A476	Factual E100
+A477	Factual E101
+A478	Factual E102
+A479	Factual E103
+A480	Factual E104
+A481	Factual E105
+A482	Factual E106
+A483	Factual E107
+A484	Factual E108
+A485	Factual E109
+A486	Factual E110
+A487	Factual E111
+A488	Factual E112
+A489	Factual E113
+A490	Factual E114
+A491	Factual E2411
+A492	Factual E2511
+A493	Factual E2611

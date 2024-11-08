@@ -1,0 +1,91 @@
+T1	Food 11 34	enriched seafood sticks
+T2	Physiology 110 138	cardiometabolic risk factors
+T3	Disease 161 178	abdominally obese
+T4	Population 161 187	abdominally obese subjects
+T5	Methodology 189 216	randomized controlled trial
+T6	Food 253 276	enriched seafood sticks
+T7	HAS_COMPONENT 277 281	with
+T8	Nutrient 282 292	postbiotic
+T9	Physiology 320 336	CMD risk factors
+T10	Disease 363 380	abdominally obese
+T11	Population 363 392	abdominally obese individuals
+T12	Nutrient 297 316	bioactive compounds
+T13	Microorganism 622 673	heat-inactivated B. animalis subsp. lactis CECT8145
+T14	Population 469 498	abdominally obese individuals
+T15	Disease 469 486	abdominally obese
+T16	Methodology 403 463	Randomized, double-blind, parallel, placebo-controlled trial
+T17	Food 544 567	enriched seafood sticks
+T18	HAS_COMPONENT 568 578	containing
+T19	Food 740 754	seafood sticks
+T20	DECREASES 882 891	decreased
+T21	Chemical 896 903	insulin
+T22	IMPROVES 2008 2030	complementary strategy
+T23	Nutrient 579 583	SIAP
+T24	DECREASES 1038 1047	decreased
+T25	Nutrient 1336 1341	SIAP2
+T26	NEG_ASSOCIATED_WITH 1121 1141	negative association
+T27	Food 1979 2002	enriched seafood sticks
+T29	Population 1543 1572	abdominally obese individuals
+T30	Disease 1543 1560	abdominally obese
+T31	Food 1574 1597	enriched seafood sticks
+T32	PREVENTS 1607 1627	potential protection
+T33	Disease 1636 1651	type 2 diabetes
+T34	DECREASES 1671 1680	reduction
+T35	Chemical 1688 1695	insulin
+T36	Physiology 2052 2068	CMD risk factors
+T37	Measurement 1700 1707	HOMA-IR
+T38	Disease 1716 1738	cardiovascular disease
+T39	Food 1859 1882	enriched seafood sticks
+T40	DECREASES 1883 1889	reduce
+T41	Chemical 1894 1931	atherogenic triglyceride postprandial
+T42	Population 999 1004	women
+T43	AFFECTS 0 7	Effects
+T44	AFFECTS 242 249	effects
+T45	Nutrient 686 693	omega 3
+T46	Nutrient 708 714	inulin
+T47	Microorganism 36 88	heat-inactivated B. animalis subsp. lactis CECT 8145
+T48	Nutrient 90 96	inulin
+T49	Nutrient 98 105	omega-3
+T50	Physiology 1052 1066	pulse pressure
+T51	Physiology 1068 1070	PP
+T52	Microorganism 1183 1203	Alistipes finegoldii
+T53	Microorganism 1208 1223	Ruminococcaceae
+T54	Physiology 1237 1249	PP reduction
+T55	Microorganism 1254 1274	Prevotella 9-ASV0283
+T56	Microorganism 1279 1298	Christensenellaceae
+T57	Physiology 1150 1178	glycemic parameter reduction
+T58	Chemical 1387 1424	postprandial circulating triglyceride
+T59	PREVENTS 1607 1627	potential protection
+T60	Physiology 1757 1759	PP
+T61	Measurement 933 983	homeostatic Model Assessment of Insulin Resistance
+T62	Measurement 924 931	HOMA-IR
+T63	Nutrient 850 855	SIAP2
+T64	Nutrient 1006 1011	SIAP2
+T65	INCREASES 1371 1379	increase
+T66	Population 1743 1748	women
+E1	HAS_COMPONENT:T7 Agent:T6 Theme:T8
+E2	HAS_COMPONENT:T7 Agent:T6 Theme:T12
+E3	HAS_COMPONENT:T18 Agent:T17 Theme:T45
+E4	HAS_COMPONENT:T18 Agent:T17 Theme:T46
+E5	HAS_COMPONENT:T18 Agent:T17 Theme:T13
+E6	DECREASES:T20 Theme:T21 Agent:T63
+E7	DECREASES:T24 Theme:T50 Agent:T64
+E8	NEG_ASSOCIATED_WITH:T26 Theme:T52 Theme2:T57
+E9	PREVENTS:T32 Agent:T31 Theme:T33
+E10	DECREASES:T34 Theme:T35 Agent:T31
+E11	DECREASES:T40 Theme:T41 Agent:T39
+E12	AFFECTS:T43 Agent:T1 Theme:T2
+E13	AFFECTS:T44 Agent:T6 Theme:T9
+E14	NEG_ASSOCIATED_WITH:T26 Theme:T55 Theme2:T54
+E15	NEG_ASSOCIATED_WITH:T26 Theme:T53 Theme2:T57
+E16	NEG_ASSOCIATED_WITH:T26 Theme:T56 Theme2:T54
+E17	PREVENTS:T59 Agent:T31 Theme:T38
+E18	DECREASES:T34 Theme:T60 Agent:T31
+E19	DECREASES:T20 Theme:T62 Agent:T63
+E20	DECREASES:T34 Theme:T37 Agent:T31
+E21	IMPROVES:T22 Agent:T27 Theme:T36
+E22	INCREASES:T65 Agent:T25 Theme:T58
+A1	Factuality E9 Possible
+A2	Factuality E12 Unknown
+A3	Factuality E13 Unknown
+A4	Factuality E17 Possible

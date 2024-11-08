@@ -1,0 +1,114 @@
+T1	Microorganism 11 56	Bifidobacterium animalis subsp. lactis BB-12®
+T2	AFFECTS 0 7	Effects
+T3	Measurement 64 89	lipid/lipoprotein profile
+T4	Metabolite 94 117	short chain fatty acids
+T5	Population 121 141	healthy young adults
+T6	Methodology 145 172	randomized controlled trial
+T320	Physiology 206 233	hypocholesterolemic effects
+T324	INCREASES 285 294	increases
+T325	Metabolite 304 327	short chain fatty acids
+T326	Metabolite 329 334	SCFAs
+T327	Food 190 200	probiotics
+T328	Food 356 366	probiotics
+T329	Chemical 370 376	lipids
+T330	Microorganism 445 490	Bifidobacterium animalis subsp. lactis BB-12®
+T331	Microorganism 492 498	BB-12®
+T332	Chemical 525 531	lipids
+T333	Chemical 377 389	lipoproteins
+T334	Chemical 536 548	lipoproteins
+T335	Metabolite 572 577	SCFAs
+T336	Population 581 595	healthy adults
+T337	AFFECTS 434 441	effects
+T338	Methodology 610 666	randomized, partially blinded, 4-period, crossover study
+T339	Population 671 677	adults
+T340	HAS_COMPONENT 800 804	with
+T341	Chemical 959 965	lipids
+T342	Chemical 966 978	lipoproteins
+T343	Chemical 980 987	glucose
+T344	Chemical 989 996	insulin
+T345	Chemical 998 1016	C-reactive protein
+T346	Chemical 1018 1021	CRP
+T347	Metabolite 1034 1039	SCFAs
+T348	Food 784 799	yogurt smoothie
+T349	Microorganism 805 834	BB-12® added pre-fermentation
+T350	DietPattern 836 839	PRE
+T351	Food 845 860	yogurt smoothie
+T352	HAS_COMPONENT 861 865	with
+T353	Microorganism 866 896	BB-12® added post-fermentation
+T354	DietPattern 898 902	POST
+T355	Microorganism 908 933	BB-12® containing capsule
+T357	Chemical 1093 1110	Total cholesterol
+T358	Chemical 1112 1114	TC
+T359	Chemical 1117 1132	LDL cholesterol
+T360	Chemical 1134 1139	LDL-C
+T361	Chemical 1142 1157	HDL cholesterol
+T362	Chemical 1159 1164	HDL-C
+T363	Chemical 1171 1184	triglycerides
+T364	Chemical 1186 1189	TGs
+T365	Metabolite 1308 1315	acetate
+T366	INCREASES 1320 1343	significantly increased
+T367	DietPattern 1398 1401	PRE
+T368	Metabolite 1478 1485	acetate
+T369	Metabolite 1598 1609	total SCFAs
+T370	Metabolite 1611 1621	propionate
+T371	Metabolite 1626 1634	butyrate
+T372	Metabolite 1683 1694	total SCFAs
+T373	NEG_ASSOCIATED_WITH 1700 1721	negatively associated
+T374	Chemical 1727 1729	TC
+T375	Chemical 1753 1758	LDL-C
+T376	Physiology 1783 1786	age
+T377	Measurement 1815 1834	waist circumference
+T378	Microorganism 1871 1877	BB-12®
+T379	IMPROVES 1894 1909	did not improve
+T380	Chemical 1910 1916	lipids
+T381	Chemical 1918 1930	lipoproteins
+T383	Metabolite 1962 1967	SCFAs
+T384	Metabolite 1975 1980	SCFAs
+T385	NEG_ASSOCIATED_WITH 1986 2007	negatively associated
+T386	Chemical 2013 2015	TC
+T387	Chemical 2017 2022	LDL-C
+T388	Physiology 2024 2027	age
+T389	Measurement 2033 2052	waist circumference
+T390	Food 744 759	yogurt smoothie
+T391	Biospecimen 1028 1033	fecal
+T392	Biospecimen 553 558	fecal
+E1	AFFECTS:T2 Agent:T1 Theme:T3
+E2	AFFECTS:T2 Agent:T1 Theme:T4
+E57	INCREASES:T324 Agent:T327 Theme:T325
+E58	AFFECTS:T337 Agent:T330 Theme:T332
+E59	AFFECTS:T337 Agent:T330 Theme:T334
+E60	AFFECTS:T337 Agent:T330 Theme:T335
+E61	HAS_COMPONENT:T340 Agent:T348 Theme:T349
+E62	HAS_COMPONENT:T352 Agent:T351 Theme:T353
+E63	INCREASES:T366 Theme:T365 Agent:T367
+E64	NEG_ASSOCIATED_WITH:T373 Theme:T372 Agent:T374
+E65	NEG_ASSOCIATED_WITH:T373 Theme:T372 Agent:T375
+E66	NEG_ASSOCIATED_WITH:T373 Theme:T372 Agent:T376
+E67	NEG_ASSOCIATED_WITH:T373 Theme:T372 Agent:T377
+E68	IMPROVES:T379 Agent:T378 Theme:T380
+E69	IMPROVES:T379 Agent:T378 Theme:T381
+E70	IMPROVES:T379 Agent:T378 Theme:T383
+E72	NEG_ASSOCIATED_WITH:T385 Theme:T384 Agent:T386
+E73	NEG_ASSOCIATED_WITH:T385 Theme:T384 Agent:T387
+E74	NEG_ASSOCIATED_WITH:T385 Theme:T384 Agent:T388
+E75	NEG_ASSOCIATED_WITH:T385 Theme:T384 Agent:T389
+A1	Unknown E1
+A2	Unknown E2
+A20	Unknown E58
+A21	Unknown E59
+A22	Unknown E60
+A23	Negated E68
+A24	Negated E69
+A25	Negated E70
+A88	Factual E57
+A89	Factual E61
+A90	Factual E62
+A91	Factual E63
+A92	Factual E64
+A93	Factual E65
+A94	Factual E66
+A95	Factual E67
+A96	Factual E72
+A97	Factual E73
+A98	Factual E74
+A99	Factual E75

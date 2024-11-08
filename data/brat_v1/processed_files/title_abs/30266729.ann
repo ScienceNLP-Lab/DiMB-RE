@@ -1,0 +1,22 @@
+T1	Nutrient 45 61	Resistant Starch
+T2	Nutrient 159 175	resistant starch
+T3	Nutrient 177 179	RS
+T9	Nutrient 439 448	type 2 RS
+T10	Nutrient 450 453	RS2
+T13	Nutrient 791 794	RS2
+T14	Microorganism 913 923	Firmicutes
+T15	Microorganism 930 949	Ruminococcus bromii
+T16	Metabolite 1025 1032	acetate
+T17	Metabolite 1080 1088	butyrate
+T18	Enzyme 1121 1169	butyryl-coenzyme A (CoA):acetate CoA-transferase
+T20	INCREASES 1015 1024	increased
+T21	Microorganism 1206 1215	acetogens
+T22	Disease 1735 1742	obesity
+T23	Disease 1747 1762	type 2 diabetes
+T24	Nutrient 1804 1822	resistant starches
+T25	Nutrient 1824 1826	RS
+T26	Nutrient 2087 2089	RS
+E1	INCREASES:T20 Theme:T16 Agent:T15
+E2	INCREASES:T20 Theme:T16 Agent:T14
+A1	Factual E1
+A2	Factual E2

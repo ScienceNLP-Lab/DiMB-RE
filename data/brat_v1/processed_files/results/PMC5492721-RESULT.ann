@@ -1,0 +1,463 @@
+T7	Measurement 171 174	BMI
+T8	Physiology 129 132	Age
+T9	Measurement 217 236	Waist circumference
+T10	Physiology 276 299	Systolic blood pressure
+T11	Physiology 343 367	Diastolic blood pressure
+T12	Chemical 406 408	TC
+T13	Chemical 453 458	HDL-C
+T14	Chemical 500 505	LDL-C
+T15	Measurement 547 561	TC/HDL-C ratio
+T16	Measurement 594 608	TG/HDL-C ratio
+T17	Chemical 642 645	TGs
+T18	Chemical 687 694	Glucose
+T19	Chemical 750 757	Insulin
+T20	Measurement 809 816	HOMA-IR
+T21	Physiology 904 921	Physical activity
+T22	Disease 923 927	METs
+T23	Chemical 1002 1004	TC
+T24	Chemical 1006 1023	total cholesterol
+T25	Chemical 1025 1030	HDL-C
+T26	Chemical 1032 1068	high-density lipoprotein cholesterol
+T27	Chemical 1070 1075	LDL-C
+T28	Chemical 1077 1112	low-density lipoprotein cholesterol
+T29	Chemical 1114 1117	TGs
+T30	Chemical 1119 1132	triglycerides
+T31	Measurement 1134 1141	HOMA-IR
+T32	Measurement 1143 1200	homeostatic model assessment-estimated insulin resistance
+T33	Chemical 1202 1208	hs-CRP
+T34	Physiology 1247 1250	MET
+T35	Chemical 1210 1245	high-sensitivity C-reactive protein
+T36	Measurement 1252 1280	metabolic equivalent of task
+T38	Nutrient 2161 2174	Saturated fat
+T39	Measurement 1575 1602	Anthropometric measurements
+T40	Physiology 1604 1618	blood pressure
+T41	Measurement 1620 1640	metabolic parameters
+T42	Measurement 1642 1665	physical activity index
+T43	Disease 1667 1671	METs
+T44	Measurement 1804 1807	BMI
+T45	Measurement 1829 1832	BMI
+T46	Measurement 1834 1853	waist circumference
+T47	Physiology 1855 1869	blood pressure
+T48	Measurement 1874 1893	biochemical markers
+T51	DietPattern 3317 3319	YS
+T53	Food 2009 2025	yogurt smoothies
+T54	Microorganism 2055 2061	BB-12®
+T55	Microorganism 2334 2340	BB-12®
+T56	Food 2426 2441	yogurt smoothie
+T57	Microorganism 2446 2452	BB-12®
+T58	Food 2501 2516	yogurt smoothie
+T59	HAS_COMPONENT 2517 2526	contained
+T60	Nutrient 2527 2535	milk fat
+T61	Food 2537 2556	milk solids non-fat
+T62	Food 2558 2574	strawberry puree
+T63	Nutrient 2576 2582	pectin
+T64	Nutrient 2584 2601	corn syrup solids
+T65	Nutrient 2603 2608	sugar
+T66	Nutrient 2614 2619	water
+T67	Food 2652 2667	yogurt smoothie
+T68	Food 2701 2716	yogurt smoothie
+T69	HAS_COMPONENT 2717 2726	contained
+T70	Nutrient 2141 2144	Fat
+T71	Nutrient 2775 2786	cholesterol
+T72	Nutrient 2190 2201	Cholesterol
+T73	Nutrient 2216 2222	Sodium
+T74	Nutrient 2243 2255	Carbohydrate
+T75	Nutrient 2797 2803	sodium
+T76	Nutrient 2736 2739	fat
+T77	Nutrient 2315 2322	Protein
+T78	Nutrient 2270 2283	Dietary Fiber
+T79	Nutrient 2296 2301	Sugar
+T80	Nutrient 2750 2763	saturated fat
+T81	Nutrient 2813 2825	carbohydrate
+T82	Nutrient 2834 2839	fiber
+T83	Nutrient 2871 2878	protein
+T84	Nutrient 2852 2857	sugar
+T85	Microorganism 2965 2971	BB-12®
+T86	DietPattern 2908 2910	YS
+T87	DietPattern 2912 2915	PRE
+T88	DietPattern 2921 2925	POST
+T89	DietPattern 2028 2030	YS
+T90	DietPattern 2032 2035	PRE
+T91	DietPattern 2041 2045	POST
+T92	DietPattern 2977 2979	YS
+T93	HAS_COMPONENT 2980 2995	did not contain
+T94	Microorganism 2996 3002	BB-12®
+T95	DietPattern 3013 3016	PRE
+T96	DietPattern 3021 3025	POST
+T97	HAS_COMPONENT 3043 3052	contained
+T98	Microorganism 3072 3078	BB-12®
+T99	Microorganism 3117 3123	BB-12®
+T100	DietPattern 3258 3260	YS
+T101	DietPattern 3262 3265	PRE
+T102	DietPattern 3267 3271	POST
+T103	DietPattern 3340 3344	POST
+T104	Nutrient 3461 3473	Carbohydrate
+T105	Nutrient 3531 3543	Carbohydrate
+T106	Nutrient 3619 3626	Protein
+T107	Nutrient 3694 3701	Protein
+T108	Nutrient 3777 3780	Fat
+T109	Nutrient 3848 3851	Fat
+T110	Nutrient 3927 3932	Fiber
+T111	Nutrient 4000 4011	Cholesterol
+T112	DietPattern 4113 4115	YS
+T113	Food 4117 4132	yogurt smoothie
+T114	Microorganism 4141 4147	BB-12®
+T115	DietPattern 4149 4152	PRE
+T116	DietPattern 4206 4210	POST
+T117	Food 4154 4169	yogurt smoothie
+T118	HAS_COMPONENT 4170 4174	with
+T119	Microorganism 4175 4181	BB-12®
+T120	Food 4212 4227	yogurt smoothie
+T121	HAS_COMPONENT 4228 4232	with
+T122	Microorganism 4233 4239	BB-12®
+T123	Measurement 5147 5171	anthropometric variables
+T124	Chemical 5370 5377	Glucose
+T125	Physiology 4303 4306	sex
+T126	Physiology 4398 4401	age
+T127	Measurement 4406 4409	BMI
+T128	Food 4538 4553	yogurt smoothie
+T129	DietPattern 4606 4608	YS
+T130	DietPattern 4610 4613	PRE
+T131	DietPattern 4618 4622	POST
+T132	Nutrient 4740 4752	carbohydrate
+T133	Nutrient 4754 4761	protein
+T134	Nutrient 4763 4766	fat
+T135	Nutrient 4768 4773	fiber
+T136	Nutrient 4779 4790	cholesterol
+T137	AFFECTS 4982 5008	no significant differences
+T138	Nutrient 4869 4880	cholesterol
+T139	Nutrient 4859 4864	fiber
+T140	Nutrient 4854 4857	fat
+T141	Nutrient 4845 4852	protein
+T142	Nutrient 4831 4843	carbohydrate
+T143	Measurement 4936 4951	Anthropometrics
+T144	Physiology 4956 4970	blood pressure
+T145	Measurement 5012 5036	anthropometric variables
+T146	Physiology 5041 5055	blood pressure
+T147	Physiology 5176 5190	blood pressure
+T148	Measurement 5265 5285	metabolic parameters
+T149	Metabolite 5290 5313	short chain fatty acids
+T150	Metabolite 5414 5419	SCFAs
+T151	Metabolite 5511 5518	Acetate
+T152	Metabolite 5612 5620	Butyrate
+T153	Metabolite 5716 5726	Propionate
+T154	Metabolite 5862 5867	SCFAs
+T155	Metabolite 5869 5876	acetate
+T156	Metabolite 5878 5886	butyrate
+T157	Chemical 5378 5385	Insulin
+T158	Metabolite 5924 5934	propionate
+T159	Chemical 5936 5943	glucose
+T160	Chemical 5945 5952	insulin
+T161	Measurement 5954 5961	HOMA-IR
+T162	Chemical 5967 5973	hs-CRP
+T163	Chemical 5975 5977	TC
+T164	Chemical 5979 5996	total cholesterol
+T165	Chemical 5998 6003	HDL-C
+T166	Chemical 6005 6041	high-density lipoprotein cholesterol
+T167	Chemical 6043 6048	LDL-C
+T168	Chemical 6050 6085	low-density lipoprotein cholesterol
+T169	Chemical 6087 6092	N-HDL
+T170	Chemical 6094 6134	non-high-density lipoprotein cholesterol
+T171	Chemical 6136 6139	TGs
+T172	Chemical 6141 6154	triglycerides
+T173	Measurement 6156 6163	HOMA-IR
+T174	Measurement 6165 6222	homeostatic model assessment-estimated insulin resistance
+T175	Chemical 6224 6227	CRP
+T176	Chemical 6229 6247	C-reactive protein
+T177	Measurement 6249 6252	BMI
+T178	Measurement 6254 6269	body mass index
+T179	Measurement 6271 6273	WC
+T180	Measurement 6275 6294	waist circumference
+T181	Metabolite 6341 6346	SCFAs
+T182	Measurement 6351 6371	metabolic parameters
+T183	NEG_ASSOCIATED_WITH 6396 6416	negative correlation
+T184	Measurement 6435 6438	BMI
+T185	Metabolite 6443 6451	butyrate
+T186	NEG_ASSOCIATED_WITH 6512 6532	negative correlation
+T187	Measurement 6541 6560	waist circumference
+T188	Metabolite 6575 6580	SCFAs
+T189	Metabolite 6607 6614	acetate
+T190	Metabolite 6645 6653	butyrate
+T191	Physiology 6690 6693	Age
+T192	NEG_ASSOCIATED_WITH 6698 6719	negatively correlated
+T193	Metabolite 6754 6759	SCFAs
+T195	Metabolite 6786 6793	acetate
+T196	Metabolite 6819 6827	butyrate
+T197	Metabolite 6858 6868	propionate
+T198	DietPattern 6982 6984	YS
+T199	DietPattern 6986 6989	PRE
+T200	DietPattern 6991 6995	POST
+T201	Chemical 7100 7102	TC
+T202	Chemical 7157 7162	HDL-C
+T203	Chemical 7232 7237	LDL-C
+T204	Chemical 7307 7316	Non-HDL-C
+T205	Chemical 7371 7374	TGs
+T206	Measurement 7444 7458	TC/HDL-C ratio
+T207	Measurement 7526 7540	TG/HDL-C ratio
+T208	Chemical 7608 7615	Insulin
+T209	Chemical 7690 7697	Glucose
+T210	Measurement 7768 7775	HOMA-IR
+T211	Chemical 7843 7846	CRP
+T212	Microorganism 7991 7997	BB-12®
+T213	Food 7967 7982	yogurt smoothie
+T214	DietPattern 9183 9187	POST
+T215	DietPattern 7999 8002	PRE
+T216	DietPattern 7963 7965	YS
+T217	Food 8004 8019	yogurt smoothie
+T218	HAS_COMPONENT 8020 8024	with
+T219	Microorganism 8025 8031	BB-12®
+T220	DietPattern 8056 8060	POST
+T221	Food 8062 8077	yogurt smoothie
+T222	HAS_COMPONENT 8078 8082	with
+T223	Microorganism 8083 8089	BB-12®
+T224	Chemical 8109 8111	TC
+T225	Chemical 8113 8130	total cholesterol
+T226	Chemical 8132 8137	HDL-C
+T227	Chemical 8139 8175	high-density lipoprotein cholesterol
+T228	Chemical 8177 8182	LDL-C
+T229	Chemical 8184 8219	low-density lipoprotein cholesterol
+T230	Chemical 8221 8224	TGs
+T231	Chemical 8226 8239	triglycerides
+T232	Measurement 8241 8248	HOMA-IR
+T233	Measurement 8250 8307	homeostatic model assessment-estimated insulin resistance
+T234	Chemical 8309 8315	hs-CRP
+T235	Chemical 8317 8352	high-sensitivity C-reactive protein
+T236	Food 3026 3042	yogurt smoothies
+T237	Physiology 8398 8401	sex
+T238	Physiology 8493 8496	age
+T239	Measurement 8498 8501	BMI
+T241	AFFECTS 8689 8711	no significant changes
+T242	Chemical 8715 8717	TC
+T243	Chemical 8719 8724	HDL-C
+T244	Chemical 8726 8735	non-HDL-C
+T245	Chemical 8737 8740	TGs
+T246	Measurement 8742 8751	TC: HDL-C
+T247	Chemical 8753 8760	insulin
+T248	Chemical 8762 8769	glucose
+T249	Measurement 8771 8778	HOMA-IR
+T250	Chemical 8784 8787	CRP
+T251	Chemical 8880 8882	TC
+T252	Chemical 8884 8889	LDL-C
+T253	Chemical 8895 8904	non-HDL-C
+T255	Measurement 8948 8961	fecal markers
+T256	Metabolite 9003 9026	short chain fatty acids
+T257	Metabolite 9033 9038	SCFAs
+T260	DietPattern 9092 9094	YS
+T261	DietPattern 9096 9099	PRE
+T262	DietPattern 9101 9105	POST
+T263	DietPattern 9171 9174	PRE
+T264	DietPattern 9160 9162	YS
+T265	Metabolite 9225 9230	SCFAs
+T266	Metabolite 9299 9306	Acetate
+T267	Metabolite 9369 9379	Propionate
+T268	Metabolite 9438 9446	Butyrate
+T269	DietPattern 9547 9549	YS
+T270	Food 9551 9566	yogurt smoothie
+T272	Microorganism 9575 9581	BB-12®
+T273	DietPattern 9583 9586	PRE
+T274	Food 9588 9603	yogurt smoothie
+T275	HAS_COMPONENT 9604 9608	with
+T276	Microorganism 9609 9615	BB-12®
+T277	DietPattern 9640 9644	POST
+T278	Food 9646 9661	yogurt smoothie
+T279	HAS_COMPONENT 9662 9666	with
+T280	Microorganism 9667 9673	BB-12®
+T281	Metabolite 9693 9698	SCFAs
+T282	Metabolite 9700 9723	short chain fatty acids
+T284	Physiology 9769 9772	sex
+T285	Physiology 9864 9867	age
+T286	Measurement 9869 9872	BMI
+T287	Nutrient 9874 9879	fiber
+T289	Metabolite 10049 10056	acetate
+T290	DietPattern 10078 10080	YS
+T291	DietPattern 10082 10085	PRE
+T292	DietPattern 10087 10091	POST
+T293	DietPattern 10276 10278	YS
+T294	Food 10280 10295	yogurt smoothie
+T296	Microorganism 10304 10310	BB-12®
+T297	DietPattern 10312 10315	PRE
+T298	Food 10317 10332	yogurt smoothie
+T299	HAS_COMPONENT 10333 10337	with
+T300	Microorganism 10338 10344	BB-12®
+T301	DietPattern 10369 10373	POST
+T302	Food 10375 10390	yogurt smoothie
+T303	HAS_COMPONENT 10391 10395	with
+T304	Microorganism 10396 10402	BB-12®
+T305	Metabolite 10422 10427	SCFAs
+T306	Metabolite 10429 10452	short chain fatty acids
+T308	Metabolite 10500 10505	SCFAs
+T309	Metabolite 10507 10517	propionate
+T310	Metabolite 10522 10530	butyrate
+T311	Metabolite 10587 10594	acetate
+T312	INCREASES 10623 10632	increased
+T313	DietPattern 10643 10645	YS
+T314	DietPattern 10696 10699	PRE
+T315	AFFECTS 10540 10549	unchanged
+T316	INCREASES 10844 10852	increase
+T317	Metabolite 10856 10863	acetate
+T318	DietPattern 10884 10886	YS
+T319	DietPattern 10912 10916	POST
+T321	Metabolite 11059 11064	SCFAs
+T322	Metabolite 11066 11076	propionate
+T323	Metabolite 11081 11089	butyrate
+T393	DietPattern 3328 3331	PRE
+T394	Measurement 5386 5390	HOMA
+T395	Chemical 5391 5394	CRP
+E3	HAS_COMPONENT:T59 Agent:T58 Theme:T60
+E4	HAS_COMPONENT:T59 Agent:T58 Theme:T61
+E5	HAS_COMPONENT:T59 Agent:T58 Theme:T62
+E6	HAS_COMPONENT:T59 Agent:T58 Theme:T63
+E7	HAS_COMPONENT:T59 Agent:T58 Theme:T64
+E8	HAS_COMPONENT:T59 Agent:T58 Theme:T65
+E9	HAS_COMPONENT:T59 Agent:T58 Theme:T66
+E10	HAS_COMPONENT:T69 Agent:T68 Theme:T76
+E11	HAS_COMPONENT:T93 Agent:T92 Theme:T94
+E12	HAS_COMPONENT:T97 Theme:T98 Agent:T95
+E13	HAS_COMPONENT:T97 Theme:T98 Agent:T96
+E14	HAS_COMPONENT:T69 Agent:T68 Theme:T80
+E15	HAS_COMPONENT:T69 Agent:T68 Theme:T71
+E16	HAS_COMPONENT:T69 Agent:T68 Theme:T75
+E17	HAS_COMPONENT:T69 Agent:T68 Theme:T81
+E18	HAS_COMPONENT:T69 Agent:T68 Theme:T82
+E19	HAS_COMPONENT:T69 Agent:T68 Theme:T84
+E20	HAS_COMPONENT:T69 Agent:T68 Theme:T83
+E21	HAS_COMPONENT:T118 Agent:T117 Theme:T119
+E22	HAS_COMPONENT:T121 Agent:T120 Theme:T122
+E23	AFFECTS:T137 Agent:T129 Theme:T145
+E24	AFFECTS:T137 Theme:T146 Agent:T129
+E25	AFFECTS:T137 Theme:T146 Agent:T130
+E26	AFFECTS:T137 Theme:T146 Agent:T131
+E27	NEG_ASSOCIATED_WITH:T183 Agent:T184 Theme:T185
+E28	NEG_ASSOCIATED_WITH:T186 Agent:T187 Theme:T188
+E29	NEG_ASSOCIATED_WITH:T186 Agent:T187 Theme:T189
+E30	NEG_ASSOCIATED_WITH:T186 Agent:T187 Theme:T190
+E31	NEG_ASSOCIATED_WITH:T192 Agent:T191 Theme:T193
+E32	NEG_ASSOCIATED_WITH:T192 Agent:T191 Theme:T195
+E33	NEG_ASSOCIATED_WITH:T192 Agent:T191 Theme:T196
+E34	NEG_ASSOCIATED_WITH:T192 Agent:T191 Theme:T197
+E35	AFFECTS:T137 Agent:T130 Theme:T145
+E36	HAS_COMPONENT:T218 Agent:T217 Theme:T219
+E37	HAS_COMPONENT:T222 Agent:T221 Theme:T223
+E38	AFFECTS:T241 Theme:T250 Agent:T216
+E39	AFFECTS:T241 Theme:T250 Agent:T215
+E40	AFFECTS:T241 Theme:T250 Agent:T220
+E41	AFFECTS:T241 Agent:T216 Theme:T249
+E42	AFFECTS:T241 Agent:T220 Theme:T249
+E43	AFFECTS:T241 Agent:T215 Theme:T249
+E44	AFFECTS:T137 Agent:T131 Theme:T145
+E45	AFFECTS:T241 Theme:T248 Agent:T216
+E46	HAS_COMPONENT:T275 Agent:T274 Theme:T276
+E47	HAS_COMPONENT:T279 Agent:T278 Theme:T280
+E48	AFFECTS:T241 Theme:T248 Agent:T215
+E49	HAS_COMPONENT:T299 Agent:T298 Theme:T300
+E50	HAS_COMPONENT:T303 Agent:T302 Theme:T304
+E51	INCREASES:T312 Theme:T311 Agent:T313
+E52	AFFECTS:T315 Theme:T308 Agent:T293
+E53	AFFECTS:T315 Theme:T308 Agent:T297
+E54	AFFECTS:T315 Theme:T308 Agent:T301
+E55	INCREASES:T312 Theme:T311 Agent:T314
+E56	INCREASES:T316 Theme:T317 Agent:T318
+E71	AFFECTS:T241 Theme:T248 Agent:T220
+E76	AFFECTS:T241 Theme:T247 Agent:T216
+E77	AFFECTS:T241 Theme:T247 Agent:T215
+E78	AFFECTS:T241 Theme:T247 Agent:T220
+E79	AFFECTS:T241 Theme:T246 Agent:T216
+E80	AFFECTS:T241 Theme:T246 Agent:T215
+E81	AFFECTS:T241 Theme:T246 Agent:T220
+E82	AFFECTS:T241 Theme:T245 Agent:T216
+E83	AFFECTS:T241 Theme:T245 Agent:T215
+E84	AFFECTS:T241 Theme:T245 Agent:T220
+E85	AFFECTS:T241 Theme:T244 Agent:T216
+E86	AFFECTS:T241 Theme:T244 Agent:T215
+E87	AFFECTS:T241 Theme:T244 Agent:T220
+E88	AFFECTS:T241 Theme:T243 Agent:T216
+E89	AFFECTS:T241 Theme:T243 Agent:T215
+E90	AFFECTS:T241 Theme:T243 Agent:T220
+E91	AFFECTS:T241 Theme:T242 Agent:T216
+E92	AFFECTS:T241 Theme:T242 Agent:T215
+E93	AFFECTS:T241 Theme:T242 Agent:T220
+E94	AFFECTS:T315 Theme:T309 Agent:T301
+E95	AFFECTS:T315 Theme:T309 Agent:T297
+E96	AFFECTS:T315 Theme:T309 Agent:T293
+E97	AFFECTS:T315 Theme:T310 Agent:T301
+E98	AFFECTS:T315 Theme:T310 Agent:T297
+E99	AFFECTS:T315 Theme:T310 Agent:T293
+A3	Negated E11
+A4	Negated E23
+A5	Negated E24
+A6	Negated E25
+A7	Negated E26
+A8	Negated E35
+A9	Negated E38
+A10	Negated E39
+A11	Negated E40
+A12	Negated E41
+A13	Negated E42
+A14	Negated E43
+A15	Negated E44
+A16	Negated E45
+A17	Negated E52
+A18	Negated E53
+A19	Negated E54
+A26	Negated E48
+A27	Negated E71
+A28	Negated E76
+A29	Negated E77
+A30	Negated E78
+A31	Negated E79
+A32	Negated E80
+A33	Negated E81
+A34	Negated E82
+A35	Negated E83
+A36	Negated E84
+A37	Negated E85
+A38	Negated E86
+A39	Negated E87
+A40	Negated E88
+A41	Negated E89
+A42	Negated E90
+A43	Negated E91
+A44	Negated E92
+A45	Negated E93
+A46	Negated E94
+A47	Negated E95
+A48	Negated E96
+A49	Negated E97
+A50	Negated E98
+A51	Negated E99
+A52	Factual E3
+A53	Factual E4
+A54	Factual E5
+A55	Factual E6
+A56	Factual E7
+A57	Factual E8
+A58	Factual E9
+A59	Factual E10
+A60	Factual E12
+A61	Factual E13
+A62	Factual E14
+A63	Factual E15
+A64	Factual E16
+A65	Factual E17
+A66	Factual E18
+A67	Factual E19
+A68	Factual E20
+A69	Factual E21
+A70	Factual E22
+A71	Factual E27
+A72	Factual E28
+A73	Factual E29
+A74	Factual E30
+A75	Factual E31
+A76	Factual E32
+A77	Factual E33
+A78	Factual E34
+A79	Factual E36
+A80	Factual E37
+A81	Factual E46
+A82	Factual E47
+A83	Factual E49
+A84	Factual E50
+A85	Factual E51
+A86	Factual E55
+A87	Factual E56

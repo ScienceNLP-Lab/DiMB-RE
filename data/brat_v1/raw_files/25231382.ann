@@ -1,0 +1,28 @@
+T1	Nutrient 18 36	polydextrose fiber
+T2	Nutrient 127 139	polydextrose
+T3	Nutrient 140 143	PDX
+T4	Methodology 318 346	Principal component analysis
+T5	Methodology 348 351	PCA
+T6	Nutrient 381 384	PDX
+T7	Physiology 522 548	partial degradation of PDX
+T8	Nutrient 765 768	PDX
+T9	Metabolite 809 816	acetate
+T10	Metabolite 821 831	propionate
+T11	ASSOCIATED_WITH 744 756	associations
+T12	Microorganism 931 946	Bifidobacterium
+T13	Microorganism 965 976	Bacteroides
+T14	Methodology 1021 1043	NMR-based metabolomics
+T15	Nutrient 147 160	soluble fiber
+T16	Methodology 195 275	high-resolution nuclear magnetic resonance (NMR) spectroscopy-based metabolomics
+T18	Methodology 281 307	dietary intervention study
+T19	Nutrient 493 509	oligosaccharides
+T20	Nutrient 472 488	undigested fiber
+T22	Methodology 579 601	NMR-based metabolomics
+T23	Biospecimen 652 657	feces
+T24	Nutrient 688 701	dietary fiber
+T25	Nutrient 545 548	PDX
+T26	INCREASES 510 516	formed
+E1	ASSOCIATED_WITH:T11 Theme:T8 Theme2:T9
+E2	INCREASES:T26 Theme:T20 Agent:T7
+E3	INCREASES:T26 Theme:T19 Agent:T7
+E4	ASSOCIATED_WITH:T11 Theme:T8 Theme2:T10

@@ -1,0 +1,14 @@
+Prebiotic dietary fibre intervention improves fecal markers related to inflammation in obese patients: results from the Food4Gut randomized placebo-controlled trial
+
+Purpose
+Inulin-type fructans (ITF) are prebiotic dietary fibre (DF) that may confer beneficial health effects, by interacting with the gut microbiota. We have tested the hypothesis that a dietary intervention promoting inulin intake versus placebo influences fecal microbial-derived metabolites and markers related to gut integrity and inflammation in obese patients.
+Methods
+Microbiota (16S rRNA sequencing), long- and short-chain fatty acids (LCFA, SCFA), bile acids, zonulin, and calprotectin were analyzed in fecal samples obtained from obese patients included in a randomized, placebo-controlled trial. Participants received either 16 g/d native inulin (prebiotic n = 12) versus maltodextrin (placebo n = 12), coupled to dietary advice to consume inulin-rich versus inulin-poor vegetables for 3 months, in addition to dietary caloric restriction.
+Results
+Both placebo and prebiotic interventions lowered energy and protein intake. A substantial increase in Bifidobacterium was detected after ITF treatment (q = 0.049) supporting our recent data obtained in a larger cohort. Interestingly, fecal calprotectin, a marker of gut inflammation, was reduced upon ITF treatment. Both prebiotic and placebo interventions increased the ratio of tauro-conjugated/free bile acids in feces. Prebiotic treatment did not significantly modify fecal SCFA content but it increased fecal rumenic acid, a conjugated linoleic acid (cis-9, trans-11 CLA) with immunomodulatory properties, that correlated notably to the expansion of Bifidobacterium (p = 0.031; r = 0.052).
+Conclusions
+Our study demonstrates that ITF-prebiotic intake during 3 months decreases a fecal marker of intestinal inflammation in obese patients. Our data point to a potential contribution of microbial lipid-derived metabolites in gastro-intestinal dysfunction related to obesity.
+ClinicalTrials.gov Identifier
+NCT03852069 (February 22, 2019 retrospectively, registered).
+Supplementary Information
+The online version contains supplementary material available at 10.1007/s00394-021-02484-5.

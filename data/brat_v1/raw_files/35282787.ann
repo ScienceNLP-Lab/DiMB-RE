@@ -1,0 +1,69 @@
+T1	Food 17 41	fermented dairy beverage
+T2	Disease 418 432	mental illness
+T3	Food 197 221	fermented dairy beverage
+T4	Physiology 51 90	hippocampal-dependent relational memory
+T5	Nutrient 233 242	probiotic
+T6	Physiology 269 289	negative mood states
+T7	Physiology 291 297	stress
+T8	Physiology 303 333	hippocampal memory performance
+T9	Population 337 351	healthy adults
+T10	Population 362 432	Adults (25-45 yrs, N = 26) free of gastrointestinal and mental illness
+T11	Methodology 452 505	single-blind, randomized, controlled, crossover trial
+T12	Physiology 397 413;425 432	gastrointestinal illness
+T13	Methodology 903 930	spatial reconstruction task
+T14	Methodology 1003 1038	Depression Anxiety Stress Scales-42
+T15	Methodology 1040 1047	DASS-42
+T16	Microorganism 1276 1289	Lactobacillus
+T17	INCREASES 1294 1303	increased
+T18	Food 1322 1337	fermented dairy
+T19	Food 1402 1426	fermented dairy beverage
+T20	IMPROVES 1427 1435	improved
+T21	Food 1755 1770	Fermented dairy
+T22	Population 1877 1891	healthy adults
+T23	Microorganism 1977 1990	Lactobacillus
+T24	Physiology 1856 1873	relational memory
+T25	Methodology 96 135	randomized, controlled cross-over trial
+T26	Microorganism 1704 1717	Lactobacillus
+T27	Physiology 1722 1740	memory performance
+T28	Methodology 1241 1265	16S rRNA gene sequencing
+T29	Methodology 1555 1562	DASS-42
+T30	Chemical 1149 1170	urinary free-cortisol
+T31	Chemical 1172 1175	UFC
+T32	Methodology 1547 1550	UFC
+T33	IMPROVES 42 50	improves
+T34	Food 638 668	dairy-based fermented beverage
+T35	HAS_COMPONENT 669 679	containing
+T36	Food 773 840	non-fermented, 1% low-fat lactose-free dairy-based control beverage
+T37	HAS_COMPONENT 222 232	containing
+T38	Microorganism 718 748	live and active kefir cultures
+T39	Physiology 842 881	Hippocampal-dependent relational memory
+T40	Disease 956 966	depression
+T41	ASSOCIATED_WITH 1955 1962	related
+T42	Biospecimen 1065 1070	urine
+T43	Methodology 1102 1135	enzyme-linked immunosorbent assay
+T44	Physiology 1485 1497	misplacement
+T45	ASSOCIATED_WITH 1655 1667	correlations
+T46	Physiology 1928 1945	relational memory
+T47	Physiology 1512 1535	object-location binding
+T48	Physiology 1466 1483	relational memory
+T49	AFFECTS 258 268	influences
+T50	Biospecimen 1193 1198	Fecal
+T51	IMPROVES 1847 1855	improved
+T52	Physiology 971 978	anxiety
+E1	INCREASES:T17 Theme:T16 Agent:T18
+E2	IMPROVES:T20 Agent:T19 Theme:T44
+E3	HAS_COMPONENT:T37 Agent:T3 Theme:T5
+E4	IMPROVES:T33 Agent:T1 Theme:T4
+E5	HAS_COMPONENT:T35 Agent:T34 Theme:T38
+E6	IMPROVES:T20 Agent:T19 Theme:T47
+E7	ASSOCIATED_WITH:T45 Theme:T26 Theme2:T27
+E8	AFFECTS:T49 Theme:T6 Agent:T3
+E9	AFFECTS:T49 Theme:T7 Agent:T3
+E10	AFFECTS:T49 Agent:T3 Theme:T8
+E11	IMPROVES:T51 Agent:T21 Theme:T24
+E13	ASSOCIATED_WITH:T41 Theme:T46 Theme2:T23
+A1	Factuality E8 Unknown
+A2	Factuality E7 Negated
+A3	Factuality E9 Unknown
+A4	Factuality E10 Unknown
+A6	Factuality E13 Negated

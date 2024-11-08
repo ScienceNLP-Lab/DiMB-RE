@@ -1,0 +1,121 @@
+T1	Microorganism 22 45	Bacillus pumilus 8G-134
+T3	Microorganism 182 203	direct-fed microbials
+T4	Microorganism 205 208	DFM
+T5	Microorganism 401 404	DFM
+T6	Microorganism 406 429	Bacillus pumilus 8G-134
+T8	Microorganism 642 672	direct-fed microbial treatment
+T9	Microorganism 674 678	DFMt
+T10	AFFECTS 388 395	effects
+T11	Physiology 434 465	pre- and postpartum performance
+T12	Physiology 483 521	subclinical ketosis in early lactation
+T14	Physiology 62 72	milk yield
+T15	Physiology 74 90	milk composition
+T16	Measurement 92 107	feed conversion
+T18	Physiology 49 60	feed intake
+T19	Microorganism 716 726	B. pumilus
+T20	Nutrient 740 752	maltodextrin
+T21	Nutrient 829 841	maltodextrin
+T23	Microorganism 1023 1027	DFMt
+T25	Microorganism 1122 1126	DFMt
+T26	DECREASES 1043 1048	lower
+T27	Chemical 1055 1066	haptoglobin
+T28	INCREASES 1131 1137	higher
+T29	Chemical 1138 1141	IgA
+T31	Microorganism 1225 1229	DFMt
+T32	INCREASES 1234 1240	higher
+T33	Physiology 1241 1255	yields of milk
+T34	Measurement 1257 1275	fat-corrected milk
+T35	Measurement 1277 1298	energy-corrected milk
+T36	Nutrient 1300 1308	milk fat
+T37	Nutrient 1314 1326	milk protein
+T38	Food 1251 1255	milk
+T39	Food 1271 1275	milk
+T40	Food 1294 1298	milk
+T41	Food 62 66	milk
+T42	Physiology 1428 1438	milk yield
+T43	Food 1428 1432	milk
+T44	Nutrient 1443 1458	milk components
+T46	Microorganism 1476 1480	DFMt
+T47	INCREASES 1496 1502	higher
+T48	Measurement 1503 1518	feed conversion
+T49	DECREASES 1531 1536	lower
+T50	Physiology 1551 1570	subclinical ketosis
+T51	Measurement 1668 1688	body condition score
+T52	AFFECTS 1694 1706	not affected
+T53	Microorganism 1710 1714	DFMt
+T54	Measurement 1651 1662	body weight
+T55	Physiology 1632 1649	Dry matter intake
+T56	ASSOCIATED_WITH 1391 1405	no differences
+T58	Microorganism 1914 1918	DFMt
+T59	Physiology 1732 1760	Milk production efficiencies
+T60	Measurement 1782 1800	fat-corrected milk
+T61	Measurement 1805 1826	energy-corrected milk
+T62	Food 1796 1800	milk
+T63	Food 1822 1826	milk
+T64	INCREASES 1833 1839	higher
+T65	Physiology 1874 1891	dry matter intake
+T67	Microorganism 1987 1991	DFMt
+T68	DECREASES 2007 2012	lower
+T69	Physiology 2026 2045	subclinical ketosis
+T71	Microorganism 2080 2084	DFMt
+T72	INCREASES 2100 2106	higher
+T73	Measurement 2107 2122	feed conversion
+T74	POS_ASSOCIATED_WITH 2140 2147	greater
+T75	Physiology 2148 2156	immunity
+T76	Microorganism 2188 2204	B pumilus 8G-134
+T77	POS_ASSOCIATED_WITH 2205 2225	may provide benefits
+T78	Physiology 2230 2251	transition cow health
+T80	Physiology 2256 2282	milk production efficiency
+T81	AFFECTS 0 7	Effects
+E1	AFFECTS:T10 Theme:T11 Agent:T6
+E2	AFFECTS:T10 Theme:T12 Agent:T6
+E3	DECREASES:T26 Agent:T23 Theme:T27
+E4	INCREASES:T28 Agent:T25 Theme:T29
+E5	INCREASES:T32 Agent:T31 Theme:T33
+E6	INCREASES:T32 Agent:T31 Theme:T34
+E7	INCREASES:T32 Agent:T31 Theme:T35
+E8	INCREASES:T32 Agent:T31 Theme:T36
+E9	INCREASES:T32 Agent:T31 Theme:T37
+E10	INCREASES:T47 Agent:T46 Theme:T48
+E11	DECREASES:T49 Agent:T46 Theme:T50
+E12	AFFECTS:T52 Agent:T53 Theme:T51
+E13	AFFECTS:T52 Agent:T53 Theme:T54
+E14	AFFECTS:T52 Agent:T53 Theme:T55
+E15	ASSOCIATED_WITH:T56 Theme:T42 Theme2:T31
+E16	INCREASES:T64 Theme:T59 Agent:T58
+E17	DECREASES:T68 Theme:T69 Agent:T67
+E18	INCREASES:T72 Agent:T71 Theme:T73
+E19	POS_ASSOCIATED_WITH:T74 Agent:T71 Theme:T75
+E20	POS_ASSOCIATED_WITH:T77 Agent:T76 Theme:T78
+E21	POS_ASSOCIATED_WITH:T77 Agent:T76 Theme:T80
+E22	AFFECTS:T81 Agent:T1 Theme:T18
+E23	AFFECTS:T81 Agent:T1 Theme:T14
+E24	AFFECTS:T81 Agent:T1 Theme:T15
+E25	AFFECTS:T81 Agent:T1 Theme:T16
+E27	ASSOCIATED_WITH:T56 Theme:T44 Theme2:T31
+A1	Unknown E1
+A2	Unknown E2
+A3	Negated E12
+A4	Negated E13
+A5	Negated E14
+A6	Negated E15
+A7	Unknown E20
+A8	Unknown E21
+A9	Unknown E22
+A10	Unknown E23
+A11	Unknown E24
+A12	Unknown E25
+A13	Negated E27
+A14	Factual E3
+A15	Factual E4
+A16	Factual E5
+A17	Factual E6
+A18	Factual E7
+A19	Factual E8
+A20	Factual E9
+A21	Factual E10
+A22	Factual E11
+A23	Factual E16
+A24	Factual E17
+A25	Factual E18
+A26	Factual E19

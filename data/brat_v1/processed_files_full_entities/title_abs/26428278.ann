@@ -1,0 +1,67 @@
+T1	Food 10 19	palm date
+T3	Nutrient 726 747	maltodextrin-dextrose
+T4	Methodology 84 144	randomised, controlled, cross-over, human intervention study
+T5	Food 202 219	plant-based foods
+T6	PREVENTS 226 235	reduction
+T7	Disease 257 274	colorectal cancer
+T8	Nutrient 322 337	insoluble fibre
+T9	Nutrient 342 355	(poly)phenols
+T10	INTERACTS_WITH 301 313	interactions
+T11	AFFECTS 425 431	impact
+T12	Food 435 444	palm date
+T13	HAS_COMPONENT 458 462	rich
+T14	Nutrient 471 482	polyphenols
+T15	Nutrient 487 492	fibre
+T16	Measurement 534 562	markers of colon cancer risk
+T17	Disease 545 557	colon cancer
+T18	Methodology 568 627	randomised, controlled, cross-over human intervention study
+T19	Population 651 675	healthy human volunteers
+T20	Physiology 1250 1265	dietary intakes
+T21	Food 789 794	dates
+T22	Metabolite 1020 1024	SCFA
+T23	Methodology 1052 1056	HPLC
+T24	Methodology 967 1010	fluorescence in situ hybridisation analysis
+T25	Metabolite 1067 1089	ammonia concentrations
+T26	Physiology 1121 1147	anti-proliferation ability
+T27	Methodology 1224 1235	Comet assay
+T28	Physiology 1091 1116	faecal water genotoxicity
+T29	Methodology 1206 1215	cell work
+T30	Measurement 1267 1294	anthropometric measurements
+T31	Physiology 1299 1313	bowel movement
+T32	Food 1376 1381	dates
+T33	AFFECTS 1382 1416	did not induce significant changes
+T34	Metabolite 1461 1465	SCFA
+T35	INCREASES 1478 1499	significant increases
+T36	Physiology 1503 1518	bowel movements
+T37	Physiology 1523 1538	stool frequency
+T38	DECREASES 1558 1580	significant reductions
+T39	Metabolite 1584 1611	stool ammonia concentration
+T40	Food 1648 1653	dates
+T41	Food 1690 1700	date fruit
+T42	DECREASES 1708 1729	significantly reduced
+T43	Physiology 1730 1764	genotoxicity in human faecal water
+T44	Food 1839 1849	date fruit
+T45	PREVENTS 1850 1860	may reduce
+T46	Disease 1861 1873	colon cancer
+E2	PREVENTS:T6 Agent:T5 Theme:T7
+E3	INTERACTS_WITH:T10 Theme2:T8 Theme:T9
+E5	AFFECTS:T11 Agent:T12 Theme:T16
+E6	HAS_COMPONENT:T13 Agent:T12 Theme:T14
+E7	HAS_COMPONENT:T13 Agent:T12 Theme:T15
+E8	AFFECTS:T33 Agent:T32 Theme:T34
+E9	INCREASES:T35 Agent:T32 Theme:T36
+E10	INCREASES:T35 Agent:T32 Theme:T37
+E11	DECREASES:T38 Agent:T40 Theme:T39
+E12	DECREASES:T42 Agent:T41 Theme:T43
+E13	PREVENTS:T45 Agent:T44 Theme:T46
+A2	Negated E8
+A3	Unknown E13
+A4	Unknown E5
+A5	Factual E2
+A6	Factual E3
+A7	Factual E6
+A8	Factual E7
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12

@@ -1,0 +1,60 @@
+T1	Nutrient 21 41	inulin-type fructans
+T2	Disease 156 163	obesity
+T3	Chemical 1122 1145	glucagon-like peptide-1
+T4	Metabolite 409 411	BA
+T5	Biospecimen 362 368	faecal
+T6	Methodology 258 276	second-meal effect
+T7	Population 419 437	overweight beagles
+T8	Disease 130 140	overweight
+T9	Methodology 453 487	replicated 3×3 Latin square design
+T10	Disease 214 231	diabetes mellitus
+T11	Nutrient 521 530	cellulose
+T12	Nutrient 304 324	inulin-type fructans
+T13	Nutrient 349 358	prebiotic
+T15	Biospecimen 93 99	faecal
+T16	Metabolite 397 407	bile acids
+T17	Nutrient 617 626	prebiotic
+T18	Nutrient 11 20	prebiotic
+T19	Disease 419 429	overweight
+T20	Measurement 1073 1077	IAUC
+T21	POS_ASSOCIATED_WITH 167 177	associated
+T22	Measurement 1056 1071	incremental AUC
+T23	Methodology 1226 1243	glucose challenge
+T24	AFFECTS 334 341	effects
+T25	Nutrient 293 302	prebiotic
+T26	Biospecimen 45 50	blood
+T27	Chemical 1207 1214	insulin
+T28	Biospecimen 800 806	faecal
+T29	Biospecimen 963 968	blood
+T31	Chemical 995 1002	glucose
+T32	Physiology 1043 1055	postprandial
+T33	Chemical 1094 1101	glucose
+T34	Nutrient 1725 1747	inulin-type prebiotics
+T35	Biospecimen 1618 1624	faecal
+T39	Chemical 1103 1110	insulin
+T41	AFFECTS 1761 1771	modulators
+T45	Chemical 1195 1202	Glucose
+T47	Nutrient 907 919	maltodextrin
+T50	Nutrient 1325 1334	Prebiotic
+T51	INCREASES 1363 1371	increase
+T52	Microorganism 1402 1412	Firmicutes
+T53	DECREASES 1419 1427	decrease
+T54	Microorganism 1462 1476	Proteobacteria
+T56	Nutrient 1559 1568	prebiotic
+T57	Metabolite 1618 1627	faecal BA
+T58	INCREASES 1638 1646	increase
+T59	Nutrient 1663 1672	prebiotic
+T66	Metabolite 1807 1809	BA
+T68	Disease 1818 1828	overweight
+T69	INCREASES 1530 1539	increased
+T84	Chemical 1207 1219	insulin IAUC
+T87	Metabolite 1499 1510	faecal SCFA
+E1	AFFECTS:T41 Agent:T34 Theme:T66
+E2	AFFECTS:T24 Theme:T16 Agent:T12
+E5	POS_ASSOCIATED_WITH:T21 Agent:T2 Theme:T10
+E12	INCREASES:T51 Agent:T50 Theme:T52
+E13	DECREASES:T53 Agent:T50 Theme:T54
+E14	INCREASES:T58 Theme:T57 Agent:T59
+E16	INCREASES:T69 Theme:T87 Agent:T56
+A1	Factuality E1 Possible
+A2	Factuality E2 Unknown

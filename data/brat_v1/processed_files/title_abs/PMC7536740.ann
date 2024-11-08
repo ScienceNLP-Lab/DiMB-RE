@@ -1,0 +1,77 @@
+T1	Physiology 12 23	donor feces
+T2	AFFECTS 24 31	affects
+T3	Physiology 36 50	gut–brain axis
+T5	Metabolite 496 504	butyrate
+T6	Metabolite 211 219	butyrate
+T8	Physiology 278 292	gut-brain axis
+T9	AFFECTS 397 403	effect
+T10	Physiology 407 432	fecal microbiota transfer
+T11	Physiology 434 437	FMT
+T13	Physiology 475 479	RYGB
+T14	Nutrient 491 520	oral butyrate supplementation
+T15	Chemical 549 575	brain dopamine transporter
+T16	Chemical 577 580	DAT
+T17	Chemical 586 607	serotonin transporter
+T18	Chemical 609 613	SERT
+T19	Physiology 660 679	insulin sensitivity
+T21	AFFECTS 1429 1452	associated with altered
+T22	INCREASES 883 891	increase
+T23	Chemical 895 904	brain DAT
+T24	Physiology 911 920	donor FMT
+T25	Nutrient 933 946	oral butyrate
+T26	DECREASES 952 959	reduced
+T27	AFFECTS 983 992	no effect
+T28	Measurement 996 1007	body weight
+T29	Physiology 1012 1031	insulin sensitivity
+T30	Physiology 1055 1085	post-RYGB donor feces transfer
+T32	POS_ASSOCIATED_WITH 1191 1201	associated
+T33	Microorganism 1150 1171	Bacteroides uniformis
+T34	Chemical 1222 1225	DAT
+T35	Microorganism 1248 1262	Prevotella spp
+T36	NEG_ASSOCIATED_WITH 1274 1293	inverse association
+T37	Metabolite 1329 1336	glycine
+T38	Metabolite 1338 1345	betaine
+T39	Metabolite 1347 1357	methionine
+T40	Metabolite 1363 1369	lysine
+T41	Physiology 1391 1417	S-adenosylmethionine cycle
+T43	Chemical 1453 1476	striatal DAT expression
+T44	Chemical 1606 1614;1629 1641	dopamine transporters
+T45	Chemical 1619 1641	serotonin transporters
+T47	Disease 1665 1689	obese metabolic syndrome
+T48	Physiology 1733 1747	gut-brain axis
+T50	Disease 66 84	metabolic syndrome
+T51	Disease 748 766	metabolic syndrome
+E1	AFFECTS:T2 Agent:T1 Theme:T3
+E2	AFFECTS:T9 Agent:T10 Theme:T15
+E3	INCREASES:T22 Agent:T24 Theme:T23
+E4	DECREASES:T26 Agent:T25 Theme:T23
+E5	AFFECTS:T27 Agent:T30 Theme:T28
+E6	AFFECTS:T27 Agent:T30 Theme:T29
+E7	POS_ASSOCIATED_WITH:T32 Agent:T33 Theme:T34
+E8	NEG_ASSOCIATED_WITH:T36 Agent:T35 Theme:T34
+E9	AFFECTS:T21 Agent:T40 Theme:T43
+E10	AFFECTS:T21 Agent:T39 Theme:T43
+E11	AFFECTS:T21 Agent:T38 Theme:T43
+E12	AFFECTS:T21 Agent:T37 Theme:T43
+E13	AFFECTS:T9 Agent:T14 Theme:T15
+E14	AFFECTS:T9 Agent:T14 Theme:T17
+E15	AFFECTS:T9 Agent:T10 Theme:T17
+E16	AFFECTS:T9 Agent:T14 Theme:T19
+E17	AFFECTS:T9 Agent:T10 Theme:T19
+A1	Unknown E1
+A2	Unknown E2
+A3	Negated E5
+A4	Negated E6
+A5	Unknown E13
+A6	Unknown E14
+A7	Unknown E15
+A8	Unknown E16
+A9	Unknown E17
+A10	Factual E3
+A11	Factual E4
+A12	Factual E7
+A13	Factual E8
+A14	Factual E9
+A15	Factual E10
+A16	Factual E11
+A17	Factual E12

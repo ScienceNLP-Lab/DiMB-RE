@@ -1,0 +1,60 @@
+T1	Measurement 54 80	immune function parameters
+T2	Population 84 102	healthy volunteers
+T3	Food 24 50	fermented food concentrate
+T4	Physiology 152 165	immune system
+T5	Food 323 329	fruits
+T6	Food 331 335	nuts
+T7	Food 341 371	vegetables rich in polyphenols
+T8	Physiology 389 402	immune system
+T9	Population 406 424	healthy volunteers
+T10	Food 373 380	Regulat
+T11	Methodology 439 495	clinical trial was double-blinded and placebo-controlled
+T12	Population 510 521	healthy men
+T13	Measurement 544 559	body mass index
+T14	Food 728 733	fruit
+T15	Food 738 748	vegetables
+T16	Population 810 820	Volunteers
+T17	Food 830 837	Regulat
+T18	Food 916 923	Regulat
+T19	INCREASES 924 946	significantly enhanced
+T20	Food 1398 1405	Regulat
+T21	Measurement 1353 1379	inflammatory blood markers
+T22	Food 1649 1656	Regulat
+T23	Food 1825 1832	Regulat
+T24	Physiology 984 995	lymphocytes
+T25	Physiology 1008 1017	monocytes
+T26	Physiology 1034 1054	natural killer cells
+T27	AFFECTS 11 18	effects
+T28	Food 286 308	cascade-fermented food
+T29	HAS_COMPONENT 309 319	consisting
+T30	AFFECTS 271 280	influence
+T31	Population 685 748	men with regular low to moderate intake of fruit and vegetables
+T32	Physiology 1094 1126	natural killer cell cytotoxicity
+T33	Physiology 1195 1219	total lipid peroxidation
+T34	Chemical 1240 1281	soluble vascular cell adhesion molecule-1
+T35	Chemical 1297 1338	soluble intercellular adhesion molecule-1
+T36	INCREASES 1156 1167	stimulation
+T37	Methodology 598 612	clinical trial
+T40	Physiology 1546 1563	immune regulation
+T41	Chemical 961 972	glutathione
+T42	DECREASES 1182 1191	reduction
+T43	DECREASES 1227 1236	reduction
+T44	DECREASES 1227 1236	reduction
+T45	Chemical 1142 1155	interleukin-2
+T46	POS_ASSOCIATED_WITH 1080 1090	activation
+T47	Physiology 1578 1591	immune system
+T48	AFFECTS 1535 1542	effects
+E1	POS_ASSOCIATED_WITH:T46 Agent:T45 Theme:T32
+E2	AFFECTS:T48 Theme:T40 Agent:T22
+E3	INCREASES:T19 Agent:T18 Theme:T41
+E4	AFFECTS:T27 Agent:T3 Theme:T1
+E5	HAS_COMPONENT:T29 Agent:T28 Theme:T5
+E6	HAS_COMPONENT:T29 Agent:T28 Theme:T6
+E7	HAS_COMPONENT:T29 Agent:T28 Theme:T7
+E8	AFFECTS:T30 Agent:T28 Theme:T8
+E9	INCREASES:T36 Agent:T20 Theme:T45
+E10	DECREASES:T42 Agent:T20 Theme:T33
+E11	DECREASES:T43 Agent:T20 Theme:T34
+E12	DECREASES:T44 Agent:T20 Theme:T35
+A1	Factuality E4 Unknown
+A2	Factuality E8 Unknown

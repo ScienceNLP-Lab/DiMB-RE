@@ -1,0 +1,480 @@
+T1	Nutrient 0 21	Fructooligosaccharide
+T2	Nutrient 23 26	FOS
+T3	Nutrient 32 54	Galactooligosaccharide
+T4	Nutrient 56 59	GOS
+T5	INCREASES 61 69	Increase
+T6	Microorganism 70 85	Bifidobacterium
+T7	DECREASES 90 96	Reduce
+T8	Microorganism 97 124	Butyrate Producing Bacteria
+T9	Metabolite 97 105	Butyrate
+T10	Physiology 130 157	Adverse Glycemic Metabolism
+T11	Population 161 185	healthy young population
+T12	DiversityMetric 9710 9743	phylogenetic diversity whole tree
+T13	Nutrient 12235 12245	prebiotics
+T14	Nutrient 4680 4683	FOS
+T15	Population 4680 4689	FOS group
+T16	Population 4690 4699	GOS group
+T17	Nutrient 4690 4693	GOS
+T18	Physiology 4794 4800	Weight
+T19	Measurement 4855 4858	BMI
+T20	Measurement 4912 4920	Fat mass
+T21	Physiology 4970 4973	BMR
+T22	Measurement 5025 5042	Visceral Fat Area
+T23	Physiology 5085 5100	Skeletal Muscle
+T24	Chemical 5150 5164	Fating glucose
+T25	Chemical 5223 5236	glucose level
+T26	Methodology 5238 5242	OGTT
+T27	Chemical 5295 5308	glucose level
+T28	Methodology 5310 5314	OGTT
+T29	Chemical 5367 5380	glucose level
+T30	Methodology 5382 5386	OGTT
+T31	Chemical 5440 5453	glucose level
+T32	Methodology 5455 5459	OGTT
+T33	Measurement 5505 5509	OGTT
+T34	Physiology 5566 5580	Calorie intake
+T35	Nutrient 12308 12318	prebiotics
+T36	Population 5662 5666	male
+T37	Nutrient 12365 12375	prebiotics
+T38	Population 5671 5677	female
+T39	Physiology 5679 5682	BMR
+T40	Physiology 5684 5705	basic metabolism rate
+T41	Population 5855 5860	males
+T42	Population 5865 5872	females
+T43	Nutrient 5897 5900	GOS
+T44	Nutrient 5937 5940	FOS
+T45	Nutrient 5983 5986	FOS
+T46	Nutrient 13910 13919	prebiotic
+T47	Nutrient 14026 14035	prebiotic
+T48	Nutrient 6156 6159	FOS
+T49	Nutrient 6164 6167	GOS
+T50	Population 6164 6174	GOS groups
+T51	Population 6156 6159;6168 6174	FOS groups
+T52	Methodology 6302 6344	questionnaire of gastrointestinal symptoms
+T53	Methodology 14669 14702	tenfold cross-validation approach
+T54	Measurement 15036 15040	OGTT
+T55	Physiology 6471 6489	glucose metabolism
+T56	Nutrient 6496 6499	FOS
+T57	Nutrient 6504 6507	GOS
+T58	Chemical 6539 6546	glucose
+T59	Measurement 6561 6565	OGTT
+T60	Nutrient 6593 6596	FOS
+T61	Nutrient 6606 6609	FOS
+T62	Nutrient 6629 6632	GOS
+T63	Nutrient 6642 6645	GOS
+T64	Metabolite 6671 6683	butyric acid
+T65	Biospecimen 6687 6692	feces
+T66	Nutrient 6698 6701	FOS
+T67	Nutrient 6722 6725	GOS
+T68	Nutrient 6827 6830	FOS
+T69	Nutrient 6834 6837	GOS
+T70	AFFECTS 6819 6826;6838 6860	neither had significant impact
+T71	Measurement 6864 6875	body weight
+T72	Measurement 6877 6892	Body Mass Index
+T73	Measurement 6894 6897	BMI
+T74	Measurement 6900 6908	Body Fat
+T75	Physiology 6910 6930	Basal Metabolic Rate
+T76	Physiology 6932 6935	BMR
+T77	Measurement 6938 6956	Visceral Fat Index
+T78	Physiology 6958 6973	Skeletal Muscle
+T79	Physiology 6978 6992	calorie intake
+T80	Chemical 7020 7033	blood glucose
+T81	Physiology 7092 7108	glucose response
+T82	INCREASES 7109 7132	significantly increased
+T83	Nutrient 7200 7203	FOS
+T84	Methodology 7244 7248	OGTT
+T85	INCREASES 7254 7263	increased
+T86	Chemical 7275 7288	blood glucose
+T87	Nutrient 7332 7335	FOS
+T88	Nutrient 7378 7381	GOS
+T89	Chemical 7427 7442	fasting glucose
+T90	INCREASES 7456 7465	increased
+T91	Nutrient 7513 7516	GOS
+T92	Metabolite 7563 7586	short-chain fatty acids
+T93	Metabolite 7588 7593	SCFAs
+T94	Nutrient 7601 7604	FOS
+T95	Nutrient 7609 7612	GOS
+T96	AFFECTS 7552 7559	Changes
+T97	Biospecimen 7645 7650	fecal
+T98	Metabolite 7651 7656	SCFAs
+T99	Nutrient 7680 7683	FOS
+T100	Nutrient 7688 7691	GOS
+T101	Nutrient 7713 7716	FOS
+T102	Nutrient 7732 7735	GOS
+T103	Metabolite 7827 7841	Propionic acid
+T104	Metabolite 7897 7909	Butyric acid
+T105	Metabolite 7753 7764	Acetic acid
+T106	Metabolite 7971 7986	Isobutyric acid
+T107	Metabolite 8041 8053	Valeric acid
+T108	Metabolite 8108 8123	Isovaleric acid
+T109	Metabolite 8184 8189	SCFAs
+T110	Biospecimen 8346 8351	fecal
+T111	Metabolite 8369 8374	SCFAs
+T112	Metabolite 8386 8397	acetic acid
+T113	Metabolite 8399 8413	propionic acid
+T114	Metabolite 8415 8427	butyric acid
+T115	Metabolite 8429 8444	isobutyric acid
+T116	Metabolite 8446 8458	valeric acid
+T117	Metabolite 8463 8478	isovaleric acid
+T118	Methodology 8499 8531	gas chromatography mass spectrum
+T119	Methodology 8533 8538	GC-MS
+T120	Nutrient 8565 8568	FOS
+T121	DECREASES 8583 8590	reduced
+T122	Biospecimen 8595 8600	fecal
+T123	Metabolite 8618 8630	butyric acid
+T124	Metabolite 8683 8695	butyric acid
+T125	Nutrient 8714 8717	GOS
+T126	DECREASES 8663 8679	reduced tendency
+T127	Metabolite 8787 8798	acetic acid
+T128	Metabolite 8809 8814	SCFAs
+T129	DECREASES 8820 8829	decreased
+T130	Nutrient 8836 8839	FOS
+T131	Nutrient 8844 8847	GOS
+T132	Nutrient 8959 8962	FOS
+T133	Nutrient 8967 8970	GOS
+T134	DiversityMetric 9004 9015	α-diversity
+T135	Nutrient 9046 9049	FOS
+T136	Nutrient 9059 9062	FOS
+T137	Nutrient 9070 9073	GOS
+T138	Nutrient 9083 9086	GOS
+T139	DiversityMetric 9134 9145	α-diversity
+T140	DiversityMetric 9159 9164	Chao1
+T141	DiversityMetric 9170 9186	observed species
+T142	DiversityMetric 9192 9205	Shannon index
+T143	DiversityMetric 9215 9228	PD whole tree
+T144	DiversityMetric 9243 9265	phylogenetic diversity
+T145	DiversityMetric 9230 9232	PD
+T146	Methodology 9326 9397	Principal coordinate analysis based on the unweighted UniFrac distances
+T147	Nutrient 9403 9406	FOS
+T148	Nutrient 9425 9428	GOS
+T149	DiversityMetric 9589 9600	α-diversity
+T150	DiversityMetric 9612 9628	species richness
+T151	DiversityMetric 9645 9650	Chao1
+T152	DiversityMetric 9652 9668	observed species
+T153	DiversityMetric 9671 9693	phylogenetic diversity
+T154	Microorganism 17314 17341	butyrate-producing bacteria
+T155	DiversityMetric 9749 9757	richness
+T156	DiversityMetric 9762 9770	evenness
+T157	DiversityMetric 9787 9800	Shannon index
+T158	Nutrient 9848 9851	GOS
+T159	DiversityMetric 9870 9881	α-diversity
+T160	DiversityMetric 9937 9970	Phylogenetic diversity whole tree
+T161	DiversityMetric 9972 9985	Shannon index
+T162	DiversityMetric 9990 10006	observed species
+T163	Methodology 10054 10076	Wilcoxon rank sun test
+T164	Nutrient 10084 10087	GOS
+T166	Methodology 10134 10278	PCoA (a dimensionality reduction method illustrating the relationship between samples based on distance matrix) with unweighted unifrac distance
+T167	Nutrient 10322 10325	GOS
+T168	Methodology 10378 10382	PCoA
+T169	Methodology 10491 10495	PCoA
+T170	Nutrient 10622 10625	GOS
+T171	Nutrient 10710 10713	FOS
+T172	AFFECTS 10731 10740	no effect
+T173	DiversityMetric 10744 10755	α-diversity
+T174	Methodology 10777 10781	PCoA
+T175	Nutrient 10948 10951	FOS
+T176	Nutrient 10961 10964	FOS
+T177	Nutrient 10972 10975	GOS
+T178	Nutrient 10985 10988	GOS
+T179	Nutrient 11082 11085	FOS
+T180	Nutrient 11095 11098	FOS
+T181	Nutrient 11110 11113	GOS
+T182	Methodology 11150 11190	linear discriminant analysis effect size
+T183	Methodology 11192 11207	LDA effect size
+T184	Nutrient 11123 11126	GOS
+T185	Biospecimen 11288 11293	fecal
+T186	Nutrient 11388 11391	FOS
+T187	Nutrient 11396 11399	GOS
+T188	Microorganism 11425 11438	Bacteroidetes
+T189	Microorganism 11440 11450	Firmicutes
+T190	Microorganism 11456 11470	Proteobacteria
+T191	Microorganism 11561 11572	Bacteroides
+T192	Microorganism 11574 11584	Prevotella
+T193	Microorganism 11586 11602	Faecalibacterium
+T194	Microorganism 11604 11615	Megasphaera
+T195	Microorganism 11620 11635	Bifidobacterium
+T196	Methodology 11688 11702	LEfSe analysis
+T197	Nutrient 11735 11738	FOS
+T198	Microorganism 11777 11792	Bifidobacterium
+T199	Microorganism 11818 11839	Phascolarctobacterium
+T200	Microorganism 11841 11853	Enterobacter
+T201	Microorganism 11855 11867	Turicibacter
+T202	Microorganism 11869 11880	Coprococcus
+T203	Microorganism 11885 11895	Salmonella
+T204	DECREASES 11797 11804	reduced
+T205	INCREASES 11758 11767	increased
+T206	Microorganism 11931 11946	Bifidobacterium
+T207	INCREASES 11951 11960	increased
+T208	Microorganism 11978 11990	Ruminococcus
+T209	Microorganism 11992 12007	Dehalobacterium
+T210	Microorganism 12009 12020	Synergistes
+T211	Microorganism 12025 12035	Holdemania
+T212	DECREASES 12040 12049	decreased
+T213	Nutrient 12056 12059	GOS
+T214	Nutrient 12119 12122	FOS
+T215	Nutrient 12127 12130	GOS
+T216	Physiology 12179 12207	glucose metabolism responses
+T217	Measurement 12223 12227	OGTT
+T218	Measurement 12283 12287	OGTT
+T219	Measurement 12341 12345	OGTT
+T220	Measurement 12399 12403	OGTT
+T221	Nutrient 12418 12421	FOS
+T222	Nutrient 12455 12458	GOS
+T223	DECREASES 12404 12411	reduced
+T224	INCREASES 12440 12448	elevated
+T225	Measurement 12493 12497	OGTT
+T226	DECREASES 12498 12505	reduced
+T227	Nutrient 12512 12515	GOS
+T228	INCREASES 12534 12542	elevated
+T229	Nutrient 12549 12552	FOS
+T230	Nutrient 12904 12907	FOS
+T231	Nutrient 12914 12917	FOS
+T232	Nutrient 12925 12928	GOS
+T233	Nutrient 12938 12941	GOS
+T234	Biospecimen 13146 13151	fecal
+T235	Methodology 13190 13194	OGTT
+T236	Measurement 13251 13255	OGTT
+T237	Nutrient 13292 13295	FOS
+T238	DECREASES 13301 13308	reduced
+T239	Nutrient 13315 13318	GOS
+T240	INCREASES 13277 13285	elevated
+T241	Measurement 13399 13403	OGTT
+T242	DECREASES 13408 13415	reduced
+T243	Nutrient 13422 13425	FOS
+T244	INCREASES 13431 13439	elevated
+T245	Nutrient 13446 13449	GOS
+T246	Physiology 13493 13509	glucose response
+T247	WORSENS 13520 13532	became worse
+T248	Nutrient 13539 13542	FOS
+T249	IMPROVES 13560 13568	improved
+T250	Nutrient 13575 13578	GOS
+T251	Physiology 13627 13643	glucose response
+T252	IMPROVES 13648 13656	improved
+T253	Nutrient 13660 13663	FOS
+T254	WORSENS 13682 13694	deteriorated
+T255	Nutrient 13698 13701	GOS
+T256	Microorganism 13770 13785	Bifidobacterium
+T257	INCREASES 13758 13766	increase
+T258	Methodology 14304 14347	machine learning with a random forest model
+T259	Measurement 14382 14385	BMI
+T260	Measurement 14418 14430	initial OGTT
+T261	Measurement 14486 14499	OGTT outcomes
+T262	Methodology 14562 14617	random forest model with the whole 16 S microbiome data
+T263	Measurement 14626 14630	OGTT
+T265	Methodology 14717 14756	Recursive Feature Elimination algorithm
+T266	Microorganism 14855 14868	Bacteroidetes
+T267	Microorganism 14878 14888	Firmicutes
+T268	Microorganism 14898 14912	Actinobacteria
+T269	Microorganism 14924 14938	Proteobacteria
+T270	Measurement 14984 14998	OGTT responses
+T271	Measurement 15101 15105	OGTT
+T272	Measurement 15180 15192	initial OGTT
+T273	Measurement 15204 15216	initial OGTT
+T274	Methodology 15317 15321	OGTT
+T275	Nutrient 14399 14409	prebiotics
+T276	Biospecimen 14447 14452	fecal
+T277	Nutrient 14514 14523	prebiotic
+T278	Nutrient 15005 15015	prebiotics
+T279	Nutrient 15121 15130	prebiotic
+T280	Measurement 15369 15373	OGTT
+T281	Measurement 15430 15443	OGTT outcomes
+T282	Measurement 15647 15659	initial OGTT
+T283	Measurement 15661 15664	BMI
+T284	Measurement 15666 15674	body fat
+T285	Physiology 15676 15679	BMR
+T286	Measurement 15681 15699	visceral fat index
+T287	Physiology 15701 15716	skeletal muscle
+T288	Measurement 15759 15772	OGTT outcomes
+T289	Nutrient 15779 15788	prebiotic
+T290	Measurement 15852 15863	OGTT values
+T291	Measurement 15882 15893	OGTT values
+T292	Measurement 16064 16068	OGTT
+T293	Biospecimen 16261 16266	fecal
+T294	Measurement 16314 16327	OGTT outcomes
+T295	Disease 16361 16380	glucose intolerance
+T296	Measurement 16494 16505	OGTT values
+T297	Measurement 16524 16535	OGTT values
+T298	Measurement 16698 16710	initial OGTT
+T299	Chemical 16712 16727	fasting glucose
+T300	Measurement 16733 16736	BMI
+T301	Measurement 16779 16793	predicted OGTT
+T302	Disease 229 248	glucose intolerance
+T304	Microorganism 17029 17040	Bacteroides
+T305	Microorganism 17042 17058	Faecalibacterium
+T306	Microorganism 17060 17071	Clostridium
+T307	Microorganism 17073 17083	Prevotella
+T308	Microorganism 17085 17097	Ruminococcus
+T309	Microorganism 17099 17115	Veilllonellaceae
+T310	Microorganism 17117 17138	Phascolarctobacterium
+T311	Microorganism 17143 17158	Bifidobacterium
+T312	ASSOCIATED_WITH 17168 17178	correlated
+T313	Measurement 17188 17201	OGTT outcomes
+T314	Microorganism 17234 17245	Bacteroides
+T316	Metabolite 17314 17322	butyrate
+T318	Microorganism 17351 17367	Faecalibacterium
+T319	Microorganism 17369 17381	Ruminococcus
+T320	Microorganism 17386 17407	Phascolarctobacterium
+T322	Measurement 17430 17443	OGTT outcomes
+T323	Microorganism 17478 17489	Clostridium
+T324	Disease 17539 17543	T2DM
+T325	ASSOCIATED_WITH 17555 17565	correlated
+T326	POS_ASSOCIATED_WITH 17515 17534	highly discriminant
+T327	Measurement 17575 17588	OGTT outcomes
+T328	Measurement 17688 17701	OGTT outcomes
+T329	Nutrient 17727 17736	prebiotic
+T330	ASSOCIATED_WITH 17414 17424	correlated
+T331	ASSOCIATED_WITH 16759 16769	correlated
+T332	ASSOCIATED_WITH 16759 16769	correlated
+T333	Disease 277 301	type-2 diabetes mellitus
+T334	Disease 303 307	T2DM
+T335	Methodology 319 344	randomized clinical trial
+T336	Nutrient 350 359	prebiotic
+T337	Nutrient 425 447	fructooligosaccharides
+T338	AFFECTS 415 421	impact
+T339	Nutrient 449 452	FOS
+T340	Nutrient 458 481	galactooligosaccharides
+T341	Nutrient 483 486	GOS
+T342	Physiology 491 499	glycemia
+T343	Methodology 507 534	oral glucose tolerance test
+T344	Methodology 536 540	OGTT
+T345	Methodology 571 611	randomized double-blind cross-over study
+T346	Population 634 640	adults
+T347	Nutrient 654 657	FOS
+T348	Nutrient 662 665	GOS
+T349	Biospecimen 690 696	Faeces
+T350	Methodology 707 711	OGTT
+T351	Measurement 716 741	anthropometric parameters
+T352	Physiology 822 840	glucose metabolism
+T353	Nutrient 848 851	FOS
+T354	Methodology 881 885	OGTT
+T355	Nutrient 906 909	GOS
+T356	AFFECTS 804 818	adverse effect
+T357	Chemical 939 954	fasting glucose
+T358	ASSOCIATED_WITH 923 935	demonstrated
+T360	INCREASES 969 989	significant increase
+T361	Microorganism 1019 1034	Bifidobacterium
+T362	Nutrient 1056 1059	FOS
+T363	Nutrient 1064 1067	GOS
+T364	Microorganism 1085 1112	butyrate-producing bacteria
+T365	Metabolite 1085 1093	butyrate
+T366	Microorganism 1118 1139	Phascolarctobacterium
+T367	WORSENS 1436 1450	adverse effect
+T368	Nutrient 1143 1146	FOS
+T369	Nutrient 1173 1176	GOS
+T370	DECREASES 1188 1197	decreased
+T371	Methodology 1201 1220	random forest model
+T372	Measurement 1275 1286	OGTT levels
+T373	Nutrient 1293 1302	prebiotic
+T374	Nutrient 1381 1384	FOS
+T375	Nutrient 1389 1392	GOS
+T376	INCREASES 1393 1402	increased
+T377	Microorganism 1403 1418	Bifidobacterium
+T378	Microorganism 1157 1169	Ruminococcus
+T379	Physiology 1454 1472	glucose metabolism
+T380	DECREASES 1476 1484	reducing
+T381	Microorganism 1485 1512	butyrate-producing microbes
+T382	Metabolite 1485 1493	butyrate
+T383	POS_ASSOCIATED_WITH 257 268	progression
+E1	INCREASES:T5 Theme:T6 Agent:T3
+E2	DECREASES:T7 Theme:T8 Agent:T3
+E3	DECREASES:T7 Theme:T8 Agent:T1
+E4	INCREASES:T5 Theme:T6 Agent:T1
+E5	AFFECTS:T70 Theme:T79 Agent:T68
+E6	AFFECTS:T70 Theme:T79 Agent:T69
+E7	INCREASES:T82 Theme:T81 Agent:T83
+E8	INCREASES:T85 Theme:T86 Agent:T87
+E9	INCREASES:T90 Theme:T89 Agent:T91
+E10	AFFECTS:T96 Theme:T92 Agent:T94
+E11	AFFECTS:T96 Theme:T92 Agent:T95
+E12	DECREASES:T121 Agent:T120 Theme:T123
+E13	DECREASES:T126 Theme:T124 Agent:T125
+E14	DECREASES:T129 Theme:T127 Agent:T130
+E15	DECREASES:T129 Theme:T127 Agent:T131
+E16	AFFECTS:T172 Agent:T171 Theme:T173
+E17	AFFECTS:T70 Theme:T78 Agent:T69
+E18	DECREASES:T204 Agent:T197 Theme:T199
+E19	INCREASES:T205 Agent:T197 Theme:T198
+E20	DECREASES:T204 Agent:T197 Theme:T200
+E21	DECREASES:T204 Agent:T197 Theme:T201
+E22	DECREASES:T204 Agent:T197 Theme:T202
+E23	DECREASES:T204 Agent:T197 Theme:T203
+E24	INCREASES:T207 Theme:T206 Agent:T213
+E25	DECREASES:T212 Agent:T213 Theme:T211
+E26	DECREASES:T212 Agent:T213 Theme:T210
+E27	DECREASES:T212 Agent:T213 Theme:T209
+E28	DECREASES:T212 Agent:T213 Theme:T208
+E29	DECREASES:T223 Theme:T220 Agent:T221
+E30	INCREASES:T224 Agent:T222 Theme:T220
+E31	DECREASES:T226 Theme:T225 Agent:T227
+E32	INCREASES:T228 Agent:T229 Theme:T225
+E33	DECREASES:T238 Theme:T236 Agent:T239
+E34	INCREASES:T240 Agent:T237 Theme:T236
+E35	DECREASES:T242 Theme:T241 Agent:T243
+E36	INCREASES:T244 Agent:T245 Theme:T241
+E37	WORSENS:T247 Theme:T246 Agent:T248
+E38	IMPROVES:T249 Theme:T246 Agent:T250
+E39	IMPROVES:T252 Agent:T253 Theme:T251
+E40	WORSENS:T254 Agent:T255 Theme:T251
+E41	INCREASES:T257 Theme:T256 Agent:T255
+E42	INCREASES:T257 Theme:T256 Agent:T253
+E43	AFFECTS:T70 Theme:T78 Agent:T68
+E44	ASSOCIATED_WITH:T332 Theme:T301 Theme2:T299
+E45	ASSOCIATED_WITH:T331 Theme:T301 Theme2:T300
+E46	ASSOCIATED_WITH:T312 Theme:T304 Theme2:T313
+E47	ASSOCIATED_WITH:T325 Theme2:T327 Theme:T323
+E48	POS_ASSOCIATED_WITH:T326 Theme:T323 Agent:T324
+E49	ASSOCIATED_WITH:T330 Theme:T318 Theme2:T322
+E50	ASSOCIATED_WITH:T312 Theme:T305 Theme2:T313
+E51	ASSOCIATED_WITH:T312 Theme:T306 Theme2:T313
+E52	ASSOCIATED_WITH:T312 Theme:T307 Theme2:T313
+E53	ASSOCIATED_WITH:T312 Theme:T308 Theme2:T313
+E54	ASSOCIATED_WITH:T312 Theme:T309 Theme2:T313
+E55	ASSOCIATED_WITH:T312 Theme:T310 Theme2:T313
+E56	ASSOCIATED_WITH:T312 Theme:T311 Theme2:T313
+E57	ASSOCIATED_WITH:T330 Theme:T319 Theme2:T322
+E58	ASSOCIATED_WITH:T330 Theme:T320 Theme2:T322
+E59	AFFECTS:T338 Agent:T337 Theme:T342
+E60	AFFECTS:T356 Theme:T352 Agent:T353
+E61	AFFECTS:T356 Agent:T355 Theme:T352
+E62	ASSOCIATED_WITH:T358 Theme:T355 Theme2:T357
+E63	ASSOCIATED_WITH:T331 Theme:T301 Theme2:T298
+E64	INCREASES:T360 Theme:T361 Agent:T362
+E65	AFFECTS:T70 Theme:T77 Agent:T69
+E66	INCREASES:T360 Theme:T361 Agent:T363
+E67	DECREASES:T370 Theme:T366 Agent:T368
+E68	DECREASES:T370 Agent:T369 Theme:T378
+E69	INCREASES:T376 Theme:T377 Agent:T375
+E70	INCREASES:T376 Theme:T377 Agent:T374
+E71	WORSENS:T367 Theme:T379 Agent:T374
+E72	DECREASES:T380 Agent:T375 Theme:T381
+E73	WORSENS:T367 Theme:T379 Agent:T375
+E74	POS_ASSOCIATED_WITH:T383 Theme:T333 Agent:T302
+E75	AFFECTS:T338 Agent:T340 Theme:T342
+E76	DECREASES:T380 Agent:T374 Theme:T381
+E77	AFFECTS:T70 Theme:T77 Agent:T68
+E78	AFFECTS:T70 Theme:T75 Agent:T69
+E79	AFFECTS:T70 Theme:T75 Agent:T68
+E80	AFFECTS:T70 Theme:T74 Agent:T69
+E81	AFFECTS:T70 Theme:T74 Agent:T68
+E82	AFFECTS:T70 Theme:T72 Agent:T69
+E83	AFFECTS:T70 Theme:T72 Agent:T68
+E84	AFFECTS:T70 Theme:T71 Agent:T69
+E85	AFFECTS:T70 Theme:T71 Agent:T68
+E86	DECREASES:T129 Theme:T128 Agent:T131
+E87	DECREASES:T129 Theme:T128 Agent:T130
+A1	Factuality E5 Negated
+A2	Factuality E6 Negated
+A3	Factuality E16 Negated
+A4	Factuality E17 Negated
+A5	Factuality E59 Unknown
+A6	Factuality E75 Unknown
+A7	Factuality E43 Negated
+A8	Factuality E65 Negated
+A9	Factuality E77 Negated
+A10	Factuality E78 Negated
+A11	Factuality E79 Negated
+A12	Factuality E80 Negated
+A13	Factuality E81 Negated
+A14	Factuality E82 Negated
+A15	Factuality E83 Negated
+A16	Factuality E84 Negated
+A17	Factuality E85 Negated

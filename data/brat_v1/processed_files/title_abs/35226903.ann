@@ -1,0 +1,62 @@
+T3	Chemical 87 128	Plasma Lipopolysaccharide-Binding Protein
+T6	Chemical 771 774	LBP
+T8	Chemical 751 766	plasma copeptin
+T9	Chemical 599 602	LBP
+T10	Chemical 556 597	plasma lipopolysaccharide-binding protein
+T11	Measurement 407 427	hydration biomarkers
+T12	Nutrient 393 398	water
+T18	Chemical 1067 1070	LBP
+T19	Chemical 1075 1083	copeptin
+T21	Measurement 1192 1197	FMUsg
+T22	Nutrient 1205 1210	water
+T24	Microorganism 1315 1326	Bacteroides
+T25	Microorganism 1328 1341	Desulfovibrio
+T26	Microorganism 1343 1352	Roseburia
+T27	Microorganism 1354 1365	Peptococcus
+T28	Microorganism 1371 1382	Akkermansia
+T30	Physiology 1702 1724	intestinal mucus layer
+T31	Chemical 1534 1549	plasma copeptin
+T32	Chemical 1554 1557	LBP
+T33	AFFECTS 1890 1899	sensitive
+T34	Chemical 1842 1845	LBP
+T35	Chemical 1850 1858	copeptin
+T36	INCREASES 1400 1408	abundant
+T37	Chemical 1874 1882	copeptin
+T38	Disease 1903 1924	metabolic endotoxemia
+T40	Measurement 467 472	FMUsg
+T41	Measurement 429 465	first-morning urine specific gravity
+T43	Measurement 475 501	first-morning urine volume
+T44	Measurement 986 1003	hydration markers
+T45	Measurement 0 20	Hydration Biomarkers
+T46	ASSOCIATED_WITH 25 32	Related
+T48	Physiology 169 190	chronic hypohydration
+T49	Physiology 264 277	hypohydration
+T50	Chemical 516 531	plasma copeptin
+T51	Measurement 503 509	FMUvol
+T52	ASSOCIATED_WITH 1821 1833	relationship
+T55	ASSOCIATED_WITH 1753 1757	link
+T56	Physiology 1766 1775	hydration
+T57	Physiology 1787 1815	intestinal mucus homeostasis
+T59	Physiology 1439 1455	poorer hydration
+T66	Chemical 1223 1238	plasma copeptin
+T69	POS_ASSOCIATED_WITH 1504 1525	positive relationship
+E1	POS_ASSOCIATED_WITH:T69 Theme:T31 Theme2:T32
+E2	AFFECTS:T33 Agent:T37 Theme:T38
+E3	ASSOCIATED_WITH:T46 Theme:T45 Theme2:T3
+E4	ASSOCIATED_WITH:T52 Theme:T34 Theme2:T35
+E6	INCREASES:T36 Theme:T28 Agent:T59
+E7	ASSOCIATED_WITH:T55 Theme:T56 Theme2:T57
+E9	INCREASES:T36 Theme:T25 Agent:T59
+E10	INCREASES:T36 Theme:T26 Agent:T59
+E11	INCREASES:T36 Theme:T27 Agent:T59
+E12	INCREASES:T36 Theme:T24 Agent:T59
+A1	Unknown E2
+A2	Unknown E7
+A3	Unknown E6
+A4	Unknown E11
+A5	Unknown E10
+A6	Unknown E9
+A7	Unknown E12
+A8	Factual E1
+A9	Factual E3
+A10	Factual E4

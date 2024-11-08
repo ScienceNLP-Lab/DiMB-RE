@@ -1,0 +1,199 @@
+T1	Population 18132 18144	Fe + E group
+T2	Nutrient 18057 18061	iron
+T3	Nutrient 17884 17888	Iron
+T4	Population 18108 18130	iron + vitamin E group
+T5	Nutrient 18108 18124	iron + vitamin E
+T6	Population 18079 18087	Fe group
+T7	Nutrient 18132 18138	Fe + E
+T8	Nutrient 18079 18081	Fe
+T9	Nutrient 18258 18262	iron
+T10	Physiology 18416 18419	age
+T11	Nutrient 19440 19469	vitamin E-alpha concentration
+T12	Nutrient 18421 18425	iron
+T13	Physiology 18436 18448	inflammation
+T14	Disease 18523 18537	iron deficient
+T15	Nutrient 18601 18605	iron
+T16	Nutrient 18607 18614	calcium
+T17	Nutrient 18616 18625	vitamin E
+T18	Nutrient 18629 18640	phytic acid
+T19	Nutrient 18767 18771	iron
+T20	Nutrient 18792 18807	iron +vitamin E
+T21	INCREASES 21861 21870	producing
+T22	AFFECTS 20364 20394	A similar pattern was observed
+T23	Nutrient 18881 18885	iron
+T24	Disease 19037 19051	iron deficient
+T25	Physiology 19183 19204	Iron binding capacity
+T26	Chemical 19209 19237	soluble transferrin receptor
+T28	Population 19390 19396	Fe + E
+T29	Nutrient 19390 19396	Fe + E
+T30	Population 19019 19027	Fe group
+T31	Physiology 19354 19369	iron saturation
+T32	INCREASES 19377 19386	increased
+T33	Population 19559 19572	Fe + E groups
+T34	Nutrient 19559 19565	Fe + E
+T35	Population 19552 19554	Fe
+T37	Nutrient 19440 19449	vitamin E
+T38	Nutrient 19601 19630	vitamin E-alpha concentration
+T39	Nutrient 19601 19610	vitamin E
+T40	INCREASES 19690 19699	increased
+T41	AFFECTS 19631 19645	did not change
+T42	Population 19653 19661	Fe group
+T43	Nutrient 19653 19655	Fe
+T44	Population 19707 19719	Fe + E group
+T45	Nutrient 19707 19713	Fe + E
+T46	Nutrient 19552 19554	Fe
+T47	Nutrient 19864 19873	vitamin E
+T48	Chemical 19882 19900	Fecal calprotectin
+T49	Chemical 20025 20037	calprotectin
+T50	Chemical 20209 20213	IL-4
+T51	AFFECTS 20228 20242	did not change
+T52	Chemical 20405 20410	TNF-α
+T53	Population 20442 20450	Fe group
+T54	Population 20488 20500	Fe + E group
+T55	Nutrient 20488 20494	Fe + E
+T56	Nutrient 20260 20262	Fe
+T57	Nutrient 20442 20444	Fe
+T58	Biospecimen 20559 20564	stool
+T59	Methodology 20742 20772	broad-range 16S rRNA sequencin
+T60	DiversityMetric 20958 20973	alpha-diversity
+T61	INCREASES 20974 20983	increased
+T62	Population 21171 21173;21185 21191	Fe groups
+T63	Population 21178 21191	Fe + E groups
+T64	Microorganism 21336 21349	Bacteroidetes
+T65	Microorganism 21354 21364	Firmicutes
+T66	Nutrient 21382 21405	vitamin E added to iron
+T67	Microorganism 21449 21462	Bacteroidetes
+T68	DECREASES 21463 21472	decreased
+T69	Microorganism 21490 21500	Firmicutes
+T70	INCREASES 21501 21510	increased
+T71	Microorganism 21606 21620	Bacteroidaceae
+T72	Microorganism 21629 21642	Bacteroidetes
+T73	DECREASES 21651 21660	decreased
+T74	Microorganism 21679 21694	Lachnospiraceae
+T75	Microorganism 21703 21713	Firmicutes
+T76	INCREASES 21721 21730	increased
+T77	Population 21751 21762	Fe +E group
+T78	Population 21780 21788	Fe group
+T79	Microorganism 21839 21848	Roseburia
+T80	Metabolite 21852 21860	butyrate
+T81	Microorganism 21892 21902	Firmicutes
+T82	INCREASES 21904 21913	increased
+T83	Population 20260 20268	Fe group
+T84	Population 21921 21933	Fe + E group
+T85	Microorganism 21972 21983	Escherichia
+T86	Microorganism 22041 22057	Escherichia coli
+T87	Microorganism 22080 22093	Shigella spp.
+T88	DECREASES 22095 22104	decreased
+T89	Nutrient 21921 21927	Fe + E
+T90	Population 20311 20323	Fe + E group
+T91	Nutrient 21780 21782	Fe
+T92	Nutrient 21751 21756	Fe +E
+T94	Nutrient 21171 21173	Fe
+T95	Nutrient 21178 21184	Fe + E
+T96	Nutrient 20311 20317	Fe + E
+T97	Population 20087 20089;20101 20107	Fe groups
+T98	Population 20094 20107	Fe + E groups
+T99	Nutrient 20094 20100	Fe + E
+T100	Nutrient 20087 20089	Fe
+T101	AFFECTS 20180 20191	interaction
+T102	Population 19958 19966	Fe group
+T103	Nutrient 19958 19960	Fe
+T104	Nutrient 19982 19988	Fe + E
+T105	Population 19982 19988	Fe + E
+T106	Nutrient 19019 19021	Fe
+T107	AFFECTS 0 6	Effect
+T108	Nutrient 10 41	vitamin E with therapeutic iron
+T109	Physiology 61 75	iron repletion
+T110	Population 98 138	U.S. iron deficient infants and toddlers
+T111	Methodology 142 166	randomized control trial
+T112	CAUSES 1788 1804	without inducing
+T113	Physiology 200 212	inflammation
+T114	CAUSES 192 199	induces
+T115	Nutrient 179 191	Iron therapy
+T116	DECREASES 219 233	could decrease
+T117	Physiology 234 249	iron absorption
+T118	Nutrient 234 238	iron
+T119	Nutrient 273 277	iron
+T120	Nutrient 354 381	vitamin E with iron therapy
+T121	Nutrient 333 345	antioxidants
+T122	DECREASES 391 414	associated with reduced
+T123	Physiology 415 434	oxidative potential
+T124	AFFECTS 455 463	efficacy
+T125	Nutrient 467 511	adding vitamin E to therapeutic iron therapy
+T126	Physiology 515 529	iron repletion
+T127	Physiology 1805 1837	persistent inflammatory response
+T128	Measurement 531 551	inflammation markers
+T129	Population 574 609	iron deficient infants and toddlers
+T130	Methodology 629 668	randomized, double-blind, control trial
+T131	Population 678 758	infants and toddlers (Denver, CO metro area) who were at risk of iron deficiency
+T132	Nutrient 823 835	iron therapy
+T133	Nutrient 873 877;890 904	iron plus vitamin E
+T134	Nutrient 935 939	Iron
+T135	Measurement 944 963	inflammation status
+T136	Methodology 985 999	16S sequencing
+T137	Nutrient 1260 1269	vitamin E
+T138	INCREASES 1284 1293	increased
+T140	Nutrient 1297 1313	iron + vitamin E
+T141	Chemical 1370 1374	IL-4
+T142	Chemical 1376 1381	TNF-α
+T143	Chemical 1385 1403	fecal calprotectin
+T144	AFFECTS 1321 1330	No change
+T145	Microorganism 1441 1450	Roseburia
+T146	Microorganism 1459 1469	Firmicutes
+T147	INCREASES 1483 1491	producer
+T148	Metabolite 1474 1482	butyrate
+T149	INCREASES 1493 1502	increased
+T150	Population 1510 1522	Fe + E group
+T151	Nutrient 1510 1516	Fe + E
+T152	Microorganism 1578 1589	Escherichia
+T153	DECREASES 1590 1599	decreased
+T154	Nutrient 1688 1704	therapeutic iron
+T155	IMPROVES 1738 1746	treating
+T156	Disease 1747 1762	iron deficiency
+T157	Nutrient 1937 1953	therapeutic iron
+T158	Nutrient 1897 1908	antioxidant
+E1	INCREASES:T21 Theme:T80 Agent:T79
+E2	INCREASES:T32 Theme:T31 Agent:T29
+E3	AFFECTS:T22 Theme:T52 Agent:T57
+E4	INCREASES:T40 Agent:T45 Theme:T38
+E5	AFFECTS:T41 Theme:T38 Agent:T43
+E6	AFFECTS:T51 Theme:T50 Agent:T56
+E7	INCREASES:T61 Theme:T60 Agent:T95
+E8	DECREASES:T68 Theme:T67 Agent:T66
+E9	INCREASES:T70 Theme:T69 Agent:T66
+E10	DECREASES:T73 Theme:T71 Agent:T92
+E11	INCREASES:T76 Theme:T74 Agent:T92
+E12	INCREASES:T82 Agent:T89 Theme:T79
+E13	AFFECTS:T51 Theme:T50 Agent:T96
+E14	DECREASES:T88 Theme:T86 Agent:T89
+E15	INCREASES:T61 Theme:T60 Agent:T94
+E16	AFFECTS:T22 Theme:T52 Agent:T55
+E17	DECREASES:T88 Theme:T87 Agent:T89
+E18	AFFECTS:T101 Theme:T49 Agent:T100
+E19	AFFECTS:T101 Theme:T49 Agent:T99
+E20	AFFECTS:T107 Agent:T108 Theme:T109
+E21	CAUSES:T114 Theme:T113 Agent:T115
+E22	DECREASES:T116 Agent:T113 Theme:T117
+E23	DECREASES:T122 Agent:T121 Theme:T123
+E24	AFFECTS:T124 Agent:T125 Theme:T126
+E25	AFFECTS:T124 Agent:T125 Theme:T128
+E26	INCREASES:T138 Agent:T140 Theme:T137
+E27	AFFECTS:T144 Agent:T140 Theme:T141
+E28	AFFECTS:T144 Agent:T140 Theme:T142
+E29	AFFECTS:T144 Agent:T140 Theme:T143
+E30	INCREASES:T147 Agent:T145 Theme:T148
+E31	INCREASES:T149 Theme:T145 Agent:T151
+E32	DECREASES:T153 Theme:T152 Agent:T151
+E33	IMPROVES:T155 Agent:T154 Theme:T156
+E34	CAUSES:T112 Agent:T154 Theme:T127
+A1	Factuality E5 Negated
+A2	Factuality E6 Negated
+A3	Factuality E13 Negated
+A6	Factuality E22 Possible
+A7	Factuality E24 Unknown
+A8	Factuality E20 Unknown
+A9	Factuality E25 Unknown
+A10	Factuality E27 Negated
+A11	Factuality E28 Negated
+A12	Factuality E29 Negated
+A13	Factuality E34 Negated

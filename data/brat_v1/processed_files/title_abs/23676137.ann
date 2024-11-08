@@ -1,0 +1,106 @@
+T1	Microorganism 99 112	Lactobacillus
+T2	Microorganism 117 133	Escherichia coli
+T4	Physiology 135 156	relative organ weight
+T6	Food 11 20	lactulose
+T7	AFFECTS 0 7	Effects
+T8	Physiology 40 51	performance
+T9	Food 246 255	lactulose
+T10	Physiology 275 286	performance
+T12	Microorganism 334 347	Lactobacillus
+T13	Microorganism 352 368	Escherichia coli
+T14	Physiology 370 391	relative organ weight
+T15	AFFECTS 235 242	effects
+T18	Measurement 478 489	body weight
+T20	Food 767 776	lactulose
+T21	Food 796 805	lactulose
+T24	Physiology 990 1006	body weight gain
+T26	Measurement 1151 1172	feed conversion ratio
+T27	Measurement 1174 1177	FCR
+T28	DECREASES 1183 1192	decreased
+T29	Measurement 1261 1264	FCR
+T30	IMPROVES 1269 1277	improved
+T31	DietPattern 782 784	L2
+T32	DietPattern 753 755	L1
+T33	DietPattern 959 961	L2
+T34	DietPattern 1070 1072	L1
+T35	DietPattern 1077 1079	L2
+T36	INCREASES 972 978	higher
+T37	DECREASES 1090 1095	lower
+T38	DietPattern 1207 1209	L1
+T39	DietPattern 1392 1394	L1
+T40	Microorganism 1476 1489	Lactobacillus
+T41	INCREASES 1494 1503	increased
+T42	Microorganism 1508 1515	E. coli
+T43	DECREASES 1520 1529	decreased
+T44	DietPattern 1540 1542	L2
+T45	DietPattern 1678 1680	L1
+T46	DietPattern 1685 1687	L2
+T47	DECREASES 1654 1663	decreased
+T48	Physiology 1366 1388	metabolizable nitrogen
+T49	INCREASES 1409 1415	higher
+T50	Food 1927 1936	lactulose
+T51	IMPROVES 1937 1950	could improve
+T52	Physiology 1951 1969	growth performance
+T53	DECREASES 1971 1979	decrease
+T54	Microorganism 1988 1995	E. coli
+T55	Chemical 1615 1618	NH3
+T56	Metabolite 1620 1623	H2S
+T57	Metabolite 1628 1639	acetic acid
+T58	Chemical 2008 2011	NH3
+T59	Metabolite 2016 2019	H2S
+T60	Physiology 1750 1763	abdominal fat
+T64	Physiology 1107 1118	feed intake
+E1	AFFECTS:T7 Agent:T6 Theme:T8
+E2	AFFECTS:T15 Agent:T9 Theme:T10
+E3	DECREASES:T28 Theme:T26 Agent:T38
+E4	IMPROVES:T30 Theme:T29 Agent:T35
+E6	AFFECTS:T7 Agent:T6 Theme:T1
+E7	AFFECTS:T7 Agent:T6 Theme:T2
+E8	AFFECTS:T7 Agent:T6 Theme:T4
+E10	AFFECTS:T15 Agent:T9 Theme:T12
+E11	AFFECTS:T15 Agent:T9 Theme:T13
+E12	AFFECTS:T15 Agent:T9 Theme:T14
+E13	INCREASES:T36 Agent:T33 Theme:T24
+E14	DECREASES:T37 Theme:T64 Agent:T34
+E15	INCREASES:T41 Theme:T40 Agent:T44
+E16	DECREASES:T43 Theme:T42 Agent:T44
+E17	IMPROVES:T30 Theme:T29 Agent:T34
+E18	DECREASES:T47 Agent:T45 Theme:T55
+E19	INCREASES:T49 Agent:T39 Theme:T48
+E20	IMPROVES:T51 Agent:T50 Theme:T52
+E21	DECREASES:T53 Agent:T50 Theme:T54
+E22	DECREASES:T47 Agent:T45 Theme:T56
+E23	DECREASES:T47 Agent:T45 Theme:T57
+E24	DECREASES:T47 Agent:T46 Theme:T55
+E25	DECREASES:T47 Agent:T46 Theme:T56
+E26	DECREASES:T47 Agent:T46 Theme:T57
+E27	DECREASES:T53 Agent:T50 Theme:T58
+E28	DECREASES:T53 Agent:T50 Theme:T59
+E30	DECREASES:T37 Theme:T64 Agent:T35
+A1	Unknown E1
+A2	Unknown E2
+A4	Unknown E6
+A5	Unknown E7
+A6	Unknown E8
+A8	Unknown E10
+A9	Unknown E11
+A10	Unknown E12
+A11	Unknown E20
+A12	Factual E3
+A13	Factual E4
+A14	Factual E13
+A15	Factual E14
+A16	Factual E15
+A17	Factual E16
+A18	Factual E17
+A19	Factual E18
+A20	Factual E19
+A21	Factual E21
+A22	Factual E22
+A23	Factual E23
+A24	Factual E24
+A25	Factual E25
+A26	Factual E26
+A27	Factual E27
+A28	Factual E28
+A29	Factual E30

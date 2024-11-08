@@ -1,0 +1,92 @@
+T26	Gene 529 534	GSTM1
+T29	Gene 330 335	GSTM1
+T30	Food 406 414	broccoli
+T43	DiversityMetric 632 665	Bacteroidetes to Firmicutes ratio
+T44	Gene 695 700	GSTM1
+T45	INCREASES 727 735	increase
+T46	Microorganism 739 758	B. thetaiotaomicron
+T47	Food 1072 1080	broccoli
+T48	Food 1267 1275	broccoli
+T49	Microorganism 1366 1379	Bacteroidetes
+T50	Food 1432 1440	broccoli
+T51	Microorganism 1465 1478	Bacteroidetes
+T52	INCREASES 1490 1499	increased
+T53	Microorganism 1530 1540	Firmicutes
+T54	DECREASES 1541 1550	decreased
+T55	DiversityMetric 1585 1621	ratio of Bacteroidetes to Firmicutes
+T56	INCREASES 1627 1636	increased
+T57	Microorganism 1740 1751	Bacteroides
+T58	INCREASES 1758 1767	increased
+T59	Food 1793 1801	broccoli
+T60	Microorganism 1879 1900	Bacteroides virfgatus
+T61	Microorganism 1905 1933	Bacteroides thetaiotaomicron
+T62	Measurement 2213 2216	BMI
+T63	Food 2274 2282	broccoli
+T64	Measurement 2316 2319	BMI
+T65	Measurement 2441 2444	BMI
+T66	Physiology 4195 4219	transcription regulation
+T67	Measurement 2453 2460	low BMI
+T68	DiversityMetric 2472 2508	ratio of Bacteroidetes to Firmicutes
+T69	ASSOCIATED_WITH 2509 2518	increased
+T70	Microorganism 2654 2667	Bacteroidetes
+T71	Microorganism 2681 2692	Bacteroides
+T72	Metabolite 2112 2129	urine metabolites
+T73	Measurement 2789 2797	high BMI
+T74	Metabolite 2102 2108;2118 2129	plasma metabolites
+T75	Measurement 2904 2913	lower BMI
+T77	Measurement 2987 2994	low BMI
+T78	Methodology 3002 3024	bivariate correlations
+T79	Microorganism 3123 3136	Bacteroidetes
+T80	Food 3148 3156	broccoli
+T81	POS_ASSOCIATED_WITH 3174 3195	positively correlated
+T82	Microorganism 3295 3305	Firmicutes
+T83	NEG_ASSOCIATED_WITH 3319 3340	negatively correlated
+T84	DiversityMetric 3421 3453	Bacteridetes to Firmicutes ratio
+T85	POS_ASSOCIATED_WITH 3467 3488	positively correlated
+T86	NEG_ASSOCIATED_WITH 3637 3658	negatively correlated
+T87	DiversityMetric 3591 3623	Bacteroidetes to Firmiutes ratio
+T88	Methodology 3803 3810	PICRUSt
+T89	Food 3832 3840	broccoli
+T90	INCREASES 3853 3862	increased
+T91	Physiology 3936 3960	transport and catabolism
+T92	Physiology 3975 3992	energy metabolism
+T93	DECREASES 4006 4015	decreased
+T94	Food 4126 4134	broccoli
+T95	Physiology 4167 4190	cellular transportation
+T97	Metabolite 3221 3239	plasma metabolites
+T98	Metabolite 3366 3384	plasma metabolites
+T99	Metabolite 3664 3681	urine metabolites
+T100	Physiology 4041 4059	membrane transport
+T3111	DiversityMetric 825 840	alpha diversity
+T3411	DiversityMetric 893 907	beta diversity
+T3511	AFFECTS 807 821	no differences
+T3611	Microorganism 579 592	Bacteroidetes
+T4211	Methodology 922 948	weighted Unifrac distances
+E13	AFFECTS:T3511 Agent:T30 Theme:T3111
+E16	DECREASES:T54 Theme:T53 Agent:T50
+E17	INCREASES:T45 Agent:T44 Theme:T46
+E18	INCREASES:T56 Theme:T55 Agent:T50
+E19	INCREASES:T58 Agent:T59 Theme:T57
+E20	ASSOCIATED_WITH:T69 Theme:T68 Theme2:T67
+E21	POS_ASSOCIATED_WITH:T81 Theme:T97 Agent:T79
+E22	NEG_ASSOCIATED_WITH:T83 Agent:T82 Theme:T98
+E23	POS_ASSOCIATED_WITH:T85 Theme:T98 Agent:T84
+E24	NEG_ASSOCIATED_WITH:T86 Agent:T87 Theme:T99
+E25	INCREASES:T90 Agent:T89 Theme:T91
+E26	DECREASES:T93 Agent:T89 Theme:T100
+E27	INCREASES:T90 Agent:T89 Theme:T92
+E1211	INCREASES:T52 Theme:T51 Agent:T50
+A1	Negated E13
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19
+A20	Factual E20
+A21	Factual E21
+A22	Factual E22
+A23	Factual E23
+A24	Factual E24
+A25	Factual E25
+A26	Factual E26
+A27	Factual E27
+A28	Factual E1211

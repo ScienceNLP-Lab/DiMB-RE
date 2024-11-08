@@ -1,0 +1,54 @@
+T1	Food 17 27	Human Milk
+T2	IMPROVES 31 37	Reduce
+T3	Physiology 38 61	Intestinal Inflammation
+T4	IMPROVES 171 176	lower
+T5	Food 104 114	Human milk
+T6	Physiology 177 200	intestinal inflammation
+T9	Food 312 336	ready-to-feed human milk
+T13	Food 414 430	standard formula
+T16	Food 498 508	human milk
+T17	Food 514 524	Human milk
+T22	Chemical 637 653	plasma cytokines
+T23	Chemical 659 688	regenerating islet-derived 3α
+T24	Chemical 690 695	REG3α
+T25	Chemical 745 779	Human leukocyte antigen-DR isotype
+T26	Chemical 781 787	HLA-DR
+T27	Gene 790 794	CD38
+T28	Gene 800 804	CD69
+T29	Physiology 819 826	T cells
+T31	Food 909 919	human milk
+T35	Food 1100 1110	human milk
+T36	Chemical 1131 1156	Plasma interleukin (IL)-8
+T38	Chemical 1169 1174	IL-10
+T39	Chemical 1191 1196	REG3α
+T40	DECREASES 1213 1222	decreased
+T42	Food 1230 1240	human milk
+T43	Physiology 1266 1271;1277 1284	CD69+ T cells
+T44	Physiology 1272 1284	CD8+ T cells
+T45	Microorganism 1342 1352	Adenovirus
+T46	Microorganism 1368 1384	Escherichia coli
+T47	Microorganism 1399 1421	Cryptosporidium parvum
+T48	Microorganism 1436 1453	Dialister invisus
+T49	Microorganism 1470 1492	Pseudomonas aeruginosa
+T51	Chemical 1545 1552	alanine
+T52	Metabolite 1554 1562	tyrosine
+T54	Metabolite 1564 1574	methionine
+T55	Metabolite 1584 1636	ratio of fecal alanine to choline and phosphocholine
+T56	Metabolite 1709 1719	propionate
+T57	Metabolite 1724 1732	butyrate
+T58	Metabolite 1755 1778	short-chain fatty acids
+T60	Food 1835 1845	human milk
+T61	DECREASES 1858 1867	decreased
+T62	Measurement 1868 1902	markers of intestinal inflammation
+E1	IMPROVES:T2 Agent:T1 Theme:T3
+E2	IMPROVES:T4 Theme:T6 Agent:T5
+E3	DECREASES:T40 Agent:T42 Theme:T39
+E4	DECREASES:T40 Agent:T42 Theme:T38
+E5	DECREASES:T40 Agent:T42 Theme:T36
+E6	DECREASES:T61 Agent:T60 Theme:T62
+A1	Unknown E1
+A2	Unknown E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6

@@ -1,0 +1,69 @@
+T1	DietPattern 47 79	Short-Term Low-Carbohydrate Diet
+T2	DietPattern 81 84	LCD
+T3	Population 103 124	Patients with Obesity
+T4	Disease 117 124	Obesity
+T5	Disease 195 200	obese
+T6	Population 195 209	obese patients
+T7	DietPattern 213 234	low-carbohydrate diet
+T8	DietPattern 236 239	LCD
+T9	DietPattern 514 517	LCD
+T10	Population 544 565	patients with obesity
+T11	Population 569 597	patients who were overweight
+T12	Disease 558 565	obesity
+T13	Disease 587 597	overweight
+T14	DietPattern 626 637	normal diet
+T15	DietPattern 639 641	ND
+T16	Metabolite 816 824	butyrate
+T17	DietPattern 649 652	LCD
+T18	Methodology 709 725	matched sampling
+T19	Microorganism 855 889	Porphyromonadaceae Parabacteroides
+T20	Microorganism 894 922	Ruminococcaceae Oscillospira
+T21	INCREASES 937 946	increased
+T22	DietPattern 953 956	LCD
+T23	DietPattern 1005 1008	LCD
+T24	Methodology 2274 2345	prediction model based on the artificial neural network (ANN) algorithm
+T25	INCREASES 1036 1042	higher
+T26	Microorganism 1065 1091	Bacteroidaceae Bacteroides
+T27	DietPattern 1135 1138	LCD
+T28	IMPROVES 1165 1172	greater
+T29	Physiology 1173 1184	weight loss
+T30	Methodology 1228 1282	artificial neural network (ANN)-based prediction model
+T31	Physiology 1338 1349	weight loss
+T32	DietPattern 1365 1368	LCD
+T33	Physiology 1485 1496	weight loss
+T34	DietPattern 1512 1526	short-term LCD
+T35	DietPattern 1602 1616	short-term LCD
+T36	Physiology 1651 1662	weight loss
+T37	Disease 1793 1800	Obesity
+T38	DietPattern 1870 1902	Short-term low-carbohydrate diet
+T39	DietPattern 1904 1907	LCD
+T40	Microorganism 2055 2081	Bacteroidaceae Bacteroides
+T41	Physiology 2128 2139	weight loss
+T42	Physiology 1968 1979	weight loss
+T43	AFFECTS 1980 1986	effect
+T44	Population 1991 2014	overweight/obese people
+T45	Disease 1991 2001	overweight
+T46	Disease 2002 2007	obese
+T47	DietPattern 2146 2160	short-term LCD
+T48	POS_ASSOCIATED_WITH 2087 2113	positive outcome predictor
+T49	Physiology 2377 2388	weight loss
+T50	DietPattern 2522 2536	short-term LCD
+T51	Physiology 2561 2572	weight loss
+T52	IMPROVES 2553 2560	improve
+T53	Nutrient 62 74	Carbohydrate
+T54	Nutrient 217 229	carbohydrate
+T55	DietPattern 1930 1949	calorie restriction
+E1	INCREASES:T21 Agent:T22 Theme:T20
+E2	INCREASES:T21 Agent:T22 Theme:T19
+E3	INCREASES:T25 Agent:T23 Theme:T26
+E4	IMPROVES:T28 Agent:T27 Theme:T29
+E5	POS_ASSOCIATED_WITH:T48 Agent:T40 Theme:T41
+E6	AFFECTS:T43 Agent:T38 Theme:T42
+E7	IMPROVES:T52 Agent:T50 Theme:T51
+A1	Unknown E7
+A2	Factual E1
+A3	Factual E2
+A4	Factual E3
+A5	Factual E4
+A6	Factual E5
+A7	Factual E6

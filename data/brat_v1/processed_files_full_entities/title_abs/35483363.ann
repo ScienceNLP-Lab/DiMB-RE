@@ -1,0 +1,61 @@
+T1	Nutrient 601 606	fiber
+T2	Nutrient 109 123	Dietary fibers
+T3	IMPROVES 154 161	improve
+T4	Physiology 162 183	cardiovascular health
+T5	PREVENTS 188 195	prevent
+T6	Disease 196 215	metabolic disorders
+T7	Disease 220 226	cancer
+T8	Nutrient 265 278	dietary fiber
+T9	Nutrient 341 353	arabinoxylan
+T10	Nutrient 355 357	AX
+T11	Nutrient 363 380	long-chain inulin
+T12	Nutrient 382 385	LCI
+T13	AFFECTS 772 784	contributing
+T14	Methodology 453 465	metabolomics
+T15	Methodology 467 477	lipidomics
+T16	Methodology 479 489	proteomics
+T17	Methodology 491 503	metagenomics
+T18	Methodology 505 521	a cytokine panel
+T19	Methodology 527 548	clinical measurements
+T20	Population 552 594	healthy and insulin-resistant participants
+T21	Physiology 801 822	cholesterol reduction
+T22	Nutrient 679 681	AX
+T23	DECREASES 724 733	reduction
+T24	Chemical 737 740	LDL
+T25	INCREASES 748 756	increase
+T26	Metabolite 760 770	bile acids
+T27	Nutrient 824 827	LCI
+T28	INCREASES 850 858	increase
+T29	Microorganism 862 877	Bifidobacterium
+T30	Nutrient 903 906	LCI
+T31	INCREASES 922 931	increased
+T32	Physiology 932 944	inflammation
+T33	INCREASES 949 958	elevation
+T34	Enzyme 979 1003	alanine aminotransferase
+T35	Nutrient 1052 1057	fiber
+T40	Population 100 106	humans
+T41	Nutrient 90 96	fibers
+T42	Nutrient 1100 1105	fiber
+T43	CAUSES 1106 1113	induced
+T44	Physiology 1114 1135	cholesterol reduction
+T45	Nutrient 626 631	fiber
+E1	IMPROVES:T3 Agent:T2 Theme:T4
+E2	PREVENTS:T5 Agent:T2 Theme:T6
+E3	PREVENTS:T5 Agent:T2 Theme:T7
+E4	DECREASES:T23 Agent:T22 Theme:T24
+E5	INCREASES:T25 Agent:T22 Theme:T26
+E6	INCREASES:T28 Agent:T27 Theme:T29
+E7	INCREASES:T31 Agent:T30 Theme:T32
+E8	INCREASES:T33 Agent:T30 Theme:T34
+E9	AFFECTS:T13 Theme:T21 Agent:T22
+E10	CAUSES:T43 Agent:T42 Theme:T44
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10

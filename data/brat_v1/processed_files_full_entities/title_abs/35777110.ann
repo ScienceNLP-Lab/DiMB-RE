@@ -1,0 +1,67 @@
+T1	Population 107 138	overweight and obese population
+T2	Disease 107 117	overweight
+T3	Disease 122 127	obese
+T4	Physiology 176 187	weight loss
+T5	Methodology 332 349	integrative model
+T6	Physiology 444 455	weight loss
+T7	Population 459 497	individuals with excess of body weight
+T8	Methodology 2 19	weight-loss model
+T9	Population 523 564	Spanish overweight and obese participants
+T10	DietPattern 658 692	moderately high protein (MHP) diet
+T12	DietPattern 729 746	low fat (LF) diet
+T14	Measurement 860 882	percentage of BMI loss
+T15	DietPattern 898 901	MHP
+T16	DietPattern 906 908	LF
+T17	Methodology 928 952	Bootstrapping techniques
+T18	Methodology 957 990	multiple linear regression models
+T19	Physiology 1189 1200	weight loss
+T20	Physiology 1279 1290	weight loss
+T21	Methodology 1305 1332	several linear mixed models
+T22	DietPattern 1517 1525	MHP-diet
+T23	Microorganism 1535 1546	Coprococcus
+T24	Microorganism 1548 1553	Dorea
+T25	Microorganism 1555 1569	Flavonifractor
+T26	Microorganism 1571 1589	Ruminococcus albus
+T27	Microorganism 1594 1614	Clostridium bolteaea
+T28	DietPattern 1620 1627	LF-diet
+T29	Microorganism 1635 1648	Cytophagaceae
+T30	Microorganism 1650 1666	Catabacteriaceae
+T31	Microorganism 1668 1684	Flammeovirgaceae
+T32	Microorganism 1686 1703	Rhodobacteriaceae
+T33	Microorganism 1705 1721	Clostridium-x1vb
+T34	Microorganism 1723 1743	Bacteriodes nordiiay
+T35	Microorganism 1745 1767	Alistipes senegalensis
+T36	Microorganism 1769 1785	Blautia wexlerae
+T37	Microorganism 1790 1821	Psedoflavonifractor phocaeensis
+T38	DietPattern 1827 1835	MHP-diet
+T39	Microorganism 1841 1854	Cytophagaceae
+T40	Microorganism 1856 1874	Acidaminococcaceae
+T41	Microorganism 1876 1893	Marinilabiliaceae
+T42	Microorganism 1895 1909	Bacteroidaceae
+T43	Microorganism 1911 1927	Fusicatenibacter
+T44	Microorganism 1929 1940	Odoribacter
+T45	Microorganism 1945 1964	Ruminococcus faecis
+T46	DietPattern 1974 1976	LF
+T47	Microorganism 1982 2000	Porphyromanadaceae
+T48	Microorganism 2002 2016	Intestinimonas
+T49	Microorganism 2018 2040	Bacteroides finegoldii
+T50	Microorganism 2045 2067	Clostridium bartlettii
+T51	Population 1827 1839	MHP-diet men
+T52	Population 1620 1633	LF-diet women
+T53	Population 1494 1499	women
+T54	Biospecimen 757 766	fecal DNA
+T55	Population 701 706	women
+T56	Methodology 2069 2085	The mixed models
+T57	Methodology 2295 2320	Decision algorithm models
+T58	Physiology 2366 2377	weight loss
+T59	Physiology 2 13	weight-loss
+T60	Physiology 476 497	excess of body weight
+T61	Population 630 635	women
+T62	Population 643 646	men
+T63	Population 714 717	men
+T64	Methodology 771 780	sequenced
+T65	Population 1974 1980	LF-men
+T66	Population 2153 2158	women
+T67	Population 2173 2176	men
+T68	Disease 531 541	overweight
+T69	Disease 546 551	obese

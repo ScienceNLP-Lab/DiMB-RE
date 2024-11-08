@@ -1,0 +1,110 @@
+T1	Food 24 54	olive pomace enriched biscuits
+T2	AFFECTS 14 20	impact
+T3	Physiology 85 103	metabolic activity
+T4	Population 107 144	mildly hypercholesterolaemic subjects
+T5	Food 154 166	Olive pomace
+T6	HAS_COMPONENT 228 232	rich
+T7	Nutrient 236 247	polyphenols
+T8	Nutrient 252 258	fibres
+T9	Food 292 321	olive pomace-enriched biscuit
+T10	AFFECTS 408 416	modulate
+T11	Physiology 421 455	composition and metabolic activity
+T12	Methodology 498 552	double-blind, controlled parallel dietary intervention
+T13	Population 566 594	healthy hypercholesterolemic
+T14	Food 683 712	olive pomace-enriched biscuit
+T15	Food 714 736	olive-enriched product
+T16	Food 738 741	OEP
+T17	Biospecimen 797 802	blood
+T18	Biospecimen 817 822	urine
+T19	Biospecimen 827 833	faecal
+T20	INCREASES 1676 1684	elevated
+T21	Food 986 998	OEP biscuits
+T22	AFFECTS 999 1013	did not impact
+T23	DiversityMetric 1021 1030	diversity
+T24	AFFECTS 1070 1105	no statistically significant effect
+T25	Measurement 1109 1120	CVD markers
+T26	DECREASES 1138 1145	reduced
+T27	Chemical 1146 1170	oxidized LDL cholesterol
+T28	Food 1181 1184	OEP
+T29	Microorganism 1228 1240	lactobacilli
+T30	Microorganism 1245 1257	Ruminococcus
+T31	DECREASES 1263 1270	reduced
+T32	Food 1274 1277	OEP
+T33	INCREASES 1321 1330	increased
+T34	Microorganism 1331 1345	bifidobacteria
+T35	Food 1375 1378	OEP
+T36	Methodology 1455 1459	qPCR
+T37	Methodology 1414 1447	fluorescent in situ hybridization
+T38	Methodology 1470 1475	LC–MS
+T39	INCREASES 1485 1506	significant increases
+T40	Metabolite 1507 1520	phenolic acid
+T41	Biospecimen 1544 1549	urine
+T42	Food 1560 1563	OEP
+T43	Metabolite 1578 1608	3,4-dihydroxyphenylacetic acid
+T44	Metabolite 1610 1615	DOPAC
+T45	Metabolite 1621 1638	homovanillic acid
+T46	Nutrient 1640 1669	derivatives of hydroxytyrosol
+T47	Biospecimen 1688 1693	blood
+T48	Biospecimen 1724 1729	urine
+T49	Metabolite 1736 1749	phenolic acid
+T50	Population 1890 1893	men
+T51	Population 1898 1903	women
+T52	Physiology 1775 1778	sex
+T53	Physiology 1697 1700	sex
+T55	Food 1929 1941	OEP biscuits
+T56	INCREASES 1963 1971	increase
+T57	Physiology 1979 1995	metabolic output
+T58	Physiology 2035 2038	sex
+T60	Physiology 2080 2097	microbiota makeup
+T61	INCREASES 2099 2108	Increased
+T62	Metabolite 2119 2136	homovanillic acid
+T63	Metabolite 2141 2146	DOPAC
+T64	DECREASES 2174 2182	reducing
+T65	Chemical 2183 2208	oxidative LDL cholesterol
+T66	Food 2229 2232	OEP
+T67	Food 2253 2256	OEP
+T68	AFFECTS 2261 2305	not induce statistically significant changes
+T69	Chemical 2316 2322	ox-LDL
+T70	Chemical 2326 2345	urinary isoprostane
+E1	AFFECTS:T2 Agent:T1 Theme:T3
+E2	HAS_COMPONENT:T6 Agent:T5 Theme:T7
+E3	HAS_COMPONENT:T6 Agent:T5 Theme:T8
+E4	AFFECTS:T10 Theme:T11 Agent:T9
+E5	AFFECTS:T22 Agent:T21 Theme:T23
+E6	AFFECTS:T24 Agent:T21 Theme:T25
+E7	DECREASES:T26 Agent:T28 Theme:T27
+E8	DECREASES:T31 Agent:T32 Theme:T30
+E9	DECREASES:T31 Agent:T32 Theme:T29
+E10	INCREASES:T33 Theme:T34 Agent:T35
+E11	INCREASES:T39 Theme:T40 Agent:T42
+E13	INCREASES:T56 Agent:T55 Theme:T57
+E15	INCREASES:T61 Agent:T66 Theme:T62
+E16	DECREASES:T64 Theme:T65 Agent:T63
+E17	INCREASES:T61 Agent:T66 Theme:T63
+E18	AFFECTS:T68 Agent:T67 Theme:T69
+E19	AFFECTS:T68 Agent:T67 Theme:T70
+E20	DECREASES:T64 Theme:T65 Agent:T62
+E21	INCREASES:T20 Agent:T42 Theme:T45
+E22	INCREASES:T20 Agent:T42 Theme:T46
+E23	INCREASES:T20 Agent:T42 Theme:T43
+A1	Unknown E1
+A2	Negated E5
+A3	Negated E6
+A5	Negated E18
+A6	Negated E19
+A7	Factual E2
+A8	Factual E3
+A9	Factual E4
+A10	Factual E7
+A11	Factual E8
+A12	Factual E9
+A13	Factual E10
+A14	Factual E11
+A15	Factual E13
+A16	Factual E15
+A17	Factual E16
+A18	Factual E17
+A19	Factual E20
+A20	Factual E21
+A21	Factual E22
+A22	Factual E23

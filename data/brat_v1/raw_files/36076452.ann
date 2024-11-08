@@ -1,0 +1,152 @@
+T1	IMPROVES 0 11	Improvement
+T2	Measurement 15 43	cardiometabolic risk markers
+T3	DietPattern 57 69	oatmeal diet
+T4	Population 107 146	mildly hypercholesterolemic individuals
+T5	Disease 114 134	hypercholesterolemic
+T6	Disease 149 172	Cardiovascular diseases
+T7	Food 273 280	oatmeal
+T8	IMPROVES 287 294	improve
+T9	Measurement 314 342	cardiometabolic risk markers
+T10	Population 399 441	individuals with mild hypercholesterolemia
+T11	Disease 416 441	mild hypercholesterolemia
+T12	Food 496 503	oatmeal
+T13	AFFECTS 485 492	effects
+T14	Chemical 507 519	serum lipids
+T15	Measurement 521 537	oxidative stress
+T16	Physiology 542 554	inflammation
+T17	Metabolite 610 633	short-chain fatty acids
+T18	Metabolite 635 640	SCFAs
+T19	Population 645 684	mildly hypercholesterolemic individuals
+T20	Disease 652 672	hypercholesterolemic
+T21	ASSOCIATED_WITH 573 585	correlations
+T22	Methodology 702 752	randomized, single-blind, placebo-controlled trial
+T23	Food 836 843	oatmeal
+T24	Chemical 1614 1617	MDA
+T25	Methodology 875 883	16S rDNA
+T26	Methodology 888 924	Gas-Chromatography Mass Spectrometry
+T27	Metabolite 997 1002	SCFAs
+T28	Measurement 1056 1084	Cardiometabolic risk markers
+T29	Methodology 1102 1117	commercial kits
+T30	Food 1146 1153	oatmeal
+T31	DECREASES 1174 1182	decrease
+T32	Chemical 1189 1206	total cholesterol
+T33	Chemical 1208 1210	TC
+T34	Chemical 1234 1269	low density lipoprotein cholesterol
+T35	Chemical 1271 1276	LDL-c
+T36	Chemical 1304 1344	non-high density lipoprotein cholesterol
+T37	Chemical 1346 1355	non-HDL-c
+T38	Measurement 1398 1414	oxidative stress
+T39	Food 1416 1423	oatmeal
+T40	INCREASES 1438 1447	increased
+T41	Measurement 1454 1480	total antioxidant capacity
+T42	Physiology 1482 1487	T-AOC
+T43	Enzyme 1511 1531	superoxide dismutase
+T44	Enzyme 1533 1536	SOD
+T45	DECREASES 1570 1579	decreased
+T46	Chemical 1597 1612	malondialdehyde
+T47	AFFECTS 1676 1697	no significant effect
+T48	Physiology 1714 1734	inflammatory factors
+T49	Metabolite 1736 1741	SCFAs
+T50	Food 1765 1772	oatmeal
+T51	INCREASES 1793 1801	increase
+T52	Metabolite 1802 1819	serum acetic acid
+T53	Metabolite 1821 1835	propionic acid
+T54	Metabolite 1840 1852	valeric acid
+T55	Methodology 1869 1877	16S rDNA
+T56	DiversityMetric 1946 1957	β-diversity
+T57	Food 2001 2008	Oatmeal
+T58	INCREASES 2025 2034	increases
+T59	Microorganism 2038 2049	Akkermansia
+T60	Microorganism 2051 2060	Dialister
+T61	Microorganism 2062 2078	Faecalibacterium
+T62	Microorganism 2080 2091	Barnesiella
+T63	Microorganism 2093 2105	Agathobacter
+T64	Microorganism 2107 2120	Lactobacillus
+T65	DECREASES 2129 2137	decrease
+T66	Microorganism 2141 2170	Ruminococcaceae-MK4A214-group
+T67	Methodology 2172 2192	Correlation analysis
+T68	Food 2248 2255	oatmeal
+T69	Microorganism 2282 2295	Lactobacillus
+T70	Microorganism 2300 2309	Dialister
+T71	Metabolite 2327 2332	SCFAs
+T72	Metabolite 2340 2351	acetic acid
+T73	Metabolite 2356 2370	propionic acid
+T74	Chemical 2220 2226	lipids
+T76	Microorganism 2379 2390	Barnesiella
+T77	Microorganism 2395 2406	Akkermansia
+T78	IMPROVES 2434 2446	ameliorating
+T79	Measurement 2447 2463	oxidative stress
+T80	Population 2579 2629	Chinese individuals with mild hypercholesterolemia
+T81	Disease 2604 2629	mild hypercholesterolemia
+T82	AFFECTS 2645 2652	effects
+T83	Food 2656 2663	oatmeal
+T84	Chemical 2667 2679	serum lipids
+T85	Measurement 2681 2697	oxidative stress
+T86	Physiology 2699 2711	inflammation
+T87	Food 2770 2777	oatmeal
+T88	IMPROVES 2796 2814	beneficial changes
+T89	Chemical 2818 2830	serum lipids
+T90	Measurement 2832 2848	oxidative stress
+T91	Metabolite 2881 2886	SCFAs
+T92	Methodology 2888 2908	Correlation analysis
+T93	Metabolite 2978 2983	SCFAs
+T94	Measurement 2997 3025	cardiometabolic risk markers
+T95	IMPROVES 2987 2996	improving
+T96	IMPROVES 2227 2244	regulation effect
+T97	IMPROVES 2227 2244	regulation effect
+T98	IMPROVES 2227 2244	regulation effect
+T99	IMPROVES 2227 2244	regulation effect
+E1	IMPROVES:T1 Theme:T2 Agent:T3
+E2	IMPROVES:T8 Agent:T7 Theme:T9
+E3	AFFECTS:T13 Agent:T12 Theme:T14
+E4	ASSOCIATED_WITH:T21 Theme:T16 Theme2:T17
+E5	ASSOCIATED_WITH:T21 Theme:T15 Theme2:T17
+E6	ASSOCIATED_WITH:T21 Theme:T14 Theme2:T17
+E7	AFFECTS:T13 Agent:T12 Theme:T15
+E8	AFFECTS:T13 Agent:T12 Theme:T16
+E9	DECREASES:T31 Agent:T30 Theme:T32
+E10	DECREASES:T31 Agent:T30 Theme:T34
+E11	DECREASES:T31 Agent:T30 Theme:T36
+E12	INCREASES:T40 Agent:T39 Theme:T41
+E13	DECREASES:T45 Agent:T39 Theme:T46
+E14	INCREASES:T40 Agent:T39 Theme:T43
+E15	AFFECTS:T47 Theme:T48 Agent:T39
+E16	INCREASES:T51 Agent:T50 Theme:T52
+E17	INCREASES:T58 Agent:T57 Theme:T59
+E18	DECREASES:T65 Agent:T57 Theme:T66
+E19	INCREASES:T58 Agent:T57 Theme:T60
+E20	INCREASES:T58 Agent:T57 Theme:T61
+E21	INCREASES:T58 Agent:T57 Theme:T62
+E22	INCREASES:T58 Agent:T57 Theme:T63
+E23	INCREASES:T58 Agent:T57 Theme:T64
+E24	IMPROVES:T96 Theme:T74 Agent:T68
+E25	IMPROVES:T78 Theme:T79 Agent:T76
+E26	IMPROVES:T97 Theme:T74 Agent:T69
+E27	IMPROVES:T98 Theme:T74 Agent:T70
+E28	IMPROVES:T99 Theme:T74 Agent:T72
+E29	IMPROVES:T96 Theme:T74 Agent:T73
+E30	IMPROVES:T78 Theme:T79 Agent:T77
+E31	AFFECTS:T82 Agent:T83 Theme:T84
+E32	AFFECTS:T82 Agent:T83 Theme:T85
+E33	AFFECTS:T82 Agent:T83 Theme:T86
+E34	IMPROVES:T88 Agent:T87 Theme:T89
+E35	IMPROVES:T88 Agent:T87 Theme:T90
+E36	IMPROVES:T88 Agent:T87 Theme:T91
+E37	IMPROVES:T95 Agent:T93 Theme:T94
+E38	INCREASES:T51 Theme:T54 Agent:T50
+E39	INCREASES:T51 Theme:T53 Agent:T50
+A1	Factuality E2 Possible
+A2	Factuality E3 Unknown
+A3	Factuality E4 Unknown
+A4	Factuality E5 Unknown
+A5	Factuality E6 Unknown
+A6	Factuality E7 Unknown
+A7	Factuality E8 Unknown
+A8	Factuality E15 Negated
+A9	Factuality E31 Unknown
+A10	Factuality E32 Unknown
+A11	Factuality E33 Unknown
+A12	Factuality E37 Unknown
+A13	Factuality E16 Probable
+A14	Factuality E38 Probable
+A15	Factuality E39 Probable

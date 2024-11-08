@@ -1,0 +1,313 @@
+T2	Nutrient 136 141	nisin
+T3	Microorganism 229 252	Clostridium perfringens
+T4	Microorganism 257 260	LAB
+T5	AFFECTS 216 224	affected
+T6	Microorganism 269 280	Bacteroides
+T7	Microorganism 285 302	Enterobacteriacae
+T8	AFFECTS 335 345	influenced
+T9	Nutrient 489 494	nisin
+T10	Nutrient 516 521	nisin
+T14	Microorganism 791 802	Bacteroides
+T15	Microorganism 803 813	Prevotella
+T16	Microorganism 866 889	Clostridium perfringens
+T17	Microorganism 933 950	Enterobacteriacae
+T18	Microorganism 1003 1016	Lactobacillus
+T19	Microorganism 1017 1029	Enterococcus
+T20	Nutrient 1210 1215	nisin
+T21	Nutrient 1246 1251	nisin
+T22	Nutrient 1285 1290	nisin
+T23	Nutrient 1174 1179	nisin
+T26	Physiology 1531 1553	Microbial fermentation
+T27	Physiology 1589 1611	microbial fermentation
+T29	Physiology 1643 1646	GIT
+T30	AFFECTS 1651 1659	affected
+T31	Nutrient 1663 1668	nisin
+T32	Metabolite 1787 1797	total SCFA
+T33	Metabolite 1895 1905	propionate
+T34	DECREASES 1858 1866	reducing
+T35	DECREASES 1775 1782	lowered
+T36	DECREASES 1989 1994	lower
+T37	Metabolite 1995 1999	SCFA
+T38	Metabolite 2004 2009	PSCFA
+T39	Nutrient 2122 2127	nisin
+T40	DECREASES 2128 2135	reduced
+T41	Metabolite 2154 2164	propionate
+T42	Nutrient 6353 6355	NI
+T43	Metabolite 2303 2308	PSCFA
+T44	Metabolite 2294 2298	SCFA
+T45	Metabolite 2383 2389;2404 2409	acetic acids
+T46	Metabolite 2394 2409	propionic acids
+T47	Nutrient 2449 2454	nisin
+T48	DECREASES 2366 2372	lowest
+T49	Metabolite 2463 2479	Iso-butyric acid
+T50	Metabolite 2535 2547	Butyric acid
+T51	AFFECTS 2562 2576	did not differ
+T52	INCREASES 2265 2272	highest
+T53	Metabolite 2657 2673	iso-valeric acid
+T54	Metabolite 2779 2791	valeric acid
+T55	DECREASES 2772 2778	Lowest
+T56	Metabolite 2912 2917	PSCFA
+T57	DECREASES 2944 2950	lowest
+T58	Metabolite 2984 2988	SCFA
+T59	DECREASES 2971 2977	lowest
+T60	Nutrient 3023 3028	nisin
+T61	AFFECTS 3061 3075	did not affect
+T62	Physiology 3016 3021	caeca
+T63	Metabolite 3080 3084	SCFA
+T64	Physiology 2215 2220	ileum
+T65	Physiology 2337 2350	caeca digesta
+T66	Metabolite 3105 3109	SCFA
+T67	Physiology 3122 3134	crop digesta
+T68	Physiology 1740 1744	crop
+T69	Nutrient 3237 3242	nisin
+T70	Nutrient 3273 3278	nisin
+T71	Nutrient 3309 3314	nisin
+T72	Nutrient 3348 3353	nisin
+T73	Metabolite 3451 3455	SCFA
+T74	Physiology 3468 3481	ileum digesta
+T75	Nutrient 3583 3588	nisin
+T76	Nutrient 3619 3624	nisin
+T77	Nutrient 3655 3660	nisin
+T78	Nutrient 3694 3699	nisin
+T79	Metabolite 3797 3801	SCFA
+T80	Physiology 3814 3827	caeca digesta
+T81	Nutrient 3929 3934	nisin
+T82	Nutrient 3965 3970	nisin
+T83	Nutrient 4001 4006	nisin
+T84	Nutrient 4040 4045	nisin
+T85	Metabolite 4143 4147	SCFA
+T86	Physiology 4166 4170	crop
+T87	Physiology 4172 4177	ileum
+T88	Physiology 4182 4195	caeca digesta
+T89	Metabolite 4261 4272	acetic acid
+T90	Metabolite 4316 4330	propionic acid
+T91	Metabolite 4380 4396	iso-butyric acid
+T92	Metabolite 4440 4452	butyric acid
+T93	Metabolite 4496 4512	iso-valeric acid
+T94	Metabolite 4612 4617	PSCFA
+T95	Metabolite 4556 4568	valeric acid
+T96	Metabolite 4665 4675	total SCFA
+T97	Physiology 4725 4730	Ileum
+T98	Metabolite 4733 4744	acetic acid
+T99	Physiology 4254 4258	Crop
+T100	Metabolite 4788 4802	propionic acid
+T101	Metabolite 4852 4868	iso-butyric acid
+T102	Metabolite 4918 4930	butyric acid
+T103	Metabolite 4974 4990	iso-valeric acid
+T104	Metabolite 5034 5046	valeric acid
+T105	Metabolite 5090 5095	PSCFA
+T106	Metabolite 5149 5159	total SCFA
+T107	Metabolite 5219 5230	acetic acid
+T108	Physiology 5211 5216	Caeca
+T109	Metabolite 5281 5295	propionic acid
+T110	Metabolite 5346 5362	iso-butyric acid
+T111	Metabolite 5412 5424	butyric acid
+T112	Metabolite 5475 5491	iso-valeric acid
+T113	Metabolite 5545 5557	valeric acid
+T114	Metabolite 5611 5616	PSCFA
+T115	Metabolite 5680 5684	SCFA
+T116	Nutrient 5836 5841	nisin
+T117	Nutrient 5872 5877	nisin
+T118	Nutrient 5908 5913	nisin
+T119	Nutrient 5947 5952	nisin
+T120	Metabolite 5969 5974	PSCFA
+T121	Metabolite 5977 5994	putrefactive SCFA
+T122	Physiology 6250 6255;6266 6273	ileum digesta
+T123	Physiology 6260 6273	caeca digesta
+T124	DECREASES 6332 6338	lowest
+T125	Physiology 6222 6224	pH
+T126	Physiology 6424 6428;6446 6453	crop digesta
+T127	Physiology 6430 6435;6446 6453	ileum digesta
+T128	Physiology 6440 6453	caeca digesta
+T129	Nutrient 6768 6773	nisin
+T130	Nutrient 6804 6809	nisin
+T131	Nutrient 6840 6845	nisin
+T132	Nutrient 6879 6884	nisin
+T133	Nutrient 7064 7069	nisin
+T134	AFFECTS 7117 7125	affected
+T135	Enzyme 7151 7168	bacterial enzymes
+T136	Physiology 7172 7176	crop
+T137	Physiology 7178 7183	ileum
+T138	Physiology 7188 7193	caeca
+T139	Physiology 7208 7220	crop digesta
+T140	Physiology 8542 8546	Crop
+T141	Enzyme 7285 7300	β-glucuronidase
+T142	Enzyme 7507 7521	β-glucosidases
+T143	Enzyme 7263 7280	α- galactosidases
+T144	Enzyme 7247 7261	β-glucosidases
+T145	Nutrient 7346 7351	nisin
+T146	DECREASES 7368 7377	decreased
+T147	Enzyme 7526 7541	β-glucuronidase
+T148	Nutrient 7589 7594	nisin
+T149	DECREASES 7500 7506	lowest
+T150	Physiology 7619 7632	ileum digesta
+T151	Enzyme 7646 7660	α-glucosidases
+T152	DECREASES 7707 7713	lowest
+T153	Enzyme 7240 7242;7249 7261	α- glucosidases
+T154	Enzyme 7852 7869	bacterial enzymes
+T155	Enzyme 8549 8562	α-glucosidase
+T156	Physiology 7883 7896	caeca digesta
+T157	Enzyme 7937 7939;7946 7958	α- glucosidases
+T158	Enzyme 7944 7958	β-glucosidases
+T159	Enzyme 7960 7977	α- galactosidases
+T160	Enzyme 7982 7997	β-glucuronidase
+T161	Enzyme 8013 8034	α-arabinopyranosidase
+T162	Enzyme 8039 8051	β-xylosidase
+T163	Nutrient 8104 8109	nisin
+T164	DECREASES 8149 8172	significantly decreased
+T165	Enzyme 8189 8191;8198 8210	α- glucosidases
+T166	Enzyme 8196 8210	β-glucosidases
+T167	Enzyme 8229 8246	α- galactosidases
+T168	Enzyme 8278 8292	β-glucosidases
+T169	Enzyme 8302 8317	β-glucuronidase
+T170	Enzyme 8349 8370	α-arabinopyranosidase
+T171	Enzyme 8381 8393	β-xylosidase
+T172	Physiology 8452 8456;8474 8481	crop digesta
+T173	Physiology 8458 8463;8474 8481	ileum digesta
+T174	Physiology 8468 8481	caeca digesta
+T175	Enzyme 8417 8448	extracellular bacterial enzymes
+T176	Nutrient 9789 9794	nisin
+T177	Nutrient 9825 9830	nisin
+T178	Nutrient 9861 9866	nisin
+T179	Nutrient 9900 9905	nisin
+T180	Physiology 10110 10126	body weight gain
+T181	Physiology 10128 10131	BWG
+T182	Nutrient 10173 10178	Nisin
+T183	IMPROVES 10195 10203	improved
+T184	Physiology 10204 10207	BWG
+T185	Physiology 10531 10534	BWG
+T186	INCREASES 10659 10666	highest
+T187	Physiology 10667 10670	BWG
+T188	Nutrient 10692 10697	nisin
+T189	Measurement 10772 10793	feed conversion ratio
+T190	Measurement 10795 10798	FCR
+T191	Measurement 10834 10837	FCR
+T192	DECREASES 10827 10833	lowest
+T193	Measurement 11017 11020	FCR
+T194	Nutrient 11228 11233	nisin
+T195	DECREASES 11160 11166	lowest
+T196	Measurement 11167 11170	FCR
+T197	Nutrient 11254 11259	Nisin
+T199	AFFECTS 11284 11292	effected
+T200	Physiology 11293 11304	feed intake
+T201	Physiology 11306 11308	FI
+T202	INCREASES 11374 11381	highest
+T203	Physiology 11382 11384	FI
+T204	Physiology 11522 11533	performance
+T206	Nutrient 12370 12375	nisin
+T207	Nutrient 12406 12411	nisin
+T208	Nutrient 12442 12447	nisin
+T209	Nutrient 12481 12486	nisin
+T210	Physiology 12504 12507	BWG
+T211	Physiology 12509 12525	Body Weight Gain
+T212	Nutrient 12527 12529	FE
+T213	Measurement 12532 12547	Feed Efficiency
+T214	Physiology 12549 12551	FI
+T215	Physiology 12554 12565	Feed Intake
+T238	Physiology 6418 6420	pH
+T241	Physiology 6500 6504	Crop
+T245	Physiology 6548 6553	Ileum
+T270	Physiology 6605 6610	Caeca
+T271	Enzyme 8613 8626	β-glucosidase
+T272	Enzyme 8680 8695	α-galactosidase
+T273	Enzyme 8739 8754	β-galactosidase
+T274	Enzyme 8805 8820	β-glucuronidase
+T275	Physiology 8872 8877	Ileum
+T276	Enzyme 8880 8893	α-glucosidase
+T277	Enzyme 8947 8960	β-glucosidase
+T278	Enzyme 9012 9027	α-galactosidase
+T279	Enzyme 9077 9092	β-galactosidase
+T280	Enzyme 9143 9158	β-glucuronidase
+T281	Physiology 9209 9214	Caeca
+T282	Enzyme 9217 9230	α-glucosidase
+T283	Enzyme 9285 9298	β-glucosidase
+T284	Enzyme 9351 9366	α-galactosidase
+T285	Enzyme 9420 9435	β-galactosidase
+T286	Enzyme 9487 9502	β-glucuronidase
+T287	Enzyme 9553 9574	α-arabinopyranosidase
+T288	Enzyme 9624 9636	β-xylosidase
+T289	Physiology 11575 11578	BWG
+T290	Physiology 12035 12037	FI
+T291	Nutrient 11800 11802	FE
+E1	AFFECTS:T5 Agent:T2 Theme:T3
+E2	AFFECTS:T5 Agent:T2 Theme:T4
+E3	AFFECTS:T8 Agent:T2 Theme:T7
+E4	AFFECTS:T8 Agent:T2 Theme:T6
+E5	AFFECTS:T30 Agent:T31 Theme:T27
+E6	DECREASES:T34 Theme:T33 Agent:T31
+E7	DECREASES:T35 Theme:T32 Agent:T31
+E8	DECREASES:T36 Agent:T31 Theme:T37
+E9	DECREASES:T36 Agent:T31 Theme:T38
+E10	DECREASES:T40 Theme:T41 Agent:T39
+E11	DECREASES:T48 Agent:T47 Theme:T45
+E12	DECREASES:T48 Agent:T47 Theme:T46
+E13	AFFECTS:T51 Theme:T50 Agent:T47
+E14	INCREASES:T52 Agent:T39 Theme:T44
+E16	INCREASES:T52 Agent:T39 Theme:T43
+E17	DECREASES:T55 Theme:T54 Agent:T47
+E18	DECREASES:T57 Theme:T56 Agent:T47
+E19	DECREASES:T59 Theme:T58 Agent:T47
+E20	AFFECTS:T61 Theme:T63 Agent:T60
+E21	DECREASES:T124 Theme:T125 Agent:T42
+E22	AFFECTS:T134 Agent:T133 Theme:T135
+E23	DECREASES:T146 Agent:T145 Theme:T153
+E24	DECREASES:T146 Agent:T145 Theme:T141
+E25	DECREASES:T146 Agent:T145 Theme:T143
+E26	DECREASES:T146 Agent:T145 Theme:T144
+E27	DECREASES:T149 Agent:T148 Theme:T142
+E28	DECREASES:T149 Agent:T148 Theme:T147
+E29	DECREASES:T152 Theme:T151 Agent:T148
+E31	DECREASES:T164 Agent:T163 Theme:T166
+E32	DECREASES:T164 Agent:T163 Theme:T167
+E33	DECREASES:T164 Agent:T163 Theme:T168
+E34	DECREASES:T164 Agent:T163 Theme:T169
+E35	DECREASES:T164 Agent:T163 Theme:T170
+E36	DECREASES:T164 Agent:T163 Theme:T171
+E37	DECREASES:T164 Agent:T163 Theme:T165
+E38	IMPROVES:T183 Theme:T184 Agent:T182
+E39	INCREASES:T186 Theme:T187 Agent:T188
+E40	DECREASES:T192 Theme:T191 Agent:T188
+E41	DECREASES:T195 Agent:T194 Theme:T196
+E42	AFFECTS:T199 Agent:T197 Theme:T200
+E43	INCREASES:T202 Theme:T203 Agent:T197
+A1	Negated E1
+A2	Negated E2
+A3	Negated E13
+A9	Negated E20
+A11	Factual E3
+A12	Factual E4
+A13	Factual E5
+A14	Factual E6
+A15	Factual E7
+A16	Factual E8
+A17	Factual E9
+A18	Factual E10
+A19	Factual E11
+A20	Factual E12
+A21	Factual E14
+A22	Factual E16
+A23	Factual E17
+A24	Factual E18
+A25	Factual E19
+A26	Factual E21
+A27	Factual E22
+A28	Factual E23
+A29	Factual E24
+A30	Factual E25
+A31	Factual E26
+A32	Factual E27
+A33	Factual E28
+A34	Factual E29
+A35	Factual E31
+A36	Factual E32
+A37	Factual E33
+A38	Factual E34
+A39	Factual E35
+A40	Factual E36
+A41	Factual E37
+A42	Factual E38
+A43	Factual E39
+A44	Factual E40
+A45	Factual E41
+A46	Factual E42
+A47	Factual E43

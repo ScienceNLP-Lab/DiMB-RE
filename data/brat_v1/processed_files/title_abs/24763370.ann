@@ -1,0 +1,46 @@
+T2	Disease 106 111	obese
+T3	Metabolite 81 102	fermentation products
+T4	Disease 272 290	metabolic syndrome
+T6	Disease 358 363	obese
+T7	Nutrient 421 437	resistant starch
+T8	Nutrient 439 441	RS
+T9	Nutrient 446 472	non-starch polysaccharides
+T10	Nutrient 474 478	NSPs
+T11	DietPattern 486 507	weight-loss (WL) diet
+T12	ASSOCIATED_WITH 741 746	proxy
+T16	Metabolite 704 727	short chain fatty acids
+T17	Metabolite 729 734	SCFAs
+T18	Physiology 787 806	insulin sensitivity
+T20	Physiology 750 770	colonic fermentation
+T21	Microorganism 1063 1078	Ruminococcaceae
+T22	INCREASES 1090 1099	increased
+T23	DietPattern 1107 1114	RS diet
+T24	DietPattern 1175 1183	NSP diet
+T25	Microorganism 1131 1146	Lachnospiraceae
+T26	INCREASES 1158 1167	increased
+T27	Microorganism 1185 1199	Bifidobacteria
+T28	DECREASES 1200 1223	decreased significantly
+T29	DietPattern 1231 1238	WL diet
+T30	DietPattern 1244 1251	RS diet
+T31	DECREASES 1252 1261	decreased
+T32	DiversityMetric 1266 1293	diversity of the microbiota
+T34	POS_ASSOCIATED_WITH 1367 1388	correlated positively
+T35	Metabolite 1410 1415	SCFAs
+T36	Metabolite 1437 1447	propionate
+T37	ASSOCIATED_WITH 1461 1476	correlated with
+T38	Microorganism 1481 1494	Bacteroidetes
+T39	Gene 1319 1341	16S ribosomal RNA gene
+E1	INCREASES:T22 Agent:T23 Theme:T21
+E2	INCREASES:T26 Agent:T24 Theme:T25
+E3	DECREASES:T28 Agent:T29 Theme:T27
+E4	DECREASES:T31 Agent:T30 Theme:T32
+E5	POS_ASSOCIATED_WITH:T34 Theme:T39 Agent:T35
+E6	ASSOCIATED_WITH:T37 Theme:T36 Theme2:T38
+E7	ASSOCIATED_WITH:T12 Theme:T20 Theme2:T16
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7

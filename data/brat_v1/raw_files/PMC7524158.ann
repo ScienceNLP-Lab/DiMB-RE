@@ -1,0 +1,114 @@
+T1	Food 10 20	wheat bran
+T2	HAS_COMPONENT 21 28	derived
+T3	Nutrient 29 38	prebiotic
+T4	Physiology 58 82	gastrointestinal transit
+T5	AFFECTS 0 6	Effect
+T6	Physiology 104 120	metabolic health
+T7	Methodology 124 151	randomized controlled trial
+T8	Population 155 193	healthy adults with a slow gut transit
+T9	Nutrient 243 271	Arabinoxylan-Oligosaccharide
+T10	Nutrient 273 277	AXOS
+T11	IMPROVES 309 317	improves
+T12	Physiology 318 339	stool characteristics
+T13	Chemical 344 365	postprandial glycemia
+T14	Population 369 383	healthy humans
+T15	Nutrient 423 427	AXOS
+T16	AFFECTS 390 405	little is known
+T17	Physiology 446 479	gastrointestinal (GI) functioning
+T18	Physiology 501 517	metabolic health
+T19	Physiology 694 706	constipation
+T20	Methodology 527 577	randomized, placebo-controlled, double-blind study
+T21	AFFECTS 596 603	effects
+T22	Nutrient 607 611	AXOS
+T23	Physiology 622 633	GI function
+T24	Physiology 638 654	metabolic health
+T25	Population 658 706	adults with slow GI transit without constipation
+T26	Population 720 740	normoglycemic adults
+T27	Physiology 760 782	whole-gut transit time
+T28	Physiology 784 788	WGTT
+T29	Nutrient 825 829	AXOS
+T30	Physiology 892 896	WGTT
+T31	Measurement 930 946	stool parameters
+T32	Physiology 948 964	gut permeability
+T33	Metabolite 966 989	short-chain fatty acids
+T34	Metabolite 991 995	SCFA
+T35	Physiology 1022 1040	energy expenditure
+T36	Physiology 1042 1061	substrate oxidation
+T37	Chemical 1063 1070	glucose
+T38	Chemical 1072 1079	insulin
+T39	Chemical 1081 1087	lipids
+T40	Physiology 1089 1101	gut hormones
+T41	Physiology 1107 1135	adipose tissue (AT) function
+T42	Chemical 1457 1465	incretin
+T43	Physiology 1137 1141	WGTT
+T44	AFFECTS 1146 1155	unchanged
+T45	Physiology 1161 1178	stool consistency
+T46	AFFECTS 1179 1187	softened
+T47	Nutrient 1194 1198	AXOS
+T48	Nutrient 1210 1214	AXOS
+T49	INCREASES 1262 1272	increasing
+T50	Microorganism 1273 1288	Bifidobacterium
+T51	DECREASES 1293 1303	decreasing
+T52	DiversityMetric 1314 1329	alpha-diversity
+T53	Physiology 1436 1440	WGTT
+T54	Nutrient 1447 1451	AXOS
+T55	Chemical 1474 1497	Glucagon-like protein 1
+T56	DECREASES 1502 1509	reduced
+T57	Nutrient 1516 1520	AXOS
+T58	Physiology 1542 1560	Energy expenditure
+T59	Metabolite 1562 1580	plasma metabolites
+T60	Measurement 1582 1595	AT parameters
+T61	Metabolite 1597 1601	SCFA
+T62	Physiology 1607 1623	gut permeability
+T63	AFFECTS 1629 1638	unchanged
+T64	Nutrient 1665 1683	wheat bran extract
+T65	INCREASES 1684 1693	increases
+T66	Microorganism 1700 1715	Bifidobacterium
+T67	AFFECTS 1720 1727	softens
+T68	Physiology 1728 1745	stool consistency
+T69	AFFECTS 1746 1767	without major effects
+T70	Physiology 1771 1788	energy metabolism
+T71	Population 1792 1829	healthy humans with a slow GI transit
+T72	Physiology 1904 1908	WGTT
+T73	Nutrient 1915 1919	AXOS
+T74	Physiology 1938 1948	GI transit
+T75	ASSOCIATED_WITH 1973 1983	associated
+T76	Microorganism 2019 2034	Bifidobacterium
+T77	Nutrient 224 242	wheat bran extract
+E1	HAS_COMPONENT:T2 Theme:T3 Agent:T1
+E2	AFFECTS:T5 Agent:T3 Theme:T4
+E3	AFFECTS:T5 Agent:T3 Theme:T6
+E4	IMPROVES:T11 Agent:T9 Theme:T12
+E5	IMPROVES:T11 Agent:T9 Theme:T13
+E6	AFFECTS:T16 Agent:T15 Theme:T17
+E7	AFFECTS:T16 Agent:T15 Theme:T18
+E8	AFFECTS:T21 Agent:T22 Theme:T23
+E9	AFFECTS:T21 Agent:T22 Theme:T24
+E10	AFFECTS:T44 Theme:T43 Agent:T47
+E11	AFFECTS:T46 Agent:T47 Theme:T45
+E12	INCREASES:T49 Agent:T48 Theme:T50
+E13	DECREASES:T51 Agent:T48 Theme:T52
+E14	DECREASES:T56 Theme:T55 Agent:T57
+E15	AFFECTS:T63 Agent:T57 Theme:T62
+E16	AFFECTS:T63 Agent:T57 Theme:T61
+E17	AFFECTS:T63 Agent:T57 Theme:T60
+E18	AFFECTS:T63 Agent:T57 Theme:T59
+E19	AFFECTS:T63 Agent:T57 Theme:T58
+E20	INCREASES:T65 Agent:T64 Theme:T66
+E21	AFFECTS:T67 Agent:T64 Theme:T68
+E22	AFFECTS:T69 Agent:T64 Theme:T70
+E23	ASSOCIATED_WITH:T75 Theme:T74 Theme2:T76
+A1	Factuality E2 Unknown
+A2	Factuality E3 Unknown
+A3	Factuality E6 Unknown
+A4	Factuality E7 Unknown
+A5	Factuality E8 Unknown
+A6	Factuality E9 Unknown
+A7	Factuality E10 Negated
+A8	Factuality E15 Negated
+A9	Factuality E16 Negated
+A10	Factuality E17 Negated
+A11	Factuality E18 Negated
+A12	Factuality E19 Negated
+A13	Factuality E22 Negated
+A14	Factuality E23 Negated

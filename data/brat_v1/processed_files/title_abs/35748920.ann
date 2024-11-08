@@ -1,0 +1,41 @@
+T10	DiversityMetric 942 953	α-diversity
+T13	DietPattern 474 487;506 521	healthy (HDP) dietary pattern
+T14	DietPattern 492 521	western (WDP) dietary pattern
+T15	DiversityMetric 1006 1017	β-diversity
+T16	DietPattern 1067 1070	HDP
+T17	DietPattern 1219 1222	WDP
+T18	DietPattern 989 992	WDP
+T19	DietPattern 997 1000	HDP
+T21	INCREASES 1075 1081	higher
+T22	Microorganism 1110 1120	Firmicutes
+T23	Microorganism 1125 1141	Faecalibacterium
+T24	DECREASES 1146 1151	lower
+T25	Microorganism 1158 1170	Bacteroidota
+T26	Microorganism 1175 1195	Escherichia-Shigella
+T29	DietPattern 670 673	HDP
+T30	Food 1372 1379	legumes
+T31	Nutrient 1381 1394	simple sugars
+T32	Food 1419 1424	fruit
+T33	Food 1426 1437	soft drinks
+T34	Physiology 1443 1472	stool transit characteristics
+T35	Physiology 1596 1619	frequency of defecation
+T36	DietPattern 678 681	WDP
+T37	ASSOCIATED_WITH 1022 1032	associated
+T39	ASSOCIATED_WITH 962 968	differ
+T40	Physiology 1527 1546	metabolic potential
+E1	ASSOCIATED_WITH:T37 Theme:T15 Theme2:T19
+E2	INCREASES:T21 Agent:T16 Theme:T22
+E3	INCREASES:T21 Agent:T16 Theme:T23
+E4	DECREASES:T24 Theme:T25 Agent:T16
+E5	DECREASES:T24 Theme:T26 Agent:T16
+E6	ASSOCIATED_WITH:T37 Theme:T15 Theme2:T18
+E7	ASSOCIATED_WITH:T39 Theme:T18 Theme2:T10
+E8	ASSOCIATED_WITH:T39 Theme:T19 Theme2:T10
+A1	Negated E7
+A2	Negated E8
+A3	Factual E1
+A4	Factual E2
+A5	Factual E3
+A6	Factual E4
+A7	Factual E5
+A8	Factual E6

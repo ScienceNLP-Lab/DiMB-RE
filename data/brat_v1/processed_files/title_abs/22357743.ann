@@ -1,0 +1,132 @@
+T1	Nutrient 0 17	Fermentable fiber
+T2	IMPROVES 18 29	ameliorates
+T4	Physiology 100 116	mucosal response
+T5	Physiology 30 65	fermentable protein-induced changes
+T6	Nutrient 165 190	fermentable carbohydrates
+T7	Nutrient 192 196	fCHO
+T8	Physiology 381 400	epithelial response
+T9	DietPattern 346 363	diets high in fCP
+T10	Nutrient 422 426	fCHO
+T13	DietPattern 521 537	low fCP/low fCHO
+T14	Nutrient 545 558	crude protein
+T15	Nutrient 560 562	CP
+T16	Nutrient 570 589	total dietary fiber
+T17	Nutrient 591 594	TDF
+T18	DietPattern 598 615	low fCP/high fCHO
+T19	Nutrient 623 625	CP
+T20	Nutrient 632 635	TDF
+T21	DietPattern 638 655	high fCP low fCHO
+T22	Nutrient 663 665	CP
+T23	Nutrient 672 675	TDF
+T24	DietPattern 682 700	high fCP/high fCHO
+T25	Nutrient 708 710	CP
+T26	Nutrient 717 720	TDF
+T27	Gene 914 925	mucus genes
+T28	Gene 927 930	MUC
+T29	Measurement 937 961	oxidative stress indices
+T30	Physiology 857 901	tissue expression of genes for cell turnover
+T31	Chemical 903 912	cytokines
+T36	Nutrient 1003 1006	fCP
+T37	INCREASES 1007 1016	increased
+T38	Microorganism 1043 1053	clostridia
+T39	Metabolite 1090 1101;1115 1132	total short chain fatty acids
+T40	Metabolite 1106 1132	branched chain fatty acids
+T41	DietPattern 1205 1214	high fCHO
+T42	INCREASES 1215 1224	increased
+T43	DietPattern 1418 1434	High dietary fCP
+T44	INCREASES 1435 1444	increased
+T45	Nutrient 1533 1537	fCHO
+T46	Nutrient 1723 1740	fermentable fiber
+T47	IMPROVES 1741 1752	ameliorates
+T48	AFFECTS 333 342	influence
+T49	Microorganism 1251 1261	clostridia
+T50	DECREASES 1375 1382	reduced
+T51	Metabolite 1383 1390	ammonia
+T52	Metabolite 1395 1405	putrescine
+T53	Metabolite 1170 1180	spermidine
+T54	Metabolite 1143 1153	putrescine
+T55	Metabolite 1134 1141	ammonia
+T56	Metabolite 1155 1164	histamine
+T57	Microorganism 1061 1079	Clostridium leptum
+T58	Microorganism 1269 1278;1296 1302	C. leptum groups
+T59	Microorganism 1283 1302	C. coccoides groups
+T60	Metabolite 1316 1343	acetate to propionate ratio
+T61	AFFECTS 1304 1311	shifted
+T62	Metabolite 1351 1358	acetate
+T63	Gene 1470 1474	PCNA
+T64	Gene 1476 1480	IL1β
+T65	Gene 1482 1486	IL10
+T66	Gene 1488 1492	TGFβ
+T67	Gene 1494 1498	MUC1
+T68	Gene 1500 1504	MUC2
+T69	Gene 1510 1515	MUC20
+T70	Metabolite 1557 1599	ratio of glutathione:glutathione disulfide
+T71	DECREASES 1604 1611	reduced
+T72	Nutrient 1626 1629	fCP
+T73	Enzyme 1652 1675	glutathione transferase
+T74	DECREASES 1680 1687	reduced
+T75	Nutrient 1691 1695	fCHO
+T77	Physiology 1753 1788	fermentable protein-induced changes
+T78	Physiology 1847 1886	mucosal response in the large intestine
+T79	Nutrient 292 312	fermentable proteins
+T80	Nutrient 314 317	fCP
+T82	Measurement 963 978	Pig performance
+T83	AFFECTS 983 993	unaffected
+E1	IMPROVES:T2 Agent:T1 Theme:T5
+E2	AFFECTS:T83 Theme:T82 Agent:T13
+E3	INCREASES:T37 Agent:T36 Theme:T38
+E4	INCREASES:T42 Agent:T41 Theme:T49
+E5	INCREASES:T44 Agent:T43 Theme:T63
+E6	IMPROVES:T47 Agent:T46 Theme:T77
+E7	AFFECTS:T48 Agent:T9 Theme:T8
+E8	DECREASES:T50 Agent:T41 Theme:T51
+E9	INCREASES:T37 Agent:T36 Theme:T39
+E10	INCREASES:T37 Agent:T36 Theme:T40
+E11	INCREASES:T37 Agent:T36 Theme:T55
+E12	INCREASES:T37 Agent:T36 Theme:T54
+E13	INCREASES:T37 Agent:T36 Theme:T56
+E14	INCREASES:T37 Agent:T36 Theme:T53
+E15	DECREASES:T50 Agent:T41 Theme:T52
+E16	AFFECTS:T61 Agent:T41 Theme:T60
+E17	INCREASES:T44 Agent:T43 Theme:T64
+E18	INCREASES:T44 Agent:T43 Theme:T65
+E19	INCREASES:T44 Agent:T43 Theme:T66
+E20	INCREASES:T44 Agent:T43 Theme:T67
+E21	INCREASES:T44 Agent:T43 Theme:T68
+E22	INCREASES:T44 Agent:T43 Theme:T69
+E23	DECREASES:T71 Theme:T70 Agent:T72
+E24	DECREASES:T74 Agent:T75 Theme:T73
+E25	AFFECTS:T83 Theme:T82 Agent:T18
+E26	AFFECTS:T83 Theme:T82 Agent:T21
+E27	AFFECTS:T83 Theme:T82 Agent:T24
+E28	IMPROVES:T2 Theme:T4 Agent:T1
+E29	IMPROVES:T47 Agent:T46 Theme:T78
+A1	Negated E2
+A2	Unknown E7
+A3	Negated E25
+A4	Negated E26
+A5	Negated E27
+A6	Negated E28
+A7	Negated E29
+A8	Factual E1
+A9	Factual E3
+A10	Factual E4
+A11	Factual E5
+A12	Factual E6
+A13	Factual E8
+A14	Factual E9
+A15	Factual E10
+A16	Factual E11
+A17	Factual E12
+A18	Factual E13
+A19	Factual E14
+A20	Factual E15
+A21	Factual E16
+A22	Factual E17
+A23	Factual E18
+A24	Factual E19
+A25	Factual E20
+A26	Factual E21
+A27	Factual E22
+A28	Factual E23
+A29	Factual E24

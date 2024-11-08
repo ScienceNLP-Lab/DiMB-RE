@@ -1,0 +1,36 @@
+Apparent nutrient digestibility
+Dry matter intake and nutrient digestibility (Least square means ± standard error of mean) in goats fed diets containing different parts of Andrographis paniculata
+
+	Dietary treatments		 	Parameter	Control	APL	APW	P value	 	DMI (g/d)	796.33 ± 4.21	816.10 ± 5.23	827.13 ± 4.50	0.08	 	DM digestibility (%)	61.87 ± 0.04	66.35+ ± 0.03	66.50+ ± 0.01	0.03	 	Nutrient digestibility (%)	 	 Crude protein	43.98 ± 1.57	60.35+ ± 1.55	67.50+ ± 0.07	0.01	 	 Ether extract	62.71 ± 1.10	64.02 ± 0.19	64.85 ± 0.30	0.64	 	 Acid detergent fibre	39.42 ± 0.24	40.69+ ± 0.14	40.89+ ± 0.10	0.04	 	 Neutral detergent fibre	57.53 ± 0.20	60.32+ ± 0.07	60.50+ ± 0.03	0.02	 	
+
+Control basal diet, APL basal diet +1.5% (w/w) Andrographis paniculata leaf powder, APW basal diet +1.5% (w/w) whole plant of Andrographis paniculata powder
+
++Differ from the control (P < 0.05)
+Dry matter intake and digestibility, and apparent nutrient digestibility coefficients in goats fed different parts of AP are shown in Table 4. The digestibilities of DM, CP, NDF and ADF were greater (P < 0.05) in the APL and APW goats than the control goats. Dietary AP had no significant effect (P > 0.05) on DMI and ether extract digestibility in goats. 
+Rumen fermentation
+Rumen fermentation profiles (Least square means ± standard error of mean) in goats fed diets containing different parts of Andrographis paniculata
+
+	Dietary treatment		 	Parameter	Control	APL	APW	P value	 	pH	6.10 ± 0.01	6.25+ ± 0.01	6.25+ ± 0.01	0.02	 	Ammonia (mg dL−1)	22.05 ± 0.01	19.25+ ± 0.42	19.10+ ± 0.05	0.02	 	Total VFA (mM)	63.09 ± 2.44	59.72 ± 1.49	57.99 ± 4.14	0.39	 	Acetate (mM)	48.84 ± 1.89	38.00+ ± 1.10	35.02+ ± 1.33	0.01	 	Propionate (mM)	11.46 ± 0.03	18.44+ ± 0.08	20.00+ ± 0.06	0.03	 	Butyrate (mM)	1.68 ± 0.01	1.48 ± 0.01	1.33 ± 0.01	0.09	 	Acetate/Propionate	4.26 ± 0.02	2.06+ ± 0.01	1.75+ ± 0.01	0.01	 	
+
+Control basal diet, APL basal diet +1.5% (w/w) Andrographis paniculata leaf powder, APW basal diet +1.5% (w/w) whole plant of Andrographis paniculata powder
+
++Differ from the control (P < 0.05)
+The rumen fermentation parameters in goats fed different parts of AP are presented in Table 5. The rumen pH was lower (P < 0.05) in the control goats than the APL and APW goats. The concentration of ammonia nitrogen and the acetate/propionate ratio in the control goats were greater (P < 0.05) than that of the APL and APW goats. The control goats had greater (P < 0.05) concentration of acetate and lower (P < 0.05) concentration of propionate than the APL and APW goats. Dietary AP did not affect (P > 0.05) the concentration of total VFA and butyrate in the rumen of goats. 
+Fatty acid composition of rumen liquor
+Fatty acid composition (Least square means ± standard error of mean) of rumen liquor in goats fed different parts of Andrographis paniculata
+
+Fatty acid (% of total FA)	Dietary treatments		 	Control	APL	APW	P value	 	C10:0	0.06 ± 0.01	0.06 ± 0.02	0.02+ ± 0.01	0.02	 	C12:0	8.55 ± 0.27	6.77+ ± 0.29	4.63+ ± 0.34	0.01	 	C14:0	8.86 ± 0.12	8.72 ± 0.17	6.15+ ± 0.16	0.01	 	C14:1	0.70 ± 0.01	0.78+ ± 0.03	0.70 ± 0.02	0.02	 	C15:0	0.61 ± 0.02	0.56 ± 0.02	0.62 ± 0.06	0.78	 	C15:1	0.27 ± 0.01	0.21 ± 0.04	0.09+ ± 0.02	0.01	 	C16:0	20.39 ± 0.18	20.41 ± 0.49	18.64 ± 1.09	0.33	 	C16:1	0.51 ± 0.08	0.76+ ± 0.10	0.83+ ± 0.08	0.04	 	C17:0	0.44 ± 0.01	0.41 ± 0.04	0.49 ± 0.13	0.11	 	C18:0	36.64 ± 0.55	32.73+ ± 0.57	27.01+ ± 1.34	0.01	 	C18:1n-9	3.53 ± 0.25	4.68 ± 0.89	6.61 ± 2.08	0.21	 	C18:1trans11	2.75 ± 0.12	3.26+ ± 0.37	2.65 ± 0.39	0.02	 	CLA cis-9 trans-11	0.45 ± 0.01	0.72+ ± 0.01	0.51 ± 0.05	0.01	 	C18:2n-6	1.39 ± 0.17	3.43+ ± 0.32	5.26+ 0.56	0.03	 	C18:3n-3	0.18 ± 0.01	0.51+ ± 0.04	0.81+ ± 0.43	0.01	 	∑SFA	78.56 ± 0.49	74.66 + 0.76	67.55+ 1.88	0.03	 	∑UFA	21.44 ± 0.49	25.34 ± 0.76	32.45+ ± 1.23	0.04	 	n6:n3	7.72 ± 0.45	7.31 ± 0.22	6.49+ ± 0.48	0.02	 	
+
+Control basal diet, APL basal diet +1.5% (w/w) Andrographis paniculata leaf powder, APW basal diet +1.5% (w/w) whole plant of Andrographis paniculata powder. ΣSFA = (C10:0 + C12:0 + C14:0 + C15:0 + C16:0 + C17:0 + C18:0), ΣUFA = (C14:1 + C16:1+ C18:1 + C18:2n-6 + C18:3n-3), n-6:n-3 = (C18:2n-6÷C18:3n-3)
+
++Differ from control (P < 0.05)
+The fatty acid composition of rumen liquor in goats fed different parts of Andrographis paniculata is presented in Table 6. The percentages of C10:0, C14:0 and C15:1 in the rumen liquor of the control goats did not differ (P > 0.05) from that of the APL goats. The APW goats had lower (P < 0.05) percentages of C10:0, C14:0 and C15:1 than the control goats. Dietary supplementation of AP had no significant effect on the percentages of C15:0, C16:0, C17:0 and C18:1n-9 in the rumen of goats. The control goats had greater (P < 0.05) percentage of C18:0 than the APL and APW goats. The percentages of C18:1trans11 and CLA cis-9 trans-11 in goats fed APL diet were greater (P < 0.05) than those fed the control and APW diets. The control and APW goats had similar percentages of C18:1trans11 and CLA cis-9 trans-11. The APL and APW goats had greater (P < 0.05) percentages of C18:2n-6 and C18:3n-3 than the control goats. Ruminal total unsaturated fatty acids was greater (P < 0.05) while the total saturated fatty acids and n6:n3 ratio were lower (P < 0.05) in the APW goats than the control and APL goats. 
+Rumen microbial populations
+Rumen microbial profile (Least square means ± standard error of mean) in goats fed diets containing different parts of Andrographis paniculata
+
+Parameters	Log10 cell mL−1		 	Dietary treatments		 	Control	APL	APW	P value	 	Total bacteria	10.57 ± 0.20	10.83 ± 0.22	10.97 ± 0.21	0.45	 	Total methanogens	5.50 ± 0.66	5.01 ± 0.81	4.36 ± 0.66	0.23	 	Ruminococcus albus	6.81 ± 0.45	8.08+ ± 0.53	8.38+ ± 0.47	0.03	 	Ruminococcus flavefaciens	5.46 ± 0.21	5.98+ ± 0.23	6.55+ ± 0.22	0.04	 	Fibrobacter succinogenes	3.88 ± 0.25	4.50+ ± 0.28	4.71+ ± 0.23	0.04	 	Total protozoa	5.82 ± 0.52	5.49 ± 0.61	5.31 ± 0.55	0.12	 	
+
+Control basal diet, APL basal diet +1.5% (w/w) Andrographis paniculata leaf powder, APW basal diet +1.5% (w/w) whole plant of Andrographis paniculata powder
+
++Differ from the control (P < 0.05)
+The response of rumen microbial populations to dietary supplementation of AP is presented in Table 7. Dietary AP had no significant effect on the populations of protozoa, methanogens and total bacteria in the rumen of goats. The populations of Ruminococcus albus, Ruminococcus flavefaciens and Fibrobacter succinogenes were greater (P < 0.05) in the APW and APL goats than the control goats.

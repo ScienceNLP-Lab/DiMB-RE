@@ -1,0 +1,61 @@
+Baseline characteristics
+Participant recruitment flow
+Baseline characteristics of participantsa
+
+	Men	Women	Total	 	n	11	19	30	 	Age, y	29.3 ± 7.0	27.6 ± 6.2	28.2 ± 6.4	 	BMI, kg/m2	23.9 ± 2.2	24.4 ± 2.8	24.2 ± 2.6	 	Waist circumference, cm	85.3 ± 7.5	85.0 ± 7.8	85.1 ± 7.6	 	Systolic blood pressure, mm Hg*	114.6 ± 7.1	102.4 ± 9.0	107 ± 10	 	Diastolic blood pressure, mm Hg	75.5 ± 7.2	71.9 ± 6.3	73 ± 7	 	TC, mg/dL	160.3 ± 29.9	168.5 ± 28.4	166 ± 29	 	HDL-C, mg/dL*	47.8 ± 7.1	60.6 ± 11.4	56 ± 12	 	LDL-C, mg/dL	92.9 ± 27.1	91.4 ± 25.2	92 ± 25	 	TC/HDL-C ratio	3.4 ± 0.9	2.9 ± 0.7	3.1 ± 0.8	 	TG/HDL-C ratioc	2.1 ± 0.9	1.4 ± 0.5	1.7 ± 0.7	 	TGs, mg/dL	97.6 ± 33.7	82.7 ± 27.8	88 ± 30	 	Glucose, mg/dLb	85.5 (82.0–90.0)	87.3 (84.0–91.0)	87.0 ± 7.4	 	Insulin, mU/Lb	3.5 (1.0–6.5)	4.5 (2.5–7.0)	4.3 (2.0–7.0)	 	HOMA-IR	0.9 ± 0.7	1.3 ± 1.1	1.1 ± 1.0	 	CRP, mg/Lb	0.5 (0.3–1.4)	0.8 (0.3–1.8)	0.7 (0.3–2.0)	 	Physical activity (METs) b	1.7 (1.6–1.8)	1.8 (1.6–1.9)	1.7 (1.6–1.9)	 	
+
+aValues are means ± SDs; TC, total cholesterol; HDL-C, high-density lipoprotein cholesterol; LDL-C, low-density lipoprotein cholesterol; TGs, triglycerides; HOMA-IR, homeostatic model assessment-estimated insulin resistance; hs-CRP, high-sensitivity C-reactive protein; MET, metabolic equivalent of task
+
+bMedian; interquartile range in parentheses; *Significant difference between men and women (P < 0.05)
+The study design and flow of participants were reported previously. Of thirty-six participants, six participants dropped out at baseline. Data for thirty participants were analyzed (Fig. 1). Anthropometric measurements, blood pressure, metabolic parameters, physical activity index (METs) at the baseline visit are shown in Table 1. The participants (19 women and 11 men) were on average 28.2 ± 6.4 y of age with a mean BMI of 24.2 ± 2.6 kg/m2. BMI, waist circumference, blood pressure and biochemical markers were within normal ranges for both men and women.  
+Nutrient composition of treatments
+Nutrient composition of the yogurt smoothiesa (YS, PRE, and POST) and the BB-12® containing capsule (CAP)
+	YS	PRE/POST	CAP	 	Calories, kcals	220	220	<2	 	Total Fat, g	2.5	2.5	-	 	 Saturated fat, g	1.5	1.5	-	 	Cholesterol, mg	10	10	-	 	Sodium, mg	90	90	-	 	Total Carbohydrate, g	45	45	-	 	 Dietary Fiber, g	1	1	-	 	 Sugar, g	31	31	-	 	Protein, g	7	7	-	 	BB-12® (CFUs)	-	3.16 × 109	3.16 × 109	 	
+
+aPer 8 oz. of serving
+Nutrient composition of the yogurt smoothie and BB-12® containing capsule is presented in Table 2. The yogurt smoothie contained milk fat, milk solids non-fat, strawberry puree, pectin, corn syrup solids, sugar, and water. Participants consumed 8 oz. of yogurt smoothie/day that provided 220 kcals. The yogurt smoothie contained 2.5 g of fat (1.5 g of saturated fat), 10 mg of cholesterol, 90 mg of sodium, 45 g of carbohydrate (1 g of fiber and 31 g of sugar), and 7 g of protein. The nutrient composition of YS, PRE, and POST was identical except for the amount of BB-12®. The YS did not contain BB-12® while the PRE and POST yogurt smoothies contained 3.16 × 109 CFUs of BB-12®. The CAP contained 3.16 × 109 CFUs of BB-12® that provided < 2 kcals from the gelatin capsule. 
+Dietary intake
+Dietary intake of participants at baseline and after 4 weeks of the YS, PRE, POST, or CAPSULE treatment perioda,b
+
+	BL(n = 30)	YS(n = 25)	PRE(n = 25)	POST(n = 26)	CAP(n = 26)	P Value*	 	Total calories, kcal/d	2472 ± 152	2224 ± 164	2338 ± 161	2092 ± 165	2321 ± 162	0.43	 	Carbohydrate, g/d	305 ± 21	287 ± 23	291 ± 22	270 ± 23	305 ± 21	0.79	 	Carbohydrate, % of energy	49.3 ± 1.5	50.5 ± 1.6	50.9 ± 1.6	51.8 ± 1.6	50.6 ± 1.6	0.75	 	Protein, g/d	97.3 ± 6.7	94.6 ± 7.3	95.8 ± 7.2	84.4 ± 7.3	93.3 ± 7.2	0.67	 	Protein, % of energy	15.8 ± 0.6	17.0 ± 0.7	16.7 ± 0.7	16.2 ± 0.7	16.0 ± 0.7	0.44	 	Fat, g/d	96.9 ± 6.1	79.2 ± 6.7	87.0 ± 6.5	75.9 ± 6.7	90.0 ± 6.6	0.09	 	Fat, % of energy	35.2 ± 1.2	32.9 ± 1.3	33.2 ± 1.3	32.5 ± 1.3	34.4 ± 1.3	0.33	 	Fiber, g/d	21.3 ± 1.7	21.9 ± 1.8	21.4 ± 1.8	21.0 ± 1.8	24.4 ± 1.8	0.39	 	Cholesterol, mg/d	310 ± 25	288 ± 27	276 ± 27	283 ± 27.4	262 ± 27	0.71	 	
+
+aValues are means ± SDs; BL, baseline; YS, yogurt smoothie with no BB-12®; PRE, yogurt smoothie with BB-12® added pre-fermentation; POST, yogurt smoothie with BB-12® post-fermentation
+
+bStatistical analyses were calculated using sex, treatment as between subject factor and randomization ID as the within-subject factor and age and BMI as covariates
+*P values are for the main effect of treatment
+Energy intake did not differ by treatment period although 8 oz. of yogurt smoothie (220 kcal/day) was added to their usual diet during YS, PRE and POST periods (Table 3). Consistently, there were no differences between the intervention periods with regard to intake of carbohydrate, protein, fat, fiber, and cholesterol. Compared with baseline, total calories carbohydrate, protein, fat, fiber and cholesterol intakes did not increase during any treatment period. 
+Anthropometrics and blood pressure
+There were no significant differences in anthropometric variables and blood pressure between intervention periods. Compared with baseline, there were no significant changes in anthropometric variables and blood pressure after all of the treatment periods (Data not shown).
+Correlations between metabolic parameters and short chain fatty acids at all time pointsa
+
+	TC	HDL	LDL	N-HDL	TG	TC:HDL	TG:HDL	Glucose	Insulin	HOMA	CRP	Age	BMI	WC	 	Total SCFAs	-0.22*	-0.001	-0.24*	-0.24*	-0.09	-0.13	-0.05	0.12	0.16	0.16	-0.12	-0.33**	-0.16	-0.25**	 	Acetate	-0.18*	0.04	-0.24**	-0.22*	-0.03	-0.12	-0.004	0.13	0.18*	0.19*	-0.14	-0.24**	-0.16	-0.23**	 	Butyrate	-0.27**	0.01	-0.30**	-0.29**	-0.12	-0.17*	-0.07	0.05	0.08	0.08	-0.08	-0.31**	-0.18**	-0.25**	 	Propionate	-0.25**	-0.08	-0.22**	-0.22*	-0.08	-0.12	-0.04	0.17*	0.20*	0.21*	0.05	-0.39**	0.07	-0.10	 	
+
+aPearson coefficients were used for total SCFAs, acetate, butyrate; spearman coefficients were used for propionate, glucose, insulin, HOMA-IR, and hs-CRP; TC, total cholesterol; HDL-C, high-density lipoprotein cholesterol; LDL-C, low-density lipoprotein cholesterol; N-HDL, non-high-density lipoprotein cholesterol; TGs, triglycerides; HOMA-IR, homeostatic model assessment-estimated insulin resistance; CRP, C-reactive protein; BMI, body mass index; WC, waist circumference. *
+P < 0.05, **
+P < 0.01
+Associations between SCFAs and metabolic parameters are shown in Table 4. A negative correlation was shown between BMI and butyrate excretion (r p = -0.18, p = 0.04). In addition, there was a negative correlation between waist circumference and the total SCFAs (r p = -0.25, p = 0.003), acetate (r p = -0.23, p = 0.006), and butyrate (r p = -0.25, p = 0.003) excretion. Age was negatively correlated with the fecal excretion of total SCFAs (r p = -0.33, p < 0.001), acetate (r p = -0.24, p = 0.005) butyrate (r p = -0.31, p < 0.001), and propionate (r s = -0.39, p < 0.001) 
+Serum parameters
+Serum parameters of participants at baseline and after 4 weeks of the YS, PRE, POST, or CAPSULE treatment perioda,b
+
+	BL(n = 30)	YS(n = 25)	PRE(n = 25)	POST(n = 26)	CAP(n = 26)	P Value*	 	TC, mg/dL	165 ± 6	167 ± 6	159 ± 6	162 ± 6	162 ± 6	0.45	 	HDL-C, mg/dL	54.2 ± 2.0	55.9 ± 2.0	55.7 ± 2.0	54.7 ± 2.0	54.2 ± 2.0	0.48	 	LDL-C, mg/dL	92.3 ± 5.1	93.5 ± 5.1	93.1 ± 5.2	91.9 ± 5.2	90.3 ± 5.2	0.71	 	Non-HDL-C, mg/dL	110 ± 6	111 ± 6	111 ± 6	110 ± 6	108 ± 6	0.80	 	TGs, mg/dL	90.4 ± 6.3	88.9 ± 6.4	86.8 ± 6.4	89.9 ± 6.4	88.8 ± 6.4	0.95	 	TC/HDL-C ratio	3.15 ± 0.14	3.10 ± 0.15	3.13 ± 0.15	3.16 ± 0.15	3.12 ± 0.15	0.83	 	TG/HDL-C ratio	1.77 ± 0.14	1.68 ± 0.14	1.69 ± 0.14	1.76 ± 0.14	1.75 ± 0.14	0.85	 	Insulin, mU/Lc	5.06 ± 0.88	4.57 ± 0.89	5.50 ± 0.90	5.39 ± 0.90	4.69 ± 0.90	0.99	 	Glucose, mg/dLc	86.9 ± 1.3	87.9 ± 1.3	88.2 ± 1.3	87.1 ± 1.3	87.7 ± 1.3	0.74	 	HOMA-IR	1.11 ± 0.20	1.00 ± 0.20	1.15 ± 0.21	1.19 ± 0.21	1.02 ± 0.21	0.63	 	CRP, mg/Lc	2.07 ± 1.01	1.77 ± 1.05	1.29 ± 1.07	2.17 ± 1.07	3.77 ± 1.07	0.99	 	
+
+aValues are means ± SEMs; BL, baseline; YS, yogurt smoothie with no BB-12®; PRE, yogurt smoothie with BB-12® added pre-fermentation; POST, yogurt smoothie with BB-12® post-fermentation; TC, total cholesterol; HDL-C, high-density lipoprotein cholesterol; LDL-C, low-density lipoprotein cholesterol; TGs, triglycerides; HOMA-IR, homeostatic model assessment-estimated insulin resistance; hs-CRP, high-sensitivity C-reactive protein
+
+bStatistical analyses were calculated using sex, treatment as between subject factor and randomization ID as the within-subject factor and age, BMI as covariates
+
+cStatistical analyses were assessed by Kruskal-Wallis test
+*P values are for the main effect of treatment
+Compared with baseline, in response to the treatments, there were no significant changes in TC, HDL-C, non-HDL-C, TGs, TC: HDL-C, insulin, glucose, HOMA-IR, and CRP. In addition, the serum parameters did not differ by the treatment period (Table 5). 
+Serum TC, LDL-C, and non-HDL-C were negatively correlated with all of the fecal markers (p < 0.05 for all cases; Table 4).
+Fecal short chain fatty acids
+Fecal SCFAs of participants at baseline and after 4 weeks of the YS, PRE, POST, or CAPSULE treatment perioda,b
+
+Variables	BL(n = 30)	YS(n = 25)	PRE(n = 25)	POST(n = 26)	CAP(n = 26)	P-value*	 	Total SCFAs, μg/g	2533 ± 208	2818 ± 219	2823 ± 216	2517 ± 220	2654 ± 219	0.66	 	Acetate, μg/g	701 ± 68	914 ± 71**	900 ± 70**	773 ± 71	780 ± 71	0.05	 	Propionate, μg/g	527 ± 47	633 ± 50	602 ± 49	529 ± 50	560 ± 50	0.32	 	Butyrate, μg/g	798 ± 86	889 ± 91	921 ± 90	755 ± 91	865 ± 91	0.55	 	
+
+aValues are means ± SEMs; BL, baseline; YS, yogurt smoothie with no BB-12®; PRE, yogurt smoothie with BB-12® added pre-fermentation; POST, yogurt smoothie with BB-12® post-fermentation; SCFAs, short chain fatty acids
+
+bStatistical analyses were calculated using sex, treatment as between subject factor and randomization ID as the within-subject factor and age, BMI, fiber intake as covariates
+*P values are for the main effect of treatment
+** Values are significantly difference from baseline (P < 0.01)
+Change (%) in the excretion of fecal acetate after 4 weeks of the YS, PRE, POST, or CAPSULE treatment period. Bars are means of the percentage change. Different letters indicate significantly different values based on the mean of the square root transformed data. YS, yogurt smoothie with no BB-12®; PRE, yogurt smoothie with BB-12® added pre-fermentation; POST, yogurt smoothie with BB-12® post-fermentation; SCFAs, short chain fatty acids
+Compared to baseline, fecal excretion of total SCFAs, propionate and butyrate remained unchanged after all treatment periods, whereas acetate excretion was significantly increased after the YS (Δ = 211.89 ± 75.87 μg/g, p = 0.007; Table 6) and PRE (Δ = 204.98 ± 75.70 μg/g, p = 0.009) periods. Percentage change was used to measure the magnitude of change between groups; there was a greater increase in acetate excretion after the YS period compared with the POST period. (52.2 ± 13.2% vs. 24.5 ± 13.2%, P adj = 0.023; Fig. 2). However, there was no significant percentage change in the excretion of total SCFAs, propionate and butyrate between the treatment periods (Data not shown).

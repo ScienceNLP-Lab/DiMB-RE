@@ -1,0 +1,294 @@
+T1	Food 42 51	Navy Bean
+T2	Food 29 38	Rice Bran
+T3	AFFECTS 52 58	Alters
+T4	Physiology 59 83	Gut Bacterial Metabolism
+T5	Population 87 114	Colorectal Cancer Survivors
+T6	Food 14220 14223	SRB
+T7	Food 14227 14230	NBP
+T8	DiversityMetric 14263 14271	richness
+T9	AFFECTS 14188 14195	effects
+T10	Microorganism 14234 14261	stool bacterial communities
+T11	DiversityMetric 14305 14314	diversity
+T12	DiversityMetric 14384 14408	Stool bacterial richness
+T13	DiversityMetric 14413 14422	diversity
+T14	Methodology 14445 14449	Sobs
+T15	Methodology 14480 14485	Chao1
+T16	Methodology 14491 14516	Simpson diversity indices
+T17	Methodology 14522 14545	Chao1 richness estimate
+T18	Microorganism 15077 15092	stool community
+T19	Food 14669 14672	SRB
+T20	DiversityMetric 14690 14698	richness
+T21	DiversityMetric 14703 14712	diversity
+T22	INCREASES 14759 14779	significantly higher
+T23	Methodology 14850 14860	Chao index
+T24	INCREASES 14871 14880	increased
+T25	Food 14911 14914	NBP
+T26	DiversityMetric 14820 14828	richness
+T27	DiversityMetric 14955 14963	richness
+T28	DiversityMetric 14967 14976	diversity
+T29	Methodology 15104 15133	principal coordinate analysis
+T30	Methodology 15135 15139	PCoA
+T31	Methodology 14451 14477	number of species observed
+T32	Methodology 15206 15217	AMOVA tests
+T33	Food 15515 15518	SRB
+T34	Food 15501 15504	SRB
+T35	AFFECTS 15476 15495	significant changes
+T36	Microorganism 15424 15451	Stool microbial composition
+T37	INCREASES 15535 15544	increased
+T38	Microorganism 15558 15571	Bacteroidetes
+T39	DECREASES 15576 15585	decreased
+T40	Microorganism 15603 15613	Firmicutes
+T41	DECREASES 15643 15648	lower
+T42	DiversityMetric 15649 15679	Firmicutes:Bacteroidetes ratio
+T43	DiversityMetric 15775 15799	Firmicutes:Bacteroidetes
+T44	Food 15829 15832	SRB
+T45	Food 16004 16007	NBP
+T46	AFFECTS 15918 15928	No changes
+T47	Microorganism 15932 15953	microbial composition
+T48	AFFECTS 15859 15884	no significant difference
+T49	Methodology 16167 16176	metastats
+T50	Food 16258 16261	NBP
+T51	Microorganism 16389 16409	Bacteroides fragilis
+T52	DECREASES 16410 16419	decreased
+T53	Microorganism 16440 16455	Lachnobacterium
+T54	Food 16500 16503	NBP
+T55	INCREASES 16456 16465	increased
+T56	Microorganism 16569 16589	Bacteroides fragilis
+T57	Microorganism 16631 16642	Clostridium
+T58	Microorganism 16647 16659	Anaerostipes
+T59	Food 16695 16698	NBP
+T60	DECREASES 16538 16547	reduction
+T61	DECREASES 16669 16674	lower
+T62	Food 16767 16770	NBP
+T63	INCREASES 16726 16735	increased
+T64	Microorganism 16797 16808	Lachnospira
+T65	Microorganism 16813 16824	Coprococcus
+T66	Food 16833 16836	NBP
+T67	Food 16957 16960	SRB
+T68	Microorganism 16989 17001	Ruminococcus
+T69	Microorganism 17019 17033	Ethanoligenens
+T70	DECREASES 17039 17048	decreased
+T71	Food 17092 17095	SRB
+T72	Microorganism 17145 17156	Coprococcus
+T73	Microorganism 17161 17179	Bacteroides ovatus
+T74	INCREASES 17185 17194	increased
+T75	Microorganism 17225 17243	Bacteroides ovatus
+T76	INCREASES 17270 17278	increase
+T77	Food 17638 17641	SRB
+T78	Microorganism 17789 17804	Lachnobacterium
+T79	INCREASES 17715 17723	increase
+T80	Biospecimen 17902 17907	stool
+T81	Methodology 17938 17945	PICRUSt
+T82	Methodology 18063 18082	16S rRNA sequencing
+T83	Methodology 18171 18210	Kyoto Encyclopedia of Genes and Genomes
+T84	Methodology 18212 18216	KEGG
+T85	Methodology 18358 18362	KEGG
+T86	Methodology 18425 18430	STAMP
+T87	Food 18935 18938	SRB
+T88	Food 18943 18946	NBP
+T89	Population 18943 18953	NBP groups
+T90	Population 18935 18938;18947 18953	SRB groups
+T91	INCREASES 19012 19020	enriched
+T92	Food 19036 19039	SRB
+T93	DECREASES 19339 19348	decreasec
+T94	Physiology 19110 19149	Biosynthesis of unsaturated fatty acids
+T95	Physiology 19153 19181	Phenylpropanoid biosynthesis
+T96	Physiology 19185 19209	Other glycan degradation
+T97	Physiology 19213 19242	Starch and sucrose metabolism
+T98	Physiology 19246 19271	Streptomycin biosynthesis
+T99	Physiology 19279 19302	Sphingolipid metabolism
+T100	Methodology 19349 19353	KEGG
+T101	Physiology 19383 19422	Biosynthesis of unsaturated fatty acids
+T102	Food 19466 19469	SRB
+T103	Methodology 19513 19517	KEGG
+T104	Biospecimen 19684 19689	stool
+T105	Food 19567 19570	SRB
+T106	Food 19614 19617	NBP
+T107	Food 19702 19705	SRB
+T108	Food 19710 19713	NBP
+T109	HAS_COMPONENT 19719 19726	contain
+T110	Nutrient 19727 19759	highly fermentable carbohydrates
+T111	Metabolite 19832 19837	SCFAs
+T112	Metabolite 19852 19859	acetate
+T113	Metabolite 19861 19871	propionate
+T114	Metabolite 19876 19884	butyrate
+T115	Physiology 19919 19948	Starch and sucrose metabolism
+T116	INCREASES 19955 19963	enriched
+T117	Food 19980 19983	SRB
+T118	Metabolite 19985 19990	SCFAs
+T119	Biospecimen 20038 20043	stool
+T120	Food 20085 20088	SRB
+T121	Food 20093 20096	NBP
+T122	Metabolite 20146 20151	SCFAs
+T123	AFFECTS 20114 20136	No significant changes
+T124	Food 20192 20195	NBP
+T125	Food 20380 20383	SRB
+T126	AFFECTS 20385 20407	no significant changes
+T127	Biospecimen 20411 20416	stool
+T128	Metabolite 20417 20429	butyric acid
+T129	Metabolite 20476 20482;20497 20502	acetic acids
+T130	Metabolite 20487 20502	propionic acids
+T131	INCREASES 20522 20531	increased
+T132	Food 20537 20540	SRB
+T133	Metabolite 20639 20645;20660 20665	Acetic acids
+T134	Metabolite 20650 20665	propionic acids
+T135	Physiology 20684 20689;20710 20722	sugar fermentation
+T136	Physiology 20691 20697;20710 20722	starch fermentation
+T137	Physiology 20703 20722	glycan fermentation
+T139	Food 20831 20834	SRB
+T140	Biospecimen 20836 20841	Stool
+T141	Metabolite 20842 20852;20868 20873	isobutyric acids
+T142	Metabolite 20857 20873	isovaleric acids
+T143	INCREASES 20904 20913	increases
+T144	Food 20935 20938	SRB
+T145	INTERACTS_WITH 19772 19783	metabolized
+T146	Microorganism 19787 19799	gut bacteria
+T147	INCREASES 20670 20680	byproducts
+T148	Metabolite 20986 20990	BCFA
+T149	Metabolite 21136 21146	bile acids
+T150	Food 21168 21171	SRB
+T151	Metabolite 21194 21210	deoxycholic acid
+T152	Metabolite 21212 21228	lithocholic acid
+T153	Metabolite 21230 21250	ursodeoxycholic acid
+T154	Metabolite 21252 21263	cholic acid
+T155	Metabolite 21269 21290	chenodeoxycholic acid
+T156	Food 21337 21340	SRB
+T157	Biospecimen 21342 21347	Stool
+T158	Food 21418 21421	SRB
+T159	Metabolite 21440 21458	primary bile acids
+T160	Metabolite 21459 21470	cholic acid
+T161	Metabolite 21475 21491	chenodeoxycholic
+T162	DECREASES 21501 21509	downward
+T163	Metabolite 21569 21581	benzoic acid
+T164	Metabolite 21546 21557	polyphenols
+T165	Metabolite 21583 21611	3,4-dihydrophenylacetic acid
+T166	Metabolite 21613 21630	phenylacetic acid
+T167	Metabolite 21632 21654	3-phenylpropionic acid
+T168	Metabolite 21656 21682	3-hydroxyphenylacetic acid
+T169	Metabolite 21688 21720	4-hydroxy-3-methoxycinnamic acid
+T170	Metabolite 21762 21772	polyphenol
+T171	Biospecimen 21811 21816	stool
+T172	Food 122 147	Heat-stabilized rice bran
+T173	Food 152 175	cooked navy bean powder
+T174	HAS_COMPONENT 176 183	contain
+T175	Nutrient 197 211	phytochemicals
+T176	AFFECTS 257 270	may influence
+T177	Physiology 271 288	intestinal health
+T178	Physiology 221 252	fermented by colonic microbiota
+T179	ASSOCIATED_WITH 212 220	that are
+T180	Disease 673 690	colorectal cancer
+T181	Microorganism 15239 15256	stool communities
+T182	Disease 363 380	colorectal cancer
+T183	Methodology 409 451	randomized-controlled pilot clinical trial
+T184	Food 487 512	heat-stabilized rice bran
+T185	Food 526 549	cooked navy bean powder
+T186	Population 621 690	overweight/obese volunteers with a prior history of colorectal cancer
+T187	Food 772 781	rice bran
+T188	Food 785 796	bean powder
+T189	INCREASES 804 813	increased
+T190	Disease 621 631	overweight
+T191	Disease 632 637	obese
+T192	DiversityMetric 814 837	gut bacterial diversity
+T193	Food 930 939	rice bran
+T194	Food 943 954	bean powder
+T195	INCREASES 955 964	increased
+T196	Nutrient 965 984	total dietary fiber
+T197	Food 1012 1021	rice bran
+T198	DECREASES 1038 1047	decreased
+T199	DiversityMetric 1048 1078	Firmicutes:Bacteroidetes ratio
+T200	INCREASES 1083 1092	increased
+T201	Metabolite 1093 1116	short chain fatty acids
+T202	Metabolite 1118 1128	propionate
+T203	Metabolite 1133 1140	acetate
+T204	Biospecimen 1145 1150	stool
+T205	Food 1280 1305	heat-stabilized rice bran
+T206	Physiology 1432 1452	microbial metabolism
+T207	Nutrient 1370 1375	fiber
+T208	Disease 87 104	Colorectal Cancer
+T209	PREVENTS 352 362	modulating
+T210	Microorganism 15334 15349	stool community
+T211	INCREASES 20670 20680	byproducts
+T212	INCREASES 20670 20680	byproducts
+T213	INCREASES 20670 20680	byproducts
+T214	INCREASES 20670 20680	byproducts
+E1	AFFECTS:T3 Theme:T4 Agent:T2
+E2	AFFECTS:T3 Theme:T4 Agent:T1
+E3	AFFECTS:T9 Theme:T11 Agent:T6
+E4	AFFECTS:T9 Theme:T11 Agent:T7
+E5	INCREASES:T22 Agent:T19 Theme:T20
+E6	INCREASES:T22 Agent:T19 Theme:T21
+E7	INCREASES:T24 Agent:T25 Theme:T26
+E8	INCREASES:T37 Agent:T33 Theme:T38
+E9	AFFECTS:T35 Agent:T34 Theme:T36
+E10	DECREASES:T39 Agent:T33 Theme:T40
+E11	DECREASES:T41 Agent:T33 Theme:T42
+E12	AFFECTS:T46 Agent:T45 Theme:T47
+E13	AFFECTS:T48 Agent:T44 Theme:T43
+E14	DECREASES:T52 Theme:T51 Agent:T54
+E15	INCREASES:T55 Theme:T53 Agent:T54
+E16	DECREASES:T60 Theme:T56 Agent:T59
+E17	DECREASES:T61 Agent:T59 Theme:T57
+E18	DECREASES:T61 Agent:T59 Theme:T58
+E19	INCREASES:T63 Agent:T62 Theme:T64
+E20	INCREASES:T63 Agent:T62 Theme:T65
+E21	DECREASES:T70 Agent:T67 Theme:T68
+E22	DECREASES:T70 Agent:T67 Theme:T69
+E23	INCREASES:T74 Agent:T71 Theme:T73
+E24	INCREASES:T74 Agent:T71 Theme:T72
+E25	INCREASES:T76 Theme:T75 Agent:T71
+E26	INCREASES:T79 Agent:T77 Theme:T78
+E27	INCREASES:T91 Agent:T92 Theme:T94
+E28	INCREASES:T91 Agent:T92 Theme:T95
+E29	INCREASES:T91 Agent:T92 Theme:T96
+E30	INCREASES:T91 Agent:T92 Theme:T97
+E31	INCREASES:T91 Agent:T92 Theme:T98
+E32	INCREASES:T91 Agent:T92 Theme:T99
+E33	DECREASES:T93 Theme:T101 Agent:T102
+E34	HAS_COMPONENT:T109 Theme:T110 Agent:T107
+E35	HAS_COMPONENT:T109 Theme:T110 Agent:T108
+E36	INCREASES:T116 Theme:T115 Agent:T117
+E37	AFFECTS:T123 Theme:T122 Agent:T124
+E38	AFFECTS:T126 Theme:T128 Agent:T125
+E39	INCREASES:T131 Agent:T132 Theme:T129
+E40	INCREASES:T131 Agent:T132 Theme:T130
+E41	INCREASES:T211 Theme:T133 Agent:T135
+E42	INCREASES:T143 Agent:T144 Theme:T141
+E43	INCREASES:T143 Agent:T144 Theme:T142
+E44	INTERACTS_WITH:T145 Theme:T110 Theme2:T146
+E45	DECREASES:T162 Agent:T158 Theme:T161
+E46	DECREASES:T162 Agent:T158 Theme:T160
+E47	INCREASES:T212 Theme:T133 Agent:T136
+E48	INCREASES:T147 Theme:T133 Agent:T137
+E49	INCREASES:T214 Theme:T134 Agent:T135
+E50	INCREASES:T147 Theme:T134 Agent:T136
+E51	INCREASES:T213 Theme:T134 Agent:T137
+E52	HAS_COMPONENT:T174 Theme:T175 Agent:T173
+E53	AFFECTS:T176 Theme:T177 Agent:T175
+E54	HAS_COMPONENT:T174 Theme:T175 Agent:T172
+E55	ASSOCIATED_WITH:T179 Theme:T175 Theme2:T178
+E56	PREVENTS:T209 Agent:T172 Theme:T182
+E57	PREVENTS:T209 Agent:T173 Theme:T182
+E58	INCREASES:T189 Theme:T192 Agent:T187
+E59	INCREASES:T189 Theme:T192 Agent:T188
+E60	INCREASES:T195 Theme:T196 Agent:T193
+E61	DECREASES:T198 Agent:T197 Theme:T199
+E62	AFFECTS:T9 Agent:T6 Theme:T10
+E63	INCREASES:T195 Theme:T196 Agent:T194
+E64	INCREASES:T200 Agent:T197 Theme:T202
+E65	INCREASES:T200 Agent:T197 Theme:T203
+E66	AFFECTS:T9 Theme:T8 Agent:T6
+E67	AFFECTS:T9 Theme:T8 Agent:T7
+E68	AFFECTS:T9 Theme:T10 Agent:T7
+A1	Factuality E3 Unknown
+A2	Factuality E4 Unknown
+A3	Factuality E13 Negated
+A4	Factuality E37 Negated
+A5	Factuality E38 Negated
+A6	Factuality E53 Possible
+A7	Factuality E56 Unknown
+A8	Factuality E57 Unknown
+A9	Factuality E12 Negated
+A10	Factuality E62 Unknown
+A11	Factuality E66 Unknown
+A12	Factuality E67 Unknown
+A13	Factuality E68 Unknown

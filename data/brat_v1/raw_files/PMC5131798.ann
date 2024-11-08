@@ -1,0 +1,576 @@
+T1	Nutrient 2 15	dietary fiber
+T2	Physiology 53 74	colonic mucus barrier
+T3	Nutrient 171 184	dietary fiber
+T4	Physiology 232 249	fiber deprivation
+T5	Nutrient 503 516	dietary fiber
+T6	Physiology 545 566	colonic mucus barrier
+T7	Physiology 673 697	dietary fiber deficiency
+T8	Physiology 811 832	colonic mucus barrier
+T9	Physiology 834 859	Dietary fiber deprivation
+T10	Nutrient 1239 1252	dietary fiber
+T11	POS_ASSOCIATED_WITH 919 927	promotes
+T12	Disease 1388 1395	colitis
+T13	IMPROVES 1362 1370	reducing
+T14	Physiology 1094 1124	intestinal barrier dysfunction
+T15	ASSOCIATED_WITH 471 494	functional interactions
+T16	Chemical 749 762	glycoproteins
+T17	Disease 958 972	lethal colitis
+T18	Population 310 333	gnotobiotic mouse model
+T19	PREVENTS 1259 1266	prevent
+T20	Physiology 1267 1306	erosion of the intestinal mucus barrier
+T21	WORSENS 796 803	erosion
+T22	Microorganism 998 1019	Citrobacter rodentium
+T23	Physiology 2 39	dietary fiber-deprived gut microbiota
+T24	Nutrient 6474 6494	fiber polysaccharide
+T25	Physiology 1339 1357	pathogen infection
+T26	WORSENS 40 48	degrades
+T27	WORSENS 79 87	enhances
+T28	Physiology 88 111	pathogen susceptibility
+T29	Physiology 11853 11882	colonic lumen and mucus layer
+T30	Physiology 936 953	epithelial access
+T31	PREVENTS 1330 1338	blunting
+T32	Methodology 6744 6757	16S rRNA gene
+T33	PREVENTS 594 601	defense
+T34	Microorganism 610 627	enteric pathogens
+T35	Nutrient 232 237	fiber
+T36	Nutrient 673 686	dietary fiber
+T37	Nutrient 834 847	Dietary fiber
+T38	Nutrient 877 882	fiber
+T39	Methodology 6762 6775	meta-genomics
+T40	Physiology 6991 7013	protective mucus layer
+T41	Physiology 7350 7373	carbohydrate metabolism
+T42	Nutrient 7455 7475;7484 7495	animal-derived mono- saccharides
+T43	AFFECTS 10756 10763	degrade
+T44	Chemical 7516 7531	mucin O-glycans
+T45	Physiology 7533 7537	MOGs
+T46	Nutrient 7632 7645	dietary fiber
+T47	Nutrient 7655 7678	mucosal polysaccharides
+T48	Microorganism 7909 7923	A. muciniphila
+T49	Microorganism 7928 7947	B. intestinihominis
+T50	Physiology 7969 7973	MOGs
+T51	Nutrient 7984 7998	polysaccharide
+T52	Microorganism 8030 8049	B. thetaiotaomicron
+T53	Microorganism 8054 8063	B. caccae
+T54	Nutrient 8099 8114	polysaccharides
+T55	Nutrient 8303 8315	carbohydrate
+T56	Methodology 8470 8472	SM
+T57	Population 8476 8489	germfree mice
+T58	DietPattern 8517 8548	fiber-rich (FR) laboratory diet
+T59	DietPattern 21969 21976	FF diet
+T60	Nutrient 8568 8581	dietary fiber
+T61	Food 8607 8613	grains
+T62	Food 8618 8624	plants
+T63	DietPattern 8680 8687	FR diet
+T64	Methodology 8973 8992	16S rRNA sequencing
+T65	Methodology 9008 9024	quantitative PCR
+T66	Methodology 9276 9312	gnotobiotic colonization experiments
+T67	Physiology 22924 22953	fiber-deprived gut microbiota
+T68	Physiology 9451 9467	fiber deficiency
+T69	INCREASES 9468 9476	promotes
+T70	Microorganism 9491 9515	mucus-degrading bacteria
+T71	DietPattern 23310 23317	FR diet
+T72	Physiology 9651 9667	fiber deficiency
+T73	HAS_COMPONENT 10123 10129	adding
+T74	Methodology 9809 9811	SM
+T75	DietPattern 9916 9926	Fiber-rich
+T76	DietPattern 9928 9930	FR
+T77	DietPattern 9933 9943	Fiber-free
+T78	DietPattern 9945 9947	FF
+T79	DietPattern 9952 9961	Prebiotic
+T80	DietPattern 9963 9966	Pre
+T81	DietPattern 9988 9995	FR diet
+T82	Nutrient 10050 10072	intact fiber particles
+T83	HAS_COMPONENT 10001 10010	contained
+T84	DietPattern 10078 10086	Pre diet
+T85	Nutrient 10143 10168	purified, soluble glycans
+T86	Nutrient 10304 10309	fiber
+T87	DietPattern 10375 10377	FR
+T88	DietPattern 10382 10384	FF
+T89	DietPattern 10388 10391	Pre
+T90	DietPattern 10396 10398	FF
+T91	Population 10496 10500	mice
+T92	DietPattern 10517 10524	FF diet
+T93	AFFECTS 10681 10698	highly responsive
+T94	Physiology 24394 24423	fiber-deprived gut microbiota
+T95	Microorganism 10624 10638	A. muciniphila
+T96	Microorganism 10640 10649	B. caccae
+T97	Microorganism 10651 10660	B. ovatus
+T98	Microorganism 10665 10675	E. rectale
+T99	Microorganism 10715 10729	A. muciniphila
+T100	Microorganism 10734 10743	B. caccae
+T101	Physiology 10764 10768	MOGs
+T102	Microorganism 10779 10788	B. ovatus
+T103	Microorganism 10793 10803	E. rectale
+T104	Physiology 10822 10826	MOGs
+T105	Nutrient 10866 10881	polysaccharides
+T106	Nutrient 10891 10904	dietary fiber
+T107	Physiology 12057 12068	mucus layer
+T108	Microorganism 10958 10972	A. muciniphila
+T109	Microorganism 10977 10986	B. caccae
+T110	INTERACTS_WITH 13311 13318	utilize
+T111	DietPattern 11081 11089	Pre diet
+T112	HAS_COMPONENT 11097 11105	contains
+T113	Nutrient 11106 11130	purified polysaccharides
+T114	DietPattern 11168 11175	FF diet
+T115	DietPattern 11230 11237	FF diet
+T116	Methodology 11264 11279	PCoA ordination
+T117	DietPattern 11285 11287	FF
+T118	INCREASES 11303 11312	increased
+T119	Microorganism 11313 11324	Bacteroides
+T120	DietPattern 11461 11463	FR
+T121	DietPattern 11468 11476	FF diets
+T122	Nutrient 11582 11595	dietary fiber
+T123	AFFECTS 16621 16632	degradation
+T124	Biospecimen 11649 11654	fecal
+T125	Biospecimen 10446 10451	Fecal
+T126	Nutrient 13337 13360	mucosal polysaccharides
+T127	Biospecimen 13362 13367	cecal
+T128	Enzyme 13621 13640	glycoside hydrolase
+T129	Methodology 11889 11918	laser capture microdissection
+T130	Enzyme 13642 13644	GH
+T131	Microorganism 12105 12120	R. intestinalis
+T132	Microorganism 12125 12144	B. intestinihominis
+T133	DietPattern 12184 12186	FR
+T134	DietPattern 12191 12199	FF diets
+T135	Microorganism 12339 12358	Desulfovibrio piger
+T136	INCREASES 12360 12369	increased
+T137	DietPattern 12373 12380	FF diet
+T138	Microorganism 12386 12414	Marvinbryantia formatexigens
+T139	DECREASES 12416 12425	decreased
+T140	DietPattern 12429 12436	FF diet
+T141	DietPattern 12502 12505	Pre
+T142	DietPattern 12510 12518	FF diets
+T143	DietPattern 12562 12564	FF
+T144	Nutrient 12613 12633	pure polysaccharides
+T145	HAS_COMPONENT 12634 12643	contained
+T146	DietPattern 12651 12659	Pre diet
+T147	Nutrient 12769 12793	purified polysaccharides
+T148	Enzyme 13646 13666	polysaccharide lyase
+T149	Enzyme 13668 13670	PL
+T150	Physiology 12921 12941	degradation of mucus
+T151	Enzyme 13676 13697	carbohydrate esterase
+T152	Nutrient 19252 19273	fiber polysaccharides
+T153	DietPattern 13018 13020	FF
+T154	DietPattern 13025 13028	Pre
+T155	Nutrient 13055 13074	complex plant fiber
+T156	HAS_COMPONENT 13040 13044	lack
+T157	Enzyme 13245 13272	carbohydrate active enzymes
+T158	Enzyme 13274 13281	CAZymes
+T159	Nutrient 13319 13332	dietary fiber
+T160	Physiology 19746 19775	fiber-deprived gut microbiota
+T161	Enzyme 13563 13570	CAZymes
+T162	Enzyme 14092 14110	M60-like proteases
+T163	Enzyme 14112 14121	pfam13402
+T164	DietPattern 14229 14231	FR
+T165	DietPattern 14232 14234	FF
+T166	DietPattern 14238 14241	Pre
+T167	DietPattern 14242 14244	FF
+T168	Microorganism 14408 14416	D. piger
+T169	Population 14470 14490	mice fed the FR diet
+T170	DietPattern 14483 14490	FR diet
+T171	Physiology 24444 24467	pathogen susceptibility
+T172	Nutrient 14545 14574	dietary fiber polysaccharides
+T173	Population 14611 14631	mice fed the FF diet
+T174	DietPattern 14624 14631	FF diet
+T175	Food 14687 14693	sugars
+T176	Chemical 14726 14741	mucin O-glycans
+T177	Methodology 14788 14807	vitro growth assays
+T178	Microorganism 14885 14894	B. ovatus
+T179	Microorganism 14899 14909	E. rectale
+T180	Enzyme 14936 14943	CAZymes
+T181	Nutrient 14957 14978	plant polysaccharides
+T182	Enzyme 15141 15159	M60-like proteases
+T183	Enzyme 15161 15170	pfam13402
+T184	DietPattern 15207 15209	FF
+T185	Microorganism 15314 15323	B. caccae
+T186	Microorganism 15392 15406	A. muciniphila
+T187	Microorganism 15503 15512	B. caccae
+T188	Enzyme 15546 15564	M60-like proteases
+T189	DietPattern 15770 15778	Pre diet
+T190	Population 15810 15822	FR-fed group
+T191	DietPattern 15810 15812	FR
+T192	DietPattern 15849 15851	FF
+T193	DietPattern 15992 15994	FR
+T194	DietPattern 15995 15997	FF
+T195	DietPattern 16035 16038	Pre
+T196	DietPattern 16039 16041	FF
+T197	Methodology 16065 16081	RNA-Seq analyses
+T198	DietPattern 16135 16137	FR
+T199	DietPattern 16138 16140	FF
+T200	DietPattern 16145 16148	Pre
+T201	DietPattern 16149 16151	FF
+T202	DietPattern 16195 16202	FF diet
+T203	DietPattern 16255 16257	FF
+T204	Methodology 16566 16573	in vivo
+T205	Population 16395 16399	mice
+T206	Physiology 16449 16465	fiber deficiency
+T207	Microorganism 16587 16596	B. caccae
+T208	Microorganism 16601 16615	A. muciniphila
+T209	Gene 17331 17356	O-glycan-responsive genes
+T210	Methodology 16677 16702	transcriptional profiling
+T211	Microorganism 17070 17079	B. caccae
+T212	Microorganism 16872 16891	B. thetaiotaomicron
+T213	Microorganism 17084 17098	A. muciniphila
+T214	Microorganism 17228 17247	B. thetaiotaomicron
+T215	Microorganism 17362 17371	B. caccae
+T216	Microorganism 17373 17387	A. muciniphila
+T217	Microorganism 17392 17411	B. thetaiotaomicron
+T218	DietPattern 17438 17440	FF
+T219	Population 17438 17449	FF-fed mice
+T220	Gene 17506 17515;17535 17560	B. caccae O-glycan-responsive genes
+T221	Gene 17520 17560	A. muciniphila O-glycan-responsive genes
+T222	DietPattern 17583 17585	FF
+T223	Microorganism 17607 17616	B. caccae
+T224	Microorganism 17738 17747	B. caccae
+T225	Microorganism 17774 17783	B. caccae
+T226	PREDISPOSES 24424 24432	promotes
+T227	Microorganism 17906 17920	A. muciniphila
+T228	DietPattern 18133 18140	FR diet
+T229	Microorganism 18186 18195	B. caccae
+T230	Microorganism 18254 18268	A. muciniphila
+T231	DietPattern 18353 18355	FF
+T232	DietPattern 18360 18368	FR diets
+T233	DietPattern 18424 18431	FF diet
+T234	Microorganism 18433 18442	B. caccae
+T235	Microorganism 18536 18550	A. muciniphila
+T236	Microorganism 18674 18693	B. thetaiotaomicron
+T237	INCREASES 17566 17575	increased
+T238	DietPattern 18808 18810	FF
+T239	Chemical 16636 16651	mucin O-glycans
+T240	Chemical 17895 17904	O-glycans
+T241	Gene 17959 17984	O-glycan-responsive genes
+T242	INCREASES 17935 17944	increased
+T243	Gene 18764 18790	O-glycan utilization genes
+T244	DECREASES 18730 18739	decreased
+T245	Chemical 18841 18856	mucin O-glycans
+T246	DietPattern 19027 19034	FF diet
+T247	INCREASES 19062 19071	increased
+T248	Enzyme 19091 19100	sulfatase
+T249	Enzyme 19105 19117	α-fucosidase
+T250	Population 19126 19155	mice subjected to the FF diet
+T251	DietPattern 19148 19150	FF
+T252	DECREASES 19309 19316	reduced
+T253	Enzyme 19275 19288	β-glucosidase
+T254	Population 19324 19358	mice fed the fiber-deficient diets
+T255	DietPattern 19337 19358	fiber-deficient diets
+T256	Enzyme 19395 19405	α-galactan
+T257	Nutrient 19385 19390	xylan
+T258	AFFECTS 19436 19456	without significance
+T259	Metabolite 19610 19614	SCFA
+T260	Population 19640 19656	FF diet fed mice
+T261	DietPattern 19640 19647	FF diet
+T262	WORSENS 22886 22897	degradation
+T263	Enzyme 19820 19827	CAZymes
+T264	Enzyme 19829 19839	sulfatases
+T265	Enzyme 19844 19853	proteases
+T266	Nutrient 19864 19885	mucus polysaccharides
+T267	Nutrient 19906 19925	complex plant fiber
+T268	WORSENS 19973 19980	degrade
+T269	Physiology 19985 20006	colonic mucus barrier
+T270	Physiology 20011 20022	mucus layer
+T271	Physiology 20361 20380	colonic mucus layer
+T272	Methodology 20431 20459	Alcian blue stained sections
+T273	Physiology 20509 20520	mucus layer
+T274	Methodology 20524 20551	immunofluorescence staining
+T275	Chemical 20559 20570	Muc2 mucins
+T276	Chemical 20577 20592	α-Muc2 antibody
+T277	Physiology 20715 20736	mucus layer thickness
+T278	Population 20740 20764	germfree mice fed the FR
+T279	Population 20740 20757;20768 20770	germfree mice fed FF
+T280	Physiology 20819 20834	mucus thickness
+T281	INCREASES 20839 20846	highest
+T282	DietPattern 20878 20885	FR diet
+T283	Physiology 20953 20968	mucus thickness
+T284	Population 21000 21017	colonized FR mice
+T285	Physiology 21061 21074	colonic mucus
+T286	Methodology 20778 20804	Colonic mucus measurements
+T287	Physiology 21289 21294	mucus
+T288	Population 21298 21323	SM-colonized FF diet mice
+T289	DietPattern 21311 21318	FF diet
+T290	DECREASES 21333 21340	thinner
+T291	Population 21346 21376	colonized mice fed the FR diet
+T292	DietPattern 21369 21376	FR diet
+T293	Physiology 21416 21427	mucus layer
+T294	Physiology 21617 21631	mucus foraging
+T295	INCREASES 21607 21616	increased
+T296	DietPattern 21681 21688	FF diet
+T297	Physiology 21713 21728	mucus thickness
+T298	DietPattern 21851 21853	FR
+T299	DietPattern 21854 21856	FF
+T300	Population 21946 21976	colonized mice fed the FF diet
+T301	Physiology 22089 22102	mucus barrier
+T302	Gene 22114 22118	Muc2
+T303	Gene 22123 22129	Muc5ac
+T304	Gene 22169 22173	Tff1
+T305	Gene 22178 22182	Tff3
+T306	Physiology 22154 22167	colonic mucus
+T307	Chemical 22184 22204	goblet cell proteins
+T308	Gene 22253 22257	Klf3
+T309	Gene 22384 22388	Muc2
+T310	INCREASES 22403 22411	elevated
+T311	Population 22419 22442	colonized FF diet group
+T312	DietPattern 22429 22436	FF diet
+T313	Physiology 22525 22542	mucus degradation
+T314	ASSOCIATED_WITH 22457 22478	compensatory response
+T315	Gene 22579 22585	Muc5ac
+T316	Gene 22587 22591	Tff1
+T317	Gene 22593 22597	Tff3
+T318	Gene 22602 22606	Klf3
+T319	AFFECTS 22631 22640	unchanged
+T320	Methodology 22652 22692;22703 22711	Qualitative visualization by Alcian blue staining
+T321	Physiology 22745 22759	colonic tissue
+T322	Population 22763 22784	FF-fed colonized mice
+T323	DietPattern 22763 22769	FF-fed
+T324	Chemical 22814 22826	goblet cells
+T325	Physiology 22905 22916	mucus layer
+T326	Methodology 23123 23137	Histopathology
+T327	Measurement 23153 23164	body weight
+T328	Physiology 23236 23251	mucus thickness
+T329	Population 23291 23317	mice consuming the FR diet
+T330	Physiology 23436 23449	mucus erosion
+T331	Chemical 23471 23480	lipocalin
+T332	Physiology 23561 23583	low-grade inflammation
+T333	INCREASES 23596 23605	increased
+T334	ASSOCIATED_WITH 23545 23555	associated
+T335	Population 23622 23652	colonized mice fed the FF diet
+T336	DietPattern 23645 23652	FF diet
+T337	DietPattern 23675 23677	FR
+T338	Physiology 23707 23719	colon length
+T339	Population 23748 23769	colonized FF fed mice
+T340	DietPattern 23758 23760	FF
+T341	DECREASES 23730 23737	shorter
+T342	Population 23817 23838	colonized FR fed mice
+T343	DietPattern 23827 23829	FR
+T344	Population 23780 23792	SM colonized
+T345	DietPattern 23780 23782	SM
+T346	Population 24135 24156	colonized FF fed mice
+T347	DietPattern 24145 24147	FF
+T348	Population 24241 24273	fiber-restricted, colonized mice
+T349	Physiology 24285 24313	erosion of the mucus barrier
+T350	Physiology 24478 24489	mucus layer
+T351	Microorganism 24785 24806	Citrobacter rodentium
+T352	Microorganism 24808 24810	Cr
+T353	Physiology 24841 24852	mucus layer
+T354	Disease 24888 24895	colitis
+T355	Gene 25018 25022	Muc2
+T356	Microorganism 25100 25102	Cr
+T357	Disease 25067 25074	colitis
+T358	Physiology 25126 25137	mucus layer
+T359	Population 27359 27364	GF+Cr
+T360	CAUSES 25075 25084	following
+T361	Physiology 25266 25288	mucus layer phenotypes
+T362	Microorganism 25340 25342	Cr
+T363	Microorganism 25395 25397	Cr
+T364	DietPattern 25554 25556	FR
+T365	DietPattern 25560 25562	FF
+T366	Biospecimen 25583 25588	fecal
+T367	Microorganism 25611 25613	Cr
+T368	Microorganism 25698 25700	Cr
+T369	Methodology 25705 25727	16S rRNA gene analysis
+T370	Microorganism 25809 25811	Cr
+T371	DietPattern 25904 25911	FF diet
+T372	INCREASES 25829 25838	increased
+T373	Microorganism 25993 25995	Cr
+T374	Population 26006 26039	SM-colonized mice fed the FF diet
+T375	DietPattern 26032 26039	FF diet
+T376	Physiology 26059 26070	weight loss
+T377	INCREASES 25981 25989	increase
+T378	POS_ASSOCIATED_WITH 26044 26055	accompanied
+T379	Physiology 27402 27415	colonic mucus
+T380	Physiology 26211 26222	weight loss
+T381	Population 26340 26370	colonized mice fed the FF diet
+T382	DietPattern 26363 26370	FF diet
+T383	Physiology 26410 26419	morbidity
+T384	Physiology 26428 26443	hunched posture
+T385	Physiology 26448 26458	inactivity
+T386	Population 26507 26542	mice from the SM colonized FF group
+T387	DietPattern 26534 26536	FF
+T388	Measurement 26584 26595	body weight
+T389	DECREASES 26576 26580	loss
+T390	Methodology 26666 26686	Histological scoring
+T391	Biospecimen 26704 26718	colonic tissue
+T392	Biospecimen 26694 26699;26712 26718	cecal tissue
+T393	Population 26737 26763	SM-colonized FF diet group
+T394	DietPattern 26750 26757	FF diet
+T395	Physiology 26776 26788	inflammation
+T396	DietPattern 26959 26961	FR
+T397	DietPattern 26966 26968	FF
+T398	DietPattern 26991 26993	FF
+T399	Physiology 26935 26950	inflamed tissue
+T400	Physiology 27093 27104	hyperplasia
+T401	Physiology 27200 27215	inflamed tissue
+T402	Microorganism 27431 27433	Cr
+T403	INCREASES 27458 27466	increase
+T404	Physiology 27470 27488	GF mucus thickness
+T405	Physiology 27502 27519	thick mucus layer
+T406	ASSOCIATED_WITH 27520 27530	associated
+T407	DietPattern 27540 27547	FR diet
+T408	Physiology 27693 27708	inflamed tissue
+T409	DietPattern 27712 27714	FF
+T410	Population 27712 27719	FF mice
+T411	Physiology 27800 27811	mucus layer
+T412	Population 27876 27888	SM-colonized
+T413	Population 27892 27899	GF mice
+T414	DietPattern 27912 27914	FR
+T415	DietPattern 27918 27920	FF
+T416	Microorganism 27935 27966	luciferase-expressing Cr strain
+T417	Methodology 28041 28063	bioluminescent imaging
+T418	Biospecimen 28186 28191	fecal
+T419	Microorganism 28192 28194	Cr
+T420	DietPattern 28198 28201	FR-
+T421	Population 28206 28220	FF-fed SM mice
+T422	DietPattern 28206 28208	FF
+T423	Population 28310 28343	SM colonized mice fed the FF diet
+T424	DietPattern 28336 28343	FF diet
+T425	DietPattern 28369 28371	FR
+T426	Physiology 28292 28306	colonic tissue
+T427	Microorganism 28416 28418	Cr
+T428	Population 28422 28436	FF fed SM mice
+T429	DietPattern 28422 28424	FF
+T430	Methodology 28463 28495	transmission electron microscopy
+T431	Physiology 28535 28565	attaching and effacing lesions
+T432	Physiology 28567 28599	pedestals and loss of microvilli
+T433	Microorganism 28634 28636	Cr
+T434	Population 28751 28765	FF-fed SM mice
+T435	Population 28667 28677	GF+Cr mice
+T436	Population 26132 26144	GF+Cr groups
+T437	Population 27231 27236	GF+Cr
+T438	Physiology 28873 28898	thin colonic mucus layers
+T439	Population 28937 28970	SM-colonized mice fed the FF diet
+T440	DietPattern 28963 28965	FF
+T441	Physiology 29120 29145	co-inflammatory responses
+T442	Methodology 6428 6458	synthetic human gut microbiota
+T443	Methodology 7029 7049	synthetic microbiota
+T444	Methodology 7051 7053	SM
+T445	Methodology 6762 6766;6776 6792	meta -transcriptomics
+T446	Physiology 6902 6931	fiber-deprived gut microbiota
+T447	WORSENS 6938 6944	damage
+T448	Nutrient 7444 7450;7462 7474;7484 7495	plant- derived mono saccharides
+T449	Nutrient 7444 7450;7462 7469;7480 7495	plant- derived polysaccharides
+T450	Nutrient 7455 7469;7480 7495	animal-derived polysaccharides
+T451	POS_ASSOCIATED_WITH 7961 7965	grow
+T452	POS_ASSOCIATED_WITH 8077 8081	grow
+T453	HAS_COMPONENT 8582 8586	from
+T454	Population 9317 9334	SM-colonized mice
+T455	Methodology 9317 9319	SM
+T456	POS_ASSOCIATED_WITH 26764 26775	experienced
+T457	HAS_COMPONENT 10882 10887	found
+T458	NEG_ASSOCIATED_WITH 10804 10810	cannot
+T459	Enzyme 13699 13701	CE
+T460	Nutrient 13959 13972	carbohydrates
+T461	Chemical 14171 14190	mucin glycoproteins
+T462	AFFECTS 14163 14170	degrade
+T463	INCREASES 14748 14756	elevated
+T464	POS_ASSOCIATED_WITH 14910 14932	contributed a majority
+T465	POS_ASSOCIATED_WITH 15187 15203	highly expressed
+T466	Chemical 15074 15086	host glycans
+T467	Physiology 15091 15096	mucus
+T468	Methodology 15097 15104	in vivo
+T469	ASSOCIATED_WITH 15529 15537	equipped
+T470	Physiology 15643 15657	mucin foraging
+T471	Nutrient 15706 15718	carbohydrate
+T472	Population 16111 16151	mice oscillated between FR/FF and Pre/FF
+T473	Population 16255 16272	FF only diet mice
+T475	Physiology 16727 16740	purified MOGs
+T476	Physiology 16746 16767	porcine gastric mucus
+T477	Methodology 16978 17019	in vivo under fiber-restricted conditions
+T478	Physiology 17038 17042	MOGs
+T479	Methodology 17420 17422	SM
+T480	DietPattern 17462 17464	FR
+T481	Physiology 19927 19944	Fiber deprivation
+T482	Physiology 24700 24723	pathogen susceptibility
+T483	CAUSES 24882 24887	cause
+T484	Population 28198 28201;28209 28220	FR- fed SM mice
+T485	ASSOCIATED_WITH 28618 28633	associated with
+T486	DietPattern 28751 28753	FF
+T487	Population 28902 28909	GF mice
+E1	IMPROVES:T13 Agent:T10 Theme:T12
+E2	PREVENTS:T19 Agent:T10 Theme:T20
+E3	WORSENS:T21 Theme:T8 Agent:T16
+E4	POS_ASSOCIATED_WITH:T11 Agent:T22 Theme:T17
+E5	INCREASES:T69 Theme:T70 Agent:T68
+E6	WORSENS:T26 Theme:T2 Agent:T23
+E7	WORSENS:T27 Theme:T28 Agent:T23
+E8	POS_ASSOCIATED_WITH:T11 Agent:T22 Theme:T30
+E9	PREVENTS:T31 Theme:T25 Agent:T10
+E10	PREVENTS:T33 Agent:T6 Theme:T34
+E11	ASSOCIATED_WITH:T15 Theme:T5 Theme2:T6
+E12	HAS_COMPONENT:T83 Agent:T81 Theme:T82
+E13	AFFECTS:T93 Agent:T92 Theme:T95
+E14	HAS_COMPONENT:T112 Agent:T111 Theme:T113
+E15	INCREASES:T118 Agent:T111 Theme:T119
+E16	INTERACTS_WITH:T110 Theme:T157 Theme2:T159
+E17	INCREASES:T136 Agent:T137 Theme:T135
+E18	DECREASES:T139 Agent:T140 Theme:T138
+E19	HAS_COMPONENT:T145 Agent:T146 Theme:T144
+E20	INTERACTS_WITH:T110 Theme:T157 Theme2:T126
+E21	HAS_COMPONENT:T156 Theme:T155 Agent:T154
+E22	HAS_COMPONENT:T156 Theme:T155 Agent:T153
+E23	INCREASES:T237 Agent:T222 Theme:T221
+E24	INCREASES:T242 Agent:T227 Theme:T241
+E25	DECREASES:T244 Agent:T236 Theme:T243
+E26	INCREASES:T247 Agent:T246 Theme:T248
+E27	INCREASES:T247 Agent:T246 Theme:T249
+E28	DECREASES:T252 Theme:T253 Agent:T255
+E29	AFFECTS:T258 Agent:T255 Theme:T257
+E30	AFFECTS:T258 Agent:T255 Theme:T256
+E31	INCREASES:T281 Agent:T282 Theme:T280
+E32	DECREASES:T290 Agent:T289 Theme:T287
+E33	INCREASES:T295 Theme:T294 Agent:T296
+E34	INCREASES:T310 Agent:T312 Theme:T309
+E35	ASSOCIATED_WITH:T314 Theme:T309 Theme2:T313
+E36	AFFECTS:T319 Theme:T318 Agent:T312
+E37	AFFECTS:T319 Theme:T317 Agent:T312
+E38	AFFECTS:T319 Theme:T316 Agent:T312
+E39	AFFECTS:T319 Theme:T315 Agent:T312
+E40	INCREASES:T333 Theme:T332 Agent:T336
+E41	ASSOCIATED_WITH:T334 Theme:T331 Theme2:T332
+E42	DECREASES:T341 Theme:T338 Agent:T340
+E43	DECREASES:T341 Theme:T338 Agent:T345
+E44	INCREASES:T372 Agent:T371 Theme:T370
+E45	INCREASES:T377 Agent:T375 Theme:T373
+E46	POS_ASSOCIATED_WITH:T378 Theme:T376 Agent:T373
+E47	DECREASES:T389 Agent:T387 Theme:T388
+E48	INCREASES:T403 Agent:T402 Theme:T404
+E49	ASSOCIATED_WITH:T406 Theme:T405 Theme2:T407
+E50	WORSENS:T447 Agent:T446 Theme:T40
+E51	POS_ASSOCIATED_WITH:T451 Theme:T49 Agent:T50
+E52	POS_ASSOCIATED_WITH:T451 Agent:T50 Theme:T48
+E53	POS_ASSOCIATED_WITH:T452 Theme:T52 Agent:T54
+E54	POS_ASSOCIATED_WITH:T452 Theme:T53 Agent:T54
+E55	HAS_COMPONENT:T453 Agent:T58 Theme:T61
+E56	HAS_COMPONENT:T453 Agent:T58 Theme:T62
+E57	PREDISPOSES:T226 Theme:T171 Agent:T94
+E58	HAS_COMPONENT:T73 Agent:T84 Theme:T85
+E59	AFFECTS:T93 Agent:T92 Theme:T96
+E60	AFFECTS:T93 Agent:T92 Theme:T97
+E61	AFFECTS:T93 Theme:T98 Agent:T92
+E62	AFFECTS:T43 Agent:T99 Theme:T101
+E63	AFFECTS:T43 Agent:T100 Theme:T101
+E64	HAS_COMPONENT:T457 Theme:T105 Agent:T106
+E65	NEG_ASSOCIATED_WITH:T458 Agent:T103 Theme:T104
+E66	NEG_ASSOCIATED_WITH:T458 Agent:T102 Theme:T104
+E67	AFFECTS:T462 Theme:T461 Agent:T163
+E68	INCREASES:T463 Theme:T176 Agent:T174
+E69	POS_ASSOCIATED_WITH:T464 Agent:T178 Theme:T180
+E70	POS_ASSOCIATED_WITH:T464 Agent:T179 Theme:T180
+E71	POS_ASSOCIATED_WITH:T465 Theme:T183 Agent:T184
+E72	ASSOCIATED_WITH:T469 Theme:T187 Theme2:T188
+E73	AFFECTS:T123 Agent:T207 Theme:T239
+E74	AFFECTS:T123 Agent:T208 Theme:T239
+E75	INCREASES:T237 Theme:T220 Agent:T222
+E76	WORSENS:T268 Theme:T269 Agent:T481
+E77	CAUSES:T483 Theme:T354 Agent:T351
+E78	ASSOCIATED_WITH:T485 Theme:T433 Theme2:T432
+E79	ASSOCIATED_WITH:T485 Theme:T433 Theme2:T431
+E80	WORSENS:T262 Agent:T67 Theme:T325
+E81	CAUSES:T360 Agent:T356 Theme:T357
+E82	POS_ASSOCIATED_WITH:T456 Agent:T394 Theme:T395
+A2	Factuality E21 Negated
+A3	Factuality E22 Negated
+A4	Factuality E29 Negated
+A5	Factuality E30 Negated
+A6	Factuality E36 Negated
+A7	Factuality E37 Negated
+A8	Factuality E38 Negated
+A9	Factuality E39 Negated

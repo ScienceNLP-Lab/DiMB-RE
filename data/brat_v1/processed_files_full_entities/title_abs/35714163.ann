@@ -1,0 +1,82 @@
+T1	Microorganism 0 35	Lacticaseibacillus rhamnosus HA-114
+T2	IMPROVES 36 44	improves
+T3	Physiology 45 61	eating behaviors
+T4	Population 90 131	adults with overweight during weight loss
+T5	Disease 102 112	overweight
+T6	Physiology 66 86	mood-related factors
+T7	Methodology 135 162	randomized controlled trial
+T8	Disease 239 246	obesity
+T9	Disease 251 269	metabolic diseases
+T10	Microorganism 436 471	Lacticaseibacillus rhamnosus HA-114
+T11	POS_ASSOCIATED_WITH 500 517	beneficial impact
+T12	Physiology 536 545;560 566	metabolic health
+T13	Physiology 550 566	cognitive health
+T14	Methodology 590 640	randomized, double-blind, placebo-controlled trial
+T15	Physiology 672 689	energy metabolism
+T16	Physiology 691 707	eating behaviors
+T17	Physiology 712 732	mood-related factors
+T18	Population 740 762	adults with overweight
+T19	Disease 752 762	overweight
+T21	Microorganism 773 792	L. rhamnosus HA-114
+T22	Nutrient 915 924	probiotic
+T23	DECREASES 964 973	reduction
+T24	Measurement 977 988	body weight
+T25	DECREASES 1016 1024	decrease
+T26	Chemical 1028 1042	plasma insulin
+T27	Physiology 1158 1174	eating behaviors
+T28	Physiology 1179 1199	mood-related factors
+T29	POS_ASSOCIATED_WITH 1201 1219	beneficial effects
+T30	Nutrient 1269 1278	probiotic
+T31	DECREASES 1350 1358	decrease
+T32	Physiology 1387 1400	disinhibition
+T33	Physiology 1405 1418	food-cravings
+T34	Physiology 1362 1374	binge eating
+T35	Nutrient 1482 1491	probiotic
+T36	Population 1569 1619	individuals with overweight undergoing weight loss
+T37	Disease 1586 1596	overweight
+T38	Physiology 120 131	weight loss
+T39	Physiology 1608 1619	weight loss
+T40	Physiology 873 895	controlled weight loss
+T41	Measurement 1044 1051	HOMA-IR
+T42	Physiology 382 395	excess weight
+T43	Physiology 1529 1538;1557 1565	metabolic outcomes
+T44	Physiology 1543 1565	psychological outcomes
+T45	POS_ASSOCIATED_WITH 1511 1528	induce beneficial
+T46	Chemical 1053 1068	LDL-cholesterol
+T47	Chemical 1073 1086	triglycerides
+T48	Measurement 992 1000	fat mass
+T49	Nutrient 1107 1116	probiotic
+E1	IMPROVES:T2 Agent:T1 Theme:T3
+E2	IMPROVES:T2 Agent:T1 Theme:T6
+E3	POS_ASSOCIATED_WITH:T11 Agent:T10 Theme:T12
+E4	POS_ASSOCIATED_WITH:T11 Agent:T10 Theme:T13
+E5	DECREASES:T23 Agent:T22 Theme:T24
+E6	DECREASES:T25 Agent:T22 Theme:T26
+E7	POS_ASSOCIATED_WITH:T29 Agent:T30 Theme:T28
+E8	DECREASES:T31 Agent:T30 Theme:T34
+E9	DECREASES:T25 Agent:T22 Theme:T41
+E10	DECREASES:T25 Agent:T22 Theme:T47
+E11	DECREASES:T25 Agent:T22 Theme:T46
+E12	DECREASES:T23 Agent:T22 Theme:T48
+E13	POS_ASSOCIATED_WITH:T29 Agent:T30 Theme:T27
+E14	DECREASES:T31 Agent:T30 Theme:T33
+E15	DECREASES:T31 Agent:T30 Theme:T32
+E16	POS_ASSOCIATED_WITH:T45 Agent:T35 Theme:T43
+E17	POS_ASSOCIATED_WITH:T45 Agent:T35 Theme:T44
+A1	Unknown E4
+A2	Unknown E3
+A3	Negated E5
+A4	Negated E12
+A5	Factual E1
+A6	Factual E2
+A7	Factual E6
+A8	Factual E7
+A9	Factual E8
+A10	Factual E9
+A11	Factual E10
+A12	Factual E11
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17

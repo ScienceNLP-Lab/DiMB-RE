@@ -1,0 +1,12 @@
+Duodenal Anaerobutyricum soehngenii infusion stimulates GLP-1 production, ameliorates glycaemic control and beneficially shapes the duodenal transcriptome in metabolic syndrome subjects: a randomised double-blind placebo-controlled cross-over study
+
+Objective
+Although gut dysbiosis is increasingly recognised as a pathophysiological component of metabolic syndrome (MetS), the role and mode of action of specific gut microbes in metabolic health remain elusive. Previously, we identified the commensal butyrogenic Anaerobutyricum soehngenii to be associated with improved insulin sensitivity in subjects with MetS. In this proof-of-concept study, we investigated the potential therapeutic effects of A. soehngenii L2-7 on systemic metabolic responses and duodenal transcriptome profiles in individuals with MetS.
+Design
+In this randomised double-blind placebo-controlled cross-over study, 12 male subjects with MetS received duodenal infusions of A. soehngenii/ placebo and underwent duodenal biopsies, mixed meal tests (6 hours postinfusion) and 24-hour continuous glucose monitoring.
+Results
+ A. soehngenii treatment provoked a markedly increased postprandial excursion of the insulinotropic hormone glucagon-like peptide 1 (GLP-1) and an elevation of plasma secondary bile acids, which were positively associated with GLP-1 levels. Moreover, A. soehngenii treatment robustly shaped the duodenal expression of 73 genes, with the highest fold induction in the expression of regenerating islet-protein 1B (REG1B)-encoding gene. Strikingly, duodenal REG1B expression positively correlated with GLP-1 levels and negatively correlated with peripheral glucose variability, which was significantly diminished in the 24 hours following A. soehngenii intake. Mechanistically, Reg1B expression is induced upon sensing butyrate or bacterial peptidoglycan. Importantly, A. soehngenii duodenal administration was safe and well tolerated.
+Conclusions
+A single dose of A. soehngenii improves peripheral glycaemic control within 24 hours; it specifically stimulates intestinal GLP-1 production and REG1B expression. Further studies are needed to delineate the specific pathways involved in REG1B induction and function in insulin sensitivity.
+Trial registration number
+NTR-NL6630.

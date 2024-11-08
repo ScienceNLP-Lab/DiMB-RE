@@ -1,0 +1,90 @@
+T7	Measurement 111 114	BMI
+T37	DiversityMetric 272 276	OTUs
+T39	DiversityMetric 311 314	OTU
+T40	Microorganism 555 565	Firmicutes
+T41	Microorganism 578 591	Bacteroidetes
+T42	Microorganism 629 643	Actinobacteria
+T44	Microorganism 652 666	Proteobacteria
+T45	Microorganism 678 693	Verrucomicrobia
+T46	Microorganism 768 783	Ruminococcaceae
+T47	Microorganism 793 808	Lachnospiraceae
+T48	Microorganism 818 832	Bacteroidaceae
+T49	Microorganism 869 881	Clostridales
+T50	Microorganism 896 911	Veillonellacaea
+T51	Microorganism 920 938	Bifodobacteriaceae
+T52	Microorganism 951 970	Verrucomicrobiaceae
+T53	Microorganism 1163 1174	Bacteroides
+T54	Microorganism 1189 1204	Ruminococcaceae
+T55	Microorganism 1219 1232	Clostridiales
+T56	Microorganism 1250 1265	Lachnospiraceae
+T57	Microorganism 1267 1278	Coprococcus
+T58	Microorganism 1280 1296	Faecalibacterium
+T59	Microorganism 1298 1310	Ruminococcus
+T60	Microorganism 1312 1327	Bifidobacterium
+T61	Microorganism 1329 1336	Blautia
+T62	Microorganism 1372 1386	Rikenellacaeae
+T65	DiversityMetric 1639 1643	OTUs
+T66	DiversityMetric 1678 1681	OTU
+T67	Microorganism 1476 1484	Archaeal
+T68	Microorganism 1845 1850	Fungi
+T69	DiversityMetric 1950 1954	OTUs
+T70	DiversityMetric 2098 2102	OTUs
+T71	Food 2122 2135	whole almonds
+T72	Food 2230 2237	almonds
+T73	Food 2326 2332	almond
+T74	Microorganism 2494 2508	Actinobacteria
+T75	Food 2435 2441	almond
+T76	DECREASES 2454 2463	decreased
+T77	Microorganism 2528 2543	Bifidobacterium
+T78	Microorganism 2548 2563	Parabacteroides
+T79	Microorganism 2602 2613	Lachnospira
+T80	Microorganism 2615 2624	Roseburia
+T81	Microorganism 2626 2637	Clostridium
+T82	Microorganism 2643 2652	Dialister
+T83	Food 2805 2811	almond
+T84	Microorganism 3059 3070	Lachnospira
+T85	Microorganism 3072 3081	Roseburia
+T86	Microorganism 3087 3099	Oscillospira
+T87	Food 3112 3133	whole roasted almonds
+T88	INCREASES 3134 3143	increased
+T89	Microorganism 3181 3192	Lachnospira
+T90	Food 3198 3215	whole raw almonds
+T91	INCREASES 3216 3225	increased
+T92	Microorganism 3264 3273	Dialister
+T93	Food 3331 3344	almond butter
+T94	Food 3346 3352	Almond
+T95	AFFECTS 3373 3379	affect
+T96	DiversityMetric 3390 3405	alpha diversity
+T97	DiversityMetric 3409 3423	beta diversity
+T99	Food 2683 2690	almonds
+T100	INCREASES 2664 2673	increased
+T101	INCREASES 3023 3032	increased
+T102	Food 3007 3022	chopped almonds
+E8	DECREASES:T76 Agent:T75 Theme:T74
+E9	DECREASES:T76 Agent:T75 Theme:T78
+E10	DECREASES:T76 Agent:T75 Theme:T77
+E11	INCREASES:T88 Agent:T87 Theme:T89
+E12	INCREASES:T91 Agent:T90 Theme:T92
+E13	AFFECTS:T95 Agent:T94 Theme:T96
+E14	AFFECTS:T95 Agent:T94 Theme:T97
+E16	INCREASES:T100 Agent:T99 Theme:T79
+E17	INCREASES:T100 Agent:T99 Theme:T82
+E18	INCREASES:T100 Agent:T99 Theme:T81
+E19	INCREASES:T100 Agent:T99 Theme:T80
+E20	INCREASES:T101 Theme:T84 Agent:T102
+E21	INCREASES:T101 Theme:T86 Agent:T102
+E22	INCREASES:T101 Theme:T85 Agent:T102
+A1	Negated E13
+A2	Negated E14
+A10	Factual E8
+A11	Factual E9
+A12	Factual E10
+A13	Factual E11
+A14	Factual E12
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19
+A20	Factual E20
+A21	Factual E21
+A22	Factual E22

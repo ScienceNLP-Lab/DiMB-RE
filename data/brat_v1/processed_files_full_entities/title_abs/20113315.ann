@@ -1,0 +1,69 @@
+T1	Physiology 27 63	renin-angiotensin-aldosterone system
+T2	Physiology 72 92	sympathetic activity
+T3	Food 123 137	fermented milk
+T4	Methodology 0 19	Human in vivo study
+T5	Population 0 5	Human
+T6	Microorganism 169 189	lactic acid bacteria
+T7	Food 151 189	Milk fermented by lactic acid bacteria
+T8	Population 238 244	humans
+T9	Physiology 211 234	antihypertensive effect
+T10	ASSOCIATED_WITH 193 202	suggested
+T11	Enzyme 294 323	angiotensin-converting enzyme
+T12	Enzyme 325 328	ACE
+T13	Food 362 376	fermented milk
+T14	Enzyme 484 487	ACE
+T15	Food 528 542	fermented milk
+T16	Methodology 582 632	double-blinded randomized placebo-controlled study
+T17	Population 657 677	hypertensive persons
+T18	Microorganism 721 745	Lactobacillus helveticus
+T19	Food 721 760	Lactobacillus helveticus fermented milk
+T20	Physiology 875 911	renin-angiotensin-aldosterone system
+T21	Physiology 941 961	Sympathetic activity
+T22	Physiology 1004 1043	cardiovascular response to head-up tilt
+T23	Physiology 1019 1043;979 999	response to head-up tilt plasma noradrenaline
+T24	DECREASES 1825 1835	reductions
+T25	Enzyme 1103 1106	ACE
+T26	Food 1125 1139	fermented milk
+T27	Physiology 1191 1226	renin-angiotensin-aldosteron system
+T28	Physiology 1236 1273	Plasma noradrenaline response to tilt
+T29	Physiology 1534 1544	heart rate
+T30	Physiology 1516 1530	blood pressure
+T31	Enzyme 1590 1593	ACE
+T32	Food 1637 1671	milk fermented with Lb. helveticus
+T33	Microorganism 1657 1671	Lb. helveticus
+T34	DECREASES 1672 1687	did not inhibit
+T35	Enzyme 1688 1691	ACE
+T36	Population 1695 1701	humans
+T37	Food 1742 1756	fermented milk
+T38	DECREASES 1757 1766	decreases
+T39	Physiology 1767 1787	sympathetic activity
+T40	Physiology 1839 1853	blood pressure
+T41	Physiology 1858 1868	heart rate
+T42	Population 1872 1904	borderline-hypertensive subjects
+T45	DECREASES 1107 1117	inhibition
+T46	AFFECTS 1227 1234	changed
+T47	AFFECTS 1305 1314	unchanged
+T48	AFFECTS 1487 1496	no change
+T49	DECREASES 488 498	inhibition
+E1	ASSOCIATED_WITH:T10 Theme:T7 Theme2:T9
+E2	DECREASES:T24 Theme:T40 Agent:T37
+E3	DECREASES:T24 Theme:T41 Agent:T37
+E4	DECREASES:T34 Agent:T32 Theme:T35
+E5	DECREASES:T38 Agent:T37 Theme:T39
+E7	DECREASES:T45 Theme:T25 Agent:T26
+E8	AFFECTS:T46 Theme:T27 Agent:T26
+E9	AFFECTS:T47 Theme:T28 Agent:T26
+E10	AFFECTS:T48 Agent:T26 Theme:T30
+E11	AFFECTS:T48 Agent:T26 Theme:T29
+E12	DECREASES:T49 Agent:T15 Theme:T14
+A1	Negated E4
+A3	Negated E7
+A4	Negated E8
+A5	Negated E9
+A6	Negated E10
+A7	Negated E11
+A8	Unknown E12
+A9	Negated E2
+A10	Negated E3
+A11	Factual E1
+A12	Factual E5

@@ -1,0 +1,98 @@
+T1	DECREASES 61 68	Reduced
+T3	Chemical 23 57	Lipopolysaccharide-Binding Protein
+T4	Food 108 127	Pomegranate Extract
+T6	Disease 214 223	dysbiosis
+T7	Physiology 225 251	intestinal barrier failure
+T8	Disease 72 82	Overweight
+T9	Disease 83 88	Obese
+T10	Disease 253 260	obesity
+T11	Disease 262 283	metabolic endotoxemia
+T12	Measurement 289 312	pro-inflammatory status
+T13	Disease 399 410	endotoxemia
+T14	Disease 414 421	obesity
+T15	Chemical 526 560	lipopolysaccharide-binding protein
+T16	Chemical 562 565	LBP
+T17	Disease 590 601	endotoxemia
+T18	Disease 606 616	overweight
+T19	Disease 617 622	obese
+T23	Disease 683 693	overweight
+T24	Disease 694 699	obese
+T25	Measurement 710 725	body mass index
+T26	Disease 744 762	mild hypelipidemia
+T28	Food 851 870	pomegranate extract
+T29	Nutrient 872 874	PE
+T30	DECREASES 947 955	decrease
+T31	Chemical 977 980	LBP
+T32	DECREASES 996 1004	decrease
+T33	Chemical 1020 1055	high-sensitivity C-reactive protein
+T34	Nutrient 1086 1091	PE-D2
+T36	INCREASES 1169 1177	increase
+T37	Microorganism 1294 1305	Bacteroides
+T38	Microorganism 1307 1323	Faecalibacterium
+T39	Microorganism 1325 1339	Butyricicoccus
+T40	Microorganism 1341 1352	Odoribacter
+T41	Microorganism 1358 1371	Butyricimonas
+T42	Nutrient 1373 1378	PE-D2
+T43	DECREASES 1384 1393	decreased
+T44	Microorganism 1436 1446	Parvimonas
+T45	Microorganism 1448 1466	Methanobrevibacter
+T46	Microorganism 1472 1486	Methanosphaera
+T47	Chemical 1507 1510	LBP
+T48	Nutrient 1666 1668	PE
+T49	Microorganism 1571 1587	Faecalibacterium
+T50	Microorganism 1592 1603	Odoribacter
+T52	Microorganism 1617 1627	Parvimonas
+T53	POS_ASSOCIATED_WITH 1628 1636	decrease
+T54	IMPROVES 1669 1678	decreased
+T55	Disease 1679 1690	endotoxemia
+T56	Disease 1694 1704	overweight
+T57	Disease 1705 1710	obese
+T59	AFFECTS 1775 1785	modulation
+T60	Microorganism 1789 1805	Faecalibacterium
+T61	Microorganism 1807 1818	Odoribacter
+T62	Microorganism 1824 1834	Parvimonas
+T63	Disease 4 15	Endotoxemia
+T64	PREDISPOSES 16 22	Marker
+T65	Physiology 321 340	cardiovascular risk
+T66	PREDISPOSES 580 586	marker
+T67	NEG_ASSOCIATED_WITH 1604 1612	increase
+E1	DECREASES:T1 Theme:T3 Agent:T4
+E2	DECREASES:T30 Theme:T31 Agent:T34
+E3	DECREASES:T32 Theme:T33 Agent:T34
+E4	INCREASES:T36 Agent:T28 Theme:T41
+E5	INCREASES:T36 Agent:T28 Theme:T37
+E6	INCREASES:T36 Agent:T28 Theme:T38
+E7	INCREASES:T36 Agent:T28 Theme:T39
+E8	INCREASES:T36 Agent:T28 Theme:T40
+E9	DECREASES:T43 Agent:T42 Theme:T44
+E10	NEG_ASSOCIATED_WITH:T67 Agent:T47 Theme:T49
+E11	NEG_ASSOCIATED_WITH:T67 Agent:T47 Theme:T50
+E12	POS_ASSOCIATED_WITH:T53 Agent:T47 Theme:T52
+E13	IMPROVES:T54 Agent:T48 Theme:T55
+E14	AFFECTS:T59 Agent:T48 Theme:T60
+E15	AFFECTS:T59 Agent:T48 Theme:T61
+E16	AFFECTS:T59 Agent:T48 Theme:T62
+E17	PREDISPOSES:T64 Agent:T3 Theme:T63
+E18	PREDISPOSES:T66 Agent:T15 Theme:T17
+E19	DECREASES:T43 Theme:T46 Agent:T42
+E20	DECREASES:T43 Theme:T45 Agent:T42
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19
+A20	Factual E20

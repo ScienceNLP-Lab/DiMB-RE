@@ -1,0 +1,95 @@
+T1	Population 96 113	healthy adult men
+T2	Nutrient 61 80	soluble maize fibre
+T3	Nutrient 44 56	polydextrose
+T4	Population 237 254	healthy adult men
+T5	Nutrient 212 229	functional fibres
+T6	Population 278 295	healthy adult men
+T7	Methodology 315 332	cross-over design
+T8	Nutrient 356 368	polydextrose
+T9	Nutrient 370 373	PDX
+T10	Nutrient 378 397	soluble maize fibre
+T11	Nutrient 399 402	SCF
+T12	Nutrient 714 717	PDX
+T13	Nutrient 721 724	SCF
+T14	Physiology 655 665	distention
+T15	Physiology 628 638	Flatulence
+T16	Physiology 726 732	Reflux
+T17	Nutrient 779 782	SCF
+T18	CAUSES 737 744	greater
+T19	DECREASES 966 975	decreased
+T20	Nutrient 1014 1030	functional fibre
+T21	Metabolite 1065 1072	acetate
+T22	Metabolite 1074 1084	propionate
+T23	Metabolite 1089 1097	butyrate
+T24	DECREASES 1118 1123	lower
+T25	Nutrient 1158 1161	PDX
+T26	Nutrient 1176 1179	SCF
+T27	Physiology 1189 1198	Faecal pH
+T28	DECREASES 1203 1208	lower
+T29	Nutrient 1243 1246	SCF
+T30	Physiology 1294 1311	Faecal wet weight
+T31	Nutrient 1359 1362	SCF
+T32	Physiology 1382 1399	Faecal dry weight
+T33	INCREASES 1413 1420	greater
+T34	INCREASES 1316 1324	greatest
+T35	Nutrient 1455 1458	PDX
+T36	Nutrient 1482 1499	functional fibres
+T37	Nutrient 1522 1525	PDX
+T38	Nutrient 1530 1533	SCF
+T39	INCREASES 1549 1558	increases
+T40	Physiology 1562 1577	faecal dry mass
+T41	Microorganism 1611 1626	Bifidobacterium
+T42	INCREASES 1652 1659	greater
+T43	Nutrient 1694 1697	SCF
+T44	Nutrient 1723 1740	functional fibres
+T45	Metabolite 920 945	branched-chain fatty acid
+T46	Metabolite 884 891	ammonia
+T47	Metabolite 893 907	4-methylphenol
+T48	Metabolite 909 915	indole
+T50	Biospecimen 500 506	faeces
+T51	Food 467 476	snack bar
+T52	Nutrient 581 586	fibre
+T53	Biospecimen 1189 1195	Faecal
+T54	Biospecimen 1294 1300	Faecal
+T55	Biospecimen 1382 1388	Faecal
+T56	Nutrient 1272 1275	PDX
+T57	Biospecimen 1562 1568	faecal
+T58	Nutrient 1597 1602	fibre
+T59	Physiology 806 815	tolerance
+T60	CAUSES 682 690	greatest
+E1	CAUSES:T18 Theme:T16 Agent:T17
+E2	DECREASES:T19 Theme:T46 Agent:T20
+E3	DECREASES:T24 Theme:T21 Agent:T25
+E4	DECREASES:T28 Theme:T27 Agent:T29
+E5	INCREASES:T33 Theme:T32 Agent:T35
+E6	INCREASES:T34 Theme:T30 Agent:T31
+E7	INCREASES:T39 Agent:T37 Theme:T40
+E8	INCREASES:T42 Theme:T41 Agent:T43
+E9	INCREASES:T39 Agent:T38 Theme:T40
+E10	DECREASES:T24 Theme:T23 Agent:T25
+E11	DECREASES:T24 Theme:T22 Agent:T25
+E12	DECREASES:T19 Theme:T47 Agent:T20
+E13	DECREASES:T19 Theme:T48 Agent:T20
+E14	DECREASES:T19 Theme:T45 Agent:T20
+E15	CAUSES:T60 Theme:T15 Agent:T13
+E16	CAUSES:T60 Theme:T14 Agent:T13
+E17	CAUSES:T60 Theme:T15 Agent:T12
+E18	CAUSES:T60 Theme:T14 Agent:T12
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18

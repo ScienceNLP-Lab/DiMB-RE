@@ -1,0 +1,212 @@
+T6	Nutrient 5431 5440	synbiotic
+T25	Nutrient 7555 7564	synbiotic
+T27	AFFECTS 7585 7595	influenced
+T30	Nutrient 8589 8598	synbiotic
+T33	Microorganism 11254 11269	Bifidobacterium
+T36	Microorganism 11473 11486	Lactobacillus
+T37	Microorganism 11491 11506	Bifidobacterium
+T39	Microorganism 2259 2269	Firmicutes
+T40	Microorganism 2271 2284	Bacteroidetes
+T41	Microorganism 2286 2300	Proteobacteria
+T42	Microorganism 2302 2317	Verrucomicrobia
+T43	Microorganism 2319 2333	Actinobacteria
+T44	Microorganism 2577 2588	Bacteroides
+T45	Microorganism 2590 2606	Faecalibacterium
+T46	Microorganism 2608 2618	Prevotella
+T47	Microorganism 2620 2629	Alistipes
+T48	Microorganism 2631 2646	Subdoligranulum
+T49	Microorganism 2648 2659	Akkermansia
+T50	Microorganism 2661 2670	Roseburia
+T51	Microorganism 2672 2679	Blautia
+T52	Microorganism 2681 2692	Lachnospira
+T53	Microorganism 2698 2719	Phascolarctobacterium
+T54	Microorganism 2817 2829	Ruminococcus
+T55	Microorganism 2831 2842	Eubacterium
+T56	Microorganism 2844 2853	Veionella
+T57	Microorganism 2855 2860	Dorea
+T58	Microorganism 2862 2876	Butyricicoccus
+T59	Microorganism 2878 2891	Lactobacillus
+T60	Microorganism 2897 2912	Bifidobacterium
+T62	DiversityMetric 3535 3550	alpha diversity
+T65	Nutrient 4064 4073	synbiotic
+T66	Nutrient 4088 4097	prebiotic
+T71	Measurement 5728 5737	MAZ score
+T72	Measurement 5810 5819	MAZ score
+T73	Nutrient 6025 6034	prebiotic
+T74	Nutrient 6053 6062	synbiotic
+T75	Measurement 6164 6174	MAZ scores
+T76	Measurement 6356 6365	MAZ score
+T77	Nutrient 6394 6403	synbiotic
+T80	Nutrient 6426 6435	prebiotic
+T81	Nutrient 6502 6511	synbiotic
+T82	Microorganism 6937 6948	Bacteroides
+T83	Microorganism 6950 6959	Alistipes
+T84	Microorganism 6961 6968	Blautia
+T85	Microorganism 6970 6981	Lachnospira
+T86	Microorganism 6983 6992	Roseburia
+T87	Microorganism 6994 7010	Faecalibacterium
+T88	Microorganism 7016 7031	Subdoligranulum
+T89	Microorganism 7208 7219	Bacteroides
+T90	Microorganism 7245 7265	Subdoligranulum_5538
+T91	Microorganism 7338 7350	Blautia_2926
+T92	Microorganism 7352 7368	Lachnospira_1103
+T93	Microorganism 7370 7390	Lachnospiraceae_4093
+T94	Microorganism 7396 7410	Roseburia_6213
+T95	Microorganism 7470 7486	Faecalibacterium
+T96	Microorganism 7596 7612	Faecalibacterium
+T97	Microorganism 7792 7806	Alistipes_4404
+T98	Microorganism 7808 7824	Bacteroides_2258
+T99	Microorganism 7830 7850	Subdoligranulum_5538
+T101	Microorganism 8884 8895	Akkermansia
+T102	Microorganism 8897 8912	Bifidobacterium
+T103	Microorganism 8914 8921	Blautia
+T104	Microorganism 8923 8939	Faecalibacterium
+T105	Microorganism 8941 8951	Prevotella
+T106	Microorganism 8953 8962	Roseburia
+T107	Microorganism 8968 8980	Ruminococcus
+T108	Nutrient 9462 9471	synbiotic
+T110	Nutrient 8370 8379	synbiotic
+T111	Nutrient 8076 8085	Synbiotic
+T112	Microorganism 9850 9862	Blautia_0075
+T113	Microorganism 9864 9885	Faecalibacterium_1240
+T114	Microorganism 9887 9908	Faecalibacterium_7448
+T115	Microorganism 9910 9929	Ruminococcus 1_2436
+T116	Microorganism 9931 9950	Ruminococcus 2_1431
+T117	Microorganism 9956 9975	Ruminococcus 2_3960
+T118	Nutrient 10056 10065	synbiotic
+T119	INCREASES 10091 10099	increase
+T120	Microorganism 10122 10142	Bifidobacterium_3652
+T121	Microorganism 10144 10161	Prevotella 9_2238
+T122	Microorganism 10144 10156;10167 10172	Prevotella 9 _4937
+T123	Nutrient 10186 10195	prebiotic
+T124	Nutrient 10297 10306	prebiotic
+T125	Nutrient 10578 10587	prebiotic
+T126	Nutrient 10633 10642	prebiotic
+T127	Nutrient 10905 10914	synbiotic
+T128	Metabolite 11107 11111	SCFA
+T129	Nutrient 11142 11151	Synbiotic
+T130	Microorganism 11155 11172	Lactobacillus spp
+T131	Microorganism 11178 11197	Bifidobacterium spp
+T132	AFFECTS 11128 11134	Effect
+T133	Microorganism 11236 11249	Lactobacillus
+T134	Microorganism 11551 11566	Bifidobacterium
+T135	Nutrient 11592 11601	synbiotic
+T136	INCREASES 11572 11581	increased
+T137	Nutrient 11658 11667	prebiotic
+T138	Microorganism 11691 11704	Lactobacillus
+T139	Microorganism 11709 11724	Bifidobacterium
+T140	INCREASES 11622 11636	similar effect
+T141	Nutrient 11985 11995	probiotics
+T142	Nutrient 12020 12029	synbiotic
+T143	Microorganism 12036 12065	Lactiplantibacillus plantarum
+T144	Microorganism 12067 12092	Lactobacillus acidophilus
+T145	Microorganism 12098 12136	Bifidobacterium animalis subsp. lactis
+T148	Microorganism 12452 12464	L. plantarum
+T149	Microorganism 12466 12480	L. acidophilus
+T150	Microorganism 12486 12495	B. lactis
+T151	Nutrient 12691 12700	synbiotic
+T152	Microorganism 12772 12784	L. plantarum
+T153	Microorganism 12806 12815	B. lactis
+T154	INCREASES 12755 12761	higher
+T155	Microorganism 12920 12932	L. plantarum
+T156	Microorganism 12937 12946	B. lactis
+T157	Microorganism 13036 13048	L. plantarum
+T158	Microorganism 13062 13071	B. lactis
+T159	Microorganism 13111 13123	L. plantarum
+T160	Microorganism 13136 13145	B. lactis
+T161	Microorganism 13209 13223	L. acidophilus
+T162	Microorganism 13415 13427	L. plantarum
+T163	Microorganism 13560 13574	L. acidophilus
+T164	Microorganism 13579 13588	B. lactis
+T165	Microorganism 13640 13649	B. lactis
+T166	Nutrient 13730 13739	synbiotic
+T167	Microorganism 13767 13780	Lactobacillus
+T168	Microorganism 13785 13800	Bifidobacterium
+T169	INCREASES 13755 13762	enhance
+T170	Nutrient 13913 13922	synbiotic
+T171	Nutrient 15352 15361	synbiotic
+T172	Disease 14032 14057	Common Infectious Disease
+T173	Disease 14085 14110	common infectious disease
+T174	Disease 14112 14115	CID
+T175	Disease 14367 14370	CID
+T176	Disease 14475 14478	CID
+T177	Disease 14638 14641	CID
+T178	Disease 14841 14844	CID
+T179	Disease 15058 15061	CID
+T180	Nutrient 15087 15096	synbiotic
+T181	Nutrient 15143 15152	prebiotic
+T182	Disease 15248 15251	CID
+T183	Disease 15405 15408	CID
+T184	IMPROVES 15379 15401	reducing the incidence
+T185	Disease 15468 15471	CID
+T186	Nutrient 15646 15655	prebiotic
+T187	Nutrient 15920 15929	synbiotic
+T188	Chemical 16106 16124	fecal calprotectin
+T189	Chemical 16130 16147	fecal β-defensin2
+T190	Chemical 16153 16165	salivary IgA
+T191	Measurement 16175 16187	salivary TAC
+T192	Chemical 16276 16294	fecal calprotectin
+T193	Nutrient 16484 16493	synbiotic
+T194	Chemical 16576 16588	calprotectin
+T195	Chemical 16649 16661	calprotectin
+T196	Nutrient 16672 16681	prebiotic
+T197	Chemical 16799 16811	calprotectin
+T198	Chemical 16859 16876	fecal β-defensin2
+T199	Nutrient 16969 16978	synbiotic
+T200	Chemical 17023 17034	β-defensin2
+T201	Nutrient 17455 17464	synbiotic
+T202	Nutrient 17481 17490	prebiotic
+T203	Chemical 17763 17766	IgA
+T204	Chemical 17787 17810	reactive oxygen species
+T205	Physiology 17838 17848	senescence
+T206	Chemical 17866 17878	salivary IgA
+T207	Nutrient 17933 17942	synbiotic
+T208	INCREASES 17910 17919	increased
+T209	Nutrient 18189 18198	prebiotic
+T210	DECREASES 18205 18214	decreased
+T211	Measurement 18262 18265	TAC
+T212	Nutrient 18366 18375	synbiotic
+T213	INCREASES 18414 18422	increase
+T214	Measurement 18426 18429	TAC
+T2411	Nutrient 194 215	prebiotic formulation
+T2511	Nutrient 229 250	synbiotic formulation
+T3011	Nutrient 560 569	synbiotic
+T3111	Nutrient 735 744	synbiotic
+T3211	Nutrient 603 612	prebiotic
+T3311	Nutrient 778 787	prebiotic
+T3411	Measurement 683 698	Body Mass Index
+T3511	Measurement 700 703	BMI
+E1	AFFECTS:T27 Agent:T25 Theme:T96
+E8	AFFECTS:T132 Agent:T129 Theme:T131
+E15	INCREASES:T136 Agent:T135 Theme:T134
+E16	INCREASES:T140 Agent:T137 Theme:T139
+E17	INCREASES:T140 Agent:T137 Theme:T138
+E18	INCREASES:T154 Theme:T152 Agent:T151
+E19	INCREASES:T154 Theme:T153 Agent:T151
+E20	INCREASES:T169 Theme:T168 Agent:T166
+E21	INCREASES:T169 Agent:T166 Theme:T167
+E22	IMPROVES:T184 Agent:T171 Theme:T183
+E23	INCREASES:T208 Agent:T207 Theme:T206
+E24	DECREASES:T210 Agent:T209 Theme:T206
+E25	INCREASES:T213 Theme:T214 Agent:T212
+E611	INCREASES:T119 Agent:T118 Theme:T120
+E711	INCREASES:T119 Agent:T118 Theme:T121
+E811	INCREASES:T119 Agent:T118 Theme:T122
+E911	AFFECTS:T132 Agent:T129 Theme:T130
+A1	Unknown E8
+A3	Unknown E911
+A4	Factual E1
+A16	Factual E15
+A17	Factual E16
+A18	Factual E17
+A19	Factual E18
+A20	Factual E19
+A21	Factual E20
+A22	Factual E21
+A23	Factual E22
+A24	Factual E23
+A25	Factual E24
+A26	Factual E25
+A27	Factual E611
+A28	Factual E711
+A29	Factual E811

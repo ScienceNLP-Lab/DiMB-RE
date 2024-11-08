@@ -1,0 +1,117 @@
+T1	Physiology 46 69	ruminal characteristics
+T2	Metabolite 71 87	methane emission
+T3	Physiology 93 120	milk fatty acid composition
+T4	Physiology 317 335	diet digestibility
+T6	Physiology 241 261	ruminal fermentation
+T7	Metabolite 293 315	methane (CH4) emission
+T8	Physiology 341 373	milk fatty acid (FA) composition
+T10	Metabolite 437 456	volatile fatty acid
+T11	Metabolite 458 461	VFA
+T12	Food 736 746	dry matter
+T14	Measurement 590 601	body weight
+T16	DietPattern 640 651	high-starch
+T17	DietPattern 683 685	LS
+T18	DietPattern 667 677	low-starch
+T19	DietPattern 658 660	HS
+T20	Physiology 1226 1246	Ruminal fermentation
+T24	Microorganism 874 895	Propionibacterium P63
+T25	Microorganism 897 900	P63
+T26	Physiology 1146 1163	dry matter intake
+T27	Microorganism 945 951	P63+Lp
+T28	INCREASES 1443 1461	greater proportion
+T29	Microorganism 995 1001	P63+Lr
+T30	Microorganism 1015 1018	DFM
+T31	Metabolite 1052 1068	Methane emission
+T33	Physiology 1119 1144	total-tract digestibility
+T34	Physiology 569 584	milk production
+T35	Physiology 1169 1184	milk production
+T36	Metabolite 1422 1425	VFA
+T37	Metabolite 1465 1475	propionate
+T38	Metabolite 1494 1501	acetate
+T39	Metabolite 1506 1514	butyrate
+T40	Microorganism 1607 1627	methanogenic Archaea
+T41	DietPattern 1650 1657	HS diet
+T42	Microorganism 1671 1693	protozoa concentration
+T43	DietPattern 1697 1699	HS
+T44	DECREASES 1700 1709	decreased
+T45	Microorganism 200 231	bacterial direct-fed microbials
+T46	Microorganism 11 42	bacterial direct-fed microbials
+T47	AFFECTS 0 7	Effects
+T48	Microorganism 233 236	DFM
+T49	AFFECTS 189 196	effects
+T50	DietPattern 1523 1530	HS diet
+T51	INCREASES 1532 1539	Greater
+T52	Microorganism 1727 1740	bacterial DFM
+T53	Physiology 1764 1774	ruminal pH
+T54	INCREASES 1757 1763	raised
+T55	Microorganism 1845 1851	P63+Lp
+T56	Microorganism 1856 1862	P63+Lr
+T57	INCREASES 1863 1872	increased
+T58	Enzyme 1873 1890	ruminal cellulase
+T59	Microorganism 2058 2071	bacterial DFM
+T60	Metabolite 2075 2086	ruminal VFA
+T61	AFFECTS 2045 2054	no effect
+T62	DietPattern 2109 2116	LS diet
+T64	Microorganism 2142 2148	P63+Lr
+T65	DECREASES 2159 2167	decrease
+T66	Physiology 2168 2180	CH4 emission
+T67	IMPROVES 2496 2505	stabilize
+T68	Microorganism 2269 2272	P63
+T70	DietPattern 2305 2312	HS diet
+T71	AFFECTS 2313 2321	affected
+T72	Nutrient 2348 2355	milk FA
+T73	Physiology 2406 2430	ruminal biohydrogenation
+T74	Nutrient 2434 2452	polyunsaturated FA
+T75	Microorganism 2463 2476	bacterial DFM
+T76	Physiology 2506 2516	ruminal pH
+T77	ASSOCIATED_WITH 2581 2589	depended
+T78	Nutrient 2565 2572	milk FA
+T79	Microorganism 2593 2596	DFM
+T80	Microorganism 958 961	P63
+T81	Microorganism 967 993	Lactobacillus rhamnosus 32
+T82	Microorganism 907 910	P63
+T83	Microorganism 916 943	Lactobacillus plantarum 115
+T84	DECREASES 1483 1490	expense
+T85	Physiology 2535 2549	CH4 production
+E1	DECREASES:T44 Agent:T43 Theme:T42
+E2	AFFECTS:T47 Agent:T46 Theme:T1
+E3	AFFECTS:T47 Agent:T46 Theme:T2
+E4	AFFECTS:T47 Agent:T46 Theme:T3
+E5	AFFECTS:T49 Agent:T45 Theme:T6
+E6	AFFECTS:T49 Agent:T45 Theme:T7
+E7	AFFECTS:T49 Agent:T45 Theme:T8
+E8	INCREASES:T51 Agent:T41 Theme:T40
+E9	INCREASES:T54 Agent:T52 Theme:T53
+E10	INCREASES:T57 Theme:T58 Agent:T56
+E11	INCREASES:T57 Theme:T58 Agent:T55
+E12	AFFECTS:T61 Agent:T59 Theme:T60
+E13	DECREASES:T65 Theme:T66 Agent:T64
+E14	AFFECTS:T71 Theme:T72 Agent:T68
+E15	AFFECTS:T49 Agent:T45 Theme:T4
+E16	INCREASES:T28 Agent:T50 Theme:T37
+E17	DECREASES:T84 Agent:T50 Theme:T38
+E18	DECREASES:T84 Theme:T39 Agent:T50
+E19	IMPROVES:T67 Theme:T76 Agent:T75
+E20	ASSOCIATED_WITH:T77 Theme:T79 Theme2:T85
+E21	ASSOCIATED_WITH:T77 Theme:T79 Theme2:T78
+A1	Unknown E2
+A2	Unknown E3
+A3	Unknown E4
+A4	Unknown E5
+A5	Unknown E6
+A6	Unknown E7
+A7	Negated E12
+A8	Unknown E15
+A9	Factual E1
+A10	Factual E8
+A11	Factual E9
+A12	Factual E10
+A13	Factual E11
+A14	Factual E13
+A15	Factual E14
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19
+A20	Factual E20
+A21	Factual E21

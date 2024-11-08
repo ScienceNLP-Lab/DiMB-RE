@@ -1,0 +1,147 @@
+T1	Microorganism 11 27	propionibacteria
+T2	Physiology 102 111	digestion
+T4	Microorganism 32 45	yeast culture
+T5	Microorganism 137 166	Propionibacterium strain P169
+T6	Microorganism 175 188	yeast culture
+T7	Microorganism 168 172	P169
+T8	Microorganism 190 193	XPY
+T9	Physiology 257 266	digestion
+T10	Physiology 221 236	nutrient intake
+T11	Physiology 63 78	nutrient intake
+T15	Microorganism 974 977	XPY
+T16	DECREASES 988 996	decrease
+T17	Microorganism 1118 1121	XPY
+T18	INCREASES 1138 1146	increase
+T19	AFFECTS 0 7	Effects
+T20	AFFECTS 118 125	effects
+T21	Physiology 272 288	ruminal kinetics
+T22	Microorganism 540 544	P169
+T23	Microorganism 567 571	P169
+T24	Microorganism 605 608	XPY
+T25	Microorganism 631 634	XPY
+T26	Microorganism 662 672	P169 + XPY
+T27	Microorganism 695 699	P169
+T28	Microorganism 704 707	XPY
+T33	Physiology 997 1021	intake of organic matter
+T34	Physiology 1023 1043;997 1006	acid detergent fiber intake of
+T35	DECREASES 1056 1065	decreased
+T36	Physiology 1066 1099	intake of neutral detergent fiber
+T37	Physiology 1147 1190	total tract digestibility of organic matter
+T38	Nutrient 1195 1218	neutral detergent fiber
+T39	Nutrient 1224 1244	acid detergent fiber
+T40	Physiology 1246 1267	Ruminal digestibility
+T41	Physiology 1269 1282	duodenal flow
+T42	Physiology 1284 1305	microbial N synthesis
+T43	Physiology 1307 1327	microbial efficiency
+T44	AFFECTS 1369 1386	were not affected
+T45	Physiology 1343 1368	particulate passage rates
+T46	Physiology 1333 1338;1355 1368	fluid passage rates
+T47	Microorganism 1418 1422	P169
+T48	DECREASES 1433 1441	decrease
+T49	Metabolite 1462 1469	acetate
+T50	Metabolite 1501 1511	propionate
+T51	INCREASES 1471 1480	increased
+T52	DECREASES 1537 1545	decrease
+T53	Metabolite 1546 1570	acetate:propionate ratio
+T54	Microorganism 1621 1624	XPY
+T55	Microorganism 1628 1632	P169
+T56	Physiology 1636 1656	ruminal fermentation
+T57	AFFECTS 1601 1617	No other effects
+T58	AFFECTS 1714 1731	were not affected
+T59	Chemical 1691 1698	insulin
+T60	Chemical 1679 1686	glucose
+T61	Microorganism 1787 1791	P169
+T62	AFFECTS 1792 1798	alters
+T63	Physiology 1799 1817	ruminal metabolism
+T64	INCREASES 1825 1834	increased
+T65	Metabolite 1835 1845	propionate
+T66	Microorganism 1913 1916	XPY
+T67	INCREASES 1933 1941	increase
+T68	Physiology 1942 1982	total tract digestibilities of nutrients
+T69	AFFECTS 1846 1863	without affecting
+T70	Physiology 1864 1875	feed intake
+T71	Physiology 1879 1895	ruminal kinetics
+E1	DECREASES:T16 Agent:T15 Theme:T33
+E2	INCREASES:T18 Agent:T17 Theme:T37
+E3	AFFECTS:T19 Theme:T2 Agent:T1
+E4	AFFECTS:T19 Agent:T4 Theme:T2
+E5	AFFECTS:T20 Agent:T5 Theme:T10
+E6	AFFECTS:T20 Agent:T6 Theme:T10
+E7	AFFECTS:T20 Agent:T5 Theme:T9
+E8	AFFECTS:T20 Agent:T6 Theme:T9
+E9	DECREASES:T16 Agent:T15 Theme:T34
+E10	DECREASES:T35 Agent:T15 Theme:T36
+E11	INCREASES:T18 Agent:T17 Theme:T38
+E12	INCREASES:T18 Agent:T17 Theme:T39
+E13	AFFECTS:T44 Agent:T5 Theme:T40
+E14	AFFECTS:T44 Agent:T6 Theme:T40
+E15	DECREASES:T48 Agent:T47 Theme:T49
+E16	INCREASES:T51 Agent:T47 Theme:T50
+E17	DECREASES:T52 Agent:T47 Theme:T53
+E18	AFFECTS:T57 Theme:T56 Agent:T54
+E19	AFFECTS:T57 Theme:T56 Agent:T55
+E20	AFFECTS:T58 Theme:T60 Agent:T54
+E21	AFFECTS:T58 Theme:T60 Agent:T55
+E22	AFFECTS:T62 Theme:T63 Agent:T61
+E23	INCREASES:T64 Theme:T65 Agent:T61
+E24	INCREASES:T67 Theme:T68 Agent:T66
+E25	AFFECTS:T69 Agent:T61 Theme:T70
+E26	AFFECTS:T69 Agent:T61 Theme:T71
+E27	AFFECTS:T19 Agent:T4 Theme:T11
+E28	AFFECTS:T19 Agent:T1 Theme:T11
+E29	AFFECTS:T20 Agent:T6 Theme:T21
+E30	AFFECTS:T20 Agent:T5 Theme:T21
+E31	AFFECTS:T44 Theme:T41 Agent:T5
+E32	AFFECTS:T44 Theme:T41 Agent:T6
+E33	AFFECTS:T44 Theme:T42 Agent:T5
+E34	AFFECTS:T44 Theme:T42 Agent:T6
+E35	AFFECTS:T44 Theme:T43 Agent:T5
+E36	AFFECTS:T44 Theme:T43 Agent:T6
+E37	AFFECTS:T44 Theme:T46 Agent:T5
+E38	AFFECTS:T44 Theme:T46 Agent:T6
+E39	AFFECTS:T44 Theme:T45 Agent:T5
+E40	AFFECTS:T44 Theme:T45 Agent:T6
+E41	AFFECTS:T58 Theme:T59 Agent:T54
+E42	AFFECTS:T58 Theme:T59 Agent:T55
+A1	Unknown E5
+A2	Unknown E3
+A3	Unknown E4
+A4	Unknown E6
+A5	Unknown E7
+A6	Unknown E8
+A7	Negated E13
+A8	Negated E14
+A9	Negated E18
+A10	Negated E19
+A11	Negated E20
+A12	Negated E21
+A13	Negated E25
+A14	Negated E26
+A15	Unknown E27
+A16	Unknown E28
+A17	Unknown E29
+A18	Unknown E30
+A19	Negated E31
+A20	Negated E32
+A21	Negated E33
+A22	Negated E34
+A23	Negated E35
+A24	Negated E36
+A25	Negated E37
+A26	Negated E38
+A27	Negated E39
+A28	Negated E40
+A29	Negated E41
+A30	Negated E42
+A31	Factual E1
+A32	Factual E2
+A33	Factual E9
+A34	Factual E10
+A35	Factual E11
+A36	Factual E12
+A37	Factual E15
+A38	Factual E16
+A39	Factual E17
+A40	Factual E22
+A41	Factual E23
+A42	Factual E24

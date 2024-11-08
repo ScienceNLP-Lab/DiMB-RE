@@ -1,0 +1,128 @@
+T50	Food 982 989	formula
+T59	Food 601 611	cow’s milk
+T64	Disease 763 767	CMPA
+T65	Food 809 816	Formula
+T66	Food 866 888	hypoallergenic formula
+T68	Food 945 959	infant formula
+T70	Food 1135 1159	cow’s milk-based formula
+T71	Food 1174 1191	soy-based formula
+T72	Food 1206 1245	partially hydrolyzed cow’s milk formula
+T73	Food 1264 1293	hydrolyzed rice-based formula
+T74	Food 1295 1298	HRF
+T76	Food 1365 1368	EHF
+T78	Food 1399 1402	HRF
+T79	Food 1437 1440	AAF
+T81	DietPattern 1477 1503	complementary weaning diet
+T82	Physiology 1653 1664	weight gain
+T83	Food 1694 1701	formula
+T84	Measurement 1746 1757	body weight
+T85	Measurement 1914 1917	WAZ
+T86	Physiology 1971 1974	LAZ
+T87	Physiology 2022 2026	HCAZ
+T88	Physiology 2054 2058	HCAZ
+T89	Measurement 2071 2076	BMIAZ
+T90	Measurement 2149 2154	BMIAZ
+T93	Food 2256 2263	Formula
+T94	Food 2292 2299	formula
+T95	Food 2460 2467	formula
+T96	Food 2526 2533	formula
+T97	Disease 2740 2744	CMPA
+T101	Disease 4872 4886	skin disorders
+T102	Physiology 3214 3222	vomiting
+T103	Physiology 3300 3320	feeding difficulties
+T104	Disease 3418 3431	skin problems
+T106	Physiology 3507 3527	respiratory symptoms
+T108	Physiology 3601 3632	Persistent respiratory symptoms
+T109	Physiology 3139 3152	regurgitation
+T110	Disease 5276 5290	dacryostenosis
+T114	Physiology 3897 3912	stool frequency
+T115	Physiology 3974 3989	stool frequency
+T116	Physiology 4051 4068	Stool consistency
+T117	Measurement 4089 4108	Bristol stool scale
+T118	Physiology 4133 4150	stool consistency
+T119	Physiology 4166 4187	Bristol type 6 stools
+T120	Physiology 4247 4260	type 5 stools
+T121	Physiology 4316 4329	type 4 stools
+T122	Disease 4895 4912	atopic dermatitis
+T123	Disease 4961 4982	respiratory disorders
+T124	Disease 5018 5044	allergic reactions to food
+T125	Disease 5071 5082	anaphylaxis
+T126	Physiology 5713 5723	flatulence
+T128	Physiology 5313 5329	poor weight gain
+T129	Disease 5339 5358	perforated ear drum
+T130	Disease 5368 5383	iron deficiency
+T131	Food 5573 5586	study formula
+T132	Food 4636 4649	study formula
+T133	Disease 5646 5669	gastroesophageal reflux
+T134	Physiology 5699 5711	loose stools
+T141	DiversityMetric 6332 6337;6347 6356	Alpha Diversity
+T142	DiversityMetric 6342 6356	Beta Diversity
+T143	DiversityMetric 6357 6367	Faith’s PD
+T144	DiversityMetric 6397 6412	alpha diversity
+T145	DiversityMetric 6486 6496	Faith’s PD
+T146	DiversityMetric 6581 6583	PD
+T147	DiversityMetric 6652 6666	beta diversity
+T149	DiversityMetric 6914 6928	beta diversity
+T152	Metabolite 9468 9476	butyrate
+T153	Microorganism 7346 7360	Actinobacteria
+T154	Microorganism 7377 7391	bifidobacteria
+T155	Microorganism 7505 7519	Proteobacteria
+T156	Microorganism 7695 7713	Enterobacteriaceae
+T157	Microorganism 7919 7933	bifidobacteria
+T158	Microorganism 8067 8082	Escherichia spp
+T159	Microorganism 8239 8254	Akkermansia spp
+T160	Microorganism 8455 8475	Faecalibacterium spp
+T161	Microorganism 8505 8518	Roseburia spp
+T162	Microorganism 8546 8561	Bacteroides spp
+T163	Microorganism 8593 8607	Prevotella spp
+T164	Microorganism 8738 8748	Rothia spp
+T165	Microorganism 8778 8792	Klebsiella spp
+T166	Microorganism 8821 8837	Enterococcus spp
+T167	Microorganism 8866 8883	Streptococcus spp
+T168	Microorganism 8917 8932	Citrobacter spp
+T169	Microorganism 9128 9143	bifidobacterial
+T170	Microorganism 9199 9215	Escherichia coli
+T171	Microorganism 9326 9349	Akkermansia muciniphila
+T172	Microorganism 9539 9567	Faecalibacterium prausnitzii
+T173	Microorganism 9720 9735	Bifidobacterial
+T175	Microorganism 9809 9824	Bifidobacterium
+T177	Microorganism 9880 9888	B. breve
+T178	Microorganism 9890 9899	B. longum
+T179	Microorganism 9901 9921	B. pseudocatenulatum
+T180	Microorganism 9927 9937	B. bifidum
+T181	Microorganism 9961 9976	bifidobacterial
+T182	Microorganism 10054 10074	B. pseudocatenulatum
+T183	Microorganism 10091 10127	B. catenulatum subsp. kashiwanohense
+T184	Microorganism 10269 10277	B. breve
+T185	Microorganism 10436 10451	Bifidobacterium
+T191	Microorganism 11003 11018	bifidobacterial
+T192	Microorganism 11139 11153	bifidobacteria
+T194	Microorganism 11155 11163	B. breve
+T195	Microorganism 11165 11175	B. bifidum
+T196	Microorganism 11177 11200	B. longum subsp. longum
+T197	Microorganism 11205 11230	B. longum subsp. infantis
+T198	Microorganism 11260 11291	proteobacterium Escherichia spp
+T200	Microorganism 11393 11414	Lachnoclostridium spp
+T201	Microorganism 11481 11510	Proteobacteria Klebsiella spp
+T202	Microorganism 11555 11570	Escherichia spp
+T204	Microorganism 11646 11661	Bacteroides spp
+T205	Microorganism 11733 11750	Streptococcus spp
+T206	Microorganism 11753 11768	Escherichia spp
+T207	Microorganism 11775 11785	Rothia spp
+T208	Metabolite 11808 11830	Short-Chain Fatty Acid
+T211	Metabolite 11872 11876	SCFA
+T212	Metabolite 11878 11885	acetate
+T213	Metabolite 11887 11897	propionate
+T214	Metabolite 11903 11911	butyrate
+T215	Metabolite 12017 12024	acetate
+T216	Microorganism 12060 12074	bifidobacteria
+T217	Metabolite 12142 12150	butyrate
+T218	Metabolite 12203 12213	propionate
+T219	Food 1063 1071	formulas
+T221	INCREASES 9477 9486	producing
+T222	Microorganism 9639 9658	Anaerostipes caccae
+T5511	Disease 423 427	CMPA
+E2	INCREASES:T221 Agent:T172 Theme:T152
+E13	INCREASES:T221 Theme:T152 Agent:T222
+A7	Factual E2
+A13	Factual E13

@@ -1,0 +1,386 @@
+T1	Food 49 87	whole plant of Andrographis paniculata
+T2	Food 38 44;61 87	leaves of Andrographis paniculata
+T3	Physiology 91 109	rumen fermentation
+T4	Chemical 111 133	fatty acid composition
+T5	Population 152 157	goats
+T6	AFFECTS 0 7	Effects
+T7	Physiology 243 261	rumen fermentation
+T8	Physiology 266 288	nutrient digestibility
+T9	Population 292 301	ruminants
+T10	Physiology 327 349	nutrient digestibility
+T11	Physiology 354 370	rumen metabolism
+T12	Food 394 417	Andrographis paniculata
+T13	Nutrient 419 421	AP
+T14	Population 426 431	goats
+T15	Food 507 513;524 535	leaves plant of AP
+T16	Food 518 535	whole plant of AP
+T17	Physiology 539 561	nutrient digestibility
+T18	Physiology 563 581	rumen fermentation
+T19	Chemical 583 594	fatty acids
+T20	Population 629 634	goats
+T21	AFFECTS 469 476	effects
+T22	DietPattern 840 850	Basal diet
+T23	Population 648 668	Boer crossbred bucks
+T24	Measurement 692 703	body weight
+T25	Population 780 785	goats
+T26	Chemical 1583 1588	C18:0
+T27	Nutrient 1357 1370	crude protein
+T28	Physiology 14629 14651	nutrient digestibility
+T29	Food 893 928	Andrographis paniculata leaf powder
+T30	Food 1372 1382	dry matter
+T31	Food 962 1004	Andrographis paniculata whole plant powder
+T32	Food 1006 1009	APW
+T33	Nutrient 1389 1404	detergent fibre
+T34	Nutrient 1409 1432	neutral detergent fibre
+T35	AFFECTS 1821 1842	no significant effect
+T36	Chemical 1656 1664	C18:3n-3
+T37	AFFECTS 1821 1842	no significant effect
+T38	Physiology 14652 14669	Dry matter intake
+T39	Physiology 14674 14696	nutrient digestibility
+T40	Food 14792 14815	Andrographis paniculata
+T41	Population 14746 14751	goats
+T42	Physiology 14935 14951	DM digestibility
+T43	Physiology 15004 15026	Nutrient digestibility
+T44	Nutrient 15034 15047	Crude protein
+T45	Nutrient 15097 15110	Ether extract
+T46	Measurement 15158 15178	Acid detergent fibre
+T47	Nutrient 15228 15251	Neutral detergent fibre
+T48	Food 15349 15384	Andrographis paniculata leaf powder
+T49	Food 15386 15389	APW
+T50	Food 15413 15458	whole plant of Andrographis paniculata powder
+T51	Physiology 15546 15568	nutrient digestibility
+T52	Physiology 15496 15513	Dry matter intake
+T53	Physiology 15496 15506;15518 15531	Dry matter digestibility
+T54	Population 15585 15590	goats
+T55	Microorganism 599 625	rumen microbial population
+T56	Food 15713 15716	APL
+T57	Food 15721 15724	APW
+T58	AFFECTS 316 323	changes
+T59	Physiology 1077 1085	rumen pH
+T60	Metabolite 1107 1117	propionate
+T61	INCREASES 1123 1130	greater
+T62	Population 15725 15730	goats
+T63	Food 1159 1162	APL
+T64	Food 1167 1170	APW
+T65	Chemical 1728 1742	C18:1 trans-11
+T66	Metabolite 1253 1260	acetate
+T67	Food 1315 1318	APL
+T68	Food 1323 1326	APW
+T69	Population 15748 15753	goats
+T70	INCREASES 1438 1445	greater
+T71	Food 1464 1467	APL
+T72	Food 1472 1475	APW
+T73	Physiology 15643 15664	digestibilities of DM
+T74	Population 1476 1481	goats
+T75	Food 1521 1524	APL
+T76	Food 1529 1532	APW
+T77	DECREASES 1533 1542	decreased
+T78	INCREASES 1593 1602	increased
+T79	Population 1674 1679	goats
+T80	Food 1670 1673	APL
+T81	INCREASES 1684 1691	greater
+T82	Physiology 15643 15661;15666 15668	digestibilities of CP
+T83	Chemical 1643 1651	C18:2n-6
+T84	Physiology 15643 15661;15670 15673	digestibilities of NDF
+T85	Metabolite 1747 1765	CLA cis-9 trans-11
+T86	Food 1775 1778	APW
+T87	Population 1791 1796	goats
+T88	Microorganism 1864 1872	protozoa
+T89	Physiology 15643 15661;15678 15681	digestibilities of ADF
+T90	Microorganism 1877 1888	methanogens
+T91	Microorganism 1939 1957	Ruminococcus albus
+T92	Microorganism 1959 1984	Ruminococcus flavefaciens
+T93	Microorganism 1989 2013	Fibrobacter succinogenes
+T94	INCREASES 2019 2026	greater
+T95	Food 2045 2048	APL
+T96	Nutrient 15763 15765	AP
+T97	Food 2053 2056	APW
+T98	Population 2057 2062	goats
+T99	Food 2125 2131;2148 2174	leaves of Andrographis paniculata
+T100	Food 2136 2174	whole plant of Andrographis paniculata
+T101	IMPROVES 2222 2230	improved
+T102	Physiology 2231 2253	nutrient digestibility
+T103	Population 2257 2262	goats
+T104	Physiology 2201 2217	rumen metabolism
+T105	AFFECTS 2190 2200	manipulate
+T106	IMPROVES 15687 15694	greater
+T107	Population 1327 1332	goats
+T108	Physiology 1338 1356;1384 1404	digestibilities of acid detergent fibre
+T109	Physiology 1338 1356;1409 1432	digestibilities of neutral detergent fibre
+T110	Physiology 1338 1356;1372 1382	digestibilities of dry matter
+T111	Physiology 1338 1370	digestibilities of crude protein
+T112	Measurement 14876 14879	DMI
+T113	Measurement 15806 15809	DMI
+T114	Physiology 15814 15841	ether extract digestibility
+T115	AFFECTS 15770 15791	no significant effect
+T116	Physiology 15853 15871	Rumen fermentation
+T117	Physiology 15872 15890	Rumen fermentation
+T118	Population 15949 15954	goats
+T119	Food 15995 16018	Andrographis paniculata
+T120	Physiology 16078 16080	pH
+T121	Metabolite 16126 16133	Ammonia
+T122	Metabolite 16198 16201	VFA
+T123	Metabolite 16253 16260	Acetate
+T124	Metabolite 16314 16324	Propionate
+T125	Metabolite 16378 16386	Butyrate
+T126	Metabolite 16435 16453	Acetate/Propionate
+T127	Food 16521 16524	APL
+T128	Food 16548 16583	Andrographis paniculata leaf powder
+T129	Food 16585 16588	APW
+T130	Food 16612 16657	whole plant of Andrographis paniculata powder
+T131	Physiology 16699 16717	rumen fermentation
+T132	Population 16732 16737	goats
+T133	Physiology 16794 16802	rumen pH
+T134	Population 16839 16844	goats
+T135	Population 16866 16871	goats
+T136	Food 16854 16857	APL
+T137	Food 16862 16865	APW
+T138	Metabolite 16919 16943	acetate/propionate ratio
+T139	Food 17006 17009	APL
+T140	Food 17014 17017	APW
+T141	Population 17018 17023	goats
+T142	Metabolite 16894 16910	ammonia nitrogen
+T143	Metabolite 17083 17090	acetate
+T144	Metabolite 17129 17139	propionate
+T145	Food 17149 17152	APL
+T146	Food 17157 17160	APW
+T147	Population 17161 17166	goats
+T148	Nutrient 17176 17178	AP
+T149	Metabolite 17232 17235	VFA
+T150	Metabolite 17240 17248	butyrate
+T151	AFFECTS 17179 17193	did not affect
+T152	Population 17265 17270	goats
+T153	Physiology 17256 17261	rumen
+T154	Metabolite 1232 1248	ammonia nitrogen
+T155	Chemical 17273 17295	Fatty acid composition
+T156	Physiology 17299 17304	rumen
+T157	Chemical 17312 17334	Fatty acid composition
+T158	Physiology 17384 17389	rumen
+T159	Population 17400 17405	goats
+T160	Food 17429 17452	Andrographis paniculata
+T161	Food 18487 18490	APL
+T162	Food 18514 18549	Andrographis paniculata leaf powder
+T163	Food 18551 18554	APW
+T164	Food 18578 18623	whole plant of Andrographis paniculata powder
+T165	Chemical 18809 18831	fatty acid composition
+T166	Population 18851 18856	goats
+T167	Food 18880 18903	Andrographis paniculata
+T168	Chemical 17529 17534	C10:0
+T169	Chemical 17579 17584	C12:0
+T170	Chemical 17630 17635	C14:0
+T171	Chemical 17680 17685	C14:1
+T172	Chemical 17730 17735	C15:0
+T173	Chemical 17779 17784	C15:1
+T174	Chemical 17829 17834	C16:0
+T175	Chemical 17881 17886	C16:1
+T176	Chemical 17932 17937	C17:0
+T177	Chemical 17981 17986	C18:0
+T178	Chemical 18035 18043	C18:1n-9
+T179	Chemical 18087 18099	C18:1trans11
+T180	Metabolite 18144 18162	CLA cis-9 trans-11
+T181	Chemical 18207 18215	C18:2n-6
+T182	Chemical 18259 18267	C18:3n-3
+T183	Nutrient 18314 18317	SFA
+T184	Metabolite 18364 18367	UFA
+T185	Metabolite 17454 17464	Fatty acid
+T186	Chemical 18948 18953	C10:0
+T187	Chemical 18955 18960	C14:0
+T188	Chemical 18965 18970	C15:1
+T189	Physiology 18978 18983	rumen
+T190	Food 19055 19058	APL
+T191	Population 19059 19064	goats
+T192	Food 19070 19073	APW
+T193	Population 19074 19079	goats
+T194	Chemical 19116 19121	C10:0
+T195	Chemical 19123 19128	C14:0
+T196	Chemical 19133 19138	C15:1
+T197	Nutrient 19190 19192	AP
+T198	Chemical 19241 19246	C15:0
+T199	Chemical 19248 19253	C16:0
+T200	Chemical 19255 19260	C17:0
+T201	Chemical 19265 19273	C18:1n-9
+T202	AFFECTS 19197 19218	no significant effect
+T203	Physiology 19281 19286	rumen
+T204	Population 19290 19295	goats
+T205	Population 19156 19161	goats
+T206	Food 19367 19370	APL
+T207	Food 19375 19378	APW
+T208	Population 19379 19384	goats
+T209	Population 19309 19314	goats
+T210	Chemical 19352 19357	C18:0
+T211	Chemical 19405 19417	C18:1trans11
+T212	Metabolite 19422 19440	CLA cis-9 trans-11
+T213	Food 19454 19457	APL
+T214	Food 19518 19521	APW
+T215	INCREASES 19468 19475	greater
+T216	Food 19545 19548	APW
+T217	Population 19549 19554	goats
+T218	Chemical 19582 19594	C18:1trans11
+T219	Metabolite 19599 19617	CLA cis-9 trans-11
+T220	AFFECTS 19555 19578	had similar percentages
+T221	Chemical 19679 19687	C18:2n-6
+T222	Chemical 19692 19700	C18:3n-3
+T223	Food 19623 19626	APL
+T224	Food 19631 19634	APW
+T225	INCREASES 19645 19652	greater
+T226	Chemical 19739 19762	unsaturated fatty acids
+T227	Nutrient 19802 19823	saturated fatty acids
+T228	Food 19869 19872	APW
+T229	INCREASES 19767 19774	greater
+T230	DECREASES 19845 19850	lower
+T231	Physiology 19725 19732	Ruminal
+T232	Physiology 19912 19917	Rumen
+T233	Physiology 19940 19945	Rumen
+T234	Population 20013 20018	goats
+T235	Food 20059 20082	Andrographis paniculata
+T236	Microorganism 20284 20302	Ruminococcus albus
+T237	Microorganism 20229 20240	methanogens
+T238	Microorganism 20348 20373	Ruminococcus flavefaciens
+T239	Microorganism 20419 20443	Fibrobacter succinogenes
+T240	Microorganism 20495 20503	protozoa
+T241	Food 20569 20572	APL
+T242	Food 20596 20631	Andrographis paniculata leaf powder
+T243	Food 20633 20636	APW
+T244	Food 20660 20705	whole plant of Andrographis paniculata powder
+T245	Physiology 20759 20764	rumen
+T246	Nutrient 20817 20819	AP
+T247	Nutrient 20853 20855	AP
+T248	Microorganism 20904 20912	protozoa
+T249	Microorganism 20914 20925	methanogens
+T250	AFFECTS 20860 20881	no significant effect
+T251	Physiology 20952 20957	rumen
+T252	Population 20961 20966	goats
+T253	Microorganism 20987 21005	Ruminococcus albus
+T254	Microorganism 21007 21032	Ruminococcus flavefaciens
+T255	Microorganism 21037 21061	Fibrobacter succinogenes
+T256	Food 21093 21096	APW
+T257	Food 21101 21104	APL
+T258	INCREASES 21067 21074	greater
+T259	DietPattern 15310 15320	basal diet
+T260	DietPattern 15326 15336	basal diet
+T261	DietPattern 15390 15400	basal diet
+T262	DietPattern 16509 16519	basal diet
+T263	DietPattern 16525 16535	basal diet
+T264	DietPattern 16589 16599	basal diet
+T265	Food 930 933	APL
+T266	DietPattern 870 880	basal diet
+T267	DietPattern 939 949	basal diet
+T268	Food 15322 15325	APL
+T269	DietPattern 18475 18485	basal diet
+T270	DietPattern 18491 18501	basal diet
+T271	DietPattern 18555 18565	basal diet
+T272	DietPattern 20557 20567	basal diet
+T273	DietPattern 20573 20583	basal diet
+T274	DietPattern 20637 20647	basal diet
+E1	AFFECTS:T6 Theme:T4 Agent:T2
+E2	AFFECTS:T6 Theme:T4 Agent:T1
+E3	AFFECTS:T21 Agent:T15 Theme:T17
+E4	AFFECTS:T21 Agent:T16 Theme:T17
+E5	INCREASES:T61 Agent:T64 Theme:T59
+E6	INCREASES:T61 Agent:T63 Theme:T59
+E7	AFFECTS:T21 Agent:T16 Theme:T18
+E8	AFFECTS:T21 Agent:T16 Theme:T19
+E9	AFFECTS:T21 Agent:T16 Theme:T55
+E10	AFFECTS:T21 Agent:T15 Theme:T18
+E11	AFFECTS:T21 Agent:T15 Theme:T19
+E12	AFFECTS:T21 Agent:T15 Theme:T55
+E13	AFFECTS:T58 Theme:T10 Agent:T12
+E14	AFFECTS:T58 Theme:T11 Agent:T12
+E15	INCREASES:T70 Agent:T72 Theme:T111
+E16	INCREASES:T61 Theme:T60 Agent:T63
+E17	INCREASES:T61 Theme:T60 Agent:T64
+E18	INCREASES:T70 Agent:T72 Theme:T110
+E19	DECREASES:T77 Agent:T75 Theme:T26
+E20	INCREASES:T78 Agent:T75 Theme:T36
+E21	INCREASES:T81 Agent:T80 Theme:T65
+E22	DECREASES:T77 Agent:T76 Theme:T26
+E23	INCREASES:T78 Agent:T76 Theme:T83
+E24	AFFECTS:T37 Agent:T86 Theme:T90
+E25	AFFECTS:T35 Agent:T86 Theme:T88
+E26	INCREASES:T94 Theme:T93 Agent:T95
+E27	INCREASES:T94 Theme:T93 Agent:T97
+E28	IMPROVES:T101 Theme:T102 Agent:T99
+E29	AFFECTS:T105 Theme:T104 Agent:T99
+E30	IMPROVES:T101 Theme:T102 Agent:T100
+E31	AFFECTS:T105 Theme:T104 Agent:T100
+E32	INCREASES:T70 Agent:T72 Theme:T108
+E33	INCREASES:T70 Agent:T72 Theme:T109
+E34	INCREASES:T78 Theme:T36 Agent:T76
+E35	AFFECTS:T35 Agent:T80 Theme:T90
+E36	AFFECTS:T35 Agent:T80 Theme:T88
+E37	INCREASES:T70 Agent:T71 Theme:T111
+E38	INCREASES:T70 Agent:T71 Theme:T110
+E39	INCREASES:T70 Agent:T71 Theme:T108
+E40	INCREASES:T70 Agent:T71 Theme:T109
+E41	INCREASES:T78 Agent:T75 Theme:T83
+E42	INCREASES:T94 Agent:T97 Theme:T92
+E43	INCREASES:T94 Agent:T95 Theme:T92
+E44	INCREASES:T94 Agent:T95 Theme:T91
+E45	INCREASES:T94 Agent:T97 Theme:T91
+E46	INCREASES:T81 Theme:T85 Agent:T80
+E47	IMPROVES:T106 Agent:T57 Theme:T73
+E48	IMPROVES:T106 Agent:T56 Theme:T73
+E49	IMPROVES:T106 Agent:T56 Theme:T89
+E50	IMPROVES:T106 Agent:T57 Theme:T89
+E51	IMPROVES:T106 Agent:T56 Theme:T84
+E52	IMPROVES:T106 Agent:T57 Theme:T84
+E53	IMPROVES:T106 Agent:T57 Theme:T82
+E54	IMPROVES:T106 Agent:T56 Theme:T82
+E55	AFFECTS:T115 Agent:T96 Theme:T113
+E56	AFFECTS:T115 Theme:T114 Agent:T96
+E57	AFFECTS:T151 Agent:T148 Theme:T149
+E58	AFFECTS:T151 Theme:T150 Agent:T148
+E59	AFFECTS:T202 Agent:T197 Theme:T198
+E60	AFFECTS:T202 Agent:T197 Theme:T199
+E61	AFFECTS:T202 Agent:T197 Theme:T200
+E62	AFFECTS:T202 Agent:T197 Theme:T201
+E63	INCREASES:T215 Agent:T213 Theme:T212
+E64	INCREASES:T215 Agent:T213 Theme:T211
+E65	AFFECTS:T220 Agent:T216 Theme:T218
+E66	AFFECTS:T220 Agent:T216 Theme:T219
+E67	INCREASES:T225 Agent:T224 Theme:T221
+E68	INCREASES:T225 Agent:T224 Theme:T222
+E69	INCREASES:T225 Agent:T223 Theme:T221
+E70	INCREASES:T225 Agent:T223 Theme:T222
+E71	INCREASES:T229 Agent:T228 Theme:T226
+E72	DECREASES:T230 Agent:T228 Theme:T227
+E73	AFFECTS:T250 Agent:T247 Theme:T248
+E74	AFFECTS:T250 Agent:T247 Theme:T249
+E75	INCREASES:T258 Agent:T256 Theme:T255
+E76	INCREASES:T258 Agent:T256 Theme:T254
+E77	INCREASES:T258 Agent:T256 Theme:T253
+E78	INCREASES:T258 Agent:T257 Theme:T255
+E79	INCREASES:T258 Agent:T257 Theme:T254
+E80	INCREASES:T258 Agent:T257 Theme:T253
+E81	AFFECTS:T6 Agent:T1 Theme:T3
+E82	AFFECTS:T6 Agent:T2 Theme:T3
+A1	Factuality E1 Unknown
+A2	Factuality E2 Unknown
+A3	Factuality E3 Unknown
+A4	Factuality E4 Unknown
+A5	Factuality E7 Unknown
+A6	Factuality E8 Unknown
+A7	Factuality E9 Unknown
+A8	Factuality E10 Unknown
+A9	Factuality E11 Unknown
+A10	Factuality E12 Unknown
+A11	Factuality E35 Negated
+A12	Factuality E36 Negated
+A13	Factuality E24 Negated
+A14	Factuality E13 Unknown
+A15	Factuality E14 Unknown
+A16	Factuality E25 Negated
+A17	Factuality E55 Negated
+A18	Factuality E56 Negated
+A19	Factuality E57 Negated
+A20	Factuality E58 Negated
+A21	Factuality E59 Negated
+A22	Factuality E60 Negated
+A23	Factuality E61 Negated
+A24	Factuality E62 Negated
+A25	Factuality E65 Negated
+A26	Factuality E66 Negated
+A27	Factuality E73 Negated
+A28	Factuality E74 Negated
+A29	Factuality E81 Unknown
+A30	Factuality E82 Unknown

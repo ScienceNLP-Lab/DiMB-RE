@@ -1,0 +1,56 @@
+T1	Nutrient 69 82	Dietary Fibre
+T2	Disease 96 116	Hypercholesterolemia
+T3	Measurement 220 240	blood lipid profiles
+T4	Nutrient 256 261	fibre
+T5	Nutrient 340 345	fibre
+T6	Nutrient 360 369;396 401	insoluble fibre
+T7	Nutrient 371 378;396 401	soluble fibre
+T8	Nutrient 384 401	antioxidant fibre
+T9	Disease 465 485	hypercholesterolemia
+T11	Measurement 534 553	blood lipid profile
+T12	Nutrient 632 637	fibre
+T13	INCREASES 647 655	increase
+T14	Microorganism 676 691	Bifidobacterium
+T15	NEG_ASSOCIATED_WITH 724 744	inverse relationship
+T16	Metabolite 753 774	faecal propionic acid
+T17	Chemical 779 800	blood LDL-cholesterol
+T18	Measurement 802 819	LDL particle size
+T19	Measurement 825 847	LDL/HDL particle ratio
+T20	Measurement 970 983	lipid profile
+T21	Nutrient 1007 1012	fibre
+T22	DiversityMetric 1066 1073	Shannon
+T23	DiversityMetric 1078 1101	Simpson diversity index
+T24	DECREASES 1181 1190	reduction
+T25	Metabolite 1194 1217	short-chain fatty acids
+T26	Metabolite 1219 1224	SCFAs
+T27	Microorganism 1261 1277	Clostridium XIVa
+T28	Microorganism 1282 1294	Ruminococcus
+T29	Nutrient 1309 1314	fibre
+T30	DECREASES 1032 1040	decrease
+T31	Nutrient 1406 1411	fibre
+T32	Metabolite 1484 1488	SCFA
+T33	Nutrient 1546 1551	fibre
+T34	AFFECTS 241 247	due to
+T35	INCREASES 1226 1235	producing
+E1	INCREASES:T13 Agent:T12 Theme:T14
+E2	NEG_ASSOCIATED_WITH:T15 Agent:T16 Theme:T17
+E3	NEG_ASSOCIATED_WITH:T15 Agent:T16 Theme:T18
+E4	NEG_ASSOCIATED_WITH:T15 Agent:T16 Theme:T19
+E5	DECREASES:T24 Agent:T29 Theme:T28
+E6	DECREASES:T30 Agent:T21 Theme:T22
+E7	DECREASES:T30 Agent:T21 Theme:T23
+E8	DECREASES:T24 Agent:T29 Theme:T27
+E9	AFFECTS:T34 Agent:T4 Theme:T3
+E10	INCREASES:T35 Agent:T27 Theme:T25
+E11	INCREASES:T35 Agent:T28 Theme:T25
+A1	Unknown E9
+A2	Factual E1
+A3	Factual E2
+A4	Factual E3
+A5	Factual E4
+A6	Factual E5
+A7	Factual E6
+A8	Factual E7
+A9	Factual E8
+A10	Factual E10
+A11	Factual E11

@@ -1,0 +1,108 @@
+T1	DietPattern 1246 1260	lower-fat diet
+T2	Metabolite 17 36	secondary bile acid
+T3	Metabolite 0 12;27 36	Unconjugated bile acid
+T4	DietPattern 61 96	higher-fat, lower-carbohydrate diet
+T5	Methodology 151 186	randomized controlled-feeding trial
+T6	DietPattern 246 288	diets high in fat and low in dietary fiber
+T7	Nutrient 275 288	dietary fiber
+T8	Metabolite 1262 1275	Secondary BAs
+T9	Metabolite 326 335	bile acid
+T10	Metabolite 337 339	BA
+T11	AFFECTS 371 377	affect
+T12	Physiology 383 405	cardiometabolic health
+T13	Nutrient 465 476	dietary fat
+T14	Metabolite 488 490	BA
+T15	Metabolite 1285 1301	deoxycholic acid
+T16	AFFECTS 454 461	effects
+T17	ASSOCIATED_WITH 541 551	correlates
+T18	Physiology 557 585	cardiometabolic risk factors
+T19	Methodology 601 636	randomized controlled-feeding trial
+T20	Population 638 658	healthy young adults
+T21	DietPattern 702 716	lower-fat diet
+T22	Nutrient 718 721	fat
+T23	Nutrient 727 739	carbohydrate
+T24	Nutrient 748 755	protein
+T25	DietPattern 764 781	moderate-fat diet
+T26	Nutrient 783 786	fat
+T27	Nutrient 792 804	carbohydrate
+T28	Nutrient 813 820	protein
+T29	DietPattern 832 847	higher-fat diet
+T30	Nutrient 849 852	fat
+T31	Nutrient 858 870	carbohydrate
+T32	Nutrient 879 886	protein
+T34	Metabolite 977 979	BA
+T35	Physiology 1031 1059	cardiometabolic risk factors
+T37	DietPattern 1120 1135	higher-fat diet
+T38	INCREASES 1151 1159	elevated
+T39	Metabolite 1177 1186	total BAs
+T40	Metabolite 1303 1306	DCA
+T41	Metabolite 1204 1220	unconjugated BAs
+T42	Metabolite 1309 1330	taurodeoxycholic acid
+T43	Metabolite 1332 1336	TDCA
+T44	Metabolite 1339 1361	12ketolithocholic acid
+T45	Metabolite 1363 1373	12keto-LCA
+T46	Metabolite 1376 1382	3β-DCA
+T47	Metabolite 1387 1408	taurolithocholic acid
+T48	Metabolite 1410 1414	TLCA
+T49	INCREASES 1467 1476	increased
+T50	DietPattern 1484 1499	higher-fat diet
+T52	Microorganism 1584 1595	Bacteroides
+T53	Microorganism 1597 1608	Clostridium
+T54	Microorganism 1610 1625	Bifidobacterium
+T55	Microorganism 1630 1643	Lactobacillus
+T56	AFFECTS 1651 1657	affect
+T57	Enzyme 1658 1677	bile salt hydrolase
+T58	INCREASES 1713 1722	increased
+T59	DietPattern 1729 1751	higher-fat consumption
+T60	Metabolite 1767 1770	DCA
+T61	POS_ASSOCIATED_WITH 1775 1796	positively associated
+T62	Microorganism 1828 1839	Bacteroides
+T63	Biospecimen 1911 1916	fecal
+T64	Metabolite 1935 1938	DCA
+T65	Metabolite 1943 1953	12keto-LCA
+T66	POS_ASSOCIATED_WITH 1959 1980	positively associated
+T67	Chemical 1986 2009	serum total cholesterol
+T68	Chemical 2109 2142	serum fibroblast growth factor 19
+T69	Chemical 2144 2149	FGF19
+T70	INCREASES 2180 2188	elevated
+T72	DietPattern 2196 2206	higher-fat
+T73	DietPattern 2261 2276	higher-fat diet
+T74	AFFECTS 2292 2302	alteration
+T75	Metabolite 2306 2309	BAs
+T76	Metabolite 2322 2338	unconjugated BAs
+T77	Metabolite 2343 2356	secondary BAs
+T78	Physiology 2488 2510	cardiometabolic health
+T79	AFFECTS 2460 2467	impacts
+T80	Physiology 2471 2478;2504 2510	colonic health
+T81	Population 2514 2534	healthy young adults
+E1	AFFECTS:T11 Theme:T12 Agent:T9
+E2	AFFECTS:T16 Agent:T13 Theme:T14
+E3	ASSOCIATED_WITH:T17 Theme:T18 Theme2:T14
+E4	INCREASES:T58 Theme:T52 Agent:T59
+E5	INCREASES:T38 Agent:T37 Theme:T39
+E6	INCREASES:T38 Agent:T37 Theme:T41
+E7	INCREASES:T49 Agent:T50 Theme:T47
+E8	INCREASES:T49 Agent:T50 Theme:T46
+E9	INCREASES:T49 Agent:T50 Theme:T44
+E10	INCREASES:T49 Agent:T50 Theme:T42
+E11	INCREASES:T49 Agent:T50 Theme:T15
+E12	AFFECTS:T56 Theme:T57 Agent:T55
+E13	INCREASES:T58 Agent:T59 Theme:T55
+E14	AFFECTS:T56 Theme:T57 Agent:T54
+E15	AFFECTS:T56 Theme:T57 Agent:T53
+E16	AFFECTS:T56 Theme:T57 Agent:T52
+E17	POS_ASSOCIATED_WITH:T61 Agent:T60 Theme:T62
+E18	POS_ASSOCIATED_WITH:T66 Theme:T67 Agent:T65
+E19	POS_ASSOCIATED_WITH:T66 Theme:T67 Agent:T64
+E20	INCREASES:T70 Agent:T72 Theme:T68
+E21	AFFECTS:T74 Agent:T73 Theme:T76
+E22	AFFECTS:T74 Agent:T73 Theme:T77
+E23	AFFECTS:T79 Agent:T76 Theme:T80
+E24	AFFECTS:T79 Agent:T77 Theme:T80
+E25	AFFECTS:T79 Agent:T76 Theme:T78
+E26	AFFECTS:T79 Agent:T77 Theme:T78
+E27	INCREASES:T58 Theme:T53 Agent:T59
+E28	INCREASES:T58 Theme:T54 Agent:T59
+A1	Factuality E1 Possible
+A2	Factuality E2 Unknown
+A3	Factuality E3 Unknown

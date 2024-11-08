@@ -1,0 +1,113 @@
+T1	Nutrient 31 57	Spray-Dried Porcine Plasma
+T2	AFFECTS 345 352	effects
+T3	Nutrient 142 168	spray-dried porcine plasma
+T4	Nutrient 170 173	SDP
+T5	IMPROVES 175 182	reduces
+T6	Physiology 187 221	Alzheimer’s disease (AD) hallmarks
+T7	Disease 208 210	AD
+T8	Population 225 235	SAMP8 mice
+T9	AFFECTS 20 27	Effects
+T10	Disease 290 292	AD
+T11	Nutrient 356 359	SDP
+T12	AFFECTS 1608 1615	effects
+T13	Population 429 453	two-month-old SAMP8 mice
+T14	Population 481 505	six-month-old SAMP8 mice
+T15	Disease 187 206	Alzheimer’s disease
+T16	Nutrient 907 910	SDP
+T17	Nutrient 1010 1013	SDP
+T18	Nutrient 1093 1096	SDP
+T19	Microorganism 1161 1174	Lactobacillus
+T20	Microorganism 1179 1190	Pediococcus
+T21	Microorganism 1266 1277	Johnsonella
+T22	Microorganism 1282 1296	Erysipelothrix
+T23	Nutrient 1328 1331	SDP
+T24	Nutrient 1479 1482	SDP
+T25	Nutrient 1619 1622	SDP
+T26	INCREASES 1109 1122	proliferation
+T27	DECREASES 1198 1206	reducing
+T28	Physiology 86 111	Microbiota−Gut−Brain Axis
+T29	Physiology 927 932	Aging
+T30	INCREASES 938 947	increased
+T31	Chemical 948 974	pro-inflammatory cytokines
+T32	Population 1424 1438	senescent mice
+T33	Chemical 639 672	brain-derived neurotrophic factor
+T34	Biospecimen 978 983	serum
+T35	DECREASES 622 629	reduced
+T36	Biospecimen 988 993	colon
+T37	Chemical 674 678	BDNF
+T38	INCREASES 691 700	increased
+T39	DECREASES 776 783	reduced
+T40	Chemical 701 720	interleukin (Il)-1β
+T41	Chemical 722 726	Il-6
+T42	Chemical 732 752	Toll-like receptor 2
+T43	Chemical 754 758	Tlr2
+T44	Chemical 836 841	IL-10
+T45	Chemical 784 812	transforming growth factor β
+T46	Chemical 814 819	Tgf-β
+T47	Nutrient 534 537	SDP
+T48	Population 1067 1076	aged mice
+T49	Physiology 1557 1571	gut–brain axis
+T50	DECREASES 1014 1024	attenuated
+T51	IMPROVES 1332 1335	has
+T52	Physiology 1030 1037;1051 1063	colonic inflammation
+T53	Physiology 1042 1063	systemic inflammation
+T55	WORSENS 584 592	impaired
+T56	Physiology 4 19	Neuroprotective
+T57	Physiology 329 344	neuroprotective
+T59	ASSOCIATED_WITH 1237 1247	associated
+T60	Physiology 1224 1236	inflammation
+T61	Physiology 1394 1409	neuroprotective
+T64	Physiology 372 397	microbiota−gut−brain axis
+T66	Physiology 593 599;609 620	short- term memory
+T67	Physiology 604 620	long-term memory
+T68	Physiology 573 583	Senescence
+T69	Physiology 1336 1343;1357 1382	mucosal anti-inflammatory effects
+T71	Physiology 1348 1382	systemic anti-inflammatory effects
+E1	IMPROVES:T5 Agent:T3 Theme:T6
+E2	INCREASES:T26 Agent:T18 Theme:T19
+E3	INCREASES:T26 Agent:T18 Theme:T20
+E4	DECREASES:T27 Agent:T18 Theme:T21
+E5	DECREASES:T27 Agent:T18 Theme:T22
+E6	INCREASES:T30 Agent:T29 Theme:T31
+E7	DECREASES:T35 Theme:T33 Agent:T68
+E8	INCREASES:T38 Theme:T40 Agent:T68
+E9	DECREASES:T39 Theme:T45 Agent:T68
+E10	INCREASES:T38 Theme:T41 Agent:T68
+E11	INCREASES:T38 Theme:T42 Agent:T68
+E12	DECREASES:T39 Theme:T44 Agent:T68
+E13	DECREASES:T50 Agent:T17 Theme:T52
+E14	ASSOCIATED_WITH:T59 Theme:T60 Theme2:T21
+E15	DECREASES:T50 Agent:T17 Theme:T53
+E16	ASSOCIATED_WITH:T59 Theme:T60 Theme2:T22
+E17	AFFECTS:T9 Agent:T1 Theme:T28
+E18	AFFECTS:T2 Agent:T11 Theme:T64
+E19	WORSENS:T55 Agent:T68 Theme:T66
+E20	AFFECTS:T12 Agent:T25 Theme:T49
+E21	WORSENS:T55 Agent:T68 Theme:T67
+E23	IMPROVES:T51 Agent:T23 Theme:T69
+E24	IMPROVES:T51 Agent:T23 Theme:T71
+E25	IMPROVES:T51 Agent:T23 Theme:T61
+A1	Unknown E17
+A2	Unknown E18
+A3	Unknown E20
+A312	Factual E1
+A313	Factual E2
+A314	Factual E3
+A315	Factual E4
+A316	Factual E5
+A317	Factual E6
+A318	Factual E7
+A319	Factual E8
+A320	Factual E9
+A321	Factual E10
+A322	Factual E11
+A323	Factual E12
+A324	Factual E13
+A325	Factual E14
+A326	Factual E15
+A327	Factual E16
+A328	Factual E19
+A329	Factual E21
+A331	Factual E23
+A332	Factual E24
+A333	Factual E25

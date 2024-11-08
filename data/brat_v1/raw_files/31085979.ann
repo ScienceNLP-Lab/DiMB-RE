@@ -1,0 +1,78 @@
+T1	Food 0 23	Tart Cherry Concentrate
+T2	AFFECTS 24 38	Does Not Alter
+T3	Physiology 59 76	Glycaemic Control
+T4	Physiology 80 101	Systemic Inflammation
+T5	Population 107 129	Middle-Aged Population
+T6	Nutrient 182 193	polyphenols
+T7	IMPROVES 194 205	may improve
+T8	Physiology 206 223	glycaemic control
+T9	Physiology 228 247	insulin sensitivity
+T10	Nutrient 376 386	polyphenol
+T11	Food 508 526	Montmorency cherry
+T12	Food 528 530	MC
+T13	Food 628 630	MC
+T14	Nutrient 634 641	glucose
+T15	Biospecimen 695 701	Faecal
+T16	Biospecimen 706 711	blood
+T17	Nutrient 807 814	glucose
+T18	Measurement 825 875	Homeostatic Model Assessment of Insulin Resistance
+T19	Measurement 877 884	HOMA-IR
+T20	Measurement 890 902	Gutt indices
+T21	Methodology 918 931	Matsuda index
+T22	Food 963 965	MC
+T23	AFFECTS 1354 1363	unchanged
+T24	INCREASES 1008 1016	increase
+T25	Chemical 1020 1033	serum insulin
+T26	Food 1081 1083	MC
+T27	Measurement 1129 1161	Oral Glucose Insulin Sensitivity
+T28	Measurement 1163 1167	OGIS
+T29	Chemical 1200 1210	Serum IL-6
+T30	Chemical 1215 1233	C reactive protein
+T31	AFFECTS 1239 1248	unaltered
+T32	Food 1367 1369	MC
+T33	Microorganism 1439 1450	Bacteroides
+T34	Microorganism 1455 1471	Faecalibacterium
+T35	ASSOCIATED_WITH 1385 1411	no significant correlation
+T36	Physiology 1499 1518	insulin sensitivity
+T37	Food 1542 1544	MC
+T38	AFFECTS 1561 1574	did not alter
+T39	Physiology 1595 1612	glycaemic control
+T40	Chemical 1643 1647	IL-6
+T41	Chemical 1652 1655	CRP
+T42	Population 1661 1683	middle-aged population
+T43	Nutrient 492 502	polyphenol
+T44	HAS_COMPONENT 503 507	rich
+T45	DiversityMetric 1326 1334	richness
+T46	DiversityMetric 1339 1348	diversity
+E1	AFFECTS:T2 Theme:T3 Agent:T1
+E2	IMPROVES:T7 Agent:T6 Theme:T8
+E3	IMPROVES:T7 Agent:T6 Theme:T9
+E4	INCREASES:T24 Theme:T25 Agent:T22
+E5	AFFECTS:T31 Agent:T26 Theme:T30
+E6	AFFECTS:T31 Agent:T17 Theme:T30
+E7	AFFECTS:T31 Agent:T17 Theme:T29
+E8	AFFECTS:T31 Agent:T26 Theme:T29
+E9	ASSOCIATED_WITH:T35 Theme:T33 Theme2:T36
+E10	ASSOCIATED_WITH:T35 Theme:T34 Theme2:T36
+E11	AFFECTS:T38 Agent:T37 Theme:T39
+E12	AFFECTS:T38 Agent:T37 Theme:T40
+E13	AFFECTS:T38 Agent:T37 Theme:T41
+E14	AFFECTS:T2 Agent:T1 Theme:T4
+E15	HAS_COMPONENT:T44 Agent:T11 Theme:T43
+E16	AFFECTS:T23 Agent:T32 Theme:T46
+E17	AFFECTS:T23 Agent:T32 Theme:T45
+A1	Factuality E1 Negated
+A2	Factuality E2 Possible
+A3	Factuality E3 Possible
+A4	Factuality E5 Negated
+A5	Factuality E6 Negated
+A6	Factuality E7 Negated
+A7	Factuality E8 Negated
+A8	Factuality E9 Negated
+A9	Factuality E10 Negated
+A10	Factuality E11 Negated
+A11	Factuality E12 Negated
+A12	Factuality E13 Negated
+A13	Factuality E14 Negated
+A14	Factuality E16 Negated
+A15	Factuality E17 Negated

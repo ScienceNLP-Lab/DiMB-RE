@@ -1,0 +1,83 @@
+T1	Nutrient 24 37	(poly)phenols
+T2	Physiology 41 58	vascular function
+T3	AFFECTS 0 7	Effects
+T6	Food 149 167	Aronia melanocarpa
+T7	Nutrient 188 201	(poly)phenols
+T8	Food 249 256	berries
+T9	IMPROVES 257 268	may provide
+T10	Physiology 269 290	cardiovascular health
+T13	Food 440 447	berries
+T14	AFFECTS 526 533	effects
+T15	Food 537 551	aronia berries
+T16	Physiology 555 572	vascular function
+T20	Nutrient 762 787	(poly)phenol-rich extract
+T21	Food 802 809	berries
+T22	Food 814 832	whole fruit powder
+T23	Food 846 853	berries
+T24	Nutrient 868 880	maltodextrin
+T25	Physiology 893 915	Flow-mediated dilation
+T26	Physiology 917 920	FMD
+T27	Physiology 923 941	arterial stiffness
+T28	Physiology 943 957	blood pressure
+T29	Physiology 959 969	heart rate
+T30	Measurement 975 993	serum biochemistry
+T31	Metabolite 1009 1040	Plasma (poly)phenol metabolites
+T35	Food 1173 1191	aronia whole fruit
+T36	Food 1196 1210	extract powder
+T37	INCREASES 1242 1250	increase
+T38	Physiology 1254 1257	FMD
+T39	IMPROVES 1369 1381	improvements
+T40	Physiology 1385 1388	FMD
+T41	Food 1433 1447	aronia extract
+T42	Metabolite 1544 1564	phenolic metabolites
+T43	INCREASES 1565 1574	increased
+T44	Food 1693 1707	aronia extract
+T45	INCREASES 1708 1717	increased
+T46	Microorganism 1732 1744	Anaerostipes
+T47	Food 1773 1791	aronia whole fruit
+T48	INCREASES 1811 1820	increases
+T49	Microorganism 1824 1835	Bacteroides
+T51	ASSOCIATED_WITH 1899 1911	associations
+T52	Physiology 1931 1934	FMD
+T53	Metabolite 1951 1971	phenolic metabolites
+T55	Nutrient 2065 2078	(poly)phenols
+T56	IMPROVES 2079 2087	improved
+T57	Physiology 2088 2108	endothelial function
+T59	Disease 2276 2298	cardiovascular disease
+T60	Physiology 2224 2245	cardiovascular health
+T61	AFFECTS 2215 2223	maintain
+T62	Food 2175 2181	aronia
+T63	Food 11 23	aronia berry
+T64	HAS_COMPONENT 178 184	source
+T65	Food 1599 1605	aronia
+T66	Food 1936 1942	aronia
+T67	POS_ASSOCIATED_WITH 1943 1950	derived
+T68	Food 2052 2064	aronia berry
+E1	AFFECTS:T3 Agent:T1 Theme:T2
+E2	IMPROVES:T9 Agent:T8 Theme:T10
+E3	AFFECTS:T14 Agent:T15 Theme:T16
+E4	INCREASES:T37 Theme:T38 Agent:T35
+E5	INCREASES:T37 Theme:T38 Agent:T36
+E6	IMPROVES:T39 Agent:T41 Theme:T40
+E7	INCREASES:T43 Theme:T42 Agent:T65
+E9	INCREASES:T45 Agent:T44 Theme:T46
+E10	INCREASES:T48 Agent:T47 Theme:T49
+E11	ASSOCIATED_WITH:T51 Theme:T52 Theme2:T53
+E12	IMPROVES:T56 Agent:T55 Theme:T57
+E13	AFFECTS:T61 Theme:T60 Agent:T62
+E14	HAS_COMPONENT:T64 Theme:T7 Agent:T6
+E15	POS_ASSOCIATED_WITH:T67 Theme:T53 Agent:T66
+A1	Unknown E1
+A2	Unknown E2
+A3	Unknown E3
+A4	Unknown E13
+A5	Factual E4
+A6	Factual E5
+A7	Factual E6
+A8	Factual E7
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E14
+A14	Factual E15

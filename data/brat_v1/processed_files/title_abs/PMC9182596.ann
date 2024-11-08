@@ -1,0 +1,73 @@
+T4	Disease 157 183	Cow’s Milk Protein Allergy
+T5	Disease 437 463	cow’s milk protein allergy
+T6	Disease 465 469	CMPA
+T7	Food 287 311	amino acid-based formula
+T8	Food 313 316	AAF
+T9	Nutrient 340 367	human milk oligosaccharides
+T10	Nutrient 369 372	HMO
+T11	Physiology 383 396	normal growth
+T12	Food 570 573	AAF
+T13	Food 14 38	Amino Acid-Based Formula
+T14	Nutrient 61 88	Human Milk Oligosaccharides
+T15	Physiology 92 98	Growth
+T16	Physiology 100 112	Tolerability
+T17	Physiology 114 120	Safety
+T18	Nutrient 592 609	2′-fucosyllactose
+T19	Nutrient 611 616	2′-FL
+T20	Nutrient 622 641	lacto-N-neotetraose
+T21	Nutrient 643 647	LNnT
+T22	Physiology 764 773	Tolerance
+T23	Physiology 778 784	safety
+T25	Metabolite 1449 1472	short-chain fatty acids
+T26	Microorganism 1375 1389	bifidobacteria
+T27	INCREASES 1431 1439	increase
+T28	Nutrient 1361 1364	HMO
+T29	Physiology 1058 1064;1074 1080	Linear growth
+T30	DECREASES 1513 1522	reduction
+T32	Microorganism 1549 1563	Proteobacteria
+T33	Food 1585 1615	HMO-supplemented study formula
+T35	Disease 1680 1684	CMPA
+T36	AFFECTS 0 7	Effects
+T37	POS_ASSOCIATED_WITH 374 382	supports
+T38	Physiology 409 418	tolerated
+T39	HAS_COMPONENT 52 56	with
+T40	HAS_COMPONENT 331 335	with
+T41	HAS_COMPONENT 587 591	with
+T42	Measurement 955 977	weight-for-age Z score
+T43	Measurement 979 982	WAZ
+T44	Physiology 1069 1080	head growth
+T46	Physiology 1186 1200	well tolerated
+T48	Disease 506 529	moderate-to-severe CMPA
+T49	INTERACTS_WITH 1365 1374	utilizing
+T51	Disease 1654 1663	dysbiosis
+T52	POS_ASSOCIATED_WITH 1616 1635	partially corrected
+T55	INCREASES 1347 1357	enrichment
+T57	Food 677 684	formula
+E1	INCREASES:T27 Theme:T25 Agent:T26
+E3	DECREASES:T30 Theme:T32 Agent:T33
+E4	AFFECTS:T36 Agent:T13 Theme:T15
+E5	POS_ASSOCIATED_WITH:T37 Theme:T11 Agent:T7
+E6	POS_ASSOCIATED_WITH:T37 Agent:T7 Theme:T38
+E7	HAS_COMPONENT:T39 Agent:T13 Theme:T14
+E8	AFFECTS:T36 Agent:T13 Theme:T16
+E9	AFFECTS:T36 Agent:T13 Theme:T17
+E10	HAS_COMPONENT:T40 Agent:T7 Theme:T9
+E11	HAS_COMPONENT:T41 Agent:T12 Theme:T20
+E12	HAS_COMPONENT:T41 Agent:T12 Theme:T18
+E14	INTERACTS_WITH:T49 Theme:T28 Theme2:T26
+E15	POS_ASSOCIATED_WITH:T52 Theme:T51 Agent:T33
+E16	INCREASES:T55 Theme:T26 Agent:T33
+A1	Unknown E5
+A2	Unknown E6
+A3	Unknown E4
+A4	Unknown E8
+A5	Unknown E9
+A6	Factual E1
+A8	Factual E3
+A9	Factual E7
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16

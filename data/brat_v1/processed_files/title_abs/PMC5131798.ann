@@ -1,0 +1,54 @@
+T1	Nutrient 2 15	dietary fiber
+T2	Physiology 53 74	colonic mucus barrier
+T3	Nutrient 171 184	dietary fiber
+T4	Physiology 232 249	fiber deprivation
+T5	Nutrient 503 516	dietary fiber
+T6	Physiology 545 566	colonic mucus barrier
+T7	Physiology 673 697	dietary fiber deficiency
+T8	Physiology 811 832	colonic mucus barrier
+T9	Physiology 834 859	Dietary fiber deprivation
+T10	Nutrient 1239 1252	dietary fiber
+T11	POS_ASSOCIATED_WITH 919 927	promotes
+T12	Disease 1388 1395	colitis
+T13	IMPROVES 1362 1370	reducing
+T14	Physiology 1094 1124	intestinal barrier dysfunction
+T15	ASSOCIATED_WITH 471 494	functional interactions
+T16	Chemical 749 762	glycoproteins
+T17	Disease 958 972	lethal colitis
+T19	PREVENTS 1259 1266	prevent
+T20	Physiology 1267 1306	erosion of the intestinal mucus barrier
+T21	WORSENS 796 803	erosion
+T22	Microorganism 998 1019	Citrobacter rodentium
+T23	Physiology 2 39	dietary fiber-deprived gut microbiota
+T25	Physiology 1339 1357	pathogen infection
+T26	WORSENS 40 48	degrades
+T27	WORSENS 79 87	enhances
+T28	Physiology 88 111	pathogen susceptibility
+T30	Physiology 936 953	epithelial access
+T31	PREVENTS 1330 1338	blunting
+T33	PREVENTS 594 601	defense
+T34	Microorganism 610 627	enteric pathogens
+T35	Nutrient 232 237	fiber
+T36	Nutrient 673 686	dietary fiber
+T37	Nutrient 834 847	Dietary fiber
+T38	Nutrient 877 882	fiber
+E1	IMPROVES:T13 Agent:T10 Theme:T12
+E2	PREVENTS:T19 Agent:T10 Theme:T20
+E3	WORSENS:T21 Theme:T8 Agent:T16
+E4	POS_ASSOCIATED_WITH:T11 Agent:T22 Theme:T17
+E6	WORSENS:T26 Theme:T2 Agent:T23
+E7	WORSENS:T27 Theme:T28 Agent:T23
+E8	POS_ASSOCIATED_WITH:T11 Agent:T22 Theme:T30
+E9	PREVENTS:T31 Theme:T25 Agent:T10
+E10	PREVENTS:T33 Agent:T6 Theme:T34
+E11	ASSOCIATED_WITH:T15 Theme:T5 Theme2:T6
+A10	Factual E1
+A11	Factual E2
+A12	Factual E3
+A13	Factual E4
+A15	Factual E6
+A16	Factual E7
+A17	Factual E8
+A18	Factual E9
+A19	Factual E10
+A20	Factual E11

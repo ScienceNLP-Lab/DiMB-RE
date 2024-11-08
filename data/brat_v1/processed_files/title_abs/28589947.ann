@@ -1,0 +1,46 @@
+T1	Physiology 46 64	metabolic response
+T2	Nutrient 85 95	polyphenol
+T4	Disease 115 125	overweight
+T5	Nutrient 264 275	polyphenols
+T6	AFFECTS 276 282	affect
+T7	Physiology 283 304	substrate utilization
+T8	Physiology 526 544	metabolic response
+T9	Nutrient 360 370	polyphenol
+T10	Nutrient 548 558	polyphenol
+T12	Disease 663 673	overweight
+T13	Disease 678 683	obese
+T15	Measurement 736 751	body mass index
+T16	Nutrient 785 811	epigallocatechin-3-gallate
+T17	Nutrient 816 827	resveratrol
+T18	Nutrient 829 837	EGCG+RES
+T20	Physiology 990 1003	Fat oxidation
+T23	Physiology 1104 1152	skeletal muscle mitochondrial oxidative capacity
+T25	Measurement 1222 1238	Body composition
+T27	Microorganism 1317 1330	Bacteroidetes
+T28	Nutrient 1428 1436	EGCG+RES
+T29	DECREASES 1467 1476	decreased
+T30	Microorganism 1477 1490	Bacteroidetes
+T31	DECREASES 1505 1511	reduce
+T32	Microorganism 1512 1540	Faecalibacterium prausnitzii
+T33	Microorganism 1655 1668	Bacteroidetes
+T34	Nutrient 1702 1710	EGCG+RES
+T36	Physiology 1731 1744	fat oxidation
+T37	POS_ASSOCIATED_WITH 1683 1693	predictive
+T45	Nutrient 1826 1834	EGCG+RES
+T46	Nutrient 1894 1902	EGCG+RES
+T49	INCREASES 2031 2039	increase
+T50	Physiology 2043 2056	fat oxidation
+T51	Nutrient 2063 2071	EGCG+RES
+T53	INCREASES 1711 1727	induced increase
+E1	AFFECTS:T6 Agent:T5 Theme:T7
+E2	DECREASES:T29 Agent:T28 Theme:T30
+E3	DECREASES:T31 Agent:T28 Theme:T32
+E4	INCREASES:T49 Theme:T50 Agent:T51
+E5	POS_ASSOCIATED_WITH:T37 Agent:T33 Theme:T36
+E6	INCREASES:T53 Theme:T36 Agent:T34
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6

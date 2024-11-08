@@ -1,0 +1,460 @@
+T1	Population 51 91	patients with inflammatory bowel disease
+T2	Disease 65 91	inflammatory bowel disease
+T3	Disease 93 119	Inflammatory bowel disease
+T4	Disease 121 124	IBD
+T5	DiversityMetric 9194 9205	α-diversity
+T6	Population 1860 1872	IBD patients
+T7	Disease 523 526	IBD
+T8	Population 598 610	IBD patients
+T9	Disease 598 601	IBD
+T10	Biospecimen 626 631	fecal
+T11	Population 663 675	IBD patients
+T12	Disease 663 666	IBD
+T13	Physiology 483 503	immune dysregulation
+T14	ASSOCIATED_WITH 509 522	characterizes
+T15	Biospecimen 552 557	fecal
+T16	Methodology 704 728	16S rDNA gene sequencing
+T17	Methodology 733 747	UHPLC/Q-TOF-MS
+T18	Disease 941 944	IBD
+T19	DECREASES 976 985	decreased
+T20	Microorganism 999 1012	Bacteroidetes
+T21	Microorganism 1017 1027	Firmicutes
+T22	INCREASES 1029 1038	increased
+T23	Microorganism 1072 1086	Proteobacteria
+T24	Microorganism 1091 1105	Actinobacteria
+T25	INCREASES 1111 1120	increased
+T26	Microorganism 1121 1137	Escherichia coli
+T27	Microorganism 1142 1163	Klebsiella pneumoniae
+T28	Disease 1167 1170	IBD
+T29	Methodology 9453 9487	principal component analysis (PCA)
+T30	Methodology 9492 9545	non-metric multidimensional scaling (NMDS) statistics
+T31	Disease 1269 1272	IBD
+T32	Physiology 13262 13285	carbohydrate metabolism
+T33	Physiology 13262 13274;13290 13299	carbohydrate transport
+T34	Physiology 13316 13342	xenobiotics biodegradation
+T35	Physiology 13316 13327;13347 13357	xenobiotics metabolism
+T36	Disease 1356 1359	IBD
+T37	Metabolite 1394 1421	6,7,4′-trihydroxyisoflavone
+T38	Metabolite 1426 1461	thyroxine 4′-o-.beta.-d-glucuronide
+T39	Metabolite 1476 1487	normorphine
+T40	Metabolite 1523 1537	trichostachine
+T41	Metabolite 1492 1504	salvinorin a
+T42	Disease 1566 1569	IBD
+T43	AFFECTS 1594 1602	affected
+T44	Physiology 1622 1652	primary bile acid biosynthesis
+T45	Physiology 1654 1686	vitamin digestion and absorption
+T46	Physiology 1692 1715	carbohydrate metabolism
+T47	Disease 1860 1863	IBD
+T48	Biospecimen 1784 1789	fecal
+T49	Population 4873 4892	healthy individuals
+T50	Population 5152 5161	IBD group
+T51	Disease 5152 5155	IBD
+T52	Population 5455 5467	IBD patients
+T53	Disease 5455 5458	IBD
+T54	Microorganism 5477 5487	Firmicutes
+T55	Microorganism 5555 5569	Proteobacteria
+T56	Microorganism 5628 5641	Bacteroidetes
+T57	Microorganism 5659 5675	Escherichia coli
+T58	Microorganism 5696 5710	Actinobacteria
+T59	Microorganism 5762 5774	Fusobacteria
+T60	Microorganism 5827 5838	Tenericutes
+T61	Microorganism 5857 5878	Klebsiella pneumoniae
+T62	Microorganism 5899 5914	Verrucomicrobia
+T63	Microorganism 5933 5951	Bacteroides ovatus
+T64	Microorganism 5977 5995	Epsilonbacteraeota
+T65	Microorganism 6014 6050	Bifidobacterium longum subsp. longum
+T66	Microorganism 6071 6097	PatescibacteriaChloroflexi
+T67	Microorganism 6173 6198	Uncultured Bacteroides sp
+T68	Methodology 6356 6364	16S rDNA
+T69	Methodology 6571 6577	UCLUST
+T70	Methodology 6581 6586	QIIME
+T71	Population 6820 6832	IBD patients
+T72	Disease 6820 6823	IBD
+T73	DECREASES 6837 6844	reduced
+T74	Microorganism 6855 6865	Firmicutes
+T75	Microorganism 6867 6878	Bacteroides
+T76	Microorganism 6880 6892	Fusobacteria
+T77	Microorganism 6898 6909	Tenericutes
+T78	INCREASES 6914 6923	increased
+T79	Microorganism 6937 6951	Proteobacteria
+T80	Microorganism 6956 6970	Actinobacteria
+T81	Disease 7053 7056	IBD
+T82	Population 7053 7063	IBD groups
+T83	Microorganism 7279 7295	Escherichia coli
+T84	Microorganism 7297 7318	Klebsiella pneumoniae
+T85	Microorganism 7320 7356	Bifidobacterium longum subsp. Longum
+T87	Microorganism 7358 7381	Bacteroides ovatus V975
+T88	Microorganism 7415 7440	uncultured Bacteroides sp
+T89	Disease 7682 7685	IBD
+T90	Methodology 7655 7678	phylum-level clustering
+T91	INCREASES 7712 7721	increased
+T92	Microorganism 7735 7749	Proteobacteria
+T93	Microorganism 7751 7765	Actinobacteria
+T94	Microorganism 7771 7786	Verrucomicrobia
+T95	Disease 7984 7987	IBD
+T96	DECREASES 8000 8007	reduced
+T97	Microorganism 8008 8019	Bacteroides
+T98	Microorganism 8021 8030	Dialister
+T99	Microorganism 8032 8047	Subdoligradulum
+T100	Microorganism 8053 8067	Ruminococcus 2
+T101	INCREASES 8073 8082	increased
+T102	Microorganism 8096 8116	Escherichia-Shigella
+T103	Microorganism 8121 8136	Bifidobacterium
+T104	DiversityMetric 8138 8144;8154 8163	Alpha- diversity
+T105	DiversityMetric 8149 8163	beta-diversity
+T106	Disease 8201 8204	IBD
+T107	Population 8201 8213	IBD patients
+T108	DiversityMetric 8220 8231	β diversity
+T109	DiversityMetric 8214 8215;8222 8231	α diversity
+T110	DiversityMetric 8279 8290	α diversity
+T111	DiversityMetric 8373 8384	α diversity
+T112	DiversityMetric 8655 8666	β diversity
+T113	DiversityMetric 8766 8777	α-diversity
+T114	Disease 9006 9009	IBD
+T115	Disease 9603 9606	IBD
+T116	DiversityMetric 9635 9646	α-diversity
+T117	DiversityMetric 10107 10118	β-diversity
+T118	DiversityMetric 10226 10237	β diversity
+T119	DiversityMetric 10344 10355	β-diversity
+T120	Population 10363 10372	IBD group
+T121	Disease 10363 10366	IBD
+T122	Disease 10449 10452	IBD
+T123	Disease 10510 10513	IBD
+T124	Disease 10581 10584	IBD
+T125	Population 10581 10590	IBD group
+T126	Population 10633 10642	IBD group
+T127	Disease 10633 10636	IBD
+T128	Disease 10699 10702	IBD
+T129	Population 10699 10708	IBD group
+T130	Disease 10939 10942	IBD
+T131	Biospecimen 10943 10948	stool
+T132	Methodology 10551 10565	LEFSe analysis
+T133	Methodology 10988 10993	LEfSe
+T134	Disease 11228 11231	IBD
+T135	Microorganism 11300 11315	Enterococcaceae
+T136	Microorganism 11320 11336	Lactobacillaceae
+T137	Microorganism 11352 11364	Enterococcus
+T138	Microorganism 11366 11379	Lactobacillus
+T139	Microorganism 11385 11396	Eggerthella
+T140	Disease 11467 11470	IBD
+T141	Population 11467 11476	IBD group
+T142	ASSOCIATED_WITH 11437 11459	play an important role
+T143	Methodology 11542 11569	STAMP differential analysis
+T144	Disease 11645 11648	IBD
+T145	Population 11645 11654	IBD group
+T146	Population 11664 11677	healthy group
+T147	Microorganism 11738 11747	Dialister
+T148	Microorganism 11749 11758	Alistipes
+T149	Microorganism 11760 11775	Subdoligranulum
+T150	Microorganism 11777 11800	Ruminococcaceae UCG-002
+T151	Microorganism 11777 11792;11802 11809	Ruminococcaceae UCG-005
+T152	Microorganism 11777 11792;11811 11818	Ruminococcaceae UCG-010
+T153	Microorganism 11824 11837	Coprococcus 2
+T154	DECREASES 11708 11715	reduced
+T155	INCREASES 11843 11852	increased
+T156	Microorganism 11866 11878	Anaerostipes
+T157	Microorganism 11881 11892	Eubacterium
+T158	Microorganism 11894 11906	hallii group
+T159	Microorganism 11912 11923	Eggerthella
+T160	Methodology 11997 12016	KEGG STAMP analysis
+T161	Methodology 12086 12106	COG heatmap analysis
+T162	Methodology 12176 12194	COG STAMP analysis
+T163	Disease 12605 12608	IBD
+T164	Methodology 12641 12648	PICRUSt
+T165	Methodology 12782 12796	16S sequencing
+T166	Methodology 12915 12945	COG homologous protein cluster
+T167	Methodology 13021 13025	KEGG
+T168	Methodology 13103 13107	KEGG
+T169	Methodology 13112 13115	COG
+T170	Disease 13186 13189	IBD
+T171	Population 13186 13195	IBD group
+T172	Methodology 13200 13214	STAMP analysis
+T173	Disease 13683 13686	IBD
+T174	Population 13683 13692	IBD group
+T175	Methodology 13704 13722	LEfSe LDA analysis
+T176	Methodology 13732 13762	COG homologous protein cluster
+T177	Disease 13904 13907	IBD
+T178	Population 13904 13913	IBD group
+T179	DECREASES 13925 13932	reduced
+T180	Physiology 13933 13968	translation of ribosomal structures
+T181	Physiology 13948 13957;13973 13983	ribosomal biogenesis
+T182	Physiology 13989 14008	chromatin structure
+T183	Physiology 13989 13998;14013 14021	chromatin dynamics
+T184	INCREASES 13814 13822	elevated
+T185	Physiology 13823 13845	carbohydrate transport
+T186	Physiology 13823 13835;13850 13860	carbohydrate metabolism
+T187	Physiology 13865 13896	RNA processing and modification
+T188	Disease 14217 14220	IBD
+T189	Disease 14547 14550	IBD
+T190	Physiology 14575 14607	Vitamin digestion and absorption
+T191	Physiology 14609 14639	primary bile acid biosynthesis
+T192	Physiology 14641 14673	protein digestion and absorption
+T193	Gene 14675 14691	ABC transporters
+T194	Disease 14693 14713	basal cell carcinoma
+T195	Physiology 14715 14737	glutathione metabolism
+T196	Disease 14739 14750	ferroptosis
+T197	Disease 26648 26651	IBD
+T198	Disease 26748 26751	IBD
+T199	Microorganism 26494 26505	Eggerthella
+T200	Methodology 25934 25949	Cytoscape 3.5.1
+T201	Microorganism 26535 26547	Enterococcus
+T202	Microorganism 25526 25539	Lactobacillus
+T203	POS_ASSOCIATED_WITH 25544 25576	positive significant correlation
+T204	Metabolite 25606 25614	L-valine
+T205	Metabolite 25628 25648	N-nitrosopyrrolidine
+T206	Metabolite 25650 25659	calycosin
+T207	Metabolite 25661 25669	apigenin
+T208	Metabolite 25671 25692	flavin mononucleotide
+T209	Metabolite 25694 25701	his-met
+T210	Metabolite 25703 25711	luteolin
+T211	Metabolite 25717 25735	1,2,3-benzenetriol
+T212	NEG_ASSOCIATED_WITH 25752 25784	negative significant correlation
+T213	Metabolite 25815 25836	25-hydroxycholesterol
+T214	Metabolite 25838 25850	androsterone
+T216	Metabolite 25852 25867	ginsenoside rh2
+T217	Metabolite 25869 25880	pristimerin
+T218	Metabolite 25886 25897	cholesterol
+T219	Microorganism 25191 25202	Eggerthella
+T220	Microorganism 24615 24627	Enterococcus
+T221	Metabolite 25493 25512	piperonyl sulfoxide
+T222	Metabolite 25479 25491	Asiatic acid
+T223	Metabolite 25469 25477	neomycin
+T224	Metabolite 25455 25467	hypoxanthine
+T225	Metabolite 25437 25453	lithocholic acid
+T226	Metabolite 25423 25435	salvinorin a
+T227	Metabolite 25412 25421	hecogenin
+T228	NEG_ASSOCIATED_WITH 25360 25381	negatively correlated
+T229	Metabolite 25335 25343	luteolin
+T230	Metabolite 25322 25329	his-met
+T231	Metabolite 25299 25320	flavin mononucleotide
+T232	Metabolite 25289 25297	apigenin
+T233	Metabolite 25278 25287	calycosin
+T234	Metabolite 25267 25276	delsoline
+T235	Metabolite 25255 25265	corydaline
+T236	POS_ASSOCIATED_WITH 25203 25224	positively correlated
+T237	POS_ASSOCIATED_WITH 24632 24664	positive significant correlation
+T238	Metabolite 24695 24706	cholic acid
+T239	Metabolite 24708 24717	calycosin
+T240	Metabolite 24723 24743	N-nitrosopyrrolidine
+T241	Metabolite 24761 24782	flavin mononucleotide
+T242	Metabolite 24784 24792	apigenin
+T243	Metabolite 24794 24802	L-valine
+T246	Metabolite 24808 24864	3alpha,7beta,12alpha-trihydroxy-5beta-cholan-24-oic acid
+T247	NEG_ASSOCIATED_WITH 24881 24915	negatively significant correlation
+T248	Metabolite 24946 24961	ginsenoside rh2
+T249	Metabolite 24963 24975	androsterone
+T250	Metabolite 24977 25000	indole-3-carboxaldehyde
+T251	Metabolite 25002 25014	salvinorin a
+T252	Metabolite 25016 25035	isodeoxycholic acid
+T253	Metabolite 25041 25057	lithocholic acid
+T254	Metabolite 25075 25083	glycerol
+T255	Metabolite 25085 25091	uracil
+T256	Metabolite 25093 25103	oxypurinol
+T257	Metabolite 25105 25126	25-hydroxycholesterol
+T258	Metabolite 25128 25148	glycolithocholic aid
+T259	Metabolite 25150 25158	xanthine
+T260	Metabolite 25164 25178	hypoxyxanthine
+T261	Methodology 24045 24062	Spearman analysis
+T262	Methodology 23648 23677	Spearman correlation analysis
+T263	Population 23836 23845	IBD group
+T264	Disease 23836 23839	IBD
+T265	Microorganism 23931 23942	Eggerthella
+T266	Microorganism 23944 23956	Enterococcus
+T267	Microorganism 23958 23971	Lactobacillus
+T268	Methodology 24086 24125	correlation coefficient matrix heat map
+T269	Methodology 24130 24162	hierarchical clustering heat map
+T270	Methodology 22622 22670	Spearman correlation coefficient matrix heat map
+T271	Methodology 22722 22784	Spearman correlation analysis hierarchical clustering heat map
+T272	Disease 22522 22525	IBD
+T273	Disease 22423 22426	IBD
+T274	Population 22423 22435	IBD patients
+T275	Population 22448 22467	healthy individuals
+T276	Methodology 22008 22034	Pathway hierarchy analysis
+T277	Disease 22066 22069	IBD
+T278	Population 22066 22078	IBD patients
+T279	Physiology 22088 22103	cancer function
+T280	Physiology 22105 22126	cell growth and death
+T281	Physiology 22146 22162	lipid metabolism
+T282	Physiology 22164 22182	membrane transport
+T283	Physiology 22188 22211	metabolism of cofactors
+T284	Physiology 22188 22201;22213 22221	metabolism of vitamins
+T285	Physiology 22188 22201;22233 22244	metabolism of amino acids
+T286	Methodology 21903 21907	KEGG
+T287	Gene 21836 21849	ABC transport
+T288	Physiology 21543 21575	vitamin digestion and absorption
+T289	Physiology 21577 21607	primary bile acid biosynthesis
+T290	Physiology 21609 21626	protein digestion
+T291	Physiology 21609 21616;21632 21642	protein absorption
+T292	Physiology 21644 21663	thiamine metabolism
+T293	Physiology 21665 21687	glutathione metabolism
+T294	Gene 21689 21705	ABC transporters
+T295	Physiology 21707 21742	central carbon metabolism in cancer
+T296	Disease 21736 21742	cancer
+T297	Disease 21748 21759	ferroptosis
+T298	Methodology 21268 21300	KEGG pathway enrichment analysis
+T299	Methodology 21329 21348	Fisher’s Exact Test
+T300	Disease 21435 21438	IBD
+T301	Physiology 21403 21431	signal transduction pathways
+T302	Physiology 21389 21398;21410 21431	metabolic transduction pathways
+T303	Population 19861 19870	IBD group
+T304	Disease 19861 19864	IBD
+T305	Methodology 19507 19563	KEGG pathway differential metabolite clustering heat map
+T306	Gene 19567 19580	ABC transport
+T307	Methodology 19584 19621	KEGG metabolic pathway enrichment map
+T308	Disease 19187 19190	IBD
+T309	Methodology 19127 19139	AUC analysis
+T310	Disease 18787 18790	IBD
+T311	Metabolite 18827 18854	6,7,4′-trihydroxyisoflavone
+T312	Metabolite 18869 18904	thyroxine 4'-o-.beta.-d-glucuronide
+T313	Metabolite 18919 18933	trichostachine
+T314	Metabolite 18948 18959	normorphine
+T315	Metabolite 18978 18990	salvinorin a
+T316	Disease 15693 15696	IBD
+T317	Metabolite 16384 16411	6,7,4'-trihydroxyisoflavone
+T318	Physiology 13374 13398	transport of amino acids
+T319	Disease 16593 16596	IBD
+T320	Population 16593 16602	IBD group
+T321	Methodology 16661 16749	ultra-high-performance liquid chromatography-quadrupole time-of-flight mass spectrometry
+T322	Methodology 16751 16765	UHPLC-Q-TOF MS
+T323	Disease 17098 17101	IBD
+T324	Metabolite 17901 17910	Calycosin
+T325	Metabolite 17912 17919	His-Met
+T326	Metabolite 17921 17939	1,2,3-benzenetriol
+T327	Metabolite 17941 17959	G(8-o-4)fa sulfate
+T328	Metabolite 17965 17990	Alpha.-apooxytetracycline
+T329	Metabolite 18030 18046	Lithocholic acid
+T330	Metabolite 18048 18057	Clausarin
+T331	Metabolite 18059 18074	Ginsenoside rh2
+T332	Metabolite 18076 18095	Isodeoxycholic acid
+T333	Metabolite 18101 18120	Propylpyrazoletriol
+T334	Physiology 13359 13369;13384 13398	metabolism of amino acids
+T335	Metabolite 16422 16557	[(2r,3 s,4 s,5r,6r)-3,4,5-trihydroxy-6-[2-(3-hydroxy-5-oxooxolan-3-yl)propoxy]oxan-2-yl]methyl (e)-3-(3,4-dihydroxyphenyl)prop-2-enoate
+T336	Metabolite 26510 26529	piperonyl sulfoxide
+T337	Metabolite 26552 26572	N-nitrosopyrrolidine
+T338	Metabolite 18233 18257	P-methoxymethamphetamine
+T339	Metabolite 18259 18267	Apigenin
+T340	Metabolite 18269 18287	O-methylarmepavine
+T341	Metabolite 18289 18325	2,5-dimethoxy-4-methylphenethylamine
+T342	Metabolite 18331 18339	Luteolin
+T344	Metabolite 18348 18540	1(2 h)-pyrimidineacetamide, n-[(1 s,3 s,4 s)-4-[[2-(2,6-dimethylphenoxy)acetyl]amino]-3-hydroxy-5-phenyl-1-(phenylmethyl)pentyl]tetrahydro-4-hydroxy-.alpha.-(1-methylethyl)-2-oxo-, (.alpha.s)-
+T346	Metabolite 18542 18557	Isocaproic acid
+T347	Metabolite 18559 18574	Garcinolic acid
+T348	Metabolite 18576 18604	Anhydroecgonine methyl ester
+T349	Metabolite 18610 18622	Salvinorin a
+T350	Metabolite 14844 14871	6,7,4′-trihydroxyisoflavone
+T351	Metabolite 14879 14914	Thyroxine 4′-o-.beta.-d-glucuronide
+T352	Metabolite 14922 14936	Trichostachine
+T353	Metabolite 14944 15079	[(2r,3 s,4 s,5r,6r)-3,4,5-trihydroxy-6-[2-(3-hydroxy-5-oxooxolan-3-yl)propoxy]oxan-2-yl]methyl (e)-3-(3,4-dihydroxyphenyl)prop-2-enoate
+T354	Metabolite 15087 15098	Normorphine
+T355	Metabolite 15106 15118	Salvinorin a
+T356	Metabolite 15126 15135	Esculetin
+T357	Metabolite 15143 15156	Mitraphylline
+T358	Metabolite 15164 15187	Indole-3-carboxaldehyde
+T359	Metabolite 15195 15210	Ginsenoside rh2
+T360	Metabolite 15218 15239	Arachidonoylserotonin
+T361	Metabolite 15247 15297	11-hydroxy-5z,8z,12e,14z,17z-eicosapentaenoic acid
+T362	Metabolite 15305 15328	10-deacetylbaccatin iii
+T363	Metabolite 15336 15349	9-cis-retinol
+T364	Metabolite 15357 15424	(5-benzoyloxy-3-chloro-4,6-dihydroxycyclohexen-1-yl)methyl benzoate
+T365	Metabolite 15432 15526	[(4e)-7-acetyloxy-6-hydroxy-2-methyl-10-oxo-2,3,6,7,8,9-hexahydrooxecin-3-yl] (e)-but-2-enoate
+T366	Metabolite 15534 15550	Dihydroberberine
+T367	Metabolite 15558 15579	N-nitrosopyrroolidine
+T368	Metabolite 15587 15602	Prothioconazole
+T369	Metabolite 15610 15627	Patchouli alcohol
+T4611	Disease 4795 4798	IBD
+T4711	Population 4803 4822	healthy individuals
+T4811	Disease 4865 4868	IBD
+E1	ASSOCIATED_WITH:T14 Theme:T13 Theme2:T7
+E2	DECREASES:T19 Theme:T20 Agent:T28
+E3	INCREASES:T22 Theme:T23 Agent:T28
+E4	INCREASES:T25 Theme:T26 Agent:T28
+E5	INCREASES:T25 Theme:T27 Agent:T28
+E6	DECREASES:T19 Theme:T21 Agent:T28
+E7	INCREASES:T22 Theme:T24 Agent:T28
+E10	AFFECTS:T43 Agent:T42 Theme:T44
+E11	AFFECTS:T43 Agent:T42 Theme:T46
+E12	AFFECTS:T43 Agent:T42 Theme:T45
+E15	DECREASES:T73 Agent:T72 Theme:T74
+E16	INCREASES:T78 Agent:T72 Theme:T79
+E17	DECREASES:T73 Agent:T72 Theme:T75
+E18	DECREASES:T73 Agent:T72 Theme:T76
+E19	DECREASES:T73 Agent:T72 Theme:T77
+E20	INCREASES:T78 Agent:T72 Theme:T80
+E21	INCREASES:T91 Agent:T89 Theme:T92
+E22	INCREASES:T91 Agent:T89 Theme:T93
+E23	INCREASES:T91 Agent:T89 Theme:T94
+E24	DECREASES:T96 Agent:T95 Theme:T97
+E25	INCREASES:T101 Agent:T95 Theme:T102
+E26	DECREASES:T96 Agent:T95 Theme:T98
+E27	DECREASES:T96 Agent:T95 Theme:T99
+E28	DECREASES:T96 Agent:T95 Theme:T100
+E29	INCREASES:T101 Agent:T95 Theme:T103
+E30	ASSOCIATED_WITH:T142 Theme:T139 Theme2:T140
+E31	ASSOCIATED_WITH:T142 Theme:T138 Theme2:T140
+E32	ASSOCIATED_WITH:T142 Theme:T137 Theme2:T140
+E33	ASSOCIATED_WITH:T142 Theme:T136 Theme2:T140
+E34	ASSOCIATED_WITH:T142 Theme:T135 Theme2:T140
+E35	DECREASES:T154 Agent:T144 Theme:T147
+E36	INCREASES:T155 Agent:T144 Theme:T156
+E37	INCREASES:T155 Agent:T144 Theme:T157
+E38	INCREASES:T155 Agent:T144 Theme:T159
+E39	DECREASES:T154 Agent:T144 Theme:T148
+E40	DECREASES:T154 Agent:T144 Theme:T149
+E41	DECREASES:T154 Agent:T144 Theme:T153
+E42	DECREASES:T154 Agent:T144 Theme:T152
+E43	DECREASES:T154 Agent:T144 Theme:T151
+E44	DECREASES:T154 Agent:T144 Theme:T150
+E45	DECREASES:T179 Agent:T177 Theme:T183
+E46	INCREASES:T184 Agent:T177 Theme:T186
+E47	INCREASES:T184 Agent:T177 Theme:T185
+E48	INCREASES:T184 Agent:T177 Theme:T187
+E49	DECREASES:T179 Agent:T177 Theme:T182
+E50	DECREASES:T179 Agent:T177 Theme:T181
+E51	DECREASES:T179 Agent:T177 Theme:T180
+E52	POS_ASSOCIATED_WITH:T203 Agent:T202 Theme:T204
+E53	NEG_ASSOCIATED_WITH:T212 Agent:T202 Theme:T218
+E54	POS_ASSOCIATED_WITH:T203 Agent:T202 Theme:T205
+E55	POS_ASSOCIATED_WITH:T203 Agent:T202 Theme:T206
+E56	POS_ASSOCIATED_WITH:T203 Agent:T202 Theme:T207
+E57	POS_ASSOCIATED_WITH:T203 Agent:T202 Theme:T208
+E58	POS_ASSOCIATED_WITH:T203 Agent:T202 Theme:T209
+E59	POS_ASSOCIATED_WITH:T203 Agent:T202 Theme:T210
+E60	POS_ASSOCIATED_WITH:T203 Agent:T202 Theme:T211
+E61	NEG_ASSOCIATED_WITH:T212 Agent:T202 Theme:T217
+E62	NEG_ASSOCIATED_WITH:T212 Agent:T202 Theme:T216
+E64	NEG_ASSOCIATED_WITH:T212 Agent:T202 Theme:T214
+E65	NEG_ASSOCIATED_WITH:T212 Agent:T202 Theme:T213
+E66	NEG_ASSOCIATED_WITH:T228 Agent:T219 Theme:T227
+E67	POS_ASSOCIATED_WITH:T236 Agent:T219 Theme:T235
+E68	POS_ASSOCIATED_WITH:T237 Agent:T220 Theme:T238
+E69	NEG_ASSOCIATED_WITH:T247 Agent:T220 Theme:T248
+E70	POS_ASSOCIATED_WITH:T237 Agent:T220 Theme:T239
+E71	POS_ASSOCIATED_WITH:T237 Agent:T220 Theme:T240
+E72	POS_ASSOCIATED_WITH:T237 Agent:T220 Theme:T241
+E73	POS_ASSOCIATED_WITH:T237 Agent:T220 Theme:T242
+E74	POS_ASSOCIATED_WITH:T237 Agent:T220 Theme:T243
+E77	POS_ASSOCIATED_WITH:T237 Agent:T220 Theme:T246
+E78	NEG_ASSOCIATED_WITH:T247 Agent:T220 Theme:T249
+E79	NEG_ASSOCIATED_WITH:T247 Agent:T220 Theme:T250
+E80	NEG_ASSOCIATED_WITH:T247 Agent:T220 Theme:T251
+E81	NEG_ASSOCIATED_WITH:T247 Agent:T220 Theme:T252
+E82	NEG_ASSOCIATED_WITH:T247 Agent:T220 Theme:T253
+E83	NEG_ASSOCIATED_WITH:T247 Agent:T220 Theme:T254
+E84	NEG_ASSOCIATED_WITH:T247 Agent:T220 Theme:T255
+E85	NEG_ASSOCIATED_WITH:T247 Agent:T220 Theme:T256
+E86	NEG_ASSOCIATED_WITH:T247 Agent:T220 Theme:T257
+E87	NEG_ASSOCIATED_WITH:T247 Agent:T220 Theme:T258
+E88	NEG_ASSOCIATED_WITH:T247 Agent:T220 Theme:T259
+E89	NEG_ASSOCIATED_WITH:T247 Agent:T220 Theme:T260
+E90	NEG_ASSOCIATED_WITH:T228 Agent:T219 Theme:T226
+E91	NEG_ASSOCIATED_WITH:T228 Agent:T219 Theme:T221
+E92	NEG_ASSOCIATED_WITH:T228 Agent:T219 Theme:T222
+E93	NEG_ASSOCIATED_WITH:T228 Agent:T219 Theme:T223
+E94	NEG_ASSOCIATED_WITH:T228 Agent:T219 Theme:T224
+E95	NEG_ASSOCIATED_WITH:T228 Agent:T219 Theme:T225
+E96	POS_ASSOCIATED_WITH:T236 Agent:T219 Theme:T234
+E97	POS_ASSOCIATED_WITH:T236 Agent:T219 Theme:T233
+E98	POS_ASSOCIATED_WITH:T236 Agent:T219 Theme:T232
+E99	POS_ASSOCIATED_WITH:T236 Agent:T219 Theme:T231
+E100	POS_ASSOCIATED_WITH:T236 Agent:T219 Theme:T230
+E101	POS_ASSOCIATED_WITH:T236 Agent:T219 Theme:T229

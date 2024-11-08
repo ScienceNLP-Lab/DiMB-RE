@@ -1,0 +1,86 @@
+T2	Nutrient 14 22	Fructans
+T3	Physiology 29 62	Gastrointestinal Barrier Function
+T4	Disease 142 147	Obese
+T5	Physiology 1440 1462	colonic mRNA abundance
+T6	Nutrient 682 691	cellulose
+T7	AFFECTS 23 28	Alter
+T8	INCREASES 1293 1300	greater
+T9	Disease 176 183	Obesity
+T10	Nutrient 322 327	Fiber
+T11	Physiology 215 242	intestinal barrier function
+T13	Nutrient 758 763	scFOS
+T14	Disease 587 592	obese
+T15	Nutrient 707 716	cellulose
+T16	Nutrient 1065 1070	scFOS
+T17	Disease 532 537	obese
+T18	Nutrient 464 472	fructans
+T19	Nutrient 440 449	cellulose
+T20	Microorganism 1814 1825	Akkermansia
+T21	DietPattern 638 652	high-fat diets
+T22	Nutrient 722 756	short-chain fructooligosaccharides
+T23	Nutrient 1122 1129	fructan
+T24	Nutrient 773 779	inulin
+T27	Nutrient 1196 1202	inulin
+T28	Nutrient 1181 1186	scFOS
+T31	Physiology 308 320	inflammation
+T32	Physiology 2164 2176	inflammation
+T33	Disease 2094 2099	obese
+T35	Nutrient 362 367	fiber
+T36	INCREASES 1043 1050	greater
+T37	Physiology 1022 1038	Body weight gain
+T41	INCREASES 1143 1150	greater
+T42	Nutrient 1273 1279	Inulin
+T43	Physiology 1162 1179	cecal crypt depth
+T45	DECREASES 1423 1428	lower
+T46	Nutrient 1549 1556	Fructan
+T47	Nutrient 1561 1570	cellulose
+T48	ASSOCIATED_WITH 187 202	associated with
+T50	INCREASES 1751 1758	greater
+T51	Microorganism 1770 1784	Actinobacteria
+T52	POS_ASSOCIATED_WITH 1935 1956	positively correlated
+T53	Physiology 1312 1339	cecal transmural resistance
+T54	Nutrient 1403 1409	Inulin
+T57	Gene 1466 1470	Ocln
+T58	Gene 1482 1486	Mct1
+T59	AFFECTS 2139 2145	affect
+T60	Nutrient 1714 1721	fructan
+T61	Microorganism 1797 1812	Verrucomicrobia
+T63	Microorganism 1919 1930	Akkermansia
+T64	Physiology 1983 2000	cecal crypt depth
+T65	Nutrient 2015 2023	Fructans
+T67	DECREASES 1677 1682	lower
+T68	Disease 2184 2189	obese
+T71	DiversityMetric 1645 1656	α diversity
+T76	Nutrient 1741 1746	scFOS
+T88	Microorganism 1853 1867	Actinobacteria
+T89	Microorganism 1876 1887	Akkermansia
+T93	Nutrient 1087 1096	cellulose
+T94	Nutrient 1232 1241	cellulose
+T95	Nutrient 1364 1373	cellulose
+T96	Nutrient 1513 1522	cellulose
+E1	DECREASES:T67 Agent:T47 Theme:T71
+E2	AFFECTS:T7 Agent:T2 Theme:T3
+E3	ASSOCIATED_WITH:T48 Theme:T9 Theme2:T11
+E4	AFFECTS:T59 Agent:T65 Theme:T32
+E8	INCREASES:T36 Theme:T37 Agent:T16
+E9	INCREASES:T41 Theme:T43 Agent:T23
+E10	INCREASES:T8 Theme:T53 Agent:T42
+E11	DECREASES:T45 Theme:T57 Agent:T54
+E12	INCREASES:T50 Theme:T51 Agent:T76
+E13	POS_ASSOCIATED_WITH:T52 Theme:T64 Agent:T63
+E14	DECREASES:T45 Theme:T58 Agent:T54
+E16	INCREASES:T50 Theme:T61 Agent:T76
+E17	DECREASES:T67 Agent:T46 Theme:T71
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E8
+A6	Factual E9
+A7	Factual E10
+A8	Factual E11
+A9	Factual E12
+A10	Factual E13
+A11	Factual E14
+A12	Factual E16
+A13	Factual E17

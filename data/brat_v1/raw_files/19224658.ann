@@ -1,0 +1,107 @@
+T1	DietPattern 23 44	very low-carbohydrate
+T2	DietPattern 46 54	high-fat
+T3	DietPattern 59 76	high-carbohydrate
+T4	DietPattern 78 103	low-fat weight-loss diets
+T5	Physiology 107 118	bowel habit
+T6	Metabolite 130 153	short-chain fatty acids
+T7	AFFECTS 12 19	effects
+T8	DietPattern 182 209	Very low-carbohydrate diets
+T9	Physiology 270 295	bowel health and function
+T10	DietPattern 346 377	very low-carbohydrate, high-fat
+T11	DietPattern 379 381	LC
+T12	DietPattern 395 433	high-carbohydrate, high-fibre, low-fat
+T13	DietPattern 435 437	HC
+T14	Physiology 458 483	bowel health and function
+T15	AFFECTS 333 340	effects
+T16	Methodology 490 511	parallel study design
+T17	Methodology 524 557	overweight and obese participants
+T18	Disease 524 534	overweight
+T19	Disease 539 544	obese
+T20	Measurement 584 587	BMI
+T21	DietPattern 715 717	LC
+T22	DietPattern 721 723	HC
+T23	Biospecimen 771 776	urine
+T24	Biospecimen 781 787	faecal
+T25	Methodology 820 848	bowel function questionnaire
+T26	DietPattern 882 884	HC
+T27	DietPattern 933 935	LC
+T28	DECREASES 903 925	significant reductions
+T29	Physiology 946 959	faecal output
+T30	Physiology 994 1014	defecation frequency
+T31	Physiology 1016 1032	faecal excretion
+T32	Metabolite 1055 1063	butyrate
+T33	Metabolite 1112 1122	total SCFA
+T34	Microorganism 1180 1194	bifidobacteria
+T35	Metabolite 1240 1255	Urinary phenols
+T36	Metabolite 1260 1268	p-cresol
+T37	DECREASES 1279 1288	decreased
+T38	DietPattern 1683 1685	LC
+T39	DECREASES 1691 1698	lowered
+T40	Physiology 1699 1711	stool weight
+T41	PREDISPOSES 1875 1896	may increase the risk
+T42	Metabolite 1785 1789	SCFA
+T44	DietPattern 1807 1809	HC
+T45	DietPattern 1867 1869	LC
+T47	Physiology 1915 1941	gastrointestinal disorders
+T48	Physiology 1365 1376	Faecal form
+T49	Physiology 1365 1371;1378 1380	Faecal pH
+T50	Metabolite 1382 1389	ammonia
+T51	Microorganism 1433 1449	Escherichia coli
+T52	AFFECTS 1450 1464	did not change
+T53	AFFECTS 259 266	effects
+T54	POS_ASSOCIATED_WITH 228 235	promote
+T55	Physiology 236 247	weight loss
+T56	WORSENS 1720 1739	detrimental effects
+E1	AFFECTS:T7 Agent:T1 Theme:T5
+E2	AFFECTS:T7 Agent:T1 Theme:T6
+E3	AFFECTS:T7 Agent:T2 Theme:T5
+E4	AFFECTS:T7 Agent:T2 Theme:T6
+E5	AFFECTS:T7 Agent:T3 Theme:T5
+E6	AFFECTS:T7 Agent:T3 Theme:T6
+E7	AFFECTS:T7 Agent:T4 Theme:T5
+E8	AFFECTS:T7 Agent:T4 Theme:T6
+E9	AFFECTS:T15 Agent:T10 Theme:T14
+E10	AFFECTS:T15 Agent:T12 Theme:T14
+E11	DECREASES:T28 Agent:T27 Theme:T29
+E12	DECREASES:T28 Agent:T27 Theme:T30
+E13	DECREASES:T28 Agent:T27 Theme:T31
+E14	DECREASES:T28 Agent:T27 Theme:T32
+E15	DECREASES:T28 Agent:T27 Theme:T33
+E16	DECREASES:T28 Agent:T27 Theme:T34
+E17	DECREASES:T37 Agent:T26 Theme:T36
+E18	DECREASES:T37 Agent:T26 Theme:T35
+E19	DECREASES:T37 Agent:T27 Theme:T35
+E20	DECREASES:T37 Agent:T27 Theme:T36
+E21	DECREASES:T39 Agent:T38 Theme:T40
+E22	WORSENS:T56 Agent:T38 Theme:T42
+E24	PREDISPOSES:T41 Theme:T47 Agent:T45
+E25	AFFECTS:T52 Agent:T27 Theme:T51
+E26	AFFECTS:T52 Agent:T26 Theme:T51
+E27	AFFECTS:T52 Agent:T27 Theme:T50
+E28	AFFECTS:T52 Agent:T27 Theme:T49
+E29	AFFECTS:T52 Agent:T27 Theme:T48
+E30	AFFECTS:T52 Agent:T26 Theme:T50
+E31	AFFECTS:T52 Agent:T26 Theme:T49
+E32	AFFECTS:T52 Agent:T26 Theme:T48
+E33	AFFECTS:T53 Agent:T8 Theme:T9
+E34	POS_ASSOCIATED_WITH:T54 Theme:T55 Agent:T8
+A1	Factuality E1 Unknown
+A2	Factuality E2 Unknown
+A3	Factuality E3 Unknown
+A4	Factuality E4 Unknown
+A5	Factuality E6 Unknown
+A6	Factuality E5 Unknown
+A7	Factuality E7 Unknown
+A8	Factuality E8 Unknown
+A9	Factuality E9 Unknown
+A10	Factuality E10 Unknown
+A11	Factuality E24 Possible
+A12	Factuality E25 Negated
+A13	Factuality E26 Negated
+A14	Factuality E27 Negated
+A15	Factuality E28 Negated
+A16	Factuality E29 Negated
+A17	Factuality E30 Negated
+A18	Factuality E31 Negated
+A19	Factuality E32 Negated
+A20	Factuality E33 Unknown

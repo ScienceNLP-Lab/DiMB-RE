@@ -1,0 +1,50 @@
+T2	Disease 117 124	obesity
+T3	Physiology 282 295	weight status
+T4	Physiology 760 773	Weight status
+T6	Measurement 1073 1082	HEI score
+T7	Measurement 791 794	BMI
+T9	POS_ASSOCIATED_WITH 1708 1714	Higher
+T10	POS_ASSOCIATED_WITH 1572 1579	Greater
+T14	Physiology 1280 1293	weight status
+T16	Physiology 1391 1404	weight status
+T18	DiversityMetric 1580 1595	alpha diversity
+T19	ASSOCIATED_WITH 1572 1579	Greater
+T20	Measurement 1633 1660	Healthy Eating Index scores
+T21	Physiology 1693 1706	weight status
+T23	Measurement 1102 1111	HEI score
+T26	Microorganism 1729 1742	Bacteroidetes
+T27	Microorganism 1757 1767	Firmicutes
+T28	Measurement 1808 1817	HEI score
+T30	Microorganism 1826 1839	Bacteriodetes
+T32	ASSOCIATED_WITH 1938 1948	associated
+T33	Physiology 2060 2073	weight status
+T34	Microorganism 2075 2088	Bacteroidetes
+T35	Microorganism 2093 2103	Firmicutes
+T36	DiversityMetric 1954 1969	alpha diversity
+T37	Physiology 411 424	weight status
+T38	Measurement 588 603	anthropometrics
+T43	Disease 1546 1551	obese
+T44	Measurement 1930 1933	HEI
+T45	Measurement 987 1029	Healthy Eating Index-2010 (HEI-2010) score
+T49	ASSOCIATED_WITH 2048 2054	linked
+T52	Disease 898 903	obese
+T54	Physiology 1867 1876	non-obese
+T55	POS_ASSOCIATED_WITH 1819 1825	Higher
+T56	Physiology 1526 1535	non-obese
+T57	Physiology 835 844	non-obese
+E2	POS_ASSOCIATED_WITH:T10 Theme:T18 Agent:T20
+E3	POS_ASSOCIATED_WITH:T9 Theme:T26 Agent:T28
+E4	ASSOCIATED_WITH:T32 Theme:T44 Theme2:T36
+E5	POS_ASSOCIATED_WITH:T9 Theme:T27 Agent:T28
+E6	ASSOCIATED_WITH:T19 Theme:T18 Agent:T21
+E7	ASSOCIATED_WITH:T49 Theme:T33 Theme2:T35
+E8	ASSOCIATED_WITH:T49 Theme:T33 Theme2:T34
+E9	POS_ASSOCIATED_WITH:T55 Theme:T30 Agent:T54
+A1	Negated E6
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E7
+A7	Factual E8
+A8	Factual E9

@@ -1,0 +1,361 @@
+T1	Methodology 15995 16023	Microbial community analysis
+T2	Nutrient 16131 16136	nisin
+T3	Microorganism 16224 16247	Clostridium perfringens
+T4	Microorganism 16252 16255	LAB
+T5	AFFECTS 16211 16219	affected
+T6	Microorganism 16264 16275	Bacteroides
+T7	Microorganism 16280 16297	Enterobacteriacae
+T8	AFFECTS 16330 16340	influenced
+T9	Nutrient 16484 16489	nisin
+T10	Nutrient 16511 16516	nisin
+T11	Methodology 16624 16637	DAPI staining
+T12	Methodology 16642 16675	fluorescent in situ hybridization
+T13	Methodology 16677 16681	FISH
+T14	Microorganism 16786 16797	Bacteroides
+T15	Microorganism 16798 16808	Prevotella
+T16	Microorganism 16861 16884	Clostridium perfringens
+T17	Microorganism 16928 16945	Enterobacteriacae
+T18	Microorganism 16998 17011	Lactobacillus
+T19	Microorganism 17012 17024	Enterococcus
+T20	Nutrient 17205 17210	nisin
+T21	Nutrient 17241 17246	nisin
+T22	Nutrient 17280 17285	nisin
+T23	Nutrient 17169 17174	nisin
+T24	Methodology 17301 17305	DAPI
+T25	Methodology 17347 17385	4',6-diamidino-2-phenylindole staining
+T26	Physiology 17526 17548	Microbial fermentation
+T27	Physiology 17584 17606	microbial fermentation
+T28	Population 17622 17641	broiler chicken GIT
+T29	Physiology 17638 17641	GIT
+T30	AFFECTS 17646 17654	affected
+T31	Nutrient 17658 17663	nisin
+T32	Metabolite 17782 17792	total SCFA
+T33	Metabolite 17890 17900	propionate
+T34	DECREASES 17853 17861	reducing
+T35	DECREASES 17770 17777	lowered
+T36	DECREASES 17984 17989	lower
+T37	Metabolite 17990 17994	SCFA
+T38	Metabolite 17999 18004	PSCFA
+T39	Nutrient 18117 18122	nisin
+T40	DECREASES 18123 18130	reduced
+T41	Metabolite 18149 18159	propionate
+T42	Nutrient 22348 22350	NI
+T43	Metabolite 18298 18303	PSCFA
+T44	Metabolite 18289 18293	SCFA
+T45	Metabolite 18378 18384;18399 18404	acetic acids
+T46	Metabolite 18389 18404	propionic acids
+T47	Nutrient 18444 18449	nisin
+T48	DECREASES 18361 18367	lowest
+T49	Metabolite 18458 18474	Iso-butyric acid
+T50	Metabolite 18530 18542	Butyric acid
+T51	AFFECTS 18557 18571	did not differ
+T52	INCREASES 18260 18267	highest
+T53	Metabolite 18652 18668	iso-valeric acid
+T54	Metabolite 18774 18786	valeric acid
+T55	DECREASES 18767 18773	Lowest
+T56	Metabolite 18907 18912	PSCFA
+T57	DECREASES 18939 18945	lowest
+T58	Metabolite 18979 18983	SCFA
+T59	DECREASES 18966 18972	lowest
+T60	Nutrient 19018 19023	nisin
+T61	AFFECTS 19056 19070	did not affect
+T62	Physiology 19011 19016	caeca
+T63	Metabolite 19075 19079	SCFA
+T64	Physiology 18210 18215	ileum
+T65	Physiology 18332 18345	caeca digesta
+T66	Metabolite 19100 19104	SCFA
+T67	Physiology 19117 19129	crop digesta
+T68	Physiology 17735 17739	crop
+T69	Nutrient 19232 19237	nisin
+T70	Nutrient 19268 19273	nisin
+T71	Nutrient 19304 19309	nisin
+T72	Nutrient 19343 19348	nisin
+T73	Metabolite 19446 19450	SCFA
+T74	Physiology 19463 19476	ileum digesta
+T75	Nutrient 19578 19583	nisin
+T76	Nutrient 19614 19619	nisin
+T77	Nutrient 19650 19655	nisin
+T78	Nutrient 19689 19694	nisin
+T79	Metabolite 19792 19796	SCFA
+T80	Physiology 19809 19822	caeca digesta
+T81	Nutrient 19924 19929	nisin
+T82	Nutrient 19960 19965	nisin
+T83	Nutrient 19996 20001	nisin
+T84	Nutrient 20035 20040	nisin
+T85	Metabolite 20138 20142	SCFA
+T86	Physiology 20161 20165	crop
+T87	Physiology 20167 20172	ileum
+T88	Physiology 20177 20190	caeca digesta
+T89	Metabolite 20256 20267	acetic acid
+T90	Metabolite 20311 20325	propionic acid
+T91	Metabolite 20375 20391	iso-butyric acid
+T92	Metabolite 20435 20447	butyric acid
+T93	Metabolite 20491 20507	iso-valeric acid
+T94	Metabolite 20607 20612	PSCFA
+T95	Metabolite 20551 20563	valeric acid
+T96	Metabolite 20660 20670	total SCFA
+T97	Physiology 20720 20725	Ileum
+T98	Metabolite 20728 20739	acetic acid
+T99	Physiology 20249 20253	Crop
+T100	Metabolite 20783 20797	propionic acid
+T101	Metabolite 20847 20863	iso-butyric acid
+T102	Metabolite 20913 20925	butyric acid
+T103	Metabolite 20969 20985	iso-valeric acid
+T104	Metabolite 21029 21041	valeric acid
+T105	Metabolite 21085 21090	PSCFA
+T106	Metabolite 21144 21154	total SCFA
+T107	Metabolite 21214 21225	acetic acid
+T108	Physiology 21206 21211	Caeca
+T109	Metabolite 21276 21290	propionic acid
+T110	Metabolite 21341 21357	iso-butyric acid
+T111	Metabolite 21407 21419	butyric acid
+T112	Metabolite 21470 21486	iso-valeric acid
+T113	Metabolite 21540 21552	valeric acid
+T114	Metabolite 21606 21611	PSCFA
+T115	Metabolite 21675 21679	SCFA
+T116	Nutrient 21831 21836	nisin
+T117	Nutrient 21867 21872	nisin
+T118	Nutrient 21903 21908	nisin
+T119	Nutrient 21942 21947	nisin
+T120	Metabolite 21964 21969	PSCFA
+T121	Metabolite 21972 21989	putrefactive SCFA
+T122	Physiology 22245 22250;22261 22268	ileum digesta
+T123	Physiology 22255 22268	caeca digesta
+T124	DECREASES 22327 22333	lowest
+T125	Physiology 22217 22219	pH
+T126	Physiology 22419 22423;22441 22448	crop digesta
+T127	Physiology 22425 22430;22441 22448	ileum digesta
+T128	Physiology 22435 22448	caeca digesta
+T129	Nutrient 22763 22768	nisin
+T130	Nutrient 22799 22804	nisin
+T131	Nutrient 22835 22840	nisin
+T132	Nutrient 22874 22879	nisin
+T133	Nutrient 23059 23064	nisin
+T134	AFFECTS 23112 23120	affected
+T135	Enzyme 23146 23163	bacterial enzymes
+T136	Physiology 23167 23171	crop
+T137	Physiology 23173 23178	ileum
+T138	Physiology 23183 23188	caeca
+T139	Physiology 23203 23215	crop digesta
+T140	Physiology 24537 24541	Crop
+T141	Enzyme 23280 23295	β-glucuronidase
+T142	Enzyme 23502 23516	β-glucosidases
+T143	Enzyme 23258 23275	α- galactosidases
+T144	Enzyme 23242 23256	β-glucosidases
+T145	Nutrient 23341 23346	nisin
+T146	DECREASES 23363 23372	decreased
+T147	Enzyme 23521 23536	β-glucuronidase
+T148	Nutrient 23584 23589	nisin
+T149	DECREASES 23495 23501	lowest
+T150	Physiology 23614 23627	ileum digesta
+T151	Enzyme 23641 23655	α-glucosidases
+T152	DECREASES 23702 23708	lowest
+T153	Enzyme 23235 23237;23244 23256	α- glucosidases
+T154	Enzyme 23847 23864	bacterial enzymes
+T155	Enzyme 24544 24557	α-glucosidase
+T156	Physiology 23878 23891	caeca digesta
+T157	Enzyme 23932 23934;23941 23953	α- glucosidases
+T158	Enzyme 23939 23953	β-glucosidases
+T159	Enzyme 23955 23972	α- galactosidases
+T160	Enzyme 23977 23992	β-glucuronidase
+T161	Enzyme 24008 24029	α-arabinopyranosidase
+T162	Enzyme 24034 24046	β-xylosidase
+T163	Nutrient 24099 24104	nisin
+T164	DECREASES 24144 24167	significantly decreased
+T165	Enzyme 24184 24186;24193 24205	α- glucosidases
+T166	Enzyme 24191 24205	β-glucosidases
+T167	Enzyme 24224 24241	α- galactosidases
+T168	Enzyme 24273 24287	β-glucosidases
+T169	Enzyme 24297 24312	β-glucuronidase
+T170	Enzyme 24344 24365	α-arabinopyranosidase
+T171	Enzyme 24376 24388	β-xylosidase
+T172	Physiology 24447 24451;24469 24476	crop digesta
+T173	Physiology 24453 24458;24469 24476	ileum digesta
+T174	Physiology 24463 24476	caeca digesta
+T175	Enzyme 24412 24443	extracellular bacterial enzymes
+T176	Nutrient 25784 25789	nisin
+T177	Nutrient 25820 25825	nisin
+T178	Nutrient 25856 25861	nisin
+T179	Nutrient 25895 25900	nisin
+T180	Physiology 26105 26121	body weight gain
+T181	Physiology 26123 26126	BWG
+T182	Nutrient 26168 26173	Nisin
+T183	IMPROVES 26190 26198	improved
+T184	Physiology 26199 26202	BWG
+T185	Physiology 26526 26529	BWG
+T186	INCREASES 26654 26661	highest
+T187	Physiology 26662 26665	BWG
+T188	Nutrient 26687 26692	nisin
+T189	Measurement 26767 26788	feed conversion ratio
+T190	Measurement 26790 26793	FCR
+T191	Measurement 26829 26832	FCR
+T192	DECREASES 26822 26828	lowest
+T193	Measurement 27012 27015	FCR
+T194	Nutrient 27223 27228	nisin
+T195	DECREASES 27155 27161	lowest
+T196	Measurement 27162 27165	FCR
+T197	Nutrient 27249 27254	Nisin
+T198	Population 27312 27328	broiler chickens
+T199	AFFECTS 27279 27287	effected
+T200	Physiology 27288 27299	feed intake
+T201	Physiology 27301 27303	FI
+T202	INCREASES 27369 27376	highest
+T203	Physiology 27377 27379	FI
+T204	Physiology 27517 27528	performance
+T205	Population 27501 27516	Broiler chicken
+T206	Nutrient 28365 28370	nisin
+T207	Nutrient 28401 28406	nisin
+T208	Nutrient 28437 28442	nisin
+T209	Nutrient 28476 28481	nisin
+T210	Physiology 28499 28502	BWG
+T211	Physiology 28504 28520	Body Weight Gain
+T212	Nutrient 28522 28524	FE
+T213	Measurement 28527 28542	Feed Efficiency
+T214	Physiology 28544 28546	FI
+T215	Physiology 28549 28560	Feed Intake
+T216	Nutrient 8 13	Nisin
+T217	Physiology 28 62	Gastrointestinal Microbial Ecology
+T218	INCREASES 67 75	Enhances
+T219	Physiology 76 94	Growth Performance
+T220	Population 102 118	Broiler Chickens
+T221	AFFECTS 14 23	Modulates
+T222	Nutrient 153 158	nisin
+T223	Nutrient 259 264	nisin
+T224	AFFECTS 345 354	influence
+T225	Physiology 358 405	microbial ecology of the gastrointestinal tract
+T226	Nutrient 483 488	nisin
+T227	Population 492 507	broiler chicken
+T228	Physiology 508 529	GIT microbial ecology
+T229	Physiology 534 545	performance
+T230	AFFECTS 464 471	effects
+T231	Population 630 662	one-day-old male Ross 308 chicks
+T232	Nutrient 798 803	nisin
+T233	Nutrient 805 807	NI
+T234	Enzyme 1052 1054;1061 1073	α- glucosidases
+T235	Enzyme 1059 1073	β-glucosidases
+T236	Enzyme 1075 1091	α-galactosidases
+T237	Enzyme 1096 1111	β-glucuronidase
+T238	Physiology 22413 22415	pH
+T239	Nutrient 1194 1199	nisin
+T240	DECREASES 1216 1225	decreased
+T241	Physiology 22495 22499	Crop
+T242	Physiology 1116 1120	crop
+T243	Physiology 1122 1127	ileum
+T244	Physiology 1132 1137	caeca
+T245	Physiology 22543 22548	Ileum
+T246	Metabolite 1369 1392	short-chain fatty acids
+T247	Metabolite 1394 1398	SCFA
+T248	Metabolite 1404 1421	putrefactive SCFA
+T249	Metabolite 1423 1428	PSCFA
+T250	Physiology 1446 1450	crop
+T251	Physiology 1488 1493	caeca
+T252	AFFECTS 1306 1315	influence
+T253	Physiology 1455 1460	ileum
+T254	Microorganism 1505 1516	Bacteroides
+T255	Microorganism 1521 1538	Enterobacteriacae
+T256	Nutrient 1598 1603	nisin
+T257	Microorganism 1667 1690	Clostridium perfringens
+T258	Microorganism 1692 1705	Lactobacillus
+T259	AFFECTS 1625 1635	no effects
+T260	DECREASES 1585 1594	decreased
+T261	Physiology 1542 1547	ileum
+T262	Nutrient 1757 1762	nisin
+T263	IMPROVES 1779 1787	improved
+T264	Physiology 1796 1814	growth performance
+T265	Population 1788 1795	broiler
+T266	Physiology 1873 1889	body weight gain
+T267	IMPROVES 1925 1933	improved
+T268	Nutrient 1999 2004	nisin
+T269	Population 2104 2120	broiler chickens
+T270	Physiology 22600 22605	Caeca
+T271	Enzyme 24608 24621	β-glucosidase
+T272	Enzyme 24675 24690	α-galactosidase
+T273	Enzyme 24734 24749	β-galactosidase
+T274	Enzyme 24800 24815	β-glucuronidase
+T275	Physiology 24867 24872	Ileum
+T276	Enzyme 24875 24888	α-glucosidase
+T277	Enzyme 24942 24955	β-glucosidase
+T278	Enzyme 25007 25022	α-galactosidase
+T279	Enzyme 25072 25087	β-galactosidase
+T280	Enzyme 25138 25153	β-glucuronidase
+T281	Physiology 25204 25209	Caeca
+T282	Enzyme 25212 25225	α-glucosidase
+T283	Enzyme 25280 25293	β-glucosidase
+T284	Enzyme 25346 25361	α-galactosidase
+T285	Enzyme 25415 25430	β-galactosidase
+T286	Enzyme 25482 25497	β-glucuronidase
+T287	Enzyme 25548 25569	α-arabinopyranosidase
+T288	Enzyme 25619 25631	β-xylosidase
+T289	Physiology 27570 27573	BWG
+T290	Physiology 28030 28032	FI
+T291	Nutrient 27795 27797	FE
+T292	Microorganism 1706 1718	Enterococcus
+E1	AFFECTS:T5 Agent:T2 Theme:T3
+E2	AFFECTS:T5 Agent:T2 Theme:T4
+E3	AFFECTS:T8 Agent:T2 Theme:T7
+E4	AFFECTS:T8 Agent:T2 Theme:T6
+E5	AFFECTS:T30 Agent:T31 Theme:T27
+E6	DECREASES:T34 Theme:T33 Agent:T31
+E7	DECREASES:T35 Theme:T32 Agent:T31
+E8	DECREASES:T36 Agent:T31 Theme:T37
+E9	DECREASES:T36 Agent:T31 Theme:T38
+E10	DECREASES:T40 Theme:T41 Agent:T39
+E11	DECREASES:T48 Agent:T47 Theme:T45
+E12	DECREASES:T48 Agent:T47 Theme:T46
+E13	AFFECTS:T51 Theme:T50 Agent:T47
+E14	INCREASES:T52 Agent:T39 Theme:T44
+E15	AFFECTS:T259 Agent:T256 Theme:T292
+E16	INCREASES:T52 Agent:T39 Theme:T43
+E17	DECREASES:T55 Theme:T54 Agent:T47
+E18	DECREASES:T57 Theme:T56 Agent:T47
+E19	DECREASES:T59 Theme:T58 Agent:T47
+E20	AFFECTS:T61 Theme:T63 Agent:T60
+E21	DECREASES:T124 Theme:T125 Agent:T42
+E22	AFFECTS:T134 Agent:T133 Theme:T135
+E23	DECREASES:T146 Agent:T145 Theme:T153
+E24	DECREASES:T146 Agent:T145 Theme:T141
+E25	DECREASES:T146 Agent:T145 Theme:T143
+E26	DECREASES:T146 Agent:T145 Theme:T144
+E27	DECREASES:T149 Agent:T148 Theme:T142
+E28	DECREASES:T149 Agent:T148 Theme:T147
+E29	DECREASES:T152 Theme:T151 Agent:T148
+E31	DECREASES:T164 Agent:T163 Theme:T166
+E32	DECREASES:T164 Agent:T163 Theme:T167
+E33	DECREASES:T164 Agent:T163 Theme:T168
+E34	DECREASES:T164 Agent:T163 Theme:T169
+E35	DECREASES:T164 Agent:T163 Theme:T170
+E36	DECREASES:T164 Agent:T163 Theme:T171
+E37	DECREASES:T164 Agent:T163 Theme:T165
+E38	IMPROVES:T183 Theme:T184 Agent:T182
+E39	INCREASES:T186 Theme:T187 Agent:T188
+E40	DECREASES:T192 Theme:T191 Agent:T188
+E41	DECREASES:T195 Agent:T194 Theme:T196
+E42	AFFECTS:T199 Agent:T197 Theme:T200
+E43	INCREASES:T202 Theme:T203 Agent:T197
+E44	AFFECTS:T221 Agent:T216 Theme:T217
+E45	INCREASES:T218 Agent:T216 Theme:T219
+E46	AFFECTS:T224 Theme:T225 Agent:T223
+E47	AFFECTS:T230 Agent:T226 Theme:T228
+E48	AFFECTS:T252 Theme:T246 Agent:T239
+E49	DECREASES:T240 Agent:T239 Theme:T237
+E50	AFFECTS:T259 Theme:T257 Agent:T256
+E51	DECREASES:T260 Agent:T256 Theme:T255
+E52	DECREASES:T260 Agent:T256 Theme:T254
+E53	IMPROVES:T263 Agent:T262 Theme:T264
+E54	IMPROVES:T267 Theme:T266 Agent:T262
+E55	DECREASES:T240 Agent:T239 Theme:T236
+E56	DECREASES:T240 Agent:T239 Theme:T234
+E57	DECREASES:T240 Agent:T239 Theme:T235
+E58	AFFECTS:T252 Theme:T248 Agent:T239
+E59	AFFECTS:T259 Theme:T258 Agent:T256
+E60	AFFECTS:T230 Agent:T226 Theme:T229
+A1	Factuality E1 Negated
+A2	Factuality E2 Negated
+A3	Factuality E13 Negated
+A4	Factuality E50 Negated
+A5	Factuality E47 Unknown
+A6	Factuality E46 Unknown
+A7	Factuality E59 Negated
+A8	Factuality E60 Unknown
+A9	Factuality E20 Negated
+A10	Factuality E15 Negated

@@ -1,0 +1,12 @@
+Synbiotics modulate gut microbiota and reduce enteritis and ventilator-associated pneumonia in patients with sepsis: a randomized controlled trial
+
+Background
+Commensal microbiota deteriorate in critically ill patients. The preventive effects of probiotic/synbiotic therapy on microbiota and septic complications have not been thoroughly clarified in patients with sepsis. The objective of this study was to evaluate whether synbiotics have effects on gut microbiota and reduce complications in mechanically ventilated patients with sepsis.
+Methods
+Sepsis patients who were mechanically ventilated in the intensive care unit (ICU) were included in this randomized controlled study. Patients receiving daily synbiotics (Bifidobacterium breve strain Yakult, Lactobacillus casei strain Shirota, and galactooligosaccharides) initiated within 3 days after admission (the Synbiotics group) were compared with patients who did not receive synbiotics (the No-Synbiotics group). The primary outcome was infectious complications including enteritis, ventilator-associated pneumonia (VAP), and bacteremia within 4 weeks from admission. The secondary outcomes included mortality within 4 weeks, fecal bacterial counts, and organic acid concentration. Enteritis was defined as the acute onset of continuous liquid stools for more than 12 h.
+Results
+Seventy-two patients completed this trial; 35 patients received synbiotics and 37 patients did not receive synbiotics. The incidence of enteritis was significantly lower in the Synbiotics than the No-Synbiotics group (6.3% vs. 27.0%; p < 0.05). The incidence of VAP was also significantly lower in the Synbiotics than the No-Synbiotics group (14.3% vs. 48.6%; p < 0.05). The incidence of bacteremia and mortality did not differ significantly between the two groups. In the analysis of fecal bacteria, the number of Bifidobacterium and Lactobacillus in the Synbiotics group was significantly higher than that in the No-Synbiotics group. In the analysis of fecal organic acids, total organic acid concentration, especially the amounts of acetate, were significantly greater in the Synbiotics group than in the No-Synbiotics group at the first week (p < 0.05).
+Conclusions
+Prophylactic synbiotics could modulate the gut microbiota and environment and may have preventive effects on the incidence of enteritis and VAP in patients with sepsis.
+Trial registration
+UMIN, R000007633. Registered on 29 September 2011.

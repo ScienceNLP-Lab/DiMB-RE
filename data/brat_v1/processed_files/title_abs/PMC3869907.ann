@@ -1,0 +1,83 @@
+T216	Nutrient 8 13	Nisin
+T217	Physiology 28 62	Gastrointestinal Microbial Ecology
+T218	INCREASES 67 75	Enhances
+T219	Physiology 76 94	Growth Performance
+T221	AFFECTS 14 23	Modulates
+T222	Nutrient 153 158	nisin
+T223	Nutrient 259 264	nisin
+T224	AFFECTS 345 354	influence
+T225	Physiology 358 405	microbial ecology of the gastrointestinal tract
+T226	Nutrient 483 488	nisin
+T228	Physiology 508 529	GIT microbial ecology
+T229	Physiology 534 545	performance
+T230	AFFECTS 464 471	effects
+T232	Nutrient 798 803	nisin
+T233	Nutrient 805 807	NI
+T234	Enzyme 1052 1054;1061 1073	α- glucosidases
+T235	Enzyme 1059 1073	β-glucosidases
+T236	Enzyme 1075 1091	α-galactosidases
+T237	Enzyme 1096 1111	β-glucuronidase
+T239	Nutrient 1194 1199	nisin
+T240	DECREASES 1216 1225	decreased
+T242	Physiology 1116 1120	crop
+T243	Physiology 1122 1127	ileum
+T244	Physiology 1132 1137	caeca
+T246	Metabolite 1369 1392	short-chain fatty acids
+T247	Metabolite 1394 1398	SCFA
+T248	Metabolite 1404 1421	putrefactive SCFA
+T249	Metabolite 1423 1428	PSCFA
+T250	Physiology 1446 1450	crop
+T251	Physiology 1488 1493	caeca
+T252	AFFECTS 1306 1315	influence
+T253	Physiology 1455 1460	ileum
+T254	Microorganism 1505 1516	Bacteroides
+T255	Microorganism 1521 1538	Enterobacteriacae
+T256	Nutrient 1598 1603	nisin
+T257	Microorganism 1667 1690	Clostridium perfringens
+T258	Microorganism 1692 1705	Lactobacillus
+T259	AFFECTS 1625 1635	no effects
+T260	DECREASES 1585 1594	decreased
+T261	Physiology 1542 1547	ileum
+T262	Nutrient 1757 1762	nisin
+T263	IMPROVES 1779 1787	improved
+T264	Physiology 1796 1814	growth performance
+T266	Physiology 1873 1889	body weight gain
+T267	IMPROVES 1925 1933	improved
+T268	Nutrient 1999 2004	nisin
+T292	Microorganism 1706 1718	Enterococcus
+E15	AFFECTS:T259 Agent:T256 Theme:T292
+E44	AFFECTS:T221 Agent:T216 Theme:T217
+E45	INCREASES:T218 Agent:T216 Theme:T219
+E46	AFFECTS:T224 Theme:T225 Agent:T223
+E47	AFFECTS:T230 Agent:T226 Theme:T228
+E48	AFFECTS:T252 Theme:T246 Agent:T239
+E49	DECREASES:T240 Agent:T239 Theme:T237
+E50	AFFECTS:T259 Theme:T257 Agent:T256
+E51	DECREASES:T260 Agent:T256 Theme:T255
+E52	DECREASES:T260 Agent:T256 Theme:T254
+E53	IMPROVES:T263 Agent:T262 Theme:T264
+E54	IMPROVES:T267 Theme:T266 Agent:T262
+E55	DECREASES:T240 Agent:T239 Theme:T236
+E56	DECREASES:T240 Agent:T239 Theme:T234
+E57	DECREASES:T240 Agent:T239 Theme:T235
+E58	AFFECTS:T252 Theme:T248 Agent:T239
+E59	AFFECTS:T259 Theme:T258 Agent:T256
+E60	AFFECTS:T230 Agent:T226 Theme:T229
+A4	Negated E50
+A5	Unknown E47
+A6	Unknown E46
+A7	Negated E59
+A8	Unknown E60
+A10	Negated E15
+A48	Factual E44
+A49	Factual E45
+A50	Factual E48
+A51	Factual E49
+A52	Factual E51
+A53	Factual E52
+A54	Factual E53
+A55	Factual E54
+A56	Factual E55
+A57	Factual E56
+A58	Factual E57
+A59	Factual E58

@@ -1,0 +1,97 @@
+T1	Nutrient 2 12	polyphenol
+T2	IMPROVES 34 42	improves
+T3	Physiology 43 66	intestinal permeability
+T4	DietPattern 2 33	polyphenol-rich dietary pattern
+T5	Population 106 120	older subjects
+T6	Methodology 132 159	randomised controlled trial
+T7	Chemical 81 94	serum zonulin
+T8	Physiology 190 213	intestinal permeability
+T9	Physiology 215 217	IP
+T10	Population 232 244	older people
+T11	Physiology 303 315	inflammation
+T12	Physiology 285 298	immune system
+T13	Physiology 384 386	IP
+T14	Nutrient 437 448	polyphenols
+T15	IMPROVES 484 493	modulator
+T16	Physiology 481 483	IP
+T17	Physiology 576 578	IP
+T18	DietPattern 626 657	polyphenol-rich dietary pattern
+T19	Nutrient 626 636	polyphenol
+T20	DECREASES 662 670	decrease
+T21	Chemical 671 684	serum zonulin
+T22	Measurement 696 715	IP surrogate marker
+T23	Physiology 728 753	tight junction modulation
+T24	Physiology 813 815	IP
+T25	Nutrient 1152 1162	polyphenol
+T26	IMPROVES 763 775	beneficially
+T27	Population 863 877	older subjects
+T28	Methodology 890 943	randomised, controlled, cross-over intervention trial
+T29	Population 969 1039	subjects (aged ≥ 60 y) with increased IP based on serum zonulin levels
+T30	DietPattern 1152 1172	polyphenol-rich diet
+T31	DietPattern 1174 1181	PR-diet
+T32	Biospecimen 1323 1328	serum
+T33	Chemical 1378 1385	zonulin
+T34	Metabolite 2414 2422	butyrate
+T35	Biospecimen 1416 1430	Faecal samples
+T36	Measurement 1541 1563	biochemical parameters
+T37	Measurement 1532 1540;1553 1563	physical parameters
+T38	Measurement 1515 1531;1553 1563	anthropometrical parameters
+T39	Physiology 1568 1579	food intake
+T40	Physiology 1738 1755	polyphenol intake
+T41	INCREASES 1770 1779	increased
+T42	DietPattern 1842 1849	PR-diet
+T43	Nutrient 1738 1748	polyphenol
+T44	Chemical 1981 2001	serum zonulin levels
+T45	DECREASES 2009 2018	decreased
+T46	DietPattern 2036 2043	PR-diet
+T47	Physiology 2125 2149	diastolic blood pressure
+T48	DECREASES 2112 2121	reduction
+T49	DietPattern 2176 2183	PR-diet
+T50	Physiology 2267 2276;2302 2316	diastolic blood pressure
+T51	Physiology 2293 2316	systolic blood pressure
+T52	Population 2345 2350	women
+T53	DECREASES 2250 2258	decrease
+T54	INCREASES 2381 2389	increase
+T55	Microorganism 2461 2476	Ruminococcaceae
+T56	Microorganism 2502 2518	Faecalibacterium
+T57	Nutrient 2546 2548	PR
+T58	PREDISPOSES 3052 3058	marker
+T59	Chemical 2641 2654	serum zonulin
+T60	Chemical 2748 2755	zonulin
+T61	Metabolite 3145 3153	butyrate
+T62	Measurement 2811 2826	body mass index
+T63	Disease 2836 2854	insulin resistance
+T64	Physiology 2915 2917	IP
+T65	DietPattern 2999 3006	PR-diet
+T66	DECREASES 3011 3017	reduce
+T67	Chemical 3018 3031	serum zonulin
+T68	Physiology 3062 3064	IP
+T69	DietPattern 3079 3086	PR-diet
+T70	DECREASES 3087 3094	reduced
+T71	Physiology 3095 3109	blood pressure
+T72	Physiology 3321 3323	IP
+T73	Physiology 3325 3337	inflammation
+T74	ASSOCIATED_WITH 68 80	evaluated as
+T75	POS_ASSOCIATED_WITH 267 277	activation
+T76	AFFECTS 716 727	involved in
+E1	IMPROVES:T2 Agent:T4 Theme:T3
+E2	IMPROVES:T15 Theme:T16 Agent:T14
+E3	DECREASES:T20 Agent:T18 Theme:T21
+E4	PREDISPOSES:T58 Theme:T68 Agent:T67
+E5	IMPROVES:T26 Theme:T24 Agent:T21
+E6	INCREASES:T41 Agent:T42 Theme:T40
+E7	DECREASES:T45 Agent:T46 Theme:T44
+E8	DECREASES:T48 Agent:T49 Theme:T47
+E9	DECREASES:T53 Agent:T49 Theme:T50
+E10	DECREASES:T53 Agent:T49 Theme:T51
+E11	INCREASES:T54 Agent:T57 Theme:T55
+E12	INCREASES:T54 Agent:T57 Theme:T56
+E13	DECREASES:T66 Agent:T65 Theme:T67
+E14	DECREASES:T70 Agent:T69 Theme:T71
+E15	ASSOCIATED_WITH:T74 Theme:T7 Theme2:T3
+E16	POS_ASSOCIATED_WITH:T75 Theme:T12 Agent:T8
+E17	POS_ASSOCIATED_WITH:T75 Theme:T11 Agent:T8
+E18	AFFECTS:T76 Theme:T23 Agent:T21
+A1	Factuality E2 Possible
+A2	Factuality E3 Possible
+A4	Factuality E5 Possible

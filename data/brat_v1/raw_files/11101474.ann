@@ -1,0 +1,136 @@
+T1	Food 23 50	fresh but not heated yogurt
+T2	IMPROVES 51 59	improves
+T3	Metabolite 87 109	short-chain fatty acid
+T4	WORSENS 1030 1052	no detrimental effects
+T5	Population 142 190	healthy men with or without lactose maldigestion
+T6	Measurement 60 82	breath-hydrogen status
+T7	Food 218 242	fermented dairy products
+T8	Food 433 439;446 451	yogurt fresh
+T9	HAS_COMPONENT 440 444	with
+T10	Microorganism 498 522	Lactobacillus bulgaricus
+T11	Microorganism 527 553	Streptococcus thermophilus
+T12	Chemical 574 581	insulin
+T13	Chemical 601 612	cholesterol
+T14	Chemical 614 625	fatty acids
+T15	Metabolite 631 654	short-chain fatty acids
+T16	WORSENS 1030 1052	no detrimental effects
+T17	Population 681 730	healthy men with or without lactose malabsorption
+T18	Methodology 759 779	breath-hydrogen test
+T19	Methodology 844 860	crossover design
+T20	Food 1012 1025	heated yogurt
+T22	Chemical 1056 1070	plasma glucose
+T23	Chemical 558 572	plasma glucose
+T24	Chemical 583 599	triacylglycerols
+T25	Chemical 1072 1079	insulin
+T26	Chemical 1084 1094	fatty acid
+T27	Food 1157 1163	yogurt
+T28	WORSENS 1030 1052	no detrimental effects
+T29	Population 1167 1216	healthy men with or without lactose malabsorption
+T30	AFFECTS 1234 1255	no detectable changes
+T31	Chemical 1259 1281	fasting plasma glucose
+T32	Chemical 1283 1290	insulin
+T33	Chemical 1292 1302	fatty acid
+T34	Chemical 1304 1319	triacylglycerol
+T35	Chemical 1324 1335	cholesterol
+T36	Metabolite 1372 1380	butyrate
+T37	Metabolite 1415 1425	propionate
+T38	Methodology 122 138	controlled study
+T39	AFFECTS 399 406	effects
+T40	Food 882 887;898 904	fresh yogurt
+T41	Food 891 904	heated yogurt
+T42	Food 433 439;465 471	yogurt heated
+T43	Food 793 805	lactose load
+T44	Food 1003 1008;1019 1025	fresh yogurt
+T45	INCREASES 1385 1391	higher
+T46	INCREASES 1439 1445	higher
+T47	Population 1462 1500	subjects without lactose malabsorption
+T48	Food 1507 1519	fresh yogurt
+T49	Food 1543 1556	heated yogurt
+T50	AFFECTS 1581 1603	no significant changes
+T51	Metabolite 1614 1621	acetate
+T52	Population 1626 1661	subjects with lactose malabsorption
+T53	Food 1671 1683	fresh yogurt
+T54	Metabolite 1711 1721	propionate
+T55	INCREASES 1701 1710	increased
+T56	Metabolite 1816 1831	breath hydrogen
+T57	DECREASES 1836 1841	lower
+T58	Food 1848 1860	fresh yogurt
+T59	Food 1884 1897	heated yogurt
+T60	Population 1939 1969	men with lactose malabsorption
+T61	Food 1994 2000	yogurt
+T62	HAS_COMPONENT 2001 2011	containing
+T63	Microorganism 2012 2035	live bacterial cultures
+T64	IMPROVES 2036 2047	ameliorated
+T65	Physiology 2052 2065	malabsorption
+T66	Metabolite 2089 2114	breath-hydrogen excretion
+T67	DECREASES 2083 2088	lower
+T68	INCREASES 2120 2129	increased
+T69	Metabolite 2130 2140	propionate
+T70	Population 2160 2198	subjects without lactose malabsorption
+T71	INCREASES 2222 2230	increase
+T72	Metabolite 2231 2241	propionate
+T73	INCREASES 2246 2255	increased
+T74	Metabolite 2256 2264	butyrate
+T75	WORSENS 1030 1052	no detrimental effects
+E1	IMPROVES:T2 Agent:T1 Theme:T6
+E2	IMPROVES:T2 Agent:T1 Theme:T3
+E3	HAS_COMPONENT:T9 Agent:T8 Theme:T10
+E4	WORSENS:T4 Theme:T22 Agent:T20
+E5	AFFECTS:T30 Agent:T27 Theme:T31
+E6	AFFECTS:T39 Agent:T8 Theme:T23
+E7	AFFECTS:T39 Agent:T8 Theme:T12
+E8	AFFECTS:T39 Agent:T8 Theme:T24
+E9	AFFECTS:T39 Agent:T8 Theme:T13
+E10	AFFECTS:T39 Theme:T14 Agent:T8
+E11	AFFECTS:T39 Theme:T15 Agent:T8
+E12	AFFECTS:T39 Agent:T42 Theme:T23
+E13	HAS_COMPONENT:T9 Agent:T8 Theme:T11
+E14	AFFECTS:T39 Agent:T42 Theme:T12
+E15	AFFECTS:T39 Agent:T42 Theme:T24
+E16	AFFECTS:T39 Agent:T42 Theme:T13
+E17	AFFECTS:T39 Agent:T42 Theme:T14
+E18	AFFECTS:T39 Agent:T42 Theme:T15
+E19	WORSENS:T4 Agent:T44 Theme:T22
+E20	WORSENS:T75 Agent:T20 Theme:T25
+E21	WORSENS:T4 Agent:T20 Theme:T26
+E22	WORSENS:T16 Agent:T44 Theme:T25
+E23	WORSENS:T28 Agent:T44 Theme:T26
+E24	AFFECTS:T30 Agent:T27 Theme:T32
+E25	AFFECTS:T30 Agent:T27 Theme:T33
+E26	AFFECTS:T30 Agent:T27 Theme:T34
+E27	AFFECTS:T30 Agent:T27 Theme:T35
+E28	INCREASES:T45 Theme:T36 Agent:T48
+E29	INCREASES:T46 Theme:T37 Agent:T48
+E30	AFFECTS:T50 Theme:T51 Agent:T48
+E31	INCREASES:T55 Theme:T54 Agent:T53
+E32	DECREASES:T57 Agent:T58 Theme:T56
+E33	HAS_COMPONENT:T62 Agent:T61 Theme:T63
+E34	IMPROVES:T64 Theme:T65 Agent:T61
+E35	DECREASES:T67 Theme:T66 Agent:T61
+E36	INCREASES:T68 Theme:T69 Agent:T61
+E37	INCREASES:T71 Theme:T72 Agent:T61
+E38	INCREASES:T73 Theme:T74 Agent:T61
+A1	Factuality E4 Negated
+A2	Factuality E5 Negated
+A3	Factuality E6 Unknown
+A4	Factuality E7 Unknown
+A5	Factuality E8 Unknown
+A6	Factuality E10 Unknown
+A7	Factuality E11 Unknown
+A8	Factuality E9 Unknown
+A9	Factuality E14 Unknown
+A10	Factuality E12 Unknown
+A11	Factuality E15 Unknown
+A12	Factuality E16 Unknown
+A13	Factuality E17 Unknown
+A14	Factuality E18 Unknown
+A15	Factuality E19 Negated
+A16	Factuality E20 Negated
+A17	Factuality E21 Negated
+A18	Factuality E22 Negated
+A19	Factuality E23 Negated
+A20	Factuality E24 Negated
+A21	Factuality E25 Negated
+A22	Factuality E26 Negated
+A23	Factuality E27 Negated
+A24	Factuality E30 Negated

@@ -1,0 +1,87 @@
+T1	Nutrient 38 75	fermentable short-chain carbohydrates
+T2	Chemical 117 125	cytokine
+T3	Population 138 176	patients with irritable bowel syndrome
+T4	Disease 152 176	irritable bowel syndrome
+T5	DietPattern 280 287	FODMAPs
+T6	Nutrient 205 233	fermentable oligosaccharides
+T7	Nutrient 235 248	disaccharides
+T8	Nutrient 250 265	monosaccharides
+T9	Nutrient 271 278	polyols
+T10	Population 321 359	patients with irritable bowel syndrome
+T11	Disease 361 364	IBS
+T12	Disease 335 359	irritable bowel syndrome
+T13	DietPattern 416 426	low-FODMAP
+T14	DietPattern 430 469	high-fructo-oligosaccharides (FOS) diet
+T15	Disease 627 630	IBS
+T16	Physiology 483 500	immune activation
+T17	Metabolite 534 557	short-chain fatty acids
+T18	Metabolite 559 564	SCFAs
+T19	AFFECTS 395 402	effects
+T20	Population 583 630	patients with diarrhea-predominant or mixed IBS
+T21	DietPattern 659 674	low-FODMAP diet
+T22	DietPattern 676 679	LFD
+T23	Disease 928 952	Irritable bowel syndrome
+T24	Nutrient 813 816	FOS
+T25	DietPattern 818 824	FODMAP
+T26	Nutrient 829 841	maltodextrin
+T27	Methodology 928 976	Irritable bowel syndrome severity scoring system
+T28	Methodology 978 985	IBS-SSS
+T29	Chemical 1018 1027	Cytokines
+T30	Chemical 1029 1047	interleukin [IL]-6
+T31	Chemical 1049 1053	IL-8
+T32	Chemical 1059 1086	tumor necrosis factor alpha
+T33	Biospecimen 1105 1118	blood samples
+T34	Metabolite 1166 1171	SCFAs
+T35	Biospecimen 1189 1194	fecal
+T36	Methodology 1152 1160	16S rRNA
+T37	Disease 1217 1241	Irritable bowel syndrome
+T38	IMPROVES 1264 1272	improved
+T39	DietPattern 1290 1293	LFD
+T40	Nutrient 1389 1392	FOS
+T41	Biospecimen 1400 1405	Serum
+T42	Chemical 1432 1436	IL-6
+T43	Chemical 1441 1445	IL-8
+T44	Microorganism 1484 1498	Actinobacteria
+T45	Microorganism 1500 1515	Bifidobacterium
+T46	Microorganism 1521 1549	Faecalibacterium prausnitzii
+T47	Metabolite 1552 1563	total SCFAs
+T48	Metabolite 1569 1583	n-butyric acid
+T49	DECREASES 1585 1594	decreased
+T50	DietPattern 1616 1619	LFD
+T51	Nutrient 1657 1660	FOS
+T52	INCREASES 1677 1686	increased
+T53	Chemical 1734 1743	cytokines
+T54	Metabolite 1748 1753	SCFAs
+T55	AFFECTS 1763 1772	unchanged
+T56	DietPattern 1841 1844	LFD
+T57	Disease 1860 1863	IBS
+T58	AFFECTS 1883 1890	changes
+T59	Chemical 1894 1916	inflammatory cytokines
+T60	Metabolite 1942 1947	SCFAs
+T61	IMPROVES 1848 1859	alleviating
+E1	AFFECTS:T19 Agent:T13 Theme:T16
+E2	AFFECTS:T19 Agent:T14 Theme:T16
+E3	AFFECTS:T19 Agent:T14 Theme:T17
+E4	AFFECTS:T19 Agent:T13 Theme:T17
+E5	IMPROVES:T38 Agent:T39 Theme:T37
+E6	DECREASES:T49 Agent:T50 Theme:T48
+E7	DECREASES:T49 Agent:T50 Theme:T47
+E8	DECREASES:T49 Agent:T50 Theme:T46
+E9	DECREASES:T49 Agent:T50 Theme:T45
+E10	DECREASES:T49 Agent:T50 Theme:T44
+E11	INCREASES:T52 Agent:T51 Theme:T44
+E12	AFFECTS:T55 Agent:T51 Theme:T54
+E13	INCREASES:T52 Agent:T51 Theme:T45
+E14	INCREASES:T52 Agent:T51 Theme:T46
+E15	AFFECTS:T55 Agent:T51 Theme:T53
+E16	AFFECTS:T58 Agent:T56 Theme:T59
+E17	AFFECTS:T58 Agent:T56 Theme:T60
+E18	DECREASES:T49 Theme:T43 Agent:T50
+E19	DECREASES:T49 Theme:T42 Agent:T50
+E20	IMPROVES:T61 Theme:T57 Agent:T56
+A1	Factuality E1 Unknown
+A2	Factuality E2 Unknown
+A3	Factuality E3 Unknown
+A4	Factuality E4 Unknown
+A5	Factuality E12 Negated
+A6	Factuality E15 Negated

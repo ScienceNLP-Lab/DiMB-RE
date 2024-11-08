@@ -1,0 +1,62 @@
+T1	Metabolite 52 60	butyrate
+T2	Biospecimen 46 51	fecal
+T3	Population 64 100	elders with low skeletal muscle mass
+T4	Physiology 76 100	low skeletal muscle mass
+T5	Physiology 202 222	skeletal muscle mass
+T6	Measurement 527 545	normal muscle mass
+T7	Measurement 468 478	gait speed
+T8	Physiology 453 466	grip strength
+T9	Physiology 483 494	flexibility
+T10	Measurement 435 451	body composition
+T11	Physiology 569 584	low muscle mass
+T12	Biospecimen 614 619	fecal
+T13	Methodology 647 657;694 702	metagenome analysis
+T14	Methodology 662 702	short chain fatty acids (SCFAs) analysis
+T15	Metabolite 687 692	SCFAs
+T16	Methodology 853 857	ASVs
+T17	Population 347 375	subjects older than 65 years
+T18	Methodology 871 883	Chao 1 index
+T19	Physiology 553 555	NM
+T20	Physiology 592 594	LM
+T21	DiversityMetric 981 1011	Firmicutes/Bacteroidetes ratio
+T22	DECREASES 1030 1037	reduced
+T23	Physiology 1045 1047	LM
+T24	DECREASES 1069 1077	decrease
+T25	Microorganism 1115 1129	Marvinbryantia
+T26	Methodology 859 866	Shannon
+T28	Physiology 1234 1236	LM
+T29	Microorganism 1193 1207	Flavonifractor
+T30	INCREASES 1157 1167	enrichment
+T31	Biospecimen 1278 1283	fecal
+T32	Metabolite 1284 1292	butyrate
+T34	Physiology 1325 1327	LM
+T35	ASSOCIATED_WITH 1338 1348	correlated
+T36	Physiology 1354 1374	skeletal muscle mass
+T37	Physiology 1479 1494	low muscle mass
+T38	Biospecimen 1449 1454	fecal
+T39	Metabolite 1455 1463	butyrate
+T40	Population 1467 1494	elders with low muscle mass
+T41	Biospecimen 1591 1596	fecal
+T42	Metabolite 1597 1605	butyrate
+T43	Disease 1669 1679	sarcopenic
+T45	Disease 394 404	sarcopenia
+T46	Physiology 292 307	low muscle mass
+T47	Physiology 954 956	NM
+T48	Physiology 817 832	low muscle mass
+T49	DECREASES 786 795	decreased
+T51	Physiology 1264 1266	NM
+T52	DECREASES 1307 1317	diminished
+T53	DiversityMetric 717 725	richness
+T54	DiversityMetric 730 738	evenness
+T55	Physiology 967 969	LM
+T56	POS_ASSOCIATED_WITH 1635 1645	biomarkers
+T57	Metabolite 662 685	short chain fatty acids
+E1	DECREASES:T22 Theme:T21 Agent:T23
+E2	DECREASES:T24 Theme:T25 Agent:T28
+E3	INCREASES:T30 Theme:T29 Agent:T28
+E4	ASSOCIATED_WITH:T35 Theme:T34 Theme2:T36
+E5	POS_ASSOCIATED_WITH:T56 Theme:T43 Agent:T42
+E7	DECREASES:T49 Agent:T48 Theme:T53
+E8	DECREASES:T52 Theme:T32 Agent:T34
+E9	DECREASES:T49 Theme:T54 Agent:T48
+A1	Factuality E5 Possible

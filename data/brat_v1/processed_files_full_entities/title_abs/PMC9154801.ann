@@ -1,0 +1,95 @@
+T1	Disease 27 32	NAFLD
+T2	DietPattern 46 68	high carbohydrate diet
+T3	Physiology 102 129	hepatic de novo lipogenesis
+T4	AFFECTS 12 18	effect
+T5	Disease 140 172	Nonalcoholic fatty liver disease
+T6	Disease 174 179	NAFLD
+T7	ASSOCIATED_WITH 184 194	associated
+T8	DietPattern 200 229	high carbohydrate (HC) intake
+T9	Disease 902 907	NAFLD
+T10	Nutrient 280 292	carbohydrate
+T11	Disease 304 309	NAFLD
+T12	Physiology 403 430	hepatic de novo lipogenesis
+T13	Physiology 432 435	DNL
+T14	ASSOCIATED_WITH 259 271	relationship
+T15	Measurement 699 723	percentage energy intake
+T16	Biospecimen 438 443	Stool
+T17	Disease 511 516	NAFLD
+T18	Population 476 516	Korean subjects with biopsy-proven NAFLD
+T19	Methodology 603 631	16S rRNA amplicon sequencing
+T20	Measurement 668 688	NAFLD activity score
+T21	ASSOCIATED_WITH 724 728	from
+T22	Measurement 690 693	NAS
+T23	Population 1226 1239	NAS subgroups
+T24	Nutrient 729 749	dietary carbohydrate
+T25	DietPattern 952 959	HC diet
+T26	DietPattern 974 995	low carbohydrate diet
+T27	Measurement 1070 1073	NAS
+T28	Microorganism 1148 1166	Enterobacteriaceae
+T29	Microorganism 1171 1186	Ruminococcaceae
+T30	Measurement 1226 1229	NAS
+T31	Disease 1243 1248	NAFLD
+T32	DietPattern 1274 1281	HC diet
+T33	Microorganism 1340 1355	Veillonellaceae
+T34	Measurement 1455 1470	body mass index
+T35	Physiology 1472 1475	age
+T36	Physiology 1481 1484	sex
+T37	Disease 1496 1524	nonalcoholic steatohepatitis
+T38	DietPattern 1532 1534	HC
+T39	DietPattern 1549 1551	HC
+T40	Measurement 1648 1651	NAS
+T41	Methodology 1678 1703	kernel causality analysis
+T42	Microorganism 1749 1767	Enterobacteriaceae
+T43	Physiology 1951 1979	impaired glucose homeostasis
+T44	DietPattern 1867 1869	HC
+T45	DietPattern 1890 1897	HC diet
+T46	INCREASES 1985 1997	upregulation
+T47	WORSENS 1951 1959	impaired
+T48	PREDISPOSES 2031 2043	contributing
+T49	Physiology 372 397	impaired insulin response
+T50	Physiology 346 370	gut microbial modulation
+T51	AFFECTS 1020 1027	altered
+T54	Physiology 751 782	Hepatic DNL-related transcripts
+T55	Population 1648 1661	NAS subgroups
+T56	Physiology 1585 1588	DNL
+T57	Gene 1590 1595	SIRT1
+T58	Gene 1600 1606	SREBF2
+T59	CAUSES 1715 1728	causal effect
+T61	Measurement 1802 1841	surrogate markers of insulin resistance
+T62	INCREASES 1778 1790	upregulation
+T63	DiversityMetric 1028 1052	gut microbiome diversity
+T64	Population 1243 1257	NAFLD subjects
+T65	Gene 1771 1777	SREBF2
+T66	Measurement 1395 1430	performance of the predictive model
+T67	Gene 2001 2018	hepatic DNL genes
+T69	Disease 2047 2052	NAFLD
+T70	Disease 1845 1850	NAFLD
+T72	Population 476 491;531 544	Korean subjects without NAFLD
+T73	PREDISPOSES 1488 1495	predict
+T411	Disease 1123 1128	NAFLD
+E1	AFFECTS:T4 Theme:T1 Agent:T2
+E2	AFFECTS:T51 Agent:T25 Theme:T63
+E3	ASSOCIATED_WITH:T7 Theme:T5 Theme2:T8
+E4	ASSOCIATED_WITH:T14 Theme:T10 Theme2:T11
+E6	WORSENS:T47 Agent:T45 Theme:T43
+E9	PREDISPOSES:T48 Agent:T45 Theme:T69
+E10	INCREASES:T62 Agent:T42 Theme:T65
+E12	ASSOCIATED_WITH:T21 Theme:T15 Theme2:T24
+E17	CAUSES:T59 Theme:T70 Agent:T61
+E18	INCREASES:T46 Agent:T45 Theme:T67
+E20	PREDISPOSES:T73 Theme:T37 Agent:T33
+E21	PREDISPOSES:T73 Theme:T37 Agent:T28
+E22	PREDISPOSES:T73 Theme:T37 Agent:T29
+A2	Unknown E1
+A212	Factual E2
+A213	Factual E3
+A214	Factual E4
+A216	Factual E6
+A219	Factual E9
+A220	Factual E10
+A222	Factual E12
+A227	Factual E17
+A228	Factual E18
+A230	Factual E20
+A231	Factual E21
+A232	Factual E22

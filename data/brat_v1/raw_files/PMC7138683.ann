@@ -1,0 +1,132 @@
+T1	Food 0 7	Walnuts
+T2	Food 12 26	Vegetable Oils
+T3	Methodology 1205 1224	16S rRNA sequencing
+T4	ASSOCIATED_WITH 94 106	Associations
+T5	Physiology 112 139	Cardiovascular Risk Factors
+T6	Methodology 141 193	Follow-up of a Randomized, Controlled, Feeding Trial
+T7	Population 197 238	Adults at Risk for Cardiovascular Disease
+T8	Disease 216 238	Cardiovascular Disease
+T9	Food 867 874	walnuts
+T10	Food 307 314	walnuts
+T11	Food 946 953	walnuts
+T12	Nutrient 361 372	fatty acids
+T13	Nutrient 384 400	α-linolenic acid
+T14	Nutrient 402 405	ALA
+T15	Nutrient 443 448	fiber
+T16	Physiology 547 566	cardiovascular risk
+T17	Food 606 613	walnuts
+T18	Food 617 631	vegetable oils
+T19	Nutrient 596 600	SFAs
+T20	Population 651 680	adults at cardiovascular risk
+T21	Physiology 661 680	cardiovascular risk
+T22	Methodology 700 747	randomized, crossover, controlled-feeding trial
+T23	DietPattern 769 790	standard Western diet
+T24	DietPattern 792 795	SWD
+T25	DietPattern 845 874	diet containing whole walnuts
+T26	Nutrient 904 907	ALA
+T27	Food 890 897	walnuts
+T28	DietPattern 955 985	walnut fatty acid–matched diet
+T29	Biospecimen 1109 1114	Fecal
+T30	DietPattern 1010 1060	diet replacing ALA with oleic acid without walnuts
+T31	Methodology 1229 1273	Qiime2 for amplicon sequence variant picking
+T32	INCREASES 1296 1304	elevated
+T33	Measurement 1305 1308	BMI
+T34	Physiology 1325 1339	blood pressure
+T35	Chemical 1367 1382	LDL cholesterol
+T36	DietPattern 1414 1416	WD
+T37	Microorganism 1418 1427	Roseburia
+T38	Methodology 1461 1489	linear discriminant analysis
+T39	Methodology 1491 1494	LDA
+T40	Microorganism 1502 1526	Eubacterium eligensgroup
+T41	Microorganism 1549 1570	LachnospiraceaeUCG001
+T42	Microorganism 1595 1617	Lachnospiraceae UCG004
+T43	Microorganism 1644 1660	Leuconostocaceae
+T44	DietPattern 1728 1731	SWD
+T45	INCREASES 1690 1703	most abundant
+T46	Microorganism 1816 1825	Roseburia
+T47	Microorganism 1846 1870	Eubacterium eligensgroup
+T48	DietPattern 912 953	fatty acid–matched diet devoid of walnuts
+T49	Nutrient 998 1001	ALA
+T50	DietPattern 987 991	WFMD
+T51	DietPattern 1062 1090	oleic acid replaces ALA diet
+T52	DietPattern 1092 1096	ORAD
+T53	Nutrient 1103 1106	ALA
+T54	DietPattern 1756 1758	WD
+T55	INCREASES 1768 1776	enriched
+T56	Microorganism 1780 1793	Gordonibacter
+T57	DietPattern 1810 1814	WFMD
+T58	DietPattern 876 878	WD
+T59	INCREASES 1899 1907	abundant
+T60	DietPattern 1922 1926	WFMD
+T61	Microorganism 1932 1960	Clostridialesvadin BB60group
+T62	Gene 1986 1999	gutmetagenome
+T63	INCREASES 2026 2039	most abundant
+T64	DietPattern 2054 2058	ORAD
+T65	DietPattern 2075 2078	SWD
+T66	Microorganism 2099 2114	Lachnospiraceae
+T67	NEG_ASSOCIATED_WITH 2120 2140	inversely correlated
+T68	Physiology 2146 2160	blood pressure
+T69	Measurement 2165 2195	lipid/lipoprotein measurements
+T70	DietPattern 2210 2212	WD
+T71	INCREASES 2255 2265	enrichment
+T72	Microorganism 2269 2278	Roseburia
+T73	DietPattern 2293 2295	WD
+T74	DietPattern 2300 2304	WFMD
+T75	Nutrient 2338 2348	fatty acid
+T76	Microorganism 2362 2375	Gordonibacter
+T77	INCREASES 2376 2386	enrichment
+T78	DietPattern 2485 2487	WD
+T79	NEG_ASSOCIATED_WITH 2395 2414	inverse association
+T80	Microorganism 2423 2438	Lachnospiraceae
+T81	Physiology 2443 2470	cardiovascular risk factors
+T82	Food 2561 2567	walnut
+T84	Physiology 2593 2612	cardiovascular risk
+T85	Nutrient 38 48	Oleic Acid
+T86	HAS_COMPONENT 27 37	Containing
+T87	Food 955 961	walnut
+T88	Nutrient 962 972	fatty acid
+T89	Nutrient 1025 1028	ALA
+T90	Nutrient 1034 1044	oleic acid
+T91	Food 1053 1060	walnuts
+T92	Nutrient 1062 1072	oleic acid
+T93	Nutrient 1082 1085	ALA
+T94	INCREASES 2196 2205	following
+T95	INCREASES 1296 1304	elevated
+T96	INCREASES 1296 1304	elevated
+T97	INCREASES 2471 2480	following
+T98	IMPROVES 2542 2557	health benefits
+T99	INCREASES 1296 1304	elevated
+E1	ASSOCIATED_WITH:T4 Theme:T2 Theme2:T5
+E2	ASSOCIATED_WITH:T4 Theme:T1 Theme2:T5
+E3	INCREASES:T32 Theme:T33 Agent:T24
+E4	INCREASES:T32 Theme:T33 Agent:T58
+E5	INCREASES:T32 Theme:T34 Agent:T52
+E6	INCREASES:T32 Theme:T35 Agent:T58
+E7	INCREASES:T45 Theme:T37 Agent:T36
+E8	INCREASES:T45 Theme:T40 Agent:T36
+E9	INCREASES:T45 Theme:T41 Agent:T36
+E10	INCREASES:T45 Theme:T42 Agent:T36
+E11	INCREASES:T45 Theme:T43 Agent:T36
+E12	INCREASES:T32 Theme:T33 Agent:T52
+E13	INCREASES:T32 Theme:T35 Agent:T50
+E14	INCREASES:T32 Theme:T35 Agent:T52
+E15	INCREASES:T55 Agent:T54 Theme:T56
+E16	INCREASES:T32 Theme:T33 Agent:T50
+E17	INCREASES:T32 Agent:T24 Theme:T35
+E18	INCREASES:T59 Agent:T60 Theme:T47
+E19	INCREASES:T63 Agent:T64 Theme:T61
+E20	INCREASES:T59 Agent:T60 Theme:T46
+E21	INCREASES:T63 Agent:T64 Theme:T62
+E22	INCREASES:T94 Agent:T70 Theme:T66
+E23	NEG_ASSOCIATED_WITH:T67 Theme:T68 Theme2:T66
+E24	NEG_ASSOCIATED_WITH:T67 Theme:T69 Theme2:T66
+E25	INCREASES:T71 Theme:T72 Agent:T73
+E26	INCREASES:T71 Theme:T72 Agent:T74
+E27	INCREASES:T77 Theme:T76 Agent:T78
+E28	NEG_ASSOCIATED_WITH:T79 Agent:T81 Theme:T80
+E29	HAS_COMPONENT:T86 Agent:T2 Theme:T85
+E30	INCREASES:T95 Theme:T34 Agent:T50
+E31	INCREASES:T99 Theme:T34 Agent:T24
+E32	INCREASES:T96 Theme:T34 Agent:T58
+E33	INCREASES:T97 Agent:T78 Theme:T80
+E34	IMPROVES:T98 Agent:T82 Theme:T84

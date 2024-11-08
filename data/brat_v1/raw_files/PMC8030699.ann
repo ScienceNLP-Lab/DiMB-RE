@@ -1,0 +1,318 @@
+T1	Food 0 7	Avocado
+T2	Physiology 323 339	metabolic health
+T3	Population 109 142	Adults with Overweight or Obesity
+T4	Methodology 146 173	Randomized Controlled Trial
+T5	DiversityMetric 1554 1565	ɑ diversity
+T6	Nutrient 234 261	monounsaturated fatty acids
+T7	Food 195 203	Avocados
+T8	Physiology 2114 2132	fiber fermentation
+T9	Nutrient 216 229	dietary fiber
+T10	HAS_COMPONENT 208 212	rich
+T11	Physiology 898 901	age
+T12	Physiology 903 906	sex
+T13	Metabolite 1864 1870;1892 1896	cholic acid
+T14	Food 432 439	avocado
+T15	Chemical 932 962	fasting glucose concentrations
+T16	DietPattern 986 1002	isocaloric meals
+T17	HAS_COMPONENT 1003 1007	with
+T18	INCREASES 1544 1553	increased
+T19	Biospecimen 1080 1085	fecal
+T20	Physiology 908 926	visceral adiposity
+T21	Methodology 1115 1173	16S ribosomal RNA gene (V4 region) sequencing and analysis
+T22	Food 1526 1533	avocado
+T23	Metabolite 1219 1228	bile acid
+T24	Food 1019 1026	avocado
+T25	INCREASES 1570 1578	enriched
+T26	INCREASES 1570 1578	enriched
+T27	Nutrient 263 268	MUFAs
+T28	Methodology 1180 1185	DADA2
+T29	Food 1681 1688	avocado
+T30	Food 1953 1960	avocado
+T31	Methodology 805 831	investigator-blinded trial
+T32	DECREASES 1985 1990	lower
+T33	Methodology 1410 1432	Bivariate correlations
+T34	Biospecimen 16436 16441	fecal
+T35	Biospecimen 653 658	fecal
+T36	Biospecimen 671 676	fecal
+T37	Methodology 1190 1196	QIIME2
+T38	Methodology 1273 1278	LC-MS
+T39	Methodology 1266 1268	GC
+T40	Metabolite 1198 1214	Fecal fatty acid
+T41	Methodology 1367 1383	univariate ANOVA
+T42	Methodology 1388 1408	Mann-Whitney U tests
+T43	Microorganism 1579 1595	Faecalibacterium
+T44	Metabolite 1768 1781	palmitic acid
+T45	Metabolite 1738 1750	stearic acid
+T46	Nutrient 2114 2119	fiber
+T47	Biospecimen 1456 1461	fecal
+T48	Metabolite 1875 1896	chenodeoxycholic acid
+T49	Microorganism 1597 1608	Lachnospira
+T50	Disease 121 131	Overweight
+T51	Disease 135 142	Obesity
+T52	Microorganism 1614 1623	Alistipes
+T53	Metabolite 2052 2057	SCFAs
+T54	INCREASES 1703 1710	greater
+T55	DECREASES 1914 1919	lower
+T56	INCREASES 2023 2030	greater
+T57	Metabolite 2031 2047	fecal fatty acid
+T58	Disease 17701 17711	overweight
+T59	Metabolite 1991 2006	fecal bile acid
+T60	Biospecimen 1198 1203	Fecal
+T61	Methodology 16697 16709	Diet records
+T62	Biospecimen 1474 1479	fecal
+T63	Food 16835 16842	avocado
+T64	Measurement 18259 18270	Body weight
+T65	Disease 18393 18403	Overweight
+T66	Metabolite 1711 1724	fecal acetate
+T67	INCREASES 1730 1737	greater
+T68	INCREASES 1760 1767	greater
+T69	Biospecimen 2031 2036	fecal
+T70	Food 16931 16938	avocado
+T71	Food 17024 17031	avocado
+T72	Food 17097 17104	avocado
+T73	Food 17159 17166	avocado
+T74	Population 17409 17415	female
+T75	Disease 17494 17504	overweight
+T76	Disease 17517 17524	obesity
+T77	Population 17429 17438	Caucasian
+T78	Population 17526 17532	Female
+T79	Population 17651 17655	Male
+T80	Measurement 17582 17585	BMI
+T81	Disease 17642 17649	obesity
+T82	Measurement 17712 17715	BMI
+T83	Methodology 18876 18894	independent t test
+T84	Methodology 18898 18913	chi-square test
+T85	Microorganism 22930 22940	Firmicutes
+T86	Measurement 19026 19037	body weight
+T87	Food 19090 19097	avocado
+T88	Nutrient 19113 19117	MUFA
+T89	Disease 18452 18457	Obese
+T90	Nutrient 19199 19212	dietary fiber
+T91	Food 19286 19293	avocado
+T92	Nutrient 19403 19412;19433 19436	saturated fat
+T93	Nutrient 19417 19436	polyunsaturated fat
+T94	Nutrient 19499 19510	fatty acids
+T95	Measurement 19555 19566	Body weight
+T96	Food 19648 19655	avocado
+T97	Population 19779 19785	adults
+T98	Food 19839 19846	avocado
+T99	Food 19866 19873	Avocado
+T100	Nutrient 19936 19945	Total fat
+T101	Nutrient 19981 19994	Saturated fat
+T102	Nutrient 20029 20048	Monounsaturated fat
+T103	Nutrient 20085 20104	Polyunsaturated fat
+T104	Nutrient 20139 20157	Total carbohydrate
+T105	Nutrient 20192 20205	Total protein
+T106	Nutrient 20240 20259	Total dietary fiber
+T107	Nutrient 20296 20319	Insoluble dietary fiber
+T108	Nutrient 20356 20377	Soluble dietary fiber
+T109	Nutrient 20413 20420	Pectins
+T110	Methodology 20574 20590	univariate ANOVA
+T111	Methodology 20625 20653	Faith Phylogenetic Diversity
+T112	DiversityMetric 20679 20690	α-diversity
+T113	Food 20714 20721	avocado
+T114	INCREASES 20696 20703	greater
+T115	Methodology 20755 20781	weighted Unifrac distances
+T116	DiversityMetric 20796 20807	β-diversity
+T117	INCREASES 20822 20829	greater
+T118	Food 20837 20844	avocado
+T119	Microorganism 20995 21011	Faecalibacterium
+T120	Microorganism 21013 21024	Lachnospira
+T121	Microorganism 21030 21039	Alistipes
+T122	INCREASES 21045 21053	enriched
+T123	Food 21061 21068	avocado
+T124	Microorganism 21109 21118	Roseburia
+T125	Microorganism 21123 21135	Ruminococcus
+T126	DECREASES 21141 21151	diminished
+T127	Metabolite 21169 21176	acetate
+T128	POS_ASSOCIATED_WITH 21208 21215	greater
+T129	Food 21223 21230	avocado
+T130	Metabolite 21353 21364	cholic acid
+T131	Nutrient 21540 21544	SFAs
+T132	Metabolite 21393 21414	chenodeoxycholic acid
+T133	Nutrient 21549 21554	MUFAs
+T134	INCREASES 21560 21567	greater
+T135	Food 21575 21582	avocado
+T136	Methodology 21679 21707	Faith Phylogenetic Diversity
+T137	Food 21786 21793	avocado
+T138	DiversityMetric 21795 21806	ɑ-Diversity
+T139	POS_ASSOCIATED_WITH 310 319	connected
+T140	Metabolite 22044 22051;22066 22075	primary bile acid
+T141	Metabolite 22056 22075	secondary bile acid
+T142	Food 22169 22176	avocado
+T143	Methodology 22200 22216	univariate ANOVA
+T144	Food 22289 22296	avocado
+T145	Metabolite 22430 22446	fecal fatty acid
+T146	Food 22540 22547	avocado
+T147	Methodology 22571 22587	univariate ANOVA
+T148	Food 22880 22887	avocado
+T149	Food 22907 22914	Avocado
+T150	Methodology 24460 24476	univariate ANOVA
+T151	Methodology 24480 24536	Mann-Whitney U test with false discovery rate correction
+T152	Metabolite 24705 24724	volatile fatty acid
+T153	Food 24818 24825	avocado
+T154	Biospecimen 24866 24871	feces
+T155	Biospecimen 24900 24905	feces
+T156	Metabolite 24919 24926	Acetate
+T157	Metabolite 24957 24967	Propionate
+T158	Metabolite 25000 25008	Butyrate
+T159	Metabolite 25048 25053	SCFAs
+T160	Metabolite 25084 25095	Isobutyrate
+T161	Metabolite 25128 25139	Isovalerate
+T162	Metabolite 25172 25180	Valerate
+T163	Metabolite 25220 25225	BCFAs
+T164	Metabolite 25258 25273	SCFA:BCFA ratio
+T165	Metabolite 24827 24846	Volatile fatty acid
+T166	Methodology 25354 25370	univariate ANOVA
+T167	Methodology 25374 25393	Mann-Whitney U test
+T168	Metabolite 25395 25399	BCFA
+T169	Metabolite 25401 25426	branched-chain fatty acid
+T170	Methodology 25549 25571	Correlational analyses
+T171	Food 25598 25605	avocado
+T172	Microorganism 25774 25785	Lachnospira
+T173	Metabolite 25796 25807	cholic acid
+T174	Food 25958 25965	avocado
+T175	Microorganism 26005 26014	Alistipes
+T176	NEG_ASSOCIATED_WITH 26024 26042	negatively related
+T177	Metabolite 26052 26063	cholic acid
+T178	Food 26116 26123	avocado
+T179	Food 26314 26321	avocado
+T180	Chemical 25854 25865	insulin AUC
+T181	Microorganism 26325 26334	Roseburia
+T182	Microorganism 26335 26347	Ruminococcus
+T183	Microorganism 26348 26359	Lachnospira
+T184	Microorganism 26360 26369	Alistipes
+T185	Microorganism 26371 26387	Faecalibacterium
+T186	Metabolite 26415 26422	Acetate
+T188	Metabolite 26497 26508	Cholic acid
+T190	Metabolite 26587 26608	Chenodeoxycholic acid
+T192	Metabolite 26686 26702	Lithocholic acid
+T194	Metabolite 26778 26794	Deoxycholic acid
+T196	Chemical 26882 26893	glucose AUC
+T197	Chemical 26979 26990	insulin AUC
+T198	Measurement 27068 27075	HOMA-IR
+T199	Measurement 27135 27148	Matsuda index
+T200	Chemical 27213 27218	TNF-ɑ
+T201	Chemical 27291 27294	CRP
+T202	Chemical 27366 27370	IL-6
+T203	Physiology 27435 27463	Visceral abdominal adiposity
+T204	Physiology 27526 27558	Subcutaneous abdominal adiposity
+T205	Methodology 27642 27650;27672 27684	Spearman correlations
+T206	Methodology 27654 27684	Pearson bivariate correlations
+T207	Chemical 27686 27689	CRP
+T208	Chemical 27691 27709	C-reactive protein
+T209	Measurement 27711 27718	HOMA-IR
+T210	Measurement 27720 27770	homeostatic model assessment of insulin resistance
+T211	Chemical 27772 27776	IL-6
+T212	Chemical 27778 27791	interleukin-6
+T213	Chemical 27793 27798	TNF-ɑ
+T214	Chemical 27800 27823	tumer necrosis factor ɑ
+T215	Measurement 27914 27925	body weight
+T216	Food 27978 27985	avocado
+T217	Nutrient 28019 28024	MUFAs
+T218	Nutrient 28047 28070	insoluble dietary fiber
+T219	Nutrient 28072 28093	soluble dietary fiber
+T220	Nutrient 28099 28105	pectin
+T221	Nutrient 28026 28045	total dietary fiber
+T222	Nutrient 28107 28120	Saturated fat
+T223	Nutrient 28122 28141	polyunsaturated fat
+T224	Nutrient 28143 28161	total carbohydrate
+T225	Nutrient 28167 28180	total protein
+T226	Measurement 28255 28266	body weight
+T227	Food 28330 28337	avocado
+T228	Methodology 28405 28431	Weighted Unifrac distances
+T229	DiversityMetric 28457 28468	β-diversity
+T230	Methodology 28545 28573	Faith Phylogenetic Diversity
+T231	DiversityMetric 28588 28599	α-diversity
+T232	AFFECTS 28601 28615	did not differ
+T233	Microorganism 28670 28679	Alistipes
+T234	Microorganism 28696 28708	Ruminococcus
+T235	INCREASES 28725 28732	greater
+T236	Microorganism 28737 28753	Faecalibacterium
+T237	Microorganism 28769 28780	Lachnospira
+T238	INCREASES 28794 28802	enriched
+T239	Food 28865 28872	avocado
+T240	Microorganism 28903 28918	Lachnobacterium
+T241	Metabolite 28979 28986	acetate
+T242	INCREASES 29018 29025	greater
+T243	Food 29033 29040	avocado
+T244	Metabolite 29130 29139	bile acid
+T245	Metabolite 29351 29367	deoxycholic acid
+T246	Metabolite 29244 29255	cholic acid
+T247	Metabolite 29380 29396	lithocholic acid
+T248	Metabolite 29416 29433	primary bile acid
+T249	Metabolite 29465 29480	total bile acid
+T250	Physiology 18579 18607	Visceral abdominal adiposity
+T251	Physiology 18662 18694	Subcutaneous abdominal adiposity
+T252	Microorganism 22979 22986	Blautia
+T253	Microorganism 23030 23041	Coprococcus
+T254	Microorganism 23080 23092	Ruminococcus
+T255	Microorganism 23136 23141	Dorea
+T256	Microorganism 23185 23198	Streptococcus
+T257	Microorganism 23237 23253	Faecalibacterium
+T258	Microorganism 23292 23301	Roseburia
+T259	Microorganism 23340 23351	Clostridium
+T260	Microorganism 23395 23407	Oscillospira
+T261	Microorganism 23451 23460	Dialister
+T262	Microorganism 23504 23517	Lactobacillus
+T263	Microorganism 23556 23567	Lachnospira
+T264	Microorganism 23606 23621	Lachnobacterium
+T265	Microorganism 23660 23681	Phascolarctobacterium
+T266	Microorganism 23725 23734	Alistipes
+T267	Microorganism 23777 23790	Bacteroidetes
+T268	Microorganism 23829 23840	Bacteroides
+T269	Microorganism 23879 23894	Parabacteroides
+T270	Microorganism 23932 23946	Actinobacteria
+T271	Microorganism 23990 24005	Bifidobacterium
+T272	Microorganism 24049 24060	Collinsella
+T273	Microorganism 24098 24113	Verrucomicrobia
+T274	Microorganism 24152 24163	Akkermansia
+T275	Microorganism 24201 24215	Proteobacteria
+T276	Microorganism 24254 24264	Sutterella
+T277	Microorganism 24308 24317	Bilophila
+T278	Microorganism 24361 24374	Desulfovibrio
+T279	Methodology 24551 24556	ANOVA
+T280	Methodology 24622 24641	Mann-Whitney U test
+T281	Methodology 25446 25451	ANOVA
+T282	Methodology 25455 25474	Mann-Whitney U test
+T283	ASSOCIATED_WITH 25734 25751	Inverse relations
+T1391	Methodology 21830 21858	Faith Phylogenetic Diversity
+T3611	Methodology 16513 16532	metabolite analyses
+T4611	Biospecimen 16653 16658	fecal
+E1	HAS_COMPONENT:T10 Agent:T7 Theme:T6
+E2	HAS_COMPONENT:T17 Agent:T16 Theme:T24
+E3	HAS_COMPONENT:T10 Agent:T7 Theme:T9
+E4	ASSOCIATED_WITH:T283 Theme:T172 Theme2:T173
+E5	INCREASES:T18 Agent:T22 Theme:T5
+E6	INCREASES:T26 Agent:T22 Theme:T49
+E7	INCREASES:T25 Agent:T22 Theme:T52
+E8	INCREASES:T67 Agent:T29 Theme:T45
+E9	INCREASES:T56 Agent:T30 Theme:T57
+E10	INCREASES:T54 Agent:T29 Theme:T66
+E11	DECREASES:T55 Agent:T29 Theme:T13
+E12	DECREASES:T32 Theme:T59 Agent:T30
+E13	POS_ASSOCIATED_WITH:T139 Agent:T9 Theme:T2
+E14	INCREASES:T68 Agent:T29 Theme:T44
+E15	POS_ASSOCIATED_WITH:T139 Agent:T6 Theme:T2
+E16	DECREASES:T55 Agent:T29 Theme:T48
+E17	INCREASES:T56 Theme:T53 Agent:T30
+E18	INCREASES:T25 Agent:T22 Theme:T43
+E19	INCREASES:T117 Theme:T116 Agent:T118
+E20	INCREASES:T122 Agent:T123 Theme:T121
+E21	DECREASES:T126 Agent:T123 Theme:T125
+E22	INCREASES:T122 Agent:T123 Theme:T120
+E23	INCREASES:T122 Agent:T123 Theme:T119
+E24	DECREASES:T126 Agent:T123 Theme:T124
+E25	POS_ASSOCIATED_WITH:T128 Agent:T129 Theme:T127
+E26	INCREASES:T134 Agent:T135 Theme:T133
+E27	INCREASES:T134 Agent:T135 Theme:T131
+E28	NEG_ASSOCIATED_WITH:T176 Agent:T175 Theme:T177
+E29	AFFECTS:T232 Theme:T231 Agent:T227
+E30	INCREASES:T235 Agent:T239 Theme:T234
+E31	INCREASES:T238 Agent:T239 Theme:T237
+E32	INCREASES:T242 Agent:T243 Theme:T241
+E33	INCREASES:T235 Agent:T239 Theme:T233
+E34	INCREASES:T238 Agent:T239 Theme:T236
+E35	ASSOCIATED_WITH:T283 Theme:T172 Theme2:T180
+E1511	INCREASES:T114 Agent:T113 Theme:T112
+A1	Factuality E29 Negated

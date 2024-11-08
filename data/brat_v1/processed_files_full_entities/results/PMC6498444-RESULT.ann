@@ -1,0 +1,253 @@
+T6	Population 14 57	multi-generational Asian-American immigrant
+T7	Population 82 433	healthy Hmong and Karen female individuals (aged 18–78, see Methods for full exclusion criteria) who either (1) were living in Thailand (HmongThai, KarenThai; n = 179), (2) were born in Southeast Asia and had moved to the U.S. (Hmong1st, Karen1st; n = 281), or (3) were born in the U.S. and whose parents were born in Southeast Asia (Hmong2nd; n = 54)
+T9	Population 320 328;347 414	Karen1st were born in the U.S. and whose parents were born in Southeast Asia
+T13	Population 310 318;347 414	Hmong1st were born in the U.S. and whose parents were born in Southeast Asia
+T14	Population 416 424	Hmong2nd
+T16	Population 465 509	healthy European American female individuals
+T17	Measurement 778 782	lean
+T18	Disease 786 796	overweight
+T19	Disease 797 802	obese
+T20	Measurement 803 818	body mass index
+T21	Measurement 820 823	BMI
+T22	Measurement 848 851	BMI
+T23	Measurement 860 863	BMI
+T24	Population 1385 1403	Karen participants
+T25	Biospecimen 1590 1595	stool
+T26	Methodology 1562 1585	24-hour dietary recalls
+T27	Biospecimen 1681 1686	stool
+T28	Physiology 8175 8194	sucrose degradation
+T29	Physiology 8196 8216	glycerol degradation
+T30	Physiology 8218 8244	glucose/xylose degradation
+T31	Measurement 1289 1308	waist circumference
+T32	Methodology 1311 1334	24-hour dietary recalls
+T33	Biospecimen 1349 1354	stool
+T34	Disease 1890 1900	overweight
+T35	Disease 1859 1866	obesity
+T36	Population 1966 1980	Hmong1st group
+T37	Population 2077 2091	Karen subjects
+T38	Disease 2159 2166	obesity
+T39	Methodology 2251 2274	24-hour dietary recalls
+T40	Methodology 2338 2420	the United States Department of Agriculture (USDA) SuperTracker food record system
+T41	Methodology 2514 2569	USDA’s Food Nutrient and Database for Dietary Studies (
+T42	Methodology 2569 2574	FNDDS
+T43	Physiology 8250 8281	glucose fermentation to lactate
+T44	Population 3199 3207	Karen1st
+T45	Population 3209 3217	Hmong1st
+T46	Population 3223 3231	Hmong2nd
+T47	Methodology 3550 3606	amplicon-based sequencing of the 16S rRNA gene V4 region
+T48	Biospecimen 3614 3619	stool
+T49	Methodology 3658 3727	Principal coordinates analysis (PCoA) of unweighted UniFrac distances
+T50	Methodology 8949 8968	Kruskal-Wallis test
+T51	Population 3742 3747	Hmong
+T52	Population 3752 3757	Karen
+T53	Population 3965 4010	second-generation Hmong and European American
+T54	Population 4194 4202	Hmong1st
+T55	Population 4207 4216	HmongThai
+T56	Population 4230 4238	Hmong1st
+T57	Population 4243 4252	HmongThai
+T58	Population 4265 4273	Karen1st
+T59	Population 4278 4287	KarenThai
+T60	Population 4098 4119	U.S. immigrant groups
+T61	Population 4306 4333	first-generation immigrants
+T62	INTERACTS_WITH 10104 10113	degrading
+T63	DiversityMetric 4613 4621	richness
+T64	Population 4397 4408	Thai groups
+T65	Population 4575 4586	Thai groups
+T66	Population 5104 5126	first-generation Hmong
+T67	DiversityMetric 4778 4806	lower phylogenetic diversity
+T68	ASSOCIATED_WITH 4811 4821	associated
+T69	Disease 4827 4834	obesity
+T70	Methodology 4866 4890	unbalanced two-way ANOVA
+T71	Population 5190 5199	HmongThai
+T72	Population 5237 5245	Hmong1st
+T73	Microorganism 5271 5299	Faecalibacterium prausnitzii
+T74	Population 5504 5529	Thai-resident individuals
+T75	Methodology 5336 5355	Fisher’s exact test
+T76	Population 5577 5606	1st-generation U.S. residents
+T77	Population 5670 5679	HmongThai
+T78	Population 5684 5692	Hmong1st
+T79	Methodology 5608 5668	paired t-test, area under the prevalence-log-abundance curve
+T80	Population 5779 5801	first-generation Hmong
+T81	Microorganism 5854 5864	Prevotella
+T82	Microorganism 5877 5888	Bacteroides
+T83	Microorganism 5906 5916	Prevotella
+T84	Population 5932 5955	generations in the U.S.
+T85	Microorganism 5985 5996	Bacteroides
+T86	Microorganism 6053 6063	Prevotella
+T87	Population 6071 6094	generations in the U.S.
+T88	Microorganism 6121 6132	Bacteroides
+T89	Microorganism 6136 6146	Prevotella
+T90	Population 6161 6190	Thailand-resident individuals
+T91	Population 6203 6231	U.S.-born European Americans
+T92	Methodology 6353 6377	unbalanced two-way ANOVA
+T93	Population 6274 6296	first-generation Karen
+T94	Population 6301 6323	first-generation Hmong
+T95	Population 6328 6351	second-generation Hmong
+T96	Methodology 6548 6573	deep shotgun metagenomics
+T97	Population 6657 6673;6687 6706	Karen, long-term U.S. resident Hmong
+T98	Microorganism 6764 6775	Bacteroides
+T99	Microorganism 6780 6790	Prevotella
+T100	Methodology 6803 6832	shotgun metagenomic sequences
+T101	Methodology 6899 6916	RefSeq version 87
+T102	Microorganism 6849 6860	Bacteroides
+T103	Microorganism 6877 6887	Prevotella
+T104	Microorganism 7037 7048	Bacteroides
+T105	Microorganism 7083 7093	Prevotella
+T106	Microorganism 7122 7130	P. copri
+T107	Population 7156 7182	Thailand-based individuals
+T108	Microorganism 7210 7220	Prevotella
+T109	Microorganism 7279 7290	Bacteroides
+T110	Population 7357 7386	Long-term U.S.-resident Hmong
+T111	Microorganism 7444 7455	Bacteroides
+T112	Microorganism 7502 7512	Prevotella
+T113	Microorganism 7558 7569	Bacteroides
+T114	Microorganism 7574 7584	Prevotella
+T115	Population 7647 7656	HmongThai
+T116	Population 7661 7669	Hmong1st
+T117	Microorganism 7692 7702	Prevotella
+T118	Microorganism 7769 7780	Bacteroides
+T119	Population 7799 7815	U.S. immigration
+T120	Population 7830 7845	U.S. immigrants
+T121	Physiology 7875 7898	plant fiber degradation
+T122	Population 7956 7965	HmongThai
+T123	Population 7971 8002	ong-term U.S. resident Hmong1st
+T124	Methodology 8032 8057	shotgun metagenomics data
+T125	Methodology 8059 8064	ANOVA
+T126	Population 8103 8125	First-generation Hmong
+T127	Population 8438 8447	HmongThai
+T128	Nutrient 8515 8536	complex carbohydrates
+T129	Physiology 8500 8536	degradation of complex carbohydrates
+T130	Physiology 8548 8574	β-(1,4)-mannan degradation
+T131	Physiology 8579 8597	starch degradation
+T132	Enzyme 8800 8830	carbohydrate-degrading enzymes
+T133	Enzyme 8832 8839	CAZymes
+T134	Population 8724 8739	U.S. immigrants
+T135	Enzyme 8889 8896	CAZymes
+T136	Population 8908 8917	HmongThai
+T137	Population 8919 8927	Hmong1st
+T138	Enzyme 9044 9064	glycoside hydrolases
+T139	Enzyme 9066 9070	GH17
+T140	Enzyme 9072 9076	GH64
+T141	Enzyme 9078 9082	GH87
+T142	Population 9117 9131	Thailand group
+T143	HAS_COMPONENT 10646 10656	associated
+T144	ASSOCIATED_WITH 9218 9235	may be associated
+T145	Nutrient 9249 9262	dietary fiber
+T146	Enzyme 9197 9217	glycoside hydrolases
+T148	Nutrient 9396 9410	dietary fibers
+T149	Enzyme 9420 9440	glycoside hydrolases
+T150	Microorganism 9471 9487	Prevotella copri
+T151	Microorganism 9553 9563	Prevotella
+T152	Population 9582 9598	U.S. immigration
+T153	Physiology 9613 9636	plant fiber degradation
+T154	Enzyme 9676 9679	GH5
+T155	Enzyme 9684 9688	GH26
+T156	Enzyme 9689 9709	glycoside hydrolases
+T157	Population 9715 9724	HmongThai
+T158	Population 9728 9736	Hmong1st
+T159	Physiology 9782 9791;9829 9850	cellulose degradative potential
+T160	Physiology 9793 9804;9829 9850	beta-mannan degradative potential
+T161	Nutrient 9818 9828	xyloglucan
+T162	Nutrient 9782 9791	cellulose
+T163	Physiology 9818 9850	xyloglucan degradative potential
+T164	Nutrient 9852 9864	Beta-mannans
+T165	Nutrient 9946 9956	xyloglucan
+T166	Food 9985 9993	tamarind
+T167	Food 9880 9885	seeds
+T168	Food 9887 9894	kernels
+T169	Food 9900 9905	corms
+T170	Food 9915 9919	palm
+T171	Food 9921 9928	coconut
+T172	Food 9934 9940	konjac
+T173	HAS_COMPONENT 9960 9981	found most abundantly
+T174	Enzyme 10079 10099	glycoside hydrolases
+T176	Nutrient 10114 10123	cellulose
+T178	Nutrient 10270 10290	plant-derived fibers
+T179	Enzyme 10459 10479	glycoside hydrolases
+T180	ASSOCIATED_WITH 9455 9465	originated
+T181	DECREASES 9545 9549	loss
+T182	Nutrient 9793 9804	beta-mannan
+T183	DECREASES 9668 9672	loss
+T185	HAS_COMPONENT 9869 9876	present
+T186	Nutrient 10406 10419	dietary fiber
+T187	Nutrient 10622 10636	macronutrients
+T188	DietPattern 10664 10676	Western diet
+T189	Food 10678 10684	sugars
+T190	Nutrient 10686 10690	fats
+T191	Nutrient 10696 10703	protein
+T192	Methodology 10705 10729	unbalanced two-way ANOVA
+T194	Nutrient 10886 10901	polysaccharides
+T195	Methodology 12839 12869	Faith’s phylogenetic diversity
+T196	Nutrient 10811 10816	fiber
+T197	Methodology 10930 10967	PCoA of diet-based unweighted UniFrac
+T198	Population 11111 11145	First- and second-generation Hmong
+T200	Food 11280 11290	white rice
+T201	Population 11367 11390	second-generation Hmong
+T202	Methodology 11680 11701	principal coordinates
+T203	Nutrient 12150 12164	polysaccharide
+T204	Methodology 12601 12654	PCoA of unweighted UniFrac microbiome-based distances
+T205	Measurement 12971 12974	BMI
+T206	Population 12982 12987	Hmong
+T207	Population 13133 13147	Hmong1st group
+T210	Population 13417 13426	HmongThai
+T211	Microorganism 13686 13696	Prevotella
+T212	Population 13890 13908	European Americans
+T213	Population 14312 14334	first-generation Karen
+T214	Population 14360 14365	Hmong
+T215	Methodology 14336 14358	Spearman’s correlation
+T216	Population 14390 14395	Karen
+T217	Population 14553 14576	European American group
+T218	Population 14650 14659	HmongThai
+T219	Population 14747 14774	first-generation immigrants
+T220	Methodology 14846 14872	multiple linear regression
+T221	Population 15342 15347	Karen
+T222	Physiology 15448 15461	gained weight
+T223	Nutrient 15505 15512	protein
+T224	Methodology 15536 15549	paired t-test
+T225	Population 15858 15876	Hmong participants
+T226	Population 16135 16143	Hmong1st
+T227	Population 16194 16202	Karen1st
+T228	Population 16216 16233	European American
+T229	Population 16284 16301	European American
+T230	Microorganism 16358 16368	Prevotella
+T231	Microorganism 16372 16383	Bacteroides
+T232	Methodology 16385 16398	paired t-test
+T233	DiversityMetric 16505 16533	Bacteroides-Prevotella ratio
+T234	Population 16665 16683	Karen participants
+T235	Methodology 16772 16808	deep shotgun metagenomics sequencing
+T236	Microorganism 16864 16874	Prevotella
+T237	Microorganism 16879 16890	Bacteroides
+E1	ASSOCIATED_WITH:T144 Theme:T146 Theme2:T145
+E2	ASSOCIATED_WITH:T68 Theme:T67 Theme2:T69
+E3	DECREASES:T183 Theme:T154 Agent:T150
+E4	HAS_COMPONENT:T173 Theme:T165 Agent:T166
+E6	ASSOCIATED_WITH:T180 Theme:T149 Theme2:T150
+E7	DECREASES:T181 Agent:T151 Theme:T153
+E8	DECREASES:T183 Theme:T155 Agent:T150
+E9	INTERACTS_WITH:T62 Theme:T174 Theme2:T176
+E12	HAS_COMPONENT:T185 Theme:T164 Agent:T168
+E13	HAS_COMPONENT:T185 Theme:T164 Agent:T169
+E14	HAS_COMPONENT:T185 Theme:T164 Agent:T167
+E15	HAS_COMPONENT:T185 Theme:T164 Agent:T170
+E16	HAS_COMPONENT:T185 Theme:T164 Agent:T171
+E17	HAS_COMPONENT:T185 Theme:T164 Agent:T172
+E19	HAS_COMPONENT:T143 Theme:T191 Agent:T188
+E20	HAS_COMPONENT:T143 Agent:T188 Theme:T190
+E21	HAS_COMPONENT:T143 Agent:T188 Theme:T189
+A1	Unknown E1
+A5	Unknown E7
+A6	Factual E2
+A7	Factual E3
+A8	Factual E4
+A9	Factual E6
+A10	Factual E8
+A11	Factual E9
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E19
+A19	Factual E20
+A20	Factual E21

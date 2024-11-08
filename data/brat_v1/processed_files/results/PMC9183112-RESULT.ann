@@ -1,0 +1,399 @@
+T58	Nutrient 54 57	SDP
+T62	INCREASES 212 219	greater
+T65	Physiology 308 319	food intake
+T70	Nutrient 455 458	SDP
+T74	Nutrient 681 684	SDP
+T75	Physiology 866 887	anxiety-like behavior
+T77	Nutrient 1000 1003	SDP
+T80	Physiology 1233 1250	short-term memory
+T81	Physiology 1035 1049	working memory
+T84	Nutrient 1342 1345	SDP
+T86	Physiology 1479 1495	long-term memory
+T88	Nutrient 1582 1585	SDP
+T91	Physiology 1733 1736	CNS
+T93	Chemical 1810 1843	brain-derived neurotrophic factor
+T94	Chemical 1845 1849	BDNF
+T95	Nutrient 1878 1881	SDP
+T96	Chemical 1954 1958	BDNF
+T97	Chemical 1960 1968	pro-BDNF
+T98	Chemical 2056 2060	BDNF
+T99	Chemical 2062 2068	m-BDNF
+T100	Nutrient 2131 2134	SDP
+T101	Chemical 2206 2232	pro-inflammatory cytokines
+T102	Chemical 2233 2238	Il-1β
+T103	Chemical 2243 2247	Il-6
+T105	Chemical 2382 2391	p65-NF-κB
+T106	Nutrient 2452 2455	SDP
+T107	DECREASES 2456 2463	reduced
+T108	Chemical 2491 2517	pro-inflammatory cytokines
+T109	Chemical 2590 2599	p65-NF-κB
+T110	AFFECTS 2539 2549	attenuated
+T112	Chemical 2722 2727	Tgf-β
+T114	Nutrient 2796 2799	SDP
+T115	INCREASES 2880 2889	increased
+T116	Chemical 2695 2721	anti-inflammatory cytokine
+T117	AFFECTS 2816 2825	prevented
+T118	Chemical 2911 2916	IL-10
+T120	Chemical 3025 3045	toll-like receptor 2
+T121	Chemical 3047 3051	Tlr2
+T123	Nutrient 3125 3128	SDP
+T124	Chemical 3281 3285	Tlr4
+T125	Gene 3287 3291	Cd14
+T126	Gene 3297 3302	Myd88
+T127	Chemical 3371 3422	TIR-domain-containing adapter-inducing interferon-β
+T128	Chemical 3424 3428	Trif
+T129	Chemical 3544 3547	LPS
+T130	Physiology 3679 3700	systemic inflammation
+T132	Physiology 3746 3767	systemic inflammation
+T133	Chemical 3803 3806	LPS
+T134	Chemical 3857 3883	pro-inflammatory cytokines
+T135	Chemical 3884 3889	IL-1β
+T136	Chemical 3894 3899	TNF-α
+T138	Nutrient 3999 4002	SDP
+T139	DECREASES 4019 4026	reduced
+T141	Nutrient 4154 4157	SDP
+T142	INCREASES 4184 4192	increase
+T143	Chemical 4224 4250	anti-inflammatory cytokine
+T144	Chemical 4251 4256	IL-10
+T147	AFFECTS 4509 4521	not modified
+T148	Nutrient 4532 4535	SDP
+T149	DiversityMetric 4487 4503	species richness
+T151	Microorganism 4622 4635	Bacteroidetes
+T152	Microorganism 4667 4677	Firmicutes
+T153	DiversityMetric 4748 4751	F/B
+T154	AFFECTS 4757 4769	not modified
+T155	Nutrient 4780 4783	SDP
+T156	Microorganism 4835 4849	Proteobacteria
+T157	Microorganism 4865 4880	Verrucomicrobia
+T158	Microorganism 4894 4908	Actinobacteria
+T159	Microorganism 4922 4933	Tenericutes
+T160	Microorganism 4947 4962	Deferribacteres
+T161	Nutrient 5045 5048	SDP
+T162	Nutrient 5089 5092	SDP
+T163	Microorganism 5200 5216	Lactobacillaceae
+T164	Microorganism 5221 5235	Clostridiaceae
+T165	Microorganism 5246 5256	Firmicutes
+T166	Microorganism 5265 5284	Sphingobacteriaceae
+T167	Microorganism 5286 5303	Flavobacteriaceae
+T168	Microorganism 5309 5323	Prevotellaceae
+T169	Microorganism 5330 5343	Bacteroidetes
+T170	Microorganism 5356 5373	Helicobacteraceae
+T171	Microorganism 5384 5398	Proteobacteria
+T172	Microorganism 5455 5474	Erysipelotrichaceae
+T173	Microorganism 5485 5495	Firmicutes
+T174	Microorganism 5534 5548	Bacteroidaceae
+T175	Microorganism 5553 5571	Porphyromonadaceae
+T176	Microorganism 5582 5595	Bacteroidetes
+T177	Nutrient 5654 5657	SDP
+T178	Physiology 5698 5703	aging
+T179	Microorganism 5711 5727	Lactobacillaceae
+T180	AFFECTS 5674 5683	prevented
+T181	INCREASES 5739 5748	increased
+T182	Microorganism 5779 5793	Eubacteriaceae
+T183	Microorganism 5871 5881	Firmicutes
+T184	Microorganism 5964 5977	Lactobacillus
+T185	Microorganism 5982 5993	Pediococcus
+T186	Nutrient 6066 6069	SDP
+T187	Nutrient 6186 6189	SDP
+T188	INCREASES 6206 6215	increased
+T189	Microorganism 6257 6271	Acetobacterium
+T190	Metabolite 6237 6247	acetyl-CoA
+T191	Microorganism 6356 6370	Erysipelothrix
+T194	Nutrient 6462 6465	SDP
+T195	DECREASES 6482 6489	reduced
+T196	Microorganism 6591 6602	Johnsonella
+T197	DECREASES 6533 6540	reduced
+T198	Microorganism 6669 6680	Clostridium
+T199	Nutrient 6734 6737	SDP
+T200	AFFECTS 6742 6752	no effects
+T201	Microorganism 6810 6823	Bacteroidetes
+T202	Microorganism 6853 6864	Bacteroides
+T203	AFFECTS 6924 6933	no effect
+T204	Nutrient 6937 6940	SDP
+T205	Microorganism 7011 7021	Prevotella
+T206	Nutrient 7026 7029	SDP
+T207	AFFECTS 7050 7059	no effect
+T208	Microorganism 7129 7140	Odoribacter
+T209	Nutrient 7184 7187	SDP
+T210	AFFECTS 7204 7214	attenuated
+T211	Microorganism 7263 7278	Parabacteroides
+T212	Nutrient 7378 7381	SDP
+T213	AFFECTS 7365 7374	no effect
+T214	Microorganism 7475 7488	Lactobacillus
+T215	Microorganism 7503 7517	L. taiwanensis
+T216	Microorganism 7519 7531	L. siliginis
+T217	Microorganism 7533 7541	L. antri
+T218	Microorganism 7546 7560	L. intermedius
+T219	Microorganism 7572 7596	Pediococcus argentinicus
+T220	Nutrient 7641 7644	SDP
+T221	Microorganism 7686 7698	L. siliginis
+T223	Microorganism 7786 7801	Bacteroides spp
+T224	Microorganism 7815 7835	Erysipelothrix muris
+T225	Microorganism 7840 7864	Parabacteroides gordonii
+T226	Microorganism 7915 7940	Helicobacter mastomyrinus
+T227	Microorganism 7945 7965	Prevotella dentasini
+T228	Nutrient 7998 8001	SDP
+T229	DECREASES 8018 8025	reduced
+T230	Microorganism 8043 8063	Erysipelohtrix muris
+T231	Microorganism 8065 8090	Helicobacter mastomyrinus
+T232	Microorganism 8092 8114	Bacteroides denticanum
+T233	Microorganism 8120 8145	Bifidobacterium choerinum
+T234	Microorganism 8191 8215	Parabacteroides gordonii
+T235	INCREASES 8249 8258	increased
+T236	Microorganism 8259 8286	Parabacteroides goldsteinii
+T237	Chemical 8433 8437	Tlr2
+T238	Chemical 8442 8446	Tlr4
+T239	Nutrient 8520 8523	SDP
+T240	Physiology 8639 8644	aging
+T241	Gene 8678 8682	Cd14
+T242	Nutrient 8753 8756	SDP
+T243	AFFECTS 8773 8783	attenuated
+T244	Gene 8840 8845	Myd88
+T247	Chemical 9044 9048	Trif
+T248	AFFECTS 8986 8995	No effect
+T249	Nutrient 9021 9024	SDP
+T250	Gene 9098 9103	Ffar2
+T251	Chemical 9119 9124	GPR43
+T252	Gene 9130 9135	Ffar3
+T253	Chemical 9151 9156	GPR41
+T255	Nutrient 9281 9284	SDP
+T256	INCREASES 9301 9310	increased
+T257	Chemical 9465 9470	Il-1β
+T258	Chemical 9472 9476	Il-6
+T259	Chemical 9478 9483	Tnf-α
+T261	Nutrient 9606 9609	SDP
+T262	AFFECTS 9640 9647	effects
+T263	Chemical 9660 9664	Il-6
+T264	Chemical 9670 9675	Tnf-α
+T265	Gene 9775 9779	Cd25
+T266	Physiology 9784 9789	F4/80
+T267	Nutrient 9859 9862	SDP
+T268	INCREASES 9742 9751	increased
+T269	AFFECTS 9879 9904	prevented these increases
+T270	Physiology 10012 10021	senescent
+T271	Gene 9965 9970	Itgae
+T272	INCREASES 9975 9984	increased
+T273	Nutrient 10000 10003	SDP
+T274	Physiology 10080 10090	Senescence
+T275	Gene 10163 10167	Tff3
+T276	Gene 10169 10173	Muc2
+T277	Gene 10179 10187	Occludin
+T278	Nutrient 10270 10273	SDP
+T279	DECREASES 10131 10139	reducing
+T283	Physiology 608 626	locomotor activity
+T284	IMPROVES 685 710	attenuated this reduction
+T285	Physiology 774 794	exploratory activity
+T286	AFFECTS 1898 1905	changed
+T287	Physiology 2005 2015	senescence
+T288	DECREASES 2016 2023	reduced
+T289	IMPROVES 2118 2127	prevented
+T290	AFFECTS 3145 3154	prevented
+T291	Physiology 3725 3735	senescence
+T292	AFFECTS 3736 3745	increased
+T293	INCREASES 3771 3781	augmenting
+T294	Chemical 4053 4062	cytokines
+T295	Physiology 5151 5161	Senescence
+T296	DECREASES 5162 5169	reduced
+T297	INCREASES 5445 5454	increased
+T298	AFFECTS 5688 5694	effect
+T299	DECREASES 5901 5908	reduced
+T300	Physiology 5890 5900	senescence
+T301	AFFECTS 6086 6112	prevented these reductions
+T302	INCREASES 6248 6256	producer
+T303	Physiology 6655 6660	aging
+T304	DECREASES 6661 6668	reduced
+T305	Physiology 6832 6842	senescence
+T306	INCREASES 6843 6852	increased
+T307	Physiology 6971 6976	Aging
+T308	DECREASES 6977 6984	reduced
+T309	Physiology 7100 7110	Senescence
+T310	DECREASES 7111 7118	reduced
+T311	Physiology 7421 7426	aging
+T312	DECREASES 7427 7434	reduced
+T313	AFFECTS 7661 7670	prevented
+T314	DECREASES 8540 8549	prevented
+T315	INCREASES 8645 8654	augmented
+T316	AFFECTS 9626 9635	prevented
+T317	Physiology 9651 9656	aging
+T318	Physiology 9736 9741	Aging
+T319	AFFECTS 10290 10299	prevented
+T5611	Measurement 5 16	Body Weight
+T5711	Physiology 21 32	Food Intake
+T5911	INCREASES 72 83	higher rate
+T6011	Physiology 87 103	body weight gain
+T6111	Physiology 191 207	body weight gain
+T6411	Nutrient 223 226	SDP
+T6611	Disease 369 371	AD
+T6711	ASSOCIATED_WITH 375 385	associated
+T6811	Physiology 406 429	cognitive abnormalities
+T6911	Physiology 391 401;416 429	behavioral abnormalities
+E22	ASSOCIATED_WITH:T6711 Theme:T6611 Theme2:T6811
+E26	AFFECTS:T117 Agent:T114 Theme:T112
+E27	DECREASES:T139 Agent:T138 Theme:T136
+E28	DECREASES:T139 Agent:T138 Theme:T135
+E29	INCREASES:T142 Agent:T141 Theme:T144
+E30	AFFECTS:T147 Agent:T148 Theme:T149
+E31	AFFECTS:T154 Theme:T153 Agent:T155
+E32	AFFECTS:T180 Agent:T177 Theme:T179
+E33	INCREASES:T181 Agent:T177 Theme:T182
+E34	INCREASES:T188 Agent:T187 Theme:T189
+E35	DECREASES:T195 Agent:T194 Theme:T191
+E36	DECREASES:T197 Agent:T194 Theme:T196
+E37	AFFECTS:T200 Agent:T199 Theme:T198
+E38	AFFECTS:T203 Agent:T204 Theme:T202
+E39	AFFECTS:T207 Agent:T206 Theme:T205
+E40	AFFECTS:T210 Agent:T209 Theme:T208
+E41	AFFECTS:T213 Agent:T212 Theme:T211
+E42	DECREASES:T229 Agent:T228 Theme:T230
+E43	DECREASES:T229 Agent:T228 Theme:T231
+E44	DECREASES:T229 Agent:T228 Theme:T232
+E45	DECREASES:T229 Agent:T228 Theme:T233
+E46	DECREASES:T229 Agent:T228 Theme:T234
+E47	INCREASES:T235 Agent:T228 Theme:T236
+E48	DECREASES:T314 Agent:T239 Theme:T238
+E49	DECREASES:T314 Agent:T239 Theme:T237
+E50	AFFECTS:T243 Agent:T242 Theme:T241
+E51	AFFECTS:T248 Agent:T249 Theme:T247
+E52	INCREASES:T256 Agent:T255 Theme:T252
+E53	INCREASES:T256 Agent:T255 Theme:T250
+E54	AFFECTS:T316 Agent:T261 Theme:T264
+E55	AFFECTS:T269 Agent:T267 Theme:T265
+E56	AFFECTS:T316 Agent:T261 Theme:T263
+E57	AFFECTS:T269 Agent:T267 Theme:T266
+E58	INCREASES:T272 Agent:T273 Theme:T271
+E59	AFFECTS:T319 Agent:T278 Theme:T275
+E60	AFFECTS:T319 Agent:T278 Theme:T276
+E61	AFFECTS:T319 Agent:T278 Theme:T277
+E62	IMPROVES:T284 Agent:T74 Theme:T283
+E63	AFFECTS:T286 Theme:T97 Agent:T95
+E64	DECREASES:T288 Theme:T99 Agent:T287
+E65	IMPROVES:T289 Agent:T100 Theme:T99
+E66	AFFECTS:T290 Agent:T123 Theme:T120
+E67	AFFECTS:T292 Theme:T132 Agent:T291
+E68	INCREASES:T293 Theme:T133 Agent:T291
+E69	INCREASES:T293 Theme:T135 Agent:T291
+E70	INCREASES:T293 Theme:T136 Agent:T291
+E71	DECREASES:T296 Theme:T163 Agent:T295
+E72	DECREASES:T296 Theme:T164 Agent:T295
+E73	DECREASES:T296 Agent:T295 Theme:T166
+E74	DECREASES:T296 Agent:T295 Theme:T167
+E75	DECREASES:T296 Agent:T295 Theme:T168
+E76	DECREASES:T296 Agent:T295 Theme:T170
+E77	INCREASES:T297 Theme:T172 Agent:T295
+E78	INCREASES:T297 Theme:T174 Agent:T295
+E79	INCREASES:T297 Theme:T175 Agent:T295
+E80	AFFECTS:T298 Agent:T178 Theme:T179
+E81	DECREASES:T299 Agent:T300 Theme:T184
+E82	DECREASES:T299 Agent:T300 Theme:T185
+E83	AFFECTS:T301 Agent:T186 Theme:T184
+E84	AFFECTS:T301 Agent:T186 Theme:T185
+E85	INCREASES:T302 Agent:T189 Theme:T190
+E86	DECREASES:T304 Theme:T198 Agent:T303
+E87	INCREASES:T306 Theme:T202 Agent:T305
+E88	DECREASES:T308 Theme:T205 Agent:T307
+E89	DECREASES:T310 Theme:T208 Agent:T309
+E90	DECREASES:T312 Agent:T311 Theme:T215
+E91	DECREASES:T312 Agent:T311 Theme:T216
+E92	DECREASES:T312 Agent:T311 Theme:T217
+E93	DECREASES:T312 Agent:T311 Theme:T218
+E94	DECREASES:T312 Agent:T311 Theme:T219
+E95	AFFECTS:T313 Theme:T221 Agent:T220
+E96	INCREASES:T315 Theme:T241 Agent:T240
+E97	AFFECTS:T262 Agent:T317 Theme:T263
+E98	AFFECTS:T262 Agent:T317 Theme:T264
+E99	INCREASES:T268 Theme:T265 Agent:T318
+E100	INCREASES:T268 Theme:T266 Agent:T318
+E101	DECREASES:T279 Theme:T275 Agent:T274
+E102	DECREASES:T279 Theme:T277 Agent:T274
+E103	DECREASES:T279 Theme:T276 Agent:T274
+E1911	INCREASES:T5911 Agent:T58 Theme:T6011
+E2011	INCREASES:T62 Agent:T6411 Theme:T6111
+E2111	ASSOCIATED_WITH:T6711 Theme:T6611 Theme2:T6911
+E2311	DECREASES:T107 Agent:T106 Theme:T108
+E2411	AFFECTS:T110 Agent:T106 Theme:T109
+E2511	INCREASES:T115 Agent:T114 Theme:T118
+A4	Negated E38
+A5	Negated E39
+A6	Negated E41
+A7	Negated E51
+A111	Negated E30
+A211	Negated E31
+A311	Negated E37
+A330	Factual E22
+A334	Factual E26
+A335	Factual E27
+A336	Factual E28
+A337	Factual E29
+A338	Factual E32
+A339	Factual E33
+A340	Factual E34
+A341	Factual E35
+A342	Factual E36
+A343	Factual E40
+A344	Factual E42
+A345	Factual E43
+A346	Factual E44
+A347	Factual E45
+A348	Factual E46
+A349	Factual E47
+A350	Factual E48
+A351	Factual E49
+A352	Factual E50
+A353	Factual E52
+A354	Factual E53
+A355	Factual E54
+A356	Factual E55
+A357	Factual E56
+A358	Factual E57
+A359	Factual E58
+A360	Factual E59
+A361	Factual E60
+A362	Factual E61
+A363	Factual E62
+A364	Factual E63
+A365	Factual E64
+A366	Factual E65
+A367	Factual E66
+A368	Factual E67
+A369	Factual E68
+A370	Factual E69
+A371	Factual E70
+A372	Factual E71
+A373	Factual E72
+A374	Factual E73
+A375	Factual E74
+A376	Factual E75
+A377	Factual E76
+A378	Factual E77
+A379	Factual E78
+A380	Factual E79
+A381	Factual E80
+A382	Factual E81
+A383	Factual E82
+A384	Factual E83
+A385	Factual E84
+A386	Factual E85
+A387	Factual E86
+A388	Factual E87
+A389	Factual E88
+A390	Factual E89
+A391	Factual E90
+A392	Factual E91
+A393	Factual E92
+A394	Factual E93
+A395	Factual E94
+A396	Factual E95
+A397	Factual E96
+A398	Factual E97
+A399	Factual E98
+A400	Factual E99
+A401	Factual E100
+A402	Factual E101
+A403	Factual E102
+A404	Factual E103
+A405	Factual E1911
+A406	Factual E2011
+A407	Factual E2111
+A408	Factual E2311
+A409	Factual E2411
+A410	Factual E2511

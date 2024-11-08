@@ -1,0 +1,103 @@
+T1	Physiology 307 332	Dietary fiber restriction
+T2	Nutrient 307 320	Dietary fiber
+T3	DietPattern 546 557	fiber diets
+T4	Population 683 727	rats with fiber deficit-induced constipation
+T5	Physiology 693 727	fiber deficit-induced constipation
+T6	Nutrient 66 79	dietary fiber
+T7	Population 219 223	rats
+T8	Physiology 147 189	dietary fiber deficit-induced constipation
+T9	DiversityMetric 195 204	F/B ratio
+T10	Nutrient 126 134	Junchoto
+T11	Nutrient 665 673	Junchoto
+T12	Nutrient 675 678	JCT
+T13	DietPattern 759 770	fiber diets
+T14	Nutrient 1018 1021	JCT
+T15	Nutrient 784 793	cellulose
+T16	Biospecimen 1051 1056	Fecal
+T17	IMPROVES 135 146	ameliorates
+T18	Methodology 1072 1100	16S rRNA amplicon sequencing
+T19	DECREASES 1222 1231	decreased
+T20	Nutrient 1237 1246	cellulose
+T21	DiversityMetric 1367 1397	Firmicutes/Bacteroidetes ratio
+T22	DiversityMetric 1399 1408	F/B ratio
+T23	DiversityMetric 1335 1358	α-diversity Chao1 index
+T24	WORSENS 333 351	presents obstacles
+T25	Nutrient 1606 1609	JCT
+T26	DiversityMetric 1576 1587	Chao1 index
+T27	DiversityMetric 1595 1604	F/B ratio
+T28	INCREASES 1705 1715	increasing
+T29	DiversityMetric 1695 1704	F/B ratio
+T30	DietPattern 1669 1672	FFD
+T31	DietPattern 1482 1485	HFD
+T32	DietPattern 1490 1493	FFD
+T33	INCREASES 1190 1199	increased
+T34	Measurement 1205 1216	water ratio
+T35	AFFECTS 614 627	effectiveness
+T36	Nutrient 1827 1830	JCT
+T37	AFFECTS 1831 1840	may alter
+T38	DiversityMetric 1845 1854	F/B ratio
+T39	Population 729 733	Rats
+T40	Nutrient 693 698	fiber
+T41	Nutrient 147 160	dietary fiber
+T42	Population 600 604	rats
+T43	HAS_COMPONENT 771 775	with
+T44	Biospecimen 44 49	fecal
+T45	DietPattern 809 812	FFD
+T46	DietPattern 819 821	ND
+T47	DietPattern 829 832	HFD
+T48	DietPattern 940 942	ND
+T49	DietPattern 989 992	FFD
+T50	Biospecimen 390 395	fecal
+T51	Nutrient 944 963	fiber normalization
+T52	Physiology 1145 1160	fecal frequency
+T53	Measurement 1162 1172	dry weight
+T54	Physiology 1178 1184	length
+T55	Biospecimen 1455 1460	fecal
+T56	Biospecimen 1811 1816	fecal
+T57	Biospecimen 1867 1872	fecal
+T58	Physiology 44 60	fecal properties
+T59	Nutrient 1522 1541	fiber normalization
+T60	Physiology 355 377	appropriate defecation
+T61	Physiology 285 296	constipated
+T62	Physiology 390 406	fecal properties
+T63	AFFECTS 382 389	affects
+T64	Physiology 1051 1067	Fecal properties
+T65	Physiology 1867 1883	fecal properties
+T66	IMPROVES 1859 1866	improve
+T67	ASSOCIATED_WITH 0 12	Associations
+T68	Physiology 1811 1825	fecal property
+T69	Physiology 1455 1469	fecal property
+T70	Physiology 458 488	fecal morphological properties
+T71	IMPROVES 1505 1516	ameliorated
+T72	Physiology 1638 1665	fecal morphological changes
+T73	IMPROVES 1625 1633	reversed
+E1	DECREASES:T19 Theme:T34 Agent:T20
+E2	WORSENS:T24 Agent:T1 Theme:T60
+E3	INCREASES:T28 Theme:T29 Agent:T25
+E4	INCREASES:T33 Theme:T52 Agent:T20
+E5	AFFECTS:T37 Agent:T36 Theme:T38
+E6	INCREASES:T33 Theme:T53 Agent:T20
+E7	INCREASES:T33 Theme:T54 Agent:T20
+E8	IMPROVES:T17 Agent:T10 Theme:T8
+E9	AFFECTS:T35 Agent:T11 Theme:T5
+E10	HAS_COMPONENT:T43 Agent:T13 Theme:T15
+E11	AFFECTS:T63 Agent:T1 Theme:T62
+E12	IMPROVES:T66 Agent:T36 Theme:T65
+E13	ASSOCIATED_WITH:T67 Theme:T58 Theme2:T6
+E14	IMPROVES:T73 Theme:T72 Agent:T25
+E15	IMPROVES:T71 Agent:T59 Theme:T69
+A1	Unknown E5
+A2	Unknown E9
+A3	Factual E1
+A4	Factual E2
+A5	Factual E3
+A6	Factual E4
+A7	Factual E6
+A8	Factual E7
+A9	Factual E8
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15

@@ -1,0 +1,88 @@
+T1	Food 10 32	ancient Khorasan wheat
+T2	AFFECTS 0 6	Effect
+T3	Physiology 52 64	inflammation
+T4	Metabolite 70 92	short-chain fatty acid
+T5	Population 107 133	patients with fibromyalgia
+T6	Disease 146 172	Fibromyalgia (FM) syndrome
+T7	Disease 121 133	fibromyalgia
+T8	Measurement 2399 2402	WPI
+T9	Physiology 200 215	widespread pain
+T10	Disease 217 235	sleeping disorders
+T11	Physiology 237 244	fatigue
+T12	Physiology 250 271	cognitive dysfunction
+T13	Physiology 288 313	gastrointestinal distress
+T14	Disease 551 553	FM
+T15	Population 551 562	FM patients
+T16	DietPattern 615 630	vegetarian diet
+T17	Nutrient 632 664	low-fermentable oligosaccharides
+T18	Nutrient 666 679	disaccharides
+T19	Nutrient 681 696	monosaccharides
+T20	DietPattern 702 721	polyols based diets
+T21	DietPattern 723 739	gluten-free diet
+T22	Food 759 772	ancient grain
+T24	Food 858 880	ancient Khorasan wheat
+T25	IMPROVES 899 910	improvement
+T27	Population 934 945	FM patients
+T28	Disease 934 936	FM
+T29	AFFECTS 966 973	effects
+T30	Food 977 999	ancient Khorasan wheat
+T31	Physiology 1011 1023	inflammation
+T32	Metabolite 1029 1051	short-chain fatty acid
+T33	Population 1066 1077	FM patients
+T34	Disease 1066 1068	FM
+T35	Disease 1118 1120	FM
+T36	Population 1118 1129	FM patients
+T37	Methodology 1152 1192	randomized, double-blind crossover trial
+T38	Food 1242 1250;1262 1267	Khorasan wheat
+T39	Methodology 1405 1424	16S rRNA sequencing
+T40	Physiology 1435 1472	fecal molecular inflammatory response
+T41	Metabolite 1481 1504	short-chain fatty acids
+T42	Metabolite 1506 1511	SCFAs
+T43	Methodology 1551 1582	Luminex MAGPIX detection system
+T44	Methodology 1589 1626	mass chromatography-mass spectrometry
+T46	Food 1647 1661	Khorasan wheat
+T47	Measurement 1802 1814;1825 1833	fecal immune profiles
+T48	Metabolite 1819 1824	SCFAs
+T49	INCREASES 1858 1866	increase
+T50	Metabolite 1870 1882	butyric acid
+T51	Microorganism 1903 1930	candidatus Saccharibacteria
+T52	Microorganism 1950 1964	Actinobacteria
+T53	DECREASES 1974 1983	reduction
+T54	Microorganism 1987 2002	Enterococcaceae
+T55	Disease 2056 2058	FM
+T56	Food 2124 2138	Khorasan wheat
+T57	POS_ASSOCIATED_WITH 2186 2207	positive correlations
+T58	Microorganism 2216 2230	Actinobacteria
+T59	Measurement 2240 2264	Tiredness Symptoms Scale
+T60	Measurement 2281 2322	Functional Outcome of Sleep Questionnaire
+T61	Microorganism 2350 2366	Verrucomicrobiae
+T62	Measurement 2376 2397;2404 2428	Widespread Pain Index + Symptom Severity scale
+T64	Measurement 2430 2432	SS
+T65	Measurement 2449 2452;2464 2470	WPI scores
+T66	Microorganism 2480 2507	candidatus Saccharibacteria
+T67	Measurement 2512 2520	SS score
+T68	Microorganism 2545 2558	Bacteroidales
+T69	Measurement 2563 2617	Sleep-Related and Safety Behaviour Questionnaire score
+T70	Food 2672 2694	ancient Khorasan wheat
+T71	POS_ASSOCIATED_WITH 2768 2808	positively correlate with an improvement
+T73	Disease 2812 2814	FM
+E1	AFFECTS:T2 Agent:T1 Theme:T3
+E2	AFFECTS:T2 Agent:T1 Theme:T4
+E3	IMPROVES:T25 Agent:T24 Theme:T28
+E4	AFFECTS:T29 Agent:T30 Theme:T31
+E5	AFFECTS:T29 Agent:T30 Theme:T32
+E6	INCREASES:T49 Agent:T46 Theme:T50
+E7	DECREASES:T53 Agent:T46 Theme:T54
+E8	INCREASES:T49 Agent:T46 Theme:T51
+E9	INCREASES:T49 Agent:T46 Theme:T52
+E10	POS_ASSOCIATED_WITH:T57 Agent:T58 Theme:T59
+E11	POS_ASSOCIATED_WITH:T57 Agent:T68 Theme:T69
+E12	POS_ASSOCIATED_WITH:T57 Agent:T66 Theme:T67
+E13	POS_ASSOCIATED_WITH:T57 Agent:T61 Theme:T62
+E14	POS_ASSOCIATED_WITH:T57 Agent:T58 Theme:T60
+E15	POS_ASSOCIATED_WITH:T57 Agent:T61 Theme:T65
+E16	POS_ASSOCIATED_WITH:T71 Agent:T70 Theme:T73
+A1	Factuality E1 Unknown
+A2	Factuality E2 Unknown
+A3	Factuality E4 Unknown
+A4	Factuality E5 Unknown

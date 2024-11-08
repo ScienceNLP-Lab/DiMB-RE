@@ -1,0 +1,47 @@
+T1	Nutrient 9 22	dietary fibre
+T3	Disease 189 198	Dysbiotic
+T4	Nutrient 71 100	inulin-type fructan prebiotic
+T5	DietPattern 579 596	low dietary fibre
+T6	DietPattern 598 601	LDF
+T7	DietPattern 606 624	high dietary fibre
+T8	DietPattern 626 629	HDF
+T9	Nutrient 679 708	inulin-type fructan prebiotic
+T11	DietPattern 834 837	LDF
+T12	DietPattern 841 844	HDF
+T14	DietPattern 1182 1185	LDF
+T15	DietPattern 1276 1279	HDF
+T16	INCREASES 1324 1332	increase
+T17	Microorganism 1336 1351	Bifidobacterium
+T18	Microorganism 1366 1382	Faecalibacterium
+T19	DECREASES 1397 1406	decreases
+T20	Microorganism 1410 1421	Coprococcus
+T21	Microorganism 1453 1465	Ruminococcus
+T22	DietPattern 1542 1545	HDF
+T23	POS_ASSOCIATED_WITH 1611 1633	more likely to benefit
+T24	Nutrient 1642 1671	inulin-type fructan prebiotic
+T25	DietPattern 1688 1691	LDF
+T26	Nutrient 1788 1817	inulin-type fructan prebiotic
+T27	Nutrient 1840 1853	dietary fibre
+T28	Metabolite 924 928	SCFA
+T29	Nutrient 985 994	prebiotic
+T30	Nutrient 1012 1027	Orafti® Synergy
+T31	Nutrient 1051 1060	Glucidex®
+T33	Nutrient 1197 1206	prebiotic
+T34	INCREASES 1230 1238	increase
+T35	Microorganism 1242 1257	Bifidobacterium
+T36	Nutrient 1291 1300	prebiotic
+T37	Microorganism 1433 1438	Dorea
+E1	INCREASES:T16 Agent:T15 Theme:T17
+E2	DECREASES:T19 Agent:T15 Theme:T20
+E3	POS_ASSOCIATED_WITH:T23 Agent:T22 Theme:T24
+E4	INCREASES:T16 Agent:T15 Theme:T18
+E5	DECREASES:T19 Agent:T15 Theme:T21
+E6	INCREASES:T34 Theme:T35 Agent:T14
+E7	DECREASES:T19 Theme:T37 Agent:T15
+A1	Unknown E3
+A2	Factual E1
+A3	Factual E2
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7

@@ -1,0 +1,14 @@
+Role of whole grains versus fruits and vegetables in reducing subclinical inflammation and promoting gastrointestinal health in individuals affected by overweight and obesity: a randomized controlled trial
+
+Background
+Whole grains (WG) and fruits and vegetables (FV) have been shown to reduce the risk of metabolic disease, possibly via modulation of the gut microbiota. The purpose of this study was to determine the impact of increasing intake of either WG or FV on inflammatory markers and gut microbiota composition.
+Methods
+A randomized parallel arm feeding trial was completed on forty-nine subjects with overweight or obesity and low intakes of FV and WG. Individuals were randomized into three groups (3 servings/d provided): WG, FV, and a control (refined grains). Stool and blood samples were collected at the beginning of the study and after 6 weeks. Inflammatory markers [tumor necrosis factor-α (TNF-α), interleukin-6 (IL-6), lipopolysaccharide binding protein (LBP), and high sensitivity C-reactive protein (hs-CRP)] were measured. Stool sample analysis included short/branched chain fatty acids (S/BCFA) and microbiota composition.
+Results
+There was a significant decrease in LBP for participants on the WG (− 0.2 μg/mL, p = 0.02) and FV (− 0.2 μg/mL, p = 0.005) diets, with no change in those on the control diet (0.1 μg/mL, p = 0.08). The FV diet induced a significant change in IL-6 (− 1.5 pg/mL, p = 0.006), but no significant change was observed for the other treatments (control, − 0.009 pg/mL, p = 0.99; WG, − 0.29, p = 0.68). The WG diet resulted in a significant decrease in TNF-α (− 3.7 pg/mL; p < 0.001), whereas no significant effects were found for those on the other diets (control, − 0.6 pg/mL, p = 0.6; FV, − 1.4 pg/mL, p = 0.2). The treatments induced individualized changes in microbiota composition such that treatment group differences were not identified, except for a significant increase in α-diversity in the FV group. The proportions of Clostridiales (Firmicutes phylum) at baseline were correlated with the magnitude of change in LBP during the study.
+Conclusions
+These data demonstrate that WG and FV intake can have positive effects on metabolic health; however, different markers of inflammation were reduced on each diet suggesting that the anti-inflammatory effects were facilitated via different mechanisms. The anti-inflammatory effects were not related to changes in gut microbiota composition during the intervention, but were correlated with microbiota composition at baseline.
+Trial registration
+ClinicalTrials.gov, NCT02602496, Nov 4, 2017.
+Electronic supplementary material
+The online version of this article (10.1186/s12937-018-0381-7) contains supplementary material, which is available to authorized users.

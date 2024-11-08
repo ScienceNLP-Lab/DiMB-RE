@@ -1,0 +1,142 @@
+T1	Food 19 29	Fried Meat
+T2	Metabolite 70 87	Fecal Metabolites
+T3	Physiology 106 126	Glucose Homoeostasis
+T4	Chemical 128 148	Intestinal Endotoxin
+T5	AFFECTS 96 102	Impact
+T6	Physiology 161 182	Systemic Inflammation
+T9	AFFECTS 299 305	impact
+T10	Food 309 319	fried meat
+T11	Metabolite 353 372	fecal cometabolites
+T12	Physiology 414 434	glucose homoeostasis
+T13	Chemical 436 456	intestinal endotoxin
+T14	Physiology 469 490	systemic inflammation
+T15	AFFECTS 390 397	impacts
+T16	ASSOCIATED_WITH 4 15	Association
+T18	Disease 536 546	overweight
+T19	Food 625 635	fried meat
+T21	Chemical 847 854	Glucose
+T22	Chemical 859 866	insulin
+T24	Chemical 990 1010	intestinal endotoxin
+T25	Measurement 1015 1043	inflammation serum biomarker
+T26	Chemical 1070 1108	area under the curve (AUC) for insulin
+T27	DiversityMetric 1445 1473	microbial community richness
+T28	Food 1236 1246	fried meat
+T29	Measurement 1110 1129	insulinogenic index
+T30	Chemical 1131 1134	IGI
+T31	Measurement 1141 1172	muscle insulin resistance index
+T32	Measurement 1174 1178	MIRI
+T33	Chemical 1257 1260	IGI
+T34	Measurement 1315 1319	MIRI
+T35	DECREASES 1437 1444	lowered
+T36	Chemical 1324 1345	AUC values of insulin
+T37	Chemical 1350 1368	lipopolysaccharide
+T38	Chemical 1370 1373	LPS
+T39	Chemical 1376 1381	TNF-α
+T40	Chemical 1383 1388	IL-10
+T41	Chemical 1394 1399	IL-1β
+T42	DECREASES 1251 1256	lower
+T43	INCREASES 1308 1314	higher
+T44	Food 1419 1429	Fried meat
+T45	DECREASES 1478 1487	decreased
+T46	Microorganism 1488 1503	Lachnospiraceae
+T47	Microorganism 1508 1522	Flavonifractor
+T48	INCREASES 1540 1550	increasing
+T49	Microorganism 1551 1560	Dialister
+T50	Microorganism 1562 1567	Dorea
+T51	Microorganism 1573 1584	Veillonella
+T52	Metabolite 1648 1666	fecal cometabolite
+T53	Metabolite 1687 1709	3-indolepropionic acid
+T54	Metabolite 1711 1723	valeric acid
+T55	Metabolite 1729 1741	butyric acid
+T56	DECREASES 1681 1686	lower
+T57	INCREASES 1761 1767	higher
+T58	Metabolite 1768 1777	carnitine
+T59	Metabolite 1782 1801	methylglutaric acid
+T60	Chemical 1915 1918	IGI
+T61	Measurement 1923 1927	MIRI
+T62	Chemical 1939 1942	LPS
+T63	Chemical 1944 1949	FGF21
+T64	Chemical 1951 1956	TNF-α
+T65	Chemical 1958 1963	IL-1β
+T66	Chemical 1969 1974	IL-10
+T67	Metabolite 1849 1861	cometabolite
+T68	ASSOCIATED_WITH 1888 1898	associated
+T69	Food 2007 2017	Fried meat
+T70	WORSENS 2025 2033	impaired
+T71	Physiology 2034 2054	glucose homoeostasis
+T72	INCREASES 2059 2068	increased
+T73	Chemical 2069 2089	intestinal endotoxin
+T74	Physiology 2094 2115	systemic inflammation
+T75	Food 698 708	fried meat
+E1	AFFECTS:T5 Theme:T3 Agent:T2
+E2	AFFECTS:T5 Theme:T4 Agent:T2
+E3	AFFECTS:T5 Theme:T6 Agent:T2
+E4	AFFECTS:T9 Agent:T10 Theme:T11
+E5	AFFECTS:T15 Agent:T11 Theme:T12
+E6	AFFECTS:T15 Agent:T11 Theme:T14
+E7	AFFECTS:T15 Agent:T11 Theme:T13
+E8	ASSOCIATED_WITH:T16 Theme:T1 Theme2:T2
+E9	DECREASES:T42 Agent:T28 Theme:T33
+E10	INCREASES:T43 Agent:T28 Theme:T34
+E11	DECREASES:T35 Theme:T27 Agent:T44
+E12	INCREASES:T43 Agent:T28 Theme:T36
+E13	INCREASES:T43 Agent:T28 Theme:T39
+E14	INCREASES:T43 Agent:T28 Theme:T40
+E15	INCREASES:T43 Agent:T28 Theme:T41
+E16	INCREASES:T43 Agent:T28 Theme:T37
+E17	DECREASES:T45 Agent:T44 Theme:T46
+E18	INCREASES:T48 Agent:T44 Theme:T49
+E19	DECREASES:T56 Agent:T44 Theme:T53
+E20	INCREASES:T57 Agent:T44 Theme:T58
+E21	DECREASES:T45 Agent:T44 Theme:T47
+E22	INCREASES:T48 Agent:T44 Theme:T50
+E23	INCREASES:T48 Agent:T44 Theme:T51
+E24	INCREASES:T57 Agent:T44 Theme:T59
+E25	DECREASES:T56 Agent:T44 Theme:T54
+E26	DECREASES:T56 Agent:T44 Theme:T55
+E27	ASSOCIATED_WITH:T68 Theme:T60 Theme2:T52
+E28	ASSOCIATED_WITH:T68 Theme:T61 Theme2:T52
+E29	ASSOCIATED_WITH:T68 Theme:T62 Theme2:T52
+E30	ASSOCIATED_WITH:T68 Theme:T63 Theme2:T52
+E31	ASSOCIATED_WITH:T68 Theme:T64 Theme2:T52
+E32	ASSOCIATED_WITH:T68 Theme:T65 Theme2:T52
+E33	ASSOCIATED_WITH:T68 Theme:T66 Theme2:T52
+E34	WORSENS:T70 Agent:T69 Theme:T71
+E35	INCREASES:T72 Agent:T69 Theme:T73
+E36	INCREASES:T72 Agent:T69 Theme:T74
+A1	Unknown E1
+A2	Unknown E2
+A3	Unknown E3
+A4	Unknown E4
+A5	Unknown E5
+A6	Unknown E6
+A7	Unknown E7
+A8	Unknown E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19
+A20	Factual E20
+A21	Factual E21
+A22	Factual E22
+A23	Factual E23
+A24	Factual E24
+A25	Factual E25
+A26	Factual E26
+A27	Factual E27
+A28	Factual E28
+A29	Factual E29
+A30	Factual E30
+A31	Factual E31
+A32	Factual E32
+A33	Factual E33
+A34	Factual E34
+A35	Factual E35
+A36	Factual E36

@@ -1,0 +1,170 @@
+T1	Nutrient 13 21	psyllium
+T2	Population 43 58	neonatal calves
+T3	Food 25 38	milk replacer
+T4	HAS_COMPONENT 0 9	Inclusion
+T5	Metabolite 74 108	volatile fatty acid concentrations
+T6	Physiology 137 164	gastrointestinal tract size
+T7	Nutrient 167 185	Fermentable fibers
+T8	Nutrient 194 202	psyllium
+T9	INCREASES 203 211	increase
+T10	Metabolite 212 231	volatile fatty acid
+T11	Metabolite 233 236	VFA
+T12	HAS_COMPONENT 600 604	with
+T13	INCREASES 286 294	increase
+T14	Physiology 299 332	gastrointestinal tract (GIT) mass
+T15	Food 635 637	DM
+T16	Nutrient 367 375	psyllium
+T17	HAS_COMPONENT 376 385	inclusion
+T18	Food 389 402	milk replacer
+T19	Population 436 457	neonatal dairy calves
+T20	Population 507 527	Male Holstein calves
+T21	Food 539 552	milk replacer
+T22	Nutrient 605 613	psyllium
+T23	Food 669 682	Milk replacer
+T24	Population 731 735	calf
+T25	Nutrient 1016 1024	Psyllium
+T26	Food 1028 1041	milk replacer
+T27	Metabolite 1070 1078	butyrate
+T28	Metabolite 1157 1160	VFA
+T29	Metabolite 1183 1186	VFA
+T30	Physiology 1223 1230	jejunum
+T31	Nutrient 1235 1243	psyllium
+T32	INCREASES 1244 1262	tended to increase
+T33	Metabolite 1269 1272	VFA
+T34	Metabolite 1274 1281	acetate
+T35	Metabolite 1287 1295	valerate
+T36	Metabolite 1312 1320	valerate
+T37	Metabolite 1359 1362	VFA
+T38	Nutrient 1393 1401	psyllium
+T39	Population 1393 1408	psyllium calves
+T40	Nutrient 1424 1432	Psyllium
+T41	INCREASES 1433 1442	increased
+T42	Metabolite 1449 1452	VFA
+T43	Physiology 1475 1500	proximal and distal colon
+T44	Metabolite 1575 1578	VFA
+T45	AFFECTS 1539 1556	had little effect
+T46	Nutrient 1580 1588	Psyllium
+T47	Food 1592 1605	milk replacer
+T48	INCREASES 1606 1615	increased
+T49	Microorganism 1631 1645	bifidobacteria
+T50	Microorganism 1689 1701	lactobacilli
+T51	Physiology 1797 1804	jejunum
+T52	Physiology 1808 1813	colon
+T53	Nutrient 1826 1834	psyllium
+T54	Population 1815 1834	Calves fed psyllium
+T55	POS_ASSOCIATED_WITH 1845 1852	greater
+T56	Physiology 1859 1867	GIT mass
+T57	POS_ASSOCIATED_WITH 1877 1884	greater
+T58	Measurement 1885 1919	GIT as a percentage of body weight
+T59	Nutrient 1921 1929	Psyllium
+T60	INCREASES 1930 1948	tended to increase
+T61	Measurement 1949 1975	mass of the reticulo-rumen
+T62	INCREASES 1980 2003	significantly increased
+T63	Measurement 2004 2020	mass of duodenum
+T64	Physiology 2030 2037	jejunum
+T65	Physiology 2051 2056	colon
+T66	Population 2101 2147	calves fed psyllium-supplemented milk replacer
+T67	Nutrient 2112 2120	psyllium
+T68	Food 2134 2147	milk replacer
+T69	INCREASES 2158 2165	greater
+T70	Physiology 488 494	growth
+T71	INCREASES 2191 2198	greater
+T72	Physiology 2066 2095;2206 2211	Density of intestinal tissues ileum
+T73	INCREASES 2217 2237	tended to be greater
+T74	Physiology 2066 2095;2241 2249	Density of intestinal tissues duodenum
+T75	Physiology 2066 2095;2254 2259	Density of intestinal tissues colon
+T76	Nutrient 2312 2320	psyllium
+T77	Food 2324 2337	milk replacer
+T78	INCREASES 2338 2347	increased
+T79	Measurement 2375 2396	mass of the total GIT
+T80	Microorganism 2417 2431	bifidobacteria
+T81	Microorganism 2436 2448	lactobacilli
+T82	Physiology 2456 2470	reticulo-rumen
+T83	Physiology 2348 2373	fermentation in the colon
+T84	Measurement 736 747	body weight
+T85	Population 825 831	calves
+T86	Physiology 930 944	proximal colon
+T87	Physiology 921 928	jejunum
+T88	Physiology 911 919	abomasum
+T89	Physiology 895 909	reticulo-rumen
+T90	Physiology 950 962	distal colon
+T91	Measurement 992 1003	mass of GIT
+T92	Physiology 981 987;997 1003	length of GIT
+T93	INCREASES 1042 1051	increased
+T94	Physiology 1082 1096	reticulo-rumen
+T95	AFFECTS 1136 1150	did not affect
+T96	Physiology 1747 1761	reticulo-rumen
+T97	Physiology 2066 2095;2173 2180	Density of intestinal tissues jejunum
+T98	IMPROVES 465 487	could lead to improved
+T99	Food 710 712	DM
+T100	Food 623 633	dry matter
+T101	HAS_COMPONENT 1025 1027	in
+T102	HAS_COMPONENT 1589 1591	in
+T103	HAS_COMPONENT 2293 2308	Supplementation
+T104	HAS_COMPONENT 2121 2133	supplemented
+E1	HAS_COMPONENT:T4 Theme:T1 Agent:T3
+E2	INCREASES:T9 Agent:T8 Theme:T10
+E3	INCREASES:T13 Agent:T8 Theme:T14
+E4	HAS_COMPONENT:T17 Theme:T16 Agent:T18
+E5	INCREASES:T32 Agent:T31 Theme:T33
+E6	INCREASES:T41 Agent:T40 Theme:T42
+E7	AFFECTS:T45 Agent:T40 Theme:T44
+E8	INCREASES:T48 Agent:T46 Theme:T49
+E9	POS_ASSOCIATED_WITH:T55 Agent:T53 Theme:T56
+E10	POS_ASSOCIATED_WITH:T57 Agent:T53 Theme:T58
+E11	INCREASES:T60 Agent:T59 Theme:T61
+E12	INCREASES:T62 Agent:T59 Theme:T63
+E13	INCREASES:T69 Agent:T67 Theme:T97
+E14	INCREASES:T71 Theme:T72 Agent:T67
+E15	INCREASES:T73 Agent:T67 Theme:T74
+E16	INCREASES:T78 Agent:T76 Theme:T83
+E17	HAS_COMPONENT:T12 Theme:T22 Agent:T21
+E18	INCREASES:T93 Agent:T25 Theme:T27
+E19	AFFECTS:T95 Theme:T28 Agent:T25
+E20	INCREASES:T32 Agent:T31 Theme:T34
+E21	INCREASES:T32 Agent:T31 Theme:T35
+E22	INCREASES:T62 Agent:T59 Theme:T65
+E23	INCREASES:T62 Agent:T59 Theme:T64
+E24	INCREASES:T73 Agent:T67 Theme:T75
+E25	INCREASES:T78 Agent:T76 Theme:T79
+E26	INCREASES:T78 Agent:T76 Theme:T80
+E27	INCREASES:T78 Agent:T76 Theme:T81
+E28	IMPROVES:T98 Theme:T70 Agent:T16
+E29	HAS_COMPONENT:T101 Agent:T26 Theme:T25
+E30	HAS_COMPONENT:T102 Agent:T47 Theme:T46
+E31	HAS_COMPONENT:T103 Theme:T76 Agent:T77
+E32	HAS_COMPONENT:T104 Agent:T68 Theme:T67
+E33	INCREASES:T48 Theme:T50 Agent:T46
+A1	Negated E19
+A2	Unknown E28
+A3	Factual E1
+A4	Factual E2
+A5	Factual E3
+A6	Factual E4
+A7	Factual E5
+A8	Factual E6
+A9	Factual E7
+A10	Factual E8
+A11	Factual E9
+A12	Factual E10
+A13	Factual E11
+A14	Factual E12
+A15	Factual E13
+A16	Factual E14
+A17	Factual E15
+A18	Factual E16
+A19	Factual E17
+A20	Factual E18
+A21	Factual E20
+A22	Factual E21
+A23	Factual E22
+A24	Factual E23
+A25	Factual E24
+A26	Factual E25
+A27	Factual E26
+A28	Factual E27
+A29	Factual E29
+A30	Factual E30
+A31	Factual E31
+A32	Factual E32
+A33	Factual E33

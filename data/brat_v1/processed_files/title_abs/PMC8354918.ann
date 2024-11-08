@@ -1,0 +1,89 @@
+T1	Disease 87 92	obese
+T4	Nutrient 174 194	Inulin-type fructans
+T5	Nutrient 196 199	ITF
+T7	Metabolite 576 581;592 609	long- chain fatty acids
+T8	Metabolite 586 609	short-chain fatty acids
+T9	Metabolite 611 615	LCFA
+T10	Metabolite 617 621	SCFA
+T11	Metabolite 624 634	bile acids
+T12	Chemical 636 643	zonulin
+T13	Chemical 649 661	calprotectin
+T15	Disease 707 712	obese
+T18	Nutrient 810 823	native inulin
+T19	DECREASES 1067 1074	lowered
+T20	Physiology 1075 1081;1094 1100	energy intake
+T21	Physiology 1086 1100	protein intake
+T22	INCREASES 1116 1124	increase
+T23	Microorganism 1128 1143	Bifidobacterium
+T24	Nutrient 1163 1166	ITF
+T25	DECREASES 1314 1321	reduced
+T26	Nutrient 1327 1330	ITF
+T27	INCREASES 1383 1392	increased
+T28	Nutrient 0 23	Prebiotic dietary fibre
+T29	HAS_COMPONENT 201 204	are
+T30	Nutrient 205 228	prebiotic dietary fibre
+T31	Nutrient 230 232	DF
+T33	Disease 518 523	obese
+T35	Food 918 929;949 959	inulin-rich vegetables
+T36	Food 937 959	inulin-poor vegetables
+T37	Nutrient 850 862	maltodextrin
+T38	Measurement 1810 1849	fecal marker of intestinal inflammation
+T39	Physiology 71 83	inflammation
+T40	Measurement 46 59	fecal markers
+T41	DECREASES 1798 1807	decreases
+T42	Microorganism 1681 1696	Bifidobacterium
+T43	Physiology 1296 1308	inflammation
+T45	Measurement 465 497	markers related to gut integrity
+T47	DietPattern 989 1016	dietary caloric restriction
+T48	Metabolite 1397 1438	ratio of tauro-conjugated/free bile acids
+T50	AFFECTS 1491 1497	modify
+T51	Metabolite 1498 1508	fecal SCFA
+T52	INCREASES 1524 1533	increased
+T53	Metabolite 1534 1552	fecal rumenic acid
+T54	Nutrient 1761 1774	ITF-prebiotic
+T55	Disease 1853 1858	obese
+T57	Disease 1995 2002	obesity
+T58	IMPROVES 37 45	improves
+T59	Physiology 1826 1849	intestinal inflammation
+T60	ASSOCIATED_WITH 60 67	related
+T61	Chemical 1260 1278	fecal calprotectin
+T62	Nutrient 385 391	inulin
+T69	Metabolite 1556 1580	conjugated linoleic acid
+T72	Measurement 465 483;502 514	markers related to inflammation
+T73	POS_ASSOCIATED_WITH 1642 1660	correlated notably
+T74	Physiology 1954 1983	gastro-intestinal dysfunction
+T75	ASSOCIATED_WITH 1984 1991	related
+E1	DECREASES:T19 Agent:T37 Theme:T20
+E2	INCREASES:T22 Theme:T23 Agent:T24
+E3	DECREASES:T25 Agent:T26 Theme:T61
+E4	INCREASES:T27 Theme:T48 Agent:T18
+E5	HAS_COMPONENT:T29 Agent:T4 Theme:T30
+E6	DECREASES:T19 Agent:T18 Theme:T20
+E7	IMPROVES:T58 Agent:T28 Theme:T40
+E8	DECREASES:T19 Agent:T18 Theme:T21
+E9	DECREASES:T19 Agent:T37 Theme:T21
+E10	INCREASES:T27 Theme:T48 Agent:T37
+E11	AFFECTS:T50 Theme:T51 Agent:T18
+E12	INCREASES:T52 Theme:T53 Agent:T18
+E13	INCREASES:T52 Theme:T42 Agent:T18
+E14	ASSOCIATED_WITH:T60 Theme:T40 Theme2:T39
+E15	DECREASES:T41 Agent:T54 Theme:T38
+E16	POS_ASSOCIATED_WITH:T73 Theme:T42 Agent:T53
+E18	ASSOCIATED_WITH:T75 Theme:T74 Theme2:T57
+A1	Negated E11
+A9	Factual E1
+A10	Factual E2
+A11	Factual E3
+A12	Factual E4
+A13	Factual E5
+A14	Factual E6
+A15	Factual E7
+A16	Factual E8
+A17	Factual E9
+A18	Factual E10
+A19	Factual E12
+A20	Factual E13
+A21	Factual E14
+A22	Factual E15
+A23	Factual E16
+A24	Factual E18

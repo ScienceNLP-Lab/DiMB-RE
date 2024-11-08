@@ -1,0 +1,107 @@
+T1	Physiology 303 320	intestinal damage
+T2	Physiology 47 64	intestinal damage
+T3	Population 91 148	male mice offspring with intra-uterine growth retardation
+T4	AFFECTS 0 6	Effect
+T5	Nutrient 19 27	curcumin
+T6	Nutrient 208 216	curcumin
+T7	Physiology 289 293	IUGR
+T8	Population 352 371	male mice offspring
+T9	PREVENTS 233 254	might protect against
+T10	Population 395 407	C57BL/6 mice
+T11	Population 412 419	females
+T12	Population 427 432	males
+T13	Physiology 529 538	pregnancy
+T14	Physiology 543 552	lactation
+T15	DietPattern 558 572	normal protein
+T16	DietPattern 584 595	low protein
+T17	DietPattern 610 621	low protein
+T18	Nutrient 641 649	curcumin
+T19	Nutrient 736 744	curcumin
+T20	IMPROVES 761 776	could normalize
+T21	Physiology 829 849	jejunal SOD activity
+T22	Nutrient 876 883	protein
+T23	Nutrient 909 916	protein
+T24	Nutrient 943 950	protein
+T25	Physiology 966 979	T-AOC content
+T26	Nutrient 1006 1013	protein
+T27	Nutrient 1038 1045	protein
+T28	Nutrient 1072 1079	protein
+T29	Population 1098 1112	mice offspring
+T30	Nutrient 1123 1131	curcumin
+T31	INCREASES 1148 1157	increased
+T32	Measurement 1211 1248	ratio of villus height-to-crypt depth
+T33	Chemical 1330 1342	goblet cells
+T34	Measurement 1420 1448	ratio of PCNA-positive cells
+T35	IMPROVES 1528 1536	reversed
+T36	Measurement 1593 1604	body weight
+T37	Chemical 1685 1698	serum glucose
+T38	Measurement 1802 1825	jejunal apoptotic index
+T39	Nutrient 1920 1928	curcumin
+T40	INCREASES 1945 1953	enhanced
+T41	Gene 1983 1987	Nrf2
+T42	Gene 2055 2059	Sod2
+T43	Gene 2130 2134	Ocln
+T44	Nutrient 2239 2247	curcumin
+T45	IMPROVES 2264 2274	normalized
+T46	Microorganism 2301 2314	Lactobacillus
+T47	Microorganism 2390 2403	Desulfovibrio
+T48	DiversityMetric 2484 2516	ratio of Firmicutes/Bacteroidota
+T49	Microorganism 2594 2607	Lactobacillus
+T50	POS_ASSOCIATED_WITH 2612 2633	positively correlated
+T51	Enzyme 2643 2655	SOD activity
+T52	NEG_ASSOCIATED_WITH 2668 2689	negatively correlated
+T53	Chemical 2695 2702	Il - 1β
+T54	Microorganism 2726 2739	Desulfovibrio
+T55	NEG_ASSOCIATED_WITH 2744 2765	negatively correlated
+T56	Enzyme 2775 2787	SOD activity
+T57	Gene 2818 2822	Sod1
+T58	Gene 2824 2831	Bcl - 2
+T59	Gene 2833 2839	Card11
+T60	Gene 2845 2851	Zo - 1
+T61	Nutrient 2886 2894	curcumin
+T62	IMPROVES 2911 2924	could improve
+T63	Physiology 2925 2945	intestinal integrity
+T64	Measurement 2947 2963	oxidative status
+T65	Population 2987 3016	male mice offspring with IUGR
+T66	Physiology 116 148	intra-uterine growth retardation
+T67	Physiology 255 287	intra-uterine growth retardation
+T68	CAUSES 295 302	induced
+T69	DietPattern 1171 1187	low protein diet
+T70	DECREASES 1188 1203	induced decline
+T71	Disease 781 808	maternal protein deficiency
+T72	DECREASES 809 825	induced decrease
+T73	Disease 1541 1568	maternal protein deficiency
+T74	INCREASES 1569 1585	induced increase
+E1	AFFECTS:T4 Agent:T5 Theme:T2
+E2	PREVENTS:T9 Agent:T6 Theme:T1
+E3	IMPROVES:T20 Agent:T19 Theme:T21
+E4	INCREASES:T31 Agent:T30 Theme:T32
+E5	INCREASES:T31 Agent:T30 Theme:T33
+E6	INCREASES:T31 Agent:T30 Theme:T34
+E7	IMPROVES:T35 Agent:T30 Theme:T36
+E8	IMPROVES:T35 Agent:T30 Theme:T38
+E9	IMPROVES:T35 Agent:T30 Theme:T37
+E10	INCREASES:T40 Agent:T39 Theme:T41
+E11	INCREASES:T40 Agent:T39 Theme:T42
+E12	INCREASES:T40 Agent:T39 Theme:T43
+E13	IMPROVES:T45 Agent:T44 Theme:T46
+E14	IMPROVES:T45 Agent:T44 Theme:T47
+E15	POS_ASSOCIATED_WITH:T50 Agent:T49 Theme:T51
+E16	NEG_ASSOCIATED_WITH:T52 Theme:T53 Agent:T49
+E17	NEG_ASSOCIATED_WITH:T55 Theme:T56 Agent:T54
+E18	NEG_ASSOCIATED_WITH:T55 Theme:T60 Agent:T54
+E19	NEG_ASSOCIATED_WITH:T55 Theme:T59 Agent:T54
+E20	NEG_ASSOCIATED_WITH:T55 Theme:T58 Agent:T54
+E21	NEG_ASSOCIATED_WITH:T55 Theme:T57 Agent:T54
+E22	IMPROVES:T62 Agent:T61 Theme:T63
+E23	IMPROVES:T62 Agent:T61 Theme:T64
+E24	CAUSES:T68 Theme:T1 Agent:T67
+E25	DECREASES:T70 Agent:T69 Theme:T32
+E26	DECREASES:T72 Theme:T21 Agent:T71
+E27	INCREASES:T74 Theme:T36 Agent:T73
+E28	IMPROVES:T45 Agent:T44 Theme:T48
+A1	Factuality E1 Unknown
+A2	Factuality E2 Possible
+A3	Factuality E3 Possible
+A4	Factuality E22 Possible
+A5	Factuality E23 Possible

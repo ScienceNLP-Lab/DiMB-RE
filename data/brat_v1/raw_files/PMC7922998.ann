@@ -1,0 +1,79 @@
+T1	Nutrient 0 23	Resistant Starch Type 2
+T2	Food 29 34	Wheat
+T3	DECREASES 35 42	Reduces
+T4	Physiology 43 73	Postprandial Glycemic Response
+T5	Nutrient 198 221	resistant starch type 2
+T6	Nutrient 223 226	RS2
+T7	Food 264 282	high-amylose maize
+T8	Methodology 312 373	double-blind, randomized, placebo-controlled, crossover trial
+T9	Nutrient 403 406	RS2
+T10	HAS_COMPONENT 24 28	from
+T11	HAS_COMPONENT 259 263	from
+T12	Food 412 417	wheat
+T13	HAS_COMPONENT 407 411	from
+T14	AFFECTS 392 399	effects
+T15	Physiology 421 438	glycemic response
+T16	Physiology 466 482	metabolic health
+T17	Nutrient 532 535	RS2
+T18	Food 532 556	RS2-enriched wheat rolls
+T19	DECREASES 582 589	reduced
+T20	Chemical 590 610	postprandial glucose
+T21	Chemical 615 622	insulin
+T22	Food 645 663	conventional wheat
+T23	Food 770 782;799 804	RS2-enriched wheat
+T24	Nutrient 770 773	RS2
+T25	INCREASES 834 842	increase
+T26	Microorganism 880 892	Ruminococcus
+T27	Microorganism 897 905	Gemmiger
+T28	Biospecimen 913 918	fecal
+T29	Chemical 995 1018	fasting breath hydrogen
+T30	Metabolite 1023 1030;995 1009	methane fasting breath
+T31	INCREASES 1036 1045	increased
+T32	Nutrient 1053 1056	RS2
+T33	Food 1053 1071	RS2-enriched wheat
+T34	Metabolite 1120 1142	short-chain fatty acid
+T35	Metabolite 1144 1148	SCFA
+T36	Food 1206 1228	RS-enriched wheat roll
+T37	Nutrient 1206 1208	RS
+T38	Metabolite 1242 1250	butyrate
+T39	Metabolite 1255 1266	total SCFAs
+T40	POS_ASSOCIATED_WITH 1272 1293	positively correlated
+T41	Microorganism 1321 1337	Faecalibacterium
+T42	Microorganism 1339 1351	Ruminoccocus
+T43	Microorganism 1353 1362	Roseburia
+T44	Microorganism 1368 1383	Barnesiellaceae
+T45	AFFECTS 1170 1185	not significant
+T46	Food 1409 1427	RS2-enriched wheat
+T47	Nutrient 1409 1412	RS2
+T48	DECREASES 1453 1462	reduction
+T49	Chemical 1466 1487	postprandial glycemia
+T50	INCREASES 1528 1537	increased
+T51	Physiology 1538 1550	fermentation
+T52	Food 1572 1587	wild-type wheat
+T53	ASSOCIATED_WITH 453 462	indicator
+T55	Food 786 804	conventional wheat
+E1	DECREASES:T3 Agent:T1 Theme:T4
+E2	HAS_COMPONENT:T10 Theme:T1 Agent:T2
+E3	HAS_COMPONENT:T11 Theme:T5 Agent:T7
+E4	HAS_COMPONENT:T13 Theme:T9 Agent:T12
+E5	AFFECTS:T14 Agent:T9 Theme:T15
+E6	DECREASES:T19 Agent:T18 Theme:T20
+E7	DECREASES:T19 Agent:T18 Theme:T21
+E8	INCREASES:T25 Agent:T18 Theme:T26
+E9	INCREASES:T25 Agent:T18 Theme:T27
+E10	INCREASES:T31 Agent:T33 Theme:T30
+E11	INCREASES:T31 Agent:T33 Theme:T29
+E12	POS_ASSOCIATED_WITH:T40 Agent:T44 Theme:T39
+E13	POS_ASSOCIATED_WITH:T40 Agent:T44 Theme:T38
+E14	POS_ASSOCIATED_WITH:T40 Agent:T43 Theme:T38
+E15	POS_ASSOCIATED_WITH:T40 Agent:T42 Theme:T38
+E16	POS_ASSOCIATED_WITH:T40 Agent:T41 Theme:T38
+E17	POS_ASSOCIATED_WITH:T40 Agent:T43 Theme:T39
+E18	POS_ASSOCIATED_WITH:T40 Agent:T42 Theme:T39
+E19	POS_ASSOCIATED_WITH:T40 Agent:T41 Theme:T39
+E20	AFFECTS:T45 Agent:T36 Theme:T34
+E21	DECREASES:T48 Agent:T46 Theme:T49
+E22	INCREASES:T50 Agent:T46 Theme:T51
+E23	ASSOCIATED_WITH:T53 Theme:T15 Theme2:T16
+A1	Factuality E5 Unknown
+A2	Factuality E20 Negated

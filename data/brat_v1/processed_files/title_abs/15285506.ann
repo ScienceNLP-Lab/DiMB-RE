@@ -1,0 +1,51 @@
+T1	Nutrient 19 41	mannan oligosaccharide
+T2	Nutrient 43 76	bacitracin methylene disalicylate
+T6	Nutrient 371 403	bacitracin methylene disalicyate
+T7	Nutrient 405 408	BMD
+T8	Nutrient 457 479	mannan oligosaccharide
+T9	Nutrient 481 484	MOS
+T10	Nutrient 528 539	BMD and MOS
+T11	Physiology 93 109	live performance
+T12	Microorganism 885 899	bifidobacteria
+T13	Microorganism 901 924	Clostridium perfringens
+T14	Microorganism 926 935	coliforms
+T15	Microorganism 937 948	enterococci
+T16	Microorganism 950 966	Escherichia coli
+T17	Microorganism 968 980	lactobacilli
+T18	Measurement 1003 1015	Body weights
+T19	Nutrient 1057 1060	BMD
+T20	Nutrient 1072 1075	MOS
+T21	Nutrient 1091 1100	BMD + MOS
+T22	Nutrient 1116 1119	BMD
+T23	Nutrient 1124 1127	MOS
+T25	Nutrient 1270 1279	BMD + MOS
+T26	Nutrient 1356 1359	BMD
+T27	Nutrient 1364 1367	MOS
+T28	Nutrient 1463 1466	BMD
+T29	Nutrient 1471 1474	MOS
+T30	DECREASES 1480 1487	reduced
+T31	Nutrient 1609 1612	BMD
+T32	Nutrient 1616 1619	MOS
+T33	IMPROVES 1625 1633	improved
+T34	Microorganism 1523 1546	Clostridium perfringens
+T36	Physiology 1634 1652	turkey performance
+T39	AFFECTS 0 7	Effects
+T40	INCREASES 1152 1159	heavier
+T41	Microorganism 986 1000	total anerobes
+T42	Measurement 1280 1301	feed conversion ratio
+E1	DECREASES:T30 Theme:T34 Agent:T29
+E2	IMPROVES:T33 Theme:T36 Agent:T31
+E3	DECREASES:T30 Theme:T34 Agent:T28
+E4	IMPROVES:T33 Theme:T36 Agent:T32
+E5	AFFECTS:T39 Theme:T11 Agent:T1
+E6	AFFECTS:T39 Theme:T11 Agent:T2
+E7	INCREASES:T40 Agent:T23 Theme:T18
+E8	INCREASES:T40 Agent:T22 Theme:T18
+A1	Negated E5
+A2	Negated E6
+A3	Factual E1
+A4	Factual E2
+A5	Factual E3
+A6	Factual E4
+A7	Factual E7
+A8	Factual E8

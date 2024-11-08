@@ -1,0 +1,76 @@
+T3	Food 88 97	flaxseeds
+T4	Food 128 137	Flaxseeds
+T5	Nutrient 165 172	lignans
+T6	Metabolite 199 212	enterolignans
+T7	Food 267 276	flaxseeds
+T9	Food 441 450	flaxseeds
+T10	ASSOCIATED_WITH 634 645	accompanied
+T11	Metabolite 805 818	Enterolactone
+T12	Food 546 555	flaxseeds
+T13	INCREASES 580 588	increase
+T14	Metabolite 619 632	enterolignans
+T15	Metabolite 668 678	propionate
+T16	Metabolite 683 691	glycerol
+T17	Microorganism 897 916	Ruminococcus bromii
+T18	Microorganism 921 942	Ruminococcus lactaris
+T19	POS_ASSOCIATED_WITH 834 857	linked to the abundance
+T20	Microorganism 979 992	Bacteroidales
+T21	POS_ASSOCIATED_WITH 998 1019	positively associated
+T22	Metabolite 1056 1062;1090 1094	acetic acid
+T23	Metabolite 1064 1074;1090 1094	isovaleric acid
+T24	Metabolite 1079 1094	isobutyric acid
+T25	NEG_ASSOCIATED_WITH 1113 1134	negatively correlated
+T26	Chemical 1156 1169	triglycerides
+T27	Microorganism 1228 1243	Ruminococcaceae
+T28	Microorganism 1271 1286	Lachnospiraceae
+T29	POS_ASSOCIATED_WITH 1288 1309	correlated positively
+T30	Chemical 1331 1346	LDL cholesterol
+T31	Chemical 1351 1364	triglycerides
+T32	Food 1392 1401	Flaxseeds
+T33	INCREASES 1402 1410	increase
+T34	Metabolite 1411 1423	enterolignan
+T35	HAS_COMPONENT 138 145	contain
+T36	INTERACTS_WITH 186 195	activated
+T37	Microorganism 1576 1591	Ruminococcaceae
+T38	Metabolite 1613 1625	enterolignan
+T39	Chemical 1641 1653	blood lipids
+T40	Nutrient 150 164	phytoestrogens
+T41	Microorganism 1252 1263	Coprococcus
+T42	Microorganism 1210 1218	Gemmiger
+T43	AFFECTS 1599 1609	regulation
+E1	INCREASES:T13 Agent:T12 Theme:T14
+E2	ASSOCIATED_WITH:T10 Theme:T14 Theme2:T15
+E3	ASSOCIATED_WITH:T10 Theme:T14 Theme2:T16
+E4	POS_ASSOCIATED_WITH:T19 Theme:T11 Agent:T17
+E5	POS_ASSOCIATED_WITH:T19 Theme:T11 Agent:T18
+E6	POS_ASSOCIATED_WITH:T21 Agent:T20 Theme:T22
+E7	NEG_ASSOCIATED_WITH:T25 Theme:T26 Agent:T24
+E8	POS_ASSOCIATED_WITH:T21 Agent:T20 Theme:T23
+E9	POS_ASSOCIATED_WITH:T21 Agent:T20 Theme:T24
+E10	POS_ASSOCIATED_WITH:T29 Agent:T28 Theme:T31
+E11	POS_ASSOCIATED_WITH:T29 Theme:T31 Agent:T27
+E12	INCREASES:T33 Agent:T32 Theme:T34
+E13	HAS_COMPONENT:T35 Agent:T4 Theme:T5
+E14	INTERACTS_WITH:T36 Theme:T5 Theme2:T6
+E15	AFFECTS:T43 Agent:T37 Theme:T38
+E16	AFFECTS:T43 Theme:T39 Agent:T37
+E17	POS_ASSOCIATED_WITH:T29 Agent:T28 Theme:T30
+E18	POS_ASSOCIATED_WITH:T29 Agent:T27 Theme:T30
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18

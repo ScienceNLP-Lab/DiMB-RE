@@ -1,0 +1,162 @@
+T1	Nutrient 4 13	Prebiotic
+T2	Food 25 29	Oats
+T3	Chemical 33 45	Blood Lipids
+T4	Metabolite 67 90	Short-Chain Fatty Acids
+T6	Food 145 149	Rice
+T8	AFFECTS 14 21	Effects
+T9	Nutrient 183 197	Phytochemicals
+T10	Food 211 215	oats
+T11	IMPROVES 242 259	beneficial effect
+T12	Disease 274 286	dyslipidemia
+T13	Chemical 313 318;327 338	total cholesterol
+T14	Chemical 323 338	LDL cholesterol
+T17	Disease 101 121	Hypercholesterolemic
+T18	Disease 460 480	hypercholesterolemic
+T19	Food 580 584	oats
+T20	Food 588 592	rice
+T21	Measurement 612 633	Plasma lipid profiles
+T22	Metabolite 635 658	short chain fatty acids
+T23	Metabolite 660 665	SCFAs
+T24	Chemical 728 745	total cholesterol
+T25	Chemical 747 749	TC
+T26	Chemical 755 795	non-high-density lipoprotein cholesterol
+T27	DECREASES 808 817	decreased
+T28	Food 842 846	oats
+T29	Food 851 855	rice
+T30	Chemical 797 806	non-HDL-C
+T31	Chemical 902 904	TC
+T32	Chemical 909 918	non-HDL-C
+T33	DECREASES 889 898	reduction
+T34	Food 961 965	oats
+T35	Food 980 984	rice
+T36	Food 1032 1035	Oat
+T37	INCREASES 1062 1071	increased
+T38	Microorganism 1089 1112	Akkermansia muciniphila
+T39	Microorganism 1117 1126	Roseburia
+T40	Microorganism 1158 1167	Dialister
+T41	Microorganism 1169 1181	Butyrivibrio
+T42	Microorganism 1187 1201	Paraprevotella
+T43	DECREASES 1207 1216	decreased
+T44	Microorganism 1230 1246	f-Sutterellaceae
+T45	Food 1255 1258	oat
+T46	DECREASES 2235 2243	lowering
+T47	Microorganism 1266 1281	Bifidobacterium
+T48	NEG_ASSOCIATED_WITH 1296 1317	negatively correlated
+T49	Chemical 1323 1328	LDL-C
+T50	Chemical 1356 1358	TC
+T51	Chemical 1363 1368	LDL-C
+T52	NEG_ASSOCIATED_WITH 1374 1395	negatively correlated
+T53	Microorganism 1399 1427	Faecalibacterium prausnitzii
+T54	Microorganism 1486 1504	Enterobacteriaceae
+T55	Microorganism 1506 1515	Roseburia
+T56	Microorganism 1521 1549	Faecalibacterium prausnitzii
+T57	POS_ASSOCIATED_WITH 1555 1576	positively correlated
+T58	Metabolite 1589 1601	butyric acid
+T59	Metabolite 1606 1618	valeric acid
+T60	NEG_ASSOCIATED_WITH 1638 1659	negatively correlated
+T61	Metabolite 1663 1678	isobutyric acid
+T62	Chemical 1680 1685	HDL-C
+T63	NEG_ASSOCIATED_WITH 1690 1711	negatively correlated
+T64	Metabolite 1717 1729	valeric acid
+T65	Chemical 1756 1774	total triglyceride
+T66	Chemical 1776 1778	TG
+T67	POS_ASSOCIATED_WITH 1784 1805	positively correlated
+T68	Metabolite 1809 1824	isovaleric acid
+T69	Food 1863 1867	oats
+T70	DECREASES 1894 1901	reduced
+T71	Chemical 1902 1904	TC
+T72	Chemical 1909 1914	LDL-C
+T73	Nutrient 1936 1945	prebiotic
+T74	Microorganism 1972 1995	Akkermansia muciniphila
+T75	Microorganism 1997 2006	Roseburia
+T76	Microorganism 2008 2023	Bifidobacterium
+T77	Microorganism 2029 2057	Faecalibacterium prausnitzii
+T78	Metabolite 2070 2074	SCFA
+T79	ASSOCIATED_WITH 2075 2085	correlated
+T80	Food 2091 2094	oat
+T81	Chemical 2114 2127	plasma lipids
+T82	Food 2162 2166	oats
+T83	Nutrient 2140 2149	prebiotic
+T84	Chemical 2223 2234	cholesterol
+T85	HAS_COMPONENT 198 210	derived from
+T86	AFFECTS 2095 2110	induced changes
+E1	AFFECTS:T8 Agent:T2 Theme:T3
+E2	AFFECTS:T8 Agent:T2 Theme:T4
+E3	IMPROVES:T11 Theme:T12 Agent:T9
+E4	DECREASES:T27 Agent:T28 Theme:T26
+E5	DECREASES:T27 Agent:T29 Theme:T26
+E6	DECREASES:T27 Agent:T29 Theme:T24
+E7	DECREASES:T27 Agent:T28 Theme:T24
+E8	DECREASES:T33 Agent:T34 Theme:T31
+E9	DECREASES:T33 Agent:T34 Theme:T32
+E10	INCREASES:T37 Agent:T36 Theme:T38
+E11	DECREASES:T43 Agent:T36 Theme:T44
+E12	INCREASES:T37 Agent:T36 Theme:T39
+E13	INCREASES:T37 Agent:T36 Theme:T40
+E14	INCREASES:T37 Agent:T36 Theme:T41
+E15	INCREASES:T37 Agent:T36 Theme:T42
+E16	NEG_ASSOCIATED_WITH:T48 Agent:T47 Theme:T49
+E17	NEG_ASSOCIATED_WITH:T52 Agent:T53 Theme:T51
+E18	NEG_ASSOCIATED_WITH:T52 Agent:T53 Theme:T50
+E19	POS_ASSOCIATED_WITH:T57 Agent:T56 Theme:T58
+E20	NEG_ASSOCIATED_WITH:T60 Theme:T61 Agent:T56
+E21	POS_ASSOCIATED_WITH:T57 Agent:T55 Theme:T58
+E22	POS_ASSOCIATED_WITH:T57 Agent:T54 Theme:T58
+E23	POS_ASSOCIATED_WITH:T57 Agent:T54 Theme:T59
+E24	POS_ASSOCIATED_WITH:T57 Agent:T55 Theme:T59
+E25	POS_ASSOCIATED_WITH:T57 Agent:T56 Theme:T59
+E26	NEG_ASSOCIATED_WITH:T63 Agent:T62 Theme:T64
+E27	POS_ASSOCIATED_WITH:T67 Agent:T62 Theme:T68
+E28	NEG_ASSOCIATED_WITH:T63 Agent:T62 Theme:T65
+E29	DECREASES:T70 Agent:T69 Theme:T71
+E30	DECREASES:T70 Agent:T69 Theme:T72
+E31	ASSOCIATED_WITH:T79 Theme:T78 Theme2:T81
+E32	ASSOCIATED_WITH:T79 Theme:T74 Theme2:T81
+E33	ASSOCIATED_WITH:T79 Theme:T75 Theme2:T81
+E34	ASSOCIATED_WITH:T79 Theme:T76 Theme2:T81
+E35	ASSOCIATED_WITH:T79 Theme:T77 Theme2:T81
+E36	HAS_COMPONENT:T85 Theme:T9 Agent:T10
+E37	NEG_ASSOCIATED_WITH:T60 Agent:T55 Theme:T61
+E38	NEG_ASSOCIATED_WITH:T60 Agent:T54 Theme:T61
+E39	DECREASES:T46 Theme:T84 Agent:T82
+E40	AFFECTS:T86 Theme:T81 Agent:T80
+A1	Unknown E1
+A2	Unknown E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19
+A20	Factual E20
+A21	Factual E21
+A22	Factual E22
+A23	Factual E23
+A24	Factual E24
+A25	Factual E25
+A26	Factual E26
+A27	Factual E27
+A28	Factual E28
+A29	Factual E29
+A30	Factual E30
+A31	Factual E31
+A32	Factual E32
+A33	Factual E33
+A34	Factual E34
+A35	Factual E35
+A36	Factual E36
+A37	Factual E37
+A38	Factual E38
+A39	Factual E39
+A40	Factual E40

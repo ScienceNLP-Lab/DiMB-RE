@@ -1,0 +1,105 @@
+T1	AFFECTS 0 6	Effect
+T2	Food 10 26	virgin olive oil
+T3	Measurement 59 78	blood lipid profile
+T4	Nutrient 37 55	phenolic compounds
+T5	Nutrient 174 192	phenolic compounds
+T6	Food 31 36	thyme
+T7	Nutrient 194 196	PC
+T8	Nutrient 233 235	PC
+T9	Measurement 239 258	blood lipid profile
+T12	Food 582 603	raw virgin olive oils
+T13	Nutrient 649 651	PC
+T14	Food 659 675	virgin olive oil
+T15	Food 677 679	OO
+T16	Nutrient 708 710	PC
+T17	Food 716 719	VOO
+T18	Nutrient 728 730	PC
+T19	Food 728 756	PC-enriched virgin olive oil
+T20	Nutrient 775 777	PC
+T21	AFFECTS 1308 1331	did not lead to changes
+T22	Food 791 795	FVOO
+T23	Nutrient 808 810	PC
+T24	Food 808 836	PC-enriched virgin olive oil
+T25	Nutrient 868 870	PC
+T26	Food 879 881	OO
+T27	Food 898 903	FVOOT
+T28	Chemical 906 924	Blood lipid values
+T29	Metabolite 983 1006	short chain fatty acids
+T30	Metabolite 1008 1041	cholesterol microbial metabolites
+T31	Metabolite 1043 1053	bile acids
+T32	Metabolite 1059 1079	phenolic metabolites
+T33	Food 1104 1109	FVOOT
+T34	DECREASES 1110 1119	decreased
+T35	Food 1162 1171	pre-FVOOT
+T36	INCREASES 1177 1186	increased
+T37	Microorganism 1198 1212	bifidobacteria
+T38	Chemical 1120 1132	seric ox-LDL
+T39	Metabolite 1255 1274	protocatechuic acid
+T40	Food 1303 1307	FVOO
+T41	Measurement 1335 1354	blood lipid profile
+T42	INCREASES 1423 1432	increased
+T43	Metabolite 1437 1449	coprostanone
+T44	Food 1462 1467	FVOOT
+T45	Food 1602 1605	VOO
+T46	Nutrient 1509 1523;1550 1555	hydroxytyrosol acids
+T47	Metabolite 1528 1555	dihydroxyphenylacetic acids
+T48	Food 1663 1691	PC-enriched virgin olive oil
+T49	Nutrient 1663 1665	PC
+T50	HAS_COMPONENT 1693 1703	containing
+T51	Food 1717 1726	olive oil
+T52	Food 1731 1736	thyme
+T53	DECREASES 1753 1762	decreases
+T54	Chemical 1763 1775	blood ox-LDL
+T56	Microorganism 1891 1905	bifidobacteria
+T57	INCREASES 1920 1929	increases
+T58	Metabolite 1933 1957	PC microbial metabolites
+T59	Physiology 1813 1837	cardio-protective effect
+T60	INCREASES 1863 1872	increases
+T61	Food 157 173	virgin olive oil
+T62	Physiology 1963 1985	antioxidant activities
+T63	AFFECTS 147 153	effect
+T64	Food 227 232	thyme
+T65	HAS_COMPONENT 757 767	containing
+T66	HAS_COMPONENT 691 701	containing
+T67	Food 787 789	OO
+T68	HAS_COMPONENT 837 847	containing
+T69	Food 886 891	thyme
+T71	Metabolite 1235 1254	phenolic metabolite
+T72	Nutrient 1737 1739	PC
+T73	Disease 1779 1799	hypercholesterolemic
+E1	AFFECTS:T1 Theme:T3 Agent:T4
+E2	HAS_COMPONENT:T65 Agent:T19 Theme:T20
+E3	DECREASES:T34 Agent:T33 Theme:T38
+E4	INCREASES:T36 Agent:T33 Theme:T37
+E5	INCREASES:T36 Agent:T33 Theme:T39
+E6	AFFECTS:T21 Agent:T40 Theme:T41
+E7	INCREASES:T42 Theme:T43 Agent:T40
+E8	INCREASES:T42 Agent:T40 Theme:T46
+E9	HAS_COMPONENT:T50 Agent:T48 Theme:T51
+E10	HAS_COMPONENT:T50 Agent:T48 Theme:T52
+E11	DECREASES:T53 Agent:T48 Theme:T54
+E12	INCREASES:T57 Theme:T58 Agent:T48
+E13	INCREASES:T60 Theme:T56 Agent:T48
+E14	INCREASES:T42 Agent:T40 Theme:T47
+E15	AFFECTS:T63 Agent:T5 Theme:T9
+E16	HAS_COMPONENT:T66 Theme:T16 Agent:T14
+E17	HAS_COMPONENT:T68 Theme:T25 Agent:T24
+E18	HAS_COMPONENT:T68 Theme:T69 Agent:T24
+A1	Unknown E1
+A2	Unknown E15
+A3	Negated E6
+A4	Factual E2
+A5	Factual E3
+A6	Factual E4
+A7	Factual E5
+A8	Factual E7
+A9	Factual E8
+A10	Factual E9
+A11	Factual E10
+A12	Factual E11
+A13	Factual E12
+A14	Factual E13
+A15	Factual E14
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18

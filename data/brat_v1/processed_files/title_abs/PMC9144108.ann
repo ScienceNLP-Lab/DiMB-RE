@@ -1,0 +1,71 @@
+T1	Microorganism 92 106	Bifidobacteria
+T3	Microorganism 67 87	Lactic Acid Bacteria
+T4	Nutrient 108 118	Probiotics
+T5	Nutrient 199 209	Probiotics
+T6	IMPROVES 285 292	improve
+T7	Physiology 297 332	integrity of the epithelial barrier
+T8	Nutrient 380 389	probiotic
+T9	Microorganism 420 440	lactic acid bacteria
+T10	Microorganism 445 459	bifidobacteria
+T11	Nutrient 805 814	probiotic
+T12	HAS_COMPONENT 411 419	based on
+T13	Microorganism 616 632	Lactobacillaceae
+T14	Microorganism 644 658	bifidobacteria
+T17	INCREASES 960 968	increase
+T18	Microorganism 986 1002	Actinobacteriota
+T19	Microorganism 1004 1016	Bacteroidota
+T20	Microorganism 1018 1033	Verrucomicrobia
+T21	Microorganism 1038 1052	Proteobacteria
+T22	DECREASES 1136 1144	decrease
+T23	Microorganism 1180 1192	Nocardioides
+T24	Microorganism 1194 1206	Helicobacter
+T25	Microorganism 1211 1224	Mucispirillum
+T26	Physiology 1254 1276	inflammatory processes
+T27	Microorganism 1331 1351	lactic acid bacteria
+T28	Microorganism 1393 1407	bifidobacteria
+T29	DECREASES 1411 1419	decrease
+T30	Microorganism 1461 1471	Tyzzerella
+T31	Microorganism 1476 1487	Akkermansia
+T33	Nutrient 1624 1634	probiotics
+T34	Nutrient 1654 1664	probiotics
+T35	Microorganism 1698 1714	Lactobacillaceae
+T36	Microorganism 1806 1820	bifidobacteria
+T37	Nutrient 1777 1787	probiotics
+T39	ASSOCIATED_WITH 1242 1250	involved
+T40	HAS_COMPONENT 1674 1682	based on
+T42	Physiology 342 367	anti-inflammatory effects
+T46	HAS_COMPONENT 1797 1805	based on
+E1	IMPROVES:T6 Agent:T5 Theme:T7
+E2	INCREASES:T17 Agent:T11 Theme:T18
+E3	HAS_COMPONENT:T12 Agent:T8 Theme:T9
+E4	HAS_COMPONENT:T12 Agent:T8 Theme:T10
+E5	INCREASES:T17 Theme:T19 Agent:T11
+E6	INCREASES:T17 Agent:T11 Theme:T20
+E7	INCREASES:T17 Agent:T11 Theme:T21
+E8	DECREASES:T22 Theme:T23 Agent:T27
+E9	DECREASES:T22 Theme:T25 Agent:T27
+E10	DECREASES:T22 Theme:T24 Agent:T27
+E11	DECREASES:T29 Agent:T28 Theme:T30
+E12	DECREASES:T29 Agent:T28 Theme:T31
+E14	HAS_COMPONENT:T46 Agent:T37 Theme:T36
+E15	ASSOCIATED_WITH:T39 Theme:T23 Theme2:T26
+E16	ASSOCIATED_WITH:T39 Theme:T24 Theme2:T26
+E17	ASSOCIATED_WITH:T39 Theme:T25 Theme2:T26
+E18	HAS_COMPONENT:T40 Theme:T35 Agent:T34
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18

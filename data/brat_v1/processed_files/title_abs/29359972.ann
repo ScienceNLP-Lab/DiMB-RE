@@ -1,0 +1,59 @@
+T1	DietPattern 30 63	moderate-protein, high-fiber diet
+T4	Measurement 892 920	body fat mass and percentage
+T5	Disease 138 143	obese
+T9	Physiology 546 557	Food intake
+T11	Measurement 588 608	body condition score
+T12	Physiology 1038 1040	BW
+T13	AFFECTS 174 181	effects
+T16	Disease 344 354	overweight
+T17	Physiology 268 270	BW
+T20	Physiology 414 428	BW maintenance
+T22	Measurement 832 852	body condition score
+T23	DECREASES 921 930	decreased
+T24	DECREASES 966 975	decreased
+T25	INCREASES 1453 1462	increased
+T29	DietPattern 210 243	moderate-protein, high-fiber diet
+T31	Physiology 247 266	loss of body weight
+T35	Physiology 11 22	weight loss
+T37	Chemical 854 872	serum triglyceride
+T39	Disease 1099 1109	overweight
+T40	Microorganism 1438 1452	Actinobacteria
+T41	Microorganism 1467 1480	Bacteroidetes
+T42	Physiology 1648 1659	weight loss
+T43	Measurement 956 965	Lean mass
+T45	DECREASES 1481 1490	decreased
+T48	Physiology 1496 1507	weight loss
+T49	DietPattern 1568 1601	moderate-protein, high-fiber diet
+T52	IMPROVES 1628 1637	effective
+T59	Physiology 1191 1202	weight loss
+T60	Physiology 1301 1312	weight loss
+T71	Physiology 828 830	BW
+T72	Physiology 567 569	BW
+T73	Measurement 619 635	body composition
+T75	Physiology 715 732	physical activity
+T76	Measurement 302 318	body composition
+T77	Physiology 273 300	voluntary physical activity
+T78	Measurement 67 83	body composition
+T79	Physiology 85 112	voluntary physical activity
+E1	DECREASES:T23 Theme:T4 Agent:T29
+E2	AFFECTS:T13 Agent:T29 Theme:T31
+E4	DECREASES:T24 Theme:T43 Agent:T29
+E5	DECREASES:T23 Theme:T22 Agent:T29
+E6	DECREASES:T23 Theme:T37 Agent:T29
+E7	DECREASES:T23 Theme:T71 Agent:T29
+E8	AFFECTS:T13 Agent:T29 Theme:T77
+E9	AFFECTS:T13 Agent:T29 Theme:T76
+E14	INCREASES:T25 Theme:T40 Agent:T48
+E15	DECREASES:T45 Theme:T41 Agent:T48
+E18	IMPROVES:T52 Theme:T42 Agent:T49
+A2	Unknown E2
+A8	Unknown E8
+A9	Unknown E9
+A10	Factual E1
+A11	Factual E4
+A12	Factual E5
+A13	Factual E6
+A14	Factual E7
+A15	Factual E14
+A16	Factual E15
+A17	Factual E18

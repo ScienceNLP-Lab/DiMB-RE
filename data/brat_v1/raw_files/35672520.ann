@@ -1,0 +1,54 @@
+T1	Methodology 445 469	fermented by YCFA medium
+T2	Microorganism 25 54	Lactobacillus paracasei N1115
+T3	Biospecimen 65 70	Fecal
+T4	AFFECTS 216 223	effects
+T5	AFFECTS 59 64	Alter
+T6	Physiology 92 108	SCFAs Metabolism
+T7	Population 112 157	Pregnant Women with Constipation and Diarrhea
+T8	Physiology 132 144	Constipation
+T9	Physiology 149 157	Diarrhea
+T10	Methodology 160 181	In vitro fermentation
+T11	Microorganism 245 274	Lactobacillus paracasei N1115
+T12	Microorganism 276 284	LP N1115
+T13	Metabolite 319 341	shortchain fatty acids
+T14	Metabolite 343 348	SCFAs
+T15	Population 353 398	pregnant women with constipation and diarrhea
+T16	Physiology 373 385	constipation
+T17	Physiology 390 398	diarrhea
+T18	Biospecimen 400 405	Feces
+T19	Population 426 440	pregnant women
+T20	Microorganism 550 558	LP N1115
+T21	Methodology 565 583	16SrRNA sequencing
+T22	Methodology 664 690	quantitative real-time PCR
+T23	Methodology 692 696	qPCR
+T24	Metabolite 706 711	SCFAs
+T25	Methodology 715 727	fermentation
+T26	Methodology 748 766	gas chromatography
+T27	Methodology 768 770	GC
+T28	Methodology 834 855	In vitro intervention
+T29	Microorganism 861 869	LP N1115
+T30	INCREASES 884 893	increased
+T31	Microorganism 921 934	Lactobacillus
+T32	Microorganism 936 964	Faecalibacterium prausnitzii
+T33	Microorganism 970 985	Bifidobacterium
+T34	Population 989 1015	constipated pregnant women
+T35	Physiology 989 1000	constipated
+T36	DECREASES 1020 1027	reduced
+T37	Metabolite 1044 1055	acetic acid
+T38	Metabolite 1057 1071	propanoic acid
+T39	Methodology 1083 1105	16S rRNA gene analysis
+T40	Microorganism 1118 1126	LP N1115
+T41	DECREASES 1132 1139	reduced
+T42	Microorganism 1221 1229	LP N1115
+T43	Microorganism 1166 1180	Clostridium_XI
+T44	Population 1381 1395	pregnant women
+T47	Methodology 0 21	In vitro Intervention
+E1	AFFECTS:T5 Agent:T2 Theme:T6
+E2	INCREASES:T30 Agent:T29 Theme:T31
+E3	DECREASES:T36 Agent:T29 Theme:T37
+E4	DECREASES:T41 Agent:T40 Theme:T43
+E5	INCREASES:T30 Agent:T29 Theme:T32
+E6	INCREASES:T30 Agent:T29 Theme:T33
+E7	DECREASES:T36 Agent:T29 Theme:T38
+E8	AFFECTS:T4 Agent:T11 Theme:T13
+A1	Factuality E8 Unknown

@@ -1,0 +1,73 @@
+T1	Methodology 2 47	randomized, phase 1, placebo-controlled trial
+T2	Nutrient 51 58	APG-157
+T3	Disease 62 73	oral cancer
+T4	Chemical 135 144	cytokines
+T5	DECREASES 114 124	inhibitory
+T6	Nutrient 198 206	curcumin
+T7	Disease 219 239	head and neck cancer
+T8	Nutrient 383 390	APG-157
+T9	HAS_COMPONENT 411 421	containing
+T10	Nutrient 431 442	polyphenols
+T11	Nutrient 454 462	curcumin
+T12	Methodology 638 706	double-blind, randomized, placebo-controlled, phase 1 clinical trial
+T13	Nutrient 726 733	APG-157
+T14	Population 740 755	normal subjects
+T15	Population 763 788	patients with oral cancer
+T16	Biospecimen 870 875	Blood
+T17	Biospecimen 880 886	saliva
+T18	Methodology 969 987	Electrocardiograms
+T19	Methodology 992 1003	blood tests
+T20	Nutrient 1062 1069	APG-157
+T21	Nutrient 1112 1120	curcumin
+T22	Chemical 1165 1170	IL-1β
+T23	Chemical 1172 1176	IL-6
+T24	Chemical 1182 1186	IL-8
+T25	Biospecimen 1209 1235	salivary supernatant fluid
+T26	Population 1239 1259	patients with cancer
+T27	DECREASES 1157 1164	reduced
+T28	DECREASES 1304 1313	reduction
+T29	Microorganism 1317 1330	Bacteroidetes
+T30	Population 1342 1357	cancer subjects
+T32	Methodology 1359 1411	RNA and immunofluorescence analyses of tumor tissues
+T33	Physiology 1504 1522	T-cell recruitment
+T34	POS_ASSOCIATED_WITH 1438 1483	increased expression of genes associated with
+T35	Nutrient 1615 1622	APG-157
+T36	Nutrient 1705 1713	Curcumin
+T37	Population 1900 1925	Subjects with oral cancer
+T38	Disease 1914 1925	oral cancer
+T39	Nutrient 1942 1949	APG-157
+T40	HAS_COMPONENT 1968 1978	containing
+T41	Nutrient 1988 1999	polyphenols
+T42	Nutrient 2011 2019	curcumin
+T43	Nutrient 2021 2029	Curcumin
+T44	Biospecimen 2047 2052	blood
+T45	Biospecimen 2060 2073	tumor tissues
+T46	Measurement 2075 2095	Inflammatory markers
+T47	Microorganism 2100 2111	Bacteroides
+T48	DECREASES 2137 2146	decreased
+T49	Biospecimen 2154 2160	saliva
+T50	Physiology 2166 2180	immune T cells
+T51	INCREASES 2186 2195	increased
+T52	Biospecimen 2203 2215	tumor tissue
+T53	Nutrient 2217 2224	APG-157
+T54	DECREASES 2243 2250	reduces
+T55	Physiology 2251 2263	inflammation
+T56	Physiology 2278 2285	T cells
+T57	AFFECTS 209 215	effect
+T58	Methodology 1261 1294	Salivary microbial flora analysis
+T59	DECREASES 1732 1740	suppress
+T60	Physiology 1741 1752	tumor cells
+E1	DECREASES:T5 Agent:T2 Theme:T4
+E2	HAS_COMPONENT:T9 Agent:T8 Theme:T11
+E3	DECREASES:T27 Agent:T20 Theme:T22
+E4	DECREASES:T27 Agent:T20 Theme:T23
+E5	DECREASES:T27 Agent:T20 Theme:T24
+E6	DECREASES:T28 Agent:T20 Theme:T29
+E7	POS_ASSOCIATED_WITH:T34 Agent:T20 Theme:T33
+E8	HAS_COMPONENT:T40 Agent:T39 Theme:T42
+E9	DECREASES:T48 Agent:T39 Theme:T47
+E10	DECREASES:T48 Agent:T39 Theme:T46
+E11	INCREASES:T51 Theme:T50 Agent:T39
+E12	DECREASES:T54 Agent:T53 Theme:T55
+E13	AFFECTS:T57 Theme:T7 Agent:T6
+E15	DECREASES:T59 Theme:T60 Agent:T36

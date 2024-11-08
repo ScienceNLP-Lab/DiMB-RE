@@ -1,0 +1,39 @@
+T1	Food 0 9	Raspberry
+T2	Physiology 50 75	immune-metabolic response
+T4	DietPattern 162 194	diets rich in phenolic compounds
+T5	Physiology 213 236	immune-metabolic health
+T6	IMPROVES 199 209	beneficial
+T7	Physiology 382 407	immune-metabolic response
+T8	Food 411 420	raspberry
+T10	Food 500 511	raspberries
+T15	Food 850 859	raspberry
+T16	DECREASES 887 895	decrease
+T17	Chemical 899 912	triglycerides
+T18	Chemical 914 925	cholesterol
+T19	Chemical 930 948	C-reactive protein
+T21	Chemical 1221 1229	cytokine
+T22	Physiology 1242 1262	leukocyte activation
+T23	Physiology 1267 1282	immune response
+T24	Measurement 1374 1398	plasma lipidomic profile
+T25	Chemical 1460 1473	triglycerides
+T26	DECREASES 1448 1456	decrease
+T27	Chemical 1493 1513	phosphatidylcholines
+T28	INCREASES 1481 1489	increase
+T29	Food 1524 1533	raspberry
+T30	Measurement 1585 1604	metagenomic profile
+T32	DiversityMetric 1671 1703	Firmicutes-to-Bacteroidota ratio
+T34	Food 1912 1921	raspberry
+T35	Physiology 2081 2104	immune-metabolic health
+T38	Nutrient 176 194	phenolic compounds
+E1	IMPROVES:T6 Theme:T5 Agent:T4
+E2	DECREASES:T16 Agent:T15 Theme:T17
+E3	DECREASES:T16 Agent:T15 Theme:T18
+E4	DECREASES:T16 Agent:T15 Theme:T19
+E5	DECREASES:T26 Agent:T29 Theme:T25
+E6	INCREASES:T28 Agent:T29 Theme:T27
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6

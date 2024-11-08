@@ -1,0 +1,162 @@
+T1	DietPattern 0 24	Low-Fat, High-Fiber Diet
+T2	DietPattern 423 426	SAD
+T3	Measurement 33 56	Markers of Inflammation
+T4	Measurement 33 43;61 70	Markers of Dysbiosis
+T5	IMPROVES 75 83	Improves
+T6	Measurement 84 99	Quality of Life
+T7	Population 103 135	Patients With Ulcerative Colitis
+T8	Disease 117 135	Ulcerative Colitis
+T9	DietPattern 159 172	high-fat diet
+T10	PREDISPOSES 182 215	associated with an increased risk
+T11	DECREASES 25 32	Reduces
+T12	Disease 219 237	ulcerative colitis
+T13	Disease 239 241	UC
+T14	Measurement 450 465	quality of life
+T15	DietPattern 272 296	low-fat, high-fiber diet
+T16	DietPattern 298 301	LFD
+T17	DietPattern 309 340	improved standard American diet
+T18	DietPattern 342 346	iSAD
+T19	HAS_COMPONENT 348 356	included
+T20	Food 378 384	fruits
+T21	Food 386 396	vegetables
+T22	Nutrient 402 407	fiber
+T23	Measurement 467 490	markers of inflammation
+T24	Measurement 496 533	fecal markers of intestinal dysbiosis
+T25	Population 537 553	patients with UC
+T26	Methodology 588 620	parallel-group, cross-over study
+T27	Population 627 677	patients with UC in remission or with mild disease
+T28	Disease 551 553	UC
+T29	Disease 641 643	UC
+T30	DietPattern 831 834	LFD
+T31	DietPattern 868 872	iSAD
+T32	Nutrient 857 860	fat
+T33	Biospecimen 1131 1136	Serum
+T34	Biospecimen 1141 1146	stool
+T35	Measurement 1223 1246	markers of inflammation
+T36	Methodology 1261 1289	16s ribosomal RNA sequencing
+T37	Disease 1458 1461	IBD
+T38	Methodology 1294 1338	untargeted and targeted metabolomic analyses
+T39	Biospecimen 1342 1347	stool
+T40	Measurement 1381 1396	quality of life
+T41	Methodology 1424 1476	short inflammatory bowel disease (IBD) questionnaire
+T42	Disease 1430 1456	inflammatory bowel disease
+T44	Methodology 1557 1604	Short-Form 36 health survey, partial Mayo score
+T45	Measurement 1606 1629	markers of inflammation
+T46	Methodology 1646 1665	metabolome analysis
+T47	DietPattern 1865 1869	iSAD
+T48	DietPattern 1874 1877	LFD
+T49	INCREASES 1883 1892	increased
+T50	Measurement 1893 1908	quality of life
+T51	Methodology 1923 1946	short IBD questionnaire
+T52	Methodology 1951 1985	Short-Form 36 health survey scores
+T53	Methodology 1996 2025	short IBD questionnaire score
+T54	DietPattern 2068 2072	iSAD
+T55	DietPattern 2095 2098	LFD
+T56	Chemical 2111 2126	Serum amyloid A
+T57	DECREASES 2127 2136	decreased
+T58	DietPattern 2197 2200	LFD
+T59	DietPattern 2261 2265	iSAD
+T60	DECREASES 2224 2232	decrease
+T61	Chemical 2320 2338	C-reactive protein
+T62	DECREASES 2339 2348	decreased
+T63	DietPattern 2407 2410	LFD
+T64	Microorganism 2448 2462	Actinobacteria
+T65	Biospecimen 2466 2471	fecal
+T66	DECREASES 2480 2489	decreased
+T67	DietPattern 2529 2532	LFD
+T68	Microorganism 2579 2592	Bacteroidetes
+T69	INCREASES 2593 2602	increased
+T70	DietPattern 2639 2642	LFD
+T71	Microorganism 2681 2709	Faecalibacterium prausnitzii
+T72	INCREASES 2714 2720	higher
+T73	DietPattern 2742 2745	LFD
+T74	DietPattern 2768 2772	iSAD
+T75	Metabolite 2807 2814	acetate
+T76	Biospecimen 2791 2796	Fecal
+T77	INCREASES 2849 2858	increased
+T78	DietPattern 2922 2926	iSAD
+T79	DietPattern 2944 2947	LFD
+T80	DietPattern 3168 3171	LFD
+T81	DietPattern 3185 3188	LFD
+T82	DietPattern 2961 2964	LFD
+T83	DietPattern 2975 2979	iSAD
+T84	DietPattern 2983 2986	LFD
+T85	DietPattern 3199 3203	iSAD
+T86	DietPattern 3207 3210	LFD
+T87	Biospecimen 3222 3227	fecal
+T88	Biospecimen 3002 3007	fecal
+T89	Metabolite 3017 3027	tryptophan
+T90	DECREASES 3028 3037	decreased
+T91	DietPattern 3099 3103	iSAD
+T92	INCREASES 3119 3128	increased
+T93	Metabolite 3238 3249	lauric acid
+T94	DECREASES 3250 3259	decreased
+T95	DietPattern 3266 3269	LFD
+T96	DietPattern 3288 3292	iSAD
+T97	DietPattern 3301 3304	LFD
+T98	DietPattern 3325 3328	LFD
+T99	DietPattern 3339 3343	iSAD
+T100	DietPattern 3347 3350	LFD
+T101	Methodology 3380 3396	cross-over study
+T102	Population 3400 3429	patients with UC in remission
+T103	Disease 3414 3416	UC
+T104	DietPattern 3455 3458	LFD
+T105	DietPattern 3462 3466	iSAD
+T106	INCREASES 3496 3505	increased
+T107	Measurement 3506 3521	quality of life
+T108	DietPattern 3536 3539	LFD
+T109	DECREASES 3540 3549	decreased
+T110	Measurement 3550 3573	markers of inflammation
+T111	IMPROVES 3578 3585	reduced
+T112	Disease 3597 3606	dysbiosis
+T113	Biospecimen 3610 3623	fecal samples
+T114	Population 3671 3700	patients with UC in remission
+T115	Disease 3685 3687	UC
+E1	DECREASES:T11 Agent:T1 Theme:T3
+E2	IMPROVES:T5 Agent:T1 Theme:T6
+E3	DECREASES:T11 Agent:T1 Theme:T4
+E4	PREDISPOSES:T10 Agent:T9 Theme:T12
+E5	INCREASES:T49 Agent:T48 Theme:T50
+E6	HAS_COMPONENT:T19 Agent:T17 Theme:T20
+E7	HAS_COMPONENT:T19 Agent:T17 Theme:T21
+E8	HAS_COMPONENT:T19 Agent:T17 Theme:T22
+E9	DECREASES:T57 Theme:T56 Agent:T58
+E10	DECREASES:T60 Agent:T59 Theme:T56
+E11	DECREASES:T62 Theme:T61 Agent:T63
+E12	DECREASES:T66 Theme:T64 Agent:T67
+E13	INCREASES:T69 Theme:T68 Agent:T70
+E14	INCREASES:T72 Agent:T73 Theme:T71
+E15	INCREASES:T77 Theme:T75 Agent:T78
+E16	DECREASES:T90 Agent:T91 Theme:T89
+E17	INCREASES:T92 Agent:T80 Theme:T89
+E18	DECREASES:T94 Theme:T93 Agent:T95
+E19	INCREASES:T106 Theme:T107 Agent:T105
+E20	INCREASES:T106 Theme:T107 Agent:T104
+E21	DECREASES:T109 Agent:T108 Theme:T110
+E22	IMPROVES:T111 Agent:T108 Theme:T112
+E23	INCREASES:T49 Theme:T50 Agent:T47
+E24	INCREASES:T77 Agent:T79 Theme:T75
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11
+A12	Factual E12
+A13	Factual E13
+A14	Factual E14
+A15	Factual E15
+A16	Factual E16
+A17	Factual E17
+A18	Factual E18
+A19	Factual E19
+A20	Factual E20
+A21	Factual E21
+A22	Factual E22
+A23	Factual E23
+A24	Factual E24

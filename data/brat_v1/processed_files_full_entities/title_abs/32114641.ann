@@ -1,0 +1,87 @@
+T1	Nutrient 24 35	polyphenols
+T2	Nutrient 43 85	long-chain n-3 polyunsaturated fatty acids
+T3	Population 131 168	high-cardiometabolic-risk individuals
+T4	Nutrient 317 328	polyphenols
+T5	Nutrient 330 332	PP
+T6	Nutrient 341 383	long-chain n-3 polyunsaturated fatty acids
+T7	Nutrient 385 389	LCn3
+T8	Methodology 423 441	ancillary analysis
+T9	Methodology 447 474	randomized controlled trial
+T10	Population 478 518	individuals at high cardiometabolic risk
+T11	Measurement 560 584	high waist circumference
+T12	Disease 630 648	metabolic syndrome
+T13	DietPattern 701 716	low LCn3 and PP
+T14	DietPattern 722 731	high LCn3
+T15	DietPattern 737 744	high PP
+T16	DietPattern 753 769	high LCn3 and PP
+T17	Biospecimen 808 813	feces
+T18	Methodology 859 872	DGGE analysis
+T19	Microorganism 902 921	Eubacterium rectale
+T20	Microorganism 926 943	Blautia coccoides
+T21	Microorganism 951 966	Lachnospiraceae
+T22	Microorganism 968 972	EREC
+T23	Microorganism 975 993	Clostridium leptum
+T24	Microorganism 995 1010	Ruminococcaceae
+T25	Microorganism 1012 1017	CLEPT
+T26	Microorganism 1020 1035	Bacteroides spp
+T27	Microorganism 1038 1052	Bifidobacteria
+T28	Microorganism 1058 1071	Lactobacillus
+T29	Methodology 1095 1121	quantitative real-time PCR
+T30	Microorganism 1179 1188	Atopobium
+T31	Microorganism 1198 1215	Coriobatteriaceae
+T32	Methodology 1283 1287	OGTT
+T33	Methodology 1294 1312	high-fat test meal
+T34	Physiology 1325 1332;1343 1351	glucose response
+T35	Physiology 1337 1351	lipid response
+T36	Nutrient 1403 1405	PP
+T37	INCREASES 1420 1429	increased
+T38	Microorganism 1466 1471	CLEPT
+T39	DECREASES 1494 1501	reduced
+T40	Microorganism 1502 1506	EREC
+T41	Nutrient 1520 1524	LCn3
+T42	INCREASES 1539 1548	increased
+T43	Microorganism 1564 1578	Bifidobacteria
+T44	Microorganism 1603 1608	CLEPT
+T45	ASSOCIATED_WITH 1617 1627	correlated
+T46	Physiology 1644 1667	early insulin secretion
+T47	Microorganism 1703 1712	Atopobium
+T48	ASSOCIATED_WITH 1721 1731	correlated
+T49	Chemical 1737 1763	postprandial triglycerides
+T50	Chemical 1807 1811	VLDL
+T51	Chemical 1840 1865	cholesterol in large VLDL
+T52	Nutrient 1927 1929	PP
+T53	Nutrient 1933 1937	LCn3
+T54	Measurement 1999 2019	cardiometabolic risk
+T55	ASSOCIATED_WITH 2046 2056	associated
+T56	Physiology 2081 2097	lipid metabolism
+T57	Nutrient 714 716	PP
+T58	Nutrient 742 744	PP
+T59	Nutrient 767 769	PP
+T60	Nutrient 705 709	LCn3
+T61	Nutrient 727 731	LCn3
+T62	Nutrient 758 762	LCn3
+T63	Measurement 136 156	cardiometabolic-risk
+T64	Measurement 498 518	cardiometabolic risk
+T65	Physiology 2073 2080;2087 2097	glucose metabolism
+E1	INCREASES:T37 Agent:T36 Theme:T38
+E2	DECREASES:T39 Agent:T36 Theme:T40
+E3	INCREASES:T42 Agent:T41 Theme:T43
+E4	ASSOCIATED_WITH:T45 Theme:T44 Theme2:T46
+E5	ASSOCIATED_WITH:T48 Theme:T47 Theme2:T49
+E6	ASSOCIATED_WITH:T48 Theme:T47 Theme2:T51
+E7	ASSOCIATED_WITH:T48 Theme:T47 Theme2:T50
+E8	ASSOCIATED_WITH:T55 Theme:T56 Theme2:T53
+E9	ASSOCIATED_WITH:T55 Theme:T56 Theme2:T52
+E10	ASSOCIATED_WITH:T55 Theme:T65 Theme2:T52
+E11	ASSOCIATED_WITH:T55 Theme:T65 Theme2:T53
+A1	Factual E1
+A2	Factual E2
+A3	Factual E3
+A4	Factual E4
+A5	Factual E5
+A6	Factual E6
+A7	Factual E7
+A8	Factual E8
+A9	Factual E9
+A10	Factual E10
+A11	Factual E11

@@ -1,0 +1,81 @@
+T107	AFFECTS 0 6	Effect
+T108	Nutrient 10 41	vitamin E with therapeutic iron
+T109	Physiology 61 75	iron repletion
+T110	Population 98 138	U.S. iron deficient infants and toddlers
+T111	Methodology 142 166	randomized control trial
+T112	CAUSES 1788 1804	without inducing
+T113	Physiology 200 212	inflammation
+T114	CAUSES 192 199	induces
+T115	Nutrient 179 191	Iron therapy
+T116	DECREASES 219 233	could decrease
+T117	Physiology 234 249	iron absorption
+T118	Nutrient 234 238	iron
+T119	Nutrient 273 277	iron
+T120	Nutrient 354 381	vitamin E with iron therapy
+T121	Nutrient 333 345	antioxidants
+T122	DECREASES 391 414	associated with reduced
+T123	Physiology 415 434	oxidative potential
+T124	AFFECTS 455 463	efficacy
+T125	Nutrient 467 511	adding vitamin E to therapeutic iron therapy
+T126	Physiology 515 529	iron repletion
+T127	Physiology 1805 1837	persistent inflammatory response
+T128	Measurement 531 551	inflammation markers
+T129	Population 574 609	iron deficient infants and toddlers
+T130	Methodology 629 668	randomized, double-blind, control trial
+T131	Population 678 758	infants and toddlers (Denver, CO metro area) who were at risk of iron deficiency
+T132	Nutrient 823 835	iron therapy
+T133	Nutrient 873 877;890 904	iron plus vitamin E
+T134	Nutrient 935 939	Iron
+T135	Measurement 944 963	inflammation status
+T136	Methodology 985 999	16S sequencing
+T137	Nutrient 1260 1269	vitamin E
+T138	INCREASES 1284 1293	increased
+T140	Nutrient 1297 1313	iron + vitamin E
+T141	Chemical 1370 1374	IL-4
+T142	Chemical 1376 1381	TNF-α
+T143	Chemical 1385 1403	fecal calprotectin
+T144	AFFECTS 1321 1330	No change
+T145	Microorganism 1441 1450	Roseburia
+T146	Microorganism 1459 1469	Firmicutes
+T147	INCREASES 1483 1491	producer
+T148	Metabolite 1474 1482	butyrate
+T149	INCREASES 1493 1502	increased
+T150	Population 1510 1522	Fe + E group
+T151	Nutrient 1510 1516	Fe + E
+T152	Microorganism 1578 1589	Escherichia
+T153	DECREASES 1590 1599	decreased
+T154	Nutrient 1688 1704	therapeutic iron
+T155	IMPROVES 1738 1746	treating
+T156	Disease 1747 1762	iron deficiency
+T157	Nutrient 1937 1953	therapeutic iron
+T158	Nutrient 1897 1908	antioxidant
+E20	AFFECTS:T107 Agent:T108 Theme:T109
+E21	CAUSES:T114 Theme:T113 Agent:T115
+E22	DECREASES:T116 Agent:T113 Theme:T117
+E23	DECREASES:T122 Agent:T121 Theme:T123
+E24	AFFECTS:T124 Agent:T125 Theme:T126
+E25	AFFECTS:T124 Agent:T125 Theme:T128
+E26	INCREASES:T138 Agent:T140 Theme:T137
+E27	AFFECTS:T144 Agent:T140 Theme:T141
+E28	AFFECTS:T144 Agent:T140 Theme:T142
+E29	AFFECTS:T144 Agent:T140 Theme:T143
+E30	INCREASES:T147 Agent:T145 Theme:T148
+E31	INCREASES:T149 Theme:T145 Agent:T151
+E32	DECREASES:T153 Theme:T152 Agent:T151
+E33	IMPROVES:T155 Agent:T154 Theme:T156
+E34	CAUSES:T112 Agent:T154 Theme:T127
+A6	Unknown E22
+A7	Unknown E24
+A8	Unknown E20
+A9	Unknown E25
+A10	Negated E27
+A11	Negated E28
+A12	Negated E29
+A13	Negated E34
+A30	Factual E21
+A31	Factual E23
+A32	Factual E26
+A33	Factual E30
+A34	Factual E31
+A35	Factual E32
+A36	Factual E33

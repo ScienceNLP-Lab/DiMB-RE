@@ -1,0 +1,52 @@
+T1	Methodology 2 52	double-blind, placebo-controlled, cross-over study
+T2	Population 169 182	healthy human
+T3	Nutrient 234 241	inulins
+T4	Food 149 164	Cynara scolymus
+T5	Microorganism 316 330	bifidobacteria
+T6	Microorganism 335 347	lactobacilli
+T7	Food 553 568	Cynara scolymus
+T8	Nutrient 492 514	very-long-chain inulin
+T9	Nutrient 516 520	VLCI
+T10	Food 536 551	globe artichoke
+T11	Nutrient 620 632	maltodextrin
+T12	Methodology 651 681	double-blind, cross-over study
+T13	Population 712 726	healthy adults
+T14	Nutrient 793 797	VLCI
+T15	Nutrient 801 813	maltodextrin
+T16	Microorganism 901 915	bifidobacteria
+T17	Microorganism 920 932	lactobacilli
+T18	INCREASES 952 958	higher
+T19	Nutrient 964 968	VLCI
+T20	Microorganism 1030 1039	Atopobium
+T21	INCREASES 1060 1069	increased
+T22	Microorganism 1077 1088	Bacteroides
+T23	DECREASES 1127 1134	reduced
+T24	Metabolite 1169 1173	SCFA
+T25	CAUSES 1277 1285	increase
+T26	Nutrient 1321 1325	VLCI
+T27	Methodology 1380 1402	n vitro gas production
+T28	Nutrient 1453 1457	VLCI
+T29	Food 1473 1488	globe artichoke
+T30	Food 132 147	globe artichoke
+T31	Nutrient 94 116	very-long-chain inulin
+T32	Physiology 1307 1315	bloating
+T33	HAS_COMPONENT 523 530	derived
+T34	AFFECTS 1136 1158	No significant changes
+T35	Microorganism 1089 1099	Prevotella
+T36	Physiology 70 88	bifidogenic effect
+T37	HAS_COMPONENT 127 131	from
+T38	POS_ASSOCIATED_WITH 264 280	selective growth
+T39	HAS_COMPONENT 1458 1467	extracted
+E1	INCREASES:T18 Theme:T16 Agent:T19
+E2	INCREASES:T21 Theme:T20 Agent:T19
+E3	DECREASES:T23 Theme:T22 Agent:T19
+E4	CAUSES:T25 Agent:T26 Theme:T32
+E5	INCREASES:T18 Theme:T17 Agent:T19
+E6	AFFECTS:T34 Theme:T24 Agent:T19
+E7	HAS_COMPONENT:T37 Theme:T31 Agent:T30
+E8	POS_ASSOCIATED_WITH:T38 Agent:T3 Theme:T5
+E9	POS_ASSOCIATED_WITH:T38 Agent:T3 Theme:T6
+E10	HAS_COMPONENT:T33 Agent:T10 Theme:T8
+E11	HAS_COMPONENT:T39 Theme:T28 Agent:T29
+E12	DECREASES:T23 Theme:T35 Agent:T19
+A1	Factuality E6 Negated

@@ -1,0 +1,57 @@
+T1	Nutrient 4 13	prebiotic
+T2	ASSOCIATED_WITH 799 809	associated
+T3	Nutrient 25 43	omega-3 fatty acid
+T4	Methodology 72 101	randomised intervention trial
+T5	Nutrient 104 114	Prebiotics
+T6	Nutrient 191 210	Omega-3 fatty acids
+T7	Nutrient 488 495	omega-3
+T8	Nutrient 543 549	inulin
+T9	Nutrient 551 557	Inulin
+T10	INCREASES 592 601	increases
+T11	Microorganism 605 620	Bifidobacterium
+T12	Microorganism 625 640	Lachnospiraceae
+T13	Nutrient 655 662	omega-3
+T14	INCREASES 703 712	increases
+T15	Microorganism 716 731	Coprococcus spp
+T16	Microorganism 737 752	Bacteroides spp
+T17	DECREASES 770 779	decreases
+T18	Disease 787 798	fatty-liver
+T19	Microorganism 810 825	Collinsella spp
+T20	Nutrient 874 880	inulin
+T21	INCREASES 927 936	increases
+T22	Metabolite 940 948	butyrate
+T23	Metabolite 950 962	iso-valerate
+T24	Metabolite 968 980	iso-butyrate
+T25	Nutrient 993 1000	omega-3
+T26	INCREASES 1041 1050	increases
+T27	Metabolite 1054 1066	iso-butyrate
+T28	Metabolite 1071 1082	isovalerate
+T29	Metabolite 1130 1138	butyrate
+T30	Microorganism 1151 1162	Coprococcus
+T31	INCREASES 1188 1197	increased
+T32	Nutrient 1224 1231	omega-3
+T33	POS_ASSOCIATED_WITH 1249 1270	positively associated
+T34	Metabolite 1276 1292	iso-butyric acid
+T35	NEG_ASSOCIATED_WITH 1339 1360	negatively associated
+T36	Chemical 1405 1409	VLDL
+T37	Chemical 1452 1459	VLDL-TG
+T38	Chemical 1366 1396	triglyceride-rich lipoproteins
+T39	Nutrient 1539 1546	omega-3
+T40	Nutrient 1735 1744	prebiotic
+T41	INCREASES 1117 1126	increases
+E1	ASSOCIATED_WITH:T2 Theme:T19 Theme2:T18
+E2	INCREASES:T10 Agent:T9 Theme:T11
+E3	INCREASES:T10 Agent:T9 Theme:T12
+E4	INCREASES:T14 Agent:T13 Theme:T15
+E5	DECREASES:T17 Theme:T19 Agent:T13
+E6	INCREASES:T14 Agent:T13 Theme:T16
+E7	INCREASES:T21 Agent:T20 Theme:T22
+E8	INCREASES:T26 Agent:T25 Theme:T27
+E9	INCREASES:T21 Agent:T20 Theme:T23
+E10	INCREASES:T21 Agent:T20 Theme:T24
+E11	INCREASES:T26 Agent:T25 Theme:T28
+E12	INCREASES:T31 Theme:T30 Agent:T32
+E13	POS_ASSOCIATED_WITH:T33 Agent:T30 Theme:T34
+E15	NEG_ASSOCIATED_WITH:T35 Agent:T37 Theme:T30
+E16	NEG_ASSOCIATED_WITH:T35 Agent:T36 Theme:T30
+E17	INCREASES:T41 Theme:T29 Agent:T25

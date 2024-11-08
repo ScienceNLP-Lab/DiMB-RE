@@ -1,0 +1,92 @@
+T1	Nutrient 0 20	Inulin-type fructans
+T2	AFFECTS 21 29	modulate
+T3	Microorganism 41 64	Bifidobacterium species
+T4	DECREASES 81 89	decrease
+T5	Metabolite 96 119	short-chain fatty acids
+T6	Population 123 134	obese women
+T7	Disease 123 128	obese
+T8	Nutrient 156 176	Inulin-type fructans
+T9	Nutrient 178 181	ITF
+T10	Metabolite 324 347	short chain fatty acids
+T11	Metabolite 349 353	SCFA
+T12	Population 372 383	obese women
+T13	Disease 372 377	obese
+T14	Nutrient 397 400	ITF
+T15	ASSOCIATED_WITH 416 428	associations
+T16	Microorganism 437 460	Bifidobacterium species
+T17	Metabolite 462 466	SCFA
+T18	Measurement 476 508	biological markers of metabolism
+T19	Methodology 546 606	randomized, double blind, parallel, placebo-controlled trial
+T20	Population 616 627	obese women
+T21	Disease 616 621	obese
+T22	Nutrient 686 689	ITF
+T23	Nutrient 702 714	maltodextrin
+T24	Microorganism 783 802	Bifidobacterium spp
+T25	Methodology 830 838	PCR-DGGE
+T26	Methodology 843 848	q-PCR
+T27	Methodology 883 901	gas chromatography
+T28	Metabolite 854 858	SCFA
+T29	Biospecimen 821 826	feces
+T30	Nutrient 1466 1475	prebiotic
+T31	Methodology 903 932	Spearman correlation analysis
+T32	Microorganism 1010 1032	Bifidobacterium longum
+T33	Microorganism 1034 1067	Bifidobacterium pseudocatenulatum
+T34	Microorganism 1072 1100	Bifidobacterium adolescentis
+T35	INCREASES 1106 1129	significantly increased
+T36	Microorganism 1203 1212	B. longum
+T37	NEG_ASSOCIATED_WITH 1213 1234	negatively correlated
+T38	Chemical 1271 1280	endotoxin
+T39	Chemical 1266 1269	LPS
+T40	Metabolite 1299 1303	SCFA
+T41	Metabolite 1305 1312	acetate
+T42	Metabolite 1317 1327	propionate
+T43	POS_ASSOCIATED_WITH 1334 1355	positively correlated
+T44	Measurement 1361 1364	BMI
+T45	Chemical 1366 1385	fasting insulinemia
+T46	Measurement 1390 1418	homeostasis model assessment
+T47	Measurement 1420 1424	HOMA
+T48	DECREASES 1443 1462	significantly lower
+T49	Nutrient 1539 1542	ITF
+T50	AFFECTS 1567 1576	modulates
+T51	Microorganism 1577 1596	Bifidobacterium spp
+T52	DECREASES 1602 1611	decreases
+T53	Metabolite 1618 1622	SCFA
+T54	Population 1640 1651	obese women
+T55	Disease 1640 1645	obese
+T56	Nutrient 1653 1656	ITF
+T57	IMPROVES 1657 1669	could lessen
+T58	Physiology 1670 1692	metabolic risk factors
+T59	ASSOCIATED_WITH 1693 1703	associated
+T60	Metabolite 1722 1726	SCFA
+T61	Disease 1744 1749	obese
+T62	Biospecimen 90 95	fecal
+T63	Nutrient 1165 1174	prebiotic
+T64	Nutrient 183 193	prebiotics
+T65	Biospecimen 318 323	fecal
+T66	Chemical 1246 1264	lipopolysaccharide
+E1	AFFECTS:T2 Agent:T1 Theme:T3
+E2	DECREASES:T4 Agent:T1 Theme:T5
+E3	ASSOCIATED_WITH:T15 Theme2:T16 Theme:T18
+E4	ASSOCIATED_WITH:T15 Theme:T17 Theme2:T16
+E5	ASSOCIATED_WITH:T15 Theme2:T18 Theme:T17
+E6	INCREASES:T35 Agent:T22 Theme:T34
+E7	NEG_ASSOCIATED_WITH:T37 Theme:T36 Agent:T38
+E8	INCREASES:T35 Agent:T22 Theme:T33
+E9	INCREASES:T35 Agent:T22 Theme:T32
+E10	POS_ASSOCIATED_WITH:T43 Agent:T44 Theme:T40
+E11	DECREASES:T48 Theme:T44 Agent:T22
+E12	AFFECTS:T50 Theme:T51 Agent:T49
+E13	DECREASES:T52 Theme:T53 Agent:T49
+E14	IMPROVES:T57 Agent:T56 Theme:T58
+E15	ASSOCIATED_WITH:T59 Agent:T58 Theme:T60
+E16	POS_ASSOCIATED_WITH:T43 Agent:T44 Theme:T41
+E17	POS_ASSOCIATED_WITH:T43 Agent:T44 Theme:T42
+E18	POS_ASSOCIATED_WITH:T43 Agent:T45 Theme:T40
+E19	POS_ASSOCIATED_WITH:T43 Agent:T45 Theme:T41
+E20	POS_ASSOCIATED_WITH:T43 Agent:T45 Theme:T42
+E21	POS_ASSOCIATED_WITH:T43 Agent:T46 Theme:T40
+E23	POS_ASSOCIATED_WITH:T43 Theme:T41 Agent:T46
+E24	POS_ASSOCIATED_WITH:T43 Theme:T42 Agent:T46
+E25	DECREASES:T48 Theme:T45 Agent:T22
+E26	DECREASES:T48 Theme:T46 Agent:T22
+A1	Factuality E14 Possible

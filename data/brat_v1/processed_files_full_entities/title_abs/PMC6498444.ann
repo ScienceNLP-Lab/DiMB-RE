@@ -1,0 +1,10 @@
+T1	Disease 112 130	metabolic diseases
+T2	Disease 229 246	metabolic disease
+T3	Biospecimen 353 358	stool
+T4	Methodology 360 375	dietary recalls
+T5	Population 406 465;477 516	Hmong and Karen individuals living in Thailand and the U.S. first- and second-generation immigrants
+T8	Population 524 541	Karen individuals
+T10	Methodology 646 693	16S and deep shotgun metagenomic DNA sequencing
+T11	Disease 998 1005	obesity
+T12	Methodology 381 396	anthropometrics
+T15	Population 599 638	U.S.-born European American individuals
